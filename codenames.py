@@ -3,19 +3,15 @@ import itertools
 import operator
 import pprint
 import random
-import statistics
 import sys
 
 import numpy as np
 from annoy import AnnoyIndex
 from nltk.corpus import wordnet as wn
 
-# import process_hsm
-# import knn
 from tqdm import tqdm
 
 sys.path.insert(0, "../")
-from multisense import utils
 
 
 class Game(object):
@@ -39,27 +35,25 @@ class Game(object):
 
         self.emb_size = emb_size
 
-        ### HSM ###
-        # self.word_senses_map = process_hsm.load_hsm_senses('../data/vocab.mat', '../data/wordreps.mat')
-        # self.embeddings, self.hsm_idx_to_word, self.word_to_indices = process_hsm.map_to_array(self.word_senses_map)
-
-        ### glove ###
-        # glove_idx_to_word is a map of the index on the annoy graph to the word (added to the graph in the same order that they are taken from the pretrained txt files
-        # self.embeddings, self.glove_idx_to_word = utils.get_glove_emb_from_txt(data_path = 'data/glove.6B.50d.txt', emb_size=self.emb_size)
-
+        # pre-process
         # data from: https://github.com/uhh-lt/path2vec#pre-trained-models-and-datasets
         # self.get_path2vec_emb_from_txt(data_path='data/jcn-semcor_embeddings.vec')
         self.lemma_nns = self.get_wordnet_nns()
-        # self.graph = self.build_graph(emb_type=emb_type, embeddings=self.embeddings, num_trees = 100, metric = 'angular')
-        # self.graph.save('glove.ann')
-
-        # self.graph = AnnoyIndex(self.emb_size)
-        # self.graph.load('../window5_lneighbor5e-2.ann')
-        # print("Built Annoy Graph")
 
         self._build_game()
 
-        # self.vocab_map, self.inv_map = knn.build_id2word(vocab_map_fn='../vocab_dict.txt')
+# GAME SET-UP
+
+    def _build_game(self, red=None, blue=None):
+        self._generate_board(red, blue)
+        # for now randomly generate knn
+        words = self.blue_words.union(self.red_words)
+        # print(words)
+        for word in words:
+            # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
+            # self.weighted_nn[word] = self.get_fake_knn(word)
+            # self.weighted_nn[word] = self.get_path2vec_knn(word)
+            self.weighted_nn[word] = self.get_wordnet_knn(word)
 
     def add_lemmas(self, d, ss, hyper, n):
         for lemma_name in ss.lemma_names():
@@ -69,6 +63,33 @@ class Game(object):
                 if neighbor not in d[lemma_name]:
                     d[lemma_name][neighbor] = float("inf")
                 d[lemma_name][neighbor] = min(d[lemma_name][neighbor], n)
+
+    def get_wordnet_nns(self):
+        d_lemmas = {}
+        for ss in tqdm(wn.all_synsets(pos="n")):
+            self.add_lemmas(d_lemmas, ss, ss, 0)
+            # get the transitive closure of all hypernyms of a synset
+            for i, hyper in enumerate(ss.closure(lambda s: s.hypernyms())):
+                self.add_lemmas(d_lemmas, ss, hyper, i + 1)
+
+            # also write transitive closure for all instances of a synset
+            for instance in ss.instance_hyponyms():
+                for i, hyper in enumerate(
+                    instance.closure(lambda s: s.instance_hypernyms())
+                ):
+                    self.add_lemmas(d_lemmas, instance, hyper, i + 1)
+                    for j, h in enumerate(hyper.closure(lambda s: s.hypernyms())):
+                        self.add_lemmas(d_lemmas, instance, h, i + 1 + j + 1)
+        return d_lemmas
+
+    def get_wordnet_knn(self, word):
+        if word not in self.lemma_nns:
+            return {}
+        return {
+            k.name(): 1.0 / (v + 1)
+            for k, v in self.lemma_nns[word].items()
+            if k.name() != word
+        }
 
     def get_path2vec_emb_from_txt(self, data_path):
         # map lemmas to synsets
@@ -101,46 +122,6 @@ class Game(object):
         self.graph = tree
         self.synset_to_idx = synset_to_idx
         self.idx_to_synset = idx_to_synset
-
-    def _build_game(self, red=None, blue=None):
-        self._generate_board(red, blue)
-        # for now randomly generate knn
-        words = self.blue_words.union(self.red_words)
-        # print(words)
-        for word in words:
-            # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
-            # self.weighted_nn[word] = self.get_fake_knn(word)
-            # self.weighted_nn[word] = self.get_hsm_knn(word)
-            # self.weighted_nn[word] = self.get_path2vec_knn(word)
-            self.weighted_nn[word] = self.get_wordnet_knn(word)
-            # self.weighted_nn[word] = self.get_glove_knn(word)
-
-    def get_wordnet_nns(self):
-        d_lemmas = {}
-        for ss in tqdm(wn.all_synsets(pos="n")):
-            self.add_lemmas(d_lemmas, ss, ss, 0)
-            # get the transitive closure of all hypernyms of a synset
-            for i, hyper in enumerate(ss.closure(lambda s: s.hypernyms())):
-                self.add_lemmas(d_lemmas, ss, hyper, i + 1)
-
-            # also write transitive closure for all instances of a synset
-            for instance in ss.instance_hyponyms():
-                for i, hyper in enumerate(
-                    instance.closure(lambda s: s.instance_hypernyms())
-                ):
-                    self.add_lemmas(d_lemmas, instance, hyper, i + 1)
-                    for j, h in enumerate(hyper.closure(lambda s: s.hypernyms())):
-                        self.add_lemmas(d_lemmas, instance, h, i + 1 + j + 1)
-        return d_lemmas
-
-    def get_wordnet_knn(self, word):
-        if word not in self.lemma_nns:
-            return {}
-        return {
-            k.name(): 1.0 / (v + 1)
-            for k, v in self.lemma_nns[word].items()
-            if k.name() != word
-        }
 
     def get_path2vec_knn(self, word, nums_nns=250):
         if word not in self.lemma_synsets:
@@ -298,6 +279,7 @@ if __name__ == "__main__":
         # ["gas", "circle", "king", "unicorn", "cliff"],
         # ["lemon", "death", "conductor", "litter", "car"],
     ]
+
     for i, (red, blue) in enumerate(zip(red_words, blue_words)):
 
         game._build_game(red, blue)
@@ -319,4 +301,3 @@ if __name__ == "__main__":
             game.choose_words(2, clue, game.blue_words.union(game.red_words)),
         )
 
-    # print(game.get_hsm_knn('star', 10))
