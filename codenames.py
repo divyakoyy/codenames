@@ -69,10 +69,12 @@ class Game(object):
         for ss in tqdm(wn.all_synsets(pos="n")):
             self.add_lemmas(d_lemmas, ss, ss, 0)
             # get the transitive closure of all hypernyms of a synset
+            # hypernyms = categories of
             for i, hyper in enumerate(ss.closure(lambda s: s.hypernyms())):
                 self.add_lemmas(d_lemmas, ss, hyper, i + 1)
 
             # also write transitive closure for all instances of a synset
+            # hyponyms = types of
             for instance in ss.instance_hyponyms():
                 for i, hyper in enumerate(
                     instance.closure(lambda s: s.instance_hypernyms())
