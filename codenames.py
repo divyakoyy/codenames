@@ -126,7 +126,7 @@ class Game(object):
             self.weighted_nn[word] = self.get_wikidata_knn(word)
 
     def get_wikidata_graph(self):
-        file_dir = "/Users/annaysun/Downloads/"
+        file_dir = "data/"
         source_id_names_file = file_dir + "daiquery-2020-02-25T23_38_13-08_00.tsv"
         target_id_names_file = file_dir + "daiquery-2020-02-25T23_54_03-08_00.tsv"
         edges_file = file_dir + "daiquery-2020-02-25T23_04_31-08_00.csv"
