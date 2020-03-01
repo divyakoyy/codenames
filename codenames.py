@@ -3,16 +3,20 @@ import itertools
 import operator
 import pprint
 import random
+import re
 import statistics
 import sys
 
 import numpy as np
 from annoy import AnnoyIndex
+import networkx as nx
+from networkx.exception import NodeNotFound
 from nltk.corpus import wordnet as wn
 
 # import process_hsm
 # import knn
 from tqdm import tqdm
+
 
 sys.path.insert(0, "../")
 from multisense import utils
@@ -20,7 +24,8 @@ from multisense import utils
 
 class Game(object):
     def __init__(
-        self, ann_graph_path=None, num_emb_batches=22, emb_type="custom", emb_size=200
+        self, ann_graph_path=None, num_emb_batches=22, emb_type="custom", emb_size=200,
+        verbose=False
     ):
         """
         Variables:
@@ -38,6 +43,7 @@ class Game(object):
         self.num_emb_batches = num_emb_batches
 
         self.emb_size = emb_size
+        self.verbose = verbose
 
         ### HSM ###
         # self.word_senses_map = process_hsm.load_hsm_senses('../data/vocab.mat', '../data/wordreps.mat')
@@ -49,7 +55,8 @@ class Game(object):
 
         # data from: https://github.com/uhh-lt/path2vec#pre-trained-models-and-datasets
         # self.get_path2vec_emb_from_txt(data_path='data/jcn-semcor_embeddings.vec')
-        self.lemma_nns = self.get_wordnet_nns()
+        # self.lemma_nns = self.get_wordnet_nns()
+        self.graph = self.get_wikidata_graph()
         # self.graph = self.build_graph(emb_type=emb_type, embeddings=self.embeddings, num_trees = 100, metric = 'angular')
         # self.graph.save('glove.ann')
 
@@ -92,7 +99,8 @@ class Game(object):
                 synset_str = parts[0]
                 emb_vector = np.array(parts[1:], dtype=float)
                 if len(emb_vector) != emb_size:
-                    print("unexpected emb vector size:", len(emb_vector))
+                    if self.verbose:
+                        print("unexpected emb vector size:", len(emb_vector))
                     continue
                 synset_to_idx[synset_str] = i
                 idx_to_synset[i] = synset_str
@@ -106,14 +114,73 @@ class Game(object):
         self._generate_board(red, blue)
         # for now randomly generate knn
         words = self.blue_words.union(self.red_words)
-        # print(words)
+        if self.verbose:
+            print("blue and red words:", words)
         for word in words:
             # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
             # self.weighted_nn[word] = self.get_fake_knn(word)
             # self.weighted_nn[word] = self.get_hsm_knn(word)
             # self.weighted_nn[word] = self.get_path2vec_knn(word)
-            self.weighted_nn[word] = self.get_wordnet_knn(word)
+            # self.weighted_nn[word] = self.get_wordnet_knn(word)
             # self.weighted_nn[word] = self.get_glove_knn(word)
+            self.weighted_nn[word] = self.get_wikidata_knn(word)
+
+    def get_wikidata_graph(self):
+        file_dir = "/Users/annaysun/Downloads/"
+        source_id_names_file = file_dir + "daiquery-2020-02-25T23_38_13-08_00.tsv"
+        target_id_names_file = file_dir + "daiquery-2020-02-25T23_54_03-08_00.tsv"
+        edges_file = file_dir + "daiquery-2020-02-25T23_04_31-08_00.csv"
+        self.source_name_id_map = {}
+        self.wiki_id_name_map = {}
+        with open(source_id_names_file, "r", encoding="utf-8") as f:
+            next(f)
+            for line in f:
+                wiki_id, array_str = line.strip().split("\t")
+                if len(array_str) <= 8:
+                    if self.verbose:
+                        print("array_str:", array_str)
+                    continue
+                # array_str[4:-4]
+                source_names = re.sub(r"[\"\[\]]", "", array_str).split(",")
+                for name in source_names:
+                    if name not in self.source_name_id_map:
+                        self.source_name_id_map[name] = set()
+                    if wiki_id not in self.wiki_id_name_map:
+                        self.wiki_id_name_map[wiki_id] = set()
+                    self.source_name_id_map[name].add(wiki_id)
+                    self.wiki_id_name_map[wiki_id].add(name)
+        with open(target_id_names_file, "r", encoding="utf-8") as f:
+            next(f)
+            for line in f:
+                wiki_id, name = line.strip().split("\t")
+                if wiki_id not in self.wiki_id_name_map:
+                    self.wiki_id_name_map[wiki_id] = set()
+                self.wiki_id_name_map[wiki_id].add(name)
+
+        return nx.read_adjlist(edges_file, delimiter=",", create_using=nx.DiGraph())
+
+    def get_wikidata_knn(self, word):
+        if word not in self.source_name_id_map:
+            return {}
+        wiki_ids = self.source_name_id_map[word]
+
+        nn_w_dists = {}
+        for wiki_id in wiki_ids:
+            try:
+                lengths = nx.single_source_shortest_path_length(
+                    self.graph, source=wiki_id, cutoff=10
+                )
+            except NodeNotFound:
+                if self.verbose:
+                    print(wiki_id, "not in G")
+                continue
+            for node in lengths:
+                names = self.wiki_id_name_map[str(node)]
+                for name in names:
+                    if name not in nn_w_dists:
+                        nn_w_dists[name] = lengths[node]
+                    nn_w_dists[name] = min(lengths[node], nn_w_dists[name])
+        return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != word}
 
     def get_wordnet_nns(self):
         d_lemmas = {}
@@ -164,7 +231,8 @@ class Game(object):
                             self.graph.get_distance(id, nn_id), nn_w_dists[lemma]
                         )
                 except ValueError:
-                    print(ss, "not a valid synset")
+                    if self.verbose:
+                        print(ss, "not a valid synset")
         # return dict[nn] = score
         # we store multiple lemmas with same score,
         # because in the future we can downweight
@@ -223,7 +291,7 @@ class Game(object):
         for word_set in itertools.combinations(self.blue_words, n):
             highest_clue, score = self.get_highest_clue(word_set, penalty)
             # min heap, so push negative score
-            heapq.heappush(pq, (-1*score, highest_clue))
+            heapq.heappush(pq, (-1 * score, highest_clue))
 
         return heapq.heappop(pq)
 
@@ -250,9 +318,10 @@ class Game(object):
                 if clue in self.weighted_nn[red_word]:
                     red_word_counts.append(self.weighted_nn[red_word][clue])
             score = sum(blue_word_counts) - (penalty * sum(red_word_counts))
+            # if score >= highest_score and self.verbose:
+            #     print(clue, score, ">= highest_scoring_clue")
             if score > highest_score:
                 highest_scoring_clue = clue
-                # print("highest_scoring_clue:", highest_scoring_clue, score)
                 highest_score = score
         return highest_scoring_clue, highest_score
 
@@ -263,7 +332,7 @@ class Game(object):
         for word in remaining_words:
             score = self.get_score(clue, word)
             # min heap, so push negative score
-            heapq.heappush(pq, (-1*score, word))
+            heapq.heappush(pq, (-1 * score, word))
 
         ret = []
         for i in range(n):
@@ -280,10 +349,14 @@ class Game(object):
 
 
 if __name__ == "__main__":
-    game = Game()
+    game = Game(verbose=True)
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
-        None, None, None, None, None
+        None,
+        None,
+        None,
+        None,
+        None,
         # ["board", "web", "wave", "platypus", "mine"],
         # ["conductor", "alps", "jack", "date", "europe"],
         # ["cricket", "pirate", "day", "platypus", "pants"],
@@ -291,7 +364,16 @@ if __name__ == "__main__":
         # ["match", "hawk", "life", "knife", "africa"],
     ]
     blue_words = [
-        None, None, None, None, None
+        # None,
+        # None,
+        # None,
+        # None,
+        # None,
+        ["jupiter", "moon"], #"pipe", "racket", "bug"],
+        ["phoenix", "beijing"], #"play", "table", "cloak"],
+        ["bear", "buffalo"], #"diamond", "witch", "swing"],
+        ["cap", "boot"], #"circle", "unicorn", "cliff"],
+        ["india", "america"], #"death", "litter", "car"],
         # ["racket", "bug", "crown", "australia", "pipe"],
         # ["scuba diver", "play", "roulette", "table", "cloak"],
         # ["buffalo", "diamond", "kid", "witch", "swing"],
@@ -305,10 +387,12 @@ if __name__ == "__main__":
         print("TRIAL ", str(i), ":")
         print("RED WORDS: ", list(game.red_words))
         print("BLUE WORDS: ", list(game.blue_words))
-        # print("NEAREST NEIGHBORS:")
-        # for word, clues in game.weighted_nn.items():
-        #     print(word)
-        #     print(sorted(clues, key=lambda k: clues[k])[:5])
+        # TODO: Download version without using aliases. They may be too confusing
+        if game.verbose:
+            print("NEAREST NEIGHBORS:")
+            for word, clues in game.weighted_nn.items():
+                print(word)
+                print(sorted(clues, key=lambda k: clues[k])[:5])
 
         score, clue = game.get_clue(2, 1)
         print("")
