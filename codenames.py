@@ -14,6 +14,7 @@ from networkx.exception import NodeNotFound
 from nltk.corpus import wordnet as wn
 
 from tqdm import tqdm
+import gensim
 
 
 sys.path.insert(0, "../")
@@ -46,7 +47,7 @@ class Game(object):
         # data from: https://github.com/uhh-lt/path2vec#pre-trained-models-and-datasets
         # self.get_path2vec_emb_from_txt(data_path='data/jcn-semcor_embeddings.vec')
         # self.lemma_nns = self.get_wordnet_nns()
-        self.graph = self.get_wikidata_graph()
+        #self.graph = self.get_wikidata_graph()
         # self.graph = self.build_graph(emb_type=emb_type, embeddings=self.embeddings, num_trees = 100, metric = 'angular')
         # self.graph.save('glove.ann')
 
@@ -54,6 +55,7 @@ class Game(object):
         # self.graph.load('../window5_lneighbor5e-2.ann')
         # print("Built Annoy Graph")
 
+        self.model = gensim.models.KeyedVectors.load_word2vec_format('/Users/divyakoyyalagunta/Desktop/Research/word2vec_google_news/GoogleNews-vectors-negative300.bin', binary=True)
         self._build_game()
 
 # GAME SET-UP
@@ -153,7 +155,8 @@ class Game(object):
             # self.weighted_nn[word] = self.get_path2vec_knn(word)
             # self.weighted_nn[word] = self.get_wordnet_knn(word)
             # self.weighted_nn[word] = self.get_glove_knn(word)
-            self.weighted_nn[word] = self.get_wikidata_knn(word)
+            # self.weighted_nn[word] = self.get_wikidata_knn(word)
+            self.weighted_nn[word] = self.get_word2vec_knn(word)
 
     def get_wikidata_graph(self):
         file_dir = "data/"
@@ -268,6 +271,30 @@ class Game(object):
         # because in the future we can downweight
         # lemmas that are closer to enemy words
         return nn_w_dists
+
+    def get_word2vec_knn(self, clue_word):
+        nn_w_dists = {}
+        limit = 5
+        def recurse_word2vec(word, curr_limit):
+            if (curr_limit >= limit or word not in self.model.vocab):
+                return
+            neighbors = [x[0] for x in self.model.most_similar(word)]
+            for neighbor in neighbors:
+                if (self.model.vocab[neighbor].count < 2 or  len(neighbor.split("_")) > 1):
+                    continue
+                dist = self.model.similarity(neighbor, clue_word)
+                neighbor = neighbor.lower()
+                if neighbor not in nn_w_dists:
+                    nn_w_dists[neighbor] = dist
+                    recurse_word2vec(neighbor, curr_limit+1)
+                nn_w_dists[neighbor] = min(dist, nn_w_dists[neighbor])
+
+        recurse_word2vec(clue_word, 0)
+
+        # if self.verbose:
+        #     print(clue_word, nn_w_dists)
+
+        return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != clue_word}
 
     def _generate_board(self, red=None, blue=None):
         # for now let's just set 5 red words and 5 blue words
@@ -404,11 +431,11 @@ if __name__ == "__main__":
         ["bear", "buffalo"], #"diamond", "witch", "swing"],
         ["cap", "boot"], #"circle", "unicorn", "cliff"],
         ["india", "america"], #"death", "litter", "car"],
-        # ["racket", "bug", "crown", "australia", "pipe"],
-        # ["scuba diver", "play", "roulette", "table", "cloak"],
-        # ["buffalo", "diamond", "kid", "witch", "swing"],
-        # ["gas", "circle", "king", "unicorn", "cliff"],
-        # ["lemon", "death", "conductor", "litter", "car"],
+        ["racket", "bug", "crown", "australia", "pipe"],
+        ["scuba diver", "play", "roulette", "table", "cloak"],
+        ["buffalo", "diamond", "kid", "witch", "swing"],
+        ["gas", "circle", "king", "unicorn", "cliff"],
+        ["lemon", "death", "conductor", "litter", "car"],
     ]
 
     for i, (red, blue) in enumerate(zip(red_words, blue_words)):
