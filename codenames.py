@@ -4,11 +4,13 @@ import operator
 import pprint
 import random
 import re
+import requests
 import statistics
 import sys
+import urllib
 
 import numpy as np
-from annoy import AnnoyIndex
+# from annoy import AnnoyIndex
 import networkx as nx
 from networkx.exception import NodeNotFound
 from nltk.corpus import wordnet as wn
@@ -17,6 +19,18 @@ from tqdm import tqdm
 
 
 sys.path.insert(0, "../")
+
+blacklist = set([
+    "s00081546n",  # term
+    "s00021547n",  # concept
+    "s00026969n",  # dictionary entry
+    "s00058442n",  # object
+    "s00020461n",  # semasiology
+    "s00045800n",  # idea
+    "s00050906n",  # lexicon
+    "s00061984n",  # philosophy
+    "s00081546n"  # word
+])
 
 
 class Game(object):
@@ -43,32 +57,113 @@ class Game(object):
         self.verbose = verbose
 
         # pre-process
+
         # data from: https://github.com/uhh-lt/path2vec#pre-trained-models-and-datasets
         # self.get_path2vec_emb_from_txt(data_path='data/jcn-semcor_embeddings.vec')
         # self.lemma_nns = self.get_wordnet_nns()
-        self.graph = self.get_wikidata_graph()
+
+        # self.categories_g = self.get_wibitaxonomy_categories_graph()
+        # self.pages_g = self.get_wibitaxonomy_pages_graph()
+
+        # self.graph = self.get_wikidata_graph()
+
         # self.graph = self.build_graph(emb_type=emb_type, embeddings=self.embeddings, num_trees = 100, metric = 'angular')
+
         # self.graph.save('glove.ann')
 
         # self.graph = AnnoyIndex(self.emb_size)
         # self.graph.load('../window5_lneighbor5e-2.ann')
         # print("Built Annoy Graph")
 
-        self._build_game()
+        # self._build_game()
 
 # GAME SET-UP
 
-    def _build_game(self, red=None, blue=None):
+    def _build_game(self, red=None, blue=None, save_path=None):
         self._generate_board(red, blue)
         # for now randomly generate knn
         words = self.blue_words.union(self.red_words)
-        # print(words)
+        if self.verbose:
+            print("blue and red words:", words)
+        self.sess = requests.Session()
+        self.wikipedia_url = "https://en.wikipedia.org/w/api.php"
+        self.save_path = save_path
+        
         for word in words:
             # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
             # self.weighted_nn[word] = self.get_fake_knn(word)
+            # self.weighted_nn[word] = self.get_hsm_knn(word)
             # self.weighted_nn[word] = self.get_path2vec_knn(word)
-            self.weighted_nn[word] = self.get_wordnet_knn(word)
+            # self.weighted_nn[word] = self.get_wordnet_knn(word)
+            # self.weighted_nn[word] = self.get_glove_knn(word)
+            # self.weighted_nn[word] = self.get_wikidata_knn(word)
+            # self.weighted_nn[word] = self.get_wibitaxonomy(word, pages=True, categories=True)
+            self.weighted_nn[word] = self.get_babelnet(word)
+    
+    def get_babelnet_results(self, word, i):
+        url = "https://babelnet.org/sparql/"
+        queryString = """
+        SELECT DISTINCT ?synset ?broader ?label WHERE {{
+            ?synset skos:broader{{{i}}} ?broader .
+            ?broader lemon:isReferenceOf ?sense .
+            ?entry lemon:sense ?sense .
+            ?entry lemon:language "EN" .
+            ?entry rdfs:label ?label .
+            {{
+                SELECT DISTINCT ?synset WHERE {{
+                    ?entries a lemon:LexicalEntry .
+                    ?entries lemon:sense ?sense .
+                    ?sense lemon:reference ?synset .
+                    ?entries rdfs:label "{word}"@en
+                }} LIMIT 3
+            }}
+        }}
+        """.format(i=i, word=word)
+        query = queryString.replace(" ", "+")
+        fmt = urllib.parse.quote("application/sparql-results+json".encode('UTF-8'), safe="")
+        params = {
+            "query": query,
+            "format": fmt,
+            "key": "e3b6a00a-c035-4430-8d71-661cdf3d5837"
+        }
+        payload_str = "&".join("%s=%s" % (k,v) for k,v in params.items())
+        try:
+            res = requests.get('?'.join([url, payload_str]))
+            return [
+                (
+                    r['synset']['value'].split('/')[-1],
+                    r['broader']['value'].split('/')[-1],
+                    r['label']['value'],
+                    i
+                ) 
+                for r in res.json()['results']['bindings']
+            ]
+        except Exception as e:
+            print(word, i)
+            print(res.status_code, res.text)
+            raise e
 
+    def get_babelnet(self, word, depth=3):
+        l = []
+        nn = {}
+        assert self.save_path is not None
+        with open(self.save_path , "a") as f:
+            for i in range(1, depth+1):
+                l += self.get_babelnet_results(word.lower(), i)
+                l += self.get_babelnet_results(word.capitalize(), i)
+            for (synset, broader, label, i) in l:
+                f.write("\t".join([word, synset, broader, label, str(i)]) + "\n")
+                if len(label.split("_")) > 1:
+                    continue
+                if label not in nn:
+                    nn[label] = i
+                nn[label] = min(i, nn[label])
+
+        return {k: 1.0 / (v + 1) for k, v in nn.items() if k != word}
+    
+    # def get_babelnet_cached(self, word):
+
+    
     def add_lemmas(self, d, ss, hyper, n):
         for lemma_name in ss.lemma_names():
             if lemma_name not in d:
@@ -140,20 +235,75 @@ class Game(object):
         self.synset_to_idx = synset_to_idx
         self.idx_to_synset = idx_to_synset
 
-    def _build_game(self, red=None, blue=None):
-        self._generate_board(red, blue)
-        # for now randomly generate knn
-        words = self.blue_words.union(self.red_words)
-        if self.verbose:
-            print("blue and red words:", words)
-        for word in words:
-            # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
-            # self.weighted_nn[word] = self.get_fake_knn(word)
-            # self.weighted_nn[word] = self.get_hsm_knn(word)
-            # self.weighted_nn[word] = self.get_path2vec_knn(word)
-            # self.weighted_nn[word] = self.get_wordnet_knn(word)
-            # self.weighted_nn[word] = self.get_glove_knn(word)
-            self.weighted_nn[word] = self.get_wikidata_knn(word)
+    def get_wibitaxonomy_categories_graph(self):
+        file_dir = "data/wibi-ver2.0/taxonomies/"
+        categories_file = file_dir + 'WiBi.categorytaxonomy.ver1.0.txt'
+        return nx.read_adjlist(categories_file, delimiter='\t', create_using=nx.DiGraph())
+
+    def get_wibitaxonomy_pages_graph(self):
+        file_dir = "data/wibi-ver2.0/taxonomies/"
+        pages_file = file_dir + 'WiBi.pagetaxonomy.ver2.0.txt'
+        return nx.read_adjlist(pages_file, delimiter='\t', create_using=nx.DiGraph())
+
+    def get_wibitaxonomy(self, word, pages, categories):
+        nn_w_dists = {}
+        if pages:
+            req_params = {
+                "action": "opensearch",
+                "namespace": "0",
+                "search": word,
+                "limit": "5",
+                "format": "json"
+            }
+            req = self.sess.get(url=self.wikipedia_url, params=req_params)
+            req_data = req.json()
+            search_results = req_data[1]
+            for w in search_results:
+                try:
+                    lengths = nx.single_source_shortest_path_length(
+                        self.pages_g, source=w, cutoff=10
+                    )
+                    for neighbor, length in lengths.items():
+                        if neighbor not in nn_w_dists:
+                            nn_w_dists[neighbor] = length
+                        else:
+                            if self.verbose:
+                                print(neighbor, 'length:', length, 'prev length:', nn_w_dists[neighbor])
+                        nn_w_dists[neighbor] = min(length, nn_w_dists[neighbor])
+                except NodeNotFound:
+                    # if self.verbose:
+                    #     print(w, "not in pages_g")
+                    pass
+        if categories:
+            req_params = {
+                "action": "opensearch",
+                "namespace": "0",
+                "search": "Category:" + word,
+                "limit": "3",
+                "format": "json"
+            }
+            req = self.sess.get(url=self.wikipedia_url, params=req_params)
+            req_data = req.json()
+            search_results = req_data[1]
+
+            for w_untrimmed in search_results:
+                w = w_untrimmed.split(":")[1]
+                try:
+                    lengths = nx.single_source_shortest_path_length(
+                        self.categories_g, source=w, cutoff=10
+                    )
+                    for neighbor, length in lengths.items():
+                        if neighbor not in nn_w_dists:
+                            nn_w_dists[neighbor] = length
+                        else:
+                            if self.verbose:
+                                print(neighbor, 'length:', length, 'prev length:', nn_w_dists[neighbor])
+                        nn_w_dists[neighbor] = min(length, nn_w_dists[neighbor])
+                except NodeNotFound:
+                    # if self.verbose:
+                    #     print(w, "not in categories_g")
+                    pass
+        return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != word}
 
     def get_wikidata_graph(self):
         file_dir = "data/"
@@ -394,16 +544,16 @@ if __name__ == "__main__":
         # ["match", "hawk", "life", "knife", "africa"],
     ]
     blue_words = [
-        # None,
-        # None,
-        # None,
-        # None,
-        # None,
-        ["jupiter", "moon"], #"pipe", "racket", "bug"],
-        ["phoenix", "beijing"], #"play", "table", "cloak"],
-        ["bear", "buffalo"], #"diamond", "witch", "swing"],
-        ["cap", "boot"], #"circle", "unicorn", "cliff"],
-        ["india", "america"], #"death", "litter", "car"],
+        None,
+        None,
+        None,
+        None,
+        None,
+        # ["jupiter", "moon"], #"pipe", "racket", "bug"],
+        # ["phoenix", "beijing"], #"play", "table", "cloak"],
+        # ["bear", "bison"], #"diamond", "witch", "swing"],
+        # ["cap", "boot"], #"circle", "unicorn", "cliff"],
+        # ["india", "germany"], #"death", "litter", "car"],
         # ["racket", "bug", "crown", "australia", "pipe"],
         # ["scuba diver", "play", "roulette", "table", "cloak"],
         # ["buffalo", "diamond", "kid", "witch", "swing"],
@@ -413,7 +563,7 @@ if __name__ == "__main__":
 
     for i, (red, blue) in enumerate(zip(red_words, blue_words)):
 
-        game._build_game(red, blue)
+        game._build_game(red=red, blue=blue, save_path="tmp_babelnet_"+str(i))
         print("")
         print("TRIAL ", str(i), ":")
         print("RED WORDS: ", list(game.red_words))
@@ -423,7 +573,7 @@ if __name__ == "__main__":
             print("NEAREST NEIGHBORS:")
             for word, clues in game.weighted_nn.items():
                 print(word)
-                print(sorted(clues, key=lambda k: clues[k])[:5])
+                print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
 
         score, clue = game.get_clue(2, 1)
         print("")
