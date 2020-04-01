@@ -16,6 +16,7 @@ from networkx.exception import NodeNotFound
 from nltk.corpus import wordnet as wn
 
 from tqdm import tqdm
+import gensim
 
 
 sys.path.insert(0, "../")
@@ -75,6 +76,9 @@ class Game(object):
         # self.graph.load('../window5_lneighbor5e-2.ann')
         # print("Built Annoy Graph")
 
+        # self.model = gensim.models.KeyedVectors.load_word2vec_format('/Users/divyakoyyalagunta/Desktop/Research/word2vec_google_news/GoogleNews-vectors-negative300.bin', binary=True)
+        # Let's not call build_game within __init__, since it gets called again
+        # within the game loop. Calling it here would be pointless the board words are overwritten
         # self._build_game()
 
 # GAME SET-UP
@@ -98,6 +102,7 @@ class Game(object):
             # self.weighted_nn[word] = self.get_glove_knn(word)
             # self.weighted_nn[word] = self.get_wikidata_knn(word)
             # self.weighted_nn[word] = self.get_wibitaxonomy(word, pages=True, categories=True)
+            # self.weighted_nn[word] = self.get_word2vec_knn(word)
             self.weighted_nn[word] = self.get_babelnet(word)
     
     def get_babelnet_results(self, word, i):
@@ -418,6 +423,30 @@ class Game(object):
         # because in the future we can downweight
         # lemmas that are closer to enemy words
         return nn_w_dists
+
+    def get_word2vec_knn(self, clue_word):
+        nn_w_dists = {}
+        limit = 5
+        def recurse_word2vec(word, curr_limit):
+            if (curr_limit >= limit or word not in self.model.vocab):
+                return
+            neighbors = [x[0] for x in self.model.most_similar(word)]
+            for neighbor in neighbors:
+                if (self.model.vocab[neighbor].count < 2 or  len(neighbor.split("_")) > 1):
+                    continue
+                dist = self.model.similarity(neighbor, clue_word)
+                neighbor = neighbor.lower()
+                if neighbor not in nn_w_dists:
+                    nn_w_dists[neighbor] = dist
+                    recurse_word2vec(neighbor, curr_limit+1)
+                nn_w_dists[neighbor] = min(dist, nn_w_dists[neighbor])
+
+        recurse_word2vec(clue_word, 0)
+
+        # if self.verbose:
+        #     print(clue_word, nn_w_dists)
+
+        return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != clue_word}
 
     def _generate_board(self, red=None, blue=None):
         # for now let's just set 5 red words and 5 blue words
