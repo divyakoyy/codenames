@@ -112,8 +112,9 @@ class Game(object):
     def get_babelnet_results(self, word, i):
         url = "https://babelnet.org/sparql/"
         queryString = """
-        SELECT DISTINCT ?synset ?broader ?label WHERE {{
+        SELECT DISTINCT ?synset ?broader ?label (COUNT(?narrower) AS ?count) WHERE {{
             ?synset skos:broader{{{i}}} ?broader .
+            ?synset skos:narrower ?narrower .
             ?broader lemon:isReferenceOf ?sense .
             ?entry lemon:sense ?sense .
             ?entry lemon:language "EN" .
@@ -143,8 +144,9 @@ class Game(object):
                     r['synset']['value'].split('/')[-1],
                     r['broader']['value'].split('/')[-1],
                     r['label']['value'],
+                    r['count']['value'],
                     i
-                ) 
+                )
                 for r in res.json()['results']['bindings']
             ]
         except Exception as e:
@@ -155,19 +157,26 @@ class Game(object):
     def get_babelnet(self, word, depth=3):
         l = []
         nn = {}
+        hyponym_count = {}
         assert self.save_path is not None
         with open(self.save_path , "a") as f:
             for i in range(1, depth+1):
                 l += self.get_babelnet_results(word.lower(), i)
                 l += self.get_babelnet_results(word.capitalize(), i)
-            for (synset, broader, label, i) in l:
+            #print(word, len(l))
+            for (synset, broader, label, count, i) in l:
                 f.write("\t".join([word, synset, broader, label, str(i)]) + "\n")
                 if len(label.split("_")) > 1:
                     continue
                 if label not in nn:
                     nn[label] = i
+                    hyponym_count[label] = 0
                 nn[label] = min(i, nn[label])
+                hyponym_count[label] += int(count)
 
+        for label in hyponym_count:
+            if hyponym_count[label] > 100:
+                del nn[label]
         return {k: 1.0 / (v + 1) for k, v in nn.items() if k != word}
     
     def get_babelnet_v5(self, word):
@@ -604,6 +613,11 @@ if __name__ == "__main__":
     game = Game(verbose=False)
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
+        None,
+        None,
+        None,
+        None,
+        None,
         # None,
         # None,
         # None,
@@ -626,11 +640,16 @@ if __name__ == "__main__":
         # ["match", "hawk", "life", "knife", "africa"],
     ]
     blue_words = [
-        # None,
-        # None,
-        # None,
-        # None,
-        # None,
+        None,
+        None,
+        None,
+        None,
+        None,
+        # ["racket", "bug", "crown", "australia", "pipe"],
+        # ["scuba diver", "play", "roulette", "table", "cloak"],
+        # ["buffalo", "diamond", "kid", "witch", "swing"],
+        # ["gas", "circle", "king", "unicorn", "cliff"],
+        # ["lemon", "death", "conductor", "litter", "car"],
         # ['key', 'piano', 'lab', 'school', 'lead'],
         # ['whip', 'tube', 'vacuum', 'lab', 'moon'],
         # ['change', 'litter', 'scientist', 'worm', 'row'],
