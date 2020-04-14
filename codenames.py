@@ -1,3 +1,4 @@
+import gzip
 import heapq
 import itertools
 import operator
@@ -92,7 +93,8 @@ class Game(object):
         self.sess = requests.Session()
         self.wikipedia_url = "https://en.wikipedia.org/w/api.php"
         self.save_path = save_path
-        
+        # reset weighted_nn between trials
+        self.weighted_nn = dict()
         for word in words:
             # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
             # self.weighted_nn[word] = self.get_fake_knn(word)
@@ -103,7 +105,9 @@ class Game(object):
             # self.weighted_nn[word] = self.get_wikidata_knn(word)
             # self.weighted_nn[word] = self.get_wibitaxonomy(word, pages=True, categories=True)
             # self.weighted_nn[word] = self.get_word2vec_knn(word)
-            self.weighted_nn[word] = self.get_babelnet(word)
+            # self.weighted_nn[word] = self.get_babelnet(word)
+            self.weighted_nn[word] = self.get_babelnet_v5(word)
+            
     
     def get_babelnet_results(self, word, i):
         url = "https://babelnet.org/sparql/"
@@ -166,8 +170,34 @@ class Game(object):
 
         return {k: 1.0 / (v + 1) for k, v in nn.items() if k != word}
     
-    # def get_babelnet_cached(self, word):
-
+    def get_babelnet_v5(self, word):
+        file_dir = '/Users/annaysun/codenames/babelnet_v4/'
+        G = nx.DiGraph()
+        with gzip.open(file_dir + word + '.gz', 'r') as f:
+            for line in f:
+                source, target, language, short_name, relation_group, is_automatic = line.decode("utf-8").strip().split('\t')
+                if relation_group == 'HYPERNYM' and is_automatic == 'False':
+                    G.add_edge(source, target)
+                    
+        nn_w_dists = {}
+        with open(file_dir + word + '_synsets', 'r') as f:
+            for line in f:
+                synset = line.strip()
+                try:
+                    lengths = nx.single_source_shortest_path_length(
+                        G, source=synset, cutoff=10
+                    )
+                except NodeNotFound as e:
+                    print(e)
+                    continue
+                for neighbor, length in lengths.items():
+                    if neighbor not in nn_w_dists:
+                        nn_w_dists[neighbor] = length
+                    else:
+                        if self.verbose:
+                            print(neighbor, 'length:', length, 'prev length:', nn_w_dists[neighbor])
+                    nn_w_dists[neighbor] = min(length, nn_w_dists[neighbor])
+        return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != word}
     
     def add_lemmas(self, d, ss, hyper, n):
         for lemma_name in ss.lemma_names():
@@ -501,8 +531,21 @@ class Game(object):
             highest_clue, score = self.get_highest_clue(word_set, penalty)
             # min heap, so push negative score
             heapq.heappush(pq, (-1 * score, highest_clue))
-
-        return heapq.heappop(pq)
+        best_clues = []
+        best_scores = []
+        best_score, clue = heapq.heappop(pq)
+        best_clues.append(clue)
+        best_scores.append(best_score)
+        count = 0
+        while pq:
+            score, clue = heapq.heappop(pq)
+            count += 1
+            # if score > best_score:
+            if count >= 5:
+                break
+            best_clues.append(clue)
+            best_scores.append(score)
+        return best_scores, best_clues
 
     def get_highest_clue(self, chosen_words, penalty=1.0):
 
@@ -558,14 +601,24 @@ class Game(object):
 
 
 if __name__ == "__main__":
-    game = Game(verbose=True)
+    game = Game(verbose=False)
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
-        None,
-        None,
-        None,
-        None,
-        None,
+        # None,
+        # None,
+        # None,
+        # None,
+        # None,
+        # ['ray', 'mammoth', 'ivory', 'racket', 'bug'],
+        # ['laser', 'pan', 'stock', 'box', 'game'],
+        # ['bomb', 'car', 'moscow', 'pipe', 'hand'],
+        # ['penguin', 'stick', 'racket', 'scale', 'ivory'],
+        # ['horseshoe', 'amazon', 'thumb', 'spider', 'lion'],
+        ["racket", "bug", "crown", "australia", "pipe"],
+        ["bomb", "play", "roulette", "table", "cloak"],
+        ["gas", "circle", "unicorn", "king", "cliff"],
+        ["conductor", "diamond", "kid", "witch", "swing"],
+        ["death", "litter", "car", "lemon", "conductor"],
         # ["board", "web", "wave", "platypus", "mine"],
         # ["conductor", "alps", "jack", "date", "europe"],
         # ["cricket", "pirate", "day", "platypus", "pants"],
@@ -573,21 +626,21 @@ if __name__ == "__main__":
         # ["match", "hawk", "life", "knife", "africa"],
     ]
     blue_words = [
-        None,
-        None,
-        None,
-        None,
-        None,
-        # ["jupiter", "moon"], #"pipe", "racket", "bug"],
-        # ["phoenix", "beijing"], #"play", "table", "cloak"],
-        # ["bear", "bison"], #"diamond", "witch", "swing"],
-        # ["cap", "boot"], #"circle", "unicorn", "cliff"],
-        # ["india", "germany"], #"death", "litter", "car"],
-        # ["racket", "bug", "crown", "australia", "pipe"],
-        # ["scuba diver", "play", "roulette", "table", "cloak"],
-        # ["buffalo", "diamond", "kid", "witch", "swing"],
-        # ["gas", "circle", "king", "unicorn", "cliff"],
-        # ["lemon", "death", "conductor", "litter", "car"],
+        # None,
+        # None,
+        # None,
+        # None,
+        # None,
+        # ['key', 'piano', 'lab', 'school', 'lead'],
+        # ['whip', 'tube', 'vacuum', 'lab', 'moon'],
+        # ['change', 'litter', 'scientist', 'worm', 'row'],
+        # ['boot', 'figure', 'cricket', 'ball', 'nut'],
+        # ['bear', 'figure', 'swing', 'shark', 'stream'],
+        ["jupiter", "moon"], #"pipe", "racket", "bug"],
+        ["phoenix", "beijing"], #"play", "table", "cloak"],
+        ["bear", "bison"], #"diamond", "witch", "swing"],
+        ["cap", "boot"], #"circle", "unicorn", "cliff"],
+        ["india", "germany"], #"death", "litter", "car"],
     ]
 
     for i, (red, blue) in enumerate(zip(red_words, blue_words)):
@@ -604,11 +657,11 @@ if __name__ == "__main__":
                 print(word)
                 print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
 
-        score, clue = game.get_clue(2, 1)
-        print("")
-        print("CLUE CHOSEN: ", clue)
-
-        print(
-            "WORDS CHOSEN FOR CLUE: ",
-            game.choose_words(2, clue, game.blue_words.union(game.red_words)),
-        )
+        best_scores, best_clues = game.get_clue(2, 1)
+        print("BEST CLUES: ")
+        for score, clue in zip(best_scores, best_clues):
+            print(score, clue)
+            print(
+                "WORDS CHOSEN FOR CLUE: ",
+                game.choose_words(2, clue, game.blue_words.union(game.red_words)),
+            )
