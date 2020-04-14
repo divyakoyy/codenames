@@ -1,12 +1,10 @@
 import gzip
 import heapq
 import itertools
-import operator
-import pprint
+import os
 import random
 import re
 import requests
-import statistics
 import sys
 import urllib
 
@@ -17,7 +15,7 @@ from networkx.exception import NodeNotFound
 from nltk.corpus import wordnet as wn
 
 from tqdm import tqdm
-import gensim
+import matplotlib.pyplot as plt
 
 
 sys.path.insert(0, "../")
@@ -37,8 +35,8 @@ blacklist = set([
 
 class Game(object):
     def __init__(
-        self, ann_graph_path=None, num_emb_batches=22, emb_type="custom", emb_size=200,
-        verbose=False
+        self, ann_graph_path=None, num_emb_batches=22, emb_type="custom", emb_size=200, file_dir=None,
+        verbose=False, visualize=False
     ):
         """
         Variables:
@@ -51,12 +49,15 @@ class Game(object):
         self.red_words = set()
         self.blue_words = set()
         self.weighted_nn = dict()
+        self.graphs = dict()
         # maps codewords' (from 'codewords.txt') line index to word
         self.idx_to_word = dict()
         self.num_emb_batches = num_emb_batches
 
         self.emb_size = emb_size
         self.verbose = verbose
+        self.visualize = visualize
+        self.file_dir=file_dir
 
         # pre-process
 
@@ -78,15 +79,11 @@ class Game(object):
         # print("Built Annoy Graph")
 
         # self.model = gensim.models.KeyedVectors.load_word2vec_format('/Users/divyakoyyalagunta/Desktop/Research/word2vec_google_news/GoogleNews-vectors-negative300.bin', binary=True)
-        # Let's not call build_game within __init__, since it gets called again
-        # within the game loop. Calling it here would be pointless the board words are overwritten
-        # self._build_game()
 
 # GAME SET-UP
 
     def _build_game(self, red=None, blue=None, save_path=None):
         self._generate_board(red, blue)
-        # for now randomly generate knn
         words = self.blue_words.union(self.red_words)
         if self.verbose:
             print("blue and red words:", words)
@@ -106,9 +103,26 @@ class Game(object):
             # self.weighted_nn[word] = self.get_wibitaxonomy(word, pages=True, categories=True)
             # self.weighted_nn[word] = self.get_word2vec_knn(word)
             # self.weighted_nn[word] = self.get_babelnet(word)
-            self.weighted_nn[word] = self.get_babelnet_v5(word)
-            
-    
+            self.weighted_nn[word], self.graphs[word] = self.get_babelnet_v5(word)
+
+    def _generate_board(self, red=None, blue=None):
+        # for now let's just set 5 red words and 5 blue words
+
+        with open("data/codewords.txt") as file:
+            for i, line in enumerate(file):
+                word = line.strip().lower()
+                self.idx_to_word[i] = word
+
+        rand_idxs = random.sample(range(0, len(self.idx_to_word.keys())), 10)
+
+        self.red_words = set([self.idx_to_word[idx] for idx in rand_idxs[:5]])
+        self.blue_words = set([self.idx_to_word[idx] for idx in rand_idxs[5:]])
+
+        if red is not None:
+            self.red_words = set(red)
+        if blue is not None:
+            self.blue_words = set(blue)
+
     def get_babelnet_results(self, word, i):
         url = "https://babelnet.org/sparql/"
         queryString = """
@@ -180,16 +194,15 @@ class Game(object):
         return {k: 1.0 / (v + 1) for k, v in nn.items() if k != word}
     
     def get_babelnet_v5(self, word):
-        file_dir = '/Users/annaysun/codenames/babelnet_v4/'
         G = nx.DiGraph()
-        with gzip.open(file_dir + word + '.gz', 'r') as f:
+        with gzip.open(self.file_dir + word + '.gz', 'r') as f:
             for line in f:
                 source, target, language, short_name, relation_group, is_automatic = line.decode("utf-8").strip().split('\t')
                 if relation_group == 'HYPERNYM' and is_automatic == 'False':
                     G.add_edge(source, target)
                     
         nn_w_dists = {}
-        with open(file_dir + word + '_synsets', 'r') as f:
+        with open(self.file_dir + word + '_synsets', 'r') as f:
             for line in f:
                 synset = line.strip()
                 try:
@@ -206,7 +219,8 @@ class Game(object):
                         if self.verbose:
                             print(neighbor, 'length:', length, 'prev length:', nn_w_dists[neighbor])
                     nn_w_dists[neighbor] = min(length, nn_w_dists[neighbor])
-        return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != word}
+
+        return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != word}, G
     
     def add_lemmas(self, d, ss, hyper, n):
         for lemma_name in ss.lemma_names():
@@ -487,27 +501,6 @@ class Game(object):
 
         return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != clue_word}
 
-    def _generate_board(self, red=None, blue=None):
-        # for now let's just set 5 red words and 5 blue words
-
-        with open("data/codewords.txt") as file:
-            for i, line in enumerate(file):
-                word = line.strip().lower()
-                self.idx_to_word[i] = word
-
-        rand_idxs = random.sample(range(0, len(self.idx_to_word.keys())), 10)
-
-        self.red_words = set([self.idx_to_word[idx] for idx in rand_idxs[:5]])
-        self.blue_words = set([self.idx_to_word[idx] for idx in rand_idxs[5:]])
-
-        if red is not None:
-            self.red_words = set(red)
-        if blue is not None:
-            self.blue_words = set(blue)
-        # self.blue_words = set(["carpet", "bracelet", "book", "window", "lamp"])
-        # self.red_words = set( ["remote", "computer", "phone", "glass", "pillow"])
-        # self.blue_words= set(["dog", "cat", "road", "star", "planet"])
-
     def build_graph(
         self, emb_type="custom", embeddings=None, num_trees=50, metric="angular"
     ):
@@ -530,21 +523,68 @@ class Game(object):
             )
         return tree
 
+
+### CODENAMES FUNCTIONS ###
+
+    def get_intersecting_graphs(self, word_set, clue):
+        # clue is the word that intersects for this word_set
+        # for example if we have the word_set (beijing, phoenix) and clue city,
+        # this method will produce a directed graph that shows the path of intersection
+        G = nx.DiGraph()
+
+        for word in word_set:
+            word_graph = self.graphs[word]
+            shortest_path = []
+            shortest_path_length = float("inf")
+            with open(self.file_dir + word + '_synsets', 'r') as f:
+                for line in f:
+                    synset = line.strip()
+                    try:
+                        path = nx.shortest_path(word_graph, synset, clue)
+                        if len(path) < shortest_path_length:
+                            shortest_path_length = len(path)
+                            shortest_path = path
+                    except:
+                        if self.verbose:
+                            print("No path between", synset, clue)
+
+                # path goes from source (word in word_set) to target (clue)
+                print ("shortest path from",word,"to clue", clue,shortest_path)
+                G.add_path(shortest_path)
+
+        nx.draw(G, with_labels=True)
+        if not os.path.exists('intersection_graphs'):
+            os.makedirs('intersection_graphs')
+        filename = 'intersection_graphs/' + ('_').join([word for word in word_set]) + '.png'
+        plt.savefig(filename)
+        plt.close()
+
     def get_clue(self, n, penalty):
         # where blue words are our team's words and red words are the other team's words
         # potential clue candidates are the intersection of weighted_nns[word] for each word in blue_words
         # we need to repeat this for the (|blue_words| C n) possible words we can give a clue for
 
         pq = []
+        word_set_for_best_clue = []
+        best_score = float("-inf")
         for word_set in itertools.combinations(self.blue_words, n):
             highest_clue, score = self.get_highest_clue(word_set, penalty)
+            # this is just being used for graph visualizations
+            if (self.visualize and score > best_score):
+                best_score = score
+                word_set_for_best_clue = word_set
             # min heap, so push negative score
             heapq.heappush(pq, (-1 * score, highest_clue))
+
         best_clues = []
         best_scores = []
         best_score, clue = heapq.heappop(pq)
         best_clues.append(clue)
         best_scores.append(best_score)
+
+        if self.visualize:
+            self.get_intersecting_graphs(word_set_for_best_clue, clue)
+
         count = 0
         while pq:
             score, clue = heapq.heappop(pq)
@@ -610,14 +650,10 @@ class Game(object):
 
 
 if __name__ == "__main__":
-    game = Game(verbose=False)
+    file_dir = '/Users/divyakoyyalagunta/Downloads/babelnet_v4/'
+    game = Game(verbose=False, visualize=True, file_dir=file_dir)
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
-        None,
-        None,
-        None,
-        None,
-        None,
         # None,
         # None,
         # None,
@@ -640,11 +676,11 @@ if __name__ == "__main__":
         # ["match", "hawk", "life", "knife", "africa"],
     ]
     blue_words = [
-        None,
-        None,
-        None,
-        None,
-        None,
+        # None,
+        # None,
+        # None,
+        # None,
+        # None,
         # ["racket", "bug", "crown", "australia", "pipe"],
         # ["scuba diver", "play", "roulette", "table", "cloak"],
         # ["buffalo", "diamond", "kid", "witch", "swing"],
