@@ -12,6 +12,7 @@ import numpy as np
 # from annoy import AnnoyIndex
 import networkx as nx
 from networkx.exception import NodeNotFound
+from networkx.drawing.nx_agraph import write_dot, graphviz_layout
 from nltk.corpus import wordnet as wn
 
 from tqdm import tqdm
@@ -125,19 +126,19 @@ class Game(object):
         if blue is not None:
             self.blue_words = set(blue)
 
-    def get_random_n_labels(self, labels, n):
+    def get_random_n_labels(self, labels, n, delimiter=" "):
         if len(labels) > 0:
             rand_indices = list(range(len(labels)))
             random.shuffle(rand_indices)
-            return " ".join([labels[i] for i in rand_indices[:n]])
+            return delimiter.join([labels[i] for i in rand_indices[:n]])
         return None
 
-    def get_cached_labels_from_synset(self, synset):
+    def get_cached_labels_from_synset(self, synset, delimiter=" "):
         if synset not in self.synset_to_labels:
             labels = self.get_labels_from_synset(synset)
             self.write_synset_labels(synset, labels)
             filtered_labels = [label for label in labels if len(label.split("_")) == 1 or label.split("_")[1][0] == '(']
-            sliced_labels = self.get_random_n_labels(filtered_labels, 3) or synset
+            sliced_labels = self.get_random_n_labels(filtered_labels, 3, delimiter) or synset
             self.synset_to_labels[synset] = sliced_labels
         else:
             sliced_labels = self.synset_to_labels[synset]
@@ -626,16 +627,43 @@ class Game(object):
                     # sliced_labels = self.get_random_n_labels(labels, 3) or synset
                     shortest_path_labels.append(sliced_labels)
 
-                sliced_clue_labels = self.get_cached_labels_from_synset(clue)
+                sliced_clue_labels = self.get_cached_labels_from_synset(clue, delimiter="\n")
                 # sliced_clue_labels = self.get_random_n_labels(clue_labels, 5) or clue
                 print ("shortest path from",word,"to clue", clue, sliced_clue_labels,shortest_path_labels)
-                nx.add_path(G, shortest_path_labels)
 
-        nx.draw(G, with_labels=True)
+                formatted_labels = [label.replace(' ', '\n') for label in shortest_path_labels]
+                formatted_labels.reverse()
+                nx.add_path(G, formatted_labels)
+
+        write_dot(G, 'test.dot')
+        pos = graphviz_layout(G, prog='dot')
+
+        plt.figure()
+        options = {
+            'node_color': 'black',
+            'node_size': 50,
+            'alpha':0.6,
+            'line_color': 'grey',
+            'font_color':'black',
+            'linewidths': 0,
+            'width': 0.1,
+            'pos': pos,
+            'with_labels':True,
+            'font_size':6.5,
+        }
+        nx.draw(G, **options)
+
         if not os.path.exists('intersection_graphs'):
             os.makedirs('intersection_graphs')
         filename = 'intersection_graphs/' + ('_').join([word for word in word_set]) + '.png'
-        plt.savefig(filename)
+        # margins
+        plot_margin = 0.25
+        x0, x1, y0, y1 = plt.axis()
+        plt.axis((x0 - plot_margin,
+                  x1 + plot_margin,
+                  y0 - plot_margin,
+                  y1 + plot_margin))
+        plt.savefig(filename, dpi=300)
         plt.close()
 
     def get_clue(self, n, penalty):
@@ -733,7 +761,7 @@ class Game(object):
 
 
 if __name__ == "__main__":
-    file_dir = '/Users/annaysun/codenames/babelnet_v4/'
+    file_dir = '/Users/divyakoyyalagunta/projects/codenames/babelnet_v4/'
     synset_labels_file = 'synset_to_labels.txt'
     game = Game(
         verbose=False,
@@ -775,16 +803,16 @@ if __name__ == "__main__":
         # ["buffalo", "diamond", "kid", "witch", "swing"],
         # ["gas", "circle", "king", "unicorn", "cliff"],
         # ["lemon", "death", "conductor", "litter", "car"],
-        ['key', 'piano', 'lab', 'school', 'lead'],
-        ['whip', 'tube', 'vacuum', 'lab', 'moon'],
-        ['change', 'litter', 'scientist', 'worm', 'row'],
-        ['boot', 'figure', 'cricket', 'ball', 'nut'],
-        ['bear', 'figure', 'swing', 'shark', 'stream'],
-        # ["jupiter", "moon"], #"pipe", "racket", "bug"],
-        # ["phoenix", "beijing"], #"play", "table", "cloak"],
-        # ["bear", "bison"], #"diamond", "witch", "swing"],
-        # ["cap", "boot"], #"circle", "unicorn", "cliff"],
-        # ["india", "germany"], #"death", "litter", "car"],
+        # ['key', 'piano', 'lab', 'school', 'lead'],
+        # ['whip', 'tube', 'vacuum', 'lab', 'moon'],
+        # ['change', 'litter', 'scientist', 'worm', 'row'],
+        # ['boot', 'figure', 'cricket', 'ball', 'nut'],
+        # ['bear', 'figure', 'swing', 'shark', 'stream'],
+        ["jupiter", "moon"], #"pipe", "racket", "bug"],
+        ["phoenix", "beijing"], #"play", "table", "cloak"],
+        ["bear", "bison"], #"diamond", "witch", "swing"],
+        ["cap", "boot"], #"circle", "unicorn", "cliff"],
+        ["india", "germany"], #"death", "litter", "car"],
     ]
 
     for i, (red, blue) in enumerate(zip(red_words, blue_words)):
