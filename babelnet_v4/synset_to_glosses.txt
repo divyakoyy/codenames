@@ -1,0 +1,278 @@
+bn:00051760n	WN	A point or extent in space
+bn:00051760n	WIKI	The terms location and place in geography are used to identify a point or an area on the Earth's surface or elsewhere.
+bn:00051760n	WIKIDIS	A point or an area on the Earth's surface or elsewhere
+bn:00051760n	WIKIDATA	Point or an area on the Earth's surface or elsewhere
+bn:00051760n	OMWIKI	A small area of a place.
+bn:00051760n	WIKT	A particular point or place in physical space.
+bn:00051760n	WIKT	The place where something happens.
+bn:00051760n	WIKT	Limitation to a county, district, or place.
+bn:00051760n	WIKTLB	Place where something happens.
+bn:00051760n	MSTERM	A physical address.
+bn:00051760n	MSTERM	A specific, delimited physical place, such as a bin, shelf, rack, or aisle.
+bn:00050343n	WN	The angle between the direction a gun is aimed and the position of a moving target (correcting for the flight time of the missile)
+bn:00050343n	OMWIKI	The distance that a shooter aims ahead of a moving target in order to hit it with the projectile.
+bn:00004117n	WN	The space between two lines or planes that intersect; the inclination of one line to another; measured in degrees or radians
+bn:00004117n	WIKI	In planar geometry, an angle is the figure formed by two rays, called the sides of the angle, sharing a common endpoint, called the vertex of the angle.
+bn:00004117n	WIKIDATA	Figure formed by two rays; coordinate system in one-dimensional space
+bn:00004117n	OMWIKI	A figure formed by two rays which start from a common point (a plane angle) or by three planes that intersect (a solid angle).
+bn:00004117n	WIKT	A figure formed by two rays which start from a common point or by three planes that intersect.
+bn:00073038n	WN	An empty area (usually bounded in some way between things)
+bn:00049551n	WN	A workplace for the conduct of scientific research
+bn:00049551n	WIKI	A laboratory is a facility that provides controlled conditions in which scientific or technological research, experiments, and measurement may be performed.
+bn:00049551n	WIKI	A research institute is an establishment founded for doing research.
+bn:00049551n	WIKIDATA	Establishment endowed for doing research
+bn:00049551n	WIKIDATA	Facility that provides controlled conditions in which scientific or technological research, experiments, and measurement may be performed.
+bn:00049551n	OMWIKI	A room or building with scientific equipment for doing scientific tests or for teaching science, or a place where chemicals or medicines are produced.
+bn:00049551n	OMWIKI	Place where systematic investigation to establish facts or principles or to collect information on a subject is performed.
+bn:00049551n	OMWIKI	The sum of procedures used on natural sciences such as chemistry, biology, physics in order to conduct an experiment, all of them following the scientific method.
+bn:00049551n	WIKT	A room, building or institution equipped for scientific research, experimentation or analysis.
+bn:00049551n	WIKTLB	Room, building or institution equipped for scientific research.
+bn:00049551n	WIKIQU	Laboratory is a room or building based for scientific experiments, chemicals.
+bn:00049551n	MSTERM	A collection of non-production machines that are used to test an Internet Explorer Package. The lab is not the same as a pilot group.
+bn:00081570n	WN	A place where work is done
+bn:00081570n	WIKI	A workplace is a location where someone works for his or her employer, a place of employment.
+bn:00081570n	WIKIDATA	Physical location where someone works
+bn:00081570n	WIKT	The place where someone works.
+bn:00081570n	WIKTLB	Place where someone works.
+bn:00030635n	WN	An empty area or space
+bn:00030635n	WIKI	Vacuum is space devoid of matter.
+bn:00030635n	WIKIDATA	Space that is empty of matter
+bn:00030635n	OMWIKI	(physics) A volume of space that is substansively empty of matter.
+bn:00030635n	WIKT	A region of space that contains no matter.
+bn:00030635n	WIKT	Empty space.
+bn:00030635n	WIKT	An empty space; a vacuum.
+bn:00030635n	WIKT	Vacuum; a space free of matter.
+bn:00030635n	WIKTLB	Region of space that contains no matter.
+bn:15154456n	WIKIDATA	Physical manifestation of a technology
+bn:15154456n	WIKIDATA	Tool to help using something
+bn:00058406n	WN	An implement used to propel or steer a boat
+bn:00058406n	WIKI	An oar is an implement used for water-borne propulsion.
+bn:00058406n	WIKIDATA	Implement used for water-borne propulsion
+bn:00058406n	OMWIKI	A tool used for pushing against liquid, generally for the propulsion of a boat.
+bn:00058406n	WIKT	An implement used to propel a boat or a ship in the water, having a flat blade at one end, being rowed from the other end and being normally fastened to the vessel.
+bn:00058406n	WIKTLB	Implement used to row a boat.
+bn:00081637n	WN	Screw thread on a gear with the teeth of a worm wheel or rack
+bn:00081637n	WIKT	Anything helical, especially the thread of a screw.
+bn:00081637n	WIKTLB	Something helical, especially the thread of a screw.
+bn:00069865n	WN	A fastener with a tapered threaded shank and a slotted head
+bn:00069865n	WIKI	A screw is a type of fastener, sometimes similar to a bolt, typically made of metal, and characterized by a helical ridge, known as a male thread or just a well thread.
+bn:00069865n	WIKIDIS	A cylindrical threaded fastener
+bn:00069865n	WIKIDATA	Type of fastener characterized by a thread wrapped around a cylinder
+bn:00069865n	OMWIKI	A shaft with a helical groove or thread formed on its surface. Its main use is as a threaded fastener used to hold objects together.
+bn:00069865n	WIKT	A metal fastener consisting of a shank partially or completely threaded shank, sometimes with a threaded point, and a head used to both hold the top material and to drive the screw either directly into a soft material or into a prepared hole.
+bn:00052559n	WN	A device for overcoming resistance at one point by applying force at some other point
+bn:00052559n	WIKI	A simple machine is a mechanical device that changes the direction or magnitude of a force.
+bn:00052559n	WIKIDIS	A mechanical device that changes the direction or magnitude of a force
+bn:00052559n	WIKIDATA	Device that changes the direction or magnitude of a force
+bn:00052559n	WIKT	A device that only requires the application of a single force to work.
+bn:00005956n	WN	A man-made object taken as a whole
+bn:00005956n	WIKI	An artifact or artefact is something made or given shape by man, such as a tool or a work of art, especially an object of archaeological interest.
+bn:00005956n	WIKIDIS	An object formed by humans, particularly one of interest to archaeologists
+bn:00005956n	WIKIDATA	Something made by humans and of archaeological interest
+bn:00005956n	OMWIKI	A man-made object taken as a whole.
+bn:00005956n	WIKT	An object, such as a tool, weapon or ornament, of archaeological or historical interest, especially such an object found at an archaeological excavation.
+bn:00012166n	WN	Footwear that covers the whole foot and lower leg
+bn:00012166n	WIKI	A boot is a type of footwear and a specific type of shoe.
+bn:00012166n	WIKI	Type of footwear extending above the ankle joint
+bn:00012166n	WIKIDATA	Type of shoe
+bn:00012166n	OMWIKI	A shoe that covers part of the leg.
+bn:00012166n	WIKT	A heavy shoe that covers part of the leg.
+bn:00012166n	WIKTLB	Heavy shoe that covers part of the leg.
+bn:00035729n	WN	Covering for a person's feet
+bn:00035729n	WIKI	Footwear refers to garments worn on the feet, which originally serves to purpose of protection against adversities of the environment, usually regarding ground textures and temperature.
+bn:00035729n	WIKIDATA	Garments worn on feet
+bn:00023370n	WN	An artifact that covers something else (usually to protect or shelter or conceal it)
+bn:00023370n	WIKT	That which covers something.
+bn:00023370n	WIKTLB	That which covers something.
+bn:00058343n	WN	A small (usually square or hexagonal) metal block with internal screw thread to be fitted onto a bolt
+bn:00058343n	WIKI	A nut is a type of fastener with a threaded hole.
+bn:00058343n	WIKIDIS	A metal object used for fastening
+bn:00058343n	WIKIDATA	Type of fastener with a threaded hole
+bn:00058343n	OMWIKI	Device that can be screwed on a bolt.
+bn:00058343n	WIKT	A fastener: a piece of metal, usually square or hexagonal in shape, with a hole through it having machined internal threads, intended to be screwed onto a bolt or other threaded shaft.
+bn:00011308n	WN	A solid piece of something (usually having flat rectangular sides)
+bn:00011308n	OMWIKI	A compact piece of substantial material, usually solid, especially when to be further processed and worked upon.
+bn:00011308n	WIKT	A substantial, often approximately cuboid, piece of any substance.
+bn:00020452n	WN	The psychological result of perception and learning and reasoning
+bn:00020452n	WIKI	Cognition is "the mental action or process of acquiring knowledge and understanding through thought, experience, and the senses".
+bn:00020452n	WIKI	Knowledge is a familiarity, awareness, or understanding of someone or something, such as facts, information, descriptions, or skills, which is acquired through experience or education by perceiving, discovering, or learning.
+bn:00020452n	WIKIDIS	Thought (as constituted by an "innate language")
+bn:00020452n	WIKIDIS	The body of facts, information, and skills acquired by a person through experience or education
+bn:00020452n	WIKIDATA	Familiarity, awareness, or understanding of someone or something (facts, information, descriptions, skills) which is acquired through experience or education by perceiving, discovering, or learning; theoretical or practical understanding of a subject
+bn:00020452n	WIKIDATA	The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.
+bn:00020452n	OMWIKI	The mental action or process of acquiring knowledge through thought, experience and senses.
+bn:00020452n	OMWIKI	The psychological result of perception and learning and reasoning.
+bn:00020452n	WIKT	The fact of knowing about something; general understanding or familiarity with a subject, place, situation etc.
+bn:00020452n	WIKT	The process of knowing.
+bn:00020452n	WIKTLB	Process of knowing.
+bn:00020452n	WIKIQU	Knowledge is what is known; the confident understanding of a subject, potentially with the ability to use it for a specific purpose.
+bn:00020452n	MSTERM	Information that can help an end-user or analyst solve a problem.
+bn:00020452n	FRAMENET	Familiarity with, awareness of facts and ideas acquired through experience or study.
+bn:00024511n	WN	A steady flow of a fluid (usually from natural causes)
+bn:00024511n	WIKI	A current in a fluid is the magnitude and direction of flow within that fluid.
+bn:00024511n	WIKIDIS	The flow of a liquid or a gas
+bn:00024511n	OMWIKI	A body of air, water, etc. that moves in a definite direction.
+bn:00024511n	WIKT	The part of a fluid that moves continuously in a certain direction.
+bn:00024511n	WIKT	Any steady flow or succession of material, such as water, air, radio signal or words.
+bn:00024511n	WIKTLB	Any steady flow or succession of material.
+bn:00035370n	WN	The motion characteristic of fluids (liquids or gases)
+bn:00035370n	WIKI	In physics and engineering, fluid dynamics is a subdiscipline of fluid mechanics that describes the flow of fluids.
+bn:00035370n	WIKIDIS	Energy of a flowing fluid related to pressure
+bn:00035370n	WIKIDATA	Subdiscipline of fluid mechanics that deals with fluid flow—the natural science of fluids (liquids and gases) in motion
+bn:00035370n	OMWIKI	The sub-discipline of fluid mechanics dealing with fluids (liquids and gases) in motion.
+bn:00035370n	OMWIKI	The flowing of a fluid.
+bn:00035370n	WIKT	Menstruation fluid
+bn:00035370n	MSTERM	Any of the different members of the Flow dimension.
+bn:14265130n	WIKIDATA	Materially relevant topics that are the subject of a substantive specialization
+bn:00028639n	WN	A representation of forms or objects on a surface by means of lines
+bn:00028639n	WIKI	Drawing is a form of visual art in which a person uses various drawing instruments to mark paper or another two-dimensional medium.
+bn:00028639n	WIKIDATA	Visual artwork in two-dimensional medium
+bn:00028639n	OMWIKI	The visual representation of a person or an object.
+bn:00028639n	WIKT	Such acts practiced as a graphic art form.
+bn:00028639n	WIKT	The art of designing.
+bn:00028639n	WIKTLB	Graphic art form.
+bn:00054149n	WN	A means or instrumentality for storing or communicating information
+bn:00054149n	WIKI	Media are the collective communication outlets or tools used to store and deliver information or data.
+bn:00054149n	WIKIDIS	Tools used to store and deliver information or data
+bn:00054149n	WIKIDATA	Storage and delivering agent of information or data
+bn:00054149n	OMWIKI	Storage and transmission tools used to store and deliver information or data.
+bn:00054149n	WIKT	A format for communicating or presenting information.
+bn:00054149n	WIKT	Means and institutions for publishing and broadcasting information.
+bn:00054149n	WIKTLB	Means and institutions for publishing and broadcasting information.
+bn:00054149n	MSTERM	The physical material, such as paper, disk, and tape, used for storing computer-based information.
+bn:00046705n	WN	Knowledge acquired through study or experience or instruction
+bn:00046705n	WIKI	Information is any entity or form that resolves uncertainty or provides the answer to a question of some kind.
+bn:00046705n	WIKIDATA	That which informs; the answer to a question of some kind; that from which data and knowledge can be derived.
+bn:00046705n	OMWIKI	All facts, ideas or imaginative works of the mind which have been communicated, published or distributed formally or informally in any format, or the knowledge that is communicated or received.
+bn:00046705n	WIKT	Things that are or can be known about a given topic; communicable knowledge of something.
+bn:00046705n	WIKIQU	Information is the result of processing, manipulating and organizing data in a way that adds to the knowledge of the person receiving it.
+bn:00529445n	WIKI	A substellar object, sometimes called a substar, is an astronomical object whose mass is smaller than the smallest mass at which hydrogen fusion can be sustained.
+bn:00529445n	WIKIDATA	Astronomical object whose mass is smaller than the smallest mass at which a star can sustain hydrogen fusion
+bn:00529445n	WIKT	A substellar object.
+bn:00048646n	WN	The largest planet and the 5th from the sun; has many satellites and is one of the brightest objects in the night sky
+bn:00048646n	WIKI	Jupiter is the fifth planet from the Sun and the largest in the Solar System.
+bn:00048646n	WIKIDIS	The sixth planet from the Earth in the Ptolemaic geocentric cosmology
+bn:00048646n	WIKIDATA	Fifth planet from the Sun and largest planet in the Solar System
+bn:00048646n	OMWIKI	The fifth planet (counted from the center) of our solar system.
+bn:00048646n	WIKT	The study of the planet Jupiter.
+bn:00048646n	WIKT	An alternate name for the planet Jupiter.
+bn:00048646n	WIKIQU	Jupiter is the fifth planet from the Sun and the largest planet in the Solar System.
+bn:00052888n	WN	(astronomy) any of the nine large celestial bodies in the solar system that revolve around the sun and shine by reflected light; Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto in order of their proximity to the sun; viewed from the constellation Hercules, all the planets rotate around the sun in a counterclockwise direction
+bn:00052888n	WIKI	A planet is an astronomical body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity, is not massive enough to cause thermonuclear fusion, and has cleared its neighbouring region of planetesimals.
+bn:00052888n	WIKIDATA	Celestial body orbiting a star or stellar remnant
+bn:00052888n	OMWIKI	A large, heavy body, which does not produce energy by nuclear fusion, moving in a stable elliptical orbit around a star.
+bn:00052888n	WIKT	A large body which directly orbits any star but which has not attained nuclear fusion.
+bn:00052888n	WIKT	Any of the 8 celestial bodies which orbit the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.
+bn:00052888n	WIKT	A planet viewed as a satellite of another object, such as another star; an exoplanet.
+bn:00052888n	WIKTLB	Rocky or gaseous spherical bodies orbiting the Sun.
+bn:00052888n	WIKIQU	Planet is an astronomical object orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity, is not massive enough to cause thermonuclear fusion, and has cleared its neighbouring region of planetesimals.
+bn:15769614n	WIKIDATA	Planetary-mass object
+bn:00055813n	WN	Any natural satellite of a planet
+bn:00055813n	WIKI	A natural satellite or moon is, in the most common usage, an astronomical body that orbits a planet or minor planet.
+bn:00055813n	WIKIDIS	Of a planet or other celestial body
+bn:00055813n	WIKIDATA	Celestial body that orbits a planet or smaller body
+bn:00055813n	OMWIKI	More than one moon.
+bn:00055813n	OMWIKI	A natural satellite of a planet.
+bn:00055813n	WIKT	Any natural satellite of a planet.
+bn:00055813n	WIKTLB	Any substantially sized natural satellite of a planet.
+bn:16822386n	WIKIDATA	City with a population of more than 1,000,000
+bn:03268880n	WIKI	Phoenix is the capital and most populous city of the U.S. state of Arizona.
+bn:03268880n	WIKIDATA	Capital city of state of Arizona, United States; county seat of Maricopa County, Arizona
+bn:03268880n	OMWIKI	The largest city and capital of the state of Arizona.
+bn:03268880n	WIKT	A taxonomic genus within the family Arecaceae – the date palms.
+bn:03268880n	WIKTLB	Capital city of Arizona, United States.
+bn:03268880n	WIKIQU	Phoenix is the capital, and largest city, of the State of Arizona.
+bn:00009674n	WN	Capital of the People's Republic of China in the Hebei province in northeastern China; 2nd largest Chinese city
+bn:00009674n	WIKI	Beijing, formerly romanized as Peking, is the capital of the People's Republic of China, the world's second most populous city proper, and most populous capital city.
+bn:00009674n	WIKI	Beiping or Peiping, meaning "Northern Peace" in Chinese, is a former name of Beijing, which means "Northern Capital".
+bn:00009674n	WIKIDIS	Or Beijing Municipality, the capital of the People's Republic of China
+bn:00009674n	WIKIDATA	Name of Beijing
+bn:00009674n	WIKIDATA	Capital city of China
+bn:00009674n	OMWIKI	The capital of the People's Republic of China. Literally "Northern Capital". The political and cultural center of China, with a history of more than 3000 years.
+bn:00009674n	WIKT	The capital of the People's Republic of China.
+bn:00009674n	WIKT	Beijing.
+bn:00009674n	WIKTLB	Capital of China.
+bn:00076248n	WN	Animal or plant group having natural relations
+bn:00076248n	WIKI	In biology, a taxon is a group of one or more populations of an organism or organisms seen by taxonomists to form a unit.
+bn:00076248n	WIKIDATA	Group of one or more organism(s), which a taxonomist adjudges to be a unit
+bn:00076248n	OMWIKI	Name for a group of organisms that form a systematic unit, e.g. species, genus.
+bn:00003357n	WN	Large shaggy-haired brown bison of North American plains
+bn:00003357n	WIKI	The American bison or simply bison, also commonly known as the American buffalo or simply buffalo, is a North American species of bison that once roamed the grasslands of North America in massive herds.
+bn:00003357n	WIKIDIS	Tatanka in the Lakota language
+bn:00003357n	WIKIDATA	Species of even-toed ungulates
+bn:00003357n	OMWIKI	A wild heavy bison of the species Bison bison, having a broad massive horned head.
+bn:00003357n	WIKT	A related North American animal, the American bison, Bison bison.
+bn:00003357n	WIKT	A bovine mammal, a species of bison, Bison bison.
+bn:00009342n	WN	Massive plantigrade carnivorous or omnivorous mammals with long shaggy coats and strong claws
+bn:00009342n	WIKI	Bears are carnivoran mammals of the family Ursidae.
+bn:00009342n	WIKIDIS	In Latin ursus
+bn:00009342n	WIKIDATA	Family of mammals
+bn:00009342n	OMWIKI	A large beast of prey of the family Ursidae, related to the dog and raccoon, having shaggy hair, a very small tail, and flat feet.
+bn:00009342n	WIKT	A large omnivorous mammal, related to the dog and raccoon, having shaggy hair, a very small tail, and flat feet; a member of family Ursidae.
+bn:00009342n	WIKT	Any mammal of the family Ursidae; the bears.
+bn:00009342n	WIKTLB	Large mammal of family Ursidae.
+bn:00009342n	WIKIQU	Bears are mammals of the family Ursidae.
+bn:00006125n	WN	A covering designed to be worn on a person's body
+bn:00006125n	WIKI	Clothing is a collective term for garments, items worn on the body.
+bn:00006125n	WIKIDATA	Fiber and textile material worn on the human body
+bn:00006125n	OMWIKI	Clothes considered as a group.
+bn:00006125n	OMWIKI	A single item of clothing.
+bn:00006125n	OMWIKI	All coverings designed to be worn on a person's body.
+bn:00006125n	WIKT	A single item of clothing.
+bn:00006125n	WIKT	Clothing.
+bn:00006125n	WIKT	Something that can be worn; an item of clothing.
+bn:00006125n	WIKT	Clothes.
+bn:00006125n	WIKT	(in combination) clothing.
+bn:00006125n	WIKT	Clothing, garments, dress, material.
+bn:00006125n	WIKT	Clothes, possessions or equipment.
+bn:00006125n	WIKT	A covering of or like clothing.
+bn:00006125n	WIKT	An act or instance of putting clothes on.
+bn:00006125n	WIKTLB	Clothes, possessions or equipment.
+bn:00006125n	WIKIQU	Clothing is material used to cover parts of the human body for protection against the environment, for comfort and body modesty, and as personal decoration, often reflecting religious, cultural, and social customs.
+bn:00222845n	WIKI	A fashion accessory is an item used to contribute, in a secondary manner, to the wearer's outfit, often used to complete an outfit and chosen to specifically complement the wearer's look.
+bn:00222845n	WIKIDIS	I.e. an item used to complement a fashion or style
+bn:00222845n	WIKIDATA	Item which is used to contribute to the wearer''s outfit
+bn:00015398n	WN	A tight-fitting headdress
+bn:00015398n	WIKI	A cap is a form of headgear.
+bn:00015398n	WIKIDATA	Brimless head covering, sometimes made with a visor
+bn:00015398n	OMWIKI	A usually soft and close-fitting head covering, either having no brim or with a visor.
+bn:00015398n	WIKT	A close-fitting head covering either without a brim or with a peak.
+bn:00023236n	WN	The people who live in a nation or country
+bn:00023236n	WN	A politically organized body of people under a single government
+bn:00023236n	WIKI	A state is a compulsory political organization with a centralized government that maintains a monopoly of the legitimate use of force within a certain geographical territory.
+bn:00023236n	WIKI	A sovereign state is, in international law, a nonphysical juridical entity that is represented by one centralized government that has sovereignty over a geographic area.
+bn:00023236n	WIKI	A nation is a stable community of people, formed on the basis of a common language, territory, economic life, ethnicity or psychological make-up manifested in a common culture.
+bn:00023236n	WIKIDIS	An organized political community, living under a government
+bn:00023236n	WIKIDIS	The opposite of secession
+bn:00023236n	WIKIDIS	As its original Latin term
+bn:00023236n	WIKIDATA	Community of people who share a common language, culture, ethnicity, descent, or history
+bn:00023236n	WIKIDATA	Organised community living under a system of government; either a sovereign state, constituent state, or federated state
+bn:00023236n	WIKIDATA	Political organisation with a centralized independent government
+bn:00023236n	OMWIKI	A political entity asserting ultimate authority over a geographical area.
+bn:00023236n	OMWIKI	The geographic area under the control of a political state.
+bn:00023236n	OMWIKI	A people permanently occupying a fixed territory bound together by common law, habits and custom into one body politic exercising, through the medium of an organized government, independent sovereignty and control over all persons and things within its boundaries, unless or until authority is ceded to a federation or union of other states.
+bn:00023236n	WIKT	The territory of a nation, especially an independent nation state or formerly independent nation; a political entity asserting ultimate authority over a geographical area.
+bn:00023236n	WIKT	Pronunciation spelling of government, representing dialectal English.
+bn:00023236n	WIKT	Government.
+bn:00023236n	WIKT	A sovereign state.
+bn:00023236n	WIKT	The collective body of a nation or state as exercising political functions.
+bn:00023236n	WIKIQU	Nations is often used synonymously with ethnic group, but although ethnicity is now one of the most important aspects of cultural or social identity for the members of most nations, people with the same ethnic origin may live in different nation-states and be treated as members of separate nations for that reason.
+bn:00026684n	WN	A republic in central Europe; split into East Germany and West Germany after World War II and reunited in 1990
+bn:00026684n	WIKI	Germany, officially the Federal Republic of Germany, is a federal parliamentary republic in central-western Europe.
+bn:00026684n	WIKIDIS	Also called Berlin Republic
+bn:00026684n	WIKIDATA	Country in central Europe
+bn:00026684n	OMWIKI	A central European country, with capital Berlin.
+bn:00026684n	WIKT	The country in Central Europe of which Berlin is the current and historical capital city. Current official name: Federal Republic of Germany (Bundesrepublik Deutschland).
+bn:00026684n	WIKTLB	Country in Central Europe.
+bn:00026684n	WIKIQU	Germany, officially the Federal Republic of Germany, is a sovereign country located in Eurasia.
+bn:00010203n	WN	A republic in the Asian subcontinent in southern Asia; second most populous country in the world; achieved independence from the United Kingdom in 1947
+bn:00010203n	WIKI	India, officially the Republic of India, is a country in South Asia.
+bn:00010203n	WIKIDIS	Nelumbo nucifera. It is one of the names of the mythological character Krishna. Aravindāksha, "lotus-eyed", appears as the 347th name of the Vishnu sahasranama. The variant spelling Aravind is more popular in North India. Aravindha is an uncommon variant and Arvindh is very rare.
+bn:00010203n	WIKIDATA	Country in South Asia
+bn:00010203n	WIKIDATA	Federal republic in southern Asia
+bn:00010203n	OMWIKI	A country in South Asia, with the capital New Delhi.
+bn:00010203n	WIKT	India: the Republic of India.
+bn:00010203n	WIKT	The letter I in the ICAO spelling alphabet.
+bn:00010203n	WIKT	The official name of India.
+bn:00010203n	WIKTLB	An alternative name of India.
+bn:00010203n	WIKIQU	India is a country on the Asian continent.

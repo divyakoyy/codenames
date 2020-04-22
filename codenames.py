@@ -36,7 +36,8 @@ blacklist = set([
 class Game(object):
     def __init__(
         self, ann_graph_path=None, num_emb_batches=22, emb_type="custom", emb_size=200, file_dir=None,
-        verbose=False, visualize=False, synset_labels_file=None
+        verbose=False, visualize=False, synset_labels_file=None,
+        synset_main_sense_file=None, synset_senses_file=None, synset_glosses_file=None,
     ):
         """
         Variables:
@@ -58,8 +59,12 @@ class Game(object):
         self.verbose = verbose
         self.visualize = visualize
         self.file_dir = file_dir
-        self.synset_labels_file = synset_labels_file
-        self.synset_to_labels = self.load_synset_labels(synset_labels_file)
+        # self.synset_labels_file = synset_labels_file
+        # self.synset_to_labels = self.load_synset_labels()
+        self.synset_main_sense_file = synset_main_sense_file
+        self.synset_senses_file = synset_senses_file
+        self.synset_glosses_file = synset_glosses_file
+        self.synset_to_main_sense = self.load_synset_labels_v5()
 
         # pre-process
 
@@ -143,8 +148,8 @@ class Game(object):
             sliced_labels = self.synset_to_labels[synset]
         return sliced_labels
 
-    def load_synset_labels(self, synset_labels_file):
-        if not os.path.exists(synset_labels_file):
+    def load_synset_labels(self):
+        if not os.path.exists(self.synset_labels_file):
             return {}
         synset_to_labels = {}
         with open(self.synset_labels_file, 'r') as f:
@@ -193,6 +198,70 @@ class Game(object):
             for r in res.json()['results']['bindings']
         ]
         return labels
+
+    def get_cached_labels_from_synset_v5(self, synset):
+        """This actually gets the main_sense but also writes all senses/glosses"""
+        if synset not in self.synset_to_main_sense:
+            labels_json = self.get_labels_from_synset_v5_json(synset)
+            self.write_synset_labels_v5(synset, labels_json)
+            main_sense = labels_json['mainSense']
+            self.synset_to_main_sense[synset] = main_sense
+            # filtered_labels = [label for label in labels if len(label.split("_")) == 1 or label.split("_")[1][0] == '(']
+            # sliced_labels = self.get_random_n_labels(filtered_labels, 3) or synset
+            # self.synset_to_labels[synset] = sliced_labels
+        else:
+            # sliced_labels = self.synset_to_labels[synset]
+            main_sense = self.synset_to_main_sense[synset]
+        return main_sense
+
+    def load_synset_labels_v5(self):
+        """Load synset_to_main_sense"""
+        if not os.path.exists(self.synset_main_sense_file):
+            return {}
+        synset_to_main_sense = {}
+        with open(self.synset_main_sense_file, 'r') as f:
+            for line in f:
+                parts = line.strip().split("\t")
+                synset, main_sense = parts[0], parts[1]
+                synset_to_main_sense[synset] = main_sense
+        return synset_to_main_sense
+
+    def write_synset_labels_v5(self, synset, json):
+        """Write to synset_main_sense_file, synset_senses_file, and synset_glosses_file"""
+        with open(self.synset_main_sense_file, 'a') as f:
+            main_sense = json['mainSense']
+            f.write('\t'.join([synset, main_sense]) + "\n")
+
+        with open(self.synset_senses_file, 'a') as f:
+            for sense in json['senses']:
+                properties = sense['properties']
+                line = [
+                    synset,
+                    properties['fullLemma'],
+                    properties['simpleLemma'],
+                    properties['source'],
+                    properties['pos'],
+                ]
+                f.write('\t'.join(line) + "\n")
+
+        with open(self.synset_glosses_file, 'a') as f:
+            for gloss in json['glosses']:
+                line = [
+                    synset,
+                    gloss['source'],
+                    gloss['gloss'],
+                ]
+                f.write('\t'.join(line) + "\n")
+
+    def get_labels_from_synset_v5_json(self, synset):
+        url = 'https://babelnet.io/v5/getSynset'
+        params = {
+            'id': synset,
+            'key': 'e3b6a00a-c035-4430-8d71-661cdf3d5837'
+        }
+        headers = {'Accept-Encoding': 'gzip'}
+        res = requests.get(url=url, params=params, headers=headers)
+        return res.json()
 
     def get_babelnet_results(self, word, i):
         url = "https://babelnet.org/sparql/"
@@ -622,13 +691,15 @@ class Game(object):
                 # path goes from source (word in word_set) to target (clue)
                 shortest_path_labels = []
                 for synset in shortest_path:
-                    sliced_labels = self.get_cached_labels_from_synset(synset)
                     # sliced_labels = self.get_random_n_labels(labels, 3) or synset
-                    shortest_path_labels.append(sliced_labels)
+                    # sliced_labels = self.get_cached_labels_from_synset(synset)
+                    main_sense = self.get_cached_labels_from_synset_v5(synset)
+                    shortest_path_labels.append(main_sense)
 
-                sliced_clue_labels = self.get_cached_labels_from_synset(clue)
                 # sliced_clue_labels = self.get_random_n_labels(clue_labels, 5) or clue
-                print ("shortest path from",word,"to clue", clue, sliced_clue_labels,shortest_path_labels)
+                # sliced_clue_labels = self.get_cached_labels_from_synset(clue)
+                main_sense = self.get_cached_labels_from_synset_v5(clue)
+                print ("shortest path from", word, "to clue", clue, main_sense, shortest_path_labels)
                 nx.add_path(G, shortest_path_labels)
 
         nx.draw(G, with_labels=True)
@@ -661,9 +732,10 @@ class Game(object):
         best_score, clue = heapq.heappop(pq)
         best_clues.append(clue)
         best_scores.append(best_score)
-        sliced_labels = self.get_cached_labels_from_synset(clue)
         # sliced_labels = self.get_random_n_labels(labels, 5) or clue
-        best_clues_labels.append(sliced_labels)
+        # sliced_labels = self.get_cached_labels_from_synset(clue)
+        main_sense = self.get_cached_labels_from_synset_v5(clue)
+        best_clues_labels.append(main_sense)
 
         if self.visualize:
             self.get_intersecting_graphs(word_set_for_best_clue, clue)
@@ -734,12 +806,18 @@ class Game(object):
 
 if __name__ == "__main__":
     file_dir = '/Users/annaysun/codenames/babelnet_v4/'
-    synset_labels_file = 'synset_to_labels.txt'
+    # synset_labels_file = 'synset_to_labels.txt'
+    synset_main_sense_file = 'synset_to_main_sense.txt'
+    synset_senses_file = 'synset_to_senses.txt'
+    synset_glosses_file = 'synset_to_glosses.txt'
     game = Game(
         verbose=False,
         visualize=True,
         file_dir=file_dir,
-        synset_labels_file=file_dir + synset_labels_file
+        # synset_labels_file=file_dir+synset_labels_file,
+        synset_main_sense_file=file_dir+synset_main_sense_file,
+        synset_senses_file=file_dir+synset_senses_file,
+        synset_glosses_file=file_dir+synset_glosses_file,
     )
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
@@ -775,16 +853,16 @@ if __name__ == "__main__":
         # ["buffalo", "diamond", "kid", "witch", "swing"],
         # ["gas", "circle", "king", "unicorn", "cliff"],
         # ["lemon", "death", "conductor", "litter", "car"],
-        ['key', 'piano', 'lab', 'school', 'lead'],
-        ['whip', 'tube', 'vacuum', 'lab', 'moon'],
-        ['change', 'litter', 'scientist', 'worm', 'row'],
-        ['boot', 'figure', 'cricket', 'ball', 'nut'],
-        ['bear', 'figure', 'swing', 'shark', 'stream'],
-        # ["jupiter", "moon"], #"pipe", "racket", "bug"],
-        # ["phoenix", "beijing"], #"play", "table", "cloak"],
-        # ["bear", "bison"], #"diamond", "witch", "swing"],
-        # ["cap", "boot"], #"circle", "unicorn", "cliff"],
-        # ["india", "germany"], #"death", "litter", "car"],
+        # ['key', 'piano', 'lab', 'school', 'lead'],
+        # ['whip', 'tube', 'vacuum', 'lab', 'moon'],
+        # ['change', 'litter', 'scientist', 'worm', 'row'],
+        # ['boot', 'figure', 'cricket', 'ball', 'nut'],
+        # ['bear', 'figure', 'swing', 'shark', 'stream'],
+        ["jupiter", "moon"], #"pipe", "racket", "bug"],
+        ["phoenix", "beijing"], #"play", "table", "cloak"],
+        ["bear", "bison"], #"diamond", "witch", "swing"],
+        ["cap", "boot"], #"circle", "unicorn", "cliff"],
+        ["india", "germany"], #"death", "litter", "car"],
     ]
 
     for i, (red, blue) in enumerate(zip(red_words, blue_words)):
