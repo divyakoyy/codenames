@@ -12,6 +12,7 @@ import numpy as np
 # from annoy import AnnoyIndex
 import networkx as nx
 from networkx.exception import NodeNotFound
+from networkx.drawing.nx_agraph import write_dot, graphviz_layout
 from nltk.corpus import wordnet as wn
 
 from tqdm import tqdm
@@ -130,19 +131,19 @@ class Game(object):
         if blue is not None:
             self.blue_words = set(blue)
 
-    def get_random_n_labels(self, labels, n):
+    def get_random_n_labels(self, labels, n, delimiter=" "):
         if len(labels) > 0:
             rand_indices = list(range(len(labels)))
             random.shuffle(rand_indices)
-            return " ".join([labels[i] for i in rand_indices[:n]])
+            return delimiter.join([labels[i] for i in rand_indices[:n]])
         return None
 
-    def get_cached_labels_from_synset(self, synset):
+    def get_cached_labels_from_synset(self, synset, delimiter=" "):
         if synset not in self.synset_to_labels:
             labels = self.get_labels_from_synset(synset)
             self.write_synset_labels(synset, labels)
             filtered_labels = [label for label in labels if len(label.split("_")) == 1 or label.split("_")[1][0] == '(']
-            sliced_labels = self.get_random_n_labels(filtered_labels, 3) or synset
+            sliced_labels = self.get_random_n_labels(filtered_labels, 3, delimiter) or synset
             self.synset_to_labels[synset] = sliced_labels
         else:
             sliced_labels = self.synset_to_labels[synset]
@@ -697,16 +698,44 @@ class Game(object):
                     shortest_path_labels.append(main_sense)
 
                 # sliced_clue_labels = self.get_random_n_labels(clue_labels, 5) or clue
-                # sliced_clue_labels = self.get_cached_labels_from_synset(clue)
+                # sliced_clue_labels = self.get_cached_labels_from_synset(clue, delimiter="\n")
                 main_sense = self.get_cached_labels_from_synset_v5(clue)
                 print ("shortest path from", word, "to clue", clue, main_sense, shortest_path_labels)
-                nx.add_path(G, shortest_path_labels)
+                # nx.add_path(G, shortest_path_labels)
 
-        nx.draw(G, with_labels=True)
+                formatted_labels = [label.replace(' ', '\n') for label in shortest_path_labels]
+                formatted_labels.reverse()
+                nx.add_path(G, formatted_labels)
+
+        write_dot(G, 'test.dot')
+        pos = graphviz_layout(G, prog='dot')
+
+        plt.figure()
+        options = {
+            'node_color': 'black',
+            'node_size': 50,
+            'alpha':0.6,
+            'line_color': 'grey',
+            'font_color':'black',
+            'linewidths': 0,
+            'width': 0.1,
+            'pos': pos,
+            'with_labels':True,
+            'font_size':6.5,
+        }
+        nx.draw(G, **options)
+
         if not os.path.exists('intersection_graphs'):
             os.makedirs('intersection_graphs')
         filename = 'intersection_graphs/' + ('_').join([word for word in word_set]) + '.png'
-        plt.savefig(filename)
+        # margins
+        plot_margin = 0.25
+        x0, x1, y0, y1 = plt.axis()
+        plt.axis((x0 - plot_margin,
+                  x1 + plot_margin,
+                  y0 - plot_margin,
+                  y1 + plot_margin))
+        plt.savefig(filename, dpi=300)
         plt.close()
 
     def get_clue(self, n, penalty):
