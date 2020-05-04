@@ -276,3 +276,435 @@ bn:00010203n	WIKT	The letter I in the ICAO spelling alphabet.
 bn:00010203n	WIKT	The official name of India.
 bn:00010203n	WIKTLB	An alternative name of India.
 bn:00010203n	WIKIQU	India is a country on the Asian continent.
+bn:00062568n	WN	A long tube made of metal or plastic that is used to carry water or oil or gas etc.
+bn:00062568n	WIKI	Within industry, piping is a system of pipes used to convey fluids from one location to another.
+bn:00062568n	WIKI	A pipe is a tubular section or hollow cylinder, usually but not necessarily of circular cross-section, used mainly to convey substances which can flow — liquids and gases, slurries, powders and masses of small solids.
+bn:00062568n	WIKI	System of pipes used to transport fluids (gases, liquids or pourable or pumpable solids) from one location to another;high-performance (high-pressure, high-flow, high-temperature or hazardous-material) conveyance of fluids in specialized applications
+bn:00062568n	WIKIDIS	A hollow cylinder following certain dimension rules
+bn:00062568n	WIKIDATA	Used to transport fluids (gases, liquids or pourable or pumpable solids)
+bn:00062568n	WIKIDATA	Tubular section or hollow cylinder
+bn:00062568n	OMWIKI	A rigid tube that transports water, steam or other fluid, as used in plumbing and numerous other applications.
+bn:00062568n	OMWIKI	Duct for conveying water to a given place.
+bn:00062568n	WIKT	A rigid tube that transports water, steam, or other fluid, as used in plumbing and numerous other applications.
+bn:00062568n	WIKT	Plumbing, a system of pipes.
+bn:00062568n	WIKT	A pipe, tube or canal which carries gas or liquid from one place to another.
+bn:00062568n	WIKT	Any system of pipes or tubes; piping.
+bn:00062568n	WIKT	A system of pipes that compose a structure; pipework.
+bn:00062568n	WIKTLB	A pipe, tube or canal which carries air or liquid from one place to another.
+bn:00013698n	WN	A fault or defect in a computer program, system, or machine
+bn:00013698n	WIKI	A software bug is an error, flaw, failure or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.
+bn:00013698n	WIKI	A glitch is a short-lived fault in a system, such as a transient fault that corrects itself, making it difficult to troubleshoot.
+bn:00013698n	WIKIDIS	A failure of computer software to meet requirements
+bn:00013698n	WIKIDATA	Short-lived fault in a system
+bn:00013698n	WIKIDATA	Error, flaw, failure, or fault in a computer program or system that produces an incorrect or unexpected result, or causes it to behave in unintended ways
+bn:00013698n	OMWIKI	A problem in computer software or hardware or in electronic hardware in general.
+bn:00013698n	MSTERM	A type of work item that records a potential source of dissatisfaction with the product. The common name of a work item type for tracking code defects.
+bn:00013698n	MSTERM	A recurring physical problem that prevents a system or set of components from working together properly. While the origin of this definition is in some dispute, computer folklore attributes the first use of bug in this sense to a problem in the Harvard Mark I or the Army/University of Pennsylvania ENIAC that was traced to a moth caught between the contacts of a relay in the machine (although a moth is not entomologically a true bug).
+bn:00013698n	MSTERM	An error in coding or logic that causes a program to malfunction or to produce incorrect results.
+bn:00031485n	WN	A wrong action attributable to bad judgment or ignorance or inattention
+bn:00031485n	WIKI	== Human behavior ==
+bn:00031485n	WIKIDATA	Deviation from what is correct
+bn:00031485n	OMWIKI	Wrong or considered mistaken action.
+bn:00031485n	OMWIKI	An incorrect action not made deliberately.
+bn:00031485n	OMWIKI	A wrong action attributable to bad judgment or ignorance or inattention.
+bn:00031485n	WIKT	An error; a blunder.
+bn:00031485n	WIKT	A mistake; an accidental wrong action or a false statement not made deliberately.
+bn:00031485n	WIKTLB	An error.
+bn:00031485n	WIKIQU	Mistakes are avoidable occurances wherein a person unintentionally does something that causes an unfortunate result.
+bn:00031485n	MSTERM	A programming error that can cause the software to fail.
+bn:00028604n	WN	A dramatic work intended for performance by actors on a stage
+bn:00028604n	WIKI	A play is a form of literature written by a playwright, usually consisting of dialogue between characters, intended for theatrical performance rather than just reading.
+bn:00028604n	WIKIDIS	Structured literary form of theatre
+bn:00028604n	WIKIDATA	Form of literature intended for theatrical performance
+bn:00028604n	WIKT	A theatrical performance featuring actors.
+bn:00028604n	WIKT	Theatrical plays in general.
+bn:00068373n	WN	A gambling game in which players bet on which compartment of a revolving wheel a small ball will come to rest in
+bn:00068373n	WIKI	Roulette is a casino game named after the French word meaning little wheel.
+bn:00068373n	WIKIDATA	Game of chance
+bn:00068373n	WIKT	A game of chance, in which a small ball is made to move round rapidly on a circle divided off into numbered red and black spaces, the one on which it stops indicating the result of a variety of wagers permitted by the game.
+bn:00037180n	WN	A contest with rules to determine a winner
+bn:00037180n	WIKI	A game is a structured form of play, usually undertaken for enjoyment and sometimes used as an educational tool.
+bn:00037180n	WIKIDATA	Entertainment, activity; structured playing, usually undertaken for enjoyment
+bn:00037180n	OMWIKI	A pursuit or activity with rules performed either alone or with others, for the purpose of entertainment.
+bn:00037180n	WIKT	An activity described by a set of rules, especially for the purpose of entertainment, often competitive or having an explicit goal.
+bn:00037180n	WIKIQU	Games are activities involving structured playing, usually undertaken for enjoyment and sometimes used as an educational tool.
+bn:00037180n	MSTERM	A class of computer program in which one or more users interact with the computer as a form of entertainment. Computer games run the gamut from simple alphabet games for toddlers to chess, treasure hunts, war games, and simulations of world events. The games are controlled from a keyboard or with a joystick or other device and are supplied on disks, on CD-ROMs, as game cartridges, on the Internet, or as arcade devices.
+bn:00019767n	WN	A steep high face of rock
+bn:00019767n	WIKI	In geography and geology, a cliff is a vertical, or nearly vertical, rock exposure.
+bn:00019767n	WIKIDIS	A significant vertical, or near vertical, rock exposure
+bn:00019767n	WIKIDATA	Significant vertical, or near vertical, rock exposure
+bn:00019767n	WIKT	A vertical rock face.
+bn:00019767n	WIKT	An exposed, roughly vertical expanse of rock.
+bn:00019767n	WIKTLB	Expanse of rock.
+bn:00079075n	WN	An imaginary creature represented as a white horse with a long horn growing from its forehead
+bn:00079075n	WIKI	The unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead.
+bn:00079075n	WIKIDATA	Legendary animal, that looks like a horse with a horn on the forehead
+bn:00079075n	OMWIKI	A mythical animal in the form of a horse, with a single twisted horn on the forehead.
+bn:00079075n	WIKT	A mythical beast resembling a horse or deer with a single, straight, spiraled horn projecting from its forehead.
+bn:00079075n	WIKIQU	Unicorns are legendary and mythical animals, which in European folklore usually resemble a horse with a large, pointed, spiraling horn projecting from its forehead, and sometimes a goat's beard and cloven hooves.
+bn:01260252n	WIKI	In physics and electrical engineering, a conductor is an object or type of material that allows the flow of an electrical current in one or more directions.
+bn:01260252n	WIKIDIS	An object allowing the flow of electric charge
+bn:01260252n	WIKIDATA	Object or material which permits the flow of electricity
+bn:01260252n	OMWIKI	Material that allows the flow of an electric charge.
+bn:16563113n	WIKI	Diamond is a solid form of carbon with a diamond cubic crystal structure.
+bn:16563113n	WIKIDIS	Used as an abrasive
+bn:16563113n	WIKIDATA	Allotrope of carbon
+bn:16563113n	OMWIKI	A very hard native crystalline carbon.
+bn:16563113n	WIKT	A glimmering glass-like mineral that is an allotrope of carbon in which each atom is surrounded by four others in the form of a tetrahedron.
+bn:16563113n	WIKIQU	Diamond is a metastable allotrope of carbon, where the carbon atoms are arranged in a variation of the face-centered cubic crystal structure called a diamond lattice.
+bn:00010660n	WN	A city in central England; 2nd largest English city and an important industrial and transportation center
+bn:00010660n	WIKI	Brummagem is the local name for the city of Birmingham, England, and the dialect associated with it.
+bn:00010660n	WIKI	Birmingham is a city and metropolitan borough in the West Midlands of England, standing on the small River Rea.
+bn:00010660n	WIKIDIS	A colloquial name for Birmingham, England or the Birmingham dialect
+bn:00010660n	WIKIDIS	With a population estimated at 3,683,000 in 2001
+bn:00010660n	WIKIDATA	Major city in England
+bn:00010660n	OMWIKI	A city and metropolitan borough in the West Midlands, England.
+bn:00010660n	WIKT	A city and metropolitan borough in the West Midlands of England, with a population of over one million.
+bn:00010660n	WIKTLB	City and borough in England.
+bn:00021678n	WN	The person who leads a musical group
+bn:00021678n	WIKIDATA	Person who directs a musical group during a performance
+bn:00021678n	OMWIKI	A person who directs and guides a musical performance through visual language.
+bn:00006182n	WN	A person whose creative work shows sensitivity and imagination
+bn:00006182n	WIKI	An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art. The common usage in both everyday speech and academic discourse is a practitioner in the visual arts only.
+bn:00006182n	WIKIDATA	Person who engages in creating art, practicing the arts, and/or demonstrating an art
+bn:00006182n	WIKIDATA	Person who creates, practises and/or demonstrates any art
+bn:00006182n	OMWIKI	A person with creative talent who produces artworks.
+bn:00006182n	WIKT	A person who creates art as an occupation.
+bn:00006182n	WIKTLB	Person who creates art as an occupation
+bn:00021961n	WN	A phenomenon that follows and is caused by some previous phenomenon
+bn:00021961n	WIKI	A result is the final consequence of a sequence of actions or events expressed qualitatively or quantitatively.
+bn:00021961n	WIKI	In game theory, an outcome is a situation which results from a combination of player's strategies.
+bn:00021961n	WIKIDIS	The final consequence of a sequence of actions or events
+bn:00021961n	WIKIDIS	The result of players' decisions in game theory
+bn:00021961n	WIKIDATA	Final consequence of a sequence of actions or events
+bn:00021961n	OMWIKI	Condition that which follows something on which it depends.
+bn:00021961n	OMWIKI	The result or outcome of a cause. Effects include: a) direct effects, which are caused by the action and occur at the same time and place, b) indirect effects, which are caused by the action and are later in time or farther removed in distance, that are still reasonably foreseeable. 
+bn:00021961n	WIKT	That which follows something on which it depends; that which is produced by a cause.
+bn:00021961n	WIKT	The result or outcome of a cause. See usage notes below.
+bn:00021961n	WIKT	The final result, or outcome of something.
+bn:00021961n	WIKT	A positive result or consequence.
+bn:00021961n	WIKTLB	That which follows something on which it depends; that which is produced by a cause.
+bn:00021961n	MSTERM	A field on the Partner Details form that allows the user to select the result of a sales opportunity.
+bn:00062569n	WN	A tube with a small bowl at one end; used for smoking tobacco
+bn:00062569n	WIKI	A smoking pipe is a device made to allow the user to inhale or taste smoke or vapor derived from the burning or vaporization of some substance.
+bn:00062569n	WIKI	A tobacco pipe, often called simply a pipe, is a device specifically made to smoke tobacco.
+bn:00062569n	WIKIDATA	Device specifically made to smoke tobacco or other products
+bn:00062569n	OMWIKI	A device consisting of a mouthpiece, a long pipe stem and a pipe bowl, that is used to smoke tobacco.
+bn:00062569n	WIKT	A small, hand-held device consisting in its simplest form of a bowl and stem; used for inhaling the smoke of burning tobacco.
+bn:00062569n	WIKT	A hollow stem with a bowl at one end used for smoking, especially a tobacco pipe but also including various other forms such as a water pipe.
+bn:00062569n	WIKT	A quantity of a recreational drug sufficient to fill the bowl of a small pipe used to smoke it.
+bn:00062569n	MSTERM	A portion of memory that can be used by one process to pass information along to another. Essentially, a pipe works like its namesake: it connects two processes so that the output of one can be used as the input to the other.
+bn:00054416n	WN	Commodities offered for sale
+bn:00054416n	WIKI	In marketing, a product is anything that can be offered to a market that might satisfy a want or need.
+bn:00054416n	WIKIDIS	Buildings or systems
+bn:00054416n	WIKIDATA	Anything that can be offered to a market that might satisfy a want or need
+bn:00054416n	OMWIKI	A commodity offered for sale.
+bn:00054416n	WIKT	A commodity offered for sale.
+bn:00054416n	WIKT	Commodities offered for sale.
+bn:00054416n	WIKT	Goods or a type of goods offered for sale or use.
+bn:00054416n	WIKTLB	Commodities offered for sale.
+bn:00054416n	MSTERM	A physical item for sale or purchase or available for license.
+bn:00054416n	FRAMENET	The finished item that is sold or exchanged.
+bn:00021045n	WN	Articles of commerce
+bn:00021045n	WIKI	In economics, a commodity is an economic good or service that has full or substantial fungibility: that is, the market treats instances of the good as equivalent or nearly so with no regard to who produced them.
+bn:00021045n	WIKI	In economics, a good is a material that satisfies human wants and provides utility, for example, to a consumer making a purchase while getting an enough-satisfying product.
+bn:00021045n	WIKIDIS	Usually used to refer to those damaged during shipping
+bn:00021045n	WIKIDATA	Traded tangible asset, without substantial differentiation between assets originating from alternative sellers
+bn:00021045n	WIKIDATA	Tangible and intangible thing, except labor tied services, that satisfies human wants and provides utility
+bn:00021045n	WIKIDATA	Legal terms
+bn:00021045n	OMWIKI	A term of variable content and meaning. It may include every species of personal chattels or property. Items of merchandise, supplies, raw materials, or finished goods. Land is excluded.
+bn:00021045n	MSTERM	A tangible item for sale or use, often produced for later consumption.
+bn:00081581n	WN	Art that is a product of one of the fine arts (especially a painting or sculpture of artistic merit)
+bn:00081581n	WIKI	A work of art, artwork, art piece, piece of art or art object is an aesthetic physical item or artistic creation.
+bn:00081581n	WIKIDATA	Aesthetic physical item or artistic creation
+bn:00081581n	WIKT	A product of the fine arts; a painting, sculpture etc.
+bn:00081581n	WIKTLB	Product of the fine arts.
+bn:03315803n	WIKI	In the motion picture industry, a "box office bomb" or "box office flop" is a film that is considered highly unsuccessful or unprofitable during its theatrical run, often following significant hype regarding its cost, production, or marketing efforts.
+bn:03315803n	WIKIDATA	Commercial failure
+bn:03315803n	OMWIKI	A failure; an unpopular entertainment production.
+bn:03315803n	WIKT	A failure; an unpopular commercial product.
+bn:03315803n	WIKT	A motion picture that generates relatively low revenue at the box office, especially that which is less than the budget for the motion picture.
+bn:03315803n	WIKTLB	A motion picture that generates relatively low revenue at the box office.
+bn:00034471n	WN	A form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement
+bn:00034471n	WIKI	A film, also called a movie, motion picture, theatrical film, or photoplay, is a series of still images that, when shown on a screen, create the illusion of moving images.
+bn:00034471n	WIKIDIS	A series of still images which, when shown on a screen, creates the illusion of moving image
+bn:00034471n	WIKIDATA	Sequence of images that give the impression of movement
+bn:00034471n	OMWIKI	A sequence of animated images.
+bn:00034471n	WIKT	A motion picture.
+bn:00034471n	WIKT	A film or movie.
+bn:00034471n	WIKIQU	Film, movie, or motion picture, is a series of still images on a strip of plastic which, when run through a projector and shown on a screen, creates the illusion of moving images.
+bn:00062699n	WN	A point located with respect to surface features of some region
+bn:00062699n	WIKI	The terms location and place in geography are used to identify a point or an area on the Earth's surface or elsewhere.
+bn:00062699n	WIKIDIS	A point or an area on the Earth's surface or elsewhere
+bn:00062699n	WIKIDATA	Point or an area on the Earth's surface or elsewhere
+bn:00062699n	OMWIKI	A position or area in a space.
+bn:00062699n	WIKT	A location or area.
+bn:00062699n	WIKT	A location or position in space.
+bn:00062699n	WIKT	A position of employment; a post.
+bn:00062699n	MSTERM	A geographic point or region.
+bn:01850789n	WIKI	A landform is a natural feature of the solid surface of the Earth or other planetary body.
+bn:01850789n	WIKIDIS	Physical feature comprises a geomorphological unit
+bn:01850789n	WIKIDATA	Geomorphological unit in the Earth sciences
+bn:01850789n	OMWIKI	Any physical, recognizable form or feature of the Earth's surface, having a characteristic shape and produced by natural causes; it includes major forms such as plane, plateau and mountain, and minor forms such as hill, valley, slope, esker, and dune. Taken together the landforms make up the surface configuration of the Earth's. 
+bn:00019172n	WN	A road junction at which traffic streams circularly around a central island
+bn:00019172n	WIKI	A roundabout, also called an island, traffic circle, road circle and rotary, is a type of circular intersection or junction in which road traffic flows almost continuously in one direction around a central island.
+bn:00019172n	WIKI	A traffic circle is a type of intersection that directs both turning and through traffic onto a one-way circular roadway, usually built for the purposes of traffic calming or aesthetics.
+bn:00019172n	WIKIDIS	A type of circular intersection in which traffic must travel in one direction around a central island.
+bn:00019172n	WIKIDATA	Traffic intersection
+bn:00019172n	WIKIDATA	Type of intersection that has a generally circular central island
+bn:00019172n	OMWIKI	Very small roundabout, in contrast to larger ones, which should be junction roundabout. In the UK, mini-roundabouts have a circular sign with a blue background, instead of the usual triangular sign.
+bn:00019172n	OMWIKI	A type of circular intersection in which traffic must travel in one direction around a central island.
+bn:00019172n	WIKT	A road junction at which traffic streams circularly around a central island.
+bn:00019172n	WIKT	An intersection with a circular shape and, usually, a central island.
+bn:00019172n	WIKT	A traffic circle.
+bn:00019172n	WIKT	A traffic circle or roundabout.
+bn:00019172n	WIKT	A large traffic roundabout with non-standard lane markings or priorities, or with buildings on the central island.
+bn:00019172n	WIKTLB	An intersection with a circular shape and, usually, a central island.
+bn:00048586n	WN	The place where two or more things come together
+bn:00048586n	WIKI	A junction is where two or more roads meet.
+bn:00048586n	WIKIDATA	Location where multiple roads intersect that allows vehicular traffic to change from one road to another
+bn:00064608n	WN	An occupation requiring special education (especially in the liberal arts or sciences)
+bn:00064608n	WIKI	A profession is a vocation founded upon specialized educational training, the purpose of which is to supply disinterested objective counsel and service to others, for a direct and definite compensation, wholly apart from expectation of other business gain.
+bn:00064608n	WIKI	"Profession" is a novella by Isaac Asimov.
+bn:00064608n	WIKIDIS	A vocation founded upon specialized training
+bn:00064608n	WIKIDIS	A novella by Isaac Asimov
+bn:00064608n	WIKIDATA	Vocation founded upon specialized educational training
+bn:00064608n	WIKIDATA	Novella by Isaac Asimov
+bn:00064608n	WIKT	An occupation, trade, craft, or activity in which one has a professed expertise in a particular area; a job, especially one requiring a high level of skill or training.
+bn:00064608n	WIKTLB	Practitioners of a profession collectively.
+bn:03408071n	WIKI	KID, was a Japan-based company specializing in porting and developing bishōjo games.
+bn:03408071n	WIKIDIS	A Japanese game company
+bn:02594382n	WIKI	A video game developer is a software developer that specializes in video game development – the process and related disciplines of creating video games.
+bn:02594382n	WIKIDIS	A software developer that creates video games
+bn:02594382n	WIKIDATA	Individual, group or corporation that develops a video game
+bn:00026716n	WN	An instrumentality invented for a particular purpose
+bn:00026716n	WIKI	A machine uses power to apply forces and control movement to perform an intended action.
+bn:00026716n	WIKIDATA	Tool containing one or more parts that uses energy to perform an intended action
+bn:00026716n	OMWIKI	A device able to perform a particular, more or less complex, job.
+bn:00026716n	WIKIQU	A machine is a tool consisting of one or more parts that is constructed to achieve a particular goal.
+bn:00026716n	WIKIQU	A machine is a tool consisting of one or more parts that is constructed to achieve a particular goal.
+bn:00007309n	WN	A motor vehicle with four wheels; usually propelled by an internal combustion engine
+bn:00007309n	WIKI	A car is a wheeled motor vehicle used for transportation.
+bn:00007309n	WIKIDATA	Wheeled motor vehicle used for transporting passengers
+bn:00007309n	OMWIKI	A four-wheeled motor vehicle used for land transport.
+bn:00007309n	WIKT	A wheeled vehicle, drawn by a horse or other animal; a chariot.
+bn:00007309n	WIKT	A type of vehicle designed to move on the ground under its own stored power and intended to carry a driver, a small number of additional passengers, and a very limited amount of other load. A car or motorcar.
+bn:00007309n	WIKTLB	Automobile, a vehicle steered by a driver.
+bn:00007385n	WN	A self-propelled wheeled vehicle that does not run on rails
+bn:00007385n	WIKI	A motor vehicle is a self-propelled vehicle, commonly wheeled, that does not operate on rails, such as trains or trams and used for the transportation of passengers, or passengers and property.
+bn:00007385n	WIKIDATA	Self-propelled wheeled vehicle
+bn:00007385n	OMWIKI	A road vehicle driven by a motor or engine, especially an internal combustion engine.
+bn:00035986n	WN	A keyboard instrument that is played by depressing keys that cause hammers to strike tuned strings and produce sounds
+bn:00035986n	WIKI	The piano is an acoustic, stringed musical instrument, in which the strings are struck by hammers.
+bn:00035986n	WIKIDIS	In music notation
+bn:00035986n	WIKIDATA	Musical instrument
+bn:00035986n	OMWIKI	A musical instrument, which produces sound through the vibrations of strings struck by felt hammers.
+bn:00035986n	WIKT	A keyboard musical instrument, usually ranging over seven octaves, with white and black keys, played by pressing these keys, causing hammers to strike strings.
+bn:00035986n	WIKT	A piano.
+bn:00035986n	WIKT	A keyboard instrument; the smaller, quieter, precursor to the pianoforte.
+bn:00035986n	WIKTLB	Piano.
+bn:00035986n	WIKIQU	The piano is a musical instrument that is designed to be played by means of a keyboard.
+bn:00049008n	WN	A musical instrument that is played by means of a keyboard
+bn:00049008n	WIKI	A keyboard instrument is a musical instrument played using a keyboard, a row of levers which are pressed by the fingers.
+bn:00049008n	WIKIDIS	An instrument with a musical keyboard
+bn:00049008n	WIKIDATA	Musical instrument which is played using a musical keyboard
+bn:00049008n	OMWIKI	A component of many instruments including the piano, organ, and harpsichord consisting of usually black and white keys that cause different tones to be produced when struck.
+bn:00049008n	OMWIKI	A class of musical instruments that is played using a musical keyboard. A musical keyboard consists of 7 white and 5 black keys per octave.
+bn:00049008n	WIKT	A component of many instruments including the piano, organ, and harpsichord consisting of usually black and white keys that cause different tones to be produced when struck.
+bn:00049008n	WIKT	Any of the notes produced by the white keys on a piano or similar keyed instrument.
+bn:00049008n	WIKT	Any of the notes produced by the black keys on a piano or similar keyed instrument.
+bn:00049008n	WIKTLB	Component of many instruments.
+bn:00049008n	MSTERM	A contiguous on-screen keyboard.
+bn:00049008n	MSTERM	A split on-screen keyboard that is optimized for thumb typing.
+bn:00046965n	WN	Any of various devices or contrivances that can be used to produce musical tones or sounds
+bn:00046965n	WIKI	A musical instrument is an instrument created or adapted to make musical sounds.
+bn:00046965n	WIKIDIS	A device designed to produce musical sounds
+bn:00046965n	WIKIDATA	Sound producing object used by a musician for this purpose
+bn:00046965n	OMWIKI	A device constructed or modified with the purpose of making music.
+bn:00046965n	WIKT	A device used to produce music.
+bn:00046965n	WIKT	A device, object, contrivance or machine used to produce musical notes or sounds.
+bn:00046965n	WIKTLB	A device, object, contrivance or machine used to produce musical notes or sounds.
+bn:03335997n	WIKI	A city is a large human settlement.
+bn:03335997n	WIKIDATA	Type of municipality
+bn:03335997n	WIKIQU	Cities are relatively large and permanent settlement.
+bn:00017004n	WN	Natural objects visible in the sky
+bn:00017004n	WIKI	An astronomical object or celestial object is a naturally occurring physical entity, association, or structure that exists in the observable universe.
+bn:00017004n	WIKIDIS	See for detailed description of celestial bodies and objects
+bn:00017004n	WIKIDATA	Naturally occurring physical entities
+bn:00017004n	OMWIKI	A solid object found in space.
+bn:00017004n	OMWIKI	A natural objects in the universe which is visible in the sky.
+bn:00017004n	WIKT	A natural celestial object, visible in the sky, such as a star, planet, natural satellite, asteroid, comet, the Moon or the Sun. Objects flying or moving in the atmosphere are not usually considered as heavenly bodies.
+bn:03483982n	WIKI	A dwarf planet is a planetary-mass object that is neither a planet nor a natural satellite.
+bn:03483982n	WIKIDATA	Planetary-mass object
+bn:03483982n	OMWIKI	A celestial body orbiting the Sun that is massive enough to be rounded by its own gravity but which has not cleared its neighbouring region of planetesimals and is not a satellite.
+bn:03483982n	WIKT	Any astronomical body which has achieved hydrostatic equilibrium , orbits the Sun , and has not "cleared its neighbourhood" of competing bodies.
+bn:03483982n	WIKTLB	A type of celestial body.
+bn:00055809n	WN	The natural satellite of the Earth
+bn:00055809n	WIKI	The Moon is an astronomical body that orbits planet Earth, being Earth's only permanent natural satellite.
+bn:00055809n	WIKIDIS	The first planet from Earth in the Ptolemaic geocentric model
+bn:00055809n	WIKIDATA	Only natural satellite of Earth
+bn:00055809n	OMWIKI	The sole natural satellite of the Earth.
+bn:00055809n	WIKT	The largest satellite of Earth.
+bn:00055809n	WIKT	The name of Earth's moon.
+bn:00055809n	WIKTLB	Any substantially sized natural satellite of a planet.
+bn:00055809n	WIKIQU	The Moon is Earth's only natural satellite.
+bn:00015610n	WN	Joint capital (with Mecca) of Saudi Arabia located in the central oasis; largest city in Saudi Arabia
+bn:00015610n	WIKI	Riyadh is the capital and most populous city of Saudi Arabia.
+bn:00015610n	WIKIDIS	The capital of Saudi Arabia
+bn:00015610n	WIKIDATA	Capital of Saudi Arabia
+bn:00015610n	OMWIKI	The capital and largest city of  Saudi Arabia,
+bn:00015610n	WIKT	Capital of Saudi Arabia.
+bn:00015610n	WIKTLB	Capital of Saudi Arabia.
+bn:00009677n	WN	A living thing that has (or can develop) the ability to act or function independently
+bn:00009677n	WIKI	In biology, an organism is any individual entity that exhibits the properties of life.
+bn:00009677n	WIKI	Being is the general concept encompassing objective and subjective features of reality and existence.
+bn:00009677n	WIKIDIS	Contiguous living systems (such as animals, plants, fungi, or micro-organisms)
+bn:00009677n	WIKIDATA	Any contiguous alive physical entity; entity or being that is living; an individual living thing, such as one animal, plant, fungus, or bacterium
+bn:00009677n	WIKIDATA	Broad concept encompassing objective and subjective features of reality and existence
+bn:00009677n	WIKT	A living creature.
+bn:00009677n	WIKTLB	A living creature.
+bn:00007381n	WN	Compartment in an automobile that carries luggage or shopping or tools
+bn:00007381n	WIKI	The trunk, boot or compartment of a car is the vehicle's main storage compartment.
+bn:00007381n	WIKIDATA	Part of automobile
+bn:00007381n	OMWIKI	Storage compartment for luggage in a car.
+bn:00007381n	WIKT	The luggage storage compartment of a sedan/saloon style car.
+bn:00007381n	WIKT	The cover over the trunk or boot of a motor vehicle.
+bn:00007381n	WIKTLB	Luggage storage compartment of a sedan/saloon style car.
+bn:01265145n	WIKI	An exchange, or bourse also known as a trading exchange or trading venue, is an organized market where tradable securities, commodities, foreign exchange, futures, and options contracts are sold and bought.
+bn:01265145n	WIKIDIS	Where securities are sold and bought
+bn:01265145n	WIKIDATA	Highly organized trading market
+bn:01265145n	OMWIKI	The marketplace in which shares, options and futures on stocks, bonds, commodities and indices are traded.
+bn:01265145n	WIKT	A place for conducting trading.
+bn:01265145n	WIKTLB	Place for conducting trading.
+bn:00074675n	WN	(baseball) the area over home plate between a batter's knees and shoulders through which a pitch must pass in order to be called a strike
+bn:00074675n	WIKI	In baseball, the strike zone is the volume of space through which a pitch must pass in order to count as a strike.
+bn:00074675n	WIKIDIS	In baseball, the area over home plate through which a pitch must pass in order to count as a strike
+bn:00074675n	WIKT	The area through which if a pitched ball passes, it will be called a strike, typically from the batter's knees to the belt and the width of home plate.
+bn:00074675n	WIKTLB	The area through which if a pitched ball passes, it will be called a strike.
+bn:00023797n	WN	A game played with a ball and bat by two teams of 11 players; teams take turns trying to score runs
+bn:00023797n	WIKI	Cricket is a bat-and-ball game played between two teams of eleven players each on a cricket field, at the centre of which is a rectangular 22-yard-long pitch with a target at each end called the wicket.
+bn:00023797n	WIKIDATA	Team sport played with bats and balls
+bn:00023797n	OMWIKI	A game played outdoors with bats and a ball between two teams of eleven, popular in England and many Commonwealth countries.
+bn:00023797n	WIKT	A game played outdoors with bats and a ball between two teams of eleven, popular in England and many Commonwealth countries.
+bn:00023797n	WIKIQU	Cricket is a bat-and-ball sport contested by two teams, usually of eleven players each, which is played in over 100 countries.
+bn:00023796n	WN	Leaping insect; male makes chirping noises by rubbing the forewings together
+bn:00023796n	WIKI	Crickets, of the family Gryllidae, are insects related to bush crickets, and, more distantly, to grasshoppers.
+bn:00023796n	WIKIDIS	Family Gryllidae, also known as "true crickets"
+bn:00023796n	WIKIDATA	Family of insects
+bn:00023796n	OMWIKI	An insect in the order Orthoptera that makes a chirping sound by rubbing its wing casings against combs on its hind legs.
+bn:00023796n	WIKT	An insect in the order Orthoptera, especially family , that makes a chirping sound by rubbing its wing casings against combs on its hind legs.
+bn:00019173n	WN	Street names for flunitrazepan
+bn:00005518n	WN	The extent of a 2-dimensional surface enclosed within a boundary
+bn:00005518n	WIKI	The surface area of a solid object is a measure of the total area that the surface of the object occupies.
+bn:00005518n	WIKIDATA	Measure of the total area that occupies the surface of a solid object
+bn:00005518n	WIKT	The total area on the surface of a three-dimensional figure.
+bn:00005518n	WIKT	Any particular extent of surface, especially an empty or unused extent.
+bn:00005518n	WIKTLB	Any particular extent.
+bn:00005518n	MSTERM	The surface area occupied by a personal computer or other device.
+bn:00019169n	WN	Ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point
+bn:00019169n	WIKI	A circle is a simple closed shape.
+bn:00019169n	WIKIDATA	Simple shape of Euclidean geometry
+bn:00019169n	OMWIKI	A two-dimensional, geometric shape that is made up of every point on a plane which is equidistant from the center. May be drawn with a pair of compasses.
+bn:00019169n	OMWIKI	A two-dimensional, geometric shape that is made up of every point on a plane which is equidistant from the centre. May be drawn with a pair of compasses.
+bn:00019169n	WIKT	A two-dimensional geometric figure, a disk, consisting of the set of all those points of a plane at a distance less than or equal to a fixed distance from a given point.
+bn:00019169n	WIKTLB	Thin three-dimensional equivalent of these geometric figures
+bn:00019169n	WIKIQU	Circles are simple shapes of Euclidean geometry consisting of those points in a plane which are equidistant from a given point, the center.
+bn:00021306n	WN	A partitioned section, chamber, or separate room within a larger enclosed area
+bn:00021306n	WIKT	A room, or section, or chamber.
+bn:00014462n	WN	A conveyance for passengers or freight on a cable railway
+bn:00014462n	WIKI	A cable car is a type of cable transportation used for mass transit where rail cars are hauled by a continuously moving cable running at a constant speed.
+bn:00014462n	WIKIDATA	A mass transit system
+bn:00014462n	OMWIKI	A streetcar that is moved by gripping to a continuously moving cable under the vehicle.
+bn:00014462n	WIKT	A streetcar moved by gripping to rotating loop of cable running along the track.
+bn:00020726n	WN	A visual attribute of things that results from the light they emit or transmit or reflect
+bn:00020726n	WIKI	Color or colour is the characteristic of human visual perception described through color categories, with names such as red, orange, yellow, green, blue, or purple.
+bn:00020726n	WIKIDIS	The visual perceptual property corresponding in humans to the categories called red, green, blue and others, along with any variation, quality, or property thereof
+bn:00020726n	WIKIDATA	Visual perception of light wavelengths
+bn:00020726n	OMWIKI	The color of the face.
+bn:00020726n	OMWIKI	A colour (the colour of the sky at night and a blackbird's feathers) that is created by the absorption of all light and reflection of none; dark and colourless.
+bn:00020726n	OMWIKI	A color (the color of the sky at night and a blackbird's feathers) that is created by the absorption of all light and reflection of none; dark and colorless.
+bn:00020726n	OMWIKI	An attribute of things that results from the light they reflect, transmit, or emit in so far as this light causes a visual sensation that depends on its wavelengths.
+bn:00020726n	WIKT	The spectral composition of visible light.
+bn:00020726n	WIKT	A property of quarks, with three values called red, green, and blue, which they can exchange by passing gluons.
+bn:00020726n	WIKT	A type of firecracker that is really more dark brown in colour.
+bn:00020726n	WIKTLB	Spectral composition of visible light.
+bn:00037175n	WN	A strong yellow color
+bn:00037175n	WIKI	Lemon or lemon-color is a pale yellow color, the color of the lemon fruit.
+bn:00037175n	WIKI	The color maize or corn refers to a shade of yellow; it is named for the cereal of the same name—maize.
+bn:00037175n	WIKIDIS	A shade of yellow, named for the cereal of the same name
+bn:00037175n	WIKIDATA	Color of lemons, color somewhat resembling yellow and named after the lemon fruit
+bn:00037175n	WIKIDATA	Color
+bn:00037175n	OMWIKI	A yellow citrus fruit.
+bn:00037175n	OMWIKI	A colour resembling that of the lemon; RAL-1012.
+bn:00037175n	WIKT	A deep yellow colour.
+bn:00012001n	WN	A shade of white the color of bleached bones
+bn:00012001n	WIKI	Shades of white are colors that differ only slightly from pure white.
+bn:00012001n	WIKI	The color pearl is a pale tint of off-white.
+bn:00012001n	WIKI	Ivory is an off-white color that resembles ivory, the material from which the teeth and tusks of animals is made.
+bn:00012001n	WIKIDATA	Color
+bn:00012001n	WIKIDATA	Off-white color that resembles ivory
+bn:00012001n	WIKT	A very pale colour that is almost white.
+bn:00012001n	WIKT	An off-white colour, like the colour of bone.
+bn:00012001n	WIKT	A creamy white colour, the colour of ivory.
+bn:00012001n	WIKT	A off-white colour, like that of old lace.
+bn:00012001n	WIKTLB	Very pale colour that is almost white.
+bn:00009694n	WN	An ugly evil-looking old woman
+bn:00009694n	WIKI	The crone is a stock character in folklore and fairy tale, an old woman.
+bn:00009694n	WIKI	A hag is a wizened old woman, or a kind of fairy or goddess having the appearance of such a woman, often found in folklore and children's tales such as Hansel and Gretel.
+bn:00009694n	OMWIKI	A vicious and scolding woman, especially an older one.
+bn:00009694n	OMWIKI	A woman who has evil magic powers.
+bn:00009694n	WIKT	An ugly old woman.
+bn:00009694n	WIKT	An ugly, evil-looking, or frightening old woman; a hag.
+bn:00009694n	WIKT	An ugly or unpleasant woman.
+bn:00009694n	WIKT	An old woman, particularly an ugly one.
+bn:00009694n	WIKT	An old woman, especially a traditional old woman from an eastern European culture.
+bn:00009694n	WIKTLB	Ugly old woman
+bn:01837427n	WIKI	A legendary, mythical, or mythological creature, traditionally called a fabulous beast or fabulous creature, is a fictitious, imaginary and often supernatural animal, often a hybrid, sometimes part human, whose existence has not or cannot be proved and that is described in folklore or fiction but also in historical accounts before history became a science.
+bn:01837427n	WIKIDIS	A mythological or folkloric creature
+bn:01837427n	WIKIDATA	Class of being in mythology
+bn:01837427n	WIKIDATA	Often supernatural animal, often a hybrid, sometimes part human, whose existence cannot be proven, described in legends, myths, fables, folklore, poetry, fairy tales, etc
+bn:01837427n	OMWIKI	A creature from myth or folklore. Some have their origin in traditional mythology and have at one time been believed to be real creatures. Others were based on garbled travellers' tales of real creatures.
+bn:00644696n	WIKI	Mythic humanoids are mythological creatures that are part human or resemble humans through appearance or character.
+bn:00644696n	WIKIDATA	Type of person from mythology such as fairy or elf. Use Q15410431 for named characters. For humanoid species from works of fantasy use Q2607197; from Science fiction use Q6623809
+bn:00049146n	WN	One of the four playing cards in a deck bearing the picture of a king
+bn:00049146n	WIKI	The king is a playing card with a picture of a king on it.
+bn:00049146n	WIKIDATA	Playing card
+bn:00049146n	OMWIKI	A playing card with a picture of a king on its face; the 13th card in a given suit.
+bn:00049146n	WIKT	A playing card with the letter "K" and the image of a king on it, the thirteenth card in a given suit.
+bn:00049146n	WIKT	A king of hearts in a deck of playing cards.
+bn:00049146n	WIKT	One of the 52 playing cards from a standard pack as used for bridge and poker, with a picture of a king, with a nominal value of 13, and with the hearts suit.
+bn:00049146n	WIKT	One of the 52 playing cards from a standard pack as used for bridge and poker, with a picture of a king, with a nominal value of 13, and with the diamonds suit.
+bn:00049146n	WIKTLB	A playing card with the image of a king in it.
+bn:00608880n	WIKI	Emperor is a Norwegian black metal band formed in 1991, regarded as highly influential by critics and emerging black metal bands.
+bn:00608880n	WIKIDIS	A Norwegian black metal band
+bn:00608880n	WIKIDATA	Norwegian black metal band
+bn:03688622n	WIKI	Tom Cato Visnes, better known as King ov Hell or simply King, is a Norwegian musician.
+bn:03688622n	WIKIDATA	Norwegian musician
+bn:00077665n	WN	Capital city of the Piemonte region of northwestern Italy
+bn:00077665n	WIKI	Turin is a city and an important business and cultural centre in northern Italy.
+bn:00077665n	WIKIDATA	City in Italy
+bn:00077665n	OMWIKI	Large city in northern Italy, capital of the Piedmont region and of the province of Turin.
+bn:00077665n	WIKT	Capital city of the province of Turin.
+bn:00016325n	WN	The making of maps and charts
+bn:00016325n	WIKI	Cartography is the study and practice of making maps.
+bn:00016325n	WIKIDATA	Study of making maps
+bn:00016325n	OMWIKI	The making of maps and charts for the purpose of visualizing spatial distributions over various areas of the earth.
+bn:00016325n	WIKT	Cartography, the making of maps and charts.
+bn:00016325n	WIKT	The creation of charts and maps based on the layout of a territory's geography.
+bn:00016325n	WIKTLB	Creation of charts and maps.
+bn:00048985n	WN	Metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated
+bn:00048985n	WIKI	A key is a device that is used to operate a lock.
+bn:00048985n	WIKIDIS	A device used to open a lock or door
+bn:00048985n	WIKIDATA	Instrument that is used to operate a lock
+bn:00048985n	OMWIKI	An object designed to be able to open (and usually close) a lock.
+bn:00048985n	WIKT	An object designed to open and close a lock.
+bn:00048985n	WIKTLB	Device designed to open and close a lock.
+bn:00062202n	WN	(music) low loudness
+bn:01792742n	WIKI	Music described as piano six hands . is for three pianists at one piano, as distinct from piano duet which is music for two pianists at one or two pianos.
+bn:00046975n	WN	Someone who plays a musical instrument (as a profession)
+bn:00046975n	WIKI	A musician is a person who plays a musical instrument or is musically talented.
+bn:00046975n	WIKIDATA	Person who performs or composes music
+bn:00046975n	OMWIKI	Somebody who makes music, either by using his voice or by playing an instrument.
+bn:00046975n	WIKT	One who plays on a musical instrument.
+bn:00046975n	WIKT	A composer, conductor, or performer of music; specifically, a person who sings and/or plays a musical instrument as a hobby, an occupation, or a profession.
+bn:00046975n	WIKTLB	Person who performs or writes music.

@@ -33,6 +33,13 @@ blacklist = set([
     "s00081546n"  # word
 ])
 
+babelnet_relationships_limits = {
+    "HYPERNYM" : float("inf"),
+    # "OTHER" : 10000,
+    "MERONYM": float("inf"),
+    # "HYPONYM": 10000,
+}
+
 
 class Game(object):
     def __init__(
@@ -379,12 +386,20 @@ class Game(object):
         return lemma.split('#')[0]
 
     def get_babelnet_v5(self, word):
+
+        count_by_relation_group = {key:0 for key in babelnet_relationships_limits.keys()}
+        def should_add_relationship(relationship):
+            return relationship in babelnet_relationships_limits.keys() and \
+                   count_by_relation_group[relationship] < babelnet_relationships_limits[relationship]
+
         G = nx.DiGraph()
+
         with gzip.open(self.file_dir + word + '.gz', 'r') as f:
             for line in f:
                 source, target, language, short_name, relation_group, is_automatic = line.decode("utf-8").strip().split('\t')
-                if relation_group == 'HYPERNYM' and is_automatic == 'False':
+                if should_add_relationship(relation_group) and is_automatic == 'False':
                     G.add_edge(source, target)
+                    count_by_relation_group[relation_group] += 1
 
         nn_w_dists = {}
         nn_w_synsets = {}
@@ -742,17 +757,10 @@ class Game(object):
                 # path goes from source (word in word_set) to target (clue)
                 shortest_path_labels = []
                 for synset in shortest_path:
-                    # sliced_labels = self.get_random_n_labels(labels, 3) or synset
-                    # sliced_labels = self.get_cached_labels_from_synset(synset)
                     main_sense, senses = self.get_cached_labels_from_synset_v5(synset)
                     shortest_path_labels.append(main_sense)
 
-                # sliced_clue_labels = self.get_random_n_labels(clue_labels, 5) or clue
-                # sliced_clue_labels = self.get_cached_labels_from_synset(clue, delimiter="\n")
-
-                # main_sense, senses = self.get_cached_labels_from_synset_v5(clue)
                 print ("shortest path from", word, "to clue", clue, clue_synset, ":", shortest_path_labels)
-                # nx.add_path(G, shortest_path_labels)
 
                 formatted_labels = [label.replace(' ', '\n') for label in shortest_path_labels]
                 formatted_labels.reverse()
@@ -763,24 +771,22 @@ class Game(object):
 
         plt.figure()
         options = {
-            'node_color': 'black',
-            'node_size': 50,
-            'alpha':0.6,
-            'line_color': 'grey',
-            'font_color':'black',
+            'node_color': 'white',
+            'line_color': 'black',
             'linewidths': 0,
-            'width': 0.1,
+            'width': 0.5,
             'pos': pos,
             'with_labels':True,
-            'font_size':6.5,
+            'font_color': 'black',
+            'font_size':11,
         }
         nx.draw(G, **options)
-
+        
         if not os.path.exists('intersection_graphs'):
             os.makedirs('intersection_graphs')
         filename = 'intersection_graphs/' + ('_').join([word for word in word_set]) + '.png'
         # margins
-        plot_margin = 0.25
+        plot_margin = 0.35
         x0, x1, y0, y1 = plt.axis()
         plt.axis((x0 - plot_margin,
                   x1 + plot_margin,
@@ -795,38 +801,32 @@ class Game(object):
         # we need to repeat this for the (|blue_words| C n) possible words we can give a clue for
 
         pq = []
-        word_set_for_best_clue = []
-        best_score = float("-inf")
         for word_set in itertools.combinations(self.blue_words, n):
             highest_clue, score = self.get_highest_clue(word_set, penalty)
-            # this is just being used for graph visualizations
-            if (self.visualize and score > best_score):
-                best_score = score
-                word_set_for_best_clue = word_set
             # min heap, so push negative score
-            heapq.heappush(pq, (-1 * score, highest_clue))
+            heapq.heappush(pq, (-1 * score, highest_clue, word_set))
 
-        best_clues = []
-        best_scores = []
-        best_score, clue = heapq.heappop(pq)
-        best_clues.append(clue)
-        best_scores.append(best_score)
-        # sliced_labels = self.get_random_n_labels(labels, 5) or clue
+
         # sliced_labels = self.get_cached_labels_from_synset(clue)
         # main_sense, _senses = self.get_cached_labels_from_synset_v5(clue)
 
-        if self.visualize:
-            self.get_intersecting_graphs(word_set_for_best_clue, clue)
-
+        best_clues = []
+        best_scores = []
         count = 0
+
         while pq:
-            score, clue = heapq.heappop(pq)
-            count += 1
-            # if score > best_score:
+            score, clue, word_set = heapq.heappop(pq)
+
+            if self.visualize and count == 0:
+                self.get_intersecting_graphs(word_set, clue)
+
             if count >= 5:
                 break
             best_clues.append(clue)
             best_scores.append(score)
+
+            count += 1
+
         return best_scores, best_clues
 
     def get_highest_clue(self, chosen_words, penalty=1.0):
@@ -883,7 +883,7 @@ class Game(object):
 
 
 if __name__ == "__main__":
-    file_dir = '/Users/annaysun/codenames/babelnet_v4/'
+    file_dir = '/Users/divyakoyyalagunta/projects/codenames/babelnet_v4/'
     # synset_labels_file = 'synset_to_labels.txt'
     synset_main_sense_file = 'synset_to_main_sense.txt'
     synset_senses_file = 'synset_to_senses.txt'
@@ -910,10 +910,10 @@ if __name__ == "__main__":
         # ['penguin', 'stick', 'racket', 'scale', 'ivory'],
         # ['horseshoe', 'amazon', 'thumb', 'spider', 'lion'],
         ["racket", "bug", "crown", "australia", "pipe"],
-        ["bomb", "play", "roulette", "table", "cloak"],
-        ["gas", "circle", "unicorn", "king", "cliff"],
-        ["conductor", "diamond", "kid", "witch", "swing"],
-        ["death", "litter", "car", "lemon", "conductor"],
+        # ["bomb", "play", "roulette", "table", "cloak"],
+        # ["gas", "circle", "unicorn", "king", "cliff"],
+        # ["conductor", "diamond", "kid", "witch", "swing"],
+        # ["death", "litter", "car", "lemon", "conductor"],
         # ["board", "web", "wave", "platypus", "mine"],
         # ["conductor", "alps", "jack", "date", "europe"],
         # ["cricket", "pirate", "day", "platypus", "pants"],
@@ -932,10 +932,10 @@ if __name__ == "__main__":
         # ["gas", "circle", "king", "unicorn", "cliff"],
         # ["lemon", "death", "conductor", "litter", "car"],
         ['key', 'piano', 'lab', 'school', 'lead'],
-        ['whip', 'tube', 'vacuum', 'lab', 'moon'],
-        ['change', 'litter', 'scientist', 'worm', 'row'],
-        ['boot', 'figure', 'cricket', 'ball', 'nut'],
-        ['bear', 'figure', 'swing', 'shark', 'stream'],
+        # ['whip', 'tube', 'vacuum', 'lab', 'moon'],
+        # ['change', 'litter', 'scientist', 'worm', 'row'],
+        # ['boot', 'figure', 'cricket', 'ball', 'nut'],
+        # ['bear', 'figure', 'swing', 'shark', 'stream'],
         # ["jupiter", "moon"], #"pipe", "racket", "bug"],
         # ["phoenix", "beijing"], #"play", "table", "cloak"],
         # ["bear", "bison"], #"diamond", "witch", "swing"],
@@ -957,7 +957,7 @@ if __name__ == "__main__":
                 print(word)
                 print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
 
-        best_scores, best_clues = game.get_clue(2, 1)
+        best_scores, best_clues,  = game.get_clue(2, 1)
         print("BEST CLUES: ")
         for score, clue in zip(best_scores, best_clues):
             print(score, clue)
