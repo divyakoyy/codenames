@@ -907,7 +907,7 @@ class Game(object):
 
 
 if __name__ == "__main__":
-    file_dir = '/Users/divyakoyyalagunta/projects/codenames/babelnet_v4/'
+    file_dir = 'babelnet_v4/'
     # synset_labels_file = 'synset_to_labels.txt'
     synset_main_sense_file = 'synset_to_main_sense.txt'
     synset_senses_file = 'synset_to_senses.txt'
