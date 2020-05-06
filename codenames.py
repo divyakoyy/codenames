@@ -35,11 +35,10 @@ blacklist = set([
 
 babelnet_relationships_limits = {
     "HYPERNYM" : float("inf"),
-    # "OTHER" : 10000,
-    "MERONYM": float("inf"),
-    # "HYPONYM": 10000,
+    # "OTHER" : 15,
+    # "MERONYM": 15,
+    # "HYPONYM": 15,
 }
-
 
 class Game(object):
     def __init__(
@@ -393,10 +392,10 @@ class Game(object):
                    count_by_relation_group[relationship] < babelnet_relationships_limits[relationship]
 
         G = nx.DiGraph()
-
         with gzip.open(self.file_dir + word + '.gz', 'r') as f:
             for line in f:
                 source, target, language, short_name, relation_group, is_automatic = line.decode("utf-8").strip().split('\t')
+
                 if should_add_relationship(relation_group) and is_automatic == 'False':
                     G.add_edge(source, target)
                     count_by_relation_group[relation_group] += 1
@@ -424,7 +423,6 @@ class Game(object):
                             nn_w_dists[single_word_label] = length
                             nn_w_synsets[single_word_label] = neighbor
         return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != word}, nn_w_synsets, G
-
 
 
     def add_lemmas(self, d, ss, hyper, n):
@@ -735,10 +733,17 @@ class Game(object):
         # clue is the word that intersects for this word_set
         # for example if we have the word_set (beijing, phoenix) and clue city,
         # this method will produce a directed graph that shows the path of intersection
-        G = nx.DiGraph()
+        clue_graph = nx.DiGraph()
+        word_set_graphs = [nx.DiGraph() for _ in word_set]
+
         for word in word_set:
-            # synset of the clue:
-            clue_synset = self.nn_synsets[word][clue]
+            # Create graph that shows the intersection from the clue to the word_set
+            try:
+                clue_synset = self.nn_synsets[word][clue] # synset of the clue
+            except:
+                if self.verbose:
+                    print("Clue ", clue, "not found for word", word)
+                continue
             word_graph = self.graphs[word]
             shortest_path = []
             shortest_path_length = float("inf")
@@ -764,10 +769,28 @@ class Game(object):
 
                 formatted_labels = [label.replace(' ', '\n') for label in shortest_path_labels]
                 formatted_labels.reverse()
-                nx.add_path(G, formatted_labels)
+                nx.add_path(clue_graph, formatted_labels)
 
-        write_dot(G, 'test.dot')
-        pos = graphviz_layout(G, prog='dot')
+
+
+        self.draw_graph(clue_graph, ('_').join([word for word in word_set]))
+
+
+    def draw_graph(self, graph, graph_name, get_labels=False):
+        write_dot(graph, 'test.dot')
+        pos = graphviz_layout(graph, prog='dot')
+
+        # if we need to get labels for our graph (because the node text is synset ids)
+        # we will create a dictionary { node : label } to pass into our graphing options
+        nodes_to_labels = dict()
+        current_labels = nx.draw_networkx_labels(graph, pos=pos)
+
+        if get_labels:
+            for synset_id in current_labels:
+                main_sense, senses = self.get_cached_labels_from_synset_v5(synset_id)
+                nodes_to_labels[synset_id] = main_sense
+        else:
+            nodes_to_labels = { label : label for label in current_labels}
 
         plt.figure()
         options = {
@@ -776,15 +799,16 @@ class Game(object):
             'linewidths': 0,
             'width': 0.5,
             'pos': pos,
-            'with_labels':True,
+            'with_labels': True,
             'font_color': 'black',
-            'font_size':11,
+            'font_size': 4,
+            'labels': nodes_to_labels,
         }
-        nx.draw(G, **options)
-        
+        nx.draw(graph, **options)
+
         if not os.path.exists('intersection_graphs'):
             os.makedirs('intersection_graphs')
-        filename = 'intersection_graphs/' + ('_').join([word for word in word_set]) + '.png'
+        filename = 'intersection_graphs/' + graph_name + '.png'
         # margins
         plot_margin = 0.35
         x0, x1, y0, y1 = plt.axis()
@@ -910,10 +934,10 @@ if __name__ == "__main__":
         # ['penguin', 'stick', 'racket', 'scale', 'ivory'],
         # ['horseshoe', 'amazon', 'thumb', 'spider', 'lion'],
         ["racket", "bug", "crown", "australia", "pipe"],
-        # ["bomb", "play", "roulette", "table", "cloak"],
-        # ["gas", "circle", "unicorn", "king", "cliff"],
-        # ["conductor", "diamond", "kid", "witch", "swing"],
-        # ["death", "litter", "car", "lemon", "conductor"],
+        ["bomb", "play", "roulette", "table", "cloak"],
+        ["gas", "circle", "unicorn", "king", "cliff"],
+        ["conductor", "diamond", "kid", "witch", "swing"],
+        ["death", "litter", "car", "lemon", "conductor"],
         # ["board", "web", "wave", "platypus", "mine"],
         # ["conductor", "alps", "jack", "date", "europe"],
         # ["cricket", "pirate", "day", "platypus", "pants"],
@@ -932,10 +956,10 @@ if __name__ == "__main__":
         # ["gas", "circle", "king", "unicorn", "cliff"],
         # ["lemon", "death", "conductor", "litter", "car"],
         ['key', 'piano', 'lab', 'school', 'lead'],
-        # ['whip', 'tube', 'vacuum', 'lab', 'moon'],
-        # ['change', 'litter', 'scientist', 'worm', 'row'],
-        # ['boot', 'figure', 'cricket', 'ball', 'nut'],
-        # ['bear', 'figure', 'swing', 'shark', 'stream'],
+        ['whip', 'tube', 'vacuum', 'lab', 'moon'],
+        ['change', 'litter', 'scientist', 'worm', 'row'],
+        ['boot', 'figure', 'cricket', 'ball', 'nut'],
+        ['bear', 'figure', 'swing', 'shark', 'stream'],
         # ["jupiter", "moon"], #"pipe", "racket", "bug"],
         # ["phoenix", "beijing"], #"play", "table", "cloak"],
         # ["bear", "bison"], #"diamond", "witch", "swing"],
@@ -965,3 +989,7 @@ if __name__ == "__main__":
                 "WORDS CHOSEN FOR CLUE: ",
                 game.choose_words(2, clue, game.blue_words.union(game.red_words)),
             )
+
+        all_words = red + blue
+        for word in all_words:
+            game.draw_graph(game.graphs[word], word+"_hypernyms", get_labels=True)
