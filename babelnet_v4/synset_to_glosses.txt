@@ -23790,3 +23790,970 @@ bn:03768126n	WIKI	Shark fin soup is a traditional soup or stewed dish found in C
 bn:03768126n	WIKIDIS	A Chinese soup
 bn:03768126n	WIKT	A soup made from shark fins, common especially in Chinese culture, where it is served on special occasions and as a symbol of wealth and prestige.
 bn:03768126n	WIKTLB	Soup made from shark fins.
+bn:00041942n	WN	Any number of entities (members) considered as a unit
+bn:00041942n	OMWIKI	A number of things or persons that have some relation to one another.
+bn:00041942n	WIKT	A number of things or persons being in some relation to one another.
+bn:00041942n	WIKTLB	Number of things or persons being in some relation to each other.
+bn:00041942n	MSTERM	A set of objects that share a common relation.
+bn:00078520n	WN	Conduit consisting of a long hollow object (usually cylindrical) used to hold and conduct objects or liquids or gases
+bn:00078520n	WIKI	A tube, or tubing, is a long hollow cylinder used for moving fluids or to protect electrical or optical cables and wires.
+bn:00078520n	OMWIKI	Conduit consisting of a long hollow cylindrical object.
+bn:04614589n	WIKIDATA	Object made or shaped by human hand
+bn:04614589n	WIKIDATA	object with a practical purpose
+bn:00021683n	WN	A passage (a pipe or tunnel) through which water or electric wires can pass
+bn:15338434n	WIKIDATA	Distinct intellectual or artistic creation
+bn:15338434n	WIKT	A literary, artistic, or intellectual production.
+bn:15338434n	WIKTLB	Literary, artistic, or intellectual production.
+bn:03830506n	WIKI	Structure is an arrangement and organization of interrelated elements in a material object or system, or the object or system so organized.
+bn:03830506n	WIKIDATA	Arrangement and organization of interrelated elements in an object or system, or the object or system so organized
+bn:14781583n	WIKIDATA	Object with no physical referents
+bn:00060883n	WN	A way through or along which someone or something may pass
+bn:00060883n	OMWIKI	A way through or along which someone or something may pass.
+bn:00056993n	WN	An object occurring naturally; not made by man
+bn:00058442n	WN	A tangible and visible entity; an entity that can cast a shadow
+bn:00058442n	WIKIDATA	Mental construct defined by the perception of something as a unitary physical or abstract entity
+bn:00058442n	OMWIKI	Something that has a physical existence.
+bn:00058442n	WIKT	A thing that has physical existence.
+bn:00058442n	MSTERM	An entity within SQL Server.
+bn:00665699n	WIKI	Goods are items that are tangible, such as pens, salt, shoes, hats and folders and Services are activities provided by other people, such as doctors, lawn care workers, dentists, barbers, waiters, or online servers.
+bn:00665699n	WIKIDATA	Outcome of human efforts to meet the wants and needs of people
+bn:00665699n	OMWIKI	The total of economic assets, including both physical or storable objects and intangible acts of human assistance.
+bn:00077585n	WN	An implement used in the practice of a vocation
+bn:00077585n	WIKI	A tool is any physical item that can be used to achieve a goal, especially if the item is not consumed in the process.
+bn:00077585n	WIKIDIS	Any physical item that can be used to achieve a goal
+bn:00077585n	WIKIDATA	Physical item that can be used to achieve a goal
+bn:00077585n	OMWIKI	A mechanical device intended to make a task easier.
+bn:00077585n	WIKT	A mechanical device intended to make a task easier.
+bn:00077585n	WIKTLB	Mechanical device intended to make a task easier.
+bn:00020631n	WN	A noun that is singular in form but refers to a group of people or things
+bn:00020631n	WIKI	In linguistics, a collective noun is a word that refers to a collection of things taken as a whole.
+bn:00020631n	OMWIKI	Noun that summarizes several similar objects in one term.
+bn:00020631n	WIKT	A noun which, though singular, refers to a group of things or animals. Examples: a school of fish, a pride of lions.
+bn:00020631n	WIKTLB	Noun referring to a group of similar things.
+bn:16831815n	WIKIDATA	Entity that is physically perceptible
+bn:15290634n	WIKIDATA	Word or phrase from a specialized area of knowledge
+bn:15290634n	OMWIKI	A word or phrase, especially one from a specialised area of knowledge.
+bn:15290634n	WIKT	A word or phrase, especially one from a specialised area of knowledge.
+bn:15290634n	WIKTLB	Word or phrase, especially one from a specialised area of knowledge.
+bn:15290634n	MSTERM	A word or phrase that stands for a concept used in a particular subject area.
+bn:00046127n	WN	Instrumentation (a piece of equipment or tool) used to effect an end
+bn:00058187n	WN	A content word that can be used to refer to a person, place, thing, quality, or action
+bn:00058188n	WN	The word class that can serve as the subject or object of a verb, the object of a preposition, or in apposition
+bn:00058188n	WIKI	A noun is a word that functions as the name of some specific thing or set of things, such as living creatures, objects, places, actions, qualities, states of existence, or ideas.
+bn:00058188n	WIKIDIS	A part of speech
+bn:00058188n	WIKIDATA	Part of speech in grammar denoting a figurative or real thing or person
+bn:00058188n	OMWIKI	A word that can be used to refer to a person, place, thing, quality, or idea; a part of speech. It can serve as the subject or object of a verb. For example, a table or a computer.
+bn:00058188n	OMWIKI	Noun that denotes a concrete (touchable) object.
+bn:00058188n	WIKT	A word that can be used to refer to a person, animal, place, thing, phenomenon, substance, quality, or idea; one of the basic parts of speech in many languages, including English.
+bn:00058188n	WIKT	A word that names a person, place, thing or idea; a noun.
+bn:00058188n	WIKT	A noun that denotes an idea, emotion, feeling, quality or other abstract or intangible concept, as opposed to a concrete item, or a physical object.
+bn:00058188n	WIKT	A noun that denotes something tangible or material, such as a person or place.
+bn:00058188n	WIKTLB	Noun that denotes an abstract concept
+bn:00062570n	WN	A hollow cylindrical shape
+bn:00062570n	WIKI	A tube is a soft squeezable container which can be used for thick liquids such as adhesive, caulking, ointment, and toothpaste.
+bn:00062570n	WIKIDATA	Soft squeezable container which can be used for thick liquids such as adhesive, caulking, ointment, and toothpaste
+bn:00062570n	WIKT	Anything that is hollow and cylindrical in shape.
+bn:00062570n	WIKT	Hollow conduit.
+bn:00024780n	WN	A surface generated by rotating a parallel line around a fixed line
+bn:00022129n	WN	Any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)
+bn:00022129n	WIKI	A container is any receptacle or enclosure for holding a product used in storage, packaging, and shipping.
+bn:00022129n	WIKIDATA	Hollow object that can contain materials
+bn:00022129n	OMWIKI	A large case that can be transported by truck and than easily loaded on a ship.
+bn:00068395n	WN	A shape that is curved and without sharp angles
+bn:00046978n	WN	An artifact (or system of artifacts) that is instrumental in accomplishing some end
+bn:15325623n	WIKIDATA	Place or device for storing material or immaterial objects
+bn:00031027n	WN	That which is perceived or known or inferred to have its own distinct existence (living or nonliving)
+bn:00031027n	WIKI	An entity is something that exists as itself, as a subject or as an object, actually or potentially, concretely or abstractly, physically or not.
+bn:00031027n	WIKIDIS	Something that is tangible and within the grasp of the senses
+bn:00031027n	WIKIDATA	Something that exists in the identified universe
+bn:00031027n	OMWIKI	That which is perceived or known or inferred to have its own distinct existence.
+bn:00031027n	WIKT	The state or quality of being or existence.
+bn:00031027n	WIKTLB	State or quality of existence.
+bn:00031027n	WIKIQU	Entity is a word which refers to something which has actual, apparent, ideal, or explicitly imaginary existence within Reality.
+bn:00031027n	MSTERM	An object (such as a customer, item, or employee) that shares a set of defined attributes or characteristics, and that is used to manage rules for data.
+bn:00031027n	MSTERM	A distinct economic unit with economic or legal existence separate from those who manage it.
+bn:00312030n	WIKI	In engineering, a function is interpreted as a specific process, action or task that a system is able to perform.
+bn:00312030n	WIKIDIS	Related to the selected property of a system
+bn:00312030n	WIKIDATA	Use of a resource to perform a task
+bn:03504328n	WIKI	The Volkswagen Beetle – officially the Volkswagen Type 1, informally in Germany the Käfer and in parts of the English-speaking world the Bug – is a two-door, five-passenger, rear-engine economy car that was manufactured and marketed by German automaker Volkswagen from 1938 until 2003.
+bn:03504328n	WIKIDIS	The original model manufactured from 1938 to 2003
+bn:03504328n	WIKIDATA	Car model
+bn:03504328n	OMWIKI	A car that Volkswagen started to produce in 1938.
+bn:01367346n	WIKI	An automobile model is a particular brand of vehicle sold under a marque by a manufacturer, usually within a range of models, usually of different sizes or capabilities.
+bn:01367346n	WIKI	Automotive trim nomenclature is loosely identified with alphanumeric lettering on various exterior locations on automobiles manufactured internationally.
+bn:01367346n	WIKIDATA	Industrial automobile model associated with a brand, defined usually from an engineering point of view by a combination of chassis/bodywork
+bn:00025865n	WN	An imperfection in an object or machine
+bn:00025865n	OMWIKI	An imperfection in a device or machine.
+bn:00025865n	WIKT	A defect, fault, or imperfection, especially one that is hidden.
+bn:00025865n	MSTERM	A physical defect, such as a loose connection, that prevents a system or device from operating as it should.
+bn:14956284n	WIKI	Failure is the state or condition of not meeting a desirable or intended objective, and may be viewed as the opposite of success.
+bn:14956284n	WIKIDATA	State or condition of not meeting a desirable or intended objective
+bn:14956284n	WIKT	State or condition of not meeting a desirable or intended objective, opposite of success.
+bn:14956284n	WIKTLB	State or condition opposite of success.
+bn:14956284n	WIKIQU	Failure refers to the state or condition of not meeting a desirable or intended objective, and may be viewed as the opposite of success.
+bn:00046098n	WN	The state or an instance of being imperfect
+bn:00046098n	WIKT	The state of being imperfect.
+bn:00046098n	WIKT	Those qualities or features that are imperfect; the characteristic, state, or quality of being imperfect.
+bn:00046098n	WIKTLB	State of being imperfect.
+bn:00057908n	WN	An act that does not achieve its intended goal
+bn:00057908n	WIKT	Something that does not achieve the intended goal.
+bn:00074009n	WN	The way something is with respect to its main attributes
+bn:00001077n	WN	Something that people do or cause to happen
+bn:00001077n	WIKI	Praxeology is the deductive study of human action, based on the notion that humans engage in purposeful behavior, as opposed to reflexive behavior like sneezing and inanimate behavior.
+bn:00001077n	WIKIDATA	Deductive study of human action
+bn:00001077n	WIKT	A display of behaviour.
+bn:00001077n	WIKTLB	Display of behaviour.
+bn:00013700n	WN	Insects with sucking mouthparts and forewings thickened and leathery at the base; usually show incomplete metamorphosis
+bn:00013700n	OMWIKI	Any of the suborder Heteroptera, having piercing and sucking mouthparts, specialized as a beak. 
+bn:00046870n	WN	Small air-breathing arthropod
+bn:00046870n	WIKI	Insects or Insecta are by far the largest group of hexapod invertebrates within the arthropod phylum.
+bn:00046870n	WIKIDATA	Class of invertebrates
+bn:00046870n	OMWIKI	A class of the Arthropoda typically having a segmented body with an external chitinous covering, a pair of compound eyes, a pair of antennae, three pairs of mouthparts, and two pairs of wings.
+bn:00046870n	WIKT	An arthropod in the class Insecta, characterized by six legs, up to four wings, and a chitinous exoskeleton.
+bn:00046870n	WIKTLB	Arthropod of class insecta.
+bn:00006081n	WN	Invertebrate having jointed limbs and a segmented body with an exoskeleton made of chitin
+bn:00006081n	WIKI	An arthropod is an invertebrate animal having an exoskeleton, a segmented body, and paired jointed appendages.
+bn:00006081n	WIKIDIS	Animals of the phylum Arthropoda, including insects, arachnids, and crustaceans
+bn:00006081n	WIKIDATA	Phylum of animals
+bn:00006081n	OMWIKI	The largest phylum in the animal kingdom; adults typically have segmented body, a sclerotized integument, and many-jointed segmental limbs. 
+bn:00006081n	WIKT	An invertebrate animal of the phylum Arthropoda, characterized by a chitinous exoskeleton and multiple jointed appendages.
+bn:00006081n	WIKTLB	Animal of Arthropoda.
+bn:00006081n	WIKIQU	This page is for quotes about arthropods, both in general and about specific taxa.
+bn:00004222n	WN	A living organism characterized by voluntary movement
+bn:00004222n	WIKI	Animals are multicellular eukaryotic organisms that form the biological kingdom Animalia.
+bn:00004222n	WIKI	Fauna is all of the animal life of any particular region or time.
+bn:00004222n	WIKI	Creature is a 1999 documentary film that was directed by Parris Patton.
+bn:00004222n	WIKIDIS	A classification of living organisms
+bn:00004222n	WIKIDATA	Kingdom of multicellular eukaryotic organisms
+bn:00004222n	WIKIDATA	Set of animal species in any particular region and time
+bn:00004222n	WIKIDATA	1999 documentary film
+bn:00004222n	OMWIKI	A living organism characterized by voluntary movement.
+bn:00004222n	OMWIKI	The entire animal life of a given region, habitat or geological stratum.
+bn:00004222n	OMWIKI	All of the animal life of any particular region or time.
+bn:00004222n	OMWIKI	Any living organism characterized by voluntary movement, the possession of cells with noncellulose cell walls and specialized sense organs enabling rapid response to stimuli, and the ingestion of complex organic substances such as plants and other animals.
+bn:00004222n	OMWIKI	Any of various processes, either sexual or asexual, by which an animal produces one or more individuals similar to itself.
+bn:00004222n	OMWIKI	Any nonhuman animal, esp. a large, four-footed mammal.
+bn:00004222n	WIKT	Animals considered as a group; especially those of a particular country, region, time.
+bn:00004222n	WIKTLB	Animals considered as a group.
+bn:00004222n	WIKIQU	This page is for quotes about animals.
+bn:00047349n	WN	Any animal lacking a backbone or notochord; the term is not used as a scientific classification
+bn:00047349n	WIKI	Invertebrates are animals that neither possess nor develop a vertebral column, derived from the notochord.
+bn:00047349n	WIKIDATA	Group of animals
+bn:00047349n	OMWIKI	Any animal lacking a backbone, including all species not classified as vertebrates.
+bn:00047349n	WIKT	An animal without vertebrae, i.e. backbone.
+bn:00047349n	WIKTLB	Animal without backbone.
+bn:00010540n	WN	A group of plants or animals
+bn:17528560n	WIKI	In knowledge representation, a class is a collection of individuals or objects.
+bn:17528560n	WIKIDATA	Group of items sharing common characteristics
+bn:00082641v	WN	Cause annoyance in; disturb, especially by minor irritations
+bn:00082641v	OMWIKI	To make someone rather angry or impatient; to cause annoyance.
+bn:00082641v	WIKT	To make angry.
+bn:00082641v	WIKTLB	To anger, annoy.
+bn:00082641v	FRAMENET	Make a little angry.
+bn:00082641v	FRAMENET	Annoy or irritate.
+bn:00082641v	FRAMENET	Annoy.
+bn:00087015v	WN	Give displeasure to
+bn:00087015v	FRAMENET	Annoy or upset.
+bn:00075106n	WN	Playing card in any of four sets of 13 cards in a pack; each set has its own symbol and color
+bn:00075106n	WIKI	In playing cards, a suit is one of the categories into which the cards of a deck are divided.
+bn:00075106n	WIKIDIS	One of four groups into which a deck of cards is divided
+bn:00075106n	WIKIDATA	Categories into which the cards of a deck are divided
+bn:00075106n	OMWIKI	One of several classes of a pack of cards distinguished by color and/or specific emblems
+bn:00075106n	WIKT	Each of the sets of a pack of cards distinguished by color and/or specific emblems, such as the spades, hearts, diamonds, or clubs of traditional Anglo, Hispanic, and French playing cards.
+bn:00075106n	WIKT	A card game in which the spade suit cards are trumps.
+bn:00075106n	WIKT	One of the four suits of playing cards, marked with the symbol ♦.
+bn:00075106n	WIKT	One of the four suits of playing cards, marked with the symbol ♣.
+bn:00062958n	WN	One of a pack of cards that are used to play card games
+bn:00062958n	WIKI	A playing card is a piece of specially prepared heavy paper, thin cardboard, plastic-coated paper, cotton-paper blend, or thin plastic, marked with distinguishing motifs and used as one of a set for playing card games.
+bn:00062958n	WIKIDIS	Queen or King, but sometimes including Ace or Joker)
+bn:00062958n	WIKIDATA	Card used as one of a set for playing card games
+bn:00062958n	WIKIDATA	Card deck used in Italy
+bn:00062958n	WIKT	Any of the usually 52 rectangular pieces of card used to play numerous games, featuring either one to 10 pips or a picture and belonging of one of four suits.
+bn:00062958n	WIKTLB	One of usually 52 rectangular pieces of card.
+bn:00062958n	WIKIQU	Playing cards are pieces of specially prepared heavy paper, thin cardboard, or thin plastic, figured with distinguishing motifs and used as one of a set for playing card games.
+bn:00062958n	MSTERM	A group of one or more cards.
+bn:00062958n	MSTERM	A virtual object that is similar in shape to playing cards.
+bn:00015923n	WN	A game played with playing cards
+bn:00015923n	WIKI	A card game is any game using playing cards as the primary device with which the game is played, be they traditional or game-specific.
+bn:00015923n	WIKIDATA	Game using playing cards as the primary device
+bn:00015923n	WIKT	Any of the many games played with playing cards.
+bn:00015923n	WIKT	Card games.
+bn:00015923n	WIKTLB	Any of very many games played with playing cards.
+bn:00015914n	WN	One of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes
+bn:00015914n	WIKI	In sports, a card lists the matches taking place in a title match combat-sport event.
+bn:00015914n	WIKIDIS	The lineup of the matches in an event
+bn:00015914n	WIKIDATA	List of matches taking place in a title-match combat-sport event
+bn:00015914n	OMWIKI	Each one of the pieces in the playing deck used in social games such as Gin Rummy or Poker.
+bn:03749295n	WIKI	Tabletop games are games that are normally played on a table or other flat surface, such as board games, card games, dice games, miniatures wargames or tile-based games.
+bn:03749295n	WIKIDIS	Any game usually played on a table, but often referring to miniatures wargames
+bn:03749295n	WIKIDATA	Game played on a flat surface
+bn:00060464n	WN	A material made of cellulose pulp derived mainly from wood or rags or certain grasses
+bn:00060464n	WIKI	Paper is a thin material produced by pressing together moist fibres of cellulose pulp derived from wood, rags or grasses, and drying them into flexible sheets.
+bn:00060464n	WIKIDATA	Material mainly used for writing upon, printing upon, drawing or for packaging
+bn:00060464n	OMWIKI	Felted or matted sheets of cellulose fibers, formed on a fine-wire screen from a dilute water suspension, and bonded together as the water is removed and the sheet is dried.
+bn:00060464n	WIKT	A sheet material used for writing on or printing on , usually made by draining cellulose fibres from a suspension in water.
+bn:00060464n	WIKTLB	Material for writing on.
+bn:00001172n	WN	Any specific behavior
+bn:00001172n	MSTERM	A single task in a runbook that performs a specific function.
+bn:00003693n	WN	An activity that is diverting and that holds the attention
+bn:00003693n	WIKI	Entertainment is a form of activity that holds the attention and interest of an audience, or gives pleasure and delight.
+bn:00003693n	WIKI	Amusement, from the old French à muser – to put into a stupid stare, is the state of experiencing humorous and entertaining events or situations while the person or animal actively maintains the experience, and is associated with enjoyment, happiness, laughter and pleasure.
+bn:00003693n	WIKIDIS	Event, performance, or activity designed to give pleasure to an audience
+bn:00003693n	WIKIDATA	Activity that holds the attention and interest of an audience, or gives pleasure and delight
+bn:00003693n	OMWIKI	An activity that is diverting and that holds the attention.
+bn:00003693n	WIKT	An activity designed to give pleasure, enjoyment, diversion, amusement, or relaxation to an audience, no matter whether the audience participates passively as in watching opera or a movie, or actively as in games.
+bn:00003693n	WIKT	Entertainment.
+bn:00003693n	WIKTLB	Activity designed to give pleasure or relaxation.
+bn:00003693n	WIKIQU	Entertainment is a form of activity that holds the attention and interest of an audience, or gives pleasure and delight.
+bn:00003693n	WIKIQU	Amusement is the state of experiencing humorous and usually entertaining events or situations, and is associated with enjoyment, happiness, laughter and pleasure.
+bn:00003693n	MSTERM	Amusment, pleasure, or diversion.
+bn:00060714n	WN	A game suitable for playing in a parlor
+bn:00060714n	WIKI	A parlour or parlor game is a group game played indoors.
+bn:00060714n	WIKIDATA	Group game played indoors
+bn:00024072n	WN	An ornamental jeweled headdress signifying sovereignty
+bn:00024072n	WIKI	A diadem is a type of crown, specifically an ornamental headband worn by monarchs and others as a badge of royalty.
+bn:00024072n	WIKIDIS	A type of crown
+bn:00024072n	OMWIKI	A royal, imperial or princely headdress; a diadem.
+bn:00024072n	WIKT	A royal, imperial or princely headdress; a diadem.
+bn:00024072n	WIKT	An ornamental headband worn as a badge of royalty.
+bn:00024072n	WIKTLB	Royal headdress.
+bn:00024087n	WN	Regalia (jewelry and other paraphernalia) worn by a sovereign on state occasions
+bn:00024087n	WIKI	Crown Jewels are the objects of metalwork and jewellery in the regalia of a current or former monarchy.
+bn:00024087n	WIKI	Objects of metalwork and jewellery in the regalia of a current or former monarchy
+bn:00048183n	WN	A headdress adorned with jewels
+bn:00024069n	WN	The Crown (or the reigning monarch) as the symbol of the power and authority of a monarchy
+bn:00024069n	WIKI	A crown is a traditional symbolic form of headwear, or hat, worn by a monarch or by a deity, for whom the crown traditionally represents power, legitimacy, victory, triumph, honor, and glory, as well as immortality, righteousness, and resurrection.
+bn:00024069n	WIKIDIS	As worn by a king or queen
+bn:00024069n	WIKIDATA	Precious item of headwear, symbolizing the power of a ruler
+bn:00024069n	WIKT	Imperial or regal power, or those who wield it.
+bn:00024069n	WIKTLB	Imperial or regal power.
+bn:00043303n	WN	A band worn around or over the head
+bn:00043303n	WIKI	A headband is a clothing accessory worn in the hair or around the forehead, usually to hold hair away from the face or eyes.
+bn:00043303n	WIKI	Band worn around the head, made of various materials, typically worn to keep the hair in place, for decorative purposes, or as a sign of status or rank.
+bn:00043303n	WIKIDATA	Clothing accessory
+bn:00043303n	WIKT	A strip of fabric worn around the head.
+bn:00043303n	WIKTLB	Strip of fabric worn around the head.
+bn:00130313n	WIKI	Clothing in ancient Rome generally comprised a short-sleeved or sleeveless, knee-length tunic for men and boys, and a longer, usually sleeved tunic for women and girls.
+bn:01416311n	WIKI	Clothing in Ancient Greece primarily consisted of the chiton, peplos, himation, and chlamys.
+bn:15734271n	WIKI	A bijou is an intricate jewellery piece incorporated into clothing, or worn by itself on the body.
+bn:15734271n	WIKIDATA	Piece of jewellery
+bn:00066864n	WN	Paraphernalia indicative of royalty (or other high office)
+bn:00066864n	WIKI	Regalia is Latin plurale tantum for the privileges and the insignia characteristic of a sovereign.
+bn:00066864n	WIKIDIS	The privileges and insignia, characteristic of a Sovereign or Emperor
+bn:00066864n	WIKIDATA	Privileges and the insignia characteristic of a sovereign
+bn:00066864n	OMWIKI	The rights, prerogatives and privileges of a sovereign.
+bn:00066864n	WIKT	The emblems, symbols, or paraphernalia indicative of royalty or any other sovereign status; such as a crown, orb, sceptre, sword of justice.
+bn:00066864n	WIKTLB	Emblems, symbols or paraphernalia.
+bn:00048188n	WN	An adornment (as a bracelet or ring or necklace) made of precious metals and set with gems (or imitation gems)
+bn:00048188n	WIKI	Jewellery or jewelry consists of small decorative items worn for personal adornment, such as brooches, rings, necklaces, earrings, pendants and bracelets.
+bn:00048188n	WIKIDATA	Form of personal adornment
+bn:00048188n	OMWIKI	Collectively, personal ornamentation such as rings, necklaces, brooches and bracelets, made of precious metals and sometimes set with gemstones.
+bn:00048188n	WIKT	Collectively, personal ornamentation such as rings, necklaces, brooches and bracelets, made of precious metals and sometimes set with gemstones.
+bn:00043306n	WN	Clothing for the head
+bn:00043306n	WIKI	Headgear, headwear or headdress is the name given to any element of clothing which is worn on one's head.
+bn:00043306n	WIKIDATA	Any covering for the head; element of clothing which is worn on one's head
+bn:00043306n	OMWIKI	A decorative covering or ornament worn on the head.
+bn:00043306n	WIKT	A decorative covering or ornament worn on the head.
+bn:00043306n	WIKT	Anything worn on the head, such as a helmet.
+bn:00043306n	WIKT	A hat or other covering for the head.
+bn:00043306n	WIKTLB	A decorative covering or ornament worn on the head.
+bn:01527600n	WIKI	Ceremonial dress is the clothing worn for very special occasions, such as coronations, graduations, parades, religious rites, and trials.
+bn:01527600n	WIKI	Costume having a primarily ritual or ceremonial purpose
+bn:00008285n	WN	A thin flat strip of flexible material that is worn around the body or one of the limbs (especially to decorate the body)
+bn:00160859n	WIKI	The clothing used in the ancient world strongly reflects the technologies that these peoples mastered.
+bn:15350879n	WIKI	The culture of Greece has evolved over thousands of years, beginning in Mycenaean Greece, continuing most notably into Classical Greece, through the influence of the Roman Empire and its successor the Byzantine Empire.
+bn:15350879n	WIKIDATA	Culture of an area
+bn:14530116n	WIKI	Fashionable or decorative accessory to clothes or interior furnishings
+bn:00005168n	WN	Equipment consisting of miscellaneous articles needed for a particular operation or sport etc.
+bn:00005168n	WIKT	Miscellaneous items, especially the set of equipment required for a particular activity; stuff.
+bn:00064490n	WN	(law) the right to refuse to divulge information obtained in a confidential relationship
+bn:00064490n	WIKI	A privilege is a certain entitlement to immunity granted by the state or another authority to a restricted group, either by birth or on a conditional basis.
+bn:00064490n	WIKIDIS	A permission granted by law or other rules.
+bn:00064490n	WIKIDATA	Special entitlement to immunity granted by the state or another authority to a restricted group
+bn:00064490n	MSTERM	A user's right to perform a specific task, usually one that affects an entire computer system rather than a particular object. Privileges are assigned by administrators to individual users or groups of users as part of the security settings for the computer.
+bn:00064490n	MSTERM	One or more permissions a user requires to perform a task.
+bn:00001500n	WN	A decoration of color or interest that is added to relieve plainness
+bn:00001500n	WIKI	An adornment is generally an accessory or ornament worn to enhance the beauty or status of the wearer.
+bn:00071529n	WN	A fundamental linguistic unit linking a signifier to that which is signified--de Saussure
+bn:00071529n	WIKI	In semiotics, a sign is anything that communicates a meaning that is not the sign itself to the interpreter of the sign.
+bn:00071529n	WIKIDATA	Concepts in linguistics
+bn:00023028n	WN	The attire worn in a play or at a fancy dress ball
+bn:00023028n	WIKI	Costume is the distinctive style of dress of an individual or group that reflects their class, gender, profession, ethnicity, nationality, activity or epoch.
+bn:00023028n	WIKIDATA	Wardrobe and dress in general
+bn:00023028n	WIKT	An outfit or a disguise worn as fancy dress etc.
+bn:00072174n	WN	Artifact consisting of a narrow flat piece of material
+bn:00072174n	WIKT	Long, thin piece of land, or of any material.
+bn:00072174n	WIKTLB	Long, thin piece of land or material.
+bn:00022099n	WN	Goods (as food or clothing) intended for direct use or consumption
+bn:00022099n	WIKI	In economics, any commodity which is produced and subsequently consumed by the consumer, to satisfy his current wants or needs, is a consumer good or final good.
+bn:00022099n	WIKIDATA	Commodity which is produced and subsequently consumed by the consumer
+bn:00022099n	OMWIKI	Economic good that directly satisfies human wants or desires. 
+bn:00022099n	MSTERM	A good that is created for consumer user rather than business use.
+bn:00015405n	WN	(dentistry) dental appliance consisting of an artificial crown for a broken or decayed tooth
+bn:00015405n	WIKI	A crown, sometimes known as dental cap, is a type of dental restoration which completely caps or encircles a tooth or dental implant.
+bn:00015405n	WIKIDIS	A dental treatment
+bn:00015405n	OMWIKI	A restoration of teeth using materials that are fabricated by indirect methods which are cemented into place.
+bn:00015405n	WIKT	A crown for covering a tooth.
+bn:00015405n	WIKTLB	Crown covering a tooth.
+bn:00026268n	WN	A device to repair teeth or replace missing teeth
+bn:00313677n	WIKI	A jig is a type of custom-made tool used to control the location and/or motion of parts or other tools.
+bn:00313677n	WIKIDIS	A device/frame used to control position or motion
+bn:00313677n	WIKIDATA	Tool used to control the location and/or motion of another tool
+bn:00024074n	WN	An English coin worth 5 shillings
+bn:00024074n	WIKI	The British crown, the successor to the English crown and the Scottish dollar, came into being with the Union of the kingdoms of England and Scotland in 1707.
+bn:00024074n	WIKIDIS	A heavy silver coin, parallel in size and weight to the United States silver dollar
+bn:00024074n	WIKIDATA	British coin introduced in 1707
+bn:00024074n	WIKT	A former pre-decimalization British coin worth five shillings.
+bn:00024074n	WIKTLB	Former British coin worth five shillings.
+bn:00020497n	WN	A flat metal piece (usually a disc) used as money
+bn:00020497n	WIKI	A coin is a small, flat, round piece of metal or plastic used primarily as a medium of exchange or legal tender.
+bn:00020497n	WIKIDIS	Standardized as currency
+bn:00020497n	WIKIDATA	Piece of hard material produced in large quantities to facilitate trade
+bn:00020497n	OMWIKI	A piece of currency, usually metallic and in the shape of a disc, but sometimes polygonal, or with a hole in the middle.
+bn:00020497n	WIKT	A piece of currency, usually metallic and in the shape of a disc, but sometimes polygonal, or with a hole in the middle.
+bn:00020497n	WIKTLB	(currency) A piece of currency.
+bn:00020506n	WN	Coins collectively
+bn:00020506n	WIKT	Coins taken collectively; currency.
+bn:00020506n	WIKT	Coins collectively; specie.
+bn:00020624n	WN	Things considered to be worth collecting (not necessarily valuable or antique)
+bn:00020624n	WIKI	A collectable is any object regarded as being of value or interest to a collector.
+bn:00020624n	WIKIDIS	An item that is collected
+bn:00020624n	WIKIDATA	Object regarded as being of value or interest to a collector
+bn:00050571n	WN	Something that can be used as an official medium of payment
+bn:00050571n	WIKI	Legal tender is a medium of payment recognized by a legal system to be valid for meeting a financial obligation.
+bn:00050571n	WIKIDIS	A form of money with a specific legal status
+bn:00050571n	WIKIDATA	Medium of payment allowed by law or recognized by a legal system to be valid for meeting a financial obligation
+bn:00050571n	MSTERM	Something used as a medium of payment.
+bn:00024507n	WN	The metal or paper medium of exchange that is presently used
+bn:00024507n	WIKI	A currency, in the most specific use of the word, refers to money in any form when in actual use or circulation as a medium of exchange, especially circulating banknotes and coins.
+bn:00024507n	WIKIDIS	Monetized in specific units (euros, dollars, pesos, etc.) which may be given international value by their exchange values in foreign exchange
+bn:00024507n	WIKIDATA	Generally accepted medium of exchange for goods or services
+bn:00024507n	OMWIKI	A unit of exchange (such as money) used to facilitate transactions.
+bn:00024507n	WIKT	Money or other items used to facilitate transactions.
+bn:00024507n	WIKT	A medium of exchange.
+bn:00024507n	WIKTLB	Money or other item used to facilitate transactions.
+bn:00024507n	WIKIQU	Currency is a physical medium of exchange, typically represented in modern times by government-printed paper notes and government-minted coins.
+bn:00024507n	MSTERM	A medium of exchange in circulation that is not limited to money.
+bn:00024507n	MSTERM	Any form of money in public circulation that is not your base (local) currency.
+bn:00024507n	MSTERM	Any form of money, including bills and coins, used as a medium of exchange.
+bn:00024507n	MSTERM	An 8-byte, fixed-point data type that is useful for calculations involving money or for fixed-point calculations in which accuracy is extremely important. The Currency data type is used to store numbers with up to 15 digits to the left of the decimal point and 4 digits to the right. The type-declaration character in Microsoft© Visual Basic© is an at sign (@). Currency can range from -922,337,203,685,477.5808 to 922,337,203,685,477.5807.
+bn:00024486n	WN	Something unusual -- perhaps worthy of collecting
+bn:00024486n	WIKI	Twelfth Night, or What You Will is a comedy by William Shakespeare, believed to have been written around 1601–02 as a Twelfth Night's entertainment for the close of the Christmas season.
+bn:00024486n	WIKIDATA	Early 1600s play by William Shakespeare
+bn:00024486n	WIKT	Something unusual, an oddity.
+bn:00024486n	WIKIQU	Twelfth Night, or What You Will is a comedy by William Shakespeare, named after the Twelfth Night holiday.
+bn:00054159n	WN	Anything that is generally accepted as a standard of value and a measure of wealth in a particular country or region
+bn:00054159n	WIKI	A medium of exchange is a tradeable entity used to avoid the inconveniences of a pure barter system.
+bn:00054159n	WIKI	A monetary system is the set of institutions by which a government provides money in a country's economy.
+bn:00054159n	WIKT	An intermediary used in trade to avoid the inconveniences of a pure barter system, such as money.
+bn:00058148n	WN	A promise to pay a specified amount on demand or at a certain time
+bn:00058148n	WIKI	A promissory note, sometimes referred to as a note payable, is a legal instrument, in which one party promises in writing to pay a determinate sum of money to the other, either at a fixed or determinable future time or on demand of the payee, under specific terms.
+bn:00058148n	WIKIDIS	A contract binding one party to pay money to a second party
+bn:00058148n	WIKIDATA	Negotiable instrument, wherein one party makes an unconditional promise in writing to pay a determinate sum of money to the other
+bn:00058148n	OMWIKI	A commercial document issued by a seller to the buyer, indicating products or services already provided to the buyer as well as the corresponding price that the buyer has to pay.
+bn:00058148n	WIKT	A writing binding the signer or signers to pay a certain sum at a future day or on demand, with or without interest, as may be stated in the document. A bill of exchange. In the United States, it is usually called a note, a note of hand, or a promissory note.
+bn:00058148n	MSTERM	The bill provided by the seller to the buyer for items or services that have been purchased.
+bn:00058148n	MSTERM	A source document that documents an agreement between two parties based on an understanding that one party will commit to paying the other party at a specified time or on demand.
+bn:00069619n	WN	An educational institution
+bn:00069619n	WIKI	A school is an institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers.
+bn:00069619n	WIKIDATA	Institution designed for the teaching of students under the direction of teachers
+bn:00069619n	OMWIKI	An institution of higher education and of research, which grants academic degrees.
+bn:00069619n	WIKT	An institution dedicated to teaching and learning; an educational institution.
+bn:00069619n	WIKTLB	An institution dedicated to teaching and learning.
+bn:00029812n	WN	An institution dedicated to education
+bn:00029812n	WIKI	An educational institution is a place where people of different ages gain an education.
+bn:00029812n	WIKIDATA	Place where people of different ages gain an education
+bn:00031641n	WN	An organization founded and united for a specific purpose
+bn:00031641n	FRAMENET	The action of establishing or being established.
+bn:00046954n	WN	A custom that for a long time has been an important feature of some group or society
+bn:00046954n	WIKI	Institutions are "stable, valued, recurring patterns of behavior".
+bn:00046954n	WIKIDATA	Structure or mechanism of social order and cooperation governing the behaviour of a set of individuals within a given community
+bn:00046954n	WIKT	A custom or practice of a society or community.
+bn:00046954n	WIKTLB	Custom or practice of a society or community.
+bn:03111155n	WIKI	Educational organization has multiple meanings according to the field and setting in which it is being applied.
+bn:00059480n	WN	A group of people who work together
+bn:00059480n	WN	The act of forming or establishing something
+bn:00059480n	WIKI	An organization or organisation is an entity comprising multiple people, such as an institution or an association, that has a collective goal and is linked to an external environment.
+bn:00059480n	WIKIDIS	A social entity that has a collective goal and is linked to an external environment
+bn:00059480n	WIKIDATA	Social entity with a collective goal
+bn:00059480n	OMWIKI	Of, relating to, or produced by an organization.
+bn:00059480n	WIKT	A group of people consciously cooperating.
+bn:00059480n	WIKTLB	Group of people consciously cooperating.
+bn:00059480n	WIKIQU	An is a group of people, operating within a defined structure, cooperating for some agreed-upon purpose.
+bn:00024592n	WN	A specific practice of long standing
+bn:00024592n	WIKI	A tradition is a belief or behavior passed down within a group or society with symbolic meaning or special significance with origins in the past.
+bn:00024592n	WIKIDATA	Belief or behavior passed down within a group or society with symbolic meaning or special significance with origins in the past
+bn:00024592n	OMWIKI	A specific practice of long standing.
+bn:00024592n	WIKIQU	Tradition refers to belief or behavior within a group or society with symbolic meaning or special significance and origins in the past.
+bn:00024592n	WIKIQU	Tradition refers to belief or behavior within a group or society with symbolic meaning or special significance and origins in the past.
+bn:00069620n	WN	A building where young people receive education
+bn:00069620n	OMWIKI	An institution or building at which children and young people receive education.
+bn:00013722n	WN	A structure that has a roof and walls and stands more or less permanently in one place
+bn:00013722n	WIKI	A building or edifice is a structure with a roof and walls standing more or less permanently in one place, such as a house or factory.
+bn:00013722n	WIKIDATA	Structure, typically with a roof and walls, standing more or less permanently in one place
+bn:00013722n	OMWIKI	A building, esp. one of large size or imposing appearance.
+bn:00013722n	OMWIKI	A building to which there is free access by the public and which is available for the use of a community.
+bn:00013722n	OMWIKI	Structure with a roof and walls, such as a house or factory.
+bn:00013722n	WIKT	A closed structure with walls and a roof.
+bn:00013722n	WIKT	A building; a structure; an architectural fabric, especially a large and spectacular one.
+bn:00013722n	WIKT	Building.
+bn:00013722n	WIKTLB	Closed structure with walls and a roof.
+bn:00013722n	WIKIQU	A building is a man-made structure with a roof and walls standing more or less permanently in one place.
+bn:14421293n	WIKIDATA	Designed constructed structure
+bn:00046038n	WN	Property consisting of houses and land
+bn:00046038n	WIKI	Real estate is "property consisting of land and the buildings on it, along with its natural resources such as crops, minerals or water; immovable property of this nature; an interest vested in this an item of real property, buildings or housing in general.
+bn:00046038n	WIKI	In English common law, real property, real estate, realty, or immovable property is land which is the property of some person and all structures integrated with or affixed to the land, including crops, buildings, machinery, wells, dams, ponds, mines, canals, and roads, among other things.
+bn:00046038n	WIKIDIS	Buying real estate on the speculation that its value will rise
+bn:00046038n	WIKIDIS	A piece of land defined by boundaries to which ownership is usually ascribed, including any improvements on this land
+bn:00046038n	WIKIDATA	Subset of land that has been legally defined and the improvements to it made by human efforts
+bn:00046038n	WIKIDATA	Legal term; property consisting of land and the buildings on it
+bn:00046038n	WIKT	Real estate; a piece of real property; land.
+bn:00046038n	WIKT	Real estate.
+bn:00046038n	WIKT	Property that cannot easily be moved, usually buildings and the ground they are built on.
+bn:00046038n	WIKTLB	Property that cannot easily be moved.
+bn:15067432n	WIKIDATA	Artificial geo object, designed physical object
+bn:00069625n	WN	A large group of fish
+bn:00069625n	WIKI	In biology, any group of fish that stay together for social reasons are shoaling, and if the group is swimming in the same direction in a coordinated manner, they are schooling.
+bn:00069625n	WIKIDIS	Ways that fish and other aquatic animals behave when in large groups
+bn:00069625n	OMWIKI	Group of a large number of fish (or other sea animals, such as dolphins or whales), normally from the same species, that swim together.
+bn:00069625n	WIKT	A group of fish or a group of marine mammals such as porpoises, dolphins, or whales.
+bn:00069625n	WIKT	A large number of fish of the same species swimming together.
+bn:00069625n	WIKTLB	A group of fish.
+bn:00004232n	WN	A group of animals
+bn:00057864n	WN	A loud outcry of protest or complaint
+bn:00057864n	OMWIKI	Sound which is unwanted, either because of its effects on humans, its effect on fatigue or malfunction of physical equipment, or its interference with the perception or detection of other sounds.
+bn:00057864n	WIKT	Various sounds, usually unwanted or unpleasant.
+bn:00057864n	WIKTLB	Various sounds, usually unwanted.
+bn:00014793n	WN	A loud utterance; often in protest or opposition
+bn:00079416n	WN	The use of uttered sounds for auditory communication
+bn:00079416n	WIKI	In spoken language analysis, an utterance is the smallest unit of speech.
+bn:00079416n	WIKIDATA	Smallest unit of speech
+bn:00079416n	WIKT	Something spoken.
+bn:00079416n	WIKT	The use of speech to express an idea.
+bn:00007129n	WN	Communication that relies on hearing
+bn:00021221n	WN	The activity of communicating; the activity of conveying information
+bn:00021221n	WIKI	Communication is the act of conveying intended meanings from one entity or group to another through the use of mutually understood signs and semiotic rules.
+bn:00021221n	WIKIDIS	Navigation, surveillance", often associated with air traffic management as CNS/ATM
+bn:00021221n	WIKIDATA	Conveying information through the exchange of thoughts, messages or information
+bn:00021221n	WIKT	The concept or state of exchanging data or information between entities.
+bn:00021221n	WIKTLB	Concept of exchanging information.
+bn:00021221n	WIKIQU	Communication is the activity of conveying information through the exchange of thoughts, messages, or information, as by speech, visuals, signals, writing, or behavior.
+bn:00054523n	WN	A communication (usually brief) that is written or spoken or signaled
+bn:00054523n	WIKI	A message is a discrete unit of communication intended by the source for consumption by some recipient or group of recipients.
+bn:00054523n	WIKIDATA	Information sent from a source to a receiver
+bn:00054523n	OMWIKI	A communication that is written, spoken or signalled.
+bn:00054523n	WIKT	A diplomatic missive or written communication.
+bn:00054523n	MSTERM	A communication generated by the occurrence of an event that a system or user asynchronously sends for receipt. A notification message is a communication that is intended to be read by a recipient.
+bn:00054523n	MSTERM	An individual unit of data transported between endpoint locations. A message consists of a document plus a header (information about the transfer).
+bn:00054523n	MSTERM	A message that is sent over a communications network such as a local area network or the Internet.
+bn:00054523n	MSTERM	In communications, a unit of information transmitted electronically from one device to another. A message can contain one or more blocks of text as well as beginning and ending characters, control characters, a software-generated header (destination address, type of message, and other such information), and error-checking or synchronizing information. A message can be routed directly from sender to receiver through a physical link, or it can be passed, either whole or in parts, through a switching system that routes it from one intermediate station to another.
+bn:00027739n	WN	The auditory experience of sound that lacks musical quality; sound that is a disagreeable auditory experience
+bn:00027739n	OMWIKI	Sound which is unwanted, either because of its effects on humans, its effect on fatigue or malfunction of physical equipment, or its interference with the perception or detection of other sounds.
+bn:00027739n	OMWIKI	(Music) An inharmonious combination of musical tones sounded together.
+bn:00027739n	WIKT	An inharmonious combination of simultaneously sounded tones; a dissonance.
+bn:00007134n	WN	The subjective sensation of hearing something
+bn:00001714n	WN	An unelaborated elementary awareness of stimulation
+bn:00001714n	WIKI	Sensation is the fiction-writing mode for portraying a character's perception of the senses.
+bn:00001714n	WIKIDIS	A fiction writing mode
+bn:00001714n	WIKT	Elemental awareness of sensory stimulation.
+bn:00061503n	WN	The process of perceiving
+bn:00065847n	WN	A loud and disturbing noise
+bn:00065847n	OMWIKI	A loud noise.
+bn:00065847n	WIKT	A loud noise.
+bn:00057863n	WN	Sound of any kind (especially unintelligible or dissonant sound)
+bn:00057863n	WIKI	Noise is unwanted sound judged to be unpleasant, loud or disruptive to hearing.
+bn:00057863n	WIKI	Unwanted sound,difference from sound - when the brain receives and perceives a sound;random fluctuations of data that hinders perception of an expected signal;unwanted residual electronic noise signal that gives rise to acoustic noise heard as a hiss
+bn:00057863n	WIKIDATA	Unwanted sound
+bn:00072894n	WN	The sudden occurrence of an audible event
+bn:00042904n	WN	An event that happens
+bn:00042904n	WIKI	A happening is a performance, event, or situation meant to be considered art, usually as performance art.
+bn:00042904n	WIKIDATA	Type of performance art
+bn:00042904n	WIKT	Something that happens.
+bn:00042904n	WIKT	An event, something that occurs.
+bn:00042904n	WIKTLB	Something that happens.
+bn:00861743n	WIKI	A mechanical wave is a wave that is an oscillation of matter, and therefore transfers energy through a medium.
+bn:00046952n	WN	An association organized to promote art or science or education
+bn:00046952n	WIKI	An institute is an organisational body created for a certain purpose.
+bn:00046952n	WIKIDATA	Organisational body created for a certain purpose
+bn:00040161n	WN	A point on the surface of the Earth
+bn:00975793n	WIKI	Geographical features are man-made or naturally-created features of the Earth.
+bn:00975793n	WIKIDATA	Object that can be uniquely identified with geographical data, may be man-made or naturally-created
+bn:00006539n	WN	A formal organization of people or groups of people
+bn:00006539n	WIKI	A voluntary group or union is a group of individuals who enter into an agreement, usually as volunteers, to form a body to accomplish a purpose.
+bn:00006539n	WIKIDATA	Group of people with the shared interests or aims
+bn:00063214n	WN	The precise location of something; a spatially limited location
+bn:00063214n	WIKT	A specific location or place, seen as a spatial position.
+bn:00063214n	WIKTLB	Location or place.
+bn:00057958n	WN	An organization chartered for other than profit-making activities
+bn:00057958n	WIKI	A non-profit organization, also known as a non-business entity or non-profit institution, is dedicated to furthering a particular social cause or advocating for a shared point of view.
+bn:00057958n	WIKIDATA	Organization that uses its income to achieve its goals rather than distributing it as profit or dividends
+bn:00057958n	WIKT	An organization that exists for reasons other than to make a profit, such as a charitable, educational or service organization.
+bn:00057958n	WIKT	A company or organization that is not meant to make a profit.
+bn:00057958n	WIKIQU	A nonprofit organization is an organization that uses surplus revenues to achieve its goals rather than distributing them as profit or dividends.
+bn:00009636n	WN	The act of starting something
+bn:00009636n	OMWIKI	The beginning of an activity or event.
+bn:00009636n	WIKT	The beginning of an activity.
+bn:00009636n	WIKT	The first existence of anything; act or fact of commencing.
+bn:00009636n	WIKT	The act of doing that which begins anything; commencement of an action, state, or space of time; entrance into being or upon a course; the first act, effort, or state of a succession of acts or states.
+bn:00009636n	WIKTLB	Beginning of an activity.
+bn:00009636n	MSTERM	The start of a line.
+bn:00009636n	FRAMENET	The beginning of something.
+bn:00072536n	WN	People sharing some social relation
+bn:00072536n	WIKI	In the social sciences, a social group has been defined as two or more people who interact with one another, share similar characteristics, and collectively have a sense of unity.
+bn:00072536n	WIKIDIS	A description of various human groups
+bn:00072536n	WIKIDATA	Two or more humans who interact with one another
+bn:00072536n	OMWIKI	A collection of people who interact with one another and share a certain feeling of unity. 
+bn:00072536n	WIKT	A collection of humans or animals, who share certain characteristics, interact with one another, accept expectations and obligations as members of the group, and share a common identity.
+bn:00964536n	WIKI	A federated state 
+bn:00964536n	WIKIDIS	A political entity forming part of a federal sovereign state such as the USA, Australia, India and Brazil
+bn:00964536n	WIKIDATA	Territorial and constitutional community forming part of a federal union
+bn:01834892n	WIKI	Subdivisions of Germany - overview.
+bn:07562772n	WIKIDATA	Administrative division directly subordinate to or under administration of a national government
+bn:14351290n	WIKI	The Classification of Territorial Units for Statistics,, is a geocode standard for referencing the administrative divisions of countries for statistical purposes.
+bn:00061450n	WN	(plural) any group of human beings (men or women or children) collectively
+bn:00061450n	WIKI	A people is a plurality of persons considered as a whole, as is the case with an ethnic group or nation.
+bn:00061450n	WIKIDIS	A group of humans
+bn:00061450n	WIKIDATA	Plurality of persons considered as a whole
+bn:00061450n	OMWIKI	A group of persons forming or belonging to a particular nation, class, ethnic group, country, family, etc.
+bn:00061450n	WIKT	Persons forming or belonging to a particular group, such as a nation, class, ethnic group, country, family, etc; folk; a community.
+bn:00061450n	WIKTLB	A group of persons forming or belonging to a particular nation etc.
+bn:00061450n	MSTERM	Persons who exist in no programmatic feature category, or more than one category.
+bn:00063347n	WN	A unit with political responsibilities
+bn:00021248n	WN	A group of people living in a particular local area
+bn:00021248n	WIKI	A community is a small or large social unit who have something in common, such as norms, religion, values, or identity.
+bn:00021248n	WIKI	A residential community is a community, usually a small town or city, that is composed mostly of residents, as opposed to commercial businesses and/or industrial facilities, all three of which are considered to be the three main types of occupants of the typical community.
+bn:00021248n	WIKI	Administrative territorial entity of the People's Republic of China
+bn:00021248n	WIKIDATA	Community composed mostly of residents, as opposed to commercial businesses and/or industrial facilities
+bn:00021248n	WIKIDATA	Group of interacting living organisms sharing a populated environment; a social unit of human organisms who share common values
+bn:00021248n	OMWIKI	A social group of organisms sharing an environment, normally with shared interests.
+bn:00021248n	WIKT	A group sharing a common understanding, and often the same language, law, manners, and/or tradition.
+bn:00021248n	WIKTLB	Group sharing a common understanding
+bn:00021248n	WIKIQU	A Community is a group of interacting people living in a common location.
+bn:00021248n	MSTERM	The collective of people who interact through or use online resources.
+bn:00021248n	MSTERM	A site template that is designed to create an online community where people come together to share ideas or get answers to their questions.
+bn:01318763n	WIKI	A political division is a geographic region accepted to be in the jurisdiction of a particular government entity.
+bn:01318763n	WIKIDATA	Region with its own government; includes countries, country subdivisions, and municipalities
+bn:13451858n	WIKIDATA	Legal entity which is different from a natural person
+bn:02735619n	WIKI	The international legal system is the foundation for the conduct of international relations.
+bn:01427157n	WIKI	A dependent territory, dependent area or dependency is a territory that does not possess full political independence or sovereignty as a sovereign state yet remains politically outside the controlling state's integral area.
+bn:01427157n	WIKIDIS	An area of land over which another country exercises sovereignty, but which does not have the full right of participation in that country's governance
+bn:01427157n	WIKIDATA	Territory that does not possess full political independence as a sovereign state, yet remains administratively outside the territory of its controlling state
+bn:01427157n	OMWIKI	A territory that does not possess full political independence or sovereignty as a State.
+bn:01427157n	WIKT	A country or smaller territory which politically is either an integral part of - or in some dependent relationship with another state, but is geographically separated from that 'mother state' by the sea, without bordering it or its coastal waters.
+bn:00027810n	WN	A region marked off for administrative or other purposes
+bn:00027810n	WIKI	A district is a type of administrative division that, in some countries, is managed by local government.
+bn:00027810n	WIKIDATA	Type of administrative division, in some countries
+bn:00027810n	OMWIKI	A non-sovereign geographic area which has come under the authority of an external government but has not yet been admitted to the full rights of a province or federal state of the controlling country.
+bn:00027810n	WIKT	An administrative division of an area.
+bn:04641355n	WIKIDATA	Territorial entity of which the borders are determined by physiographic and human features
+bn:03293523n	WIKI	The Nomenclature of Territorial Units for Statistics or Nomenclature of Units for Territorial Statistics is a geocode standard for referencing the subdivisions of countries for statistical purposes.
+bn:03293523n	WIKIDIS	A standard for referencing the administrative divisions of European countries
+bn:03293523n	WIKIDATA	Geocode standard for referencing the subdivisions of countries for statistical purposes
+bn:00072554n	WN	An organization regarded as part of a larger social group
+bn:00072554n	WIKI	The term "level of analysis" is used in the social sciences to point to the location, size, or scale of a research target.
+bn:00006479n	WN	A group of persons together in one place
+bn:00006479n	WIKT	A group of people or things.
+bn:00006479n	WIKTLB	Group of people or things.
+bn:16304981n	WIKI	Due to China's large population and area, the administrative divisions of China have consisted of several levels since ancient times.
+bn:16304981n	WIKI	Provinces, formally provincial-level administrative divisions or first-level administrative divisions, are the highest-level Chinese administrative divisions.
+bn:16304981n	WIKIDIS	Administrative divisions called shěng in Mandarin
+bn:16304981n	WIKIDATA	Class of region in People''s Republic of China
+bn:16304981n	WIKIDATA	People''s Republic of China province-level subdivision
+bn:01487948n	WIKI	A legal person is any human or non-human entity, in other words, any human being, firm, or government agency that is recognized as having legal rights and obligations, such as having the ability to enter into contracts, to sue, and to be sued.
+bn:01487948n	WIKIDATA	A legal fiction, which is used to abstract away the differences between natural persons, juridical persons and other entities such as countries
+bn:01487948n	WIKIDATA	A person or entity as seen from a legal perspective
+bn:01487948n	OMWIKI	The characteristic of an entity that is not a person, but is regarded by law to have the status of a person.
+bn:01487948n	OMWIKI	A legal construct through which the law allows a group of natural persons to act.
+bn:01487948n	OMWIKI	An entity that is not a person, but is regarded by law to have the status of a person.
+bn:01487948n	WIKT	Legal person.
+bn:01487948n	WIKT	A legal person.
+bn:01487948n	WIKT	An organisation or a group of people who have the legal rights and responsibilities of an individual under the law.
+bn:01487948n	WIKT	An organization such as a company or trust fund that the law treats as if it were a person, capable of entering into contracts and of being sued.
+bn:01487948n	WIKTLB	Organization or group of people.
+bn:01487948n	MSTERM	An organization with a registered or legislated legal structure that is granted the authority to enter into legal contracts and that is required to prepare statements that report on its performance.
+bn:00047140n	WN	A presentation to the mind in the form of an idea or image
+bn:00047140n	WIKI	A mental representation, in philosophy of mind, cognitive psychology, neuroscience, and cognitive science, is a hypothetical internal cognitive symbol that represents external reality, or else a mental process that makes use of such a symbol: "a formal system for making explicit certain entities or types of information, together with a specification of how the system does this".
+bn:00047140n	WIKIDATA	Hypothetical internal cognitive symbol that represents external reality
+bn:00047140n	WIKT	That which represents another.
+bn:00047140n	WIKTLB	That which represents another.
+bn:00047140n	FRAMENET	An image, model, or other depiction of something.
+bn:00026745n	WN	The act that results in something coming to be
+bn:00337848n	WIKI	The branches of science are commonly divided into three major groups:
+bn:00337848n	WIKIDATA	Field or discipline of science
+bn:00064590n	WN	The act or process of producing something
+bn:00064590n	OMWIKI	The act of producing.
+bn:00064590n	WIKT	The act of producing, making or creating something.
+bn:00007985n	WN	A branch of knowledge
+bn:00007985n	WIKI	An academic discipline or academic field is a branch of knowledge.
+bn:00007985n	WIKIDATA	Concentration in one academic field of study or profession
+bn:00007985n	OMWIKI	Area of knowledge taught in an educational institution.
+bn:00007985n	OMWIKI	A subject area or branch of knowledge.
+bn:00007985n	WIKT	A specific branch of knowledge or learning.
+bn:00007985n	WIKT	A particular area of study.
+bn:00007985n	WIKT	An area of academic concentration; a discipline.
+bn:00007985n	WIKT	A branch of knowledge or learning which is taught or researched at the college or university level.
+bn:00007985n	WIKT	A domain of study, knowledge or practice.
+bn:00007985n	WIKTLB	Specific branch or knowledge or learning.
+bn:00007985n	MSTERM	A particular specialization that categorizes activities and guidance within a process according to a common theme; these may relate to one or to many roles.
+bn:00028142n	WN	The content of a particular field of knowledge
+bn:00028142n	WIKI	A knowledge base is a technology used to store complex structured and unstructured information used by a computer system.
+bn:00028142n	WIKIDIS	A collection of knowledge helping users with a given product
+bn:00028142n	WIKIDATA	Information repository with multiple applications
+bn:00028142n	OMWIKI	A special kind of database for knowledge management that provides the means for the computerized collection, organization, and retrieval of knowledge.
+bn:00028142n	WIKT	A database designed to meet the complex storage and retrieval requirements of computerized knowledge management, especially in support of artificial intelligence or expert systems.
+bn:00028142n	MSTERM	A feature in Microsoft Dynamics CRM that provides a process for drafting, submitting, reviewing, and publishing knowledge base articles.
+bn:00028142n	MSTERM	A Microsoft Web site that provides customers with access to a database of articles written by Microsoft Support professionals.
+bn:00028142n	MSTERM	In "DIT Repository", a SQL Server schema that describes an item or pattern used in the application lifecycle.
+bn:15840810n	WIKIDATA	Actions that result in changes of state
+bn:15840810n	WIKIDATA	Event; actions that result in changes of state
+bn:00048988n	WN	Any of 24 major or minor diatonic scales that provide the tonal framework for a piece of music
+bn:00048988n	WIKI	Tonality is the arrangement of pitches and/or chords of a musical work in a hierarchy of perceived relations, stabilities, attractions and directionality.
+bn:00048988n	WIKI	In music theory, the key of a piece is the group of pitches, or scale, that forms the basis of a music composition in classical, Western art, and Western pop music.
+bn:00048988n	WIKIDIS	The tonic chord of a piece of music
+bn:00048988n	WIKIDATA	Tonic note and chord of a musical piece
+bn:00048988n	OMWIKI	Any of 24 major or minor diatonic scales that provide the tonal framework for a piece of music.
+bn:00048988n	WIKT	The system of seven tones built on a tonic key; the 24 major and minor scales.
+bn:00048988n	WIKTLB	System of seven tones and tonic key.
+bn:00048988n	WIKIQU	Tonality is a system of music in which certain hierarchical pitch relationships are based on a key "center" or tonic.
+bn:00058141n	WN	A technical system of symbols used to represent special things
+bn:00058141n	WIKI	In linguistics and semiotics, a notation is a system of graphics or symbols, characters and abbreviated expressions, used inter alia in artistic and scientific disciplines to represent technical facts and quantities by convention.
+bn:00058141n	WIKIDATA	System of symbols to represent facts or quantities
+bn:00058141n	OMWIKI	A system of characters, symbols, or abbreviated expressions used in an art or science or in mathematics or logic to express technical facts or quantities.
+bn:00058141n	WIKT	A system of characters, symbols, or abbreviated expressions used in an art or science or in mathematics or logic to express technical facts or quantities.
+bn:00058141n	WIKTLB	System of characters, symbols or abbreviated expressions used to express technical facts or quantities.
+bn:00058141n	WIKIQU	In linguistics and semiotics, a notation is a system of graphics or symbols, characters and abbreviated expressions, used in artistic and scientific disciplines to represent technical facts and quantities by convention.
+bn:00058141n	MSTERM	In programming, the set of symbols and formats used to describe the elements of programming, mathematics, or a scientific field. A language's syntax is defined in part by notation.
+bn:00059588n	WN	A method of representing the sounds of a language by written or printed symbols
+bn:00059588n	WIKI	An orthography is a set of conventions for writing a language.
+bn:00059588n	WIKI	A writing system is any conventional method of visually representing verbal communication.
+bn:00059588n	WIKIDATA	System of visual symbols recorded on paper or another medium, used to represent elements expressible in language
+bn:00059588n	WIKIDATA	Standardized system for using a particular writing system to write a particular language
+bn:00059588n	OMWIKI	The study of correct spelling according to established usage.
+bn:00059588n	OMWIKI	A system of characters used to write one or several languages.
+bn:00059588n	WIKT	The study of correct spelling according to established usage.
+bn:00059588n	WIKT	The process of representing a language with symbols or letters.
+bn:00059588n	WIKT	The basic type of a system for writing languages. For example, alphabetic writing or logographic writing.
+bn:00059588n	WIKT	The set of characters in a writing system: alphabet, syllabary, etc.
+bn:00059588n	WIKTLB	Process of representing a language.
+bn:00059588n	MSTERM	A transfer of information to a storage device, such as a disk, or to an output device, such as the monitor or printer. For example, a disk write means that information is transferred from memory to storage on disk.
+bn:00017752n	WN	A written symbol that is used to represent speech
+bn:00017752n	WIKI	In linguistics, a grapheme is the smallest unit of a writing system of any given language.
+bn:00017752n	WIKI	A character is a sign or symbol.
+bn:00017752n	WIKIDIS	A sign or symbol
+bn:00017752n	WIKIDATA	Symbol or sign
+bn:00017752n	WIKIDATA	Smallest semantically distinguishing unit in a written language
+bn:00017752n	OMWIKI	A fundamental unit of a writing system.
+bn:00017752n	WIKT	A fundamental unit of a writing system, corresponding to letters in the English alphabet or jamo in Korean Hangeul.
+bn:00017752n	WIKTLB	Fundamental unit of a writing system.
+bn:00081714n	WN	Letters or symbols that are written or imprinted on a surface to represent the sounds or words of a language
+bn:00081714n	WIKI	Writing is a medium of human communication that represents language and emotion with signs and symbols.
+bn:00081714n	WIKIDATA	Representation of language in a textual medium
+bn:00081714n	OMWIKI	A system of characters used to write one or several languages.
+bn:00081714n	WIKT	Graphism of symbols such as letters that express some meaning.
+bn:00081714n	WIKT	A writing; a written document.
+bn:00081714n	WIKTLB	Written letters or symbols.
+bn:00081714n	WIKIQU	Writing is the representation of language in a textual medium through the use of a set of signs or symbols.
+bn:00169525n	WIKI	Representation, from the most general and abstract systemic perspective, relates to a role or function or a property of an abstract or real object, relation or changes.
+bn:00169525n	WIKIDATA	Role, function or property of an abstract or real object, relation or changes
+bn:02141820n	WIKI	A sign system is a key concept in semiotics and is used to refer to any system of signs and relations between signs.
+bn:02141820n	WIKI	Key concept in semiotics and is used to refer to any system of signs and relations between signs
+bn:03648264n	WIKI	A conceptual system is a system that is composed of non-physical objects, i.e. ideas or concepts.
+bn:03648264n	WIKIDATA	System that is composed of non-physical objects, i.e. ideas or concepts
+bn:00041302n	WN	The branch of linguistics that deals with syntax and morphology (and sometimes also deals with semantics)
+bn:00041302n	WIKI	In linguistics, grammar is the set of structural rules governing the composition of clauses, phrases, and words in any given natural language.
+bn:00041302n	WIKIDIS	Spelling, and Punctuation
+bn:00041302n	WIKIDATA	Set of structural rules that governs the composition of clauses, phrases, and words in any given natural language
+bn:00041302n	OMWIKI	The classification, and the system or set of structural rules that governs the composition, gestalt, and form of sentences, phrases, and words in any given natural or artificial human language. General and descriptive linguistics are researching and documenting them.
+bn:00041302n	WIKT	A system of rules and principles for speaking and writing a language.
+bn:00041302n	WIKTLB	Rules for speaking and writing a language.
+bn:00041302n	WIKIQU	In linguistics, grammar is the set of structural rules governing the composition of clauses, phrases, and words in any given natural language.
+bn:00064445n	WN	A written or printed symbol
+bn:02835051n	WIKI	An emic unit is a type of abstract object analyzed in linguistics and related fields.
+bn:02835051n	WIKIDATA	Type of abstract object analyzed in linguistics
+bn:00013727n	WN	A block of material used in construction work
+bn:00013727n	WIKT	A block made of wood or plastic that is used as a children's toy and can be stacked or joined to form a larger structure.
+bn:00013727n	WIKTLB	Block made of wood or plastic that is used as a children's toy.
+bn:17175797n	WIKIDATA	Three-dimensional work of art
+bn:17175797n	WIKT	Works of art created by sculpting, as a group.
+bn:17175797n	WIKTLB	Work of art created by sculpting.
+bn:00013731n	WN	Material used for constructing buildings
+bn:00013731n	WIKI	Building material is any material which is used for construction purposes.
+bn:00013731n	WIKIDATA	Material which is used for construction purposes
+bn:00013731n	OMWIKI	Any material used in construction, such as steel, concrete, brick, masonry, glass, wood, etc.
+bn:00013731n	WIKT	Any material which is used for construction purposes.
+bn:00013731n	WIKTLB	Any material which is used for construction purposes.
+bn:01132749n	WIKI	Intermediate goods or producer goods or semi-finished products are goods, such as partly finished goods, used as inputs in the production of other goods including final goods.
+bn:01094292n	WIKI	A creative work is a manifestation of creative effort including fine artwork, writing, filmmaking, and musical composition.
+bn:01094292n	WIKIDATA	Distinct artistic creation such as artwork, literature, music, and paintings
+bn:01094292n	WIKT	A tangible manifestation of creative effort, such as literature, music, paintings, and software.
+bn:15358232n	WIKIDATA	Substance that can occur in different amounts, all with some similar [mixture of some] characteristics, and of which objects can be made up
+bn:15358232n	OMWIKI	The substance of which a product is made or composed.
+bn:15358232n	WIKT	The substance that something is made or composed of.
+bn:00005926n	WN	The products of human creativity; works of art collectively
+bn:00005926n	OMWIKI	The products of human creativity; works of art collectively.
+bn:00052671n	WN	A periodic publication containing pictures and stories and articles of interest to those who purchase it or subscribe to it
+bn:00052671n	WIKI	A magazine is a publication, usually a periodical publication, which is printed or electronically published.
+bn:00052671n	WIKIDATA	Publication type
+bn:00052671n	OMWIKI	Print product for entertainment being informative, enjoyable and rich in pictures.
+bn:00052671n	WIKT	Magazine, the publication or ammunition.
+bn:00052671n	WIKT	A publication that often contains the most current information in the field, on every conceivable topic, often in greater detail than other publication formats.
+bn:15441471n	WIKI	Grouping of different but related types of instruments
+bn:00072646n	WN	A sound property that is free from loudness or stridency
+bn:00072904n	WN	An attribute of sound
+bn:00054065n	WN	Device consisting of a piece of machinery; has moving parts that perform some function
+bn:00054065n	WIKI	A mechanism, in engineering, is a device that transforms input forces and movement into a desired set of output forces and movement.
+bn:00054065n	WIKIDIS	A portion of a mechanical device
+bn:00054065n	WIKIDATA	Device designed to transform input forces and movement into a desired set of output forces and movement
+bn:00054065n	OMWIKI	The mechanic part of a device.
+bn:00054065n	WIKT	Any mechanical means for the conversion or control of motion, or the transmission or control of power.
+bn:00054065n	WIKTLB	Mechanical means for the conversion or control of motion.
+bn:00037744n	WN	A class of art (or artistic endeavor) having a characteristic form or technique
+bn:00037744n	WIKI	Genre is any form or type of communication in any mode 
+bn:00037744n	WIKIDATA	Category of creative works based on stylistic and/or thematic criteria
+bn:00051538n	WN	Creative writing of recognized artistic value
+bn:00051538n	WIKI	Literature, in its broadest sense, is any single body of written works.
+bn:00051538n	WIKIDIS	A collection of texts
+bn:00051538n	WIKIDATA	Written work of art
+bn:00051538n	OMWIKI	Written material such as poetry, novels, essays, especially works of imagination characterized by excellence of style and expression and by themes of general or enduring interest.
+bn:00051538n	WIKT	The body of all written works.
+bn:00051538n	WIKTLB	Body of all written works.
+bn:00061617n	WN	A publication that appears at fixed intervals
+bn:00061617n	WIKI	Periodical literature is a published work that appears in a new edition on a regular schedule.
+bn:00061617n	WIKIDATA	Published work
+bn:00061617n	OMWIKI	A printed work that appears regularly.
+bn:00061617n	WIKT	A publication that appears at fixed intervals.
+bn:00061617n	WIKTLB	Publication that appears at fixed intervals.
+bn:00086008v	WN	Make or cause to be or to become
+bn:00086008v	FRAMENET	To cause to bring into existence.
+bn:00086008v	FRAMENET	Bring into existence.
+bn:00046704n	WN	The sciences concerned with gathering, manipulating, storing, retrieving, and classifying recorded information
+bn:00046704n	WIKI	Information processing is the change of information in any manner detectable by an observer.
+bn:00046704n	WIKI	Information science is an interdisciplinary field primarily concerned with the analysis, collection, classification, manipulation, storage, retrieval, movement, dissemination, and protection of information.
+bn:00046704n	WIKIDIS	Of information in any manner detectable by an observer
+bn:00046704n	WIKIDIS	The interdisciplinary study of the processing, management, and retrieval of information
+bn:00046704n	WIKIDATA	Field primarily concerned with the analysis, collection, classification, manipulation, storage, retrieval and dissemination of information
+bn:00046704n	WIKIDATA	Processing of information in any manner
+bn:00046704n	OMWIKI	The process of accumulating, classifying and disseminating information, often to support the claim or data given in a book or article. 
+bn:00046704n	OMWIKI	Science and technique of data elaboration and of automatic treatment of information.
+bn:00046704n	WIKT	A broad and interdisciplinary science that deals with the gathering, classification, storage, manipulation, retrieval and analysis of information as an organized resource.
+bn:00046704n	WIKT	A branch of information science and of computer science that focuses on the study of information processing, particularly with respect to systems integration and human interactions with machine and data.
+bn:00046704n	MSTERM	The information provided with a product by a manufacturer describing how to use a product.
+bn:00046704n	MSTERM	A routable protocol in the TCP/IP protocol suite that is responsible for IP addressing, routing, and the fragmentation and reassembly of IP packets.
+bn:00081007n	WN	An instrument with a handle and a flexible lash that is used for whipping
+bn:00081007n	WIKI	A whip is a tool which was traditionally designed to strike animals or people to aid guidance or exert control over animals or other people, through pain compliance or fear of pain, although in some activities, whips can be used without use of pain, such as an additional pressure aid or visual directional cue in equestrianism.
+bn:00081007n	WIKIDATA	Tool traditionally used by humans to exert control over animals or other people
+bn:00081007n	OMWIKI	A long piece of leather or rope attached to a handle, which is used to slash at animals to make them move, or to punish people.
+bn:00055644n	WN	The most common medium of exchange; functions as legal tender
+bn:00055644n	WIKI	Money is any item or verifiable record that is generally accepted as payment for goods and services and repayment of debts in a particular country or socio-economic context, or is easily converted to such a form.
+bn:00055644n	WIKIDIS	In Dutch or German languages
+bn:00055644n	WIKIDATA	Object or record accepted as payment
+bn:00055644n	OMWIKI	An unspecified amount in a currency.
+bn:00055644n	WIKT	A generally accepted means of exchange and measure of value.
+bn:00055644n	WIKTLB	Means of exchange and measure of value.
+bn:00055644n	WIKIQU	Money is commonly defined by the functions attached to any good or token that functions in trade as a medium of exchange, store of value, and unit of account, although economics offers various definitions.
+bn:00055644n	MSTERM	A medium for exchanging ownership of the economic values represented by one or more currency units.
+bn:00017057n	WN	A polysaccharide that is the chief constituent of all plant tissues and fibers
+bn:00017057n	WIKI	Cellulose is an organic compound with the formula n, a polysaccharide consisting of a linear chain of several hundred to many thousands of β linked D-glucose units.
+bn:00017057n	WIKIDATA	Chemical compound
+bn:00017057n	OMWIKI	The main polysaccharide in living plants, forming the skeletal structure of the plant cell wall; a polymer of beta-D-glucose linked together with the elimination of water to form chains of 2000-4000 units.
+bn:00017057n	WIKT	A polysaccharide containing many glucose units in parallel chains.
+bn:00017057n	WIKTLB	The polysaccharide cellulose.
+bn:00069680n	WN	A person with advanced knowledge of one or more sciences
+bn:00069680n	WIKI	A scientist is a person engaging in a systematic activity to acquire knowledge that describes and predicts the natural world.
+bn:00069680n	WIKIDATA	Person that studies a science
+bn:00069680n	OMWIKI	Expert in at least one area of science who uses the scientific method to do research.
+bn:00069680n	WIKT	One whose activities make use of the scientific method to answer questions regarding the measurable universe. A scientist may be involved in original research, or make use of the results of the research of others.
+bn:00069680n	WIKTLB	One whose activities make use of the scientific method
+bn:00069680n	WIKIQU	Scientists, in a broad sense, are persons engaged in the systematic activity to acquire knowledge.
+bn:00044576n	WN	Any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage
+bn:00044576n	WIKI	Modern humans 
+bn:00044576n	WIKI	Homo is the genus that encompasses the extant species Homo sapiens, plus several extinct species classified as ancestral to or closely related to modern humans, most notably Homo erectus.
+bn:00044576n	WIKIDIS	As distinct from a supernatural being
+bn:00044576n	WIKIDATA	Human as a member of human society; common name of Homo sapiens (Q15978631), unique extant species of the genus Homo
+bn:00044576n	WIKIDATA	Genus of mammals
+bn:00044576n	WIKIDATA	Last human suspecies.
+bn:00044576n	OMWIKI	A member of the human species.
+bn:00044576n	OMWIKI	Any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage.
+bn:00044576n	WIKT	The genus Homo.
+bn:00044576n	WIKT	A member of the species Homo sapiens.
+bn:00044576n	WIKT	Another, extinct member of the genus Homo.
+bn:15182425n	WIKI	Homo sapiens is the systematic name used in taxonomy for anatomically modern humans, i.e. the only extant human species.
+bn:15182425n	WIKIDIS	The only surviving species of Homo
+bn:15182425n	WIKIDATA	Species of mammal
+bn:15182425n	WIKT	A specimen of the species Homo sapiens.
+bn:00024097n	WN	A nation's ruler or head of state usually by hereditary right
+bn:00024097n	WIKI	A monarch is a sovereign head of state in a monarchy.
+bn:00024097n	WIKIDIS	The sovereign of a monarchy
+bn:00024097n	WIKIDATA	Person at the head of a monarchy
+bn:00024097n	OMWIKI	The person at the head of a hereditary form of government.
+bn:00024097n	WIKT	A monarch; the ruler of a country.
+bn:00024097n	WIKT	The ruler of an absolute monarchy or the head of state of a constitutional monarchy.
+bn:00018328n	WN	The chief public representative of a country who may also be the head of government
+bn:00018328n	WIKI	A head of state is the public persona that officially represents the national unity and legitimacy of a sovereign state.
+bn:00018328n	WIKIDIS	The most senior public representative of a state
+bn:00018328n	WIKIDATA	Official who holds the highest ranked position in a sovereign state
+bn:00018328n	WIKT	The chief public representative of a nation having duties, privileges and responsibilities varying greatly depending on the constitutional rules; a monarch in a monarchy, and often styled president in a republic, but variations such as collegiality exist.
+bn:00018328n	WIKTLB	The chief public representative of a nation.
+bn:00049171n	WN	The highest taxonomic group into which organisms are grouped; one of five biological categories: Monera or Protoctista or Plantae or Fungi or Animalia
+bn:00049171n	WIKI	In biology, kingdom is the second highest taxonomic rank, just below domain.
+bn:00049171n	WIKIDIS	A category in biological taxonomy
+bn:00049171n	WIKIDATA	Taxonomic rank
+bn:00049171n	OMWIKI	A taxon in either (historically) the highest rank, or (in the new three-domain system) the rank below domain. Each kingdom is divided into smaller groups called phyla (or in some contexts these are called "divisions").
+bn:00049171n	WIKT	A rank in the classification of organisms, below domain and above phylum; a taxon at that rank.
+bn:00049171n	WIKT	A subkingdom.
+bn:00049171n	WIKTLB	Taxonomic division, below Domain and above Phylum.
+bn:00025965n	WN	A position on a scale of intensity or amount or quality
+bn:00025965n	WIKI	In music theory, a scale degree is the name given to a particular note of a scale to specify its position relative to the tonic.
+bn:00025965n	WIKI	In alpha taxonomy, a grade refers to a taxon united by a level of morphological or physiological complexity.
+bn:00025965n	WIKIDIS	Identification of a note in a scale by its relation to the tonic
+bn:00025965n	WIKIDIS	A paraphyletic group of organisms
+bn:00025965n	WIKIDATA	Acknowledged paraphyletic grouping of organisms
+bn:00025965n	OMWIKI	Quantitative marker, usually referred to by a number or a letter, of a scale enabling comparison but not necessarily relevant calculation, because it does not necessarily express a measure.
+bn:00025965n	WIKT	A degree or level of something; a position within a scale; a degree of quality.
+bn:00025965n	WIKT	A number given to each note of a scale.
+bn:00025965n	WIKTLB	Degree or level of something.
+bn:00025965n	MSTERM	A rank or category assigned to a material resource that denotes functional use but not level of quality. A low-grade resource is not necessarily a low-quality resource.
+bn:00021497n	WN	(computer science) written programs or procedures or rules and associated documentation pertaining to the operation of a computer system and that are stored in read/write memory
+bn:00021497n	WIKI	Computer software, or simply software, is a part of a computer system that consists of data or computer instructions, in contrast to the physical hardware from which the system is built.
+bn:00021497n	WIKI	A software system is a system on intercommunicating components based on software forming part of a computer system.
+bn:00021497n	WIKI	Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
+bn:00021497n	WIKIDIS	Available code, not necessarily used
+bn:00021497n	WIKIDIS	A software component for accomplishing a particular thing
+bn:00021497n	WIKIDATA	Software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules
+bn:00021497n	WIKIDATA	Non-tangible executable component of a computer
+bn:00021497n	WIKIDATA	System of interconnected software
+bn:00021497n	WIKIDATA	distinct section of a computer program, grouping related subroutines or data structures
+bn:00021497n	OMWIKI	A software application, or a collection of software applications, designed to perform a specific task.
+bn:00021497n	OMWIKI	The general term used to describe all of the various programs that may be used on a computer system. It can be divided into four main categories: systems software, development software, user interface software, applications software.
+bn:00021497n	WIKT	A complete piece of software. A set of instructions for a computer. This term can refer to either the executable form that a computer can execute or the human readable form ..
+bn:00021497n	WIKT	Something which consists of various components, such as a piece of computer software.
+bn:00021497n	WIKT	Encoded computer instructions, usually modifiable.
+bn:00021497n	WIKT	A comprehensive list of the software made by a particular software engineer or organization, usually appearing on a resume, curriculum vitae, or web site.
+bn:00021497n	WIKIQU	Computer software is a general term used to describe a collection of computer programs, procedures and documentation that perform some task on a computer system.
+bn:00021497n	MSTERM	The combination of files, settings, and related general information that is required to install software on managed computers. The general information includes items such as the command line that needs to run on computers to install the software, hardware requirements that must be met before the software can be successfully installed, and a schedule for the installation.
+bn:00021497n	MSTERM	A set of components.
+bn:00021497n	MSTERM	An object that contains the files and instructions for distributing software to a distribution point.
+bn:00021497n	MSTERM	Instructions that make hardware work.
+bn:00021497n	MSTERM	An executable program file or a dynamic link library (DLL).
+bn:00021497n	MSTERM	Licensed copies of Microsoft software identified on the Product List. Software does not include Online Services or Services Deliverables, but Software may be part of an Online Service.
+bn:00021497n	MSTERM	A Configuration Manager object that contains the content files and instructions for distributing programs, software updates, boot images, operating system images, and drivers to Configuration Manager clients.
+bn:00032402n	WN	A broad highway designed for high-speed traffic
+bn:00032402n	WIKI	A thoroughfare is a road connecting one location to another.
+bn:00032402n	WIKI	A controlled-access highway is a type of highway which has been designed for high-speed vehicular traffic, with all traffic flow and ingress/egress regulated.
+bn:00032402n	WIKI	The Strade Statali, abbreviated SS, is the Italian national network of state highways.
+bn:00032402n	WIKI	The Malaysian Expressway System is a network of national controlled-access expressways in Malaysia that forms the primary backbone network of Malaysian national highways.
+bn:00032402n	WIKIDIS	A heavily traveled passage, such as a waterway, strait, or channel.
+bn:00032402n	WIKIDIS	The highest-grade type of highway with access ramps, lane dividers, etc., for high-speed traffic
+bn:00032402n	WIKIDATA	Highway designed exclusively for high-speed vehicular traffic, with all traffic flow and ingress/egress regulated
+bn:00032402n	WIKIDATA	Type of road in Italy
+bn:00032402n	WIKIDATA	Transportation route connecting one location to another
+bn:00032402n	OMWIKI	A wide road built for fast moving traffic travelling long distances, with a limited number of points at which drivers can enter and leave it.
+bn:00032402n	WIKT	A broad highway designed for high speed traffic, having restrictions on the vehicle types permitted and merging lanes instead of cross traffic; in parts of the United States and other places called freeway.
+bn:00032402n	WIKT	A broad highway fit for high-speed traffic; a thoroughfare.
+bn:00032402n	WIKT	A divided highway where intersections and direct access to adjacent properties have been eliminated.
+bn:00032402n	WIKT	A road designed for safe, high-speed operation of motor vehicles through the elimination of at-grade intersections, usually divided and having at least two lanes in each direction; a dual carriageway with no at-grade crossings, a motorway.
+bn:01321349n	WIKI	A landscape is the visible features of an area of land, its landforms and how they integrate with natural or man-made features.
+bn:01321349n	WIKIDIS	Areas of land without human-built structures
+bn:01321349n	WIKIDATA	Visible features of an area of land
+bn:01321349n	OMWIKI	The traits, patterns, and structure of a specific geographic area.
+bn:01321349n	WIKT	A portion of land or territory which the eye can comprehend in a single view, including all the objects it contains.
+bn:01321349n	WIKTLB	Portion of land or territory.
+bn:00081546n	WN	A unit of language that native speakers can identify
+bn:00081546n	WIKI	In linguistics, a word is the smallest element that can be uttered in isolation with objective or practical meaning.
+bn:00081546n	WIKIDIS	The smallest element that may be uttered in isolation with semantic or pragmatic content
+bn:00081546n	WIKIDATA	Smallest linguistic element that may be uttered in isolation with semantic or pragmatic content
+bn:00081546n	OMWIKI	A distinct unit of language (sounds in speech or written letters) with a particular meaning, composed of one or more morphemes, and also of one or more phonemes that determine its sound pattern.
+bn:00081546n	WIKT	The smallest discrete unit of written language with a particular meaning, composed of one or more letters or symbols and one or more morphemes.
+bn:00059458n	WN	A fully differentiated structural and functional unit in an animal that is specialized for some particular function
+bn:00059458n	WIKI	Organs refer to collections of tissues with a similar function.
+bn:00059458n	WIKIDIS	A collection of different tissues joined in structural unit to serve a common function
+bn:00059458n	WIKIDATA	Collection of tissues joined as a structural unit that serves a common function
+bn:00059458n	OMWIKI	A fully differentiated structural and functional unit, such as a kidney or a root, in an animal or plant.
+bn:00059458n	WIKT	A larger part of an organism, composed of tissues that perform similar functions.
+bn:00059458n	WIKTLB	Part of an organism.
+bn:00051209n	WN	A jaunty rhythm in music
+bn:00051209n	WIKI	In music, the term swing has two main uses.
+bn:00051209n	WIKIDIS	The sense of propulsive rhythmic "feel" or "groove" in jazz
+bn:00051209n	WIKIDATA	Rhythm
+bn:00009396n	WN	The basic rhythmic unit in a piece of music
+bn:00009396n	WIKI	Rhythm generally means a "movement marked by the regulated succession of strong and weak elements, or of opposite or different conditions".
+bn:00009396n	WIKI	In music and music theory, the beat is the basic unit of time, the pulse, of the mensural level.
+bn:00009396n	WIKIDIS	The basic time unit or pulse in a piece of music representing one moment in time, or a segment of rhythm or cadence.
+bn:00009396n	WIKIDATA	Basic unit of time in music and music theory
+bn:00009396n	WIKIDATA	Aspect of music
+bn:00009396n	OMWIKI	Speed degree during a certain part of a song rhythm.
+bn:00009396n	WIKT	The tempo or speed of a beat, song or repetitive event.
+bn:00009396n	WIKT	A rhythm.
+bn:00009396n	WIKT	The beat of a piece.
+bn:00009396n	WIKTLB	Tempo or speed of a beat, song, or repeated event.
+bn:00037606n	WN	A crystalline rock that can be cut and polished for jewelry
+bn:00037606n	WIKI	A gemstone is a piece of mineral crystal which, in cut and polished form, is used to make jewelry or other adornments.
+bn:00037606n	WIKIDIS	An attractive mineral used for adornments
+bn:00037606n	WIKIDATA	Piece of mineral used to make jewelry
+bn:00037606n	OMWIKI	A valuable stone that has been cut and polished and is used in jewellery.
+bn:00037606n	WIKT	Any gem, such as a diamond or ruby, that is expensive because of its rarity or desirability; especially one set into a piece of jewelry.
+bn:00037606n	WIKT	A small piece of stone, a pebble.
+bn:00072720n	WN	The state in which a substance has no tendency to flow under moderate stress; resists forces (such as compression) that tend to deform it; and retains a definite size and shape
+bn:00072720n	WIKI	Solid is one of the four fundamental states of matter.
+bn:00072720n	WIKIDATA	Solid object
+bn:00072720n	OMWIKI	A fundamental state of matter that retains its size and shape without need of a container.
+bn:00072720n	OMWIKI	The physical state of matter in which the constituent molecules, atoms, or ions have no translatory motion although they vibrate about the fixed positions that they occupy in a crystal lattice.
+bn:00072720n	WIKT	A substance in the fundamental state of matter that retains its size and shape without need of a container.
+bn:00072720n	WIKTLB	Chemistry: fundamental state of matter.
+bn:00006759n	WN	An active diversion requiring physical exertion and competition
+bn:00006759n	WIKI	Athletics is a collection of sporting events that involve competitive running, jumping, throwing, and walking.
+bn:00006759n	WIKI	Sport or sports includes all forms of competitive physical activity or games which, through casual or organised participation, aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators.
+bn:00006759n	WIKI	Athletics is a term encompassing the human competitive sports and games requiring physical skill, and the systems of training that prepare athletes for competition performance.
+bn:00006759n	WIKIDIS	Recreational games and play.
+bn:00006759n	WIKIDATA	Forms of competitive activity, usually physical
+bn:00006759n	WIKIDATA	Collection of sports which involve running, jumping, throwing, and walking
+bn:00006759n	WIKIDATA	Human competitive sports and games requiring physical skill, and the systems of training
+bn:00006759n	OMWIKI	The complex of individual or group activities pursued for exercise or pleasure, often taking a competitive form.
+bn:00006759n	OMWIKI	A sport, comprising a group of athletic events or disciplines, each of which involves either running, walking, throwing or jumping.
+bn:00006759n	WIKT	A group of sporting activities including track and field, road running, cross country and racewalking.
+bn:00006759n	WIKT	A participant in a group of sporting activities which includes track and field, road running, cross country running and racewalking.
+bn:00006759n	WIKT	Any activity that uses physical exertion or skills competitively under a set of rules that is not based on aesthetics.
+bn:00006759n	WIKTLB	Participant in one of several sporting activities.
+bn:00006759n	MSTERM	An application that allow the user to follow sports headlines, teams, scores, schedules and standings.
+bn:03925063n	WIKIDATA	Person who practices performance art
+bn:03925063n	WIKIDATA	Artist
+bn:00024643n	WN	A natural protective body covering and site of the sense of touch
+bn:00024643n	WIKI	Tegument is a term in helminthology for the outer body covering among members of the phylum Platyhelminthes.
+bn:00024643n	WIKI	Skin is the soft outer tissue covering vertebrates.
+bn:00024643n	WIKI	Cutis is the combined term for the epidermis and the dermis, the two outer layers of the skin.
+bn:00024643n	WIKIDIS	The outermost layers of skin
+bn:00024643n	WIKIDATA	Soft outer covering organ of vertebrates
+bn:00024643n	OMWIKI	The tissue forming the outer covering of the vertebrate body: it consists of two layers, the outermost of which may be covered with hair, scales, feathers, etc. It is mainly protective and sensory in function.
+bn:00024643n	WIKT	The outer protective layer of the body of any animal, including of a human.
+bn:00024643n	WIKT	A natural covering of the body or of a bodily organ; an integument.
+bn:00024643n	WIKT	The true skin or dermis, underlying the epidermis.
+bn:00024643n	WIKTLB	Outer protective of the body of a person or animal
+bn:00018346n	WN	A human offspring (son or daughter) of any age
+bn:00018346n	WIKI	Biologically, a child is a human being between the stages of birth and puberty.
+bn:00018346n	WIKIDATA	Human between the stages of birth and puberty
+bn:00018346n	OMWIKI	Plural form of child.
+bn:00018346n	WIKT	A daughter or son; an offspring.
+bn:00018346n	WIKTLB	A female or male child, a daughter or son.
+bn:00018346n	WIKIQU	Children are offspring of a parental entity; though generally the word child refers to a human between birth and puberty it also is used to refer to sons or daughters of any age.
+bn:00070919n	WN	Any of numerous elongate mostly marine carnivorous fishes with heterocercal caudal fins and tough skin covered with small toothlike scales
+bn:00070919n	WIKI	Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head.
+bn:00070919n	WIKIDATA	Superorder of fishes
+bn:00070919n	OMWIKI	A scaleless fish with a cartilaginous skeleton that has 5 to 7 gill slits on each side of its head.
+bn:00070919n	WIKT	A scaleless, predatory fish of the superorder Selachimorpha, with a cartilaginous skeleton and 5 to 7 gill slits on each side of its head.
+bn:00070919n	WIKTLB	Scaleless cartilaginous fish.
+bn:00066884n	WN	A large indefinite location on the surface of the Earth
+bn:00066884n	WIKI	In geography, regions are areas that are broadly divided by physical characteristics, human impact characteristics, and the interaction of humanity and the environment.
+bn:00066884n	WIKIDATA	2D or 3D defined space, mainly in terrestrial and astrophysics sciences
+bn:00066884n	WIKT	Any considerable and connected part of a space or surface; specifically, a tract of land or sea of considerable but indefinite extent; a country; a district; in a broad sense, a place without special reference to location or extent but viewed as an entity for geographical, social or cultural reasons.
+bn:00066884n	WIKTLB	Any considerable and connected part of a space or surface.
+bn:02768806n	WIKI	A classification scheme is the product of arranging things into kinds of things or into groups of classes.
+bn:02768806n	WIKIDATA	Organisation of objects into classes
+bn:00053079n	WN	Any warm-blooded vertebrate having the skin more or less covered with hair; young are born alive except for the small subclass of monotremes and nourished with milk
+bn:00053079n	WIKI	Mammals are the vertebrates within the class Mammalia, a clade of endothermic amniotes distinguished from reptiles by the possession of a neocortex, hair, three middle ear bones, and mammary glands.
+bn:00053079n	WIKIDATA	Class of tetrapods
+bn:00053079n	OMWIKI	Any animal of the Mammalia class, a class of warm-blooded vertebrates having a thoracic diaphragm, a four-chambered heart and in which the females feed the young with their own milk.
+bn:00053079n	WIKT	An animal of the class Mammalia, characterized by being warm-blooded, having hair and feeding milk to its young.
+bn:00053079n	WIKTLB	Animal of the class Mammalia.
+bn:14220451n	WIKIDATA	Food
+bn:14220451n	WIKIDATA	Food, edible in the raw state
+bn:14220451n	OMWIKI	A botanical fruit that can be eaten raw used as food.
