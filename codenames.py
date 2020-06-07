@@ -116,12 +116,9 @@ class Game(object):
         # reset weighted_nn between trials
         self.weighted_nn = dict()
         self.nn_synsets = dict()
-<<<<<<< HEAD
         self.domains_nn = dict()
-=======
         self.word_to_df = self.get_df()
 
->>>>>>> 4c57db2485f32964d08331a01768e9db421cfcfa
         for word in words:
             # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
             # self.weighted_nn[word] = self.get_fake_knn(word)
@@ -459,11 +456,7 @@ class Game(object):
         G = nx.DiGraph()
         with gzip.open(self.file_dir + word + '.gz', 'r') as f:
             for line in f:
-<<<<<<< HEAD
-                source, target, language, short_name, relation_group, is_automatic, _idx = line.decode("utf-8").strip().split('\t')
-=======
                 source, target, language, short_name, relation_group, is_automatic, level = line.decode("utf-8").strip().split('\t')
->>>>>>> 4c57db2485f32964d08331a01768e9db421cfcfa
 
                 if should_add_relationship(relation_group, int(level)) and is_automatic == 'False':
                     G.add_edge(source, target)
@@ -856,13 +849,9 @@ class Game(object):
                 formatted_labels.reverse()
                 nx.add_path(clue_graph, formatted_labels)
 
-<<<<<<< HEAD
 
 
         self.draw_graph(clue_graph, ('_').join([clue] + [word for word in word_set]))
-=======
-        self.draw_graph(clue_graph, ('_').join([word for word in word_set]))
->>>>>>> 4c57db2485f32964d08331a01768e9db421cfcfa
 
 
     def draw_graph(self, graph, graph_name, get_labels=False):
