@@ -15,6 +15,9 @@ from networkx.exception import NodeNotFound
 from networkx.drawing.nx_agraph import write_dot, graphviz_layout
 from nltk.corpus import wordnet as wn
 
+import gensim.downloader as api
+from gensim.corpora import Dictionary
+
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
@@ -35,9 +38,9 @@ blacklist = set([
 
 babelnet_relationships_limits = {
     "HYPERNYM" : float("inf"),
-    # "OTHER" : 15,
-    # "MERONYM": 15,
-    # "HYPONYM": 15,
+    "OTHER" : 20,
+    "MERONYM": 20,
+    "HYPONYM": 20,
 }
 
 class Game(object):
@@ -113,7 +116,12 @@ class Game(object):
         # reset weighted_nn between trials
         self.weighted_nn = dict()
         self.nn_synsets = dict()
+<<<<<<< HEAD
         self.domains_nn = dict()
+=======
+        self.word_to_df = self.get_df()
+
+>>>>>>> 4c57db2485f32964d08331a01768e9db421cfcfa
         for word in words:
             # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
             # self.weighted_nn[word] = self.get_fake_knn(word)
@@ -423,27 +431,44 @@ class Game(object):
             return parsed_lemma
 
         for sense in senses:
+            #print("lemma", lemma, "sense ", sense)
             parsed_lemma, single_word = self.parse_lemma_v5(sense)
             if single_word:
                 return parsed_lemma
         # didn't find a single word label
         return lemma.split('#')[0]
 
-    def get_babelnet_v5(self, word):
 
+    def get_df(self):
+        dataset = api.load("text8")
+        dct = Dictionary(dataset)  # fit dictionary
+        id_to_doc_freqs = dct.dfs
+        word_to_df = {dct[id] : id_to_doc_freqs[id] for id in id_to_doc_freqs}
+
+        return word_to_df
+
+    def get_babelnet_v5(self, word):
         count_by_relation_group = {key:0 for key in babelnet_relationships_limits.keys()}
-        def should_add_relationship(relationship):
+        def should_add_relationship(relationship, level):
+            if relationship != 'HYPERNYM' and level > 1:
+                return False
             return relationship in babelnet_relationships_limits.keys() and \
                    count_by_relation_group[relationship] < babelnet_relationships_limits[relationship]
+
 
         G = nx.DiGraph()
         with gzip.open(self.file_dir + word + '.gz', 'r') as f:
             for line in f:
+<<<<<<< HEAD
                 source, target, language, short_name, relation_group, is_automatic, _idx = line.decode("utf-8").strip().split('\t')
+=======
+                source, target, language, short_name, relation_group, is_automatic, level = line.decode("utf-8").strip().split('\t')
+>>>>>>> 4c57db2485f32964d08331a01768e9db421cfcfa
 
-                if should_add_relationship(relation_group) and is_automatic == 'False':
+                if should_add_relationship(relation_group, int(level)) and is_automatic == 'False':
                     G.add_edge(source, target)
                     count_by_relation_group[relation_group] += 1
+
 
         nn_w_dists = {}
         nn_w_synsets = {}
@@ -831,9 +856,13 @@ class Game(object):
                 formatted_labels.reverse()
                 nx.add_path(clue_graph, formatted_labels)
 
+<<<<<<< HEAD
 
 
         self.draw_graph(clue_graph, ('_').join([clue] + [word for word in word_set]))
+=======
+        self.draw_graph(clue_graph, ('_').join([word for word in word_set]))
+>>>>>>> 4c57db2485f32964d08331a01768e9db421cfcfa
 
 
     def draw_graph(self, graph, graph_name, get_labels=False):
@@ -861,7 +890,7 @@ class Game(object):
             'pos': pos,
             'with_labels': True,
             'font_color': 'black',
-            'font_size': 4,
+            'font_size': 3,
             'labels': nodes_to_labels,
         }
         nx.draw(graph, **options)
@@ -968,7 +997,11 @@ class Game(object):
             for red_word in self.red_words:
                 if clue in self.weighted_nn[red_word]:
                     red_word_counts.append(self.weighted_nn[red_word][clue])
-            score = sum(blue_word_counts) - (penalty * sum(red_word_counts))
+
+            # the larger the idf is, the more uncommon the word
+            idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
+
+            score = sum(blue_word_counts) - (penalty * sum(red_word_counts)) - (10*idf)
             # if score >= highest_score and self.verbose:
             #     print(clue, score, ">= highest_scoring_clue")
             if score > highest_score:
@@ -1030,11 +1063,11 @@ if __name__ == "__main__":
     )
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
-        # None,
-        # None,
-        # None,
-        # None,
-        # None,
+        None,
+        None,
+        None,
+        None,
+        None,
         # ['ray', 'mammoth', 'ivory', 'racket', 'bug'],
         # ['laser', 'pan', 'stock', 'box', 'game'],
         # ['bomb', 'car', 'moscow', 'pipe', 'hand'],
@@ -1053,11 +1086,11 @@ if __name__ == "__main__":
         # ["match", "hawk", "life", "knife", "africa"],
     ]
     blue_words = [
-        # None,
-        # None,
-        # None,
-        # None,
-        # None,
+        None,
+        None,
+        None,
+        None,
+        None,
         # ["racket", "bug", "crown", "australia", "pipe"],
         # ["scuba diver", "play", "roulette", "table", "cloak"],
         # ["buffalo", "diamond", "kid", "witch", "swing"],
@@ -1099,6 +1132,7 @@ if __name__ == "__main__":
                     game.choose_words(2, clue, game.blue_words.union(game.red_words)),
                 )
 
-        all_words = red + blue
-        for word in all_words:
-            game.draw_graph(game.graphs[word], word+"_hypernyms", get_labels=True)
+        # Draw graphs for all words
+        # all_words = red + blue
+        # for word in all_words:
+        #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
