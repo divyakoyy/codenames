@@ -38,9 +38,9 @@ blacklist = set([
 
 babelnet_relationships_limits = {
     "HYPERNYM" : float("inf"),
-    "OTHER" : 20,
-    "MERONYM": 20,
-    "HYPONYM": 20,
+    "OTHER" : 0,
+    "MERONYM": 0,
+    "HYPONYM": 0,
 }
 
 class Game(object):
@@ -301,7 +301,7 @@ class Game(object):
         if synset not in self.synset_to_main_sense or (
             get_domains and synset not in self.synset_to_domains):
             print("getting query", synset)
-            assert False
+            # assert False
             labels_json = self.get_labels_from_synset_v5_json(synset)
             self.write_synset_labels_v5(synset, labels_json)
 
@@ -445,13 +445,41 @@ class Game(object):
         return word_to_df
 
     def get_babelnet_v5(self, word):
-        count_by_relation_group = {key:0 for key in babelnet_relationships_limits.keys()}
+
         def should_add_relationship(relationship, level):
             if relationship != 'HYPERNYM' and level > 1:
                 return False
             return relationship in babelnet_relationships_limits.keys() and \
                    count_by_relation_group[relationship] < babelnet_relationships_limits[relationship]
 
+        def _single_source_paths_filter(G, firstlevel, paths, cutoff, join):
+            level = 0                  # the current level
+            nextlevel = firstlevel
+            while nextlevel and cutoff > level:
+                thislevel = nextlevel
+                nextlevel = {}
+                for v in thislevel:
+                    for w in G.adj[v]:
+                        if len(paths[v]) >= 3 and G.edges[paths[v][1], paths[v][2]]['relationship'] != G.edges[v, w]['relationship']:
+                            continue
+                        if w not in paths:
+                            paths[w] = join(paths[v], [w])
+                            nextlevel[w] = 1
+                level += 1
+            return paths
+
+        def single_source_paths_filter(G, source, cutoff=None):
+            if source not in G:
+                raise nx.NodeNotFound("Source {} not in G".format(source))
+            def join(p1, p2):
+                return p1 + p2
+            if cutoff is None:
+                cutoff = float('inf')
+            nextlevel = {source: 1}     # list of nodes to check at next level
+            paths = {source: [source]}  # paths dictionary  (paths to key from source)
+            return dict(_single_source_paths_filter(G, nextlevel, paths, cutoff, join))
+
+        count_by_relation_group = {key:0 for key in babelnet_relationships_limits.keys()}
 
         G = nx.DiGraph()
         with gzip.open(self.file_dir + word + '.gz', 'r') as f:
@@ -459,7 +487,7 @@ class Game(object):
                 source, target, language, short_name, relation_group, is_automatic, level = line.decode("utf-8").strip().split('\t')
 
                 if should_add_relationship(relation_group, int(level)) and is_automatic == 'False':
-                    G.add_edge(source, target)
+                    G.add_edge(source, target, relationship=short_name)
                     count_by_relation_group[relation_group] += 1
 
 
@@ -470,9 +498,14 @@ class Game(object):
             for line in f:
                 synset = line.strip()
                 try:
-                    lengths = nx.single_source_shortest_path_length(
+                    # get all paths starting from source, filtered
+                    paths = single_source_paths_filter(
                         G, source=synset, cutoff=10
                     )
+                    lengths = {neighbor: len(path) for neighbor, path in paths.items()}
+                    # lengths = nx.single_source_shortest_path_length(
+                    #     G, source=synset, cutoff=10
+                    # )
                 except NodeNotFound as e:
                     print(e)
                     continue
@@ -904,7 +937,7 @@ class Game(object):
 
         pq = []
         for word_set in itertools.combinations(self.blue_words, n):
-            highest_clues, score = self.get_highest_clue(word_set, penalty)
+            highest_clues, score = self.get_highest_clue(word_set, penalty, use_idf=False)
             # min heap, so push negative score
             heapq.heappush(pq, (-1 * score, highest_clues, word_set))
 
@@ -938,7 +971,7 @@ class Game(object):
         else:
             return score
 
-    def get_highest_clue(self, chosen_words, penalty=1.0, domain_threshold=0.45, domain_gap=0.3):
+    def get_highest_clue(self, chosen_words, penalty=1.0, domain_threshold=0.45, domain_gap=0.3, use_idf=True):
         potential_clues = set()
         for word in chosen_words:
             nns = self.weighted_nn[word]
@@ -988,7 +1021,9 @@ class Game(object):
                     red_word_counts.append(self.weighted_nn[red_word][clue])
 
             # the larger the idf is, the more uncommon the word
-            idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
+            idf = 0
+            if use_idf:
+                idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
 
             score = sum(blue_word_counts) - (penalty * sum(red_word_counts)) - (10*idf)
             # if score >= highest_score and self.verbose:
@@ -1034,7 +1069,7 @@ class Game(object):
 
 
 if __name__ == "__main__":
-    file_dir = 'babelnet_v6/'
+    file_dir = 'babelnet_v4/'
     # synset_labels_file = 'synset_to_labels.txt'
     synset_main_sense_file = 'synset_to_main_sense.txt'
     synset_senses_file = 'synset_to_senses.txt'
@@ -1052,11 +1087,11 @@ if __name__ == "__main__":
     )
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
-        None,
-        None,
-        None,
-        None,
-        None,
+        # None,
+        # None,
+        # None,
+        # None,
+        # None,
         # ['ray', 'mammoth', 'ivory', 'racket', 'bug'],
         # ['laser', 'pan', 'stock', 'box', 'game'],
         # ['bomb', 'car', 'moscow', 'pipe', 'hand'],
@@ -1075,11 +1110,11 @@ if __name__ == "__main__":
         # ["match", "hawk", "life", "knife", "africa"],
     ]
     blue_words = [
-        None,
-        None,
-        None,
-        None,
-        None,
+        # None,
+        # None,
+        # None,
+        # None,
+        # None,
         # ["racket", "bug", "crown", "australia", "pipe"],
         # ["scuba diver", "play", "roulette", "table", "cloak"],
         # ["buffalo", "diamond", "kid", "witch", "swing"],
@@ -1122,6 +1157,6 @@ if __name__ == "__main__":
                 )
 
         # Draw graphs for all words
-        # all_words = red + blue
-        # for word in all_words:
-        #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
+        all_words = red + blue
+        for word in all_words:
+            game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
