@@ -39,8 +39,8 @@ blacklist = set([
 babelnet_relationships_limits = {
     "HYPERNYM" : float("inf"),
     "OTHER" : 0,
-    "MERONYM": 0,
-    "HYPONYM": 0,
+    "MERONYM": 20,
+    "HYPONYM": 20,
 }
 
 class Game(object):
@@ -864,6 +864,7 @@ class Game(object):
                         if len(path) < shortest_path_length:
                             shortest_path_length = len(path)
                             shortest_path = path
+                            shortest_path_synset = synset
                     except:
                         if self.verbose:
                             print("No path between", synset, clue, clue_synset)
@@ -876,7 +877,7 @@ class Game(object):
                     single_word_label = self.get_single_word_label_v5(main_sense, senses)
                     shortest_path_labels.append(single_word_label)
 
-                print ("shortest path from", word, "to clue", clue, clue_synset, ":", shortest_path_labels)
+                print ("shortest path from", word, shortest_path_synset, "to clue", clue, clue_synset, ":", shortest_path_labels)
 
                 formatted_labels = [label.replace(' ', '\n') for label in shortest_path_labels]
                 formatted_labels.reverse()
@@ -937,7 +938,7 @@ class Game(object):
 
         pq = []
         for word_set in itertools.combinations(self.blue_words, n):
-            highest_clues, score = self.get_highest_clue(word_set, penalty, use_idf=False)
+            highest_clues, score = self.get_highest_clue(word_set, penalty, use_idf=True)
             # min heap, so push negative score
             heapq.heappush(pq, (-1 * score, highest_clues, word_set))
 
@@ -1069,7 +1070,7 @@ class Game(object):
 
 
 if __name__ == "__main__":
-    file_dir = 'babelnet_v4/'
+    file_dir = 'babelnet_v6/'
     # synset_labels_file = 'synset_to_labels.txt'
     synset_main_sense_file = 'synset_to_main_sense.txt'
     synset_senses_file = 'synset_to_senses.txt'
@@ -1157,6 +1158,6 @@ if __name__ == "__main__":
                 )
 
         # Draw graphs for all words
-        all_words = red + blue
-        for word in all_words:
-            game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
+        # all_words = red + blue
+        # for word in all_words:
+        #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
