@@ -24757,3 +24757,717 @@ bn:00053079n	WIKTLB	Animal of the class Mammalia.
 bn:14220451n	WIKIDATA	Food
 bn:14220451n	WIKIDATA	Food, edible in the raw state
 bn:14220451n	OMWIKI	A botanical fruit that can be eaten raw used as food.
+bn:00074274n	WN	The physical property of being inflexible and hard to bend
+bn:00074274n	WIKI	Stiffness is the rigidity of an object — the extent to which it resists deformation in response to an applied force.
+bn:00074274n	WIKIDIS	A material's resistance to bending
+bn:00074274n	WIKIDATA	Rigidity of an object
+bn:00074274n	WIKT	Rigidity or a measure of rigidity.
+bn:00058760n	WN	A pipeline used to transport oil
+bn:00058760n	WIKI	Pipeline transport is the transportation of goods or material through a pipe.
+bn:00058760n	WIKIDIS	A conduit made from pipes connected end-to-end for long-distance fluid or gas transport
+bn:00058760n	WIKIDATA	Mode of transport using sealed pipes
+bn:00058760n	OMWIKI	A long pipe, especially underground, used to transport gas over long distances.
+bn:00058760n	OMWIKI	A line of pipe connected to valves and other control devices, for conducting oil.
+bn:00091654v	WN	Transport by pipeline
+bn:00604339n	WIKI	The Armenian Soviet Encyclopedia publishing house was established in 1967 as a department of the Institute of History of the Armenian Academy of Sciences under the presidency of Viktor Hambardzumyan, co-edited by Abel Simonyan and Makich Arzumanyan.
+bn:00604339n	WIKIDATA	Encyclopedia
+bn:00114282r	WN	Continuing in the same way
+bn:00114282r	OMWIKI	Continuing in the same way.
+bn:00037383n	WN	A fluid in the gaseous state having neither independent shape nor volume and being able to expand indefinitely
+bn:00084554v	WN	Move while supporting, either in a vehicle or in one's hands or on one's body
+bn:00084554v	OMWIKI	To lift and bring to somewhere else while supporting, either in a vehicle or on one's body; to transport by lifting.
+bn:00084554v	WIKT	To lift and take it to another place; to transport by lifting.
+bn:00084554v	WIKTLB	To transport by lifting.
+bn:00084554v	FRAMENET	Move or transport from one place to another.
+bn:00085670v	WN	To compose or represent:"This wall forms the background of the stage setting"
+bn:00106125a	WN	Primarily spatial sense; of relatively great or greater than average spatial extension or extension as specified
+bn:00106125a	OMWIKI	Extending to a great distance.
+bn:00106125a	WIKT	Having much distance from one terminating point on an object or an area to another terminating point.
+bn:00106125a	WIKTLB	Having much distance from one point to another.
+bn:00106125a	FRAMENET	In length.
+bn:00067280n	WN	Systematic investigation to establish facts
+bn:00067280n	WIKI	Research comprises "creative work undertaken on a systematic basis in order to increase the stock of knowledge, including knowledge of humans, culture and society, and the use of this stock of knowledge to devise new applications."
+bn:00067280n	WIKIDATA	Formal work undertaken systematically to increase the stock of knowledge
+bn:00067280n	OMWIKI	Scientific investigation aimed at discovering and applying new facts, techniques and natural laws.
+bn:00067280n	WIKT	Diligent inquiry or examination to seek or revise facts, principles, theories, applications, etc.; laborious or continued search after truth.
+bn:00067280n	WIKTLB	Inquiry or examination.
+bn:00067280n	WIKIQU	Research can be defined as the search for knowledge, or as any systematic investigation, to establish novel facts, solve new or existing problems, prove new ideas, or develop new theories, usually using a scientific method.
+bn:00001426n	WN	The act of governing; exercising authority
+bn:00001426n	WIKI	The term administration, as used in the context of government, differs according to jurisdiction.
+bn:00001426n	WIKI	A government is the system to govern a state or community.
+bn:00001426n	WIKI	Governance is all of the processes of governing, whether undertaken by a government, market or network, whether over a family, tribe, formal or informal organization or territory and whether through the laws, norms, power or language of an organized society.
+bn:00001426n	WIKIDIS	Management in or of government
+bn:00001426n	WIKIDATA	System by which a state or community is governed
+bn:00001426n	WIKIDATA	All of the processes of governing, whether undertaken by a government, market or network, whether over a family, tribe, formal or informal organization or territory and whether through the laws, norms, power or language of an organized society
+bn:00001426n	WIKIDATA	Government or political administration
+bn:00001426n	OMWIKI	Manner in which power and authority are exercised by both public and private bodies; includes such issues as public sector management, legal framework, accountability and transparency. 
+bn:00001426n	OMWIKI	A body that has the authority to make and the power to enforce laws within a civil, corporate, religious, academic, or other organization or group.
+bn:00001426n	WIKT	The body with the power to make and/or enforce laws to control a country, land area, people or organization.
+bn:00001426n	WIKT	The state of being governed.
+bn:00001426n	WIKT	Government.
+bn:00001426n	WIKT	Government.
+bn:00001426n	WIKTLB	Body with the power to make and/or enforce laws.
+bn:00001426n	WIKIQU	A government is a body that has the authority to make and the power to enforce laws within a civil, corporate, religious, academic, or other organization or group.
+bn:00001426n	MSTERM	The set of policies, roles, responsibilities, and processes that are established in an enterprise to guide, direct, and control how the organization uses technologies to accomplish business goals.
+bn:00093341v	WN	Educate in or as if in a school
+bn:00093341v	FRAMENET	Train in a particular skill or activity.
+bn:00110170a	WN	Of or relating to schools
+bn:00110170a	WIKT	Of or relating to school; academic.
+bn:15853415n	WIKIDATA	Building which is or was home to a school
+bn:00000568n	WN	An institution for the advancement of art or science or literature
+bn:00000568n	WIKI	An academy is an institution of secondary education, higher learning, research, or honorary membership.
+bn:00000568n	WIKIDATA	Institution of higher learning
+bn:00000568n	OMWIKI	An institution of higher education and of research, which grants academic degrees.
+bn:00000568n	WIKT	An institution for the study of higher learning; a college or a university; typically a private school.
+bn:00000568n	WIKTLB	College or university.
+bn:00001517n	WN	A city in northwestern Turkey; a Thracian town that was rebuilt and renamed by the Roman Emperor Hadrian
+bn:00001517n	WIKI	Edirne is a city in the northwestern Turkish province of Edirne in the region of East Thrace, close to Turkey's borders with Greece and Bulgaria.
+bn:00001517n	WIKIDIS	A city in Turkey
+bn:00001517n	WIKIDATA	City in Turkey
+bn:00001517n	WIKT	Is a city in Eastern Thrace, the northwestern part of Turkey, close to the borders with Greece and Bulgari; formerly called Adrianople.
+bn:00001517n	WIKTLB	A city in Eastern Thrace.
+bn:00001529n	WN	A course (via lectures or correspondence) for adults who are not otherwise engaged in formal study
+bn:00001529n	WIKI	Adult education is a practice in which adults engage in systematic and sustained self-educating activities in order to gain new forms of knowledge, skills, attitudes, or values.
+bn:00001529n	WIKIDIS	Education for adults
+bn:00001529n	WIKIDATA	A part of education and training
+bn:00001529n	OMWIKI	Any instruction or training, informal or formal, which is geared to persons of mature age, regardless of previous education, and typically offered by university extension programs, employers, correspondence courses or community groups.
+bn:00002356n	WN	A state in the southeastern United States on the Gulf of Mexico; one of the Confederate states during the American Civil War
+bn:00002356n	WIKI	Alabama is a state in the southeastern region of the United States.
+bn:00002356n	WIKIDIS	State of the United States of America
+bn:00002356n	WIKIDATA	State of the United States of America
+bn:00002356n	OMWIKI	The 22nd state of the United States of America, located in the southeast.
+bn:00002356n	WIKT	The ISO 3166-1 two-letter code for Albania.
+bn:00002356n	WIKT	A state of the United States of America in the southeastern United States with its capital at Montgomery, and Birmingham as its largest city.
+bn:00007331n	WN	The earliest known inhabitants of a region
+bn:00007331n	WIKI	Indigenous peoples, also known as first peoples, aboriginal peoples or native peoples, are ethnic groups who are the original inhabitants of a given region, in contrast to groups that have settled, occupied or colonized the area more recently.
+bn:00007331n	WIKIDIS	Peoples with a set of specific rights based on their historical ties to a particular territory
+bn:00007331n	WIKIDATA	Ethnic group descended from and identify with the original inhabitants of a given region
+bn:00011664n	WN	A private school where students are lodged and fed as well as taught
+bn:00011664n	WIKI	A boarding school provides education for pupils who live on the premises, as opposed to a day school.
+bn:00011664n	WIKIDATA	School where some or all people study and live
+bn:00011664n	OMWIKI	A school at which the pupils receive board and lodging during the school term.
+bn:00011664n	WIKT	A school which provides board and lodging as well as tuition, with students going home at weekends or between terms.
+bn:00011664n	WIKTLB	School which provides board and lodging.
+bn:00013487n	WN	A city in northwestern Turkey
+bn:00013487n	WIKI	Bursa is a large city in Turkey, located in northwestern Anatolia, within the Marmara Region.
+bn:00013487n	WIKIDIS	A Turkish city
+bn:00013487n	WIKIDATA	City in Turkey
+bn:00013487n	WIKT	A city in northwestern Turkey.
+bn:00013487n	WIKTLB	City in Turkey.
+bn:00013843n	WN	The act of intimidating a weaker person to make them do something
+bn:00013843n	WIKI	Intimidation is intentional behavior that "would cause a person of ordinary sensibilities" fear of injury or harm.
+bn:00013843n	WIKI	Bullying is the use of force, threat, or coercion to abuse, intimidate, or aggressively dominate others.
+bn:00013843n	WIKIDATA	Use of force or coercion to abuse or intimidate others
+bn:00013843n	OMWIKI	The act of making timid or fearful or of deterring by threats.
+bn:00013843n	WIKT	The act of making timid or fearful or of deterring by threats; the state of being intimidated.
+bn:00013843n	WIKT	An act of intimidating a weaker person to do something, especially such repeated coercion.
+bn:00013843n	WIKTLB	Act of intimidating a weaker person.
+bn:00013843n	WIKIQU	Intimidation is intentional behavior that would cause a person of ordinary sensibilities fear of injury or harm.
+bn:00013843n	WIKIQU	This page consists of quotes about Bullying.
+bn:00037437n	WN	An internal-combustion engine that burns gasoline; most automobiles are driven by gasoline engines
+bn:00037437n	WIKI	A petrol engine is an internal combustion engine with spark-ignition, designed to run on petrol and similar volatile fuels.
+bn:00037437n	WIKIDATA	Internal combustion engine designed to run on gasoline
+bn:00037437n	OMWIKI	An internal combustion engine that uses a mixture of air and gasoline vapour as a fuel.
+bn:00037437n	WIKT	A device used to prime an internal combustion engine with gasoline, in airplanes.
+bn:00037437n	WIKTLB	Device used to prime an internal combustion engine with gasoline.
+bn:00066084n	WN	The feat of mustering strength for a renewed effort
+bn:00066084n	WIKI	Rally is a form of motorsport that takes place on public or private roads with modified production or specially built road-legal cars.
+bn:00066084n	WIKIDIS	A category of motorsport
+bn:00066084n	WIKIDATA	Form of auto racing
+bn:00066084n	WIKT	In rallying, an untimed section of the event where cars are driven at relatively low speed, usually on public roads, to the next racing stage.
+bn:02619478n	WIKI	Volkswagen AG, known internationally as Volkswagen Group, is a German multinational automotive manufacturing company headquartered in Wolfsburg, Lower Saxony, Germany.
+bn:02619478n	WIKIDIS	Used from 1978 to 1992
+bn:02619478n	WIKIDATA	Automotive manufacturing conglomerate
+bn:00377317n	WIKI	The Volkswagen New Beetle is a compact car, introduced by Volkswagen in 1997, drawing heavy inspiration from the exterior design of the original Beetle.
+bn:00377317n	WIKIDIS	Manufactured from 1997 to 2011
+bn:00377317n	WIKIDATA	Touring car
+bn:01062060n	WIKI	The Volkswagen Golf is a small family car produced by the German manufacturer Volkswagen since 1974, marketed worldwide across seven generations, in various body configurations and under various nameplates – such as the Volkswagen Rabbit in the United States and Canada, and as the Volkswagen Caribe in Mexico.
+bn:01062060n	WIKIDIS	A car model built by the German manufacturer Volkswagen
+bn:01062060n	WIKIDATA	Small family car manufactured by Volkswagen
+bn:00001482n	WN	German Nazi dictator during World War II (1889-1945)
+bn:00001482n	WIKI	Führer is a German word meaning "leader" or "guide".
+bn:00001482n	WIKI	Adolf Hitler was a German politician who was the leader of the Nazi Party, Chancellor of Germany from 1933 to 1945 and Führer of Nazi Germany from 1934 to 1945.
+bn:00001482n	WIKIDIS	A German term meaning leader or guide. It was used as a political title, and later held as a government office by Adolf Hitler during the Weimar and Nazi periods.
+bn:00001482n	WIKIDIS	An Austrian-born German politician and the leader of the Nazi Party
+bn:00001482n	WIKIDATA	Führer and Reich Chancellor of Germany, Leader of the Nazi Party
+bn:00001482n	WIKIDATA	Title
+bn:00001482n	WIKIQU	Adolf Hitler was an Austrian-born German politician who led the Nazi party from 1921 to 1945.
+bn:03530591n	WIKI	Ferdinand Porsche was an automotive engineer and founder of the Porsche car company.
+bn:03530591n	WIKIDIS	Founder of Porsche AG
+bn:03530591n	WIKIDATA	German automobile designer
+bn:00004614n	WN	A rigid metal bar between the front suspensions and between the rear suspensions of cars and trucks; serves to stabilize the chassis
+bn:00004614n	WIKI	An anti-roll bar is a part of many automobile suspensions that helps reduce the body roll of a vehicle during fast cornering or over road irregularities.
+bn:00004614n	WIKT	A bar that is stressed to reduce roll in a car body during cornering.
+bn:00004663n	WN	A liquid added to the water in a cooling system to lower its freezing point
+bn:00004663n	WIKI	An antifreeze is an additive which lowers the freezing point of a water-based liquid and increases its boiling point.
+bn:00004663n	WIKIDIS	Engine coolant or coolant additive
+bn:00004663n	WIKIDATA	Coolant additive which reduces the freezing point of water
+bn:00004663n	OMWIKI	A liquid used in the radiator of an internal-combustion engine to lower the freezing point of the cooling medium.
+bn:00004663n	WIKT	A substance, such as glycol, used to lower the freezing point of water;.
+bn:00004663n	WIKTLB	A substance used to lower the freezing point of water.
+bn:00004845n	WN	(military) an armored vehicle (usually equipped with caterpillar treads) that is used to transport infantry
+bn:00004845n	WIKI	An armoured personnel carrier is a type of armoured fighting vehicle designed to transport infantry to the battlefield.
+bn:00004845n	WIKIDIS	An armoured fighting vehicle
+bn:00004845n	WIKIDATA	Armored vehicle for transport of troops
+bn:00004845n	WIKT	An armored vehicle for carrying infantry soldiers in combat.
+bn:00004845n	WIKT	Initialism of armored personnel carrier.
+bn:00004845n	WIKTLB	Armored vehicle for carrying infantry soldiers in combat.
+bn:00005684n	WN	A state in southwestern United States; site of the Grand Canyon
+bn:00005684n	WIKI	Arizona is a U.S. state in the southwestern region of the United States.
+bn:00005684n	WIKIDIS	A state in the United States of America
+bn:00005684n	WIKIDATA	State in the United States of America
+bn:00005684n	OMWIKI	The 48th state of the United States of America, located in the south west.
+bn:00005684n	WIKT	The ISO 3166-1 two-letter code for Azerbaijan.
+bn:00005684n	WIKT	A state of the United States of America. Postal code: AZ, capital: Phoenix.
+bn:00005684n	WIKT	The official nickname for the state of Arizona in the United States of America.
+bn:00005684n	WIKTLB	A state of the United States of America.
+bn:00005684n	WIKIQU	Arizona is a state in the southwestern region of the United States.
+bn:00007083n	WN	The largest city and principal port of New Zealand
+bn:00007083n	WIKI	Auckland is a city in New Zealand's North Island.
+bn:00007083n	WIKIDATA	New Zealand''s largest city
+bn:00007083n	WIKT	The largest conurbation in New Zealand.
+bn:00007083n	WIKT	A native or resident of Auckland, New Zealand.
+bn:00007083n	WIKTLB	The largest conurbation in New Zealand.
+bn:00016324n	WN	A person who makes maps
+bn:00016324n	WIKT	One who makes maps or charts.
+bn:00016324n	WIKTLB	One who makes maps or charts.
+bn:00099306a	WN	Of or relating to the making of maps or charts
+bn:00099306a	WIKT	Of or pertaining to the making of maps.
+bn:00099306a	WIKTLB	Of or pertaining to the making of maps.
+bn:02775590n	WIKI	The Geography, also known by its Latin names as the Geographia and the Cosmographia, is a gazetteer, an atlas, and a treatise on cartography, compiling the geographical knowledge of the 2nd-century Roman Empire.
+bn:02775590n	WIKIDATA	Treatise on cartography by Claudius Ptolemaeus
+bn:00017905n	WN	A map designed to assist navigation by air or sea
+bn:00017905n	OMWIKI	A map for navigation that delineates a portion of the sea, indicating the outline of the coasts and the position of rocks, sandbanks and other parts of a sea.
+bn:00017905n	WIKT	A map.
+bn:00053303n	WN	A diagrammatic representation of the earth's surface (or part of it)
+bn:00053303n	WIKI	A map is a symbolic depiction emphasizing relationships between elements of some space, such as objects, regions, or themes.
+bn:00053303n	WIKIDATA	Visual representation of an area
+bn:00053303n	OMWIKI	A representation, normally on a flat medium, that displays the physical and political features of a surface area of the earth, showing them in their respective forms, sizes and relationships according to some convention of representation.
+bn:00053303n	WIKT	A visual representation of an area, whether real or imaginary.
+bn:00053303n	WIKTLB	Visual representation of an area
+bn:00053303n	WIKIQU	A map is a symbolic depiction highlighting relationships between elements of that space such as objects, regions, and themes.
+bn:00001676n	WN	An airfield equipped with control tower and hangars as well as accommodations for passengers and cargo
+bn:00001676n	WIKI	An aerodrome or airdrome is a location from which aircraft flight operations take place, regardless of whether they involve air cargo, passengers, or neither.
+bn:00001676n	WIKI	An airport is an aerodrome with extended facilities, mostly for commercial air transport.
+bn:00001676n	WIKIDIS	Any place at which flight operations take place. In British English, it refers chiefly to a small airport or airfield
+bn:00001676n	WIKIDIS	A facility for transporting passengers and/or cargo via aircraft
+bn:00001676n	WIKIDATA	Location where aircraft take off and land
+bn:00001676n	WIKIDATA	Location from which aircraft flight operations take place
+bn:00001676n	OMWIKI	A landing and taking-off area for civil aircraft, usually with surfaced runways and aircraft maintenance and passenger facilities.
+bn:00001676n	OMWIKI	An airfield equipped with control tower and hangars as well as accommodations for passengers and cargo.
+bn:00001676n	WIKT	An airfield equipped with air traffic control facilities and hangars as well as accommodation for passengers and cargo; an airport.
+bn:00001676n	WIKT	An airfield , including one or more runways and one or more passenger terminals.
+bn:00001676n	WIKT	An airport served by jet aircraft.
+bn:00001676n	WIKTLB	A place designated for airplanes.
+bn:00003882n	WN	Alternative names for the body of a human being
+bn:00003882n	WIKI	The human body is the entire structure of a human being.
+bn:00003882n	WIKIDIS	Of or relating to the body
+bn:00003882n	WIKIDATA	Wine grape
+bn:00003882n	WIKIDATA	Entire structure of a human organism
+bn:00003882n	OMWIKI	A branch of biological sciences that studies the functions of organs and tissues in human beings. 
+bn:00003882n	OMWIKI	The physical structure of a human body.
+bn:00003882n	OMWIKI	The entire physical structure of an human being.
+bn:00003882n	WIKT	The human body as a physical entity.
+bn:00003882n	WIKT	The physique of a human body; constitution or structure of a human body.
+bn:00003882n	WIKT	A human figure, which dress or corset must fit to; the shape of a human body.
+bn:00003882n	WIKT	The body.
+bn:00003882n	WIKT	The natural constitution, or physical structure, of a person.
+bn:00003882n	WIKT	To do with structure or procedure.
+bn:00003882n	WIKTLB	Human figure; shape of human body.
+bn:00003888n	WN	A presocratic Greek philosopher and student of Thales who believed the universal substance to be infinity rather than something resembling ordinary objects (611-547 BC)
+bn:00003888n	WIKI	Anaximander was a pre-Socratic Greek philosopher who lived in Miletus, a city of Ionia.
+bn:00003888n	WIKIDATA	Ancient Greek philosopher
+bn:00003888n	WIKT	A pre-Socratic Greek philosopher who lived in Miletus; pupil of Thales and teacher of Anaximenes.
+bn:00003888n	WIKIQU	Anaximander was a pre-Socratic Greek philosopher who lived in Miletus, a city of Ionia; Milet in modern Turkey.
+bn:00006569n	WN	An ancient kingdom in northern Mesopotamia which is in present-day Iraq
+bn:00006569n	WIKI	Assyria was a major Mesopotamian kingdom and empire of the ancient Near East and the Levant.
+bn:00006569n	WIKIDIS	An ancient empire in Mesopotamia
+bn:00006569n	WIKIDATA	Major Mesopotamian East Semitic kingdom
+bn:00006569n	OMWIKI	An ancient region on the Upper Tigris river, with capital city of Assur.
+bn:00006569n	WIKT	A Semitic Akkadian kingdom, extant as a nation state from the mid–23rd century BC to 608 BC centred on the Upper Tigris river, in northern Mesopotamia , that came to rule regional empires a number of times through history.
+bn:00006569n	WIKTLB	Semitic Akkadian kingdom.
+bn:00007854n	WN	(microbiology) single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission; important as pathogens and for biochemical properties; taxonomy is difficult; often considered to be plants
+bn:00007854n	WIKI	Bacteria constitute a large domain of prokaryotic microorganisms.
+bn:00007854n	WIKIDATA	Domain of prokaryotic microorganisms
+bn:00007854n	OMWIKI	Group of single-cell micro-organisms, the smallest of the living organisms. Some are vital to sustain life, while others are responsible for causing highly dangerous human diseases, such as anthrax, tetanus and tuberculosis. Bacteria are found everywhere, in the soil, water and air. 
+bn:00007854n	WIKIQU	Bacterium constitute a large domain of prokaryotic microorganisms.
+bn:00021464n	WN	A machine for performing calculations automatically
+bn:00021464n	WIKI	A computer is a device that can be instructed to carry out arbitrary sequences of arithmetic or logical operations automatically.
+bn:00021464n	WIKIDIS	The combination of hardware and software which forms a complete, working computer. Computer systems will include the computer alongside any software (example: operating system, BIOS) and peripheral devices that are necessary to make the computer function.
+bn:00021464n	WIKIDATA	Simple general-purpose device for performing arithmetic or logical operations
+bn:00021464n	OMWIKI	A programmable device that performs mathematical calculations and logical operations, especially one that can process, store and retrieve large amounts of data very quickly.
+bn:00021464n	WIKT	A programmable electronic device that performs mathematical calculations and logical operations, especially one that can process, store and retrieve large amounts of data very quickly; now especially, a small one for personal or home use employed for manipulating text or graphics, accessing the Internet, or playing games or media.
+bn:00021464n	WIKIQU	A computer is a machine for manipulating data or storing data according to a list of instructions.
+bn:00021464n	MSTERM	Any device capable of processing information to produce a desired result. No matter how large or small they are, computers typically perform their work in three well-defined steps: (1) accepting input, (2) processing the input according to predefined rules (programs), and (3) producing output. There are several ways to categorize computers, including class (ranging from microcomputers to supercomputers), generation (first through fifth generation), and mode of processing (analog versus digital).
+bn:00021464n	MSTERM	The configuration that includes all functional components of a computer and its associated hardware. A basic microcomputer system includes a console, or system unit, with one or more disk drives, a monitor, and a keyboard. Additional hardware, called peripherals, can include such devices as a printer, a modem, and a mouse. Software is usually not considered part of a computer system, although the operating system that runs the hardware is known as system software.
+bn:00021464n	MSTERM	An item the user can select in the Options dialog box, Phones tab, from the "Select the default device for calling phone numbers" drop-down list. When the user selects Computer as the default device for calling phone numbers, Communicator uses the Voice Over Internet Protocol (VOIP) connection for making a call.
+bn:00001176n	WN	A theatrical performer
+bn:00001176n	WIKI	An actor is a person who portrays a character in a performance.
+bn:00001176n	WIKIDIS	As extensively used by Variety magazine), referring to Thespis of Icaria, the first credited actor
+bn:00001176n	WIKIDATA	Person who acts in a dramatic or comic production and works in film, television, theatre, or radio
+bn:00001176n	OMWIKI	A person that plays a designated role in a film or play.
+bn:00001176n	WIKT	A person who performs in a theatrical play or film.
+bn:00001176n	WIKT	An actor in a dramatic play.
+bn:00061560n	WN	A dramatic or musical entertainment
+bn:00061560n	WIKI	Performance is completion of a task with application of knowledge, skills and abilities.
+bn:00061560n	WIKIDATA	Performing arts event, single representation of a performing arts production
+bn:00061560n	OMWIKI	An act where somebody performs music, theater or a similar art in a live show or concert.
+bn:00002355n	WN	A silvery ductile metallic element found primarily in bauxite
+bn:00002355n	WIKI	Aluminium or aluminum is a chemical element with symbol Al and atomic number 13.
+bn:00002355n	WIKIDIS	The chemical element represented by "Al" on the periodic table
+bn:00002355n	WIKIDATA	Metallic element of silvery appearance and low density
+bn:00002355n	OMWIKI	A metallic chemical element (symbol Al) with an atomic number of 13.
+bn:00002355n	WIKT	A metallic chemical element with an atomic number of 13.
+bn:00002355n	WIKT	A light, silvery metal extracted from bauxite, and a chemical element with an atomic number of 13.
+bn:00002355n	WIKT	Alternative name for aluminium / aluminum (the chemical element, symbol Al, with an atomic number of 13).
+bn:00060894n	WN	A traveler riding in a vehicle (a boat or bus or car or plane or train etc) who is not operating it
+bn:00060894n	WIKI	A passenger is a person who travels in a vehicle but bears little or no responsibility for the tasks required for that vehicle to arrive at its destination or otherwise operate the vehicle.
+bn:00060894n	WIKIDATA	Person who travels in a vehicle without operating it
+bn:00060894n	WIKT	One who rides or travels in a vehicle, but who does not operate it and is not a member of the crew.
+bn:00060894n	WIKTLB	One who rides or travels in a vehicle.
+bn:00002096n	WN	The practice of cultivating the land or raising stock
+bn:00002096n	WIKI	Agriculture is the cultivation and breeding of animals, plants and fungi for food, fiber, biofuel, medicinal plants and other products used to sustain and enhance life.
+bn:00002096n	WIKIDATA	Cultivation of life forms for food, fiber, biofuel and other products used to sustain life
+bn:00002096n	OMWIKI	The production of plants and animals useful to man, involving soil cultivation and the breeding and management of crops and livestock.
+bn:00002096n	WIKT	The business of cultivating land, raising stocks etc.
+bn:00002096n	WIKT	The raising of livestock and the cultivation of crops; agriculture.
+bn:00002096n	WIKT	The art or science of cultivating the ground, including the harvesting of crops, and the rearing and management of livestock.
+bn:00002096n	WIKIQU	Agriculture, also called farming or husbandry, is the cultivation of animals, plants, fungi, and other life forms for food, fiber, biofuel, medicinals and other products used to sustain and enhance human life.
+bn:00002096n	WIKIQU	Husbandry is the raising of livestock and the cultivation of crops, or agriculture, and the prudent management or conservation of resources.
+bn:17204097n	WIKI	Tom is mostly used as a diminutive of Thomas.
+bn:17204097n	WIKIDIS	A diminutive of Thomas or Tomás or an independent Aramaic given name (and a list of people with the name)
+bn:17204097n	WIKIDATA	Male given name
+bn:00071734n	WN	The act of singing vocal music
+bn:00071734n	WIKI	Singing is the act of producing musical sounds with the voice and augments regular speech by the use of sustained tonality, rhythm, and a variety of vocal techniques.
+bn:00071734n	WIKIDIS	The act of producing musical sounds with the voice
+bn:00071734n	WIKIDATA	Act of producing musical sounds with the voice
+bn:00071734n	OMWIKI	A male person who sings, is able to sing, or earns a living by singing.
+bn:00071734n	WIKT	The act of using the voice to produce musical sounds; vocalizing.
+bn:00071734n	WIKTLB	The act of using the voice to produce musical sounds; vocalizing.
+bn:00071734n	WIKIQU	Singing is the act of producing musical sounds with the voice, and augments regular speech by the use of both tonality and rhythm.
+bn:00411127n	WIKI	Hard rock is a loosely defined subgenre of rock music that began in the mid-1960s, with the garage, psychedelic and blues rock movements.
+bn:00411127n	WIKIDATA	Genre of rock music
+bn:00411127n	WIKT	A rock music genre marked by a heavy regular beat, high amplification, and usually frenzied performances.
+bn:00411127n	WIKTLB	Rock music genre.
+bn:00411127n	MSTERM	One of the music genres that appears under Genre classification in Windows Media Player library. Based on ID3 standard tagging format for MP3 audio files. ID3v1 genre ID # 79.
+bn:00005461n	WN	The regions to the north of the Arctic Circle centered on the North Pole
+bn:00005461n	WIKI	The Arctic is a polar region located at the northernmost part of Earth.
+bn:00005461n	WIKIDATA	Polar region
+bn:00005461n	OMWIKI	The northernmost area of the earth, centered on the North Pole, that includes the Arctic Ocean, the northern reaches of Canada, Alaska, Russia, Norway and most of Greenland, Iceland and Svalbard. 
+bn:00005461n	OMWIKI	A region of the Earth above the Arctic Circle, containing the North Pole.
+bn:00005461n	WIKT	The region of the Earth above the Arctic Circle, containing the North Pole.
+bn:00005461n	WIKTLB	A region of the Earth
+bn:00005461n	WIKIQU	The Arctic is the region around the Earth's North Pole.
+bn:00009212n	WN	An indentation of a shoreline larger than a cove but smaller than a gulf
+bn:00009212n	WIKI	A bay is a body of water connected to an ocean or lake, formed by an indentation of the shoreline.
+bn:00009212n	WIKIDATA	Body of water connected to an ocean or lake, formed by an indentation of the shoreline
+bn:00009212n	OMWIKI	An open, curving indentation made by the sea or a lake into a coastline.
+bn:00009212n	WIKT	A body of water more or less three-quarters surrounded by land.
+bn:00009212n	WIKTLB	Body of water.
+bn:00009263n	WN	An area of sand sloping down to the water of a sea or lake
+bn:00009263n	WIKI	A beach is a landform alongside a body of water which consists of loose particles.
+bn:00009263n	WIKIDATA	Area of sand or small stones near the sea or another area of water such as a lake
+bn:00009263n	OMWIKI	A lat, narrow strip of sand, gravel or pebbles along the shoreline of a body of water (ocean, river, lake).
+bn:00009263n	WIKT	The shore of a body of water, especially when sandy or pebbly.
+bn:00002630n	WN	The chief port of Egypt; located on the western edge of the Nile delta on the Mediterranean Sea; founded by Alexander the Great; the capital of ancient Egypt
+bn:00002630n	WIKI	Alexandria is the second-largest city in Egypt and a major economic centre, extending about 32 km along the coast of the Mediterranean Sea in the north central part of the country.
+bn:00002630n	WIKIDIS	As in Alexandrian text-type
+bn:00002630n	WIKIDATA	Second largest city in Egypt
+bn:00002630n	OMWIKI	The second-largest city in Egypt, and its largest seaport, with a population of 3.5 to 5 million.
+bn:00002630n	WIKT	A city and port in Egypt.
+bn:00002630n	WIKTLB	City in Egypt.
+bn:00035908n	WN	A perceptual structure
+bn:00035908n	WIKI	Pattern in architecture is the idea of capturing architectural design ideas as archetypal and reusable descriptions.
+bn:00035908n	WIKI	The term musical form refers to the overall structure or plan of a piece of music; it describes the layout of a composition as divided into sections.
+bn:00035908n	WIKIDIS	An approach to defining interrelated architectural problems and solutions
+bn:00035908n	WIKIDIS	A generic type of composition or the structure of a particular piece
+bn:00035908n	WIKIDATA	Overall structure or plan of a piece of music
+bn:00035908n	WIKIDATA	Idea of capturing architectural design ideas as archetypal and reusable descriptions
+bn:00035908n	OMWIKI	The shape or visible structure of a thing or person.
+bn:00035908n	WIKT	The shape or visible structure of a thing or person.
+bn:00035908n	WIKT	A unifying structure.
+bn:00035908n	WIKTLB	Shape or visible structure.
+bn:00035908n	WIKIQU	The term Musical form refers to the overall structure or plan of a piece of music, In the tenth edition of The Oxford Companion to Music, Percy Scholes defines musical form as "a series of strategies designed to find a successful mean between the opposite extremes of unrelieved repetition and unrelieved alteration.
+bn:00035908n	MSTERM	A rule for comparing input data with a logical structure, decomposing data into constituent parts, or extracting information from data.
+bn:00000752n	WN	The occupation of maintaining and auditing records and preparing financial reports for a business
+bn:00000752n	WIKI	Accounting or accountancy is the measurement, processing, and communication of financial information about economic entities such as businesses and corporations.
+bn:00000752n	WIKIDATA	Measurement, processing and communication of financial information about economic entities
+bn:00000752n	OMWIKI	Method of recording all the transactions affecting the financial condition of a business or organization.
+bn:00000752n	WIKT	The development and use of a system for recording and analyzing the financial transactions and financial status of a business or other organization.
+bn:00000752n	WIKT	The function of compiling and providing financial information primarily by reports referred to as financial statements. Accounting includes bookkeeping, systems design, analysis and interpretation of accounting information.
+bn:00000752n	WIKTLB	Development and maintenance of system for recording and analyzing financial transactions.
+bn:00000752n	WIKIQU	Accounting, or accountancy, is the measurement, processing and communication of financial information about economic entities.
+bn:00000688n	WN	An embellishing note usually written in smaller size
+bn:00000688n	WIKI	In music, ornaments or embellishments are musical flourishes—typically, added notes—that are not essential to carry the overall line of the melody, but serve instead to decorate or "ornament" that line, provide added interest and variety, and give the performer the opportunity to add expressiveness to a song or piece.
+bn:00000688n	WIKI	A grace note is a kind of music notation used to denote several kinds of musical ornaments, it is usually printed smaller to indicate that it is melodically and harmonically nonessential.
+bn:00000688n	WIKIDIS	Musical flourishes that are not necessary to the overall melodic (or harmonic) line
+bn:00000688n	WIKIDIS	A kind of music notation
+bn:00000688n	WIKIDATA	Note meant to be played as one that quickly "slides" or "glides" to another note
+bn:00000688n	WIKIDATA	Musical flourishes that are not necessary to carry the overall line of the melody (or harmony), but serve instead to decorate or "ornament" that line
+bn:00000688n	WIKT	A figure in music, often denoted ~, consisting of the note above the one indicated, the note itself, the note below the one indicated, and the note itself again.
+bn:00000688n	WIKT	Alternative spelling of acciaccatura.
+bn:00000688n	WIKT	A short grace note , occurring on the beat occupied by the main note to which it is prefixed, one scale-step higher or lower than that main note. Written as a note lighter in appearance, typically a quaver , with an oblique stroke through the stem.
+bn:00000688n	WIKTLB	Figure in music.
+bn:00008465n	WN	Musical notation for a repeating pattern of musical beats
+bn:00008465n	WIKI	In musical notation, a bar is a segment of time corresponding to a specific number of beats in which each beat is represented by a particular note value and the boundaries of the bar are indicated by vertical bar lines.
+bn:00008465n	WIKIDIS	A unit of time in Western music representing a regular grouping of beats
+bn:00008465n	WIKIDATA	Time unit in rythmic musical notation
+bn:00008465n	OMWIKI	A musical designation consisting of all notes and or rests delineated by two vertical bars; an equal and regular division of the whole of a composition.
+bn:00008465n	WIKT	A musical designation consisting of all notes and or rests delineated by two vertical bars; an equal and regular division of the whole of a composition; a bar.
+bn:00008465n	WIKT	One of those musical sections.
+bn:00008465n	WIKT	Alternative form of bar line.
+bn:00010293n	WN	A large dance or jazz band usually featuring improvised solos by lead musicians
+bn:00010293n	WIKI	A big band is a type of musical ensemble that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section.
+bn:00010293n	WIKIDIS	A genre associated with the Swing Era
+bn:00010293n	WIKIDATA	Music ensemble associated with jazz and Swing Era music
+bn:00010293n	WIKT	A large dance or jazz band of 10 to 30 musicians usually featuring improvised solos by lead players, but otherwise playing orchestrated music.
+bn:00010293n	MSTERM	One of the music genres that appears under Genre classification in Windows Media Player library. Based on ID3 standard tagging format for MP3 audio files. Winamp genre ID # 96.
+bn:00081052n	WN	The quality or state of the achromatic color of greatest lightness (bearing the least resemblance to black)
+bn:00081052n	WIKI	In colorimetry, whiteness is the degree to which a surface is white.
+bn:00081052n	WIKI	White is the lightest color and is achromatic, because it fully reflects and scatters all the visible wavelengths of light.
+bn:00081052n	WIKIDATA	Color
+bn:00081052n	OMWIKI	The quality or state of being white; white color, or freedom from darkness or obscurity on the surface.
+bn:00081052n	OMWIKI	The colour of light that contains equal amounts of all visible wavelengths.
+bn:00081052n	WIKT	The color/colour of snow or milk; the colour of light containing equal amounts of all visible wavelengths.
+bn:00081052n	WIKT	The state of being white.
+bn:00081052n	WIKT	Of a creamy white colour.
+bn:00002191n	WN	A succession of notes forming a distinctive sequence
+bn:00002191n	WIKI	A melody, also tune, voice, or line, is a linear succession of musical tones that the listener perceives as a single entity.
+bn:00002191n	WIKIDIS	A concept in music.
+bn:00002191n	WIKIDATA	Linear succession of musical tones in the foreground of a work of music
+bn:00002191n	OMWIKI	A succession of notes forming a distinctive sequence.
+bn:00002191n	WIKT	Tune; sequence of notes that makes up a musical phrase.
+bn:00002191n	WIKT	A melody.
+bn:00002488n	WN	One or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers) and later on cassette audiotape and compact disc
+bn:00002488n	WIKI	An album is a collection of audio recordings issued as a single item on CD, record, audio tape or another medium.
+bn:00002488n	WIKIDIS	A collection of music tracks
+bn:00002488n	WIKIDATA	Album of audio recordings made up of tracks recorded in a recording studio
+bn:00002488n	WIKIDATA	Collection of recorded music
+bn:00002488n	OMWIKI	A vinyl or CD record containing multiple pieces of music.
+bn:00002488n	WIKT	A phonograph record.
+bn:00002488n	MSTERM	A predefined collection of audio files (for example, songs) from a CD or digital download.
+bn:00003691n	WN	A doctor's degree in musical arts
+bn:00003691n	WIKI	The Doctor of Musical Arts degree is a doctoral academic degree in music.
+bn:00003691n	WIKIDIS	A terminal degree in Music for composers, conductors, and performers
+bn:00003691n	WIKIDATA	Doctoral academic degree in music
+bn:00007712n	WN	A bachelor's degree in music
+bn:00007712n	WIKI	Bachelor of Music is an academic degree awarded by a college, university, or conservatory upon completion of program of study in music.
+bn:00007712n	WIKIDATA	Academic degree
+bn:00030192n	WN	A physical phenomenon associated with stationary or moving electrons and protons
+bn:00030192n	WIKI	Electricity is the set of physical phenomena associated with the presence and motion of electric charge.
+bn:00030192n	WIKIDATA	Physical phenomena associated with the presence and flow of electric charge
+bn:00030192n	OMWIKI	A general term used for all phenomena caused by electric charge whether static or in motion.
+bn:00030192n	WIKIQU	Electricity is a general term encompassing a variety of phenomena resulting from the presence and flow of electric charge.
+bn:00072677n	WN	Energy from the sun that is converted into thermal or electrical energy
+bn:00072677n	WIKI	Solar energy is radiant light and heat from the Sun that is harnessed using a range of ever-evolving technologies such as solar heating, photovoltaics, solar thermal energy, solar architecture, molten salt power plants and artificial photosynthesis.
+bn:00072677n	WIKIDATA	Energy transmitted from the sun
+bn:00072677n	OMWIKI	The energy transmitted from the sun in the form of electromagnetic radiation. The most successful examples of energy extraction from the sun are so far solar cells used in satellites and solar collectors used to heat water. 
+bn:00072677n	WIKT	Energy in the form of electromagnetic radiation emitted from the Sun; especially that part of this energy that is converted into usable thermal or electrical energy by man.
+bn:00072677n	WIKTLB	Energy from the sun.
+bn:00003255n	WN	A deep yellow color
+bn:00003255n	WIKI	Gold, also called golden, is a colour.
+bn:00003255n	WIKI	The color amber is a pure chroma color, located on the color wheel midway between the colors of gold and orange.
+bn:00003255n	WIKIDIS	Shade of the metal gold
+bn:00003255n	WIKIDATA	Colour
+bn:00003255n	WIKIDATA	Color midway between the colors of gold and orange
+bn:00003255n	WIKT	Of a brownish yellow colour, like that of most amber.
+bn:00003255n	WIKT	A metallic gold colour, as used in some paints.
+bn:00003255n	WIKT	A bright yellow colour, resembling the metal gold.
+bn:00003342n	WN	North America and South America and Central America
+bn:00003342n	WIKI	The Americas, also known as America, are lands of the western hemisphere, composed of numerous entities and regions variably defined by geography, politics, and culture.
+bn:00003342n	WIKI	The Americas encompass the totality of the continents of North and South America.
+bn:00003342n	WIKIDIS	In some contexts
+bn:00003342n	WIKIDATA	Landmass comprising the continents of North America and South America
+bn:00003342n	OMWIKI	Continent which extends on a great part of the Occidental Hemisphere of the Earth, from the Artic Ocean in the North, to the Cape Horn in the South at the confluence of the Atlantic and Pacific Oceans, which delimits the continent on the East and West respectively.
+bn:00003342n	WIKT	North America and South America taken together.
+bn:00003342n	WIKT	The continents of North and South America, especially when considered to form a single continent.
+bn:00003342n	WIKTLB	North and South America.
+bn:00003342n	WIKIQU	The Americas, or America, also known as the New World, are the combined continental landmasses of North America and South America along with their associated islands.
+bn:00010816n	WN	The quality or state of the achromatic color of least lightness (bearing the least resemblance to white)
+bn:00010816n	WIKI	Black is the darkest color, the result of the absence or complete absorption of visible light.
+bn:00010816n	WIKIDATA	Darkest color
+bn:00010816n	WIKT	The state, property or quality of being black.
+bn:00010816n	WIKTLB	State, property or quality.
+bn:00010816n	WIKIQU	Black is the color of coal, ebony, and of outer space.
+bn:00037308n	WN	A hose used for watering a lawn or garden
+bn:00037308n	WIKI	A garden hose, hosepipe, or simply hose is a flexible tube used to convey water.
+bn:00037308n	WIKT	A length of hose as above, usually with a male connector on one end and a female connector on the other end, which can carry water from a hose bib for use on a garden or lawn.
+bn:00044889n	WN	A flexible pipe for conveying a liquid or gas
+bn:00044889n	WIKI	A hose is a flexible hollow tube designed to carry fluids from one location to another.
+bn:00044889n	WIKIDATA	Flexible conduit for conducting a solid, liquid and gaseous effluents
+bn:00044889n	WIKT	A flexible tube conveying water or other fluid.
+bn:00044889n	WIKT	A flexible pipe for carrying water or other liquids; a garden hose.
+bn:00014172n	WN	A graduate school offering study leading to a degree of Master in Business Administration
+bn:00014172n	WIKI	A business school is a university-level institution that confers degrees in business administration or management.
+bn:00014172n	WIKIDATA	University-level institution granting degrees in business administration
+bn:00019019n	WN	A private religious school run by a church or parish
+bn:00019019n	WIKI	A Christian school is a school run on Christian principles or by a Christian organization.
+bn:00019019n	WIKI	A parochial school is a private primary or secondary school affiliated with a religious organization, and whose curriculum includes general religious education in addition to secular subjects, such as science, mathematics and language arts.
+bn:00019019n	WIKIDATA	Private primary or secondary school affiliated with a religious organization
+bn:00019019n	WIKIDATA	School run on Christian principles or by a Christian organization
+bn:00019019n	WIKT	A school associated with the parish of a church.
+bn:00019019n	WIKTLB	School associated with the parish of a church.
+bn:00021404n	WN	A large British or Canadian secondary school for children of all abilities
+bn:00021404n	WIKI	A comprehensive school is a secondary school that is a state school and does not select its intake on the basis of academic achievement or aptitude, in contrast to the selective school system, where admission is restricted on the basis of selection criteria.
+bn:00021404n	WIKIDIS	A state school that does not select its intake on the basis of academic achievement or aptitude
+bn:00021404n	WIKIDATA	State school that does not select its intake on the basis of academic achievement or aptitude
+bn:00021404n	WIKT	A normal secondary school, accepting pupils of all abilities; replaced the secondary modern schools and grammar schools.
+bn:00021404n	WIKTLB	Normal secondary school, accepting pupils of all abilities.
+bn:00023515n	WN	A special school where students are crammed
+bn:00023515n	WIKI	Cram schools are specialized schools that train their students to meet particular goals, most commonly to pass the entrance examinations of high schools or universities.
+bn:00023515n	WIKIDIS	A specialized school that trains students to pass entrance exams
+bn:00023515n	WIKIDATA	Specialized schools that train their students to meet particular goals
+bn:00023515n	WIKT	A specialised school that trains students to meet particular goals, most commonly to pass the entrance examinations of high schools or universities.
+bn:00023515n	WIKT	A school whose speciality is helping students to pass certain examinations.
+bn:00025441n	WN	A private school taking day students only
+bn:00025441n	WIKI	A day school—as opposed to a boarding school—is an educational institution where children are given instruction during the day, after which the students return to their homes.
+bn:00025441n	WIKIDATA	Type of school
+bn:00025441n	WIKT	A school attended during the day, as opposed to a boarding school.
+bn:00041233n	WN	A school in a university offering study leading to degrees beyond the bachelor's degree
+bn:00041233n	WIKI	A graduate school is a school that awards advanced academic degrees with the general requirement that students must have earned a previous undergraduate degree with a high grade point average.
+bn:00041233n	WIKIDIS	A school that awards advanced degrees
+bn:00041233n	WIKIDATA	School that awards advanced academic degrees (i.e. master''s and doctoral degrees) with the general requirement that students must have earned a previous undergraduate (bachelor''s) degree
+bn:00041233n	OMWIKI	A university student, usually already possessing a four year degree, who is working on a master's degree or Ph.D.
+bn:00041233n	OMWIKI	A school that awards advanced academic degrees, such as doctoral degrees with the general requirement that students must have earned a previous undergraduate (bachelor's) degree.
+bn:00041233n	WIKT	A university student, usually already possessing a four year degree, who is working on a master's degree or Ph.D.
+bn:00041233n	WIKT	A school that awards advanced degrees, such as doctoral degrees; a postgraduate school.
+bn:00041233n	WIKT	Graduate school.
+bn:00041233n	WIKTLB	A school that awards advanced degrees.
+bn:00042323n	WN	A school for students intermediate between elementary school and college; usually grades 9 to 12
+bn:00042323n	WIKI	A secondary school is both an organization that provides secondary education and the building where this takes place.
+bn:00042323n	WIKI	A middle school is an educational stage which exists in some countries, providing education between primary school and secondary school.
+bn:00042323n	WIKI	A gymnasium is a type of school with a strong emphasis on academic learning, and providing advanced secondary education in some parts of Europe comparable to British grammar schools, sixth form colleges and US preparatory high schools.
+bn:00042323n	WIKI	The lyceum is a category of educational institution defined within the education system of many countries, mainly in Europe.
+bn:00042323n	WIKIDIS	Also known as intermediate, school
+bn:00042323n	WIKIDIS	The European equivalent of a North American university-preparatory school
+bn:00042323n	WIKIDATA	Part of the French education system
+bn:00042323n	WIKIDATA	Gymnasium
+bn:00042323n	WIKIDATA	Type of school providing advanced secondary education in Europe
+bn:00042323n	WIKIDATA	Building and organization where secondary education is provided
+bn:00042323n	OMWIKI	A school that provides education for children at the second level in education systems where the schooling is divided into three levels.
+bn:00042323n	WIKT	A school which crosses the traditional divide between primary school and secondary school.
+bn:00042323n	WIKT	A school at a stage between elementary school and college.
+bn:00042323n	WIKT	A public secondary school in France.
+bn:00042323n	WIKT	A school for children that have completed elementary school or grade school, but are not yet old enough for high school. In the US, it often includes grades 7 and 8, and possibly also 6 or 9.
+bn:00042323n	WIKT	A school for children that serves grades between primary school and high school. These grades vary from anywhere from grade 4 to grade 8.
+bn:00042323n	WIKT	In the UK, a state school attended between the ages of 11 and 16 or 18.
+bn:00042323n	WIKT	Junior high school.
+bn:00042323n	WIKT	A type of secondary school in some European countries which typically prepares students for university.
+bn:00064166n	WN	A private secondary school
+bn:00064166n	WIKI	A preparatory school in the United Kingdom is a selective, fee-charging independent primary school that caters primarily for children up to approximately the age of 13.
+bn:00064166n	WIKIDIS	An independent school preparing children up to the age of 11 or 13 for entry into fee-paying secondary independent schools
+bn:00064166n	WIKIDATA	School, in UK, preparing children for secondary level
+bn:00064166n	WIKT	A private or public school intended to prepare its students to get into prestigious universities.
+bn:00064166n	WIKTLB	US: school that prepares for university.
+bn:00064189n	WN	An educational institution for children too young for elementary school
+bn:00064189n	WIKI	A preschool is an educational establishment or learning space offering early childhood education to children, usually between the ages of 2½ and 5, prior to the commencement of compulsory education at primary school.
+bn:00064189n	WIKIDATA	Educational establishment offering early childhood education to children
+bn:00064189n	OMWIKI	An educational institution for young children, usually before they go to primary school
+bn:00064189n	WIKT	A nursery school.
+bn:00064189n	WIKT	The elementary school grade before first grade.
+bn:00064189n	WIKTLB	The elementary school grade before first grade.
+bn:00064482n	WN	A school established and controlled privately and supported by endowment and tuition
+bn:00064482n	WIKI	Private schools, also known to many as independent schools, non-governmental, privately funded, or nonstate schools, are not administered by local, state or national governments; parents of kids who attend private schools choose to have their child be in a school where kids are accordingly selected based on either their family income, religious background, or simply based on their academics.
+bn:00064482n	WIKIDATA	School type not administered by local, state or national governments
+bn:00026694n	WN	A country that is poor and whose citizens are mostly agricultural workers but that wants to become more advanced socially and economically
+bn:00026694n	WIKI	A developing country, also called a less developed country or an underdeveloped country, is a nation or a sovereign state with a less developed industrial base and a low Human Development Index relative to other countries.
+bn:00026694n	WIKIDIS	A term usually confused with Third World
+bn:00026694n	WIKIDATA	Nation with a low living standard relative to other countries
+bn:00026694n	OMWIKI	A country whose people are beginning to utilize available resources in order to bring about a sustained increase in per capita production of goods and services.
+bn:03659145n	WIKI	A developed country, industrialized country, more developed country, or "more economically developed country", is a sovereign state that has a highly developed economy and advanced technological infrastructure relative to other less industrialized nations.
+bn:03659145n	WIKIDATA	Country with a developed industry and infrastructure
+bn:03659145n	OMWIKI	A nation possessing a relatively high degree of industrialization, infrastructure and other capital investment, sophisticated technology, widespread literacy and advanced living standards among its populations as a whole.
+bn:00089794v	WN	Write an instrumental score for
+bn:00002725n	WN	A person who comes from a foreign country; someone who does not owe allegiance to your country
+bn:00002725n	WIKI	In law, an alien is a person who is not a national of a given country, though definitions and terminology differ to some degree.
+bn:00002725n	WIKIDIS	Legal concept of aliens
+bn:00002725n	WIKIDATA	Person in a country not having citizenship
+bn:00002725n	OMWIKI	A person who comes from a foreign country.
+bn:00002725n	WIKT	A person from a foreign country.
+bn:00002725n	WIKT	A foreigner residing in a country.
+bn:00002725n	WIKT	Someone who is not a citizen of the country in question.
+bn:00002725n	WIKTLB	Person in a foreign land.
+bn:00015376n	WN	The musical director of a choir
+bn:00015376n	WIKI	Kapellmeister is a German word designating a person in charge of music-making.
+bn:00015376n	WIKI	In Christianity, the cantor, sometimes called the precentor or the protopsaltes is the chief singer, and usually instructor, employed at a church, a cathedral or monastery with responsibilities for the ecclesiastical choir and the preparation of liturgy.
+bn:00015376n	WIKIDATA	Person in charge of music-making, word originally used in the context of chapels
+bn:00015376n	WIKIDATA	Sometimes Precentor, or the Protopsaltes "first of the singers in church"
+bn:00015376n	OMWIKI	Person who directs the choir in a cathedral or a monastery.
+bn:00015376n	WIKT	The musical director of a choir, who conducts performances and supervises rehearsal.
+bn:00015376n	WIKT	A director of music in a chapel; the director of a court or orchestra.
+bn:00015376n	WIKT	The person who leads songs or prayers in a cathedral, church, monastery, or synagogue and generally facilitates worship.
+bn:00015376n	WIKTLB	The musical director of a choir, who conducts performances and supervises rehearsal.
+bn:00008648n	WN	German conductor and composer of romantic operas (1786-1826)
+bn:00008648n	WIKI	Carl Maria Friedrich Ernst von Weber was a German composer, conductor, pianist, guitarist and critic, and was one of the first significant composers of the Romantic school.
+bn:00008648n	WIKIDATA	German composer
+bn:02408826n	WIKI	Petroglyphs are images created by removing part of a rock surface by incising, picking, carving, or abrading, as a form of rock art. Outside North America, scholars often use terms such as "carving", "engraving", or other descriptions of the technique to refer to such images.
+bn:02408826n	WIKIDIS	Rock art depicting pictograms and logograms.
+bn:02408826n	WIKIDATA	Pictogram and logogram images carved on a rock surface
+bn:02408826n	OMWIKI	An image created by removing part of a rock surfaces by incising, pecking, carving, and abrading.
+bn:00034027n	WN	A woman who has given birth to a child (also used as a term of address to your mother)
+bn:00034027n	WIKI	A mother is the female parent of a child.
+bn:00034027n	WIKIDIS	A female parent
+bn:00034027n	WIKIDATA	Female parent
+bn:00034027n	OMWIKI	A term of address to someone who is a female parent (a biological mother or a woman with parental responsibility).
+bn:00034027n	WIKT	The woman who gives birth to a child.
+bn:00034027n	WIKT	A female parent of an animal.
+bn:00034027n	WIKT	The nurturing of a child by its mother.
+bn:00034027n	WIKT	The biological mother of an adopted child.
+bn:00034027n	WIKTLB	Female parent of an animal
+bn:00034027n	WIKIQU	A mother is the biological or social female parent of a child.
+bn:00054612n	WN	Rhythm as given by division into parts of equal duration
+bn:00054612n	WIKI	In music, metre refers to the regularly recurring patterns and accents such as measures and beats.
+bn:00054612n	WIKIDATA	Aspect of music
+bn:00054612n	WIKT	A duration of time.
+bn:00056474n	WN	The property of sounding like music
+bn:00056474n	WIKI	Musicality is "sensitivity to, knowledge of, or talent for music" or "the quality or state of being musical", and is used to refer to specific if vaguely defined qualities in pieces and/or genres of music, such as melodiousness and harmoniousness.
+bn:00065703n	WN	The absence of sound
+bn:00065703n	WIKI	Silence is the lack of audible sound or presence of sounds of very low intensity.
+bn:00065703n	WIKIDIS	A relative or total lack of sound
+bn:00065703n	WIKIDATA	Lack of audible sound or presence of sounds of very low intensity
+bn:00065703n	OMWIKI	The complete lack of sound or noise.
+bn:00065703n	WIKT	The lack of any sound.
+bn:00065703n	WIKT	The absence of sound; quietness.
+bn:00065703n	WIKTLB	Lack of any sound.
+bn:00065703n	FRAMENET	The state of being silent. Often occurs with verbs (keeping, remaining, staying).
+bn:00028902n	WN	The sound made by beating a drum
+bn:00028902n	WIKI	A drum beat or drum pattern is a rhythmic pattern, or repeated rhythm establishing the meter and groove through the pulse and subdivision, played on drum kits and other percussion instruments.
+bn:00028902n	WIKIDATA	Rhythmic pattern played on drums
+bn:00028902n	WIKT	The sound of a beating drum.
+bn:00007329n	WN	A vehicle carrying many passengers; used for public transport
+bn:00007329n	WIKI	A bus is a road vehicle designed to carry many passengers.
+bn:00007329n	WIKI	Motor bus or motorbus is a now somewhat archaic term referring to a bus powered by an onboard internal combustion engine, as opposed to a horse-drawn bus, steam bus or trolleybus.
+bn:00007329n	WIKI	A charabanc or "char-à-banc" is a type of horse-drawn vehicle or early motor coach, usually open-topped, common in Britain during the early part of the 20th century.
+bn:00007329n	WIKI	A coach is a type of bus used for conveying passengers.
+bn:00007329n	WIKIDIS	A multi-passenger vehicle
+bn:00007329n	WIKIDIS	An automotive vehicle for long-distance travel
+bn:00007329n	WIKIDATA	Archaic term referring to a bus
+bn:00007329n	WIKIDATA	Large vehicle for transporting people
+bn:00007329n	WIKIDATA	Type of bus for conveying passengers on excursions and on longer-distance intercity coach services
+bn:00007329n	OMWIKI	A large, long-bodied motor vehicle equipped with seating for passengers, usually operating as part of a scheduled service.
+bn:00007329n	WIKT	A vehicle set up to carry many people.
+bn:00007329n	WIKT	A single decked long-distance, or privately hired, bus.
+bn:00007329n	WIKT	A motorised bus, or coach.
+bn:00007329n	WIKT	A motorised bus, or coach.
+bn:00007329n	WIKT	A bus that is a motor vehicle, as opposed to earlier horse-drawn buses.
+bn:00007329n	WIKT	A vehicle, usually a bus or coach, with two decks.
+bn:00007329n	WIKTLB	Vehicle with two decks.
+bn:00021276n	WN	A small and economical car
+bn:00021276n	WIKI	A compact car, or small family car in British acceptation, is a classification of cars that are larger than a subcompact car but smaller than a mid-size car, equating roughly to the C-segment in Europe.
+bn:00021276n	WIKIDIS	A classification of automobile size
+bn:00021276n	WIKIDATA	Cars that are larger than a subcompact car but smaller than a mid-size car
+bn:00021276n	WIKT	A small and economical car.
+bn:00055185n	WN	A small box-shaped passenger van; usually has removable seats; used as a family car
+bn:00055185n	WIKI	A minivan, people carrier, or MPV or MUV is a vehicle size classification describing a high-roof vehicle with a flexible interior layout.
+bn:00055185n	WIKIDIS	American English name for a small van constructed for personal rather than commercial use
+bn:00055185n	WIKIDATA	American English term to describe a type of van designed for personal use
+bn:00055185n	WIKT	A small van.
+bn:00068678n	WN	A high-performance four-wheel drive car built on a truck chassis
+bn:00068678n	WIKI	Sport-utility, SUV or sport-ute is an automotive classification, typically a kind of station wagon / estate car with off-road vehicle features like raised ground clearance and ruggedness, and available four-wheel drive.
+bn:00068678n	WIKIDATA	Type of automobile
+bn:00068678n	WIKT	Sport utility vehicle.
+bn:00068678n	WIKT	A passenger vehicle which combines the towing capacity of a pickup truck with the passenger-carrying space of a minivan or station wagon together with on- or off-road ability.
+bn:00074870n	WN	A car smaller than a compact car
+bn:00074870n	WIKI	A subcompact car is the American term for an automobile with a class size smaller than a compact car usually not exceeding 165 inches in length, but larger than a microcar.
+bn:00074870n	WIKIDATA	American definition to indicate an automobile with a class size smaller than that of a compact car
+bn:00074870n	WIKT	Something that is smaller than the compact version, especially a very small car.
+bn:00007120n	WN	The ability to hear; the auditory faculty
+bn:00007120n	WIKI	Hearing, or auditory perception, is the ability to perceive sounds by detecting vibrations, changes in the pressure of the surrounding medium through time, through an organ such as the ear.
+bn:00007120n	WIKIDIS	The sense by which sound is perceived
+bn:00007120n	WIKIDATA	Sensory perception of sound by living organisms
+bn:00007120n	OMWIKI	The general perceptual behaviour and the specific responses made in relation to sound stimuli.
+bn:00007120n	OMWIKI	The total of measures and devices implemented to preserve persons from harm to the faculty of perceiving sound.
+bn:00007120n	WIKT	The sense used to perceive sound.
+bn:00007120n	WIKT	The sense of hearing.
+bn:00007120n	WIKTLB	Sense used to perceive sound.
+bn:00007120n	WIKIQU	Hearing is the ability to perceive sound by detecting vibrations through an organ such as the ear.
+bn:01187943n	WIKI	Culture is the social behavior and norms found in human societies.
+bn:01187943n	WIKIDIS	Several meanings related to objects and processes which we respect as material or spiritual values.
+bn:01187943n	WIKIDATA	Range of human phenomena that cannot be attributed to genetic inheritance
+bn:01187943n	WIKIQU	Culture is a term commonly used to indicate the set of shared attitudes, values, goals, and practices that characterizes an institution, organization or group, an integrated pattern of human knowledge, belief, and behavior that depends upon the capacity for symbolic thought and social learning, or an excellence of aesthetic taste in the arts and humanities,.
+bn:00011748n	WN	The body excluding the head and neck and limbs
+bn:00011748n	WIKI	The torso or trunk is an anatomical term for the central part of the many animal bodies from which extend the neck and limbs.
+bn:00011748n	WIKIDATA	Anatomy
+bn:00011748n	OMWIKI	The part of the body from the neck to the groin excluding the head and limbs.
+bn:00011748n	WIKT	The main part of the body that extends from the neck to the groin, excluding the head and limbs.
+bn:00011748n	WIKT	The torso.
+bn:00011748n	WIKT	The section of a dress extending from the neck to the waist, excluding the arms.
+bn:00011748n	WIKTLB	Body excluding the head and limbs.
+bn:00017395n	WN	The part of an organism (human or animal) that connects the head to the rest of the body
+bn:00017395n	WIKI	The cervix in insects is a membrane that separates the head from the thorax and is composed of structures from both of these.
+bn:00017395n	WIKI	The neck is the part of the body, on many vertebrates, that separates the head from the torso.
+bn:00017395n	WIKIDIS	From Latin collum, such as collum femoris (femur neck) or collum humeri (Neck of the humerus)
+bn:00017395n	WIKIDATA	Part of the body, on many terrestrial or secondarily aquatic vertebrates, that distinguishes the head from the torso or trunk
+bn:00017395n	OMWIKI	The part of the body (found in some animals, including humans) that connects the head and the trunk.
+bn:00017395n	WIKT	The part of body connecting the head and the trunk found in humans and some animals.
+bn:00017395n	WIKT	The neck.
+bn:00017395n	WIKT	The back of the neck.
+bn:00017395n	WIKT	A neck or cervix.
+bn:00017395n	WIKTLB	The part of body connecting the head and the trunk found in humans and some animals.
+bn:00050541n	WN	A human limb; commonly used to refer to a whole limb but technically only the part of the limb between the knee and ankle
+bn:00050541n	WIKI	A leg is a weight bearing and locomotive anatomical structure, usually having a columnar shape.
+bn:00050541n	WIKIDATA	Weight bearing and locomotive anatomical structure, usually having a columnar shape, function as "extensible struts"
+bn:00050541n	OMWIKI	The two legs of a human being considered as a whole.
+bn:00050541n	OMWIKI	The limb of an animal (including humans) that extends from the groin to the ankle.
+bn:00050541n	WIKT	The lower limb of a human being or animal that extends from the groin to the ankle.
+bn:00050541n	WIKTLB	Lower limb from groin to ankle.
+bn:00028609n	WN	The art of writing and producing plays
+bn:00028609n	WIKI	The word Dramaturgy, is from the greek δραματουργέιν 'to write a drama'.
+bn:00028609n	WIKI	Theatre or theater is a collaborative form of fine art that uses live performers, typically actors or actresses, to present the experience of a real or imagined event before a live audience in a specific place, often a stage.
+bn:00028609n	WIKIDIS	A branch of the performing arts, often referred to as "the stage"
+bn:00028609n	WIKIDATA	Collaborative form of fine art
+bn:00028609n	WIKIDATA	Art of dramatic composition
+bn:00028609n	OMWIKI	The institution of dramatic performance.
+bn:00028609n	WIKT	The art of dramatic composition for the stage.
+bn:00028609n	WIKT	Drama or performance as a profession or artform.
+bn:00028609n	WIKTLB	Art of dramaturgic composition.
+bn:00028609n	WIKIQU	Theatre, enjoys the distinction of two spellings: in British English, "theater" and in American English, "theater".
+bn:00005927n	WN	The creation of beautiful or significant things
+bn:00005927n	WIKI	Art is a diverse range of human activities in creating visual, auditory or performing artifacts, expressing the author's imaginative or technical skill, intended to be appreciated for their beauty or emotional power.
+bn:00005927n	WIKIDATA	Process of creating things of no intrinsic value but significant extrinsic value through emotional or aesthetic appeal
+bn:00005927n	OMWIKI	The creation of works of beauty or other special significance.
+bn:00005927n	WIKT	Aesthetic value.
+bn:00005927n	WIKIQU	Art is the process or product of deliberately arranging elements in a way that appeals to the senses or emotions.
+bn:00035679n	WN	The part of the leg of a human being below the ankle joint
+bn:00035679n	WIKI	The pes is the zoological term for the distal portion of the hind limb of tetrapod animals.
+bn:00035679n	WIKI	The foot is an anatomical structure found in many vertebrates.
+bn:00035679n	WIKIDIS	Latin for "foot" (body part), thus used in anatomy to mean "foot" (or analogous body part)
+bn:00035679n	WIKIDATA	Anatomical structure found in many vertebrates
+bn:00035679n	WIKIQU	Feet are an anatomical structure found in many vertebrates.
+bn:00040170n	WN	A science that deals with the history of the earth as recorded in rocks
+bn:00040170n	WIKI	Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time.
+bn:00040170n	WIKIDIS	Episodic refers to events that occur or have occurred periodically
+bn:00040170n	WIKIDATA	Scientific discipline
+bn:00040170n	OMWIKI	The study or science of the earth, its history, and its life as recorded in the rocks.
+bn:00040170n	WIKT	The science that studies the structure of the earth , together with its origin and development, especially by examination of its rocks.
+bn:00040170n	WIKTLB	The study of the earth.
+bn:00040170n	WIKIQU	Geology is the science comprising the study of solid Earth, the rocks of which it is composed, and the processes by which they change.
+bn:00040183n	WN	The branch of geology that studies the characteristics and configuration and evolution of rocks and land forms
+bn:00040183n	WIKI	Geomorphology is the scientific study of the origin and evolution of topographic and bathymetric features created by physical, chemical or biological processes operating at or near the Earth's surface.
+bn:00040183n	WIKIDIS	The study of landforms
+bn:00040183n	WIKIDATA	The scientific study of landforms and the processes that shape them
+bn:00040183n	OMWIKI	The study of the classification, description, nature, origin, and development of present landforms and their relationships to underlying structures, and of the history of geologic changes as recorded by these surface features.
+bn:00040183n	OMWIKI	Someone who studies geomorphology.
+bn:00040183n	WIKT	The study of landforms, their classification, origin, development, and history.
+bn:00040183n	WIKT	A geologist whose speciality is geomorphology.
+bn:00040183n	WIKTLB	The study of landforms.
+bn:00076611n	WN	A piece of ground having specific characteristics or military potential
+bn:00076611n	WIKI	Terrain or relief involves the vertical and horizontal dimensions of land surface.
+bn:00076611n	WIKIDATA	Vertical and horizontal dimension of land surface
+bn:00076611n	OMWIKI	The physical shape, configuration or general unevenness of a part of the Earth's surface, considered with reference to variation of height and slope or to irregularities of the land surface; the elevation or difference in elevation, considered collectively, of a land surface.
+bn:00076611n	WIKT	The apparent difference in elevation in the surface of a painting or drawing made noticeable by a variation in light or color.
+bn:00076611n	WIKT	An area of land or the particular features of it.
+bn:00076611n	WIKTLB	Apparent difference in elevation.
+bn:00051054n	WN	The organic phenomenon that distinguishes living organisms from nonliving ones
+bn:00051054n	WIKI	Life is a characteristic that distinguishes physical entities that do have biological processes, such as signaling and self-sustaining processes, from those that do not, either because such functions have ceased, or because they never had such functions and are classified as inanimate.
+bn:00051054n	WIKIDIS	Opposite conditions that distinguish organisms from inorganic objects, i.e. non-life.
+bn:00051054n	WIKIDATA	Matter capable of extracting energy from the environment for replication
+bn:00051054n	OMWIKI	The quality that distinguishes a vital and functional plant or animal from a dead body.
+bn:00051054n	WIKIQU	Life is a state that distinguishes organisms from non-living objects or dead organisms, being manifested by growth through metabolism and reproduction.
+bn:00048231n	WN	A style of jazz played by big bands popular in the 1930s; flowing rhythms but less complex than later styles of jazz
+bn:00048231n	WIKI	Swing music, or simply swing, is a form of popular music developed in the United States that dominated in the 1930s and 1940s.
+bn:00048231n	WIKIDIS	A style of jazz from the 1930s-1940s, also called "swing jazz"
+bn:00048231n	WIKIDATA	Genre of jazz music
+bn:00048231n	WIKT	Swing, a style of jazz music.
+bn:00048231n	WIKT	The genre of music associated with this dance style.
+bn:00048231n	MSTERM	One of the music genres that appears under Genre classification in Windows Media Player library. Based on ID3 standard tagging format for MP3 audio files. Winamp genre ID # 83.
