@@ -75,7 +75,7 @@ class Game(object):
         self.synset_main_sense_file = synset_main_sense_file
         self.synset_senses_file = synset_senses_file
         self.synset_glosses_file = synset_glosses_file
-        self.synset_to_main_sense, self.synset_to_senses = self.load_synset_labels_v5()
+        self.synset_to_main_sense, self.synset_to_senses, self.synset_to_definitions = self.load_synset_labels_v5()
 
         # pre-process
 
@@ -303,6 +303,8 @@ class Game(object):
         """Load synset_to_main_sense"""
         synset_to_main_sense = {}
         synset_to_senses = {}
+        synset_to_definitions = {}
+
         if os.path.exists(self.synset_main_sense_file):
             with open(self.synset_main_sense_file, 'r') as f:
                 for line in f:
@@ -320,8 +322,17 @@ class Game(object):
                     if synset not in synset_to_senses:
                         synset_to_senses[synset] = set()
                     synset_to_senses[synset].add(simple_lemma)
+        if os.path.exists(self.synset_glosses_file):
+            with open(self.synset_glosses_file, 'r') as f:
+                for line in f:
+                    parts = line.strip().split("\t")
+                    assert len(parts) == 3
+                    synset, source, definition = parts
+                    if source == 'WIKIRED':
+                        continue
+                    synset_to_definitions[synset] = definition
 
-        return synset_to_main_sense, synset_to_senses
+        return synset_to_main_sense, synset_to_senses, synset_to_definitions
 
     def write_synset_labels_v5(self, synset, json):
         """Write to synset_main_sense_file, synset_senses_file, and synset_glosses_file"""
@@ -870,11 +881,23 @@ class Game(object):
         return best_scores, best_clues
 
     def get_highest_clue(self, chosen_words, penalty=1.0):
+        # the dictionary definitions of words (as given from their babelnet synset)
+        # used as a heuristic for candidate clue words
+        dictionary_definitions_of_chosen_words = []
 
         potential_clues = set()
         for word in chosen_words:
             nns = self.weighted_nn[word]
             potential_clues.update(nns)
+            # TODO: we should load this at start of the game
+            # load the synsets for the board word
+            with open(self.file_dir + word + '_synsets', 'r') as f:
+                synsets = [line.strip() for line in f]
+            dictionary_definitions_for_word = [self.synset_to_definitions[synset] for synset in synsets if synset in self.synset_to_definitions]
+
+            for dictionary_definition in dictionary_definitions_for_word:
+                dictionary_definitions_of_chosen_words.extend(dictionary_definition.split())
+
         potential_clues = potential_clues - self.blue_words.union(self.red_words)
 
         highest_scoring_clue = None
@@ -895,7 +918,9 @@ class Game(object):
             # the larger the idf is, the more uncommon the word
             idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
 
-            score = sum(blue_word_counts) - (penalty * sum(red_word_counts)) - (10*idf)
+            is_in_dict_definition = 1.0 if clue in dictionary_definitions_for_word else 0.0
+
+            score = sum(blue_word_counts) - (penalty * sum(red_word_counts)) - (10*idf) + (is_in_dict_definition)
             # if score >= highest_score and self.verbose:
             #     print(clue, score, ">= highest_scoring_clue")
             if score > highest_score:
@@ -943,21 +968,21 @@ if __name__ == "__main__":
     )
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
-        None,
-        None,
-        None,
-        None,
-        None,
+        # None,
+        # None,
+        # None,
+        # None,
+        # None,
         # ['ray', 'mammoth', 'ivory', 'racket', 'bug'],
         # ['laser', 'pan', 'stock', 'box', 'game'],
         # ['bomb', 'car', 'moscow', 'pipe', 'hand'],
         # ['penguin', 'stick', 'racket', 'scale', 'ivory'],
         # ['horseshoe', 'amazon', 'thumb', 'spider', 'lion'],
         ["racket", "bug", "crown", "australia", "pipe"],
-        ["bomb", "play", "roulette", "table", "cloak"],
-        ["gas", "circle", "unicorn", "king", "cliff"],
-        ["conductor", "diamond", "kid", "witch", "swing"],
-        ["death", "litter", "car", "lemon", "conductor"],
+        # ["bomb", "play", "roulette", "table", "cloak"],
+        # ["gas", "circle", "unicorn", "king", "cliff"],
+        # ["conductor", "diamond", "kid", "witch", "swing"],
+        # ["death", "litter", "car", "lemon", "conductor"],
         # ["board", "web", "wave", "platypus", "mine"],
         # ["conductor", "alps", "jack", "date", "europe"],
         # ["cricket", "pirate", "day", "platypus", "pants"],
@@ -965,17 +990,17 @@ if __name__ == "__main__":
         # ["match", "hawk", "life", "knife", "africa"],
     ]
     blue_words = [
-        None,
-        None,
-        None,
-        None,
-        None,
+        # None,
+        # None,
+        # None,
+        # None,
+        # None,
         # ["racket", "bug", "crown", "australia", "pipe"],
         # ["scuba diver", "play", "roulette", "table", "cloak"],
         # ["buffalo", "diamond", "kid", "witch", "swing"],
         # ["gas", "circle", "king", "unicorn", "cliff"],
         # ["lemon", "death", "conductor", "litter", "car"],
-        # ['key', 'piano', 'lab', 'school', 'lead'],
+        ['key', 'piano', 'lab', 'school', 'lead'],
         # ['whip', 'tube', 'vacuum', 'lab', 'moon'],
         # ['change', 'litter', 'scientist', 'worm', 'row'],
         # ['boot', 'figure', 'cricket', 'ball', 'nut'],
