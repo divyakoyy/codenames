@@ -378,7 +378,7 @@ bn:00021961n	WIKIDIS	The final consequence of a sequence of actions or events
 bn:00021961n	WIKIDIS	The result of players' decisions in game theory
 bn:00021961n	WIKIDATA	Final consequence of a sequence of actions or events
 bn:00021961n	OMWIKI	Condition that which follows something on which it depends.
-bn:00021961n	OMWIKI	The result or outcome of a cause. Effects include: a) direct effects, which are caused by the action and occur at the same time and place, b) indirect effects, which are caused by the action and are later in time or farther removed in distance, that are still reasonably foreseeable. 
+bn:00021961n	OMWIKI	The result or outcome of a cause. Effects include: a) direct effects, which are caused by the action and occur at the same time and place, b) indirect effects, which are caused by the action and are later in time or farther removed in distance, that are still reasonably foreseeable.
 bn:00021961n	WIKT	That which follows something on which it depends; that which is produced by a cause.
 bn:00021961n	WIKT	The result or outcome of a cause. See usage notes below.
 bn:00021961n	WIKT	The final result, or outcome of something.
@@ -445,7 +445,7 @@ bn:00062699n	MSTERM	A geographic point or region.
 bn:01850789n	WIKI	A landform is a natural feature of the solid surface of the Earth or other planetary body.
 bn:01850789n	WIKIDIS	Physical feature comprises a geomorphological unit
 bn:01850789n	WIKIDATA	Geomorphological unit in the Earth sciences
-bn:01850789n	OMWIKI	Any physical, recognizable form or feature of the Earth's surface, having a characteristic shape and produced by natural causes; it includes major forms such as plane, plateau and mountain, and minor forms such as hill, valley, slope, esker, and dune. Taken together the landforms make up the surface configuration of the Earth's. 
+bn:01850789n	OMWIKI	Any physical, recognizable form or feature of the Earth's surface, having a characteristic shape and produced by natural causes; it includes major forms such as plane, plateau and mountain, and minor forms such as hill, valley, slope, esker, and dune. Taken together the landforms make up the surface configuration of the Earth's.
 bn:00019172n	WN	A road junction at which traffic streams circularly around a central island
 bn:00019172n	WIKI	A roundabout, also called an island, traffic circle, road circle and rotary, is a type of circular intersection or junction in which road traffic flows almost continuously in one direction around a central island.
 bn:00019172n	WIKI	A traffic circle is a type of intersection that directs both turning and through traffic onto a one-way circular roadway, usually built for the purposes of traffic calming or aesthetics.
@@ -791,7 +791,7 @@ bn:00002246n	WIKIDATA	Unit of distance (1,852 m)
 bn:00002246n	WIKIDATA	Unit of speed
 bn:00002246n	WIKIDATA	unit for determining speed
 bn:00002246n	OMWIKI	A unit of speed, equal to one nautical mile per hour.
-bn:00002246n	OMWIKI	A unit of length which corresponds approximately to one minute of latitude along any meridian. 
+bn:00002246n	OMWIKI	A unit of length which corresponds approximately to one minute of latitude along any meridian.
 bn:00002246n	WIKT	A unit of speed, equal to one nautical mile per hour. in a standard time. Traditionally spaced at one every 1/120th of a mile.).
 bn:00002246n	WIKT	A unit of length corresponding approximately to one minute of arc of latitude along any meridian. By international agreement it is exactly 1,852 metres.
 bn:00002246n	WIKT	A unit of distance for air transport; equal to a nautical mile.
@@ -1749,7 +1749,7 @@ bn:00003797n	WN	A branch of mathematics involving calculus and the theory of lim
 bn:00003797n	WIKI	Mathematical analysis is the branch of mathematics dealing with limits and related theories, such as differentiation, integration, measure, infinite series, and analytic functions.
 bn:00003797n	WIKIDATA	Branch of pure mathematics
 bn:00003797n	OMWIKI	The mathematical study of functions, sequences, series, limits, derivatives and integrals.
-bn:00003797n	OMWIKI	The branch of mathematics most explicitly concerned with the limit process or the concept of convergence; includes the theories of differentiation, integration and measure, infinite series, and analytic functions. 
+bn:00003797n	OMWIKI	The branch of mathematics most explicitly concerned with the limit process or the concept of convergence; includes the theories of differentiation, integration and measure, infinite series, and analytic functions.
 bn:00003797n	WIKT	The mathematical study of functions, sequences, series, limits, derivatives and integrals.
 bn:00003797n	WIKTLB	The mathematical study of functions, sequences, series, limits, derivatives and integrals.
 bn:00003797n	WIKIQU	Mathematical analysis or just analysis is a branch of mathematics that includes the theories of differentiation, integration, measure, limits, infinite series, and analytic functions.
@@ -1781,10 +1781,10 @@ bn:00006173n	OMWIKI	An army unit that uses big guns.
 bn:00006173n	WIKT	An army unit that uses such weapons.
 bn:00006173n	WIKIQU	Artillery refers to any engine used for the discharge of projectiles during war.
 bn:00007677n	WN	The chief city of ancient Mesopotamia and capital of the ancient kingdom of Babylonia
-bn:00007677n	WIKI	Babylon 
+bn:00007677n	WIKI	Babylon
 bn:00007677n	WIKIDIS	Particularly in a Hellenistic context
 bn:00007677n	WIKIDATA	Akkadian city-state
-bn:00007677n	OMWIKI	An ancient city in Mesopotamia 
+bn:00007677n	OMWIKI	An ancient city in Mesopotamia
 bn:00017011n	WN	(astronomy) the angular distance of a celestial body north or to the south of the celestial equator; expressed in degrees; used with right ascension to specify positions on the celestial sphere
 bn:00017011n	WIKI	In astronomy, declination is one of the two angles that locate a point on the celestial sphere in the equatorial coordinate system, the other being hour angle.
 bn:00017011n	WIKI	The ecliptic coordinate system is a celestial coordinate system commonly used for representing the apparent positions and orbits of Solar System objects.
@@ -1810,7 +1810,7 @@ bn:00022459n	WIKI	In physics, a frame of reference consists of an abstract coord
 bn:00022459n	WIKI	Abstract coordinate system and the set of physical reference points that uniquely fix (locate and orient) the coordinate system and standardize measurements
 bn:00022459n	WIKIDIS	The set of coordinates in which a system is observed
 bn:00022459n	WIKIDATA	System used to uniquely determine the position of a point or other geometric element
-bn:00022459n	OMWIKI	A reference system used to measure horizontal and vertical distances on a planimetric map. A coordinate system is usually defined by a map projection, a spheroid of reference, a datum, one or more standard parallels, a central meridian, and possible shifts in the x- and y-directions to locate x, y positions of point, line, and area features. A common coordinate system is used to spatially register geographic data for the same area. 
+bn:00022459n	OMWIKI	A reference system used to measure horizontal and vertical distances on a planimetric map. A coordinate system is usually defined by a map projection, a spheroid of reference, a datum, one or more standard parallels, a central meridian, and possible shifts in the x- and y-directions to locate x, y positions of point, line, and area features. A common coordinate system is used to spatially register geographic data for the same area.
 bn:00022459n	WIKT	A set of axes which enable an observer to measure the position and motion of all bodies in some system relative to the reference frame.
 bn:00022459n	MSTERM	In n-dimensional space, a set of n linearly independent vectors anchored to a point (called the origin). A group of coordinates specifies a point in space (or a vector from the origin) by indicating how far to travel along each vector to reach the point (or tip of the vector).
 bn:00027152n	WN	One of three Cartesian coordinates that determine a position in space
@@ -2091,7 +2091,7 @@ bn:00052501n	MSTERM	A game rating symbol developed by the Office of Film and Lit
 bn:00054054n	WN	The branch of engineering that deals with the design and construction and operation of machinery
 bn:00054054n	WIKI	Mechanical engineering is the discipline that applies engineering, physics, and materials science principles to design, analyze, manufacture, and maintain mechanical systems.
 bn:00054054n	WIKIDATA	Discipline of engineering
-bn:00054054n	OMWIKI	The branch of engineering concerned with the design, construction, and operation of machines. 
+bn:00054054n	OMWIKI	The branch of engineering concerned with the design, construction, and operation of machines.
 bn:00054054n	WIKT	The subfield of engineering concerned with designing and building machines and mechanical systems.
 bn:00054054n	WIKTLB	Subfield of engineering.
 bn:00054054n	WIKIQU	Mechanical engineering is a discipline of engineering that applies the principles of physics and materials science for analysis, design, manufacturing, and maintenance of mechanical systems.
@@ -2279,7 +2279,7 @@ bn:00012213n	OMWIKI	The boundary line or the area immediately inside the boundar
 bn:00012213n	WIKT	The length of such a boundary.
 bn:00012213n	WIKTLB	Length of such a boundary.
 bn:00012417n	WN	A line determining the limits of an area
-bn:00012417n	WIKI	For edge in graph theory, see Edge 
+bn:00012417n	WIKI	For edge in graph theory, see Edge
 bn:00012417n	WIKIDIS	A one-dimensional line segment joining two vertices
 bn:00012417n	WIKIDATA	Line segment joining two adjacent vertices in a polygon or polytope
 bn:00012417n	OMWIKI	The dividing line or location between two areas.
@@ -2448,7 +2448,7 @@ bn:00035768n	WIKT	A physical quantity that denotes ability to push, pull, twist 
 bn:00035768n	WIKTLB	Physical quantity that denotes ability to accelerate a body.
 bn:00035768n	WIKIQU	In the physical sciences, a force is any influence which causes objects or energy flows to undergo a change in speed, direction, shape or power levels; in the fields of social laws, the word force commonly has two main meanings: unlawful violence and lawful compulsion.
 bn:00036107n	WN	(geometry) a plane rectangle with four equal sides and four right angles; a four-sided regular polygon
-bn:00036107n	WIKI	In geometry, a square is a regular quadrilateral, which means that it has four equal sides and four equal angles 
+bn:00036107n	WIKI	In geometry, a square is a regular quadrilateral, which means that it has four equal sides and four equal angles
 bn:00036107n	WIKIDIS	A type of measure of area, such as square foot (sq ft)
 bn:00036107n	WIKIDATA	Regular quadrilateral
 bn:00036107n	OMWIKI	A two dimensional polygon with four equal sides and four right angles.
@@ -2681,7 +2681,7 @@ bn:00070710n	WIKI	A set square or triangle is an object used in engineering and 
 bn:00070710n	WIKIDIS	A tool used to draw a straightedge at a particular angle
 bn:00070710n	WIKT	A right angle tool used to determine if two surfaces join at a 90-degree angle, composed of two arms, usually made from metal.
 bn:00071436n	WN	A line segment forming part of the perimeter of a plane figure
-bn:00071436n	WIKI	For edge in graph theory, see Edge 
+bn:00071436n	WIKI	For edge in graph theory, see Edge
 bn:00071436n	WIKIDIS	A one-dimensional line segment joining two vertices
 bn:00071436n	WIKIDATA	Line segment joining two adjacent vertices in a polygon or polytope
 bn:00071436n	WIKT	A one-dimensional face of a polytope. In particular, the joining line between two vertices of a polygon; the place where two faces of a polyhedron meet.
@@ -2997,7 +2997,7 @@ bn:00004001n	WIKT	A person having certain physical characteristics of both sexes
 bn:00004001n	WIKT	An individual or organism possessing ambiguous sexual organs, typically including both types of gonads.
 bn:00004001n	WIKT	An effeminate person
 bn:00004122n	WN	The acute angle between the direction of the undisturbed relative wind and the chord of an airfoil
-bn:00004122n	WIKI	In fluid dynamics, angle of attack 
+bn:00004122n	WIKI	In fluid dynamics, angle of attack
 bn:00004122n	WIKIDIS	A measure of a body through a fluid
 bn:00004122n	WIKT	The angle between a mid-sail and the direction of the wind.
 bn:00004122n	WIKTLB	Angle between mid-sail and the direction of the wind.
@@ -3103,7 +3103,7 @@ bn:00076821n	WN	A surveying instrument for measuring horizontal and vertical ang
 bn:00076821n	WIKI	A theodolite is a precision instrument for measuring angles in the horizontal and vertical planes.
 bn:00076821n	WIKI	Surveying instrument that measures azimuth and elevation between points
 bn:00076821n	WIKIDATA	Surveying instrument that measure azimuth and elevation between points
-bn:00076821n	OMWIKI	An instrument for measuring both horizontal and vertical angles, as used in triangulation networks. 
+bn:00076821n	OMWIKI	An instrument for measuring both horizontal and vertical angles, as used in triangulation networks.
 bn:00076821n	WIKT	A surveying instrument, consisting of a small mounted telescope, used to measure horizontal and vertical angles.
 bn:00076821n	WIKT	A surveying instrument rather like a theodolite that measures horizontal and vertical angles.
 bn:00076821n	WIKTLB	A surveying instrument
@@ -3358,7 +3358,7 @@ bn:00282102n	WIKI	A quotient group or factor group is a mathematical group obtai
 bn:00282102n	WIKT	A group obtained from a larger group by aggregating elements via an equivalence relation that preserves group structure.
 bn:00334013n	WIKI	Geometry arose as the field of knowledge dealing with spatial relationships.
 bn:00334013n	WIKIDATA	Wikimedia history article
-bn:00395791n	WIKI	In mathematics, given two groups, and, a group homomorphism from to is a function h : G → H such that for all u and v in G it holds that h 
+bn:00395791n	WIKI	In mathematics, given two groups, and, a group homomorphism from to is a function h : G → H such that for all u and v in G it holds that h
 bn:00395791n	WIKIDATA	Function between groups that preserves multiplication structure
 bn:00459875n	WIKI	The Gösgen Nuclear Power Plant is located in the Däniken municipality on a loop of the Aar river.
 bn:00459875n	WIKIDATA	Nuclear power plant in the Däniken municipality,  Solothurn, Switzerland
@@ -3532,7 +3532,7 @@ bn:02362481n	WIKI	TeX, stylized within the system as TeX, is a typesetting syste
 bn:02362481n	WIKIDIS	Pronounced "tech", a typesetting system created by Donald E. Knuth
 bn:02362481n	WIKIDATA	Typesetting system
 bn:03243605n	WIKI	ISO 31 is a deprecated international standard for the use of physical quantities and units of measurement, and formulas involving them, in scientific and educational documents.
-bn:03312244n	WIKI	Engineering tolerance is the permissible limit or limits of variation in: a physical dimension; a measured value or physical property of a material, manufactured object, system, or service; other measured values 
+bn:03312244n	WIKI	Engineering tolerance is the permissible limit or limits of variation in: a physical dimension; a measured value or physical property of a material, manufactured object, system, or service; other measured values
 bn:03312244n	WIKIDIS	A physical distance or space between two components
 bn:03312244n	WIKIDATA	Permissible limit or limits of variation in value or dimension
 bn:03452337n	WIKI	The Archimedean spiral is a spiral named after the 3rd century BC Greek mathematician Archimedes.
@@ -4695,7 +4695,7 @@ bn:00016661n	WN	Acceleration of a chemical reaction induced the presence of mate
 bn:00016661n	WIKI	Catalysis is the increase in the rate of a chemical reaction due to the participation of an additional substance called a catalyst, which is not consumed in the catalyzed reaction and can continue to act repeatedly.
 bn:00016661n	WIKIDATA	Substance that increases chemical reaction speed
 bn:00016661n	WIKIDATA	Chemical process
-bn:00016661n	OMWIKI	A phenomenon in which a relatively small amount of substance augments the rate of a chemical reaction without itself being consumed. 
+bn:00016661n	OMWIKI	A phenomenon in which a relatively small amount of substance augments the rate of a chemical reaction without itself being consumed.
 bn:00016661n	OMWIKI	A substance whose presence alters the rate at which a chemical reaction proceeds, but whose own composition remains unchanged by the reaction. Catalysts are usually employed to accelerate reactions
 bn:00016661n	WIKT	The increase of the rate of a chemical reaction induced by a catalyst.
 bn:00016661n	WIKT	A substance that increases the rate of a chemical reaction without being consumed in the process.
@@ -5025,10 +5025,10 @@ bn:00032111n	WN	The act of extracting ores or coal etc from the earth
 bn:00032111n	WIKI	Mining is the extraction of valuable minerals or other geological materials from the earth, usually from an orebody, lode, vein, seam, reef or placer deposit.
 bn:00032111n	WIKIDIS	The extraction of geological materials from the Earth.
 bn:00032111n	WIKIDATA	Extraction of valuable minerals or other geological materials from the earth
-bn:00032111n	OMWIKI	A sector of the economy in which an aggregate of commercial enterprises is engaged in the extraction of minerals occurring naturally, often involving quarrying, well operations, milling, exploration and development. 
-bn:00032111n	OMWIKI	The removal of earth from its natural position. 
-bn:00032111n	OMWIKI	Waste material resulting from ore extraction that is usually left on the soil surface. 
-bn:00032111n	OMWIKI	The act, process or industry of extracting coal, ores, etc. from the earth. 
+bn:00032111n	OMWIKI	A sector of the economy in which an aggregate of commercial enterprises is engaged in the extraction of minerals occurring naturally, often involving quarrying, well operations, milling, exploration and development.
+bn:00032111n	OMWIKI	The removal of earth from its natural position.
+bn:00032111n	OMWIKI	Waste material resulting from ore extraction that is usually left on the soil surface.
+bn:00032111n	OMWIKI	The act, process or industry of extracting coal, ores, etc. from the earth.
 bn:00032111n	WIKT	A large deposit of a mineral or minerals, below the earth's crust.
 bn:00032111n	WIKT	The activity of removing solid valuables from the earth.
 bn:00032111n	WIKTLB	Activity of removing solid valuables from the earth.
@@ -5066,7 +5066,7 @@ bn:16282150n	WIKIDATA	Manner or method by which an activity is performed
 bn:16483474n	WIKI	Marine engineering includes the engineering of boats, ships, oil rigs and any other marine vessel or structure, as well as oceanographic engineering.
 bn:16483474n	WIKIDATA	Engineering of boats, ships, oil rigs and any other marine vessel or structure
 bn:00051346n	WN	The part of algebra that deals with the theory of linear equations and linear transformation
-bn:00051346n	WIKI	Linear algebra is the branch of mathematics concerning linear equations such as a 1 x 1 + ⋯ + a n x n = b, {\displaystyle a_{1}x_{1}+\cdots +a_{n}x_{n}=b,} linear functions such as 
+bn:00051346n	WIKI	Linear algebra is the branch of mathematics concerning linear equations such as a 1 x 1 + ⋯ + a n x n = b, {\displaystyle a_{1}x_{1}+\cdots +a_{n}x_{n}=b,} linear functions such as
 bn:00051346n	WIKIDIS	Branch of mathematics
 bn:00051346n	WIKIDATA	Branch of mathematics
 bn:00051346n	WIKT	The branch of mathematics that deals with vectors, vector spaces, linear transformations and systems of linear equations.
@@ -5142,7 +5142,7 @@ bn:00075257n	WIKTLB	A type of lettering form.
 bn:00075257n	MSTERM	One character (or more) that is slightly higher than other text on a line, such as a footnote reference mark.
 bn:00974698n	WIKI	Mathematical physics refers to the development of mathematical methods for application to problems in physics.
 bn:00974698n	WIKI	Use of mathematics to solve physics problems
-bn:00974698n	OMWIKI	The scientific discipline concerned with the application of mathematics to problems in physics and the development of mathematical methods suitable for such applications and for the formulation of physical theories. 
+bn:00974698n	OMWIKI	The scientific discipline concerned with the application of mathematics to problems in physics and the development of mathematical methods suitable for such applications and for the formulation of physical theories.
 bn:02092443n	WIKI	GeoGebra is an interactive geometry, algebra, statistics and calculus application, intended for learning and teaching mathematics and science from primary school to university level.
 bn:02092443n	WIKIDIS	Interactive geometry software that uses a. ggb file extension
 bn:02092443n	WIKIDATA	Interactive geometry, algebra, and calculus application
@@ -5241,7 +5241,7 @@ bn:00004770n	WIKIQU	Anton Pavlovich Chekhov was a major Russian short story writ
 bn:00005469n	WN	Ice covered waters surrounding the North Pole; mostly covered with solid ice or with ice floes and icebergs
 bn:00005469n	WIKI	The Arctic Ocean is the smallest and shallowest of the world's five major oceans.
 bn:00005469n	WIKIDATA	Sea in the Arctic
-bn:00005469n	OMWIKI	The smallest and most poorly studied of the oceans on earth. It covers an area of 14 million square km that is divided by three submarine ridges, i.e. the Alpha Ridge, the Lomonosov Ridge, and an extension of the mid-Atlantic ridge. It is also nearly landlocked, covered year-round by pack ice, and the third of its area is continental shelf. 
+bn:00005469n	OMWIKI	The smallest and most poorly studied of the oceans on earth. It covers an area of 14 million square km that is divided by three submarine ridges, i.e. the Alpha Ridge, the Lomonosov Ridge, and an extension of the mid-Atlantic ridge. It is also nearly landlocked, covered year-round by pack ice, and the third of its area is continental shelf.
 bn:00005469n	WIKT	The Arctic Ocean.
 bn:00007269n	WN	The capital and largest city of Austria; located on the Danube in northeastern Austria; was the home of Beethoven and Brahms and Haydn and Mozart and Schubert and Strauss
 bn:00007269n	WIKI	Vienna is the capital and largest city of Austria and one of the nine states of Austria.
@@ -5449,7 +5449,7 @@ bn:00078906n	WN	Radiation lying in the ultraviolet range; wave lengths shorter t
 bn:00078906n	WIKI	Ultraviolet is an electromagnetic radiation with a wavelength from 10 nm to 400 nm, shorter than that of visible light but longer than X-rays.
 bn:00078906n	WIKIDIS	Electromagnetic radiation subtype C
 bn:00078906n	WIKIDATA	Electromagnetic radiation with a wavelength shorter than that of visible light, but longer than X-rays
-bn:00078906n	OMWIKI	The part of the electromagnetic spectrum with wavelengths shorter than light but longer than x-rays; in the range of 4-400 nm. 
+bn:00078906n	OMWIKI	The part of the electromagnetic spectrum with wavelengths shorter than light but longer than x-rays; in the range of 4-400 nm.
 bn:00078906n	OMWIKI	The invisible part of the light spectrum whose rays have wavelengths shorter than the violet end of the visible spectrum and longer than X rays.
 bn:00078906n	WIKT	Light in the ultraviolet part of the spectrum.
 bn:00078906n	WIKTLB	Light in the ultraviolet part of the spectrum.
@@ -5666,7 +5666,7 @@ bn:00047580n	WIKI	Sir Isaac Newton was an English mathematician, astronomer, the
 bn:00047580n	WIKIDATA	British physicist and mathematician and founder of modern classical physics
 bn:00047580n	WIKIQU	Sir Isaac Newton was an English physicist, mathematician, astronomer, alchemist, inventor, theologian and natural philosopher.
 bn:00053157n	WN	A set of complex numbers that has a highly convoluted fractal boundary when plotted; the set of all points in the complex plane that are bounded under a certain mathematical iteration
-bn:00053157n	WIKI	The Mandelbrot set is the set of complex numbers c {\displaystyle c} for which the function f c 
+bn:00053157n	WIKI	The Mandelbrot set is the set of complex numbers c {\displaystyle c} for which the function f c
 bn:00053157n	WIKIDIS	A two-dimensional fractal shape
 bn:00053157n	WIKIDATA	Fractal named after Benoit Mandelbrot, closely related to Julia sets
 bn:00053157n	WIKT	The set of complex numbers c for which the orbit of 0 under iteration of the complex quadratic polynomial zn+1 = zn2 + c remains bounded. The boundary of this set is a fractal.
@@ -5690,7 +5690,7 @@ bn:00054510n	WN	The land between the Tigris and Euphrates; site of several ancie
 bn:00054510n	WIKI	Mesopotamia is a historical region in West Asia situated within the Tigris–Euphrates river system, in modern days roughly corresponding to most of Iraq, Kuwait, parts of Northern Saudi Arabia, the eastern parts of Syria, Southeastern Turkey, and regions along the Turkish–Syrian and Iran–Iraq borders.
 bn:00054510n	WIKIDIS	The region between the Tigris and Euphrates rivers in ancient history
 bn:00054510n	WIKIDATA	Area of the Tigris–Euphrates river system
-bn:00054510n	OMWIKI	The region now occupied by modern Iraq, eastern Syria, southeastern Turkey, and Southwest Iran. 
+bn:00054510n	OMWIKI	The region now occupied by modern Iraq, eastern Syria, southeastern Turkey, and Southwest Iran.
 bn:00054510n	WIKT	A region in Southwest Asia spanning from the rivers Euphrates and Tigris that is the site of one of the most ancient civilizations in the history of man.
 bn:00054510n	WIKTLB	Region between Euphrates and Tigris.
 bn:00056284n	WN	A mathematical function that is the sum of a number of terms
@@ -6009,7 +6009,7 @@ bn:00076642n	WIKI	A tessellation of a flat surface is the tiling of a plane usin
 bn:00076642n	WIKIDATA	Tiling of a plane using one or more geometric shapes, called tiles, with no overlaps and no gaps
 bn:00690827n	WIKI	Hyperspace is a faster-than-light method of traveling used in science fiction.
 bn:00690827n	WIKIDIS	A concept that makes faster-than-light travel possible
-bn:01779239n	WIKI	In algebra, a cubic function is a function of the form f 
+bn:01779239n	WIKI	In algebra, a cubic function is a function of the form f
 bn:01779239n	WIKI	A polynomial equation in a single variable where the highest exponent of the variable is 3.
 bn:01779239n	WIKI	A polynomial function in a single variable where the highest exponent of the variable is 3
 bn:01779239n	WIKIDIS	A polynomial of degree three
@@ -6632,7 +6632,7 @@ bn:03601714n	WIKI	The General Conference on Weights and Measures is the senior o
 bn:03601714n	WIKIDIS	A larger group that meets only every four to six years
 bn:03601714n	WIKIDATA	International Organization
 bn:00000127n	WN	A period of time equal to 1/24th of a day
-bn:00000127n	WIKI	An hour 
+bn:00000127n	WIKI	An hour
 bn:00000127n	WIKIDIS	A unit of measurement of time
 bn:00000127n	WIKIDATA	Unit of measurement of time
 bn:00000127n	OMWIKI	A time period of sixty minutes; one twenty-fourth of a day.
@@ -6647,8 +6647,8 @@ bn:00000986n	WIKI	In physics, sound is a vibration that typically propagates as 
 bn:00000986n	WIKI	Longitudinal wave that propagates by means of adiabatic compression and decompression;travels with the speed of sound which depends on the medium they're passing through;quantities:sound pressure,particle velocity,particle displacement,sound intensit
 bn:00000986n	WIKIDIS	The physical signal perceived by the auditory system.
 bn:00000986n	WIKIDATA	Mechanical wave that is an oscillation of pressure transmitted through a solid, liquid, or gas, composed of frequencies within the range of hearing
-bn:00000986n	OMWIKI	The travelling of acoustic waves in the atmosphere with a speed independent of their amplitude. The speed only depends on the acoustic medium and is proportional to the square root of the absolute temperature for any given medium. 
-bn:00000986n	OMWIKI	Auditory sensation produced by the oscillations, stress, pressure, particle displacement, and particle velocity in a medium with internal forces; pressure variation that the human ear can detect. 
+bn:00000986n	OMWIKI	The travelling of acoustic waves in the atmosphere with a speed independent of their amplitude. The speed only depends on the acoustic medium and is proportional to the square root of the absolute temperature for any given medium.
+bn:00000986n	OMWIKI	Auditory sensation produced by the oscillations, stress, pressure, particle displacement, and particle velocity in a medium with internal forces; pressure variation that the human ear can detect.
 bn:00000986n	WIKT	A sensation perceived by the ear caused by the vibration of air or some other medium.
 bn:00000986n	WIKT	The longitudinal wave of pressure that is transmitted through any plastic material; audible sound.
 bn:00000986n	WIKTLB	Longitudinal wave of pressure transmitted through any plastic material.
@@ -6675,7 +6675,7 @@ bn:00006890n	WN	An abundant nonmetallic tetravalent element occurring in three a
 bn:00006890n	WIKI	Carbon is a chemical element with symbol C and atomic number 6.
 bn:00006890n	WIKIDIS	The chemical element
 bn:00006890n	WIKIDATA	Chemical element with the atomic number of 6
-bn:00006890n	OMWIKI	A nonmetallic element with symbol C and atomic number 6 existing in the three crystalline forms: graphite, diamond and buckminsterfullerene: occurring in carbon dioxide, coal, oil and all organic compounds. 
+bn:00006890n	OMWIKI	A nonmetallic element with symbol C and atomic number 6 existing in the three crystalline forms: graphite, diamond and buckminsterfullerene: occurring in carbon dioxide, coal, oil and all organic compounds.
 bn:00011744n	WN	The entire structure of an organism (an animal, plant, or human being)
 bn:00011744n	WIKI	In physics, a physical body or physical object is an identifiable collection of matter, which may be constrained by an identifiable boundary, and may move as a unit by translation or rotation, in 3-dimensional space.
 bn:00011744n	WIKIDIS	In physics, a collection of masses
@@ -6772,7 +6772,7 @@ bn:00079431n	WIKTLB	Unit of measure.
 bn:00708343n	WIKI	The International Organization for Standardization is an international standard-setting body composed of representatives from various national standards organizations.
 bn:00708343n	WIKIDIS	Spoken in the central-western part of the Yapen island and nearby isle of Cenderawasih Bay, Indonesian Papua (see also: Yapen languages)
 bn:00708343n	WIKIDATA	International standard-setting body
-bn:00708343n	OMWIKI	Documented agreements containing technical specifications or other precise criteria to be used consistently as rules, guidelines, or definitions of characteristics, to ensure that materials, products, processes and services are fit for their purpose. 
+bn:00708343n	OMWIKI	Documented agreements containing technical specifications or other precise criteria to be used consistently as rules, guidelines, or definitions of characteristics, to ensure that materials, products, processes and services are fit for their purpose.
 bn:00708343n	OMWIKI	An international standard-setting body composed of representatives from national standards bodies.
 bn:00708343n	MSTERM	An international association of 157 countries/regions, each of which is represented by its leading standard-setting organization-for example, ANSI (American National Standards Institute) for the United States. The ISO works to establish global standards for communications and information exchange. Primary among its accomplishments is the widely accepted ISO/OSI reference model, which defines standards for the interaction of computers connected by communications networks.
 bn:00708343n	MSTERM	An international association of 157 countries/regions, each of which is represented by its leading standard-setting organization-for example, ANSI (American National Standards Institute) for the United States. The ISO works to establish global standards for communications and information exchange. Primary among its accomplishments is the widely accepted ISO/OSI reference model, which defines standards for the interaction of computers connected by communications networks.
@@ -6824,7 +6824,7 @@ bn:00021538n	WIKI	In chemistry, concentration is the abundance of a constituent 
 bn:00021538n	WIKIDIS	In chemistry, the measure of how much of a given substance there is mixed with another substance
 bn:00021538n	WIKIDATA	General term
 bn:00021538n	WIKIDATA	Type of physical property; the abundance of a constituent divided by the total volume of a mixture
-bn:00021538n	OMWIKI	In solutions, the mass, volume, or number of moles of solute present in proportion to the amount of solvent or total solution. 
+bn:00021538n	OMWIKI	In solutions, the mass, volume, or number of moles of solute present in proportion to the amount of solvent or total solution.
 bn:00021538n	WIKT	The proportion of a substance in a whole.
 bn:00021538n	WIKTLB	Proportion of substance in a mixture.
 bn:00022239n	WN	The act of decreasing (something) in size or volume or quantity or scope
@@ -6927,7 +6927,7 @@ bn:00078633n	WN	(biology) the normal rigid state of fullness of a cell or blood 
 bn:00078633n	WIKI	Turgor pressure is the force within the cell that pushes the plasma membrane against the cell wall.
 bn:00328207n	WIKI	In physics, the electric displacement field, denoted by D, is a vector field that appears in Maxwell's equations.
 bn:00328207n	WIKIDIS	As appears in Maxwell's equations
-bn:00338483n	WIKI	In mathematics, a power function is a function of the form f 
+bn:00338483n	WIKI	In mathematics, a power function is a function of the form f
 bn:00338483n	WIKT	A function where the independent variable is raised to some real number power.
 bn:00819533n	WIKI	In magnetostatics, the force of attraction or repulsion between two current-carrying wires is often called Ampère's force law.
 bn:00908776n	WIKI	The International Temperature Scale of 1990 published by the Consultative Committee for Thermometry of the International Committee for Weights and Measures is an equipment calibration standard for making measurements on the Kelvin and Celsius temperature scales.
@@ -7313,11 +7313,11 @@ bn:00018120n	WN	A property used to characterize materials in reactions that chan
 bn:00018120n	WIKI	A chemical property is any of a material's properties that becomes evident during, or after, a chemical reaction; that is, any quality that can be established only by changing a substance's chemical identity.
 bn:00018120n	WIKI	Any of a material's properties that becomes evident during, or after, a chemical reaction
 bn:00018120n	WIKIDIS	A material's properties that becomes evident during a chemical reaction
-bn:00018120n	OMWIKI	Property of a substance depending on the arrangement of the atoms in the molecule, e.g. bio-availability, degradability, persistence, etc. 
+bn:00018120n	OMWIKI	Property of a substance depending on the arrangement of the atoms in the molecule, e.g. bio-availability, degradability, persistence, etc.
 bn:00018120n	WIKT	Any of a material's properties that becomes evident during a chemical reaction.
 bn:00018120n	WIKTLB	Any of a material's properties that becomes evident during a chemical reaction.
 bn:00020379n	WN	The ratio of the drag on a body moving through air to the product of the velocity and the surface area of the body
-bn:00020379n	WIKI	In fluid dynamics, the drag coefficient 
+bn:00020379n	WIKI	In fluid dynamics, the drag coefficient
 bn:00020379n	WIKIDIS	A measure of air resistance commonly denoted
 bn:00020495n	WN	Reactor consisting of a spiral of insulated wire that introduces inductance into a circuit
 bn:00020495n	WIKI	An electromagnetic coil is an electrical conductor such as a wire in the shape of a coil, spiral or helix.
@@ -7614,7 +7614,7 @@ bn:00036845n	MSTERM	The direct manipulation (e.g. a gesture and inertia) of an e
 bn:00037382n	WN	The state of matter distinguished from the solid and liquid states by: relatively low density and viscosity; relatively great expansion and contraction with changes in pressure and temperature; the ability to diffuse readily; and the spontaneous tendency to become distributed uniformly throughout any container
 bn:00037382n	WIKI	Gas is one of the four fundamental states of matter.
 bn:00037382n	WIKIDATA	Gaseous object
-bn:00037382n	OMWIKI	State of matter in which the matter concerned occupies the whole of its container irrespective of its quantity. 
+bn:00037382n	OMWIKI	State of matter in which the matter concerned occupies the whole of its container irrespective of its quantity.
 bn:00037382n	OMWIKI	A substance that continues to occupy in a continuous manner the whole of the space in which it is placed, however large or small this place is made, the temperature remaining constant.
 bn:00037382n	WIKT	A chemical element or compound in such a state.
 bn:00037382n	WIKTLB	(countable, chemistry) chemical element or compound.
@@ -7642,7 +7642,7 @@ bn:00062161n	WN	The branch of chemistry dealing with the physical properties of 
 bn:00062161n	WIKI	Physical chemistry is the study of macroscopic, atomic, subatomic, and particulate phenomena in chemical systems in terms of the principles, practices, and concepts of physics such as motion, energy, force, time, thermodynamics, quantum chemistry, statistical mechanics, analytical dynamics and chemical equilibrium.
 bn:00062161n	WIKIDIS	The study of macroscopic, atomic, subatomic, and particulate phenomena in chemical systems in terms of physical laws and concepts
 bn:00062161n	WIKIDATA	Study of macroscopic, atomic, subatomic, and particulate phenomena in chemical systems in terms of laws and concepts of physics
-bn:00062161n	OMWIKI	A science dealing with the effects of physical phenomena on chemical properties. 
+bn:00062161n	OMWIKI	A science dealing with the effects of physical phenomena on chemical properties.
 bn:00062161n	WIKT	The science that uses theories and techniques from physics to study chemical systems.
 bn:00062161n	WIKTLB	The chemistry subdiscipline.
 bn:00064434n	WN	(geology) the principle that in a series of stratified sedimentary rocks the lowest stratum is the oldest
@@ -7750,14 +7750,14 @@ bn:00058576n	WN	The steady flow of surface ocean water in a prevailing direction
 bn:00058576n	WIKI	An ocean current is a seasonal directed movement of seawater generated by forces acting upon this mean flow, such as breaking waves, wind, the Coriolis effect, cabbeling, temperature and salinity differences, while tides are caused by the gravitational pull of the Sun and Moon.
 bn:00058576n	WIKIDIS	A current in the ocean
 bn:00058576n	WIKIDATA	Continuous, directed movement of ocean water
-bn:00058576n	OMWIKI	A net transport of ocean water along a definable path. 
+bn:00058576n	OMWIKI	A net transport of ocean water along a definable path.
 bn:00058576n	OMWIKI	Water current flow in a closed circular pattern within an ocean.
 bn:00058576n	WIKT	Any more or less permanent or continuous, directed movement of water that flows in one of the Earth's oceans.
 bn:00058576n	WIKTLB	Movement of water.
 bn:00075386n	WN	A phenomenon at the surface of a liquid caused by intermolecular forces
 bn:00075386n	WIKI	Surface tension is the elastic tendency of a fluid surface which makes it acquire the least surface area possible.
 bn:00075386n	WIKI	Elastic tendency of a fluid surface which makes it acquire the least surface area possible
-bn:00075386n	OMWIKI	The force acting on the surface of a liquid, tending to minimize the area of the surface; quantitatively, the force that appears to act across a line of unit length on the surface. Also known as interfacial force; interfacial tension; surface intensity. 
+bn:00075386n	OMWIKI	The force acting on the surface of a liquid, tending to minimize the area of the surface; quantitatively, the force that appears to act across a line of unit length on the surface. Also known as interfacial force; interfacial tension; surface intensity.
 bn:00075386n	WIKT	The effect on the surface of a liquid that makes it behave as a stretched elastic membrane; it is caused by unbalanced intermolecular forces.
 bn:00075386n	WIKTLB	The effect on the surface of a liquid.
 bn:01013184n	WIKI	The Royal Library of Alexandria or Ancient Library of Alexandria in Alexandria, Egypt, was one of the largest and most significant libraries of the ancient world.
@@ -7831,7 +7831,7 @@ bn:00028321n	WIKT	The amount of energy imparted by nuclear radiation to unit mas
 bn:00028321n	WIKT	The amount of radiation to which something is exposed.
 bn:00028321n	WIKTLB	Amount of energy imparted by nuclear radiation.
 bn:00030227n	WN	The rate at which energy is drawn from a source that produces a flow of electricity in a circuit; expressed in volts
-bn:00030227n	WIKI	Electromotive force, abbreviated emf 
+bn:00030227n	WIKI	Electromotive force, abbreviated emf
 bn:00030227n	WIKIDIS	The origin of voltage in electrical devices
 bn:00030227n	WIKIDATA	Scalar physical quantity
 bn:00041514n	WN	The SI unit of energy absorbed from ionizing radiation; equal to the absorption of one joule of radiation energy by one kilogram of matter; one gray equals 100 rad
@@ -8497,7 +8497,7 @@ bn:00021998n	MSTERM	The ability of a transaction to change a system from one con
 bn:00022071n	WN	A thing constructed; a complex entity constructed of many parts
 bn:00022071n	WIKI	In universal algebra and in model theory, a structure consists of a set along with a collection of finitary operations and relations that are defined on it.
 bn:00022071n	WIKIDATA	Term in universal algebra and in model theory
-bn:00022071n	OMWIKI	A representation, usually on a smaller scale, of a device, structure, etc.  
+bn:00022071n	OMWIKI	A representation, usually on a smaller scale, of a device, structure, etc.
 bn:00022071n	WIKT	Anything that has been constructed.
 bn:00022071n	WIKT	  A set along with a collection of finitary functions and relations.
 bn:00022071n	MSTERM	A user-defined value type that, similar to a class, can contain constructors, constants, fields, methods, properties, indexers, operators, and nested types. Unlike classes, however, structures do not support inheritance.
@@ -8829,7 +8829,7 @@ bn:01874982n	WIKIDIS	A theorem about modular arithmetic
 bn:01874982n	WIKIDATA	Theorem
 bn:01890191n	WIKI	In the mathematical theory of automorphic forms, the fundamental lemma relates orbital integrals on a reductive group over a local field to stable orbital integrals on its endoscopic groups.
 bn:01900780n	WIKI	A truth table is a mathematical table used in logic—specifically in connection with Boolean algebra, boolean functions, and propositional calculus—which sets out the functional values of logical expressions on each of their functional arguments, that is, for each combination of values taken by their logical variables.
-bn:01932423n	WIKI	The Riemann zeta function or Euler–Riemann zeta function, ζ, is a function of a complex variable s that analytically continues the sum of the Dirichlet series ζ 
+bn:01932423n	WIKI	The Riemann zeta function or Euler–Riemann zeta function, ζ, is a function of a complex variable s that analytically continues the sum of the Dirichlet series ζ
 bn:01932423n	WIKIDATA	Analytic function
 bn:02049626n	WIKI	In the foundation of mathematics, Morse–Kelley set theory, Kelley–Morse set theory, Morse–Tarski set theory, Quine–Morse set theory or the system of Quine and Morse is a first order axiomatic set theory that is closely related to von Neumann–Bernays–Gödel set theory.
 bn:02302261n	WIKI	In logic, extensionality, or extensional equality, refers to principles that judge objects to be equal if they have the same external properties.
@@ -8949,7 +8949,7 @@ bn:03698980n	WIKIDIS	A symbol often used in mathematical proofs
 bn:03698980n	WIKIDATA	Symbol used in mathematics and typography
 bn:03698980n	WIKT	The symbol "∎" marking the end of a proof.
 bn:03713923n	WIKI	In computability theory and computational complexity theory, a decision problem is a question in some formal system that can be posed as a yes-no question, dependant on the input values.
-bn:03713923n	OMWIKI	A problem with a "yes" or "no" answer. Equivalently, a function whose range is two values, such as {0,1}. 
+bn:03713923n	OMWIKI	A problem with a "yes" or "no" answer. Equivalently, a function whose range is two values, such as {0,1}.
 bn:03713923n	WIKT	A question in some formal system with a yes-or-no answer, depending on the values of input parameters.
 bn:03720477n	WIKI	In mathematics, the axiom of choice, or AC, is an axiom of set theory equivalent to the statement that the Cartesian product of a collection of non-empty sets is non-empty.
 bn:03720477n	WIKIDIS	An axiom of set theory
@@ -8964,7 +8964,7 @@ bn:03764141n	WIKIQU	Douglas Hofstadter is a mathematician, cognitive scientist, 
 bn:03802518n	WIKI	In logic, the semantics of logic is the study of the semantics, or interpretations, of formal and natural languages usually trying to capture the pre-theoretic notion of entailment.
 bn:03802518n	WIKI	Study of the semantics, or interpretations, of formal and natural languages
 bn:03802518n	WIKT	The study of the semantics, or interpretations, of formal languages.
-bn:03809512n	WIKI	In combinatorics, Vandermonde's identity is the following identity for binomial coefficients: 
+bn:03809512n	WIKI	In combinatorics, Vandermonde's identity is the following identity for binomial coefficients:
 bn:03832515n	WIKI	General set theory is George Boolos's name for a fragment of the axiomatic set theory Z. GST is sufficient for all mathematics not requiring infinite sets, and is the weakest known set theory whose theorems include the Peano axioms.
 bn:03832515n	WIKIDIS	An axiomatic system
 bn:03859523n	WIKI	Euler's formula, named after Leonhard Euler, is a mathematical formula in complex analysis that establishes the fundamental relationship between the trigonometric functions and the complex exponential function.
@@ -9294,7 +9294,7 @@ bn:00051694n	WIKT	A word directly taken into one language from another one with 
 bn:00051694n	WIKTLB	Word taken from another language.
 bn:03207540n	WIKI	In probability theory, the Borel–Cantelli lemma is a theorem about sequences of events.
 bn:00034101n	WN	French mathematician who founded number theory; contributed (with Pascal) to the theory of probability (1601-1665)
-bn:00034101n	WIKI	Pierre de Fermat 
+bn:00034101n	WIKI	Pierre de Fermat
 bn:00034101n	WIKIDATA	French mathematician and lawyer
 bn:00034101n	WIKIQU	Pierre de Fermat was a French mathematician and lawyer of Basque origin at the Parliament of Toulouse.
 bn:00056990n	WN	A human written or spoken language used by a community; opposed to e.g. a computer language
@@ -9392,9 +9392,9 @@ bn:03305278n	WIKIDATA	Theorem
 bn:03330238n	WIKI	Fermat's little theorem states that if p is a prime number, then for any integer a, the number ap − a is an integer multiple of p.
 bn:03330238n	WIKIDIS	A property of prime numbers
 bn:03330238n	WIKIDATA	Mathematics theorem
-bn:03385252n	WIKI	In mathematics, de Moivre's formula, named after Abraham de Moivre, states that for any complex number x and integer n it holds that 
+bn:03385252n	WIKI	In mathematics, de Moivre's formula, named after Abraham de Moivre, states that for any complex number x and integer n it holds that
 bn:03385252n	WIKIDATA	Theorem
-bn:03555810n	WIKI	In number theory, Euler's theorem states that if n and a are coprime positive integers, then a φ 
+bn:03555810n	WIKI	In number theory, Euler's theorem states that if n and a are coprime positive integers, then a φ
 bn:03555810n	WIKIDATA	A generalization of Fermat''s little theorem
 bn:03785085n	WIKI	In social choice theory, Arrow's impossibility theorem, the general possibility theorem or Arrow's paradox is an impossibility theorem stating that when voters have three or more distinct alternatives, no ranked voting electoral system can convert the ranked preferences of individuals into a community-wide ranking while also meeting a specified set of criteria: unrestricted domain, non-dictatorship, Pareto efficiency and independence of irrelevant alternatives.
 bn:03785085n	WIKIDATA	Theorem
@@ -9497,7 +9497,7 @@ bn:00065719n	WIKIQU	Willard Van Orman Quine was an influential 20th Century Amer
 bn:00675188n	WIKI	Al-Ghazali was a medieval Muslim theologian, jurist, philosopher, and mystic of Persian origin.
 bn:00675188n	WIKIDIS	A Persian 11th century philosopher
 bn:00675188n	WIKIDATA	Persian Muslim theologian, jurist, philosopher, and mystic
-bn:00677239n	WIKI	Abū Muḥammad ʿAlī ibn Aḥmad ibn Saʿīd ibn Ḥazm 
+bn:00677239n	WIKI	Abū Muḥammad ʿAlī ibn Aḥmad ibn Saʿīd ibn Ḥazm
 bn:00677239n	WIKIDATA	Arav theologian
 bn:00990681n	WIKI	Al-Farabi, was a renowned philosopher and jurist who wrote in the fields of political philosophy, metaphysics, ethics and logic.
 bn:00990681n	WIKIDATA	Philosopher in 10th century Central Asia
@@ -9750,7 +9750,7 @@ bn:02632312n	WIKI	Black Bay Peninsula is a volcanic peninsula in Unorganized Thu
 bn:02781344n	WIKI	In propositional logic, tautological consequence is a strict form of logical consequence in which the tautologousness of a proposition is preserved from one line of a proof to the next.
 bn:03253840n	WIKI	In mathematical logic, the deduction theorem is a metatheorem of first-order logic.
 bn:03253840n	WIKIDATA	Theorem
-bn:03256568n	WIKI	Jakobstads Tidning 
+bn:03256568n	WIKI	Jakobstads Tidning
 bn:03256568n	WIKI	Newspaper published in Jakobstad, Finland in 1898–2008
 bn:03256568n	WIKIDIS	A Finland-Swedish newspaper
 bn:03392662n	WIKI	Helena is the state capital of the U.S. state of Montana and the county seat of Lewis and Clark County.
@@ -9783,7 +9783,7 @@ bn:16071545n	WIKI	In probability theory, Kolmogorov's zero–one law, named in h
 bn:00002671n	WN	Primitive chlorophyll-containing mainly aquatic eukaryotic organisms lacking true stems and roots and leaves
 bn:00002671n	WIKI	Algae is an informal term for a large, diverse group of photosynthetic organisms that are not necessarily closely related, and is thus polyphyletic.
 bn:00002671n	WIKIDATA	Group of eukaryotic organisms
-bn:00002671n	OMWIKI	Simple, green, aquatic plants without stems, roots or leaves. They are found floating in the sea and fresh water, but they also grow on the surface of damp walls, rocks, the bark of trees and on soil. 
+bn:00002671n	OMWIKI	Simple, green, aquatic plants without stems, roots or leaves. They are found floating in the sea and fresh water, but they also grow on the surface of damp walls, rocks, the bark of trees and on soil.
 bn:00002671n	WIKT	Any of many aquatic photosynthetic organisms, including the seaweeds, whose size ranges from a single cell to giant kelps and whose biochemistry and forms are very diverse, some being eukaryotic.
 bn:00002671n	WIKTLB	Any of many aquatic photosynthetic organisms.
 bn:00024125n	WN	An unmanned aircraft that is a self-contained bomb
@@ -10520,7 +10520,7 @@ bn:00047232n	WIKTLB	Music: distance in pitch of notes.
 bn:00047754n	WN	A hard smooth ivory colored dentine that makes up most of the tusks of elephants and walruses
 bn:00047754n	WIKI	Ivory is a hard, white material from the tusks and teeth of animals, that can be used in art or manufacturing.
 bn:00047754n	WIKIDATA	Material derived from the tusks and teeth of animals
-bn:00047754n	OMWIKI	The fine-grained creamy-white dentine forming the tusks of elephants, and the teeth or tusks of certain other large animals such as the walrus; it has long been esteemed for a wide variety of ornamental articles. 
+bn:00047754n	OMWIKI	The fine-grained creamy-white dentine forming the tusks of elephants, and the teeth or tusks of certain other large animals such as the walrus; it has long been esteemed for a wide variety of ornamental articles.
 bn:00047754n	WIKT	The hard white form of dentine which forms the tusks of elephants, walruses and other animals.
 bn:00048065n	WN	A genre of popular music that originated in New Orleans around 1900 and developed through increasingly complex styles
 bn:00048065n	WIKI	Jazz is a music genre that originated in the African-American communities of New Orleans, United States, in the late 19th and early 20th centuries, and developed from roots in blues and ragtime.
@@ -11078,7 +11078,7 @@ bn:03583073n	WIKI	A piano with an aluminum piano plate, called the Alumatone pla
 bn:03660748n	WIKI	August Förster is a piano manufacturing company that currently has a staff of 40 employees and produces around 120 grand pianos and 150 uprights per year.
 bn:03660748n	WIKIDATA	Business
 bn:03670353n	WIKI	The bowed clavier is a keyboard instrument strung with gut strings, the tone of which is produced by a steadily revolving, well rosined cylinder powered by a foot pedal, a mechanism similar to that found in the hurdy-gurdy.
-bn:03674297n	WIKI	The Journal of the Acoustical Society of America 
+bn:03674297n	WIKI	The Journal of the Acoustical Society of America
 bn:03674297n	WIKIDATA	Journal
 bn:03697569n	WIKI	Henri Herz was a pianist and composer, Austrian by birth and French by domicile.
 bn:03697569n	WIKIDATA	Austrian musician
@@ -11402,7 +11402,7 @@ bn:02614492n	WIKT	Alternative spelling of darbuka.
 bn:02614492n	WIKTLB	Drum typical to Near East.
 bn:03105492n	WIKI	1709 was a common year starting on Tuesday of the Gregorian calendar and a common year starting on Saturday of the Julian calendar, the 1709th year of the Common Era and Anno Domini designations, the 709th year of the 2nd millennium, the 9th year of the 18th century, and the 10th and last year of the 1700s decade.
 bn:03105492n	WIKIDATA	Year
-bn:03106873n	WIKI	The buzuq 
+bn:03106873n	WIKI	The buzuq
 bn:03131724n	WIKI	The Daf is a large Middle Eastern frame drum used in popular and classical music.
 bn:03131724n	WIKIDIS	A percussive instrument
 bn:03131724n	OMWIKI	A large-sized frame drum used to accompany both popular and classical music in  countries of the Middle East.
@@ -11728,7 +11728,7 @@ bn:03202392n	WIKI	Giuseppe Domenico Scarlatti was an Italian composer who spent 
 bn:03202392n	WIKI	Italian composer, son of Alessandro Scarlatti
 bn:03202392n	WIKIDATA	Italian composer
 bn:03202392n	WIKIQU	Giuseppe Domenico Scarlatti was an Italian composer who spent much of his life in the service of the Portuguese and Spanish royal families.
-bn:03434218n	WIKI	Valentina Evgenievna Lisitsa 
+bn:03434218n	WIKI	Valentina Evgenievna Lisitsa
 bn:03434218n	WIKIDATA	Ukrainian-American classical pianist
 bn:03434218n	WIKIQU	Valentina Lisitsa is a Ukrainian-born and trained classical pianist who resides in North Carolina.
 bn:03535476n	WIKI	William James "Count" Basie was an American jazz pianist, organist, bandleader, and composer.
@@ -12880,7 +12880,7 @@ bn:00019486n	WIKIDIS	Cone-bearing seed plants
 bn:00021863n	WN	Any gymnospermous tree or shrub bearing cones
 bn:00021863n	WIKI	The Pinophyta, also known as Coniferophyta or Coniferae, or commonly as conifers, are a division of vascular land plants containing a single extant class, Pinopsida.
 bn:00021863n	WIKIDIS	Cone-bearing seed plants
-bn:00021863n	OMWIKI	An order of conebearing plants which includes nearly all the present day Gymnospermae. Most are tall evergreen trees with needle-like 
+bn:00021863n	OMWIKI	An order of conebearing plants which includes nearly all the present day Gymnospermae. Most are tall evergreen trees with needle-like
 bn:00021863n	OMWIKI	Any tree bearing cones.
 bn:00021863n	WIKT	A plant belonging to the conifers; a cone-bearing seed plant with vascular tissue, usually a tree.
 bn:00023695n	WN	A slow longitudinal movement or deformation
@@ -12906,7 +12906,7 @@ bn:00055529n	WIKTLB	A moderate degree of wetness.
 bn:00060040n	WN	A colorless gas (O3) soluble in alkalis and cold water; a strong oxidizing agent; can be produced by electric discharge in oxygen or by the action of ultraviolet radiation on oxygen in the stratosphere (where it acts as a screen for ultraviolet radiation)
 bn:00060040n	WIKI	Ozone, or trioxygen, is an inorganic molecule with the chemical formula O3.
 bn:00060040n	WIKIDATA	Chemical compound
-bn:00060040n	OMWIKI	An allotropic form of oxygen containing three atoms in the molecule. It is a bluish gas, very active chemically, and a powerful oxidizing agent. Ozone is formed when oxygen or air is subjected to a silent electric discharge. It occurs in ordinary air in very small amounts only. 
+bn:00060040n	OMWIKI	An allotropic form of oxygen containing three atoms in the molecule. It is a bluish gas, very active chemically, and a powerful oxidizing agent. Ozone is formed when oxygen or air is subjected to a silent electric discharge. It occurs in ordinary air in very small amounts only.
 bn:00060040n	WIKT	An allotrope of oxygen having three atoms in the molecule instead of the usual two; it is a blue gas, generated from oxygen by electrical discharge.
 bn:00062556n	WN	Medium large two-needled pine of northern Europe and Asia having flaking red-brown bark
 bn:00062556n	WIKI	Scots pine is a species of pine that is native to Eurasia, ranging from Western Europe to Eastern Siberia, south to the Caucasus Mountains and Anatolia, and north to well inside the Arctic Circle in Scandinavia.
@@ -13522,7 +13522,7 @@ bn:03159554n	WIKI	The dabakan is a single-headed Philippine drum, primarily used
 bn:03163794n	WIKI	The wind machine is a friction idiophone, which is a class of instrument which produces sound through vibrations within the instrument itself.
 bn:03173911n	WIKI	Ludwig van Beethoven's Piano Sonata No. 29 in B-flat major, Op. 106 is a piano sonata widely viewed as one of the most important works of the composer's third period and among the greatest piano sonatas.
 bn:03173911n	WIKIDATA	Piano sonata written by Beethoven
-bn:03182219n	WIKI	Claves are a percussion instrument, consisting of a pair of short 
+bn:03182219n	WIKI	Claves are a percussion instrument, consisting of a pair of short
 bn:03182219n	WIKIDIS	A percussion instrument
 bn:03182219n	WIKT	A percussion instrument, consisting of two sticks or blocks, in which one is struck against the other in order to produce a sound.
 bn:03186390n	WIKI	Sacile is a town and comune in the province of Pordenone, in the Friuli-Venezia Giulia region of north-east Italy.
@@ -13738,7 +13738,7 @@ bn:00036754n	WIKIDATA	Musical form
 bn:00042387n	WN	Music composed in duple time for dancing the habanera
 bn:00042387n	WIKT	A style of music from Cuba.
 bn:00042718n	WN	A port city in northern Germany on the Elbe River that was founded by Charlemagne in the 9th century and is today the largest port in Germany; in 1241 it formed an alliance with Lubeck that became the basis for the Hanseatic League
-bn:00042718n	WIKI	Hamburg 
+bn:00042718n	WIKI	Hamburg
 bn:00042718n	WIKIDATA	City and state in Germany
 bn:00042718n	OMWIKI	The second largest city in Germany and a city state of Germany.
 bn:00042718n	WIKT	A city in Germany.
@@ -14001,7 +14001,7 @@ bn:00070139n	WIKIQU	World War II or the Second World War, often abbreviated as W
 bn:01012205n	WIKI	The Malayan Emergency was a guerrilla war fought in pre- and post-independence Federation of Malaya, from 1948 until 1960.
 bn:01012205n	WIKIDIS	The insurrection and guerrilla war from 1948 -- 1960 in what is now Malaysia
 bn:01012205n	WIKIDATA	Guerrilla war from 1948 to 1960
-bn:01236112n	WIKI	This article covers the history of Afghanistan since the United States invasion of Afghanistan of October 7, 2001, a period sometimes referred to as the War in Afghanistan 
+bn:01236112n	WIKI	This article covers the history of Afghanistan since the United States invasion of Afghanistan of October 7, 2001, a period sometimes referred to as the War in Afghanistan
 bn:01236112n	WIKI	War in Afghanistan since 2001
 bn:01236112n	WIKIDATA	Intervention by NATO and allies starting in 2001
 bn:01986246n	WIKI	The Russian Civil War was a multi-party war in the former Russian Empire immediately after the Russian Revolutions of 1917, as many factions vied to determine Russia's political future.
@@ -14440,7 +14440,7 @@ bn:00044647n	WN	Formerly a Crown Colony on the coast of southern China in Guangd
 bn:00044647n	WIKI	Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China, is an autonomous territory on the eastern side of the Pearl River estuary in East Asia.
 bn:00044647n	WIKIDIS	Sometimes referred to by the Australian or Oxford slang term "Honkers"
 bn:00044647n	WIKIDATA	Special Administrative Region of China
-bn:00044647n	OMWIKI	One of the two special administrative regions of the People's Republic of China 
+bn:00044647n	OMWIKI	One of the two special administrative regions of the People's Republic of China
 bn:00044647n	WIKT	The Hong Kong Special Administrative Region of the People's Republic of China, which includes nearby islands and the Kowloon Peninsula.
 bn:00044647n	WIKT	Hong Kong Special Administrative Region
 bn:00044647n	WIKTLB	Coastal administrative region in south-east China.
@@ -14602,7 +14602,7 @@ bn:00051034n	WIKT	A country in north-eastern Europe. Official name: Republic of 
 bn:00051034n	WIKT	The official name of Lithuania.
 bn:00052540n	WN	Landlocked republic on the Balkan Peninsula; achieved independence from Yugoslavia in 1991
 bn:00052540n	WIKI	The name "Macedonia" is used in a number of competing or overlapping meanings to describe geographical, political and historical areas, languages and peoples in a part of south-eastern Europe.
-bn:00052540n	WIKI	Macedonia 
+bn:00052540n	WIKI	Macedonia
 bn:00052540n	WIKIDIS	A country composed of Bulgaria (theme) and the Slavic states in the Middle Ages
 bn:00052540n	WIKIDATA	Terminology
 bn:00052540n	WIKIDATA	Country in Southeast Europe
@@ -14797,7 +14797,7 @@ bn:00067226n	WIKT	Country in Western Africa. Official name: Republic of Senegal.
 bn:00067226n	WIKT	Official name of Senegal.
 bn:00067226n	WIKTLB	Official name of Senegal.
 bn:00067230n	WN	A mountainous republic in central Europe; formerly part of the Habsburg monarchy and Yugoslavia; achieved independence in 1991
-bn:00067230n	WIKI	Slovenia, officially the Republic of Slovenia 
+bn:00067230n	WIKI	Slovenia, officially the Republic of Slovenia
 bn:00067230n	WIKIDIS	ISO 3166-1 alpha-3 country code SVN
 bn:00067230n	WIKIDATA	Country in Central Europe
 bn:00067230n	WIKIDATA	Republic in Central-Eastern-Southern Europe
@@ -14877,7 +14877,7 @@ bn:00076078n	WIKT	Country in Eastern Africa. Official name: United Republic of T
 bn:00076078n	WIKTLB	United Republic of Tanzania.
 bn:00076078n	WIKIQU	Tanzania is a country in East Africa in the African Great Lakes region.
 bn:00078872n	WN	A republic in southeastern Europe; formerly a European soviet; the center of the original Russian state which came into existence in the ninth century
-bn:00078872n	WIKI	Ukraine 
+bn:00078872n	WIKI	Ukraine
 bn:00078872n	WIKIDIS	ISO country code (''. ua")
 bn:00078872n	WIKIDATA	Country in Eastern Europe
 bn:00078872n	OMWIKI	A country in Eastern Europe, with the capital Kiev.
@@ -15367,7 +15367,7 @@ bn:00097786a	WN	Of or relating to or characteristic of Australia or its inhabita
 bn:00097786a	OMWIKI	Of or relating to Australia or Australians.
 bn:00097786a	WIKT	Of, from, or pertaining to Australia, the Australian people or Australian languages.
 bn:00097786a	WIKTLB	Of or pertaining to Australia, the Australian people or languages.
-bn:00258892n	WIKI	The Brockhaus and Efron Encyclopedic Dictionary 
+bn:00258892n	WIKI	The Brockhaus and Efron Encyclopedic Dictionary
 bn:00258892n	WIKIDATA	Encyclopedia
 bn:00023235n	WN	The territory occupied by a nation
 bn:00023235n	WIKI	The United Mexican States is a federal republic composed of 31 states and the capital, Mexico City, an autonomous entity on par with the states.
@@ -15431,7 +15431,7 @@ bn:00058581n	WIKI	Oceania is a geographic region comprising Melanesia, Micronesi
 bn:00058581n	WIKIDIS	East of Australia
 bn:00058581n	WIKIDATA	Continent or geographical region in and near the Pacific Ocean
 bn:00058581n	WIKIDATA	Continent or geographical region in and near the Pacific Ocean (Equivalent to Q538 for alternate-script articles in multiple-script languages. Please do not add a link here unless your wiki already has an article listed at Q538)
-bn:00058581n	OMWIKI	The islands of the southern, western and central Pacific Ocean, including Melanesia, Micronesia, and Polynesia. The term is sometimes extended to encompass Australia, New Zealand, and the Malay Archipelago. 
+bn:00058581n	OMWIKI	The islands of the southern, western and central Pacific Ocean, including Melanesia, Micronesia, and Polynesia. The term is sometimes extended to encompass Australia, New Zealand, and the Malay Archipelago.
 bn:00058581n	WIKT	A geographical region composed of many islands plus Australasia. It is located between Asia, Antarctica and the Americas.
 bn:00058581n	WIKTLB	Geographical region.
 bn:14536594n	WIKI	Australia, sometimes known in technical contexts by the names Sahul, Australinea or Meganesia, to distinguish it from the Australian mainland, is a continent comprising mainland Australia, Tasmania, New Guinea, New Britain, and small neighbouring islands.
@@ -15613,7 +15613,7 @@ bn:00001423n	WIKI	A state religion is a religious body or creed officially endor
 bn:00001423n	WIKIDIS	A religious body or creed officially endorsed by the state
 bn:00001423n	WIKIDATA	Religious body or creed officially endorsed by the state
 bn:00001423n	WIKIDATA	Organizational body within a Christian denomination which is given official status or operated by a state
-bn:00001423n	OMWIKI	Term used in commercial law, including a corporation, government or governmental subdivision or agency, business trust, estate, trust, partnership or association, two or more persons having a joint or common interest, or any other legal or commercial entity. 
+bn:00001423n	OMWIKI	Term used in commercial law, including a corporation, government or governmental subdivision or agency, business trust, estate, trust, partnership or association, two or more persons having a joint or common interest, or any other legal or commercial entity.
 bn:00001423n	WIKT	The state of being established, founded, etc.; fixed state.
 bn:00001423n	WIKTLB	The state of being established.
 bn:00002335n	WN	A state in northwestern North America; the 49th state admitted to the union
@@ -15823,7 +15823,7 @@ bn:00014557n	WIKT	An establishment where coffee is served to clients; a café.
 bn:00014557n	WIKT	A coffee shop; an establishment selling coffee and sometimes other non-alcoholic beverages, simple meals or snacks, with a facility to consume them on the premises.
 bn:00014557n	WIKT	A section of an establishment where coffee is served.
 bn:00014917n	WN	Location of a colony of the United Kingdom on a limestone promontory at the southern tip of Spain; strategically important because it can control the entrance of ships into the Mediterranean; one of the Pillars of Hercules
-bn:00014917n	WIKI	The Rock of Gibraltar, 
+bn:00014917n	WIKI	The Rock of Gibraltar,
 bn:00014917n	WIKI	Gibraltar is a British Overseas Territory located at the southern tip of the Iberian Peninsula.
 bn:00014917n	WIKIDIS	A monolithic rock formation on the European side of the strait
 bn:00014917n	WIKIDIS	As on vehicle registration plates
@@ -15983,7 +15983,7 @@ bn:00025456n	WIKTLB	An adjustment of the official time during summer.
 bn:00026208n	WN	Changing something from state to private ownership or control
 bn:00026208n	WIKI	Privatization is the purchase of all outstanding shares of a publicly traded company by private investors, or the sale of a state-owned enterprise to private investors.
 bn:00026208n	WIKIDATA	Transferring ownership of a business, enterprise, agency, public service, or public property from the public sector (a government) to the private sector, to a business that operates for profit
-bn:00026208n	OMWIKI	The transfer of ownership or control of  a government enterprise or other governmental property to a non-public, non-official company, organization or individual, either through sale or through the establishment of a special enterprise outside direct government control. 
+bn:00026208n	OMWIKI	The transfer of ownership or control of  a government enterprise or other governmental property to a non-public, non-official company, organization or individual, either through sale or through the establishment of a special enterprise outside direct government control.
 bn:00026208n	WIKT	The transfer of a company or organization from government to private ownership and control.
 bn:00026208n	WIKTLB	Transfer from the government to private ownership.
 bn:00026371n	WN	The act of expelling a person from their native land
@@ -16083,7 +16083,7 @@ bn:00035869n	WIKTLB	Dense collection of trees.
 bn:00036346n	WN	An economy that relies chiefly on market forces to allocate goods and resources and to determine prices
 bn:00036346n	WIKI	A market economy is an economic system in which the decisions regarding investment, production, and distribution are guided by the price signals created by the forces of supply and demand.
 bn:00036346n	WIKIDATA	Economy based on supply and demand
-bn:00036346n	OMWIKI	A mixed economy that relies heavily on markets to answer the three basic questions of allocation, but with a modest amount of government involvement. While it is commonly termed capitalism, market-oriented economy is much more descriptive of how the economy is structured. 
+bn:00036346n	OMWIKI	A mixed economy that relies heavily on markets to answer the three basic questions of allocation, but with a modest amount of government involvement. While it is commonly termed capitalism, market-oriented economy is much more descriptive of how the economy is structured.
 bn:00036346n	WIKT	An economy in which goods and services are exchanged in a free market, as opposed to a state-controlled or socialist economy; a capitalistic economy.
 bn:00036346n	WIKTLB	Economy in which and services are exchanged in a free market.
 bn:00036369n	WN	International trade free of government interference
@@ -16132,7 +16132,7 @@ bn:00041455n	WN	Land where grass or grasslike vegetation grows and is the domina
 bn:00041455n	WIKI	Grasslands are areas where the vegetation is dominated by grasses ; however, sedge and rush families can also be found along with variable proportions of legumes, like clover, and other herbs.
 bn:00041455n	WIKIDIS	Vegetation and landscape type
 bn:00041455n	WIKIDATA	Areas where the vegetation is dominated by grasses (Poaceae)
-bn:00041455n	OMWIKI	The interacting system of the biological communities located in biomes characterized by the dominance of indigenous grasses, grasslike plants and forbs, and their non-living environmental surroundings. 
+bn:00041455n	OMWIKI	The interacting system of the biological communities located in biomes characterized by the dominance of indigenous grasses, grasslike plants and forbs, and their non-living environmental surroundings.
 bn:00041455n	OMWIKI	An area where the vegetation is dominated by grasses and other herbaceous plants.
 bn:00041455n	WIKT	An area dominated by grass or grasslike vegetation.
 bn:00041455n	WIKTLB	An area dominated by grass or grasslike vegetation.
@@ -16448,7 +16448,7 @@ bn:00068453n	WIKT	A country in Eastern Africa.
 bn:00068684n	WN	A island in the Netherlands Antilles that is the top of an extinct volcano
 bn:00068684n	WIKI	Saba is a Caribbean island which is the smallest special municipality of the Netherlands.
 bn:00068684n	WIKIDATA	Island in the Caribbean, part of the Netherlands
-bn:00068684n	OMWIKI	An island in the Caribbean Netherlands, which is a part of the Kingdom of the Netherlands   
+bn:00068684n	OMWIKI	An island in the Caribbean Netherlands, which is a part of the Kingdom of the Netherlands
 bn:00068684n	WIKT	An island in the southern part of the Caribbean Sea off the west coast of Venezuela, a special municipality of the Netherlands.
 bn:00068864n	WN	An island in the Netherlands Antilles
 bn:00068864n	WIKI	Sint Eustatius, also known affectionately to the locals as Statia, is an island in the Caribbean.
@@ -16597,7 +16597,7 @@ bn:00140501n	WIKIDIS	A national park in Australia
 bn:00142020n	WIKI	Rowman & Littlefield Publishing Group is an independent publishing house founded in 1949.
 bn:00142020n	WIKI	Independent publishing house
 bn:00142020n	WIKIDATA	Catholic publisher
-bn:00144065n	WIKI	Akrotiri and Dhekelia, officially the Sovereign Base Areas of Akrotiri and Dhekelia 
+bn:00144065n	WIKI	Akrotiri and Dhekelia, officially the Sovereign Base Areas of Akrotiri and Dhekelia
 bn:00144065n	WIKIDIS	Two UK-administered areas on the island of Cyprus that comprise the Sovereign Base Areas military bases of the United Kingdom
 bn:00144065n	WIKIDATA	British Overseas Territory on the island of Cyprus
 bn:00144065n	WIKT	A British overseas territory on the island of Cyprus, officially the Sovereign Base Areas of Akrotiri and Dhekelia.
@@ -16914,7 +16914,7 @@ bn:00045087n	WN	A set of tags and rules (conforming to SGML) for using them in d
 bn:00045087n	WIKI	Hypertext Markup Language is the standard markup language for creating web pages and web applications.
 bn:00045087n	WIKIDIS	Entity is a code snippet (i.e.:" & reg;" for "Registered Trademark") which is interpreted by web browsers to display special characters. See List of XML and HTML character entity references.
 bn:00045087n	WIKIDATA	Markup language for displaying information viewable in a web browser
-bn:00045087n	OMWIKI	The predominant markup language for Web pages. It provides a means to describe the structure of text-based information in a document — by denoting certain text as links, headings, paragraphs, lists, and so on — and to supplement that text with interactive forms, embedded images, and other objects. 
+bn:00045087n	OMWIKI	The predominant markup language for Web pages. It provides a means to describe the structure of text-based information in a document — by denoting certain text as links, headings, paragraphs, lists, and so on — and to supplement that text with interactive forms, embedded images, and other objects.
 bn:00045087n	WIKT	A set of tags and rules used in developing hypertext documents to be presented on web browsers, allowing incorporation of text, graphics, sound, video and hyperlinks.
 bn:00045087n	MSTERM	An application of the Standard Generalized Markup Language that uses tags to mark elements, such as text and graphics, in a document to indicate how Web browsers should display these elements to the user and should respond to user actions.
 bn:00045087n	MSTERM	The MS-DOS/Windows 3.x file name extension of Hypertext Markup Language (HTML) files, most commonly used as Web pages. Because MS-DOS and Windows 3.x cannot recognize file extensions longer than three letters, the .html extension is truncated to three letters in those environments.
@@ -17132,7 +17132,7 @@ bn:00064863n	WN	The act of making a strong public expression of disagreement and
 bn:00002275n	WN	A vehicle that can fly
 bn:00002275n	WIKI	An aircraft is a machine that is able to fly by gaining support from the air.
 bn:00002275n	WIKIDATA	Machine that is able to fly by gaining support from the air other than the reactions of the air against the earth’s surface
-bn:00002275n	OMWIKI	A vehicle, designed to be supported by the air, either by the dynamic action of the air upon the surfaces of the structure or object or by its own buoyancy. 
+bn:00002275n	OMWIKI	A vehicle, designed to be supported by the air, either by the dynamic action of the air upon the surfaces of the structure or object or by its own buoyancy.
 bn:00002275n	WIKT	A vehicle capable of atmospheric flight due to interaction with the air, such as buoyancy or lift.
 bn:00002275n	WIKTLB	Machine capable of atmospheric flight.
 bn:00004628n	WN	A chemical substance derivable from a mold or bacterium that can kill microorganisms and cure bacterial infections
@@ -17157,7 +17157,7 @@ bn:00019262n	WIKI	A cistron is an alternative term to a gene.
 bn:00019262n	WIKIDIS	A unit of heredity in the genome of an organism
 bn:00019262n	WIKIDATA	Chemical compound
 bn:00019262n	WIKIDATA	Basic physical and functional unit of heredity
-bn:00019262n	OMWIKI	A unit of heredity composed of DNA occupying a fixed position on a chromosome. A gene may determine a characteristic of an individual by specifying a polypeptide chain that forms a protein or part of a protein 
+bn:00019262n	OMWIKI	A unit of heredity composed of DNA occupying a fixed position on a chromosome. A gene may determine a characteristic of an individual by specifying a polypeptide chain that forms a protein or part of a protein
 bn:00019262n	WIKT	A segment of DNA or RNA from a cell's or an organism's genome, that may take several forms and thus parameterizes a phenomenon, in general the structure of a protein; locus.
 bn:00019262n	WIKTLB	Unit of heredity.
 bn:00021475n	WN	(computer science) a file maintained in computer-readable form
@@ -17941,7 +17941,7 @@ bn:00019826n	WIKTLB	Branch of psychology.
 bn:00062182n	WN	The branch of the biological sciences dealing with the functioning of organisms
 bn:00062182n	WIKI	Physiology is the scientific study of normal mechanisms, and their interactions, which works within a living system.
 bn:00062182n	WIKIDATA	Science of the function of living systems
-bn:00062182n	OMWIKI	Study of the normal processes and metabolic functions of animal organisms. 
+bn:00062182n	OMWIKI	Study of the normal processes and metabolic functions of animal organisms.
 bn:00062182n	OMWIKI	The biological study of the functions of living organisms and their parts.
 bn:03087399n	WIKI	In linguistics, word formation is the creation of a new word.
 bn:03087399n	WIKIDATA	Creation of a new word
@@ -18459,7 +18459,7 @@ bn:00511868n	WIKIDATA	Car model
 bn:00517842n	WIKI	The Ariel was made by the Ariel Company from 1905 to 1906 in Boston, Massachusetts, and Bridgeport, Connecticut.
 bn:00517842n	WIKIDATA	American automobile
 bn:00524393n	WIKI	The Chevrolet Constantia is an automobile which was marketed by Chevrolet in South Africa from 1969 to 1978.
-bn:00548086n	WIKI	The BMW 3/15 was BMW's first car, produced in its first version as a "Dixi" between 1927 and 1929 and then, following BMW's acquisition of the Dixi business in October 1928, in three subsequent versions as BMWs from July 1929 till March 1932, when BMW gave up the licence under which the Austin designed cars were produced. 9,307 Dixi 3/15s were manufactured between 1927 and 1929, which was almost as many cars as all the earlier Dixi models together. 18,976 BMW 3/15s were manufactured between 1929 and 1932. 
+bn:00548086n	WIKI	The BMW 3/15 was BMW's first car, produced in its first version as a "Dixi" between 1927 and 1929 and then, following BMW's acquisition of the Dixi business in October 1928, in three subsequent versions as BMWs from July 1929 till March 1932, when BMW gave up the licence under which the Austin designed cars were produced. 9,307 Dixi 3/15s were manufactured between 1927 and 1929, which was almost as many cars as all the earlier Dixi models together. 18,976 BMW 3/15s were manufactured between 1929 and 1932.
 bn:00548086n	WIKIDATA	Car model
 bn:00011917n	WN	An explosive device fused to explode under specific conditions
 bn:00011917n	WIKI	A bomb is an explosive weapon that uses the exothermic reaction of an explosive material to provide an extremely sudden and violent release of energy.
@@ -18530,7 +18530,7 @@ bn:00025328n	WN	(computer science) a series of operations on data by a computer 
 bn:00025328n	WIKI	Data processing is, generally, "the collection and manipulation of items of data to produce meaningful information."
 bn:00025328n	WIKIDIS	Electronic data processing
 bn:00025328n	WIKIDATA	Any process that uses a computer program to enter data and summarise, analyse or otherwise convert data into usable information
-bn:00025328n	OMWIKI	Any operation or combination of operations on data, including everything that happens to data from the time they are observed or collected to the time they are destroyed. 
+bn:00025328n	OMWIKI	Any operation or combination of operations on data, including everything that happens to data from the time they are observed or collected to the time they are destroyed.
 bn:00025328n	MSTERM	The manipulation of data to transform it into some desired result.
 bn:00064545n	WN	Preparing or putting through a prescribed procedure
 bn:00062164n	WN	An entity that has physical existence
@@ -18909,7 +18909,7 @@ bn:00036734n	WIKTLB	Substance consumed to provide energy.
 bn:00045364n	WN	An organic compound containing only carbon and hydrogen
 bn:00045364n	WIKI	In organic chemistry, a hydrocarbon is an organic compound consisting entirely of hydrogen and carbon, and thus are group 14 hydrides.
 bn:00045364n	WIKIDATA	Organic compound consisting entirely of hydrogen and carbon
-bn:00045364n	OMWIKI	A very large group of chemical compounds composed only of carbon and hydrogen. 
+bn:00045364n	OMWIKI	A very large group of chemical compounds composed only of carbon and hydrogen.
 bn:00045364n	WIKT	A compound consisting only of carbon and hydrogen atoms.
 bn:00045364n	WIKTLB	Compound of carbon and hydrogen.
 bn:00045364n	WIKIQU	A hydrocarbon is an organic compound consisting entirely of hydrogen and carbon.
@@ -18924,7 +18924,7 @@ bn:00059475n	WN	Any compound of carbon and another element or a radical
 bn:00059475n	WIKI	An organic compound is virtually any chemical compound that contains carbon, although a consensus definition remains elusive and likely arbitrary.
 bn:00059475n	WIKIDIS	A compound that contains carbon
 bn:00059475n	WIKIDATA	Chemical compound that contains carbon
-bn:00059475n	OMWIKI	Chemical compounds, based on carbon chains or rings and also containing hydrogen with or without oxygen, nitrogen, or other elements. 
+bn:00059475n	OMWIKI	Chemical compounds, based on carbon chains or rings and also containing hydrogen with or without oxygen, nitrogen, or other elements.
 bn:00059475n	WIKT	Any compound containing carbon atoms covalently bound to other atoms.
 bn:00059475n	WIKTLB	Carbon containing covalent compound.
 bn:00018101n	WN	(chemistry) a substance formed by chemical union of two or more elements or ingredients in definite proportion by weight
@@ -18947,7 +18947,7 @@ bn:00036027n	OMWIKI	The energy-containing materials which were converted over ma
 bn:03328799n	WIKI	Energy development is the field of activities focused on obtaining sources of energy from natural resources.
 bn:03328799n	WIKIDIS	The effort to provide sufficient primary energy sources
 bn:03328799n	OMWIKI	Generation of energy in a coal fired power station, in an oil fired power station, in a nuclear power station, etc.
-bn:03328799n	OMWIKI	Potential supplies of energy including fossil and nuclear fuels as well as solar, water, wind, tidal and geothermal power. 
+bn:03328799n	OMWIKI	Potential supplies of energy including fossil and nuclear fuels as well as solar, water, wind, tidal and geothermal power.
 bn:03328799n	OMWIKI	Power provided by traditional means such as coal, wood, gas, etc., as opposed to alternative energy sources such as solar power, tidal power, wind power, etc.
 bn:03328799n	WIKT	A source from which useful energy can be extracted or recovered either directly or by means of a conversion or transformation process.
 bn:03328799n	WIKTLB	Source from which energy can be extracted.
@@ -18977,7 +18977,7 @@ bn:00035942n	WIKI	A formation or geological formation is the fundamental unit of
 bn:00035942n	WIKIDATA	Stratigraphic unit, smaller than a subgroup
 bn:17203600n	WIKI	A territorial entity is an entity that covers a part of the surface of the Earth with specified borders.
 bn:17203600n	WIKIDATA	Entity that covers a part of the Earth''s surface with specified borders
-bn:01113462n	WIKI	In geometry, the sinusoidal spirals are a family of curves defined by the equation in polar coordinates r n = a n cos ⁡ 
+bn:01113462n	WIKI	In geometry, the sinusoidal spirals are a family of curves defined by the equation in polar coordinates r n = a n cos ⁡
 bn:02277558n	WIKI	In geometry, a Cartesian oval, named after René Descartes, is a plane curve, the set of points that have the same linear combination of distances from two fixed points.
 bn:02277558n	WIKIDATA	The set of points that have the same linear combination of distances from two fixed points
 bn:03312300n	WIKI	A superellipse, also known as a Lamé curve after Gabriel Lamé, is a closed curve resembling the ellipse, retaining the geometric features of semi-major axis and semi-minor axis, and symmetry about them, but a different overall shape.
@@ -19568,7 +19568,7 @@ bn:01499294n	WIKIDATA	Material used for clothing
 bn:00004242n	WN	A product made from animal material
 bn:00004242n	WIKI	An animal product is any material derived from the body of an animal.
 bn:00004242n	WIKIDATA	Material derived from the bodies of animals
-bn:00004242n	OMWIKI	Animal body parts cut off in the preparation of carcasses for use as food. This waste can come from several sources including slaughterhouses, restaurants, stores and farms. 
+bn:00004242n	OMWIKI	Animal body parts cut off in the preparation of carcasses for use as food. This waste can come from several sources including slaughterhouses, restaurants, stores and farms.
 bn:00011759n	WN	Any covering for the body or a body part
 bn:00021916n	WN	Tissue of mesodermal origin consisting of e.g. collagen fibroblasts and fatty cells; supports organs and fills spaces between them and forms tendons and ligaments
 bn:00021916n	WIKI	Connective tissue is one of the four basic types of animal tissue, along with epithelial tissue, muscle tissue, and nervous tissue.
@@ -20038,7 +20038,7 @@ bn:03379658n	WIKI	Berry with a leathery rind and parchment-like partitions betwe
 bn:00036700n	WN	Tree bearing edible fruit
 bn:00036700n	WIKI	A fruit tree is a tree which bears fruit that is consumed or used by humans and some animals — all trees that are flowering plants produce fruit, which are the ripened ovaries of flowers containing one or more seeds.
 bn:00036700n	WIKIDATA	A tree which bears fruit that is consumed or used by humans and some animals
-bn:00036700n	OMWIKI	Any tree that bears edible fruit. 
+bn:00036700n	OMWIKI	Any tree that bears edible fruit.
 bn:00036700n	WIKT	A tree that bears a crop of edible fruit on a regular basis.
 bn:00036700n	WIKTLB	A tree that bears a crop of edible fruit on a regular basis.
 bn:00004110n	WN	Any tree having seeds and ovules contained in the ovary
@@ -20124,7 +20124,7 @@ bn:00074588n	WIKIDIS	A flowing body of water
 bn:00074588n	WIKIDATA	Any flowing body of water
 bn:00074588n	WIKIDATA	Body of water with a current, confined within a bed and stream banks, bigger than a ditch but smaller than a river
 bn:00074588n	OMWIKI	A small river or large creek; a body of moving water confined by banks.
-bn:00074588n	OMWIKI	A natural stream arising in a given drainage basin but not wholly dependent for its flow on surface drainage in its immediate area, flowing in a channel with a well-defined bed between visible banks or through a definite depression in the land, having a definite and permanent or periodic supply of water, and usually, but not necessarily, having a perceptible current in a particular direction and discharging at a fixed point into another body of water. 
+bn:00074588n	OMWIKI	A natural stream arising in a given drainage basin but not wholly dependent for its flow on surface drainage in its immediate area, flowing in a channel with a well-defined bed between visible banks or through a definite depression in the land, having a definite and permanent or periodic supply of water, and usually, but not necessarily, having a perceptible current in a particular direction and discharging at a fixed point into another body of water.
 bn:00074588n	WIKT	A small river; a large creek; a body of moving water confined by banks.
 bn:00074588n	WIKIQU	Streams are bodies of water with a current, confined within a bed and stream banks.
 bn:00074588n	FRAMENET	A continuous flow of liquid, air, gas, people, or things.
@@ -20195,7 +20195,7 @@ bn:02415221n	WIKI	The canvas element is part of HTML5 and allows for dynamic, sc
 bn:02415221n	WIKIDIS	Part of HTML5
 bn:02415221n	MSTERM	An HTML5 element that is part of the World Wide Web Consortium (W3C) HTML5 specification. This element allows dynamic scriptable rendering of pixels, bitmaps, and 2D shapes such as rectangles, polygons, and ellipses.
 bn:01966192n	WIKI	The HTML5 specification introduced the video element for the purpose of playing videos, partially replacing the object element.
-bn:02810489n	WIKI	HTML5 Audio is a subject of the HTML5 specification, incorporating audio input, playback, and synthesis, as well as speech to text, in the browser. 
+bn:02810489n	WIKI	HTML5 Audio is a subject of the HTML5 specification, incorporating audio input, playback, and synthesis, as well as speech to text, in the browser.
 bn:02810489n	WIKIDATA	Subject of the HTML5 specification
 bn:00000665n	WN	(computer science) the operation of reading or writing stored information
 bn:00000665n	WIKI	Access is a catalytic process that enables interactions, contact and exchanges among people, businesses and nations.
@@ -20251,7 +20251,7 @@ bn:00005363n	WN	Something curved in shape
 bn:00005363n	WIKT	Anything bent or curved, such as a rainbow.
 bn:00005384n	WN	A curved shape in the vertical plane that spans an opening
 bn:00009737n	WN	A symmetrical curve representing the normal distribution
-bn:00009737n	WIKI	In mathematics, a Gaussian function, often simply referred to as a Gaussian, is a function of the form: f 
+bn:00009737n	WIKI	In mathematics, a Gaussian function, often simply referred to as a Gaussian, is a function of the form: f
 bn:00009737n	WIKIDIS	A specific kind of function whose graph is a bell-shaped curve
 bn:00009867n	WN	A circular segment of a curve
 bn:00009867n	WIKI	In mathematics twist is the rate of rotation of a smooth ribbon around the space curve
@@ -20942,7 +20942,7 @@ bn:00016581n	OMWIKI	A man whose testicles (and sometimes penis) have been cut of
 bn:00016581n	WIKT	A castrated human male.
 bn:00016581n	WIKTLB	Castrated human male.
 bn:00016990n	WN	A widely known person
-bn:00016990n	WIKI	Celebrity refers to the fame and public attention accorded by the mass media to individuals or groups or, occasionally, animals, but is usually applied to the persons or groups of people 
+bn:00016990n	WIKI	Celebrity refers to the fame and public attention accorded by the mass media to individuals or groups or, occasionally, animals, but is usually applied to the persons or groups of people
 bn:00016990n	WIKIDIS	A major synonym of fame
 bn:00016990n	WIKIDATA	Prominent person who commands some degree of public fascination and appears in the media
 bn:00016990n	OMWIKI	A noteworthy or popular person, often a performer or athlete.
@@ -21035,7 +21035,7 @@ bn:00008948n	WN	Cat- or lion-headed Egyptian goddess; represents life-giving pow
 bn:00008948n	WIKI	Bastet or Bast was a goddess of ancient Egyptian religion, worshiped as early as the Second Dynasty.
 bn:00008948n	WIKIDATA	Egyptian deity
 bn:00032534n	WN	A lion-headed Egyptian goddess; typifies life-destroying power of the sun
-bn:00032534n	WIKI	In Egyptian mythology, Sekhmet 
+bn:00032534n	WIKI	In Egyptian mythology, Sekhmet
 bn:00032534n	WIKI	The Eye of Ra or Eye of Re is a being in ancient Egyptian mythology that functions as a feminine counterpart to the sun god Ra and a violent force that subdues his enemies.
 bn:00032534n	WIKIDATA	Egyptian deity
 bn:00037579n	WN	Egyptian god of the earth; father of Osiris and Isis
@@ -21830,7 +21830,7 @@ bn:00001058n	WN	A word formed from the initial letters of the several words in t
 bn:00001058n	WIKI	An acronym is a word or name formed as an abbreviation from the initial components in a phrase or a word, usually individual letters and sometimes syllables.
 bn:00001058n	WIKIDIS	Associació d'Usuaris de Java de Catalunya.
 bn:00001058n	WIKIDATA	Abbreviation made out of the first letters of the words of a sequence
-bn:00001058n	OMWIKI	A acronym based on the initials of the distinct Words.  
+bn:00001058n	OMWIKI	A acronym based on the initials of the distinct Words.
 bn:00001058n	OMWIKI	An abbreviation that is formed using the initial letters of words or word parts in a phrase or name.
 bn:00001058n	WIKT	An abbreviation formed by the initial letters of other words, sometimes exclusively such abbreviations when pronounced as a word rather than as individual letters.
 bn:00001058n	WIKT	A term formed from the initial letter or letters of several words or parts of words, but which is itself pronounced letter by letter.
@@ -22100,7 +22100,7 @@ bn:00005434n	WIKI	An archipelago, sometimes called an island group or island cha
 bn:00005434n	WIKIDIS	A chain of islands
 bn:00005434n	WIKIDATA	Group of islands
 bn:00005434n	OMWIKI	A group of islands where the islands are stringed together like in a chain.
-bn:00005434n	OMWIKI	A group of many islands including the waters that surround them. 
+bn:00005434n	OMWIKI	A group of many islands including the waters that surround them.
 bn:00005434n	OMWIKI	A cluster of several islands.
 bn:00005434n	WIKT	A group of islands.
 bn:00005434n	WIKTLB	Group of islands.
@@ -22370,7 +22370,7 @@ bn:00001148n	WN	Powdered or granular carbon used for purifying by adsorption; gi
 bn:00001148n	WIKI	Activated carbon, also called activated charcoal, is a form of carbon processed to have small, low-volume pores that increase the surface area available for adsorption or chemical reactions.
 bn:00001148n	WIKIDIS	A highly porous and absorbent material used extensively in water filtration
 bn:00001148n	WIKIDATA	Form of carbon processed to have small, low-volume pores that increase the surface area
-bn:00001148n	OMWIKI	A powdered, granular or pelleted form of amorphous carbon characterized by a very large surface area per unit volume because of an enormous number of fine pores. 
+bn:00001148n	OMWIKI	A powdered, granular or pelleted form of amorphous carbon characterized by a very large surface area per unit volume because of an enormous number of fine pores.
 bn:00001148n	WIKT	Activated carbon.
 bn:00001148n	WIKT	A very absorbent form of finely powdered carbon; used in purifying gases, and as an antidote for many poisons.
 bn:00001148n	WIKTLB	Absorbent form of finely powdered carbon.
@@ -22793,7 +22793,7 @@ bn:00002954n	WN	The rising of a body of water and its overflowing onto normally 
 bn:00002954n	WIKI	A flood is an overflow of water that submerges land that is usually dry.
 bn:00002954n	WIKIDATA	Overflow of water that submerges land
 bn:00002954n	OMWIKI	A general and temporary condition of partial or complete inundation of normally dry land areas from the overflow of inland and/or tidal waters, and/or the unusual and rapid accumulation or runoff of surface waters from any source.
-bn:00002954n	OMWIKI	An overflowing; an inundation or flood, especially when the water is charged with much suspended material. 
+bn:00002954n	OMWIKI	An overflowing; an inundation or flood, especially when the water is charged with much suspended material.
 bn:00002954n	WIKT	A overflow of water from a lake or other body of water due to excessive rainfall or other input of water.
 bn:00002954n	WIKT	The water of a flood.
 bn:00002954n	WIKT	Overflow.
@@ -23037,7 +23037,7 @@ bn:00030766n	WIKTLB	System of ductless glands.
 bn:00052442n	WN	The interconnected system of spaces and vessels between body tissues and organs by which lymph circulates throughout the body
 bn:00052442n	WIKI	The lymphatic system is part of the circulatory system and an important part of the immune system, comprising a network of lymphatic vessels that carry a clear fluid called lymph directionally towards the heart.
 bn:00052442n	WIKIDATA	A part of the defense system (immune system) of vertebrate animals against pathogens
-bn:00052442n	OMWIKI	A system of vessels and nodes conveying lymph in the vertebrate body, beginning with capillaries in tissue spaces and eventually forming the thoracic ducts which empty in the subclavian veins. 
+bn:00052442n	OMWIKI	A system of vessels and nodes conveying lymph in the vertebrate body, beginning with capillaries in tissue spaces and eventually forming the thoracic ducts which empty in the subclavian veins.
 bn:00052442n	WIKT	In mammals, including humans, a network of lymph vessels and lymph nodes that transport fluid, fats, proteins, and lymphocytes to the bloodstream as lymph, and remove microorganisms and other debris from tissues.
 bn:00052442n	WIKTLB	Network of lymphatic vessels and lymph nodes.
 bn:00002254n	WN	Any of the thin-walled extensions of the tracheae of insects
@@ -23425,7 +23425,7 @@ bn:00055213n	WIKTLB	Monster with the head of a bull and the body of a man.
 bn:00036806n	WN	A cloud of fine particles suspended in a gas
 bn:00036806n	WIKI	Smoke is a collection of airborne solid and liquid particulates and gases emitted when a material undergoes combustion or pyrolysis, together with the quantity of air that is entrained or otherwise mixed into the mass. It is commonly an unwanted by-product of fires, but may also be used for pest control, communication, defensive and offensive capabilities in the military, cooking, or smoking.
 bn:00036806n	WIKIDATA	Mass of airborne particulates and gases
-bn:00036806n	OMWIKI	Solids in the air that have been generated by the condensation of vapors, chemical reactions or sublimation 
+bn:00036806n	OMWIKI	Solids in the air that have been generated by the condensation of vapors, chemical reactions or sublimation
 bn:00036806n	OMWIKI	An aerosol, consisting of visible particles and gases, produced by the incomplete burning of carbon-based materials, such as wood and fossil fuels.
 bn:00036806n	WIKT	The visible vapor/vapour, gases, and fine particles given off by burning or smoldering material.
 bn:00036806n	WIKT	A gas or vapour/vapor that smells strongly or is dangerous to inhale. Fumes are solid particles formed by condensation from the gaseous state, e.g. metal oxides from volatilized metals. They can flocculate and coalesce. Their particle size is between 0.1 and 1 micron.
@@ -23486,7 +23486,7 @@ bn:17277242n	WIKIDATA	Process of transferring skills and knowledge
 bn:16004828n	WIKIDATA	English translation of a French book
 bn:00001531n	WN	The body of an adult woman
 bn:00032893n	WN	Primary social group; parents and children
-bn:00032893n	WIKI	In the context of human society, a family is a group of people affiliated either by consanguinity, affinity, or co-residence 
+bn:00032893n	WIKI	In the context of human society, a family is a group of people affiliated either by consanguinity, affinity, or co-residence
 bn:00032893n	WIKIDIS	A domestic group of people (or a number of domestic groups), typically affiliated by birth or marriage, or by comparable legal relationships
 bn:00032893n	WIKIDATA	Group of people affiliated by consanguinity, affinity, or co-residence
 bn:00032893n	OMWIKI	A group comprising parents, offsprings and others closely related or associated with them.
@@ -23904,7 +23904,7 @@ bn:00001077n	WIKIDATA	Deductive study of human action
 bn:00001077n	WIKT	A display of behaviour.
 bn:00001077n	WIKTLB	Display of behaviour.
 bn:00013700n	WN	Insects with sucking mouthparts and forewings thickened and leathery at the base; usually show incomplete metamorphosis
-bn:00013700n	OMWIKI	Any of the suborder Heteroptera, having piercing and sucking mouthparts, specialized as a beak. 
+bn:00013700n	OMWIKI	Any of the suborder Heteroptera, having piercing and sucking mouthparts, specialized as a beak.
 bn:00046870n	WN	Small air-breathing arthropod
 bn:00046870n	WIKI	Insects or Insecta are by far the largest group of hexapod invertebrates within the arthropod phylum.
 bn:00046870n	WIKIDATA	Class of invertebrates
@@ -23915,7 +23915,7 @@ bn:00006081n	WN	Invertebrate having jointed limbs and a segmented body with an e
 bn:00006081n	WIKI	An arthropod is an invertebrate animal having an exoskeleton, a segmented body, and paired jointed appendages.
 bn:00006081n	WIKIDIS	Animals of the phylum Arthropoda, including insects, arachnids, and crustaceans
 bn:00006081n	WIKIDATA	Phylum of animals
-bn:00006081n	OMWIKI	The largest phylum in the animal kingdom; adults typically have segmented body, a sclerotized integument, and many-jointed segmental limbs. 
+bn:00006081n	OMWIKI	The largest phylum in the animal kingdom; adults typically have segmented body, a sclerotized integument, and many-jointed segmental limbs.
 bn:00006081n	WIKT	An invertebrate animal of the phylum Arthropoda, characterized by a chitinous exoskeleton and multiple jointed appendages.
 bn:00006081n	WIKTLB	Animal of Arthropoda.
 bn:00006081n	WIKIQU	This page is for quotes about arthropods, both in general and about specific taxa.
@@ -24087,7 +24087,7 @@ bn:00072174n	WIKTLB	Long, thin piece of land or material.
 bn:00022099n	WN	Goods (as food or clothing) intended for direct use or consumption
 bn:00022099n	WIKI	In economics, any commodity which is produced and subsequently consumed by the consumer, to satisfy his current wants or needs, is a consumer good or final good.
 bn:00022099n	WIKIDATA	Commodity which is produced and subsequently consumed by the consumer
-bn:00022099n	OMWIKI	Economic good that directly satisfies human wants or desires. 
+bn:00022099n	OMWIKI	Economic good that directly satisfies human wants or desires.
 bn:00022099n	MSTERM	A good that is created for consumer user rather than business use.
 bn:00015405n	WN	(dentistry) dental appliance consisting of an artificial crown for a broken or decayed tooth
 bn:00015405n	WIKI	A crown, sometimes known as dental cap, is a type of dental restoration which completely caps or encircles a tooth or dental implant.
@@ -24302,9 +24302,9 @@ bn:00072536n	WN	People sharing some social relation
 bn:00072536n	WIKI	In the social sciences, a social group has been defined as two or more people who interact with one another, share similar characteristics, and collectively have a sense of unity.
 bn:00072536n	WIKIDIS	A description of various human groups
 bn:00072536n	WIKIDATA	Two or more humans who interact with one another
-bn:00072536n	OMWIKI	A collection of people who interact with one another and share a certain feeling of unity. 
+bn:00072536n	OMWIKI	A collection of people who interact with one another and share a certain feeling of unity.
 bn:00072536n	WIKT	A collection of humans or animals, who share certain characteristics, interact with one another, accept expectations and obligations as members of the group, and share a common identity.
-bn:00964536n	WIKI	A federated state 
+bn:00964536n	WIKI	A federated state
 bn:00964536n	WIKIDIS	A political entity forming part of a federal sovereign state such as the USA, Australia, India and Brazil
 bn:00964536n	WIKIDATA	Territorial and constitutional community forming part of a federal union
 bn:01834892n	WIKI	Subdivisions of Germany - overview.
@@ -24508,7 +24508,7 @@ bn:00054065n	OMWIKI	The mechanic part of a device.
 bn:00054065n	WIKT	Any mechanical means for the conversion or control of motion, or the transmission or control of power.
 bn:00054065n	WIKTLB	Mechanical means for the conversion or control of motion.
 bn:00037744n	WN	A class of art (or artistic endeavor) having a characteristic form or technique
-bn:00037744n	WIKI	Genre is any form or type of communication in any mode 
+bn:00037744n	WIKI	Genre is any form or type of communication in any mode
 bn:00037744n	WIKIDATA	Category of creative works based on stylistic and/or thematic criteria
 bn:00051538n	WN	Creative writing of recognized artistic value
 bn:00051538n	WIKI	Literature, in its broadest sense, is any single body of written works.
@@ -24533,7 +24533,7 @@ bn:00046704n	WIKIDIS	Of information in any manner detectable by an observer
 bn:00046704n	WIKIDIS	The interdisciplinary study of the processing, management, and retrieval of information
 bn:00046704n	WIKIDATA	Field primarily concerned with the analysis, collection, classification, manipulation, storage, retrieval and dissemination of information
 bn:00046704n	WIKIDATA	Processing of information in any manner
-bn:00046704n	OMWIKI	The process of accumulating, classifying and disseminating information, often to support the claim or data given in a book or article. 
+bn:00046704n	OMWIKI	The process of accumulating, classifying and disseminating information, often to support the claim or data given in a book or article.
 bn:00046704n	OMWIKI	Science and technique of data elaboration and of automatic treatment of information.
 bn:00046704n	WIKT	A broad and interdisciplinary science that deals with the gathering, classification, storage, manipulation, retrieval and analysis of information as an organized resource.
 bn:00046704n	WIKT	A branch of information science and of computer science that focuses on the study of information processing, particularly with respect to systems integration and human interactions with machine and data.
@@ -24566,7 +24566,7 @@ bn:00069680n	WIKT	One whose activities make use of the scientific method to answ
 bn:00069680n	WIKTLB	One whose activities make use of the scientific method
 bn:00069680n	WIKIQU	Scientists, in a broad sense, are persons engaged in the systematic activity to acquire knowledge.
 bn:00044576n	WN	Any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage
-bn:00044576n	WIKI	Modern humans 
+bn:00044576n	WIKI	Modern humans
 bn:00044576n	WIKI	Homo is the genus that encompasses the extant species Homo sapiens, plus several extinct species classified as ancestral to or closely related to modern humans, most notably Homo erectus.
 bn:00044576n	WIKIDIS	As distinct from a supernatural being
 bn:00044576n	WIKIDATA	Human as a member of human society; common name of Homo sapiens (Q15978631), unique extant species of the genus Homo
@@ -24800,7 +24800,7 @@ bn:00001426n	WIKIDIS	Management in or of government
 bn:00001426n	WIKIDATA	System by which a state or community is governed
 bn:00001426n	WIKIDATA	All of the processes of governing, whether undertaken by a government, market or network, whether over a family, tribe, formal or informal organization or territory and whether through the laws, norms, power or language of an organized society
 bn:00001426n	WIKIDATA	Government or political administration
-bn:00001426n	OMWIKI	Manner in which power and authority are exercised by both public and private bodies; includes such issues as public sector management, legal framework, accountability and transparency. 
+bn:00001426n	OMWIKI	Manner in which power and authority are exercised by both public and private bodies; includes such issues as public sector management, legal framework, accountability and transparency.
 bn:00001426n	OMWIKI	A body that has the authority to make and the power to enforce laws within a civil, corporate, religious, academic, or other organization or group.
 bn:00001426n	WIKT	The body with the power to make and/or enforce laws to control a country, land area, people or organization.
 bn:00001426n	WIKT	The state of being governed.
@@ -24964,7 +24964,7 @@ bn:00003882n	WIKI	The human body is the entire structure of a human being.
 bn:00003882n	WIKIDIS	Of or relating to the body
 bn:00003882n	WIKIDATA	Wine grape
 bn:00003882n	WIKIDATA	Entire structure of a human organism
-bn:00003882n	OMWIKI	A branch of biological sciences that studies the functions of organs and tissues in human beings. 
+bn:00003882n	OMWIKI	A branch of biological sciences that studies the functions of organs and tissues in human beings.
 bn:00003882n	OMWIKI	The physical structure of a human body.
 bn:00003882n	OMWIKI	The entire physical structure of an human being.
 bn:00003882n	WIKT	The human body as a physical entity.
@@ -24989,7 +24989,7 @@ bn:00006569n	WIKTLB	Semitic Akkadian kingdom.
 bn:00007854n	WN	(microbiology) single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission; important as pathogens and for biochemical properties; taxonomy is difficult; often considered to be plants
 bn:00007854n	WIKI	Bacteria constitute a large domain of prokaryotic microorganisms.
 bn:00007854n	WIKIDATA	Domain of prokaryotic microorganisms
-bn:00007854n	OMWIKI	Group of single-cell micro-organisms, the smallest of the living organisms. Some are vital to sustain life, while others are responsible for causing highly dangerous human diseases, such as anthrax, tetanus and tuberculosis. Bacteria are found everywhere, in the soil, water and air. 
+bn:00007854n	OMWIKI	Group of single-cell micro-organisms, the smallest of the living organisms. Some are vital to sustain life, while others are responsible for causing highly dangerous human diseases, such as anthrax, tetanus and tuberculosis. Bacteria are found everywhere, in the soil, water and air.
 bn:00007854n	WIKIQU	Bacterium constitute a large domain of prokaryotic microorganisms.
 bn:00021464n	WN	A machine for performing calculations automatically
 bn:00021464n	WIKI	A computer is a device that can be instructed to carry out arbitrary sequences of arithmetic or logical operations automatically.
@@ -25053,7 +25053,7 @@ bn:00411127n	MSTERM	One of the music genres that appears under Genre classificat
 bn:00005461n	WN	The regions to the north of the Arctic Circle centered on the North Pole
 bn:00005461n	WIKI	The Arctic is a polar region located at the northernmost part of Earth.
 bn:00005461n	WIKIDATA	Polar region
-bn:00005461n	OMWIKI	The northernmost area of the earth, centered on the North Pole, that includes the Arctic Ocean, the northern reaches of Canada, Alaska, Russia, Norway and most of Greenland, Iceland and Svalbard. 
+bn:00005461n	OMWIKI	The northernmost area of the earth, centered on the North Pole, that includes the Arctic Ocean, the northern reaches of Canada, Alaska, Russia, Norway and most of Greenland, Iceland and Svalbard.
 bn:00005461n	OMWIKI	A region of the Earth above the Arctic Circle, containing the North Pole.
 bn:00005461n	WIKT	The region of the Earth above the Arctic Circle, containing the North Pole.
 bn:00005461n	WIKTLB	A region of the Earth
@@ -25161,7 +25161,7 @@ bn:00030192n	WIKIQU	Electricity is a general term encompassing a variety of phen
 bn:00072677n	WN	Energy from the sun that is converted into thermal or electrical energy
 bn:00072677n	WIKI	Solar energy is radiant light and heat from the Sun that is harnessed using a range of ever-evolving technologies such as solar heating, photovoltaics, solar thermal energy, solar architecture, molten salt power plants and artificial photosynthesis.
 bn:00072677n	WIKIDATA	Energy transmitted from the sun
-bn:00072677n	OMWIKI	The energy transmitted from the sun in the form of electromagnetic radiation. The most successful examples of energy extraction from the sun are so far solar cells used in satellites and solar collectors used to heat water. 
+bn:00072677n	OMWIKI	The energy transmitted from the sun in the form of electromagnetic radiation. The most successful examples of energy extraction from the sun are so far solar cells used in satellites and solar collectors used to heat water.
 bn:00072677n	WIKT	Energy in the form of electromagnetic radiation emitted from the Sun; especially that part of this energy that is converted into usable thermal or electrical energy by man.
 bn:00072677n	WIKTLB	Energy from the sun.
 bn:00003255n	WN	A deep yellow color

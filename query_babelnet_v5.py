@@ -5,7 +5,7 @@ import json
 """
 This script generates babelnet edge files for the specified word.
 It goes to depth 3 hypernyms, and filters out automatic relations.
-Note that this requires BABELNET_KEY to query the API 
+Note that this requires BABELNET_KEY to query the API
 """
 
 BABELNET_KEY = None
@@ -29,7 +29,7 @@ def get_synsets_from_lemma(word, limit):
         "key": BABELNET_KEY,
     }
     payload_str = "&".join("%s=%s" % (k,v) for k,v in params.items())
-    
+
     res = requests.get('?'.join([url, payload_str]))
     synsets = [
         'bn:' + r['synset']['value'].split('/')[-1].lstrip('s')
@@ -40,8 +40,8 @@ def get_synsets_from_lemma(word, limit):
 
 def get_nonautomatic_hypernyms(results):
     return [
-        result for result in results 
-        if result['pointer']['isAutomatic'] is False 
+        result for result in results
+        if result['pointer']['isAutomatic'] is False
         and result['pointer']['relationGroup'] == "HYPERNYM"
     ]
 
