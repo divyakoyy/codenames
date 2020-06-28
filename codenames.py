@@ -60,6 +60,7 @@ class Game(object):
         synset_senses_file=None,
         synset_glosses_file=None,
         synset_domains_file=None,
+        synset_metadata_file=None,
     ):
         """
         Variables:
@@ -86,11 +87,13 @@ class Game(object):
         self.synset_senses_file = synset_senses_file
         self.synset_glosses_file = synset_glosses_file
         self.synset_domains_file = synset_domains_file
+        self.synset_metadata_file = synset_metadata_file
         (
             self.synset_to_main_sense,
             self.synset_to_senses,
             self.synset_to_definitions,
             self.synset_to_domains,
+            self.synset_to_metadata,
         ) = self.load_synset_labels_v5()
 
         # pre-process
@@ -321,10 +324,14 @@ class Game(object):
                 del nn[label]
         return {k: 1.0 / (v + 1) for k, v in nn.items() if k != word}
 
-    def get_cached_labels_from_synset_v5(self, synset, get_domains=False):
+    def get_cached_labels_from_synset_v5(
+        self, synset, get_domains=False, get_metadata=False
+    ):
         """This actually gets the main_sense but also writes all senses/glosses"""
-        if synset not in self.synset_to_main_sense or (
-            get_domains and synset not in self.synset_to_domains
+        if (
+            synset not in self.synset_to_main_sense
+            or (get_domains and synset not in self.synset_to_domains)
+            or (get_metadata and synset not in self.synset_to_metadata)
         ):
             print("getting query", synset)
             # assert False
@@ -337,7 +344,8 @@ class Game(object):
         main_sense = self.synset_to_main_sense[synset]
         senses = self.synset_to_senses[synset]
         domains = self.synset_to_domains[synset] if get_domains else {}
-        return main_sense, senses, domains
+        metadata = self.synset_to_metadata[synset] if get_metadata else {}
+        return main_sense, senses, domains, metadata
 
     def load_synset_labels_v5(self):
         """Load synset_to_main_sense"""
@@ -345,6 +353,7 @@ class Game(object):
         synset_to_senses = {}
         synset_to_definitions = {}
         synset_to_domains = {}
+        synset_to_metadata = {}
         if os.path.exists(self.synset_main_sense_file):
             with open(self.synset_main_sense_file, "r") as f:
                 for line in f:
@@ -369,9 +378,11 @@ class Game(object):
                     parts = line.strip().split("\t")
                     assert len(parts) == 3
                     synset, source, definition = parts
+                    if synset not in synset_to_definitions:
+                        synset_to_definitions[synset] = set()
                     if source == "WIKIRED":
                         continue
-                    synset_to_definitions[synset] = definition
+                    synset_to_definitions[synset].add(definition)
         if os.path.exists(self.synset_domains_file):
             with open(self.synset_domains_file, "r") as f:
                 for line in f:
@@ -389,59 +400,96 @@ class Game(object):
                         )
                     else:
                         synset_to_domains[synset][domain] = score
+        if os.path.exists(self.synset_metadata_file):
+            with open(self.synset_metadata_file, "r") as f:
+                for line in f:
+                    parts = line.strip().split("\t")
+                    assert len(parts) == 3
+                    synset, keyConcept, synsetType = parts
+                    synset_to_metadata[synset] = {
+                        "keyConcept": keyConcept,
+                        "synsetType": synsetType,
+                    }
 
         return (
             synset_to_main_sense,
             synset_to_senses,
             synset_to_definitions,
             synset_to_domains,
+            synset_to_metadata,
         )
 
     def write_synset_labels_v5(self, synset, json):
         """Write to synset_main_sense_file, synset_senses_file, and synset_glosses_file"""
-        with open(self.synset_main_sense_file, "a") as f:
-            if "mainSense" not in json:
-                print("no main sense for", synset)
-                main_sense = synset
-            else:
-                main_sense = json["mainSense"]
-            f.write("\t".join([synset, main_sense]) + "\n")
-            self.synset_to_main_sense[synset] = main_sense
+        if synset not in self.synset_to_main_sense:
+            with open(self.synset_main_sense_file, "a") as f:
+                if "mainSense" not in json:
+                    print("no main sense for", synset)
+                    main_sense = synset
+                else:
+                    main_sense = json["mainSense"]
+                f.write("\t".join([synset, main_sense]) + "\n")
+                self.synset_to_main_sense[synset] = main_sense
 
-        with open(self.synset_senses_file, "a") as f:
+        if synset not in self.synset_to_senses:
             self.synset_to_senses[synset] = set()
-            if "senses" in json:
-                for sense in json["senses"]:
-                    properties = sense["properties"]
-                    line = [
-                        synset,
-                        properties["fullLemma"],
-                        properties["simpleLemma"],
-                        properties["source"],
-                        properties["pos"],
-                    ]
-                    f.write("\t".join(line) + "\n")
-                    self.synset_to_senses[synset].add(properties["simpleLemma"])
+            with open(self.synset_senses_file, "a") as f:
+                self.synset_to_senses[synset] = set()
+                if "senses" in json:
+                    for sense in json["senses"]:
+                        properties = sense["properties"]
+                        line = [
+                            synset,
+                            properties["fullLemma"],
+                            properties["simpleLemma"],
+                            properties["source"],
+                            properties["pos"],
+                        ]
+                        f.write("\t".join(line) + "\n")
+                        if properties["source"] != "WIKIRED":
+                            self.synset_to_senses[synset].add(properties["simpleLemma"])
 
-        with open(self.synset_glosses_file, "a") as f:
-            if "glosses" in json:
-                for gloss in json["glosses"]:
-                    line = [synset, gloss["source"], gloss["gloss"]]
-                    f.write("\t".join(line) + "\n")
-
-        with open(self.synset_domains_file, "a") as f:
-            self.synset_to_domains[synset] = dict()
-            if "domains" in json:
-                for domain, score in json["domains"].items():
-                    if domain in self.synset_to_domains[synset]:
-                        self.synset_to_domains[synset][domain] = max(
-                            self.synset_to_domains[synset][domain], score
-                        )
+        if synset not in self.synset_to_definitions:
+            self.synset_to_definitions[synset] = set()
+            with open(self.synset_glosses_file, "a") as f:
+                if "glosses" in json:
+                    if len(json["glosses"]) == 0:
+                        f.write("\t".join([synset, "NONE", "NONE"]) + "\n")
                     else:
-                        self.synset_to_domains[synset][domain] = score
-                    f.write("\t".join([synset, domain, str(score)]) + "\n")
-            if "domains" not in json or len(json["domains"]) == 0:
-                f.write("\t".join([synset, "NONE", "-100"]) + "\n")
+                        for gloss in json["glosses"]:
+                            line = [synset, gloss["source"], gloss["gloss"]]
+                            f.write("\t".join(line) + "\n")
+                            if gloss["source"] != "WIKIRED":
+                                self.synset_to_definitions[synset].add(gloss["gloss"])
+
+        if synset not in self.synset_to_domains:
+            self.synset_to_domains[synset] = dict()
+            with open(self.synset_domains_file, "a") as f:
+                if "domains" in json:
+                    for domain, score in json["domains"].items():
+                        if domain in self.synset_to_domains[synset]:
+                            self.synset_to_domains[synset][domain] = max(
+                                self.synset_to_domains[synset][domain], score
+                            )
+                        else:
+                            self.synset_to_domains[synset][domain] = score
+                        f.write("\t".join([synset, domain, str(score)]) + "\n")
+                if "domains" not in json or len(json["domains"]) == 0:
+                    f.write("\t".join([synset, "NONE", "-100"]) + "\n")
+
+        if synset not in self.synset_to_metadata:
+            with open(self.synset_metadata_file, "a") as f:
+                keyConcept = "NONE"
+                synsetType = "NONE"
+                if "bkeyConcepts" in json:
+                    keyConcept = str(json["bkeyConcepts"])
+                if "synsetType" in json:
+                    synsetType = json["synsetType"]
+                f.write("\t".join([synset, keyConcept, synsetType]) + "\n")
+                self.synset_to_metadata[synset] = {
+                    "keyConcept": keyConcept,
+                    "synsetType": synsetType,
+                }
 
     def get_labels_from_synset_v5_json(self, synset):
         url = "https://babelnet.io/v5/getSynset"
@@ -478,7 +526,7 @@ class Game(object):
 
         return word_to_df
 
-    def get_babelnet_v5(self, word):
+    def get_babelnet_v5(self, word, filter_entities=True):
         def should_add_relationship(relationship, level):
             if relationship != "HYPERNYM" and level > 1:
                 return False
@@ -554,6 +602,8 @@ class Game(object):
                 try:
                     # get all paths starting from source, filtered
                     paths = single_source_paths_filter(G, source=synset, cutoff=10)
+                    # TODO: if we want to filter intermediate nodes, we need to call
+                    # get_cached_labels_from_synset_v5 for all nodes in path.
                     lengths = {neighbor: len(path) for neighbor, path in paths.items()}
                     # lengths = nx.single_source_shortest_path_length(
                     #     G, source=synset, cutoff=10
@@ -566,9 +616,15 @@ class Game(object):
                         neighbor_main_sense,
                         neighbor_senses,
                         _,
+                        neighbor_metadata,
                     ) = self.get_cached_labels_from_synset_v5(
-                        neighbor, get_domains=False
+                        neighbor, get_domains=False, get_metadata=filter_entities
                     )
+
+                    # Note: this filters entity clues, not intermediate entity nodes
+                    if filter_entities and neighbor_metadata["synsetType"] != "CONCEPT":
+                        print("skipping non-concept:", neighbor, neighbor_metadata["synsetType"])
+                        continue
                     single_word_label = self.get_single_word_label_v5(
                         neighbor_main_sense, neighbor_senses
                     )
@@ -579,7 +635,9 @@ class Game(object):
                         if nn_w_dists[single_word_label] > length:
                             nn_w_dists[single_word_label] = length
                             nn_w_synsets[single_word_label] = neighbor
-                main_sense, sense, domains = self.get_cached_labels_from_synset_v5(
+
+                # get domains
+                main_sense, sense, domains, _ = self.get_cached_labels_from_synset_v5(
                     synset, get_domains=True
                 )
                 for domain, score in domains.items():
@@ -948,7 +1006,7 @@ class Game(object):
                 shortest_path_labels = []
                 for synset in shortest_path:
                     # TODO: add graph for domains?
-                    main_sense, senses, _ = self.get_cached_labels_from_synset_v5(
+                    main_sense, senses, _, _ = self.get_cached_labels_from_synset_v5(
                         synset, get_domains=False
                     )
                     single_word_label = self.get_single_word_label_v5(
@@ -986,7 +1044,7 @@ class Game(object):
 
         if get_labels:
             for synset_id in current_labels:
-                main_sense, senses, domains = self.get_cached_labels_from_synset_v5(
+                main_sense, senses, domains, _ = self.get_cached_labels_from_synset_v5(
                     synset_id, get_domains=True
                 )
                 nodes_to_labels[synset_id] = main_sense
@@ -1081,10 +1139,16 @@ class Game(object):
             # load the synsets for the board word
             with open(self.file_dir + word + "_synsets", "r") as f:
                 synsets = [line.strip() for line in f]
+            # TODO: some definitions are missing - we could call
+            # get_cached_labels_from_synset_v5 to query for missing
+            # definitions
             dictionary_definitions_for_word = [
-                self.synset_to_definitions[synset]
+                definition
                 for synset in synsets
-                if synset in self.synset_to_definitions
+                for definition in (
+                    self.synset_to_definitions[synset]
+                    if synset in self.synset_to_definitions else []
+                )
             ]
 
             for dictionary_definition in dictionary_definitions_for_word:
@@ -1204,6 +1268,7 @@ if __name__ == "__main__":
     synset_senses_file = "synset_to_senses.txt"
     synset_glosses_file = "synset_to_glosses.txt"
     synset_domains_file = "synset_to_domains.txt"
+    synset_metadata_file = "synset_to_metadata.txt"
     game = Game(
         verbose=False,
         visualize=True,
@@ -1213,6 +1278,7 @@ if __name__ == "__main__":
         synset_senses_file=file_dir + synset_senses_file,
         synset_glosses_file=file_dir + synset_glosses_file,
         synset_domains_file=file_dir + synset_domains_file,
+        synset_metadata_file=file_dir + synset_metadata_file,
     )
     # Use None to randomize the game, or pass in fixed lists
     blue_words = [
