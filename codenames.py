@@ -3,18 +3,17 @@ import itertools
 import os
 import random
 import re
-import requests
 import sys
 import urllib
 import string
 import argparse
 import gzip
 
-import numpy as np
-# from annoy import AnnoyIndex
-
 from nltk.corpus import wordnet as wn
 
+import networkx as nx
+import numpy as np
+import requests
 from tqdm import tqdm
 
 # Embeddings
@@ -38,6 +37,8 @@ blacklist = set([
 """
 Configuration for running the game
 """
+
+
 class CodenamesConfiguration(object):
     def __init__(self, verbose=False, visualize=False):
         self.verbose = verbose
@@ -69,7 +70,6 @@ class Codenames(object):
         self.num_emb_batches = num_emb_batches
         self.emb_size = emb_size
         self.file_dir = file_dir
-
         # pre-process
 
         # data from: https://github.com/uhh-lt/path2vec#pre-trained-models-and-datasets
@@ -105,7 +105,6 @@ class Codenames(object):
             return Babelnet(self.configuration)
 
         return None
-
 
     def _build_game(self, red=None, blue=None, save_path=None):
         """
@@ -280,7 +279,8 @@ class Codenames(object):
         domain_words = []
         for word in remaining_words:
             if clue in self.embedding.nn_to_domain_label[word]:
-                score = self.rescale_domain_score(self.embedding.nn_to_domain_label[word][clue])
+                score = self.rescale_domain_score(
+                    self.embedding.nn_to_domain_label[word][clue])
                 if score > domain_threshold:
                     domain_words.append((word, score))
         if len(domain_words) >= n:
@@ -334,7 +334,7 @@ class Codenames(object):
         if not os.path.exists(self.synset_labels_file):
             return {}
         synset_to_labels = {}
-        with open(self.synset_labels_file, 'r') as f:
+        with open(self.synset_labels_file, "r") as f:
             for line in f:
                 parts = line.strip().split("\t")
                 if len(parts) == 1:
@@ -349,7 +349,7 @@ class Codenames(object):
         return synset_to_labels
 
     def write_synset_labels(self, synset, labels):
-        with open(self.synset_labels_file, 'a') as f:
+        with open(self.synset_labels_file, "a") as f:
             f.write("\t".join([synset] + labels) + "\n")
 
     def get_labels_from_synset(self, synset):
@@ -364,10 +364,13 @@ class Codenames(object):
                 ?entry rdfs:label ?label
             }}
         }}
-        """.format(synset=synset.lstrip('bn:'))
+        """.format(
+            synset=synset.lstrip("bn:")
+        )
         query = queryString.replace(" ", "+")
         fmt = urllib.parse.quote(
-            "application/sparql-results+json".encode('UTF-8'), safe="")
+            "application/sparql-results+json".encode("UTF-8"), safe=""
+        )
         params = {
             "query": query,
             "format": fmt,
@@ -375,13 +378,11 @@ class Codenames(object):
         }
         payload_str = "&".join("%s=%s" % (k, v) for k, v in params.items())
 
-        res = requests.get('?'.join([url, payload_str]))
-        if 'label' not in res.json()['results']['bindings'][0]:
+        res = requests.get("?".join([url, payload_str]))
+        if "label" not in res.json()["results"]["bindings"][0]:
             return []
-        labels = [
-            r['label']['value']
-            for r in res.json()['results']['bindings']
-        ]
+        labels = [r["label"]["value"]
+                  for r in res.json()["results"]["bindings"]]
         return labels
 
     def get_babelnet_results(self, word, i):
@@ -403,27 +404,30 @@ class Codenames(object):
                 }} LIMIT 3
             }}
         }}
-        """.format(i=i, word=word)
+        """.format(
+            i=i, word=word
+        )
         query = queryString.replace(" ", "+")
         fmt = urllib.parse.quote(
-            "application/sparql-results+json".encode('UTF-8'), safe="")
+            "application/sparql-results+json".encode("UTF-8"), safe=""
+        )
         params = {
             "query": query,
             "format": fmt,
-            "key": "e3b6a00a-c035-4430-8d71-661cdf3d5837"
+            "key": "e3b6a00a-c035-4430-8d71-661cdf3d5837",
         }
         payload_str = "&".join("%s=%s" % (k, v) for k, v in params.items())
         try:
-            res = requests.get('?'.join([url, payload_str]))
+            res = requests.get("?".join([url, payload_str]))
             return [
                 (
-                    r['synset']['value'].split('/')[-1],
-                    r['broader']['value'].split('/')[-1],
-                    r['label']['value'],
-                    r['count']['value'],
-                    i
+                    r["synset"]["value"].split("/")[-1],
+                    r["broader"]["value"].split("/")[-1],
+                    r["label"]["value"],
+                    r["count"]["value"],
+                    i,
                 )
-                for r in res.json()['results']['bindings']
+                for r in res.json()["results"]["bindings"]
             ]
         except Exception as e:
             print(word, i)
@@ -533,13 +537,15 @@ class Codenames(object):
 
     def get_wibitaxonomy_categories_graph(self):
         file_dir = "data/wibi-ver2.0/taxonomies/"
-        categories_file = file_dir + 'WiBi.categorytaxonomy.ver1.0.txt'
-        return nx.read_adjlist(categories_file, delimiter='\t', create_using=nx.DiGraph())
+        categories_file = file_dir + "WiBi.categorytaxonomy.ver1.0.txt"
+        return nx.read_adjlist(
+            categories_file, delimiter="\t", create_using=nx.DiGraph()
+        )
 
     def get_wibitaxonomy_pages_graph(self):
         file_dir = "data/wibi-ver2.0/taxonomies/"
-        pages_file = file_dir + 'WiBi.pagetaxonomy.ver2.0.txt'
-        return nx.read_adjlist(pages_file, delimiter='\t', create_using=nx.DiGraph())
+        pages_file = file_dir + "WiBi.pagetaxonomy.ver2.0.txt"
+        return nx.read_adjlist(pages_file, delimiter="\t", create_using=nx.DiGraph())
 
     def get_wibitaxonomy(self, word, pages, categories):
         nn_w_dists = {}
@@ -549,7 +555,7 @@ class Codenames(object):
                 "namespace": "0",
                 "search": word,
                 "limit": "5",
-                "format": "json"
+                "format": "json",
             }
             req = self.sess.get(url=self.wikipedia_url, params=req_params)
             req_data = req.json()
@@ -578,7 +584,7 @@ class Codenames(object):
                 "namespace": "0",
                 "search": "Category:" + word,
                 "limit": "3",
-                "format": "json"
+                "format": "json",
             }
             req = self.sess.get(url=self.wikipedia_url, params=req_params)
             req_data = req.json()
@@ -726,7 +732,7 @@ class Codenames(object):
         limit = 5
 
         def recurse_word2vec(word, curr_limit):
-            if (curr_limit >= limit or word not in self.model.vocab):
+            if curr_limit >= limit or word not in self.model.vocab:
                 return
             neighbors = [x[0] for x in self.model.most_similar(word)]
             for neighbor in neighbors:
@@ -736,7 +742,7 @@ class Codenames(object):
                 neighbor = neighbor.lower()
                 if neighbor not in nn_w_dists:
                     nn_w_dists[neighbor] = dist
-                    recurse_word2vec(neighbor, curr_limit+1)
+                    recurse_word2vec(neighbor, curr_limit + 1)
                 nn_w_dists[neighbor] = min(dist, nn_w_dists[neighbor])
 
         recurse_word2vec(clue_word, 0)
@@ -770,7 +776,6 @@ class Codenames(object):
 
 
 if __name__ == "__main__":
-
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('embedding', type=str,
                         help='an embedding method to use when playing codenames')
@@ -782,59 +787,30 @@ if __name__ == "__main__":
 
     words = ['vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'table', 'lead', 'crown', 'bomb', 'bug', 'pipe', 'roulette',
              'australia', 'play', 'cloak', 'piano']
-
     random.shuffle(words)
+
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
         words[:10],
-        ['crown', 'bomb', 'bug', 'pipe', 'roulette', 'australia', 'play', 'cloak', 'table'],
-
-        # ['ray', 'mammoth', 'ivory', 'racket', 'bug'],
-        # ['laser', 'pan', 'stock', 'box', 'game'],
-        # ['bomb', 'car', 'moscow', 'pipe', 'hand'],
-        # ['penguin', 'stick', 'racket', 'scale', 'ivory'],
-        # ['horseshoe', 'amazon', 'thumb', 'spider', 'lion'],
-        # ["racket", "bug", "crown", "australia", "pipe"],
-        # ["bomb", "play", "roulette", "table", "cloak"],
-        # ["gas", "circle", "unicorn", "king", "cliff"],
-        # ["conductor", "diamond", "kid", "witch", "swing"],
-        # ["death", "litter", "car", "lemon", "conductor"],
-        # ["board", "web", "wave", "platypus", "mine"],
-        # ["conductor", "alps", "jack", "date", "europe"],
-        # ["cricket", "pirate", "day", "platypus", "pants"],
-        # ["plane", "loch ness", "tooth", "nurse", "laser"],
-        # ["match", "hawk", "life", "knife", "africa"],
+        ['crown', 'bomb', 'bug', 'pipe', 'roulette', 'australia', 'play', 'cloak', 'table']
     ]
+
     blue_words = [
         words[10:],
         ['vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'piano', 'lead'],
-        # ["racket", "bug", "crown", "australia", "pipe"],
-        # ["scuba diver", "play", "roulette", "table", "cloak"],
-        # ["buffalo", "diamond", "kid", "witch", "swing"],
-        # ["gas", "circle", "king", "unicorn", "cliff"],
-        # ["lemon", "death", "conductor", "litter", "car"],
-        # ['key', 'piano', 'lab', 'school', 'lead'],
-        # ['whip', 'tube', 'vacuum', 'lab', 'moon'],
-        # ['change', 'litter', 'scientist', 'worm', 'row'],
-        # ['boot', 'figure', 'cricket', 'ball', 'nut'],
-        # ['bear', 'figure', 'swing', 'shark', 'stream'],
-        # ["jupiter", "moon"], #"pipe", "racket", "bug"],
-        # ["phoenix", "beijing"], #"play", "table", "cloak"],
-        # ["bear", "bison"], #"diamond", "witch", "swing"],
-        # ["cap", "boot"], #"circle", "unicorn", "cliff"],
-        # ["india", "germany"], #"death", "litter", "car"],
     ]
 
-    configuration = CodenamesConfiguration(verbose=args.verbose, visualize=args.visualize)
+    configuration = CodenamesConfiguration(
+        verbose=args.verbose, visualize=args.visualize)
     game = Codenames(
         configuration=configuration,
-        # TODO: Initialize the embedding class based on the embedding arg passed in the command line
         embedding_type=args.embedding,
     )
 
     for i, (red, blue) in enumerate(zip(red_words, blue_words)):
 
-        game._build_game(red=red, blue=blue, save_path="tmp_babelnet_"+str(i))
+        game._build_game(red=red, blue=blue,
+                         save_path="tmp_babelnet_" + str(i))
         print("")
         print("TRIAL ", str(i), ":")
         print("RED WORDS: ", list(game.red_words))
