@@ -27271,3 +27271,21 @@ bn:03288028n	WIKIDATA	War which started on 20 March 2003
 bn:03288028n	WIKIQU	The Iraq War, also known as the War in Iraq, the Occupation of Iraq, the Second Gulf War, Gulf War II, and Gulf War 2, was an armed conflict in Iraq that consisted of two phases.
 bn:13229424n	WIKI	The Second Boer War, known variously as the Boer War, Anglo-Boer War, South African War or Anglo-Boer South African War, started on 11 October 1899 and ended on 31 May 1902.
 bn:13229424n	WIKIDATA	War between South African Republic and the United Kingdom
+bn:00061560n	WN	A dramatic or musical entertainment
+bn:00061560n	WIKI	Performance is completion of a task with application of knowledge, skills and abilities.
+bn:00061560n	WIKIDATA	Performing arts event, single representation of a performing arts production
+bn:00061560n	OMWIKI	An act where somebody performs music, theater or a similar art in a live show or concert.
+bn:00028609n	WN	The art of writing and producing plays
+bn:00028609n	WIKI	The word Dramaturgy, is from the greek δραματουργέιν 'to write a drama'.
+bn:00028609n	WIKI	Theatre or theater is a collaborative form of fine art that uses live performers, typically actors or actresses, to present the experience of a real or imagined event before a live audience in a specific place, often a stage.
+bn:00028609n	WIKIDIS	A branch of the performing arts, often referred to as "the stage"
+bn:00028609n	WIKIDATA	Collaborative form of fine art
+bn:00028609n	WIKIDATA	Art of dramatic composition
+bn:00028609n	OMWIKI	The institution of dramatic performance.
+bn:00028609n	WIKT	The art of dramatic composition for the stage.
+bn:00028609n	WIKT	Drama or performance as a profession or artform.
+bn:00028609n	WIKTLB	Art of dramaturgic composition.
+bn:00028609n	WIKIQU	Theatre, enjoys the distinction of two spellings: in British English, "theater" and in American English, "theater".
+bn:00037308n	WN	A hose used for watering a lawn or garden
+bn:00037308n	WIKI	A garden hose, hosepipe, or simply hose is a flexible tube used to convey water.
+bn:00037308n	WIKT	A length of hose as above, usually with a male connector on one end and a female connector on the other end, which can carry water from a hose bib for use on a garden or lawn.

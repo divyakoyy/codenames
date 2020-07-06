@@ -4,6 +4,7 @@ import itertools
 import os
 import random
 import re
+import string
 import sys
 import urllib
 
@@ -132,6 +133,7 @@ class Game(object):
         self.nn_synsets = dict()
         self.domains_nn = dict()
         self.word_to_df = self.get_df()
+        self.dictionary_definitions_for_word = dict()
 
         for word in words:
             # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
@@ -149,8 +151,10 @@ class Game(object):
                 self.nn_synsets[word],
                 self.domains_nn[word],
                 self.graphs[word],
+                self.dictionary_definitions_for_word[word],
             ) = self.get_babelnet_v5(word)
-        print(self.domains_nn)
+        if self.verbose:
+            print(self.domains_nn)
 
     def _generate_board(self, red=None, blue=None):
         # for now let's just set 5 red words and 5 blue words
@@ -308,7 +312,6 @@ class Game(object):
             for i in range(1, depth + 1):
                 l += self.get_babelnet_results(word.lower(), i)
                 l += self.get_babelnet_results(word.capitalize(), i)
-            # print(word, len(l))
             for (synset, broader, label, count, i) in l:
                 f.write("\t".join([word, synset, broader, label, str(i)]) + "\n")
                 if len(label.split("_")) > 1:
@@ -424,7 +427,8 @@ class Game(object):
         if synset not in self.synset_to_main_sense:
             with open(self.synset_main_sense_file, "a") as f:
                 if "mainSense" not in json:
-                    print("no main sense for", synset)
+                    if self.verbose:
+                        print("no main sense for", synset)
                     main_sense = synset
                 else:
                     main_sense = json["mainSense"]
@@ -504,19 +508,30 @@ class Game(object):
         single_word = len(parts) == 1 or parts[1].startswith("(")
         return parts[0], single_word
 
-    def get_single_word_label_v5(self, lemma, senses):
+    def get_single_word_labels_v5(self, lemma, senses, split_multi_word=True):
         """"""
+        single_word_labels = []
         parsed_lemma, single_word = self.parse_lemma_v5(lemma)
         if single_word:
-            return parsed_lemma
+            single_word_labels.append((parsed_lemma, 1))
+        elif split_multi_word:
+            single_word_labels.extend(
+                zip(parsed_lemma.split("_"), [0.9 for _ in parsed_lemma.split("_")])
+            )
 
         for sense in senses:
-            # print("lemma", lemma, "sense ", sense)
             parsed_lemma, single_word = self.parse_lemma_v5(sense)
             if single_word:
-                return parsed_lemma
-        # didn't find a single word label
-        return lemma.split("#")[0]
+                single_word_labels.append((parsed_lemma, 0.9))
+            elif split_multi_word:
+                single_word_labels.extend(
+                    zip(parsed_lemma.split("_"), [0.7 for _ in parsed_lemma.split("_")])
+                )
+        if len(single_word_labels) == 0:
+            # can only happen if split_multi_word = False
+            assert not split_multi_word
+            return [(lemma.split("#")[0], 1)]
+        return single_word_labels
 
     def get_df(self):
         dataset = api.load("text8")
@@ -596,6 +611,7 @@ class Game(object):
         nn_w_dists = {}
         nn_w_synsets = {}
         nn_w_domains = {}
+        dictionary_definitions_for_word = []
         with open(self.file_dir + word + "_synsets", "r") as f:
             for line in f:
                 synset = line.strip()
@@ -623,18 +639,20 @@ class Game(object):
 
                     # Note: this filters entity clues, not intermediate entity nodes
                     if filter_entities and neighbor_metadata["synsetType"] != "CONCEPT":
-                        print("skipping non-concept:", neighbor, neighbor_metadata["synsetType"])
+                        if self.verbose:
+                            print("skipping non-concept:", neighbor, neighbor_metadata["synsetType"])
                         continue
-                    single_word_label = self.get_single_word_label_v5(
-                        neighbor_main_sense, neighbor_senses
+                    single_word_labels = self.get_single_word_labels_v5(
+                        neighbor_main_sense, neighbor_senses, split_multi_word=True
                     )
-                    if single_word_label not in nn_w_dists:
-                        nn_w_dists[single_word_label] = length
-                        nn_w_synsets[single_word_label] = neighbor
-                    else:
-                        if nn_w_dists[single_word_label] > length:
-                            nn_w_dists[single_word_label] = length
+                    for single_word_label, label_score in single_word_labels:
+                        if single_word_label not in nn_w_dists:
+                            nn_w_dists[single_word_label] = length * label_score
                             nn_w_synsets[single_word_label] = neighbor
+                        else:
+                            if nn_w_dists[single_word_label] > length:
+                                nn_w_dists[single_word_label] = length * label_score
+                                nn_w_synsets[single_word_label] = neighbor
 
                 # get domains
                 main_sense, sense, domains, _ = self.get_cached_labels_from_synset_v5(
@@ -642,11 +660,23 @@ class Game(object):
                 )
                 for domain, score in domains.items():
                     nn_w_domains[domain] = float(score)
+
+                # get definitions
+                # TODO: some definitions are missing - we could call
+                # get_cached_labels_from_synset_v5 to query for missing
+                # definitions
+                if synset in self.synset_to_definitions:
+                    dictionary_definitions_for_word.extend(
+                        word.lower().translate(str.maketrans('', '', string.punctuation))
+                        for definition in self.synset_to_definitions[synset]
+                        for word in definition.split()
+                    )
         return (
             {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != word},
             nn_w_synsets,
             nn_w_domains,
             G,
+            dictionary_definitions_for_word
         )
 
     def add_lemmas(self, d, ss, hyper, n):
@@ -1009,10 +1039,13 @@ class Game(object):
                     main_sense, senses, _, _ = self.get_cached_labels_from_synset_v5(
                         synset, get_domains=False
                     )
-                    single_word_label = self.get_single_word_label_v5(
-                        main_sense, senses
+                    single_word_labels = self.get_single_word_labels_v5(
+                        main_sense, senses, split_multi_word=True
                     )
-                    shortest_path_labels.append(single_word_label)
+                    # pick the single word label with max value
+                    # TODO: incorporate IDF and other heuristics here
+                    single_word_label = max(single_word_labels, key=lambda k: k[1])
+                    shortest_path_labels.append(single_word_label[0])
 
                 print(
                     "shortest path from",
@@ -1128,33 +1161,11 @@ class Game(object):
         domain_gap=0.3,
         use_idf=True,
     ):
-        # the dictionary definitions of words (as given from their babelnet synset)
-        # used as a heuristic for candidate clue words
-        dictionary_definitions_of_chosen_words = []
+
         potential_clues = set()
         for word in chosen_words:
             nns = self.weighted_nn[word]
             potential_clues.update(nns)
-            # TODO: we should load this at start of the game
-            # load the synsets for the board word
-            with open(self.file_dir + word + "_synsets", "r") as f:
-                synsets = [line.strip() for line in f]
-            # TODO: some definitions are missing - we could call
-            # get_cached_labels_from_synset_v5 to query for missing
-            # definitions
-            dictionary_definitions_for_word = [
-                definition
-                for synset in synsets
-                for definition in (
-                    self.synset_to_definitions[synset]
-                    if synset in self.synset_to_definitions else []
-                )
-            ]
-
-            for dictionary_definition in dictionary_definitions_for_word:
-                dictionary_definitions_of_chosen_words.extend(
-                    dictionary_definition.split()
-                )
 
         # try to get a domain clue
         domains = {}
@@ -1193,31 +1204,25 @@ class Game(object):
         highest_score = float("-inf")
 
         for clue in potential_clues:
-            blue_word_counts = []
-            red_word_counts = []
+            blue_word_scores = {}
+            red_word_scores = {}
             for blue_word in chosen_words:
-                if clue in self.weighted_nn[blue_word]:
-                    blue_word_counts.append(self.weighted_nn[blue_word][clue])
-                else:
-                    blue_word_counts.append(-1.0)
+                blue_word_scores[blue_word] = self.get_score(clue, blue_word)
             for red_word in self.red_words:
-                if clue in self.weighted_nn[red_word]:
-                    red_word_counts.append(self.weighted_nn[red_word][clue])
-
-            # the larger the idf is, the more uncommon the word
+                red_word_scores[red_word] = self.get_score(clue, red_word)
             idf = 0
             if use_idf:
-                idf = (1.0 / self.word_to_df[clue]) if clue in self.word_to_df else 1.0
-
-            is_in_dict_definition = (
-                1.0 if clue in dictionary_definitions_for_word else 0.0
-            )
-
+                idf = self.get_idf_score(clue)
+            is_in_dict_definition = 0.0
+            for word in chosen_words:
+                if clue in self.dictionary_definitions_for_word[word]:
+                    is_in_dict_definition = 1.0
+                    break
             score = (
-                sum(blue_word_counts)
-                - (penalty * sum(red_word_counts))
+                sum(v for v in blue_word_scores.values())
+                - (penalty * sum(v for v in red_word_scores.values()))
                 - (10 * idf)
-                + (is_in_dict_definition)
+                + is_in_dict_definition
             )
             # if score >= highest_score and self.verbose:
             #     print(clue, score, ">= highest_scoring_clue")
@@ -1228,6 +1233,10 @@ class Game(object):
                 highest_scoring_clues.append(clue)
 
         return highest_scoring_clues, highest_score
+
+    def get_idf_score(self, clue):
+        # the larger the idf is, the more uncommon the word
+        return (1.0 / self.word_to_df[clue]) if clue in self.word_to_df else 1.0
 
     def choose_words(self, n, clue, remaining_words, domain_threshold=0.45):
         # given a clue word, choose the n words from remaining_words that most relates to the clue
@@ -1258,7 +1267,12 @@ class Game(object):
         :param possible_words: n-tuple of strings
         :return: score = sum(weighted_nn[possible_word][clue] for possible_word in possible_words)
         """
-        return self.weighted_nn[word][clue] if clue in self.weighted_nn[word] else -1000
+        # return self.weighted_nn[word][clue] if clue in self.weighted_nn[word] else -1000
+        if clue in self.weighted_nn[word]:
+            score = self.weighted_nn[word][clue]
+        else:
+            score = -1.0
+        return score
 
 
 if __name__ == "__main__":
@@ -1281,7 +1295,7 @@ if __name__ == "__main__":
         synset_metadata_file=file_dir + synset_metadata_file,
     )
     # Use None to randomize the game, or pass in fixed lists
-    blue_words = [
+    red_words = [
         # None,
         # None,
         # None,
@@ -1304,7 +1318,7 @@ if __name__ == "__main__":
         # ["plane", "loch ness", "tooth", "nurse", "laser"],
         # ["match", "hawk", "life", "knife", "africa"],
     ]
-    red_words = [
+    blue_words = [
         # None,
         # None,
         # None,
