@@ -1,4 +1,3 @@
-import gzip
 import heapq
 import itertools
 import os
@@ -7,96 +6,71 @@ import re
 import string
 import sys
 import urllib
+import string
+import argparse
+import gzip
 
-import gensim.downloader as api
-import matplotlib.pyplot as plt
+from nltk.corpus import wordnet as wn
 
-# from annoy import AnnoyIndex
 import networkx as nx
 import numpy as np
 import requests
-from gensim.corpora import Dictionary
-from networkx.drawing.nx_agraph import graphviz_layout, write_dot
-from networkx.exception import NodeNotFound
-from nltk.corpus import wordnet as wn
 from tqdm import tqdm
 
+# Embeddings
+from babelnet import Babelnet
 
 sys.path.insert(0, "../")
 
-blacklist = set(
-    [
-        "s00081546n",  # term
-        "s00021547n",  # concept
-        "s00026969n",  # dictionary entry
-        "s00058442n",  # object
-        "s00020461n",  # semasiology
-        "s00045800n",  # idea
-        "s00050906n",  # lexicon
-        "s00061984n",  # philosophy
-        "s00081546n",  # word
-    ]
-)
+# TODO Anna: Remove this?
+blacklist = set([
+    "s00081546n",  # term
+    "s00021547n",  # concept
+    "s00026969n",  # dictionary entry
+    "s00058442n",  # object
+    "s00020461n",  # semasiology
+    "s00045800n",  # idea
+    "s00050906n",  # lexicon
+    "s00061984n",  # philosophy
+    "s00081546n"  # word
+])
 
-babelnet_relationships_limits = {
-    "HYPERNYM": float("inf"),
-    "OTHER": 20,
-    "MERONYM": 20,
-    "HYPONYM": 20,
-}
+"""
+Configuration for running the game
+"""
 
 
-class Game(object):
-    def __init__(
-        self,
-        ann_graph_path=None,
-        num_emb_batches=22,
-        emb_type="custom",
-        emb_size=200,
-        file_dir=None,
-        verbose=False,
-        visualize=False,
-        synset_labels_file=None,
-        synset_main_sense_file=None,
-        synset_senses_file=None,
-        synset_glosses_file=None,
-        synset_domains_file=None,
-        synset_metadata_file=None,
-    ):
-        """
-        Variables:
-        <ann_graph_path>: path to AnnoyIndex graph (Approximate Neares Neighbors)
-        see: https://github.com/spotify/annoy
-        <num_emb_batches>: number of batches of word embeddings
-        <emb_type>: 'hsm', 'glove', 'multisense'
-        <emb_size>: embedding dimension size
-        """
-        self.red_words = set()
-        self.blue_words = set()
-        self.weighted_nn = dict()
-        self.nn_synsets = dict()
-        self.graphs = dict()
-        # maps codewords' (from 'codewords.txt') line index to word
-        self.idx_to_word = dict()
-        self.num_emb_batches = num_emb_batches
-
-        self.emb_size = emb_size
+class CodenamesConfiguration(object):
+    def __init__(self, verbose=False, visualize=False):
         self.verbose = verbose
         self.visualize = visualize
-        self.file_dir = file_dir
-        self.synset_main_sense_file = synset_main_sense_file
-        self.synset_senses_file = synset_senses_file
-        self.synset_glosses_file = synset_glosses_file
-        self.synset_domains_file = synset_domains_file
-        self.synset_metadata_file = synset_metadata_file
-        (
-            self.synset_to_main_sense,
-            self.synset_to_senses,
-            self.synset_to_definitions,
-            self.synset_to_domains,
-            self.synset_to_metadata,
-        ) = self.load_synset_labels_v5()
 
+
+class Codenames(object):
+
+    def __init__(
+        self, ann_graph_path=None, num_emb_batches=22, embedding_type="custom", emb_size=200, file_dir=None,
+        configuration=None
+    ):
+        """
+        # TODO: Clean up this documenation
+        :param ann_graph_path: path to AnnoyIndex graph (Approximate Neares Neighbors)
+        see: https://github.com/spotify/annoy
+        :param num_emb_batches: number of batches of word embeddings
+        :param embedding_type: 'hsm', 'glove', 'multisense'
+        :param embedding: an embedding object that codenames will use to play
+
+        """
+        # Intialize variables
+        if configuration != None:
+            self.configuration = configuration
+        else:
+            self.configuration = CodenamesConfiguration()
+        self.embedding = self._get_embedding_from_type(embedding_type)
+        self.weighted_nn = dict()
+        self.num_emb_batches = num_emb_batches
+        self.emb_size = emb_size
+        self.file_dir = file_dir
         # pre-process
 
         # data from: https://github.com/uhh-lt/path2vec#pre-trained-models-and-datasets
@@ -108,7 +82,7 @@ class Game(object):
 
         # self.graph = self.get_wikidata_graph()
 
-        # self.graph = self.build_graph(emb_type=emb_type, embeddings=self.embeddings, num_trees = 100, metric = 'angular')
+        # self.graph = self.build_graph(emb_type=embedding_type, embeddings=self.embeddings, num_trees = 100, metric = 'angular')
 
         # self.graph.save('glove.ann')
 
@@ -118,23 +92,38 @@ class Game(object):
 
         # self.model = gensim.models.KeyedVectors.load_word2vec_format('/Users/divyakoyyalagunta/Desktop/Research/word2vec_google_news/GoogleNews-vectors-negative300.bin', binary=True)
 
-    # GAME SET-UP
+    """
+    Codenames game setup
+    """
+
+    def _get_embedding_from_type(self, embedding_type):
+        """
+        :param embedding_type: 'hsm', 'glove', 'multisense'
+        returns the embedding object that will be used to play
+
+        """
+        if embedding_type == 'babelnet':
+            return Babelnet(self.configuration)
+
+        return None
 
     def _build_game(self, red=None, blue=None, save_path=None):
-        self._generate_board(red, blue)
-        words = self.blue_words.union(self.red_words)
-        if self.verbose:
-            print("blue and red words:", words)
+        """
+        :param red: optional list of strings of opponent team's words
+        :param blue: optional list of strings of our team's words
+        :param save_path: optional directory path to save data between games
+        :return: None
+        """
+        self._generate_board_words(red, blue)
+        if self.configuration.verbose:
+            print("red words:", red)
+            print("blue words:", blue)
         self.sess = requests.Session()
         self.wikipedia_url = "https://en.wikipedia.org/w/api.php"
         self.save_path = save_path
-        # reset weighted_nn between trials
         self.weighted_nn = dict()
-        self.nn_synsets = dict()
-        self.domains_nn = dict()
-        self.word_to_df = self.get_df()
-        self.dictionary_definitions_for_word = dict()
 
+        words = self.blue_words.union(self.red_words)
         for word in words:
             # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
             # self.weighted_nn[word] = self.get_fake_knn(word)
@@ -146,34 +135,183 @@ class Game(object):
             # self.weighted_nn[word] = self.get_wibitaxonomy(word, pages=True, categories=True)
             # self.weighted_nn[word] = self.get_word2vec_knn(word)
             # self.weighted_nn[word] = self.get_babelnet(word)
-            (
-                self.weighted_nn[word],
-                self.nn_synsets[word],
-                self.domains_nn[word],
-                self.graphs[word],
-                self.dictionary_definitions_for_word[word],
-            ) = self.get_babelnet_v5(word)
-        if self.verbose:
-            print(self.domains_nn)
+            self.weighted_nn[word] = self.embedding.get_weighted_nn(word)
 
-    def _generate_board(self, red=None, blue=None):
-        # for now let's just set 5 red words and 5 blue words
+    def _generate_board_words(self, red=None, blue=None):
+        """
+        :param red: optional list of strings of opponent team's words
+        :param blue: optional list of strings of our team's words
+        :return: None
+        """
+        idx_to_word = dict()
 
         with open("data/codewords.txt") as file:
             for i, line in enumerate(file):
                 word = line.strip().lower()
-                self.idx_to_word[i] = word
+                idx_to_word[i] = word
 
-        rand_idxs = random.sample(range(0, len(self.idx_to_word.keys())), 10)
+        rand_idxs = random.sample(range(0, len(idx_to_word.keys())), 10)
 
-        self.red_words = set([self.idx_to_word[idx] for idx in rand_idxs[:5]])
-        self.blue_words = set([self.idx_to_word[idx] for idx in rand_idxs[5:]])
+        self.red_words = set([idx_to_word[idx] for idx in rand_idxs[:5]])
+        self.blue_words = set([idx_to_word[idx] for idx in rand_idxs[5:]])
 
         if red is not None:
             self.red_words = set(red)
         if blue is not None:
             self.blue_words = set(blue)
 
+    def get_clue(self, n, penalty):
+        # where blue words are our team's words and red words are the other team's words
+        # potential clue candidates are the intersection of weighted_nns[word] for each word in blue_words
+        # we need to repeat this for the (|blue_words| C n) possible words we can give a clue for
+
+        pq = []
+        for word_set in itertools.combinations(self.blue_words, n):
+            highest_clues, score = self.get_highest_clue(
+                word_set, penalty)
+            # min heap, so push negative score
+            heapq.heappush(pq, (-1 * score, highest_clues, word_set))
+
+        # sliced_labels = self.get_cached_labels_from_synset(clue)
+        # main_sense, _senses = self.get_cached_labels_from_synset_v5(clue)
+
+        best_clues = []
+        best_scores = []
+        count = 0
+
+        while pq:
+            score, clues, word_set = heapq.heappop(pq)
+
+            if count >= 5:
+                break
+
+            if self.configuration.visualize:  # and count == 0:
+                for clue in clues:
+                    self.embedding.get_intersecting_graphs(word_set, clue)
+
+            best_clues.append(clues)
+            best_scores.append(score)
+
+            count += 1
+
+        return best_scores, best_clues
+
+    def rescale_domain_score(self, score):
+        if score < 0:
+            return score * -1 / 2.5
+        else:
+            return score
+
+    def get_highest_clue(self, chosen_words, penalty=1.0, domain_threshold=0.45, domain_gap=0.3):
+
+        potential_clues = set()
+        for word in chosen_words:
+            nns = self.weighted_nn[word]
+            potential_clues.update(nns)
+
+        # TODO : Instead of this override behavior, add domains to nn_w_dist
+        # try to get a domain clue
+        domains = {}
+        for word in set(chosen_words).union(self.red_words):
+            for domain, score in self.embedding.nn_to_domain_label[word].items():
+                score = self.rescale_domain_score(score)
+                if score > domain_threshold:
+                    if domain not in domains:
+                        domains[domain] = dict()
+                    domains[domain][word] = score
+        domain_clues = []
+        for domain, word_scores in domains.items():
+            if all([word in word_scores for word in chosen_words]):
+                # get min word_set domain score
+                min_chosen_words_score = min(
+                    [word_scores[word] for word in chosen_words])
+                # get max red_words domain score
+                red_words_domain_scores = [
+                    word_scores[word] for word in self.red_words.intersection(word_scores.keys())]
+                if len(red_words_domain_scores) == 0:
+                    max_red_words_score = 0
+                else:
+                    max_red_words_score = max(
+                        red_words_domain_scores) + domain_gap
+
+                if min_chosen_words_score > max_red_words_score:
+                    domain_clues.append(domain)
+        if len(domain_clues) >= 1:
+            return domain_clues, 1  # TODO: return different score?
+
+        potential_clues = potential_clues - \
+            self.blue_words.union(self.red_words)
+
+        highest_scoring_clues = []
+        highest_score = float("-inf")
+
+        for clue in potential_clues:
+            blue_word_counts = []
+            red_word_counts = []
+            for blue_word in chosen_words:
+                if clue in self.weighted_nn[blue_word]:
+                    blue_word_counts.append(self.weighted_nn[blue_word][clue])
+                else:
+                    blue_word_counts.append(-1.0)
+            for red_word in self.red_words:
+                if clue in self.weighted_nn[red_word]:
+                    red_word_counts.append(self.weighted_nn[red_word][clue])
+
+            # Give embedding methods the opportunity to rescale the score using their own heuristics
+            embedding_score = self.embedding.rescale_score(
+                chosen_words, clue, self.red_words)
+
+            score = sum(blue_word_counts) - (penalty *
+                                             sum(red_word_counts)) + embedding_score
+            # if score >= highest_score and self.verbose:
+            #     print(clue, score, ">= highest_scoring_clue")
+            if score > highest_score:
+                highest_scoring_clues = [clue]
+                highest_score = score
+            elif score == highest_score:
+                highest_scoring_clues.append(clue)
+
+        return highest_scoring_clues, highest_score
+
+    def choose_words(self, n, clue, remaining_words, domain_threshold=0.45):
+        # given a clue word, choose the n words from remaining_words that most relates to the clue
+
+        pq = []
+
+        domain_words = []
+        for word in remaining_words:
+            if clue in self.embedding.nn_to_domain_label[word]:
+                score = self.rescale_domain_score(
+                    self.embedding.nn_to_domain_label[word][clue])
+                if score > domain_threshold:
+                    domain_words.append((word, score))
+        if len(domain_words) >= n:
+            # This is a domain clue, choose domain words
+            return domain_words
+
+        for word in remaining_words:
+            score = self.get_score(clue, word)
+            # min heap, so push negative score
+            heapq.heappush(pq, (-1 * score, word))
+
+        ret = []
+        for i in range(n):
+            ret.append(heapq.heappop(pq))
+        return ret
+
+    def get_score(self, clue, word):
+        """
+        :param clue: string
+        :param possible_words: n-tuple of strings
+        :return: score = sum(weighted_nn[possible_word][clue] for possible_word in possible_words)
+        """
+        return self.weighted_nn[word][clue] if clue in self.weighted_nn[word] else -1000
+
+    """
+    Other embedding methods
+    """
+
+    # TODO Anna: Do we need all these prior to v5 methods anymore?
     def get_random_n_labels(self, labels, n, delimiter=" "):
         if len(labels) > 0:
             rand_indices = list(range(len(labels)))
@@ -185,14 +323,10 @@ class Game(object):
         if synset not in self.synset_to_labels:
             labels = self.get_labels_from_synset(synset)
             self.write_synset_labels(synset, labels)
-            filtered_labels = [
-                label
-                for label in labels
-                if len(label.split("_")) == 1 or label.split("_")[1][0] == "("
-            ]
-            sliced_labels = (
-                self.get_random_n_labels(filtered_labels, 3, delimiter) or synset
-            )
+            filtered_labels = [label for label in labels if len(
+                label.split("_")) == 1 or label.split("_")[1][0] == '(']
+            sliced_labels = self.get_random_n_labels(
+                filtered_labels, 3, delimiter) or synset
             self.synset_to_labels[synset] = sliced_labels
         else:
             sliced_labels = self.synset_to_labels[synset]
@@ -209,12 +343,10 @@ class Game(object):
                     # no labels found for this synset
                     continue
                 synset, labels = parts[0], parts[1:]
-                filtered_labels = [
-                    label
-                    for label in labels
-                    if len(label.split("_")) == 1 or label.split("_")[1][0] == "("
-                ]
-                sliced_labels = self.get_random_n_labels(filtered_labels, 3) or synset
+                filtered_labels = [label for label in labels if len(
+                    label.split("_")) == 1 or label.split("_")[1][0] == '(']
+                sliced_labels = self.get_random_n_labels(
+                    filtered_labels, 3) or synset
                 synset_to_labels[synset] = sliced_labels
         return synset_to_labels
 
@@ -251,7 +383,8 @@ class Game(object):
         res = requests.get("?".join([url, payload_str]))
         if "label" not in res.json()["results"]["bindings"][0]:
             return []
-        labels = [r["label"]["value"] for r in res.json()["results"]["bindings"]]
+        labels = [r["label"]["value"]
+                  for r in res.json()["results"]["bindings"]]
         return labels
 
     def get_babelnet_results(self, word, i):
@@ -309,11 +442,12 @@ class Game(object):
         hyponym_count = {}
         assert self.save_path is not None
         with open(self.save_path, "a") as f:
-            for i in range(1, depth + 1):
+            for i in range(1, depth+1):
                 l += self.get_babelnet_results(word.lower(), i)
                 l += self.get_babelnet_results(word.capitalize(), i)
             for (synset, broader, label, count, i) in l:
-                f.write("\t".join([word, synset, broader, label, str(i)]) + "\n")
+                f.write(
+                    "\t".join([word, synset, broader, label, str(i)]) + "\n")
                 if len(label.split("_")) > 1:
                     continue
                 if label not in nn:
@@ -327,357 +461,9 @@ class Game(object):
                 del nn[label]
         return {k: 1.0 / (v + 1) for k, v in nn.items() if k != word}
 
-    def get_cached_labels_from_synset_v5(
-        self, synset, get_domains=False, get_metadata=False
-    ):
-        """This actually gets the main_sense but also writes all senses/glosses"""
-        if (
-            synset not in self.synset_to_main_sense
-            or (get_domains and synset not in self.synset_to_domains)
-            or (get_metadata and synset not in self.synset_to_metadata)
-        ):
-            print("getting query", synset)
-            # assert False
-            labels_json = self.get_labels_from_synset_v5_json(synset)
-            self.write_synset_labels_v5(synset, labels_json)
 
-            # filtered_labels = [label for label in labels if len(label.split("_")) == 1 or label.split("_")[1][0] == '(']
-            # self.synset_to_labels[synset] = self.get_random_n_labels(filtered_labels, 3) or synset
-        # sliced_labels = self.synset_to_labels[synset]
-        main_sense = self.synset_to_main_sense[synset]
-        senses = self.synset_to_senses[synset]
-        domains = self.synset_to_domains[synset] if get_domains else {}
-        metadata = self.synset_to_metadata[synset] if get_metadata else {}
-        return main_sense, senses, domains, metadata
+### WORDNET ###
 
-    def load_synset_labels_v5(self):
-        """Load synset_to_main_sense"""
-        synset_to_main_sense = {}
-        synset_to_senses = {}
-        synset_to_definitions = {}
-        synset_to_domains = {}
-        synset_to_metadata = {}
-        if os.path.exists(self.synset_main_sense_file):
-            with open(self.synset_main_sense_file, "r") as f:
-                for line in f:
-                    parts = line.strip().split("\t")
-                    synset, main_sense = parts[0], parts[1]
-                    synset_to_main_sense[synset] = main_sense
-                    synset_to_senses[synset] = set()
-                    # synset_to_domains[synset] = dict()
-                    # TODO: uncomment and remove initialization below
-        if os.path.exists(self.synset_senses_file):
-            with open(self.synset_senses_file, "r") as f:
-                for line in f:
-                    parts = line.strip().split("\t")
-                    assert len(parts) == 5
-                    synset, full_lemma, simple_lemma, source, pos = parts
-                    if source == "WIKIRED":
-                        continue
-                    synset_to_senses[synset].add(simple_lemma)
-        if os.path.exists(self.synset_glosses_file):
-            with open(self.synset_glosses_file, "r") as f:
-                for line in f:
-                    parts = line.strip().split("\t")
-                    assert len(parts) == 3
-                    synset, source, definition = parts
-                    if synset not in synset_to_definitions:
-                        synset_to_definitions[synset] = set()
-                    if source == "WIKIRED":
-                        continue
-                    synset_to_definitions[synset].add(definition)
-        if os.path.exists(self.synset_domains_file):
-            with open(self.synset_domains_file, "r") as f:
-                for line in f:
-                    parts = line.strip().split("\t")
-                    assert len(parts) == 3
-                    synset, domain, score = parts
-                    if synset not in synset_to_domains:
-                        synset_to_domains[synset] = dict()
-                    if domain == "NONE":
-                        continue
-                    score == float(score)
-                    if domain in synset_to_domains[synset]:
-                        synset_to_domains[synset][domain] = max(
-                            synset_to_domains[synset][domain], score
-                        )
-                    else:
-                        synset_to_domains[synset][domain] = score
-        if os.path.exists(self.synset_metadata_file):
-            with open(self.synset_metadata_file, "r") as f:
-                for line in f:
-                    parts = line.strip().split("\t")
-                    assert len(parts) == 3
-                    synset, keyConcept, synsetType = parts
-                    synset_to_metadata[synset] = {
-                        "keyConcept": keyConcept,
-                        "synsetType": synsetType,
-                    }
-
-        return (
-            synset_to_main_sense,
-            synset_to_senses,
-            synset_to_definitions,
-            synset_to_domains,
-            synset_to_metadata,
-        )
-
-    def write_synset_labels_v5(self, synset, json):
-        """Write to synset_main_sense_file, synset_senses_file, and synset_glosses_file"""
-        if synset not in self.synset_to_main_sense:
-            with open(self.synset_main_sense_file, "a") as f:
-                if "mainSense" not in json:
-                    if self.verbose:
-                        print("no main sense for", synset)
-                    main_sense = synset
-                else:
-                    main_sense = json["mainSense"]
-                f.write("\t".join([synset, main_sense]) + "\n")
-                self.synset_to_main_sense[synset] = main_sense
-
-        if synset not in self.synset_to_senses:
-            self.synset_to_senses[synset] = set()
-            with open(self.synset_senses_file, "a") as f:
-                self.synset_to_senses[synset] = set()
-                if "senses" in json:
-                    for sense in json["senses"]:
-                        properties = sense["properties"]
-                        line = [
-                            synset,
-                            properties["fullLemma"],
-                            properties["simpleLemma"],
-                            properties["source"],
-                            properties["pos"],
-                        ]
-                        f.write("\t".join(line) + "\n")
-                        if properties["source"] != "WIKIRED":
-                            self.synset_to_senses[synset].add(properties["simpleLemma"])
-
-        if synset not in self.synset_to_definitions:
-            self.synset_to_definitions[synset] = set()
-            with open(self.synset_glosses_file, "a") as f:
-                if "glosses" in json:
-                    if len(json["glosses"]) == 0:
-                        f.write("\t".join([synset, "NONE", "NONE"]) + "\n")
-                    else:
-                        for gloss in json["glosses"]:
-                            line = [synset, gloss["source"], gloss["gloss"]]
-                            f.write("\t".join(line) + "\n")
-                            if gloss["source"] != "WIKIRED":
-                                self.synset_to_definitions[synset].add(gloss["gloss"])
-
-        if synset not in self.synset_to_domains:
-            self.synset_to_domains[synset] = dict()
-            with open(self.synset_domains_file, "a") as f:
-                if "domains" in json:
-                    for domain, score in json["domains"].items():
-                        if domain in self.synset_to_domains[synset]:
-                            self.synset_to_domains[synset][domain] = max(
-                                self.synset_to_domains[synset][domain], score
-                            )
-                        else:
-                            self.synset_to_domains[synset][domain] = score
-                        f.write("\t".join([synset, domain, str(score)]) + "\n")
-                if "domains" not in json or len(json["domains"]) == 0:
-                    f.write("\t".join([synset, "NONE", "-100"]) + "\n")
-
-        if synset not in self.synset_to_metadata:
-            with open(self.synset_metadata_file, "a") as f:
-                keyConcept = "NONE"
-                synsetType = "NONE"
-                if "bkeyConcepts" in json:
-                    keyConcept = str(json["bkeyConcepts"])
-                if "synsetType" in json:
-                    synsetType = json["synsetType"]
-                f.write("\t".join([synset, keyConcept, synsetType]) + "\n")
-                self.synset_to_metadata[synset] = {
-                    "keyConcept": keyConcept,
-                    "synsetType": synsetType,
-                }
-
-    def get_labels_from_synset_v5_json(self, synset):
-        url = "https://babelnet.io/v5/getSynset"
-        params = {"id": synset, "key": "e3b6a00a-c035-4430-8d71-661cdf3d5837"}
-        headers = {"Accept-Encoding": "gzip"}
-        res = requests.get(url=url, params=params, headers=headers)
-        return res.json()
-
-    def parse_lemma_v5(self, lemma):
-        lemma_parsed = lemma.split("#")[0]
-        parts = lemma_parsed.split("_")
-        single_word = len(parts) == 1 or parts[1].startswith("(")
-        return parts[0], single_word
-
-    def get_single_word_labels_v5(self, lemma, senses, split_multi_word=True):
-        """"""
-        single_word_labels = []
-        parsed_lemma, single_word = self.parse_lemma_v5(lemma)
-        if single_word:
-            single_word_labels.append((parsed_lemma, 1))
-        elif split_multi_word:
-            single_word_labels.extend(
-                zip(parsed_lemma.split("_"), [0.9 for _ in parsed_lemma.split("_")])
-            )
-
-        for sense in senses:
-            parsed_lemma, single_word = self.parse_lemma_v5(sense)
-            if single_word:
-                single_word_labels.append((parsed_lemma, 0.9))
-            elif split_multi_word:
-                single_word_labels.extend(
-                    zip(parsed_lemma.split("_"), [0.7 for _ in parsed_lemma.split("_")])
-                )
-        if len(single_word_labels) == 0:
-            # can only happen if split_multi_word = False
-            assert not split_multi_word
-            return [(lemma.split("#")[0], 1)]
-        return single_word_labels
-
-    def get_df(self):
-        dataset = api.load("text8")
-        dct = Dictionary(dataset)  # fit dictionary
-        id_to_doc_freqs = dct.dfs
-        word_to_df = {dct[id]: id_to_doc_freqs[id] for id in id_to_doc_freqs}
-
-        return word_to_df
-
-    def get_babelnet_v5(self, word, filter_entities=True):
-        def should_add_relationship(relationship, level):
-            if relationship != "HYPERNYM" and level > 1:
-                return False
-            return (
-                relationship in babelnet_relationships_limits.keys()
-                and count_by_relation_group[relationship]
-                < babelnet_relationships_limits[relationship]
-            )
-
-        def _single_source_paths_filter(G, firstlevel, paths, cutoff, join):
-            level = 0  # the current level
-            nextlevel = firstlevel
-            while nextlevel and cutoff > level:
-                thislevel = nextlevel
-                nextlevel = {}
-                for v in thislevel:
-                    for w in G.adj[v]:
-                        if (
-                            len(paths[v]) >= 3
-                            and G.edges[paths[v][1], paths[v][2]]["relationship"]
-                            != G.edges[v, w]["relationship"]
-                        ):
-                            continue
-                        if w not in paths:
-                            paths[w] = join(paths[v], [w])
-                            nextlevel[w] = 1
-                level += 1
-            return paths
-
-        def single_source_paths_filter(G, source, cutoff=None):
-            if source not in G:
-                raise nx.NodeNotFound("Source {} not in G".format(source))
-
-            def join(p1, p2):
-                return p1 + p2
-
-            if cutoff is None:
-                cutoff = float("inf")
-            nextlevel = {source: 1}  # list of nodes to check at next level
-            paths = {source: [source]}  # paths dictionary  (paths to key from source)
-            return dict(_single_source_paths_filter(G, nextlevel, paths, cutoff, join))
-
-        count_by_relation_group = {
-            key: 0 for key in babelnet_relationships_limits.keys()
-        }
-
-        G = nx.DiGraph()
-        with gzip.open(self.file_dir + word + ".gz", "r") as f:
-            for line in f:
-                (
-                    source,
-                    target,
-                    language,
-                    short_name,
-                    relation_group,
-                    is_automatic,
-                    level,
-                ) = (line.decode("utf-8").strip().split("\t"))
-
-                if (
-                    should_add_relationship(relation_group, int(level))
-                    and is_automatic == "False"
-                ):
-                    G.add_edge(source, target, relationship=short_name)
-                    count_by_relation_group[relation_group] += 1
-
-        nn_w_dists = {}
-        nn_w_synsets = {}
-        nn_w_domains = {}
-        dictionary_definitions_for_word = []
-        with open(self.file_dir + word + "_synsets", "r") as f:
-            for line in f:
-                synset = line.strip()
-                try:
-                    # get all paths starting from source, filtered
-                    paths = single_source_paths_filter(G, source=synset, cutoff=10)
-                    # TODO: if we want to filter intermediate nodes, we need to call
-                    # get_cached_labels_from_synset_v5 for all nodes in path.
-                    lengths = {neighbor: len(path) for neighbor, path in paths.items()}
-                    # lengths = nx.single_source_shortest_path_length(
-                    #     G, source=synset, cutoff=10
-                    # )
-                except NodeNotFound as e:
-                    print(e)
-                    continue
-                for neighbor, length in lengths.items():
-                    (
-                        neighbor_main_sense,
-                        neighbor_senses,
-                        _,
-                        neighbor_metadata,
-                    ) = self.get_cached_labels_from_synset_v5(
-                        neighbor, get_domains=False, get_metadata=filter_entities
-                    )
-
-                    # Note: this filters entity clues, not intermediate entity nodes
-                    if filter_entities and neighbor_metadata["synsetType"] != "CONCEPT":
-                        if self.verbose:
-                            print("skipping non-concept:", neighbor, neighbor_metadata["synsetType"])
-                        continue
-                    single_word_labels = self.get_single_word_labels_v5(
-                        neighbor_main_sense, neighbor_senses, split_multi_word=True
-                    )
-                    for single_word_label, label_score in single_word_labels:
-                        if single_word_label not in nn_w_dists:
-                            nn_w_dists[single_word_label] = length * label_score
-                            nn_w_synsets[single_word_label] = neighbor
-                        else:
-                            if nn_w_dists[single_word_label] > length:
-                                nn_w_dists[single_word_label] = length * label_score
-                                nn_w_synsets[single_word_label] = neighbor
-
-                # get domains
-                main_sense, sense, domains, _ = self.get_cached_labels_from_synset_v5(
-                    synset, get_domains=True
-                )
-                for domain, score in domains.items():
-                    nn_w_domains[domain] = float(score)
-
-                # get definitions
-                # TODO: some definitions are missing - we could call
-                # get_cached_labels_from_synset_v5 to query for missing
-                # definitions
-                if synset in self.synset_to_definitions:
-                    dictionary_definitions_for_word.extend(
-                        word.lower().translate(str.maketrans('', '', string.punctuation))
-                        for definition in self.synset_to_definitions[synset]
-                        for word in definition.split()
-                    )
-        return (
-            {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != word},
-            nn_w_synsets,
-            nn_w_domains,
-            G,
-            dictionary_definitions_for_word
-        )
 
     def add_lemmas(self, d, ss, hyper, n):
         for lemma_name in ss.lemma_names():
@@ -785,14 +571,10 @@ class Game(object):
                             nn_w_dists[neighbor] = length
                         else:
                             if self.verbose:
-                                print(
-                                    neighbor,
-                                    "length:",
-                                    length,
-                                    "prev length:",
-                                    nn_w_dists[neighbor],
-                                )
-                        nn_w_dists[neighbor] = min(length, nn_w_dists[neighbor])
+                                print(neighbor, 'length:', length,
+                                      'prev length:', nn_w_dists[neighbor])
+                        nn_w_dists[neighbor] = min(
+                            length, nn_w_dists[neighbor])
                 except NodeNotFound:
                     # if self.verbose:
                     #     print(w, "not in pages_g")
@@ -820,14 +602,10 @@ class Game(object):
                             nn_w_dists[neighbor] = length
                         else:
                             if self.verbose:
-                                print(
-                                    neighbor,
-                                    "length:",
-                                    length,
-                                    "prev length:",
-                                    nn_w_dists[neighbor],
-                                )
-                        nn_w_dists[neighbor] = min(length, nn_w_dists[neighbor])
+                                print(neighbor, 'length:', length,
+                                      'prev length:', nn_w_dists[neighbor])
+                        nn_w_dists[neighbor] = min(
+                            length, nn_w_dists[neighbor])
                 except NodeNotFound:
                     # if self.verbose:
                     #     print(w, "not in categories_g")
@@ -935,9 +713,11 @@ class Game(object):
                 try:
                     for lemma in wn.synset(ss).lemma_names():
                         if lemma not in nn_w_dists:
-                            nn_w_dists[lemma] = self.graph.get_distance(id, nn_id)
+                            nn_w_dists[lemma] = self.graph.get_distance(
+                                id, nn_id)
                         nn_w_dists[lemma] = min(
-                            self.graph.get_distance(id, nn_id), nn_w_dists[lemma]
+                            self.graph.get_distance(
+                                id, nn_id), nn_w_dists[lemma]
                         )
                 except ValueError:
                     if self.verbose:
@@ -957,7 +737,7 @@ class Game(object):
                 return
             neighbors = [x[0] for x in self.model.most_similar(word)]
             for neighbor in neighbors:
-                if self.model.vocab[neighbor].count < 2 or len(neighbor.split("_")) > 1:
+                if (self.model.vocab[neighbor].count < 2 or len(neighbor.split("_")) > 1):
                     continue
                 dist = self.model.similarity(neighbor, clue_word)
                 neighbor = neighbor.lower()
@@ -995,361 +775,54 @@ class Game(object):
             )
         return tree
 
-    ### CODENAMES FUNCTIONS ###
-
-    def get_intersecting_graphs(self, word_set, clue):
-        # clue is the word that intersects for this word_set
-        # for example if we have the word_set (beijing, phoenix) and clue city,
-        # this method will produce a directed graph that shows the path of intersection
-        clue_graph = nx.DiGraph()
-        word_set_graphs = [nx.DiGraph() for _ in word_set]
-
-        if all([clue in self.domains_nn[word] for word in word_set]):
-            # this clue came frome 2 domains, don't plot
-            return
-
-        for word in word_set:
-            # Create graph that shows the intersection from the clue to the word_set
-            if clue in self.nn_synsets[word]:
-                clue_synset = self.nn_synsets[word][clue]  # synset of the clue
-            else:
-                if self.verbose:
-                    print("Clue ", clue, "not found for word", word)
-                continue
-            word_graph = self.graphs[word]
-            shortest_path = []
-            shortest_path_length = float("inf")
-            with open(self.file_dir + word + "_synsets", "r") as f:
-                for line in f:
-                    synset = line.strip()
-                    try:
-                        path = nx.shortest_path(word_graph, synset, clue_synset)
-                        if len(path) < shortest_path_length:
-                            shortest_path_length = len(path)
-                            shortest_path = path
-                            shortest_path_synset = synset
-                    except:
-                        if self.verbose:
-                            print("No path between", synset, clue, clue_synset)
-
-                # path goes from source (word in word_set) to target (clue)
-                shortest_path_labels = []
-                for synset in shortest_path:
-                    # TODO: add graph for domains?
-                    main_sense, senses, _, _ = self.get_cached_labels_from_synset_v5(
-                        synset, get_domains=False
-                    )
-                    single_word_labels = self.get_single_word_labels_v5(
-                        main_sense, senses, split_multi_word=True
-                    )
-                    # pick the single word label with max value
-                    # TODO: incorporate IDF and other heuristics here
-                    single_word_label = max(single_word_labels, key=lambda k: k[1])
-                    shortest_path_labels.append(single_word_label[0])
-
-                print(
-                    "shortest path from",
-                    word,
-                    shortest_path_synset,
-                    "to clue",
-                    clue,
-                    clue_synset,
-                    ":",
-                    shortest_path_labels,
-                )
-
-                formatted_labels = [
-                    label.replace(" ", "\n") for label in shortest_path_labels
-                ]
-                formatted_labels.reverse()
-                nx.add_path(clue_graph, formatted_labels)
-
-        self.draw_graph(clue_graph, ("_").join([clue] + [word for word in word_set]))
-
-    def draw_graph(self, graph, graph_name, get_labels=False):
-        write_dot(graph, "test.dot")
-        pos = graphviz_layout(graph, prog="dot")
-
-        # if we need to get labels for our graph (because the node text is synset ids)
-        # we will create a dictionary { node : label } to pass into our graphing options
-        nodes_to_labels = dict()
-        current_labels = nx.draw_networkx_labels(graph, pos=pos)
-
-        if get_labels:
-            for synset_id in current_labels:
-                main_sense, senses, domains, _ = self.get_cached_labels_from_synset_v5(
-                    synset_id, get_domains=True
-                )
-                nodes_to_labels[synset_id] = main_sense
-        else:
-            nodes_to_labels = {label: label for label in current_labels}
-
-        plt.figure()
-        options = {
-            "node_color": "white",
-            "line_color": "black",
-            "linewidths": 0,
-            "width": 0.5,
-            "pos": pos,
-            "with_labels": True,
-            "font_color": "black",
-            "font_size": 3,
-            "labels": nodes_to_labels,
-        }
-        nx.draw(graph, **options)
-
-        if not os.path.exists("intersection_graphs"):
-            os.makedirs("intersection_graphs")
-        filename = "intersection_graphs/" + graph_name + ".png"
-        # margins
-        plot_margin = 0.35
-        x0, x1, y0, y1 = plt.axis()
-        plt.axis(
-            (x0 - plot_margin, x1 + plot_margin, y0 - plot_margin, y1 + plot_margin)
-        )
-        plt.savefig(filename, dpi=300)
-        plt.close()
-
-    def get_clue(self, n, penalty):
-        # where blue words are our team's words and red words are the other team's words
-        # potential clue candidates are the intersection of weighted_nns[word] for each word in blue_words
-        # we need to repeat this for the (|blue_words| C n) possible words we can give a clue for
-
-        pq = []
-        for word_set in itertools.combinations(self.blue_words, n):
-            highest_clues, score = self.get_highest_clue(
-                word_set, penalty, use_idf=True
-            )
-            # min heap, so push negative score
-            heapq.heappush(pq, (-1 * score, highest_clues, word_set))
-
-        # sliced_labels = self.get_cached_labels_from_synset(clue)
-        # main_sense, _senses = self.get_cached_labels_from_synset_v5(clue)
-
-        best_clues = []
-        best_scores = []
-        count = 0
-
-        while pq:
-            score, clues, word_set = heapq.heappop(pq)
-
-            if count >= 5:
-                break
-
-            if self.visualize:  # and count == 0:
-                for clue in clues:
-                    self.get_intersecting_graphs(word_set, clue)
-
-            best_clues.append(clues)
-            best_scores.append(score)
-
-            count += 1
-
-        return best_scores, best_clues
-
-    def rescale_domain_score(self, score):
-        if score < 0:
-            return score * -1 / 2.5
-        else:
-            return score
-
-    def get_highest_clue(
-        self,
-        chosen_words,
-        penalty=1.0,
-        domain_threshold=0.45,
-        domain_gap=0.3,
-        use_idf=True,
-    ):
-
-        potential_clues = set()
-        for word in chosen_words:
-            nns = self.weighted_nn[word]
-            potential_clues.update(nns)
-
-        # try to get a domain clue
-        domains = {}
-        for word in set(chosen_words).union(self.red_words):
-            for domain, score in self.domains_nn[word].items():
-                score = self.rescale_domain_score(score)
-                if score > domain_threshold:
-                    if domain not in domains:
-                        domains[domain] = dict()
-                    domains[domain][word] = score
-        domain_clues = []
-        for domain, word_scores in domains.items():
-            if all([word in word_scores for word in chosen_words]):
-                # get min word_set domain score
-                min_chosen_words_score = min(
-                    [word_scores[word] for word in chosen_words]
-                )
-                # get max red_words domain score
-                red_words_domain_scores = [
-                    word_scores[word]
-                    for word in self.red_words.intersection(word_scores.keys())
-                ]
-                if len(red_words_domain_scores) == 0:
-                    max_red_words_score = 0
-                else:
-                    max_red_words_score = max(red_words_domain_scores) + domain_gap
-
-                if min_chosen_words_score > max_red_words_score:
-                    domain_clues.append(domain)
-        if len(domain_clues) >= 1:
-            return domain_clues, 1  # TODO: return different score?
-
-        potential_clues = potential_clues - self.blue_words.union(self.red_words)
-
-        highest_scoring_clues = []
-        highest_score = float("-inf")
-
-        for clue in potential_clues:
-            blue_word_scores = {}
-            red_word_scores = {}
-            for blue_word in chosen_words:
-                blue_word_scores[blue_word] = self.get_score(clue, blue_word)
-            for red_word in self.red_words:
-                red_word_scores[red_word] = self.get_score(clue, red_word)
-            idf = 0
-            if use_idf:
-                idf = self.get_idf_score(clue)
-            is_in_dict_definition = 0.0
-            for word in chosen_words:
-                if clue in self.dictionary_definitions_for_word[word]:
-                    is_in_dict_definition = 1.0
-                    break
-            score = (
-                sum(v for v in blue_word_scores.values())
-                - (penalty * sum(v for v in red_word_scores.values()))
-                - (10 * idf)
-                + is_in_dict_definition
-            )
-            # if score >= highest_score and self.verbose:
-            #     print(clue, score, ">= highest_scoring_clue")
-            if score > highest_score:
-                highest_scoring_clues = [clue]
-                highest_score = score
-            elif score == highest_score:
-                highest_scoring_clues.append(clue)
-
-        return highest_scoring_clues, highest_score
-
-    def get_idf_score(self, clue):
-        # the larger the idf is, the more uncommon the word
-        return (1.0 / self.word_to_df[clue]) if clue in self.word_to_df else 1.0
-
-    def choose_words(self, n, clue, remaining_words, domain_threshold=0.45):
-        # given a clue word, choose the n words from remaining_words that most relates to the clue
-
-        pq = []
-        domain_words = []
-        for word in remaining_words:
-            if clue in self.domains_nn[word]:
-                score = self.rescale_domain_score(self.domains_nn[word][clue])
-                if score > domain_threshold:
-                    domain_words.append((word, score))
-        if len(domain_words) >= n:
-            # This is a domain clue, choose domain words
-            return domain_words
-        for word in remaining_words:
-            score = self.get_score(clue, word)
-            # min heap, so push negative score
-            heapq.heappush(pq, (-1 * score, word))
-
-        ret = []
-        for i in range(n):
-            ret.append(heapq.heappop(pq))
-        return ret
-
-    def get_score(self, clue, word):
-        """
-        :param clue: string
-        :param possible_words: n-tuple of strings
-        :return: score = sum(weighted_nn[possible_word][clue] for possible_word in possible_words)
-        """
-        # return self.weighted_nn[word][clue] if clue in self.weighted_nn[word] else -1000
-        if clue in self.weighted_nn[word]:
-            score = self.weighted_nn[word][clue]
-        else:
-            score = -1.0
-        return score
-
 
 if __name__ == "__main__":
-    file_dir = "babelnet_v6/"
-    # synset_labels_file = 'synset_to_labels.txt'
-    synset_main_sense_file = "synset_to_main_sense.txt"
-    synset_senses_file = "synset_to_senses.txt"
-    synset_glosses_file = "synset_to_glosses.txt"
-    synset_domains_file = "synset_to_domains.txt"
-    synset_metadata_file = "synset_to_metadata.txt"
-    game = Game(
-        verbose=False,
-        visualize=True,
-        file_dir=file_dir,
-        # synset_labels_file=file_dir+synset_labels_file,
-        synset_main_sense_file=file_dir + synset_main_sense_file,
-        synset_senses_file=file_dir + synset_senses_file,
-        synset_glosses_file=file_dir + synset_glosses_file,
-        synset_domains_file=file_dir + synset_domains_file,
-        synset_metadata_file=file_dir + synset_metadata_file,
-    )
+    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser.add_argument('embedding', type=str,
+                        help='an embedding method to use when playing codenames')
+    parser.add_argument('--verbose', dest='verbose', default=False,
+                        help='print out verbose information')
+    parser.add_argument('--visualize', dest='visualize', default=False,
+                        help='visualize the choice of clues with graphs')
+    args = parser.parse_args()
+
+    words = ['vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'table', 'lead', 'crown', 'bomb', 'bug', 'pipe', 'roulette',
+             'australia', 'play', 'cloak', 'piano']
+    random.shuffle(words)
+
+    # ["bug", "crown", "australia", "pipe",
+    # "bomb", "play", "roulette", "table", "cloak"],
+    # ["key", "piano", "lab", "school", "lead",  # ],
+    # "whip", "tube", "vacuum", "lab", "moon"],
+
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
-        # None,
-        # None,
-        # None,
-        # None,
-        # None,
-        # ['ray', 'mammoth', 'ivory', 'racket', 'bug'],
-        # ['laser', 'pan', 'stock', 'box', 'game'],
-        # ['bomb', 'car', 'moscow', 'pipe', 'hand'],
-        # ['penguin', 'stick', 'racket', 'scale', 'ivory'],
-        # ['horseshoe', 'amazon', 'thumb', 'spider', 'lion'],
-        # ["racket",
-        ["bug", "crown", "australia", "pipe",  # ],
-        "bomb", "play", "roulette", "table", "cloak"],
-        # ["gas", "circle", "unicorn", "king", "cliff"],
-        # ["conductor", "diamond", "kid", "witch", "swing"],
-        # ["death", "litter", "car", "lemon", "conductor"],
-        # ["board", "web", "wave", "platypus", "mine"],
-        # ["conductor", "alps", "jack", "date", "europe"],
-        # ["cricket", "pirate", "day", "platypus", "pants"],
-        # ["plane", "loch ness", "tooth", "nurse", "laser"],
-        # ["match", "hawk", "life", "knife", "africa"],
+        words[:10],
+        ['crown', 'bomb', 'bug', 'pipe', 'roulette', 'australia', 'play', 'cloak', 'table']
     ]
+
     blue_words = [
-        # None,
-        # None,
-        # None,
-        # None,
-        # None,
-        # ["racket", "bug", "crown", "australia", "pipe"],
-        # ["scuba diver", "play", "roulette", "table", "cloak"],
-        # ["buffalo", "diamond", "kid", "witch", "swing"],
-        # ["gas", "circle", "king", "unicorn", "cliff"],
-        # ["lemon", "death", "conductor", "litter", "car"],
-        ["key", "piano", "lab", "school", "lead",  # ],
-        "whip", "tube", "vacuum", "lab", "moon"],
-        # ['change', 'litter', 'scientist', 'worm', 'row'],
-        # ['boot', 'figure', 'cricket', 'ball', 'nut'],
-        # ['bear', 'figure', 'swing', 'shark', 'stream'],
-        # ["jupiter", "moon"], #"pipe", "racket", "bug"],
-        # ["phoenix", "beijing"], #"play", "table", "cloak"],
-        # ["bear", "bison"], #"diamond", "witch", "swing"],
-        # ["cap", "boot"], #"circle", "unicorn", "cliff"],
-        # ["india", "germany"], #"death", "litter", "car"],
+        words[10:],
+        ['vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'piano', 'lead'],
     ]
+
+    configuration = CodenamesConfiguration(
+        verbose=args.verbose, visualize=args.visualize)
+    game = Codenames(
+        configuration=configuration,
+        embedding_type=args.embedding,
+    )
 
     for i, (red, blue) in enumerate(zip(red_words, blue_words)):
 
-        game._build_game(red=red, blue=blue, save_path="tmp_babelnet_" + str(i))
+        game._build_game(red=red, blue=blue,
+                         save_path="tmp_babelnet_" + str(i))
         print("")
         print("TRIAL ", str(i), ":")
         print("RED WORDS: ", list(game.red_words))
         print("BLUE WORDS: ", list(game.blue_words))
         # TODO: Download version without using aliases. They may be too confusing
-        if game.verbose:
+        if game.configuration.verbose:
             print("NEAREST NEIGHBORS:")
             for word, clues in game.weighted_nn.items():
                 print(word)
@@ -1362,7 +835,8 @@ if __name__ == "__main__":
             for clue in clues:
                 print(
                     "WORDS CHOSEN FOR CLUE: ",
-                    game.choose_words(2, clue, game.blue_words.union(game.red_words)),
+                    game.choose_words(
+                        2, clue, game.blue_words.union(game.red_words)),
                 )
 
         # Draw graphs for all words
