@@ -176,6 +176,7 @@ class Codenames(object):
         # main_sense, _senses = self.get_cached_labels_from_synset_v5(clue)
 
         best_clues = []
+        best_board_words_for_clue = []
         best_scores = []
         count = 0
 
@@ -191,10 +192,11 @@ class Codenames(object):
 
             best_clues.append(clues)
             best_scores.append(score)
+            best_board_words_for_clue.append(word_set)
 
             count += 1
 
-        return best_scores, best_clues
+        return best_scores, best_clues, best_board_words_for_clue
 
     def rescale_domain_score(self, score):
         if score < 0:
@@ -797,13 +799,14 @@ if __name__ == "__main__":
 
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
-        words[:10],
-        ['crown', 'bomb', 'bug', 'pipe', 'roulette', 'australia', 'play', 'cloak', 'table']
+         ['moon', 'play', 'vacuum', 'school', 'cloak', 'piano', 'table', 'lab', 'key', 'tube']
+,
+        #['crown', 'bomb', 'bug', 'pipe', 'roulette', 'australia', 'play', 'cloak', 'table']
     ]
 
     blue_words = [
-        words[10:],
-        ['vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'piano', 'lead'],
+        ['whip', 'roulette', 'australia', 'lead', 'bug', 'crown', 'bomb', 'pipe'],
+        #['vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'piano', 'lead'],
     ]
 
     configuration = CodenamesConfiguration(
@@ -818,7 +821,7 @@ if __name__ == "__main__":
         game._build_game(red=red, blue=blue,
                          save_path="tmp_babelnet_" + str(i))
         print("")
-        print("TRIAL ", str(i), ":")
+        print("TRIAL", str(i), ":")
         print("RED WORDS: ", list(game.red_words))
         print("BLUE WORDS: ", list(game.blue_words))
         # TODO: Download version without using aliases. They may be too confusing
@@ -828,16 +831,19 @@ if __name__ == "__main__":
                 print(word)
                 print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
 
-        best_scores, best_clues = game.get_clue(2, 1)
+        best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
+        print("===================================================================================================")
         print("BEST CLUES: ")
-        for score, clues in zip(best_scores, best_clues):
-            print(score, clues)
+        for score, clues, board_words in zip(best_scores, best_clues, best_board_words_for_clue):
+            print()
+            print(clues, str(round(score,3)), board_words)
             for clue in clues:
                 print(
                     "WORDS CHOSEN FOR CLUE: ",
                     game.choose_words(
                         2, clue, game.blue_words.union(game.red_words)),
                 )
+
 
         # Draw graphs for all words
         # all_words = red + blue

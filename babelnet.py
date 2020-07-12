@@ -9,6 +9,7 @@ import string
 from gensim.corpora import Dictionary
 import gensim.downloader as api
 from gensim.utils import simple_preprocess
+from gensim.models import KeyedVectors
 
 # Graphing
 import networkx as nx
@@ -22,6 +23,10 @@ babelnet_relationships_limits = {
 	"MERONYM": 20,
 	"HYPONYM": 20,
 }
+
+stopwords = ['ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than', 'get']
+
+idf_lower_bound = 0.0006
 
 punctuation = re.compile("[" + re.escape(string.punctuation) + "]")
 
@@ -55,6 +60,7 @@ class Babelnet(object):
 		) = self._load_synset_data_v5()
 
 		self.word_to_df = self._get_df()  # dictionary of word to document frequency
+		self.word2vec_model = self._get_word2vec()
 
 	"""
 	Pre-process steps
@@ -133,6 +139,9 @@ class Babelnet(object):
 		)
 
 	def _get_df(self):
+		"""
+		Sets up a dictionary from words to their document frequency
+		"""
 		if (os.path.exists("data/word_to_df.pkl")):
 			with open('data/word_to_df.pkl', 'rb') as f:
 				word_to_df = pickle.load(f)
@@ -144,6 +153,11 @@ class Babelnet(object):
 						  for id in id_to_doc_freqs}
 
 		return word_to_df
+
+
+	def _get_word2vec(self):
+		word2vec_model = KeyedVectors.load_word2vec_format('data/GoogleNews-vectors-negative300.bin', binary=True)  
+		return word2vec_model
 
 	"""
 	Required codenames methods
@@ -277,15 +291,41 @@ class Babelnet(object):
 		# the larger the idf is, the more uncommon the word
 		idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
 
+		# prune out super common words (e.g. "get", "go")
+		if (clue in stopwords or idf < idf_lower_bound):
+			# if (self.configuration.visualize):
+			# 	print(clue, "is too generic with idf", idf)
+			idf = 1.0
+
 		# factor in dictionary definition heuristic
 		dict_definition_score = self._get_dictionary_definition_score(
 			chosen_words, clue, red_words)
 
-		return (-5*idf) + (0.5*dict_definition_score)
+		word2vec_score = self._get_word2vec_score(chosen_words, clue)
+		# if (self.configuration.visualize):
+		# 	print ("\t", clue, "score breakdown for", chosen_words, "IDF:", idf, "dictionary def score:", dict_definition_score, "word2vec score:", word2vec_score)
+
+		return (-2*idf) + (dict_definition_score) + (2*word2vec_score)
 
 	"""
 	Helper methods
 	"""
+
+	def _get_word2vec_score(self, chosen_words, potential_clue):
+
+		# TODO: factor in similarity to red words
+		word2vec_similarities = []
+		if potential_clue not in self.word2vec_model:
+			if self.configuration.verbose:
+				print("Potential clue word ", potential_clue, "not in Google news word2vec model")
+			return 0.0
+
+		# TODO: cache this info in pre-training
+		for chosen_word in chosen_words:
+			if chosen_word in self.word2vec_model:
+				word2vec_similarities.append(self.word2vec_model.similarity(chosen_word, potential_clue))
+		#TODO: is average the best way to do this
+		return sum(word2vec_similarities)/len(word2vec_similarities)
 
 	def _get_dictionary_definition_score(self, chosen_words, potential_clue, red_words):
 		# the dictionary definitions of words (as given from their babelnet synset)
@@ -346,7 +386,7 @@ class Babelnet(object):
 		if synset not in self.synset_to_main_sense:
 			with open(self.synset_main_sense_file, "a") as f:
 				if "mainSense" not in json:
-					if self.verbose:
+					if self.configuration.verbose:
 						print("no main sense for", synset)
 					main_sense = synset
 				else:
