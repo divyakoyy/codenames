@@ -41,9 +41,13 @@ Configuration for running the game
 
 
 class CodenamesConfiguration(object):
-    def __init__(self, verbose=False, visualize=False):
+    def __init__(
+        self, verbose=False, visualize=False, split_multi_word=True, disable_verb_split=True
+    ):
         self.verbose = verbose
         self.visualize = visualize
+        self.split_multi_word = split_multi_word
+        self.disable_verb_split = disable_verb_split
 
 
 class Codenames(object):
@@ -188,7 +192,11 @@ class Codenames(object):
 
             if self.configuration.visualize:  # and count == 0:
                 for clue in clues:
-                    self.embedding.get_intersecting_graphs(word_set, clue)
+                    self.embedding.get_intersecting_graphs(
+                        word_set,
+                        clue,
+                        split_multi_word=self.configuration.split_multi_word,
+                    )
 
             best_clues.append(clues)
             best_scores.append(score)

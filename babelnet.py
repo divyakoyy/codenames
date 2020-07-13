@@ -34,6 +34,10 @@ punctuation = re.compile("[" + re.escape(string.punctuation) + "]")
 class Babelnet(object):
 
 	def __init__(self, configuration=None):
+		# constants
+		self.VERB_SUFFIX = "v"
+		self.NOUN_SUFFIX = "n"
+		self.ADJ_SUFFIX = "a"
 
 		#  File paths to cached babelnet query results
 		self.file_dir = 'babelnet_v6/'
@@ -156,7 +160,7 @@ class Babelnet(object):
 
 
 	def _get_word2vec(self):
-		word2vec_model = KeyedVectors.load_word2vec_format('data/GoogleNews-vectors-negative300.bin', binary=True)  
+		word2vec_model = KeyedVectors.load_word2vec_format('data/GoogleNews-vectors-negative300.bin', binary=True)
 		return word2vec_model
 
 	"""
@@ -247,7 +251,9 @@ class Babelnet(object):
 							print("skipping non-concept:", neighbor, neighbor_metadata["synsetType"])
 						continue
 					single_word_labels = self.get_single_word_labels_v5(
-						neighbor_main_sense, neighbor_senses, split_multi_word=True
+						neighbor_main_sense,
+						neighbor_senses,
+						split_multi_word=self.configuration.split_multi_word,
 					)
 					for single_word_label, label_score in single_word_labels:
 						if single_word_label not in nn_w_dists:
@@ -501,7 +507,7 @@ class Babelnet(object):
 	Visualization
 	"""
 
-	def get_intersecting_graphs(self, word_set, clue):
+	def get_intersecting_graphs(self, word_set, clue, split_multi_word):
 		# clue is the word that intersects for this word_set
 		# for example if we have the word_set (beijing, phoenix) and clue city,
 		# this method will produce a directed graph that shows the path of intersection
@@ -543,8 +549,11 @@ class Babelnet(object):
 					# TODO: add graph for domains?
 					main_sense, senses, _, _ = self.get_cached_labels_from_synset_v5(
 						synset, get_domains=False)
+					if self.configuration.disable_verb_split and synset.endswith(self.VERB_SUFFIX):
+						split_multi_word = False
+
 					single_word_label = self.get_single_word_labels_v5(
-						main_sense, senses)[0][0]
+						main_sense, senses, split_multi_word)[0][0]
 					shortest_path_labels.append(single_word_label)
 
 				print("shortest path from", word, shortest_path_synset,
