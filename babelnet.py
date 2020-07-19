@@ -4,6 +4,7 @@ import pickle
 import re
 import requests
 import string
+import numpy
 
 # Gensim
 from gensim.corpora import Dictionary
@@ -24,7 +25,7 @@ babelnet_relationships_limits = {
 	"HYPONYM": 20,
 }
 
-stopwords = ['ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than', 'get']
+stopwords = ['ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than', 'get', 'put']
 
 idf_lower_bound = 0.0006
 
@@ -34,6 +35,10 @@ punctuation = re.compile("[" + re.escape(string.punctuation) + "]")
 class Babelnet(object):
 
 	def __init__(self, configuration=None):
+		# constants
+		self.VERB_SUFFIX = "v"
+		self.NOUN_SUFFIX = "n"
+		self.ADJ_SUFFIX = "a"
 
 		#  File paths to cached babelnet query results
 		self.file_dir = 'babelnet_v6/'
@@ -61,6 +66,9 @@ class Babelnet(object):
 
 		self.word_to_df = self._get_df()  # dictionary of word to document frequency
 		self.word2vec_model = self._get_word2vec()
+
+		self.dict2vec_embeddings_file = 'data/word_to_dict2vec_embeddings'
+		self.word_to_dict2vec_embeddings = self._get_dict2vec()
 
 	"""
 	Pre-process steps
@@ -156,8 +164,14 @@ class Babelnet(object):
 
 
 	def _get_word2vec(self):
-		word2vec_model = KeyedVectors.load_word2vec_format('data/GoogleNews-vectors-negative300.bin', binary=True)  
+		word2vec_model = KeyedVectors.load_word2vec_format('data/GoogleNews-vectors-negative300.bin', binary=True)
 		return word2vec_model
+
+
+	def _get_dict2vec(self):
+		input_file = open(self.dict2vec_embeddings_file,'rb')
+		word_to_dict2vec_embeddings = pickle.load(input_file)  
+		return word_to_dict2vec_embeddings
 
 	"""
 	Required codenames methods
@@ -247,7 +261,9 @@ class Babelnet(object):
 							print("skipping non-concept:", neighbor, neighbor_metadata["synsetType"])
 						continue
 					single_word_labels = self.get_single_word_labels_v5(
-						neighbor_main_sense, neighbor_senses, split_multi_word=True
+						neighbor_main_sense,
+						neighbor_senses,
+						split_multi_word=self.configuration.split_multi_word,
 					)
 					for single_word_label, label_score in single_word_labels:
 						if single_word_label not in nn_w_dists:
@@ -302,14 +318,38 @@ class Babelnet(object):
 			chosen_words, clue, red_words)
 
 		word2vec_score = self._get_word2vec_score(chosen_words, clue)
-		# if (self.configuration.visualize):
+		# if (self.configuration.visualize and clue == 'automobile' or clue == 'put' or clue =='hex' or clue == 'male' or clue=='domestic' ):
 		# 	print ("\t", clue, "score breakdown for", chosen_words, "IDF:", idf, "dictionary def score:", dict_definition_score, "word2vec score:", word2vec_score)
 
-		return (-2*idf) + (dict_definition_score) + (2*word2vec_score)
+		dict2vec_score = self._get_dict2vec_score(chosen_words, clue)
+
+		if self.configuration.visualize:
+			print(clue, "score breakdown for", chosen_words,)
+			print ("\tIDF:", -2*idf, "dict2vec score", dict2vec_score, "dictionary def score:", dict_definition_score, "word2vec score:", 2*word2vec_score)
+		
+		return (-2*idf) + (dict_definition_score) + (2*word2vec_score) + (dict2vec_score)
 
 	"""
 	Helper methods
 	"""
+	def _get_dict2vec_score(self, chosen_words, potential_clue):
+		# TODO: factor in similarity to red words
+		dict2vec_similarities = []
+
+		if potential_clue not in self.word_to_dict2vec_embeddings:
+			if self.configuration.verbose:
+				print("Potential clue word ", potential_clue, "not in dict2vec model")
+			return 0.0
+
+		potential_clue_embedding = self.word_to_dict2vec_embeddings[potential_clue]
+		# TODO: cache this info in pre-training
+		for chosen_word in chosen_words:
+			if chosen_word in self.word_to_dict2vec_embeddings:
+				chosen_word_embedding = self.word_to_dict2vec_embeddings[chosen_word]
+				euclidean_distance = numpy.linalg.norm(chosen_word_embedding-potential_clue_embedding)
+				dict2vec_similarities.append(euclidean_distance)
+		#TODO: is average the best way to do this
+		return 1/(sum(dict2vec_similarities)/len(dict2vec_similarities))
 
 	def _get_word2vec_score(self, chosen_words, potential_clue):
 
@@ -501,7 +541,7 @@ class Babelnet(object):
 	Visualization
 	"""
 
-	def get_intersecting_graphs(self, word_set, clue):
+	def get_intersecting_graphs(self, word_set, clue, split_multi_word):
 		# clue is the word that intersects for this word_set
 		# for example if we have the word_set (beijing, phoenix) and clue city,
 		# this method will produce a directed graph that shows the path of intersection
@@ -543,8 +583,11 @@ class Babelnet(object):
 					# TODO: add graph for domains?
 					main_sense, senses, _, _ = self.get_cached_labels_from_synset_v5(
 						synset, get_domains=False)
+					if self.configuration.disable_verb_split and synset.endswith(self.VERB_SUFFIX):
+						split_multi_word = False
+
 					single_word_label = self.get_single_word_labels_v5(
-						main_sense, senses)[0][0]
+						main_sense, senses, split_multi_word)[0][0]
 					shortest_path_labels.append(single_word_label)
 
 				print("shortest path from", word, shortest_path_synset,

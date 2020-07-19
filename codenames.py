@@ -41,9 +41,13 @@ Configuration for running the game
 
 
 class CodenamesConfiguration(object):
-    def __init__(self, verbose=False, visualize=False):
+    def __init__(
+        self, verbose=False, visualize=False, split_multi_word=True, disable_verb_split=True
+    ):
         self.verbose = verbose
         self.visualize = visualize
+        self.split_multi_word = split_multi_word
+        self.disable_verb_split = disable_verb_split
 
 
 class Codenames(object):
@@ -188,7 +192,11 @@ class Codenames(object):
 
             if self.configuration.visualize:  # and count == 0:
                 for clue in clues:
-                    self.embedding.get_intersecting_graphs(word_set, clue)
+                    self.embedding.get_intersecting_graphs(
+                        word_set,
+                        clue,
+                        split_multi_word=self.configuration.split_multi_word,
+                    )
 
             best_clues.append(clues)
             best_scores.append(score)
@@ -203,6 +211,12 @@ class Codenames(object):
             return score * -1 / 2.5
         else:
             return score
+
+    def is_valid_clue(self, clue):
+        for board_word in self.red_words.union(self.blue_words):
+            if (clue in board_word):
+                return False
+        return True
 
     def get_highest_clue(self, chosen_words, penalty=1.0, domain_threshold=0.45, domain_gap=0.3):
 
@@ -248,6 +262,9 @@ class Codenames(object):
         highest_score = float("-inf")
 
         for clue in potential_clues:
+            # don't consider clues which are a substring of any board words
+            if not self.is_valid_clue(clue):
+                continue
             blue_word_counts = []
             red_word_counts = []
             for blue_word in chosen_words:
@@ -265,6 +282,8 @@ class Codenames(object):
 
             score = sum(blue_word_counts) - (penalty *
                                              sum(red_word_counts)) + embedding_score
+            if self.configuration.verbose:
+                print("\tdistance:", sum(blue_word_counts) - (penalty * sum(red_word_counts)))
             # if score >= highest_score and self.verbose:
             #     print(clue, score, ">= highest_scoring_clue")
             if score > highest_score:
@@ -788,25 +807,16 @@ if __name__ == "__main__":
                         help='visualize the choice of clues with graphs')
     args = parser.parse_args()
 
-    words = ['vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'table', 'lead', 'crown', 'bomb', 'bug', 'pipe', 'roulette',
-             'australia', 'play', 'cloak', 'piano']
+    words = ['vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'table', 'lead', 'crown', 'bomb', 'bug', 'pipe', 'roulette','australia', 'play', 'cloak', 'piano', 'beijing', 'bison', 'boot', 'cap', 'car','change', 'circle', 'cliff', 'conductor', 'cricket', 'death','diamond', 'figure', 'gas', 'germany', 'india', 'jupiter','kid', 'king', 'lemon', 'litter', 'nut', 'phoenix', 'racket','row', 'scientist', 'shark', 'stream', 'swing', 'unicorn','witch', 'worm',]
     random.shuffle(words)
-
-    # ["bug", "crown", "australia", "pipe",
-    # "bomb", "play", "roulette", "table", "cloak"],
-    # ["key", "piano", "lab", "school", "lead",  # ],
-    # "whip", "tube", "vacuum", "lab", "moon"],
 
     # Use None to randomize the game, or pass in fixed lists
     red_words = [
-         ['moon', 'play', 'vacuum', 'school', 'cloak', 'piano', 'table', 'lab', 'key', 'tube']
-,
-        #['crown', 'bomb', 'bug', 'pipe', 'roulette', 'australia', 'play', 'cloak', 'table']
+        words[:10]
     ]
 
     blue_words = [
-        ['whip', 'roulette', 'australia', 'lead', 'bug', 'crown', 'bomb', 'pipe'],
-        #['vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'piano', 'lead'],
+        words[10:20]
     ]
 
     configuration = CodenamesConfiguration(
@@ -820,10 +830,6 @@ if __name__ == "__main__":
 
         game._build_game(red=red, blue=blue,
                          save_path="tmp_babelnet_" + str(i))
-        print("")
-        print("TRIAL", str(i), ":")
-        print("RED WORDS: ", list(game.red_words))
-        print("BLUE WORDS: ", list(game.blue_words))
         # TODO: Download version without using aliases. They may be too confusing
         if game.configuration.verbose:
             print("NEAREST NEIGHBORS:")
@@ -833,6 +839,9 @@ if __name__ == "__main__":
 
         best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
         print("===================================================================================================")
+        print("TRIAL", str(i), ":")
+        print("RED WORDS: ", list(game.red_words))
+        print("BLUE WORDS: ", list(game.blue_words))
         print("BEST CLUES: ")
         for score, clues, board_words in zip(best_scores, best_clues, best_board_words_for_clue):
             print()

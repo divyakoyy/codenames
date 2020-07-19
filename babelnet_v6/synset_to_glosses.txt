@@ -27289,3 +27289,2143 @@ bn:00028609n	WIKIQU	Theatre, enjoys the distinction of two spellings: in British
 bn:00037308n	WN	A hose used for watering a lawn or garden
 bn:00037308n	WIKI	A garden hose, hosepipe, or simply hose is a flexible tube used to convey water.
 bn:00037308n	WIKT	A length of hose as above, usually with a male connector on one end and a female connector on the other end, which can carry water from a hose bib for use on a garden or lawn.
+bn:00015515n	WN	The state capital and largest city located in south central Arizona; situated in a former desert that has become a prosperous agricultural area thanks to irrigation
+bn:00015515n	WIKI	Phoenix was a robotic spacecraft on a space exploration mission on Mars under the Mars Scout Program.
+bn:00015515n	WIKIDIS	A NASA mission to Mars
+bn:00015515n	WIKIDATA	Robotic spacecraft on a space exploration mission on Mars under the Mars Scout Program
+bn:00074018n	WN	The capital city of a political subdivision of a country
+bn:00074018n	WIKT	The capital city of a state.
+bn:00074018n	WIKTLB	Capital city of a state.
+bn:00006169n	WN	Man-made equipment that orbits around the earth or the moon
+bn:00006169n	WIKI	In the context of spaceflight, a satellite is an artificial object which has been intentionally placed into orbit.
+bn:00006169n	WIKI	Orbiter is a freeware space flight simulator program developed to simulate spaceflight using realistic Newtonian physics.
+bn:00006169n	WIKIDIS	An object which has been placed into orbit by human endeavour
+bn:00006169n	WIKIDIS	A freeware space flight simulator
+bn:00006169n	WIKIDATA	Human-made object put into an orbit
+bn:00006169n	WIKIDATA	Video game
+bn:00006169n	WIKT	A man-made apparatus designed to be placed in orbit around a celestial body, generally to relay information, data etc. to Earth.
+bn:00006169n	WIKTLB	Man-made apparatus designed to be placed in orbit around a celestial body.
+bn:00006169n	WIKIQU	A Satellite is an artificial object which has been intentionally placed into orbit.
+bn:00023497n	WN	A vehicle designed for navigation in or on water or air or through outer space
+bn:00023497n	WIKI	A craft is a vehicle or vessel used for transportation on water or land, or in air or outer space.
+bn:00023497n	WIKIDATA	Vehicle for transportation
+bn:00023497n	WIKT	A vehicle designed for navigation in or on water or air or through outer space.
+bn:00023497n	WIKTLB	Vehicle designed for navigation.
+bn:16586209n	WIKIDATA	Machine that can fly, including aircraft, spacecraft, rocket, missile
+bn:00021477n	WN	A game played against a computer
+bn:00021477n	WIKI	PC games, also known as computer games or personal computer games, are video games played on a personal computer rather than a dedicated video game console or arcade machine.
+bn:00021477n	WIKI	A video game is an electronic game that involves interaction with a user interface to generate visual feedback on a video device such as a TV screen or computer monitor.
+bn:00021477n	WIKIDIS	A video game played on a personal computer
+bn:00021477n	WIKIDATA	Class of electronic game
+bn:00021477n	WIKIDATA	Video game played on personal computers
+bn:00021477n	WIKIDATA	Electronic game that involves interaction with a user interface to generate visual feedback on a video device such as a TV screen or computer monitor
+bn:00021477n	OMWIKI	One of the player's chances to play, lost when a mistake is made (e.g. in a video game).
+bn:00021477n	OMWIKI	A game that involves interaction with a user interface to generate visual feedback on a video device, most commonly a television or monitor.
+bn:00021477n	WIKT	One of the player's chances to play, lost when the player's character dies.
+bn:00021477n	WIKT	An electronic game, especially a game played using a general-purpose computer.
+bn:00021477n	WIKT	The activity of playing video or computer games.
+bn:00021477n	WIKT	A type of game existing as and controlled by software, usually run by a video game console or a computer, played on a video terminal or television screen, and controlled by a paddle, joystick, joypad, mouse, or keyboard.
+bn:00021477n	WIKTLB	Game controlled by a software.
+bn:00021477n	WIKIQU	This is a collection of quotes about video games.
+bn:00021477n	MSTERM	A class of computer program in which one or more users interact with the computer as a form of entertainment. Computer games run the gamut from simple alphabet games for toddlers to chess, treasure hunts, war games, and simulations of world events. The games are controlled from a keyboard or with a joystick or other device and are supplied on disks, on CD-ROMs, as game cartridges, on the Internet, or as arcade devices.
+bn:00021477n	MSTERM	A class of computer program in which one or more users interact with the computer as a form of entertainment. Computer games run the gamut from simple alphabet games for toddlers to chess, treasure hunts, war games, and simulations of world events. The games are controlled from a keyboard or with a joystick or other device and are supplied on disks, on CD-ROMs, as game cartridges, on the Internet, or as arcade devices.
+bn:06491335n	WIKIDATA	Fictional taxon in the Harry Potter universe
+bn:00580259n	WIKI	The Bennu is an ancient Egyptian deity linked with the sun, creation, and rebirth.
+bn:00580259n	WIKIDATA	Phoenix
+bn:00344721n	WIKI	In Slavic folklore, the Firebird is a magical glowing bird from a faraway land, which is both a blessing and a bringer of doom to its captor.
+bn:00344721n	WIKIDATA	Magical glowing bird in Slavic folklore
+bn:03432999n	WIKI	The Phoenix Metropolitan Area – often referred to as the Valley of the Sun, the Salt River Valley or Metro Phoenix – is a metropolitan area, centered on the city of Phoenix, that includes much of the central part of the U.S. State of Arizona.
+bn:03432999n	WIKIDIS	The metropolitan area surrounding and including Phoenix, Arizona
+bn:03432999n	WIKIDATA	Metropolitan area in Arizona, United States
+bn:00068424n	WN	An arrangement of objects or people side by side in a line
+bn:00068424n	OMWIKI	A series of persons or objects placed in a line, one behind the other, usually at regular intervals.
+bn:00068424n	WIKT	A column of people one behind another, whether "single file" or in a large group with many files side by side.
+bn:00068424n	WIKTLB	Column of people.
+bn:00070634n	WN	A row of notches
+bn:00076609n	WN	A row of houses built in a similar style and having common dividing walls (or the street on which they face)
+bn:00076609n	WIKT	A row of residential houses with no gaps between them; a group of row houses.
+bn:00051288n	WN	A formation of people or things one beside another
+bn:00035940n	WN	An arrangement of people or things acting as a unit
+bn:00001789n	WN	Noisy quarrel
+bn:00001789n	WIKT	A noisy disorderly quarrel, fight, brawl, disturbance or scrap.
+bn:00001789n	WIKT	A tumultuous assault or quarrel.
+bn:00001789n	WIKTLB	A noisy disorderly quarrel.
+bn:00001789n	FRAMENET	A noisy argument or disagreement.
+bn:00001789n	FRAMENET	An angry dispute.
+bn:00010243n	WN	A quarrel about petty points
+bn:00010243n	OMWIKI	A small argument; a petty quarrel.
+bn:00010243n	OMWIKI	Petty quarreling.
+bn:00010243n	WIKT	A small argument; a petty quarrel.
+bn:00010243n	WIKT	Petty quarreling. Usually considered a childish behaviour, although often applied to adults.
+bn:00010243n	WIKT	A brief argument, falling out, quarrel.
+bn:00010243n	FRAMENET	A quarrel.
+bn:00010243n	FRAMENET	A trivial noisy quarrel.
+bn:00010243n	FRAMENET	A petty quarrel.
+bn:00010243n	FRAMENET	Informal a quarrel.
+bn:00010243n	FRAMENET	A petty quarrel.
+bn:00010243n	FRAMENET	A trivial noisy quarrel.
+bn:00010243n	FRAMENET	Pointless argument.
+bn:00014186n	WN	A serious quarrel (especially one that ends a friendship)
+bn:00068425n	WN	A long continuous strip (usually running horizontally)
+bn:00074702n	WN	A relatively long narrow piece of something
+bn:03943349n	WIKI	Entry in a bibliographic index which represents and describes a specific resource
+bn:15476341n	WIKIDATA	A software in the field of electronic legal transactions
+bn:05520228n	WIKIDATA	The root of a categorization system which is not itself a subcategory
+bn:02093676n	WIKI	A bibliographic record is an entry in a bibliographic index which represents and describes a specific resource.
+bn:00065023n	WN	A feature of the mental life of a living organism
+bn:00068427n	WN	A continuous chronological succession without an interruption
+bn:00018913n	WN	A following of one thing after another in time
+bn:00076472n	WN	Arrangement of events in time
+bn:00076478n	WN	A property relating to time
+bn:00068428n	WN	The act of rowing as a sport
+bn:00068428n	WIKI	Rowing, often referred to as crew in the United States, is a sport whose origins reach back to Ancient Egyptian times.
+bn:00068428n	WIKIDATA	Racing sport where individuals or teams row boats by oar
+bn:00068428n	OMWIKI	A single instance, act or occurrance of pulling oars through water in order to make a water vehicle (such as a boat) move.
+bn:00068428n	WIKT	The rowing of boats as a competitive sport.
+bn:00069919n	WN	Rowing by a single oarsman in a racing shell
+bn:00069919n	WIKI	Sculling is the use of oars to propel a boat by moving the oars through the water on both sides of the craft, or moving a single oar over the stern.
+bn:00069919n	WIKIDATA	Type of rowing when a rower has two oars
+bn:00327047n	WIKI	Rowing is the oldest intercollegiate sport in the United States.
+bn:00327047n	WIKIDATA	Team sport version of rowing practiced by universities in the United States
+bn:02393348n	WIKI	Adaptive rowing is a special category of rowing race for those with physical disabilities.
+bn:02755382n	WIKI	Ocean rowing is the sport of rowing across oceans.
+bn:02755382n	WIKI	Rowing across oceans
+bn:02755382n	WIKIDIS	The sport of rowing across oceans
+bn:04108725n	NONE	NONE
+bn:05311771n	WIKIDATA	Recreational part of rowing, with focus on tours
+bn:05394659n	NONE	NONE
+bn:12543462n	WIKI	Women's rowing is the participation of women in the sport of rowing.
+bn:16610724n	WIKIDATA	Sport of rowing with focus on competitions
+bn:15810109n	NONE	NONE
+bn:00033866n	WN	Turning an oar parallel to the water between pulls
+bn:04229935n	NONE	NONE
+bn:17874803n	NONE	NONE
+bn:01703965n	WIKI	The history of human-powered aircraft started in the early twentieth century.
+bn:01703965n	WIKIDATA	Aircraft belonging to the human-powered vehicles
+bn:06775661n	WIKI	Self-propelled movement of a cell or organism from one location to another
+bn:15087471n	WIKIDATA	Locomotor activity
+bn:00001191n	WN	The act of propelling
+bn:00001191n	WIKI	Propulsion means to push forward or drive an object forward.
+bn:00001191n	WIKIDATA	Means of creating force leading to movement
+bn:00001191n	WIKT	The act of putting into motion.
+bn:00001191n	WIKT	Force causing movement.
+bn:00001191n	WIKTLB	Force causing movement.
+bn:02596430n	WIKI	A powered aircraft is an aircraft that uses onboard propulsion with mechanical power generated by an aircraft engine of some kind.
+bn:02596430n	WIKIDATA	Aircraft requiring onboard propulsion to maintain flight
+bn:03235529n	WIKI	Human-powered transport is the transport of person and/or goods using human muscle power.
+bn:03235529n	WIKIDIS	Humans moving themselves (and their cargo) via their own muscle energy
+bn:00034422n	WN	A line of persons or things ranged one behind the other
+bn:00034422n	WIKI	A file is a military term for a number of troops drawn up in line ahead, i.e. one behind the other in a column.
+bn:00034422n	WIKIDIS	A single column of men one in front of the other
+bn:00034422n	OMWIKI	Aligned one behind the other.
+bn:00034422n	OMWIKI	A series of persons or objects placed in a line, one behind the other, usually at regular intervals.
+bn:00034422n	WIKT	A line or queue one person wide.
+bn:00051290n	WN	A formation of people or things one behind another
+bn:00007203n	WN	European bison having a smaller and higher head than the North American bison
+bn:00007203n	WIKI	The European bison, also known as wisent or the European wood bison, is a Eurasian species of bison.
+bn:00007203n	WIKIDATA	Species of mammal
+bn:00007203n	OMWIKI	A bison species, Bison bonasus,  and the heaviest land animal in Europe.
+bn:00007203n	WIKT	The wisent, species Bison bonasus, Europe's heaviest land animal.
+bn:00007203n	WIKT	The European bison, Bison bonasus.
+bn:00007203n	WIKT	The European bison.
+bn:00007203n	WIKTLB	The European bison, Bison bonasus.
+bn:00009565n	WN	Hardy breed of cattle resulting from crossing domestic cattle with the American buffalo; yields leaner beef than conventional breeds
+bn:00009565n	WIKI	Beefalo, also referred to as cattalo or the American hybrid, are a fertile hybrid offspring of domestic cattle, usually a male in managed breeding programs, and the American bison, usually a female in managed breeding programs.
+bn:00013654n	WN	Meat from an American bison
+bn:02146219n	WIKI	Buffalo burgers are hamburgers made with meat from the American bison.
+bn:02146219n	WIKI	Hamburgers made with meat from the American bison
+bn:00051701n	WN	Someone who lends money at excessive rates of interest
+bn:00051701n	WIKI	A loan shark is a person or body who offers loans at extremely high interest rates usually without holding relevant authorization from the local financial regulator.
+bn:00051701n	WIKI	A money lender is a person whose main occupations is lending money to people on the high interest rates.
+bn:00051701n	WIKIDIS	One who offers unsecured loans at high interest rates
+bn:00051701n	WIKIDATA	Person or group who offers loans, often at high rates of interest
+bn:00051701n	OMWIKI	Someone who lends money at excessive rates of interest.
+bn:00051701n	WIKT	Someone who lends money at exorbitant rates of interest.
+bn:00051701n	WIKT	A fictional character who was a moneylender in Shakespeare's Merchant of Venice.
+bn:00051701n	WIKT	A person who lends money and charges interest, especially one who is not part of the official financial industry.
+bn:00051701n	WIKT	A person who loans money to others and charges interest, particularly at an illegal, exorbitant, or unfair rate.
+bn:00051701n	WIKTLB	Person who lends money.
+bn:00050659n	WN	Someone who lends money or gives credit in business matters
+bn:00050659n	WIKT	One who lends, especially money.
+bn:00050659n	WIKTLB	One who lends, especially money.
+bn:04598419n	NONE	NONE
+bn:05203308n	NONE	NONE
+bn:05584960n	WIKI	A mountain stream is a brook or stream, usually with a steep gradient, flowing down a mountainside, its swift flow rate transporting large quantities of rock, gravel, soil, wood or even entire logs with it.
+bn:05584960n	WIKIDATA	Stream flowing down a mountainside
+bn:14339226n	NONE	NONE
+bn:14565475n	WIKI	An aqueduct is a watercourse constructed to convey water.
+bn:14565475n	WIKIDIS	A water supply or navigable channel (conduit) constructed to convey water
+bn:14565475n	WIKIDATA	Any system of pipes, ditches, canals, tunnels, and other structures used  to convey water supply
+bn:14565475n	OMWIKI	Duct for conveying water to a given place.
+bn:14565475n	WIKT	An artificial channel that is constructed to convey water from one location to another.
+bn:14565475n	WIKTLB	An artificial channel conveying water.
+bn:00035372n	WN	The act of flowing or streaming; continuous progression
+bn:00035374n	WN	Something that resembles a flowing stream in moving continuously
+bn:00056031n	WN	A state of change
+bn:00056031n	WIKT	A state of progression from one place to another.
+bn:00056031n	WIKTLB	State of progression from one place to another.
+bn:13905646n	NONE	NONE
+bn:02122367n	WIKI	In computer science, a stream is a sequence of data elements made available over time.
+bn:02122367n	WIKI	Sequence of data elements made available over time
+bn:02122367n	WIKIDIS	A sequence of data elements made available over time
+bn:02122367n	WIKIDATA	Computer term
+bn:02122367n	WIKT	All moving waters.
+bn:02122367n	WIKTLB	Sciences: moving water.
+bn:03252090n	WIKI	In Connection-oriented communication, a data stream is a sequence of digitally encoded coherent signals used to transmit or receive information that is in the process of being transmitted.
+bn:03252090n	WIKI	Sequence of digitally encoded coherent signals (packets of data or data packets) used to transmit or receive information that is in the process of being transmitted
+bn:03252090n	WIKT	A sequence of digitally encoded coherent signals used in a transmission.
+bn:03252090n	WIKTLB	A sequence of digitally encoded coherent signals used in a transmission.
+bn:03252090n	MSTERM	In a DFD model, an exchange of information between processes. Data flows represent discrete packets of data that flow into and out of processes.
+bn:00094434v	WN	To extend, wave or float outward, as if in the wind
+bn:00094434v	WIKT	To extend; to stretch out with a wavy motion; to float in the wind.
+bn:00083195v	WN	Be in motion due to some air or water current
+bn:00083195v	OMWIKI	To be carried along by currents of water or air.
+bn:00083195v	OMWIKI	To produce an air current by forcing air out through the lips (at a speed faster than when breathing) or a device (such as a bellows).
+bn:00083195v	WIKT	To move slowly, especially pushed by currents of water, air, etc.
+bn:00083195v	WIKT	To produce an air current.
+bn:00083195v	WIKT	To drift gently through the air.
+bn:00083195v	WIKTLB	To drift gently through the air.
+bn:00083195v	FRAMENET	Be carried slowly by a current of air or water.
+bn:00085894v	WN	Move along, of liquids
+bn:00085894v	OMWIKI	To move along, of liquids.
+bn:00085894v	WIKT	To run or flow (especially of liquids and more particularly blood).
+bn:00085894v	FRAMENET	(of liquid) flow.
+bn:00015376n	WN	The musical director of a choir
+bn:00015376n	WIKI	Kapellmeister is a German word designating a person in charge of music-making.
+bn:00015376n	WIKI	In Christianity, the cantor, sometimes called the precentor or the protopsaltes is the chief singer, and usually instructor, employed at a church, a cathedral or monastery with responsibilities for the ecclesiastical choir and the preparation of liturgy.
+bn:00015376n	WIKIDATA	Person in charge of music-making, word originally used in the context of chapels
+bn:00015376n	WIKIDATA	Sometimes Precentor, or the Protopsaltes "first of the singers in church"
+bn:00015376n	OMWIKI	Person who directs the choir in a cathedral or a monastery.
+bn:00015376n	WIKT	The musical director of a choir, who conducts performances and supervises rehearsal.
+bn:00015376n	WIKT	A director of music in a chapel; the director of a court or orchestra.
+bn:00015376n	WIKT	The person who leads songs or prayers in a cathedral, church, monastery, or synagogue and generally facilitates worship.
+bn:00015376n	WIKTLB	The musical director of a choir, who conducts performances and supervises rehearsal.
+bn:08615927n	NONE	NONE
+bn:00008648n	WN	German conductor and composer of romantic operas (1786-1826)
+bn:00008648n	WIKI	Carl Maria Friedrich Ernst von Weber was a German composer, conductor, pianist, guitarist and critic, and was one of the first significant composers of the Romantic school.
+bn:00008648n	WIKIDATA	German composer
+bn:00010062n	WN	United States conductor and composer (1918-1990)
+bn:00010062n	WIKI	Leonard Bernstein was an American composer, conductor, author, music lecturer, and pianist.
+bn:00010062n	WIKIDATA	American composer, conductor, author, music lecturer, and pianist
+bn:00010062n	WIKIQU	Leonard Bernstein was an American conductor, composer, author, music lecturer and pianist.
+bn:00022034n	WN	English composer and conductor (1905-1951)
+bn:00022034n	WIKI	Leonard Constant Lambert was a British composer, conductor, and author.
+bn:00022034n	WIKIDATA	British composer and conductor
+bn:00022034n	WIKIQU	Leonard Constant Lambert was an English conductor, critic and modernist composer.
+bn:00031813n	WN	United States conductor (born in Hungary) (1899-1985)
+bn:00031813n	WIKI	Eugene Ormandy was a Hungarian-born conductor and violinist, best known for his association with the Philadelphia Orchestra, as its music director.
+bn:00031813n	WIKIDATA	Hungarian conductor and violinist
+bn:00040236n	WN	United States conductor (born in Hungary) (1897-1970)
+bn:00040236n	WIKI	George Szell, originally György Széll, György Endre Szél, or Georg Szell, was a Hungarian-born Jewish-American conductor and composer.
+bn:00040236n	WIKIDATA	American conductor
+bn:00044172n	WN	German neoclassical composer and conductor who believed that music should have a social purpose (1895-1963)
+bn:00044172n	WIKI	Paul Hindemith was a prolific German composer, violist, violinist, teacher and conductor.
+bn:00044172n	WIKIDATA	German-born American composer, violist, violinist, teacher and conductor
+bn:00021679n	WN	A substance that readily conducts e.g. electricity and heat
+bn:00021680n	WN	The person who collects fares on a public conveyance
+bn:00000779n	WN	A person who is employed to collect payments (as for rent or taxes)
+bn:00000779n	OMWIKI	A person or thing that collects.
+bn:00000779n	WIKT	A person who is employed to collect payments.
+bn:00000779n	WIKT	A person who collects rent or taxes.
+bn:00000779n	WIKTLB	Person who collects rent or taxes.
+bn:00081593n	WN	A person who works at a specific occupation
+bn:00081593n	FRAMENET	A person who works.
+bn:00021681n	WN	A device designed to transmit electricity, heat, etc.
+bn:00021681n	WIKT	Something that can transmit electricity, heat, light or sound.
+bn:00021681n	WIKTLB	Something which can transmit electricity, heat, light or sound.
+bn:03104103n	WIKI	In electromagnetics and communications engineering, the term waveguide may refer to any linear structure that conveys electromagnetic waves between its endpoints.
+bn:03104103n	WIKIDATA	Waveguide for the transmission of electromagnetic waves; linear structure that conveys electromagnetic waves between its endpoints
+bn:00000628n	WN	An increase in rate of change
+bn:00007493n	WN	An abrupt change in the course of a stream that forms the boundary between two parcels of land resulting in the loss of part of the land of one landowner and a consequent increase in the land of another
+bn:00007493n	WIKT	Movement of soil during a flood, or during a change in the course of a river, especially when a resulting change of land ownership is involved.
+bn:00010664n	WN	The event of being born
+bn:00010664n	OMWIKI	The moment at which someone is being born.
+bn:00010664n	WIKT	Someone's birth; the place, time and circumstances of a birth.
+bn:00012904n	WN	An abrupt change in the tone or register of the voice (as at puberty or due to emotion)
+bn:00012944n	WN	Coming apart
+bn:00018894n	WN	(genetics) any event that changes genetic structure; any alteration in the inherited nucleic acid sequence of the genotype of an organism
+bn:00018894n	WIKI	In biology, a mutation is the permanent alteration of the nucleotide sequence of the genome of an organism, virus, or extrachromosomal DNA or other genetic elements.
+bn:00018894n	WIKIDATA	Change of the nucleotide sequence of the genome of an organism
+bn:00018894n	WIKT	Any heritable change of the base-pair sequence of genetic material.
+bn:00018894n	WIKTLB	Heritable change in genetic material.
+bn:00022359n	WN	A change of religion
+bn:00025080n	WN	The occurrence of a change for the worse
+bn:00025683n	WN	A decrease in rate of change
+bn:00025777n	WN	A change downward
+bn:00025777n	WIKT	A sudden decrease (such as in the level of sales)
+bn:00025951n	WN	Alteration in the shape or dimensions of an object as a result of the application of stress to it
+bn:00025951n	WIKI	In materials science, deformation refers to any changes in the shape or size of an object due to- an applied force or a change in temperature.
+bn:00025951n	WIKI	In materials science, any changes in the shape or size of an object
+bn:00025951n	WIKIDIS	When an object is changed temporarily (elastic deformation) or permanently (plastic deformation or fracture) due to applied force.
+bn:00025951n	WIKT	A permanent change in the shape or size of an object without breaking it or putting it under excessive stress.
+bn:00025951n	WIKT	Any deformation caused by a sustained force.
+bn:00025951n	FRAMENET	Causing something to change from its original shape, usually with negative consequences.
+bn:00026600n	WN	An event that causes a loss of equilibrium (as of a ship or aircraft)
+bn:00026698n	WN	A recent event that has some relevance for the present situation
+bn:00026698n	FRAMENET	An event constituting a new stage in a changing situation.
+bn:00029462n	WN	A change for the better
+bn:00035414n	WN	An instance of change; the rate or magnitude of change
+bn:00035414n	WIKT	The act of varying; a partial change in the form, position, state, or qualities of a thing.
+bn:00035414n	WIKTLB	The act or state of varying.
+bn:00046355n	WN	A change resulting in an increase
+bn:00052056n	WN	The occurrence of a loss of the ability to perceive and respond
+bn:00056533n	WN	A change or alteration in form or qualities
+bn:00056533n	WIKT	Any alteration or change.
+bn:00056533n	WIKTLB	Any alteration or change.
+bn:00062932n	WN	A weak and tremulous light
+bn:00020453n	WN	The sum or range of what has been perceived, discovered, or learned
+bn:15061631n	NONE	NONE
+bn:00017651n	WN	A relational difference between states; especially between states before and after some event
+bn:00028988n	WN	The doctrine that reality consists of two basic opposing elements, often taken to be mind and matter (or mind and body), or good and evil
+bn:00028988n	WIKI	Dualism denotes the state of two parts.
+bn:00028988n	WIKIDIS	A twofold division in several spiritual, religious, and philosophical doctrines
+bn:00028988n	WIKIDATA	State of two parts
+bn:00028988n	WIKT	The view that the world consists of, or is explicable in terms of, two fundamental principles, such as mind and matter or good and evil.
+bn:00028988n	WIKT	A belief in two deities, which may be in conflict with each other.
+bn:00028988n	WIKTLB	Belief in two gods.
+bn:00028988n	WIKIQU	Dualism denotes a state of two parts.
+bn:00017653n	WN	The result of alteration or modification
+bn:05130811n	NONE	NONE
+bn:00017655n	WN	A thing that is different
+bn:00017656n	WN	A different or fresh set of clothes
+bn:00017657n	WN	Coins of small denomination regarded collectively
+bn:00084771v	WN	Change clothes; put on different clothes
+bn:00084771v	OMWIKI	To put on different clothing; to change clothes.
+bn:00084771v	WIKT	To replace one's clothing.
+bn:00084771v	WIKTLB	To replace one's own clothing.
+bn:00087291v	WN	Put on clothes
+bn:00087291v	OMWIKI	To put clothes on something or somebody.
+bn:00087291v	WIKT	To fit out with the necessary clothing; to clothe, put clothes on.
+bn:00087291v	WIKT	To adorn or cover with clothing; to dress; to supply clothes or clothing.
+bn:00087291v	WIKT	To dress; to put on clothes; to clothe oneself.
+bn:00087291v	WIKTLB	Adorn with clothing.
+bn:00084773v	WN	Give to, and receive from, one another
+bn:00095087v	WN	Cause to change ownership
+bn:01835459n	WIKI	In patent law, an inventor is the person, or persons in United States patent law, who contribute to the claims of a patentable invention.
+bn:01835459n	WIKIDIS	The legal term referring to the claimant of a patentable invention
+bn:01835459n	WIKIDATA	Person, or persons in United States patent law, who contribute to the claims of a patentable invention
+bn:02029883n	WIKI	An aromachologist is a person who practices aromachology, which is a method of using smells or essential oils to create, either in isolation or through blending in formulations, essential oils that have behavioral, physical and emotional benefits.
+bn:03395196n	WIKI	Mad scientist is a caricature of a scientist who is described as "mad" or "insane" owing to a combination of unusual or unsettling personality traits and the unabashedly ambitious, taboo and/or hubristic nature of their experiments.
+bn:03395196n	WIKIDATA	Caricature of a scientist
+bn:15875265n	WIKI	An independent scientist is a financially independent scientist who pursues scientific study without direct affiliation to a public institution such as a university or government-run research and development body.
+bn:15875265n	WIKIDATA	Financially independent scientist who pursues scientific study without direct affiliation to a public institution
+bn:15875265n	WIKT	A financially independent male scientist who pursues scientific study as a hobby.
+bn:00090406v	WN	Make a place messy by strewing garbage around
+bn:00094431v	WN	Spread by scattering ("straw" is archaic)
+bn:00083222v	WN	Cause to be born
+bn:00083222v	OMWIKI	To release an offspring from one's own body; to cause to be born.
+bn:00083222v	WIKT	To release live offspring from the body into the environment.
+bn:00083222v	FRAMENET	Give birth to.
+bn:00050627n	WN	Yellow oval fruit with juicy acidic flesh
+bn:00050643n	WN	The rind of a lemon
+bn:00019301n	WN	Any of numerous fruits of the genus Citrus having thick rind and juicy pulp; grown in warm regions
+bn:00019301n	WIKI	Citrus is a genus of flowering trees and shrubs in the rue family, Rutaceae.
+bn:00019301n	WIKIDATA	Genus of plants (source of fruit such as lemons and oranges)
+bn:00019301n	OMWIKI	The genus Citrus, flowering plants in the family Rutaceae, originally from Southeast Asia. It comprises many plants grown for their juicy and fragrant fruits, such as lemon, orange, lime, and grapefruit.
+bn:00019301n	OMWIKI	The fruits of a plant in the citrus genus. They have a leathery rind surrounding segments filled with pulp vesicles.
+bn:00019301n	WIKT	Any of the fruits in the common genus Citrus of flowering plants in the family Rutaceae.
+bn:00019301n	WIKT	Any of several shrubs or trees of the genus Citrus in the family Rutaceae.
+bn:00019301n	WIKTLB	Fruit of genus Citrus.
+bn:00029758n	WN	Edible reproductive body of a seed plant especially one having sweet flesh
+bn:00037326n	WN	Fresh fruits and vegetable grown for the market
+bn:00037326n	WIKI	Produce is a generalized term for a group of farm-produced crops and goods, including fruits and vegetables – meats, grains, oats, etc. are also sometimes considered produce.
+bn:00037326n	WIKIDATA	Farm-produced crops and goods, fresh food, in natura food
+bn:12887613n	WIKIDATA	Lemon tree
+bn:00019308n	WN	Lemon tree having fruit with a somewhat insipid sweetish pulp
+bn:00019308n	WIKI	Citrus limetta, alternatively considered to be a cultivar of Citrus limon, C. limon 'Limetta', is a species of citrus, commonly known as mousambi, musambi, sweet lime, sweet lemon, and sweet limetta, it is a member of the sweet lemons.
+bn:00019308n	WIKIDATA	Species of plant
+bn:00019308n	WIKT	A sweet lime , Citrus limetta.
+bn:00040499n	WN	Ginger-flavored carbonated drink
+bn:00040499n	WIKI	Ginger ale is a carbonated non-alcoholic mixed drink flavoured with ginger in one of two ways.
+bn:00040499n	WIKIDATA	Carbonated soft drink flavored with ginger
+bn:00040499n	WIKT	A soft drink flavored with ginger.
+bn:00040499n	WIKT	A non-alcoholic drink flavored with ginger, similar to ginger beer.
+bn:00866667n	WIKI	Gini is a French lemon soft drink created in 1971 by Perrier and which was purchased by Cadbury Schweppes in 1989.
+bn:00866667n	WIKIDIS	A French brand of soft drink
+bn:00866667n	WIKIDATA	Branded French lemon soft drink
+bn:00995277n	WIKI	Solyanka (Russian: соля́нка; [sɐˈlʲankə] is a thick, spicy and sour Russian soup that is common in Russia and other states of the former Soviet Union and certain parts of the former Eastern Bloc.
+bn:00995277n	WIKIDATA	Food
+bn:00995277n	WIKT	A thick, spicy and sour soup in Russian and Ukrainian cuisine.
+bn:00995277n	WIKTLB	A thick, spicy and sour soup in Russian and Ukrainian cuisine.
+bn:01384169n	WIKI	The earliest known mention of a Liverpool Tart is 1897, when it was hand-written into a family cookbook, which was recently included in the village website for Evershot, in Dorset.
+bn:01788948n	WIKI	Canard à l'Orange also called Duck l'Orange is a classic French dish in which a duck is roasted and served with an bigarade sauce.
+bn:02001863n	WIKI	Breizh Cola, is a brand of cola bottled by Phare Ouest and sold in Brittany, France.
+bn:02437853n	WIKI	Sprite is a colourless, caffeine-free, lemon and lime-flavored soft drink created by The Coca-Cola Company.
+bn:02437853n	WIKIDIS	The brand name of a lemon-lime beverage produced by The Coca-Cola Company
+bn:02437853n	WIKIDATA	Soft carbonated drink
+bn:02712314n	WIKI	Shaker Lemon Pie, also known as Ohio Lemon Pie, is a fruit pie typical of the Midwestern United States.
+bn:03419353n	WIKI	Magiritsa is a Greek soup made from lamb offal, associated with the Easter tradition of the Greek Orthodox Church.
+bn:03419353n	WIKIDATA	Greek lamb offal soup associated with Easter
+bn:03945843n	WIKI	Juice made from lemons
+bn:13800704n	NONE	NONE
+bn:15303858n	NONE	NONE
+bn:00050628n	WN	A distinctive tart flavor characteristic of lemons
+bn:00035137n	WN	The taste experience when a savoury condiment is taken into the mouth
+bn:00035137n	WIKI	Flavor or flavour is the sensory impression of food or other substance, and is determined primarily by the chemical senses of taste and smell.
+bn:00035137n	WIKIDATA	Sensory impression of a food or other substance
+bn:00035137n	OMWIKI	The sensory impression of a substance that is determined mainly by the chemical senses of taste and smell.
+bn:00035137n	WIKT	The specific taste or smell of something.
+bn:00035137n	WIKT	A variety attributed to an object.
+bn:00035137n	WIKT	A distinct flavor, especially if slight.
+bn:00035137n	WIKT	The specific taste or smell of something.
+bn:00035137n	WIKT	A small amount of experience with something that gives a sense of its quality as a whole.
+bn:00035137n	WIKTLB	The specific taste or smell of something.
+bn:00042275n	WN	The sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus
+bn:00042275n	WIKI	Taste, gustatory perception, or gustation is one of the five traditional senses that belongs to the gustatory system.
+bn:00042275n	WIKIDATA	Sense that detects types of chemicals that touch the tongue
+bn:00042275n	OMWIKI	The sensory impression of a substance that is determined mainly by the chemical senses of taste and smell.
+bn:00042275n	WIKT	One of the sensations produced by the tongue in response to certain chemicals.
+bn:00042275n	WIKT	The quality produced by the sensation of taste or, especially, of taste and smell in combined effect.
+bn:00042275n	WIKTLB	One of the sensations produced by the tongue.
+bn:00042275n	FRAMENET	The sensation of flavour perceived in the mouth on contact with a substance.
+bn:00070494n	WN	The faculty through which the external world is apprehended
+bn:00070494n	WIKI	A sense is a physiological capacity of organisms that provides data for perception.
+bn:00070494n	WIKI	Sensation is the body's detection of external or internal stimulation.
+bn:00070494n	WIKIDATA	Physiological capacity of organisms that provides data for perception
+bn:00070494n	WIKIDATA	Body's detection of external or internal stimulation
+bn:00070494n	OMWIKI	One of the methods for a living being to gather data about the world: sight, smell, hearing, touch, taste.
+bn:00070494n	OMWIKI	A physical feeling or perception from something that comes into contact with the body.
+bn:00070494n	WIKT	Any of the manners by which living beings perceive the physical world: for humans sight, smell, hearing, touch, taste.
+bn:00070494n	WIKT	A physical feeling or perception from something that comes into contact with the body; something sensed.
+bn:00070494n	WIKT	This set of five senses: sight, hearing, smell, taste, and touch.
+bn:00070494n	WIKTLB	Sight, hearing, smell, taste, and touch.
+bn:00070494n	WIKIQU	Senses are physiological capacities of organisms that provide inputs for perception.
+bn:00070494n	FRAMENET	A feeling that can be vague or explicit.
+bn:00030687n	WN	A female sorcerer or magician
+bn:00058561n	WN	A believer in occultism; someone versed in the occult arts
+bn:00058561n	WIKT	A person who dabbles in or practises occultism.
+bn:00058561n	WIKTLB	Person who practises occultism.
+bn:00081424n	WN	A being (usually female) imagined to have special powers derived from the devil
+bn:00065466n	WN	A witch with powers of divination
+bn:00080488n	WN	A male witch or demon
+bn:00080488n	WIKT	A male magic-user; a male witch.
+bn:00081151n	WN	A believer in Wicca
+bn:00081151n	WIKT	A follower of Wicca.
+bn:00081151n	WIKTLB	Follower of Wicca.
+bn:00060157n	WN	A person who follows a polytheistic or pre-Christian religion (not a Christian or Muslim or Jew)
+bn:00067048n	WN	A person who manifests devotion to a deity
+bn:00081431n	WN	The art of sorcery
+bn:00081431n	WIKI	Witchcraft or witchery broadly means the practice of and belief in magical skills and abilities exercised by solitary practitioners and groups.
+bn:00081431n	WIKIDIS	The use of supernatural, magical faculties
+bn:00081431n	WIKIDATA	Use of alleged supernatural, magical faculties
+bn:00081431n	OMWIKI	The use of certain kinds of supernatural or magical powers.
+bn:00081431n	OMWIKI	A man who performs witchcraft; performer of the black arts.
+bn:00081431n	WIKT	A woman who is learned in and actively practices witchcraft.
+bn:00081431n	WIKT	The practice of witches; magic, sorcery or the use of supernatural powers to influence or predict events.
+bn:00081431n	WIKT	Witchcraft.
+bn:00081431n	WIKTLB	The practice of witches.
+bn:00081431n	WIKIQU	Witchcraft in various historical, anthropological, religious and mythological contexts, is the use of powers or abilities conceived as supernatural or magical.
+bn:13942792n	WIKI	Traditional witchcraft is a term used to refer to a variety of contemporary forms of witchcraft.
+bn:00010854n	WN	The belief in magical spells that harness occult forces or evil spirits to produce unnatural effects in the world
+bn:00010854n	WIKI	Black magic or dark magic has traditionally referred to the use of supernatural powers or magic for evil and selfish purposes.
+bn:00010854n	WIKI	Necromancy is a supposed practice of magic involving communication with the deceased – either by summoning their spirit as an apparition or raising them bodily – for the purpose of divination, imparting the means to foretell future events or discover hidden knowledge, to bring someone back from the dead, or to use the deceased as a weapon, as the term may sometimes be used in a more general sense to refer to black magic or witchcraft.
+bn:00010854n	WIKI	Use of supernatural powers or magic for evil and selfish purposes
+bn:00010854n	WIKIDIS	The use of supernatural powers for selfish purposes
+bn:00010854n	WIKIDIS	A type of magic
+bn:00010854n	WIKIDATA	Magic involving communication with the deceased
+bn:00010854n	OMWIKI	A form of magic involving communication with the deceased for the purpose of divination.
+bn:00010854n	WIKT	Divination involving the dead or death.
+bn:00010854n	WIKT	Necromancy; magic involving death.
+bn:00010854n	WIKT	Any magick used for evil purposes.
+bn:00010854n	WIKT	A practice such as witchcraft, sorcery, necromancy, or black magic.
+bn:00010854n	WIKTLB	Divination involving the dead.
+bn:06335950n	NONE	NONE
+bn:00052688n	WN	Any art that invokes supernatural powers
+bn:00052688n	WIKI	Magic or sorcery is the use of rituals, symbols, actions, gestures, and language with the aim of utilizing supernatural forces.
+bn:00052688n	WIKI	Thaumaturgy is the capability of a magician or a saint to work magic or miracles.
+bn:00052688n	WIKI	Occupation of a miracle worker or saint
+bn:00052688n	WIKIDIS	The use of paranormal methods to manipulate natural forces (e.g., witchcraft)
+bn:00052688n	WIKIDATA	The magic arts
+bn:00052688n	OMWIKI	The use of rituals or actions, especially based on supernatural or occult knowledge, to manipulate or obtain information about the natural world, especially when seen as falling outside the realm of religion; also the forces allegedly drawn on for such practices. A specific ritual or procedure associated with supernatural magic or with mysticism; a spell.
+bn:00052688n	OMWIKI	The working of miracles.
+bn:00052688n	WIKT	The working of miracles.
+bn:00052688n	WIKT	The use of rituals or actions, especially based on occult knowledge, to subdue or manipulate natural or supernatural beings and forces in order to have some benefit from them.
+bn:00052688n	WIKT	A performer of miracles.
+bn:00052688n	WIKTLB	Illusion performed to give the appearance of magic or the supernatural
+bn:00027890n	WN	A prediction uttered under divine inspiration
+bn:00027890n	WIKI	Divination is the attempt to gain insight into a question or situation by way of an occultic, standardized process or ritual.
+bn:00027890n	WIKIDIS	The alleged practice of ascertaining information from supernatural sources
+bn:00027890n	WIKIDATA	Attempt to gain insight into a question or situation by way of an occultic, standardized process or ritual
+bn:00027890n	WIKT	A prediction, especially one made by a prophet or under divine inspiration.
+bn:00030686n	WN	A psychological state induced by (or as if induced by) a magical incantation
+bn:00030686n	WIKI	Magic or sorcery is the use of rituals, symbols, actions, gestures, and language with the aim of utilizing supernatural forces.
+bn:00030686n	WIKIDIS	The use of paranormal methods to manipulate natural forces (e.g., witchcraft)
+bn:00030686n	WIKIDATA	The magic arts
+bn:00030686n	WIKT	A magical effect or influence induced by an incantation or formula.
+bn:00030686n	WIKT	The previous state induced by hypnosis.
+bn:00068856n	WN	A person who has died and has been declared a saint by canonization
+bn:00068856n	WIKI	A saint is a person who is recognized as having an exceptional degree of holiness or likeness or closeness to God.
+bn:00068856n	WIKIDIS	Ste., forms the French abbreviation for Sainte, the feminine form
+bn:00068856n	WIKIDATA	One who has been recognized for having an exceptional degree of holiness, sanctity, and virtue
+bn:00068856n	WIKT	A person with positive qualities; one who does good.
+bn:00068856n	WIKTLB	(figuratively) a person with positive qualities.
+bn:00068856n	WIKIQU	A Saint is an individual of exceptional holiness.
+bn:00052696n	WN	One who practices magic or sorcery
+bn:00052696n	WIKI	An enchanter, enchantress, mage, magician, sorcerer, sorceress, warlock, witch, or wizard, is someone who uses or practices magic derived from supernatural, occult, or arcane sources.
+bn:00052696n	WIKIDIS	A character in a fictional fantasy context
+bn:00052696n	WIKIDATA	Someone who uses or practices magic that derives from supernatural or occult sources (fictional character)
+bn:00052696n	OMWIKI	A person who practices magic or sorcery.
+bn:00052696n	WIKT	A person who plays with or practices allegedly supernatural magic.
+bn:00052696n	WIKT	A man who uses magic, mystic items, and magical and mystical practices.
+bn:00052696n	WIKT	A person who practices necromancy.
+bn:00052696n	WIKTLB	Person skilled with magic.
+bn:02250070n	WIKI	In Slavic mythology, a Vědmák is a warlock or male witch, the female equivalent being vědma, but unlike the latter, the vedmak may also possess positive qualities.
+bn:01394028n	WIKI	Archimago is a sorcerer in The Faerie Queene by Edmund Spenser.
+bn:03648483n	WIKI	The Chronicles of Prydain is a pentalogy of children's high fantasy Bildungsroman novels written by American author Lloyd Alexander.
+bn:03648483n	WIKIDATA	High fantasy fiction series, chiefly 5 novels 1964 to 1968; also the 5 novels exclusively
+bn:03648483n	WIKIDATA	Character from The Chronicles of Prydain
+bn:00054459n	WN	(Arthurian legend) the magician who acted as King Arthur's advisor
+bn:00054459n	WIKI	Merlin is a legendary Welsh figure best known as the wizard featured in Arthurian legend and medieval Welsh poetry.
+bn:00054459n	WIKIDIS	A legendary figure in Arthurian legend
+bn:00054459n	WIKIDATA	Legendary figure
+bn:00054459n	WIKT	A wizard in the Arthurian legend.
+bn:00054459n	WIKTLB	Wizard in Arthurian legend.
+bn:00054459n	WIKIQU	Merlin is a wizard featured prominently in Arthurian legends.
+bn:03667973n	WIKI	Dracula Vlad Țepeș or simply known as Dracula is a fictional character from the multi-platform Castlevania video game series.
+bn:03667973n	WIKIDIS	A character in Castlevania media
+bn:03667973n	WIKIDATA	Fictional character from the multi-platform Castlevania video game series
+bn:00014578n	WN	Italian who was famous as a magician and alchemist (1743-1795)
+bn:00014578n	WIKI	Count Alessandro di Cagliostro was the alias of the occultist Giuseppe Balsamo.
+bn:00014578n	WIKIDIS	Alias of occultist and adventurer Giuseppe Balsamo
+bn:00014578n	WIKIDATA	Italian occultist
+bn:00030684n	WN	A sorcerer or magician
+bn:00030684n	WIKT	A warlock or sorcerer.
+bn:00030684n	WIKTLB	A warlock or sorcerer.
+bn:00032266n	WN	Someone who practices exorcism
+bn:00032266n	OMWIKI	A person, especially a priest, who practices exorcism.
+bn:00032266n	WIKT	A person, especially a priest, who practices exorcism.
+bn:00032266n	WIKT	One who performs an exorcism.
+bn:00032266n	WIKTLB	A person who practices exorcism.
+bn:00052775n	WN	A magician or sorcerer of ancient times
+bn:00052775n	WIKT	Magician, and derogatorily sorcerer, trickster, conjurer, charlatan.
+bn:00072842n	WN	A woman sorcerer
+bn:00072842n	WIKT	A female sorcerer, especially one who is elegant; compare witch.
+bn:00072842n	WIKTLB	Female wizard.
+bn:00081428n	WN	Someone who is believed to heal through magical powers
+bn:00081428n	WIKT	A person who is believed to heal through magical powers; a shaman.
+bn:00081428n	WIKTLB	Someone believed to heal through magic.
+bn:00094111v	WN	Place under a spell
+bn:00094111v	WIKT	To work in place of.
+bn:00094111v	WIKTLB	To work in place of someone.
+bn:00095571v	WN	Bewitch by or as if by a voodoo
+bn:00095571v	WIKT	To bewitch someone or something using voodoo.
+bn:00018348n	WN	The body of a human child
+bn:00007995n	WN	A child: son or daughter
+bn:00007995n	WIKT	A child or baby.
+bn:00008252n	WN	A young child
+bn:00008252n	WIKT	A small child.
+bn:00008252n	WIKTLB	Small child.
+bn:00014191n	WN	A robust child
+bn:00017677n	WN	A child secretly exchanged for another in infancy
+bn:00017677n	WIKT	In British, Irish and Scandinavian mythology, an infant of a fairy, sprite or troll that the creature has secretly exchanged for a human infant.
+bn:00017677n	WIKTLB	(Mythology) an infant of a fairy, sprite or troll that the creature has secretly exchanged for a human infant.
+bn:00018357n	WN	A prodigy whose talents are recognized at an early age
+bn:00018357n	WIKI	In psychology research literature, the term child prodigy is defined as a person under the age of ten who produces meaningful output in some domain to the level of an adult expert performer.
+bn:00018357n	WIKIDIS	An individual who is a master of one or more skills or arts at an early age
+bn:00018357n	WIKIDATA	Person who, at an early age, develops one or more skills at a level far beyond the norm for their age
+bn:00018357n	WIKT	A child prodigy; a phenom.
+bn:00018357n	WIKT	A talented young person who achieves great success at an early age; a wunderkind.
+bn:00036036n	WN	A child who is raised by foster parents
+bn:00036036n	OMWIKI	A child raised by people who are not its biological or adoptive parents.
+bn:00036036n	WIKT	A foster child.
+bn:00036036n	WIKT	A child in foster care.
+bn:00036036n	WIKTLB	A child in foster care.
+bn:00046063n	WN	One who is playfully mischievous
+bn:00046063n	WIKT	A cheeky person or creature, sometimes diminutive; a troublemaker.
+bn:00046063n	WIKT	A mischievous child.
+bn:00049081n	WN	A young child
+bn:00049130n	WN	A child who attends a preschool or kindergarten
+bn:00049130n	WIKT	A child who attends a kindergarten.
+bn:00049130n	WIKT	A child who is educated at preschool.
+bn:00049130n	WIKTLB	Child who attends a kindergarten
+bn:00059561n	WN	A child who has lost both parents
+bn:00059561n	WIKI	An orphan is someone whose parents are dead, unknown, or have permanently abandoned him or her.
+bn:00059561n	WIKIDATA	Child whose parents are dead or have abandoned them permanently
+bn:00059561n	OMWIKI	A person one or both of whose parents have died, especially a minor.
+bn:00059561n	WIKT	A person, especially a minor, both or one of whose parents have died.
+bn:00059561n	WIKTLB	Person whose (parent or) parents have died.
+bn:00061180n	WN	A young child who is small for his age
+bn:00062218n	WN	(ethnic slur) offensive term for a Black child
+bn:00062218n	WIKI	Pickaninny is, in North American usage, a racial slur which refers to a depiction of dark-skinned children of African descent.
+bn:00062218n	WIKIDIS	Term used for black children
+bn:00062218n	WIKT	Alternative spelling of pickaninny.
+bn:00063776n	WN	A child afflicted by some disease or deformity whose picture is used on posters to raise money for charitable purposes
+bn:00063776n	WIKI	The term poster child originally referred to a child afflicted by some disease or deformity whose picture is used on posters or other media as part of a campaign to raise money or enlist volunteers for a cause or organization.
+bn:00071613n	WN	A word used for misbehaving children
+bn:00073666n	WN	A child
+bn:00073666n	WIKT	A child.
+bn:00074601n	WN	A homeless child especially one forsaken or orphaned
+bn:00074601n	WIKI	Street children is a term for children experiencing poverty, homelessness or both, who are living on the streets of a city, town, or village.
+bn:00074601n	WIKI	A waif is a living creature removed, by hardship, loss or other helpless circumstance, from its original surroundings.
+bn:00074601n	WIKIDIS	Homeless children who live on the street
+bn:00074601n	WIKIDATA	Homeless child living on the street
+bn:00079315n	WN	Poor and often mischievous city child
+bn:00079315n	WIKT	A mischievous child.
+bn:00007630n	WN	A very young child (birth to 1 year) who has not yet begun to walk or talk
+bn:00007630n	WIKI	An infant is the more formal or specialised synonym for "baby", the very young offspring of a human.
+bn:00007630n	WIKIDATA	Young child
+bn:00007630n	OMWIKI	A very young human being, from birth to a year old.
+bn:00007630n	OMWIKI	A young child in the first years of life. 
+bn:00007630n	WIKT	A very young human, particularly from birth to a couple of years old or until walking is fully mastered.
+bn:00007630n	WIKT	Baby (human infant).
+bn:00007630n	WIKT	A very young human being, from birth to somewhere between six months and two years of age, needing almost constant care and/or attention.
+bn:00007630n	WIKT	A baby or infant; a very young human or animal.
+bn:00007630n	WIKTLB	Very young human being.
+bn:00007630n	WIKIQU	Babies are the very young offspring of a human or other mammal.
+bn:16361006n	NONE	NONE
+bn:00049079n	WN	Young goat
+bn:00049079n	WIKT	A young goat.
+bn:00015720n	WN	Any of numerous agile ruminants related to sheep but having a beard and straight horns
+bn:00015720n	WIKI	The domestic goat is a subspecies of goat domesticated from the wild goat of southwest Asia and Eastern Europe.
+bn:00015720n	WIKIDATA	Domesticated mammal raised primarily for its milk
+bn:00015720n	OMWIKI	A common four-legged animal (Capra) that is related to sheep and bred by humans for its coat and milk.
+bn:00015720n	WIKT	A female goat.
+bn:00015720n	WIKIQU	A goat is a bovine famous for its ability to forage on plants unpalatable, and in habitats inaccessible, to other browsers.
+bn:04695038n	NONE	NONE
+bn:00090097v	WN	Tell false information to for fun
+bn:00090097v	FRAMENET	Deceive playfully.
+bn:00083327v	WN	Fool or hoax
+bn:00083327v	WIKT	To make a fool out of ; to fool, trick, or deceive.
+bn:00083327v	WIKTLB	To fool, trick or deceive someone.
+bn:00083327v	FRAMENET	Deceive; trick.
+bn:00083327v	FRAMENET	Trick, deceive, or dupe.
+bn:00083327v	FRAMENET	Trick, deceive, or dupe.
+bn:00083100v	WN	Be silly or tease one another
+bn:00083100v	WIKT	To tease mildly.
+bn:00083100v	WIKTLB	To tease mildly.
+bn:00083038v	WN	Harass with persistent criticism or carping
+bn:00083038v	OMWIKI	To harass with persistent criticism or carping.
+bn:00075590n	WN	Mechanical device used as a plaything to support someone swinging back and forth
+bn:00062965n	WN	An artifact designed to be played with
+bn:00062965n	WIKI	A toy is an item that is used in play, especially one designed for such use.
+bn:00062965n	WIKIDATA	A thing to be played with
+bn:00062965n	OMWIKI	An object designed for amusement or play, usually intended for children to use.
+bn:00062965n	WIKT	Something to play with, especially as intended for use by a child.
+bn:00062965n	WIKTLB	Something to play with.
+bn:00062965n	WIKIQU	Toys is a 1992 film about a very large family-owned toy company whose change of management threatens to make it a factory dedicated to producing only violent and war related toys.
+bn:00075591n	WN	A sweeping blow or stroke
+bn:00075591n	WIKI	The swing is a type of hook, with the main difference being that in the swing the arm is usually more extended.
+bn:00075591n	WIKIDATA	Type of punch in boxing
+bn:00010281n	WN	(boxing) a blow with the fist
+bn:00010281n	WIKI	A punch is a striking blow with the fist.
+bn:00010281n	WIKI	In popular music genres such as blues, jazz or rock music, a lick is "a stock pattern or phrase" consisting of a short series of notes used in solos and melodic lines and accompaniment.
+bn:00010281n	WIKIDIS	A striking blow with the fist
+bn:00010281n	WIKIDIS	A short phrase, or series of notes, often improvised by a musician
+bn:00010281n	WIKIDATA	A stock pattern or phrase consisting of a short series of notes that is used in solos and melodic lines and accompaniment
+bn:00010281n	WIKIDATA	Striking blow with the closed fist
+bn:00010281n	OMWIKI	A blow to someone or something with the fist.
+bn:00010281n	WIKT	A cuff or blow administered with the fist.
+bn:00010281n	WIKT	A hit or strike with one's fist.
+bn:00010281n	WIKT	A blow with the hand.
+bn:00010281n	WIKT	A stroke or blow.
+bn:00010281n	WIKT	A sudden, sharp blow or punch.
+bn:00010281n	WIKTLB	Colloquial: a stroke or blow.
+bn:04093861n	WIKIDATA	Blow delivered during combat
+bn:00066531n	WN	Alternating back-and-forth movement
+bn:00066531n	WIKI	Reciprocating motion, also called reciprocation, is a repetitive up-and-down or back-and-forth linear motion.
+bn:00066531n	WIKIDIS	A type of oscillatory motion, as in the action of a reciprocating saw
+bn:00074669n	WN	An attack that is intended to seize or inflict damage on or destroy an objective
+bn:00074669n	WIKI	A strike is a directed physical attack with either a part of the human body or with an inanimate object intended to cause blunt trauma or penetrating trauma upon an opponent.
+bn:00074669n	WIKIDIS	Stroke (battitura, colpo, percoffa)
+bn:00074669n	WIKIDATA	Directed physical attack
+bn:00075592n	WN	Changing location by moving back and forth
+bn:00075592n	OMWIKI	Changing location by moving back and forth.
+bn:00075592n	WIKT	Changing location by moving back and forth.
+bn:00075592n	WIKTLB	Changing location by moving back and forth.
+bn:00048231n	WN	A style of jazz played by big bands popular in the 1930s; flowing rhythms but less complex than later styles of jazz
+bn:00048231n	WIKI	Swing music, or simply swing, is a form of popular music developed in the United States that dominated in the 1930s and 1940s.
+bn:00048231n	WIKIDIS	A style of jazz from the 1930s-1940s, also called "swing jazz"
+bn:00048231n	WIKIDATA	Genre of jazz music
+bn:00048231n	WIKT	Swing, a style of jazz music.
+bn:00048231n	WIKT	The genre of music associated with this dance style.
+bn:00048231n	MSTERM	One of the music genres that appears under Genre classification in Windows Media Player library. Based on ID3 standard tagging format for MP3 audio files. Winamp genre ID # 83.
+bn:02516091n	WIKI	Negermusik was a pejorative term used by the Nazis during the Third Reich to signify musical styles and performances by African-Americans that were of the Jazz and Swing music genres.
+bn:02516091n	WIKIDATA	Negro music
+bn:06587107n	NONE	NONE
+bn:00005147n	WN	A relatively short golf shot intended to put the ball onto the putting green
+bn:00005147n	WIKT	A stroke whose object is to land the ball on the putting green. It is made with an iron club.
+bn:00005147n	WIKTLB	A stroke whose object is to land the ball on the putting green.
+bn:00028498n	WN	A swing downward of a golf club
+bn:00028628n	WN	A golf shot that curves to the left for a right-handed golfer
+bn:00028628n	WIKI	In computer programming, the term hooking covers a range of techniques used to alter or augment the behavior of an operating system, of applications, or of other software components by intercepting function calls or messages or events passed between software components.
+bn:00028628n	WIKI	A technique to alter the behavior of a software by appending or replacing functions at predetermined attachment points
+bn:00028628n	WIKIDIS	A computer programming technique
+bn:00028628n	WIKT	A golf shot that curves unintentionally to the left. See draw, slice, fade.
+bn:00028628n	WIKT	A golf shot that curves intentionally to the left. See hook, slice, fade.
+bn:00028628n	WIKTLB	Golf shot that curves unintentionally.
+bn:00028781n	WN	Hitting a golf ball off of a tee with a driver
+bn:00028781n	WIKI	In golf stroke mechanics, a drive, also known as a tee shot, is a long-distance shot played from the tee box, intended to move the ball a great distance down the fairway towards the green.
+bn:00028781n	WIKIDATA	Type of shot in golf
+bn:00028781n	WIKT	A type of public roadway.
+bn:00028781n	WIKTLB	Type of public roadway.
+bn:00032348n	WN	A golf shot from a bunker that typically moves sand as well as the golf ball
+bn:00032688n	WN	A golf shot that curves to the right for a right-handed golfer
+bn:00032688n	WIKT	A shot that curves unintentionally to the right. See fade, hook, draw.
+bn:00032688n	WIKT	A golf shot that curves intentionally to the right. See slice, hook, draw.
+bn:00065374n	WN	Hitting a golf ball that is on the green using a putter
+bn:00065374n	WIKT	The act of tapping a golf ball lightly on a putting green.
+bn:00065374n	WIKTLB	Act of tapping a golf ball lightly on a putting green.
+bn:00069701n	WN	A poor golf stroke in which the club head hits the ground before hitting the ball
+bn:00069701n	WIKT	A poor golf shot, during which the club hits the ground before it hits the ball.
+bn:00070901n	WN	A poor golf stroke in which the heel of the club hits the ball
+bn:00076361n	WN	The act of hitting a golf ball from the teeing ground at the start of each hole
+bn:00008818n	WN	In baseball; a batter's attempt to hit a pitched ball
+bn:00008818n	WIKT	Sideways movement of the ball through the air caused by a fast bowler imparting spin to the ball.
+bn:00075593n	WN	A square dance figure; a pair of dancers join hands and dance around a point between them
+bn:00075593n	WIKI	"Swing dance" is a group of dances that developed with the swing style of jazz music in the 1920s-1940s, with the origins of each dance predating the popular "swing era".
+bn:00075593n	WIKIDIS	A group of dances that correspond to swing style of jazz music
+bn:00075593n	WIKIDATA	Group of dances tied to jazz
+bn:00075593n	WIKT	A dance style.
+bn:00048228n	WN	A jerky American dance that was popular in the 1940s
+bn:00048228n	WIKI	The jitterbug is a kind of dance popularized in the United States in the early 20th century and is associated with various types of swing dances such as the Lindy Hop, jive, and East Coast Swing.
+bn:00048228n	WIKIDATA	Dance style associated with swing dance
+bn:00022221n	WN	A type of folk dance in which couples are arranged in sets or face one another in a line
+bn:00022221n	WIKI	A country dance is any of a large number of social dances of the British Isles in which couples dance together in a figure or "set", each dancer dancing to his or her partner and each couple dancing to the other couples in the set.
+bn:00022221n	WIKI	Contra dance is a folk dance made up of long lines of couples.
+bn:00022221n	WIKIDIS	Several folk dance styles in which couples dance in two facing lines of indefinite length
+bn:00022221n	WIKT	A type of folk dance style in which couples dance in two facing lines of indefinite length.
+bn:00022221n	WIKT	A folk dance in which two lines of couples face each other.
+bn:00022221n	WIKT	Any set step routine group dance such as ceilidh dance, highland dance, line dance, barn dance or square dance.
+bn:00025142n	WN	An artistic form of nonverbal communication
+bn:00025142n	WIKI	Dance is a performing art form consisting of purposefully selected sequences of human movement.
+bn:00025142n	WIKI	Art form involving movement of the body
+bn:00025142n	WIKIDATA	Creative work whose interpretation generally involves movement of the body
+bn:00025142n	WIKIQU	Dance generally refers to human movement either used as a form of expression or presented in a social, spiritual or performance setting.
+bn:00035610n	WN	A style of dancing that originated among ordinary people (not in the royal courts)
+bn:00035610n	WIKI	Folk dances are dances that are developed by people that reflect the life of the people of a certain country or region.
+bn:00035610n	WIKIDIS	A 19th-century form of dance
+bn:00035610n	WIKIDATA	Dances that were danced to traditional folk festivals and in traditional societies and are still been danced
+bn:00072530n	WN	Dancing as part of a social occasion
+bn:00072530n	WIKI	Social dance is that category of dances that have a social function and context.
+bn:00072530n	WIKIDATA	Type of dances where human interaction is the primary focus
+bn:00072530n	OMWIKI	Any of a variety of social dances performed by couples in a ballroom.
+bn:00072530n	WIKT	A type of elegant dance.
+bn:00072530n	WIKTLB	Type of elegant dance.
+bn:02837517n	WIKI	Partner dances are dances whose basic choreography involves coordinated dancing of two partners, as opposed to individuals dancing alone or individually in a non-coordinated manner, and as opposed to groups of people dancing simultaneously in a coordinated manner.
+bn:02837517n	WIKIDATA	Coordinated dancing of two partners
+bn:00061565n	WN	Arts or skills that require public performance
+bn:00061565n	WIKI	Performing arts are a form of art in which artists use their voices or bodies, often in relation to other objects, to convey artistic expression.
+bn:00061565n	WIKIDATA	Art forms in which artists use their body or voice to convey artistic expression
+bn:00061565n	WIKT	The arts involving performance, such as dance, theatre, music, etc.
+bn:00061565n	WIKTLB	Arts involving performance.
+bn:00142271n	WIKI	A pirate ship is a type of amusement ride based on pirate ships, consisting of an open, seated gondola which swings back and forth, subjecting the rider to various levels of angular momentum.
+bn:00142271n	WIKIDATA	Amusement ride
+bn:00142271n	WIKT	A fairground ride consisting of an open gondola which swings back and forth.
+bn:01874029n	WIKI	A sex swing is a type of harness designed to allow sexual intercourse between one partner suspended by the swing and another who moves freely.
+bn:01874029n	WIKIDIS	Also known as a "sling"
+bn:01874029n	WIKIDATA	Type of harness designed to allow sexual intercourse between one partner suspended and another who moves freely
+bn:16278466n	NONE	NONE
+bn:00025162n	WN	A plaything consisting of a board balanced on a fulcrum; the board is ridden up and down by children at either end
+bn:00025162n	WIKI	The teeterboard is an acrobatic apparatus that resembles a playground seesaw.
+bn:00025162n	WIKI	A seesaw is a long, narrow board supported by a single pivot point, most commonly located at the midpoint between both ends; as one end goes up, the other goes down.
+bn:00025162n	WIKIDATA	Long, narrow board pivoted in the middle
+bn:00025162n	OMWIKI	An apparatus composed of a plank, balanced in the middle, with seats at both end, used for a game in which one person goes up as the other goes down.
+bn:00025162n	WIKT	A structure composed of a plank, balanced in the middle, used as a game in which one person goes up as the other goes down; a teeter-totter.
+bn:00025162n	WIKT	A seesaw; a piece of playground equipment consisting of a long board with seats at either end, with a pivot point in the center.
+bn:00025162n	WIKT	A seesaw.
+bn:02390850n	WIKI	The flying trapeze is a specific form of the trapeze in which a performer jumps from a platform with the trapeze so that gravity makes the trapeze swing.
+bn:06551603n	NONE	NONE
+bn:00094678v	WN	Move in a curve or arc, usually with the intent of hitting
+bn:00095782v	WN	Give a preliminary swing to the arm pitching
+bn:00094655v	WN	Move or walk in a swinging or swaying manner
+bn:00083859v	WN	Swing from one hold to the next
+bn:00090954v	WN	Move in one direction and then into the opposite direction
+bn:00094679v	WN	Change direction with a swinging motion; turn
+bn:00094679v	FRAMENET	To rapidly move from one value to another.
+bn:00094679v	FRAMENET	To propel oneself changing direction suddenly.
+bn:00094679v	FRAMENET	Move quickly changing direction.
+bn:00094679v	FRAMENET	To proceed (as a path) changing direction suddenly.
+bn:00094680v	WN	Influence decisively
+bn:00082304v	WN	Have and exert influence or effect
+bn:00082304v	OMWIKI	To have and exert influence or effect.
+bn:00082304v	WIKT	To exert, make use of one's influence.
+bn:00082304v	WIKTLB	Transitive: to exert an influence upon.
+bn:00094681v	WN	Hit or aim at with a sweeping arm movement
+bn:00036297n	WN	An illegal enterprise (such as extortion or fraud or drug peddling or prostitution) carried on for profit
+bn:00036297n	WIKI	A racket is a criminal act to offer a service that is fraudulently offered to solve a problem, such as for a problem that does not exist, that will not be put into effect, or that would not otherwise exist if the racket did not exist.
+bn:00036297n	WIKIDIS	A systematised element of organized crime
+bn:00036297n	WIKIDATA	Service that is fraudulently offered to solve a problem
+bn:00036297n	WIKT	A fraud or swindle; an illegal scheme for profit.
+bn:00030751n	WN	A purposeful or industrious undertaking (especially one that requires effort or boldness)
+bn:00037247n	WN	Underworld organizations
+bn:00037247n	WIKI	Organized crime is a category of transnational, national, or local groupings of highly centralized enterprises run by criminals who intend to engage in illegal activity, most commonly for money and profit.
+bn:00037247n	WIKIDATA	Groupings of highly centralized criminal enterprises, commonly seeking monetary profit
+bn:00037247n	WIKT	The crimes perpetrated by those organizations.
+bn:00037247n	WIKT	The underworld of organized crime.
+bn:00037247n	WIKTLB	Crimes carried out by these organizations.
+bn:00036292n	WN	Intentional deception resulting in injury to another person
+bn:00036292n	WIKI	In law, fraud is deliberate deception to secure unfair or unlawful gain, or to deprive a victim of a legal right.
+bn:00036292n	WIKIDIS	In law, an intentional deception made for personal gain or to damage another individual
+bn:00036292n	WIKIDATA	Intentional deception made for personal gain or to damage another individual
+bn:00036292n	OMWIKI	An act of deception carried out for the purpose of unfair, undeserved, and/or unlawful gain.
+bn:00036292n	WIKT	Any act of deception carried out for the purpose of unfair, undeserved and/or unlawful gain.
+bn:00036292n	WIKTLB	Assumption of a false identity to such deceptive end.
+bn:00036292n	WIKIQU	Fraud is an intentional deception made for personal gain or to damage another individual.
+bn:00049573n	WN	Any piece of work that is undertaken or attempted
+bn:00049573n	WIKI	In contemporary business and science, a project is an individual or collaborative enterprise, possibly involving research or design, that is carefully planned, usually by a project team, to achieve a particular aim.
+bn:00049573n	WIKIDIS	A temporary endeavor undertaken to create a unique product or service
+bn:00049573n	WIKIDATA	Collaborative enterprise, frequently involving research or design, that is carefully planned to achieve a particular aim
+bn:00049573n	MSTERM	A file that keeps track of all programs, forms, menus, libraries, reports, labels, queries, and other types of files that are needed to create an application.
+bn:00049573n	MSTERM	A program of work.
+bn:00049573n	MSTERM	In Windows Assessment Services, the group of computers and images that comprise a subset of all the computers and images that have been added to an inventory. A project provides a contextualized, manageable view of computers within the pool of assets, and pairs each computer with an image and an answer file. A project does not contain assessments, but the project shows all the jobs that correspond to the project.
+bn:00049573n	MSTERM	A set of source files and related metadata, such as component references and build instructions, that helps you organize and perform common tasks on the items that you are developing. Projects are contained within a solution.
+bn:00049573n	MSTERM	A temporary endeavor undertaken to meet or exceed stakeholder expectations.
+bn:00049573n	FRAMENET	A formal pledge or promise to do something.
+bn:00023807n	WN	(criminal law) an act punishable by law; usually considered an evil act
+bn:00023807n	WIKI	In ordinary language, a crime is an unlawful act punishable by a state or other authority.
+bn:00023807n	WIKIDIS	The practice of breaking the law
+bn:00023807n	WIKIDATA	Unlawful act forbidden and punishable by criminal law
+bn:00023807n	OMWIKI	Any act done in violation of those duties which an individual owes to the community, and for the breach of which the law has provided that the offender shall make satisfaction to the public. 
+bn:00023807n	WIKT	A specific act committed in violation of the law.
+bn:00023807n	WIKT	The commission of a criminal act, the violation or breaking of a law.
+bn:00023807n	WIKT	An unlawful act.
+bn:00023807n	WIKT	The act of offending:
+bn:00023807n	WIKTLB	Act of offending against the law.
+bn:00023807n	WIKIQU	Crime in the field of sociology is the breach of a rule or law for which some governing authority or force may ultimately prescribe a punishment.
+bn:00017978n	WN	A deception for profit to yourself
+bn:00017978n	WIKI	Cheating is the receiving of a reward for ability or finding an easy way out of an unpleasant situation by dishonest means.
+bn:00017978n	WIKIDATA	Breaking of rules to gain advantage
+bn:00017978n	WIKIQU	Cheating is defined as an act of deception, fraud, trickery, imposture, or imposition.
+bn:00032054n	WN	The act of transgressing; the violation of a law or a duty or moral principle
+bn:00032054n	OMWIKI	The act of transgressing; the violation of a law or a duty or moral principle.
+bn:00032054n	WIKT	A violation of a law, duty or commandment.
+bn:00032054n	WIKTLB	Violation of a law, command or duty.
+bn:00009655n	WN	The action or reaction of something (as a machine or substance) under specified circumstances
+bn:00009655n	WIKI	Behavior or behaviour is the range of actions and mannerisms made by individuals, organisms, systems, or artificial entities in conjunction with themselves or their environment, which includes the other systems or organisms around as well as the physical environment.
+bn:00009655n	WIKIDATA	Internally coordinated responses (actions or inactions) of entities (individuals or groups) to internal or external stimuli
+bn:00009656n	WN	(behavioral attributes) the way a person behaves toward other people
+bn:00009656n	WIKI	Behavior or behaviour is the range of actions and mannerisms made by individuals, organisms, systems, or artificial entities in conjunction with themselves or their environment, which includes the other systems or organisms around as well as the physical environment.
+bn:00009656n	WIKI	Social behavior is behavior among two or more organisms, typically from the same species.
+bn:00009656n	WIKIDATA	Behavior among two or more organisms, typically from the same species
+bn:00009656n	WIKIDATA	Internally coordinated responses (actions or inactions) of entities (individuals or groups) to internal or external stimuli
+bn:00009656n	OMWIKI	Manner of behaving oneself; manner of acting.
+bn:00009656n	OMWIKI	Any observable action or response of an organism, group or species to environmental factors.
+bn:00009656n	WIKT	Bearing; manner of presenting oneself:.
+bn:00009656n	WIKT	The way a living creature behaves or acts.
+bn:00009656n	WIKT	The way a living creature behaves or acts generally.
+bn:00009656n	WIKT	The manner of guiding or carrying oneself; personal deportment; mode of action; behavior.
+bn:00009656n	WIKT	One's posture, demeanor, or manner.
+bn:00009656n	WIKT	The social, non-verbal behaviours that are characteristic of a person.
+bn:00009656n	WIKTLB	Manner of guiding or carrying oneself.
+bn:00009656n	MSTERM	A component that controls various run-time aspects of a service, an endpoint, a particular operation, or a client. Behaviors are grouped according to scope: common behaviors affect all endpoints globally, service behaviors affect only service-related aspects, endpoint behaviors affect only endpoint-related properties, and operation-level behaviors affect particular operations.
+bn:00009657n	WN	(psychology) the aggregate of the responses or reactions or movements made by an organism in any situation
+bn:00009657n	WIKI	Behavior or behaviour is the range of actions and mannerisms made by individuals, organisms, systems, or artificial entities in conjunction with themselves or their environment, which includes the other systems or organisms around as well as the physical environment.
+bn:00009657n	WIKIDATA	Internally coordinated responses (actions or inactions) of entities (individuals or groups) to internal or external stimuli
+bn:00009657n	OMWIKI	Any observable action or response of an organism, group or species to environmental factors.
+bn:00009657n	WIKT	Observable response produced by an organism.
+bn:00009657n	MSTERM	Reusable components that encapsulate interactive behavior and can be applied to objects in an application. A behavior may contain some state, and may expose one or more commands.
+bn:00046031n	WN	The quality of not being in accord with standards of right or good conduct
+bn:00046031n	WIKI	Immorality is the violation of moral laws, norms or standards.
+bn:00065848n	WN	A sports implement (usually consisting of a handle and an oval frame with a tightly interlaced network of strings) used to strike a ball (or shuttlecock) in various games
+bn:00065848n	WIKI	A racket or racquet is a sports implement consisting of a handled frame with an open hoop across which a network of strings or catgut is stretched tightly.
+bn:00065848n	WIKIDIS	A piece of equipment used to play tennis, badminton, squash, racquetball and other sports
+bn:00065848n	WIKIDATA	Sports equipment
+bn:00065848n	OMWIKI	An implement with a handle connected to a round frame strung with wire, sinew, or plastic cords, and used to hit a ball, such as in tennis or a birdie in badminton.
+bn:00065848n	WIKT	An implement with a handle connected to a round frame strung with wire, sinew, or plastic cords, and used to hit a ball, such as in tennis, or a shuttlecock in badminton.
+bn:00065848n	WIKT	A racquet: an implement with a handle connected to a round frame strung with wire, sinew, or plastic cords, and used to hit a ball, such as in tennis or a birdie in badminton.
+bn:00065848n	WIKTLB	An implement with a handle used to hit a ball.
+bn:01073862n	WIKI	A basic table tennis racket is used by table tennis players.
+bn:01073862n	WIKIDATA	Sports equipment
+bn:14570757n	WIKIDATA	Badminton equipment
+bn:15757740n	WIKIDATA	Sports equipment
+bn:15418615n	NONE	NONE
+bn:00032602n	WN	The striking or working surface of an implement
+bn:00032602n	WIKT	The front surface of a bat.
+bn:00032602n	WIKTLB	Cricket: front surface of a bat.
+bn:00007911n	WN	A light long-handled racket used by badminton players
+bn:00007911n	WIKT	A light, long-handled racket, used to hit a shuttlecock in the game of badminton.
+bn:00008978n	WN	A small racket with a long handle used for playing squash
+bn:00023996n	WN	A long racket with a triangular frame; used in playing lacrosse
+bn:00023996n	WIKT	A lacrosse stick.
+bn:00076529n	WN	A racket used to play tennis
+bn:00073581n	WN	An implement used in a sport
+bn:00073580n	WN	Equipment needed to participate in a particular sport
+bn:00073580n	WIKI	Sports equipment, called sporting goods where sold, is any object used for sport or exercise.
+bn:00073580n	WIKIDATA	Object used for sport or exercise
+bn:13950722n	WIKI	The Bentley Fortissimo tennis racquet of 1972 was the first oversize tennis racquet to be produced and demonstrated publicly.
+bn:00011127n	WN	A loud harsh or strident noise
+bn:00011127n	OMWIKI	A continuing loud, harsh or strident noise.
+bn:00011127n	WIKT	A continual loud noise.
+bn:00011127n	WIKT	A loud noise; a cacophony or loud commotion.
+bn:00011127n	WIKT	Any loud and continued noise.
+bn:00011127n	WIKT	Any loud noise, such as from an elephant.
+bn:00011127n	WIKT	A loud sound.
+bn:00011127n	WIKTLB	Loud and continued noise.
+bn:00090592v	WN	Emit a noise
+bn:00090592v	WIKT	To reverberate with sound or noise.
+bn:00090592v	WIKTLB	(intransitive) to reverberate with sound or noise.
+bn:00090592v	FRAMENET	Spread with a ringing, booming, or echoing sound.
+bn:00083002v	WN	Emit a loud noise as a result of undergoing a backfire
+bn:00083557v	WN	Make a strident sound
+bn:00083557v	FRAMENET	Produce loud continuous music or noise.
+bn:00083557v	FRAMENET	For loud continuous music or noise to spread.
+bn:00083888v	WN	Make a rattling sound
+bn:00083888v	WIKT	To cause to make a rattling sound.
+bn:00083888v	WIKTLB	To cause to make a rattling sound.
+bn:00083888v	FRAMENET	To cause an object to hit another object.
+bn:00083888v	FRAMENET	To hit another object.
+bn:00083888v	FRAMENET	To move making a rattling noise.
+bn:00083888v	FRAMENET	Make a loud rattling sound.
+bn:00085058v	WN	Use the horn of a car
+bn:00085058v	WIKT	To use a car horn.
+bn:00085058v	WIKTLB	To use a car horn.
+bn:00085143v	WN	Make a shrill creaking noise by rubbing together special bodily structures
+bn:00085143v	WIKT	To make a high-pitched chirping, grating, hissing, or squeaking sound, as male crickets and grasshoppers do, by rubbing certain body parts together.
+bn:00085143v	WIKTLB	To make a noise by rubbing body parts as do crickets.
+bn:00085949v	WN	Make a crushing noise
+bn:00085949v	FRAMENET	Hit somthing hard or crush with a marked grinding sound.
+bn:00085949v	FRAMENET	To move making soft sharp repeating sounds.
+bn:00085949v	FRAMENET	Make a crushing, grinding sound.
+bn:00085949v	FRAMENET	To move making a grinding sound.
+bn:00085998v	WN	Make a high-pitched, screeching noise
+bn:00085998v	FRAMENET	Make a harsh high-pitched sound when being moved or when pressure is applied.
+bn:00085998v	FRAMENET	Make a short, high-pitched sound or cry.
+bn:00085998v	FRAMENET	To move making a harsh, high-pitched noise.
+bn:00085998v	FRAMENET	Say something in a high-pitched tone.
+bn:00087398v	WN	Make imperceptible
+bn:00089498v	WN	Make a loud noise, as of wind, water, or vehicles
+bn:00089498v	OMWIKI	To make a loud noise, as of wind, water, or vehicles.
+bn:00089498v	WIKT	Generally, of inanimate objects etc., to make a loud resounding noise.
+bn:00089498v	FRAMENET	To move with great noise or commotion.
+bn:00089498v	FRAMENET	Move making a wailing, crying sound.
+bn:00089510v	WN	Make a low continuous sound
+bn:00089510v	FRAMENET	Make a low, steady continuous sound like that of a bee or sing with closed lips.
+bn:00089944v	WN	Make a sound typical of metallic objects
+bn:00089944v	WIKT	To make a rattling metallic sound.
+bn:00089944v	WIKTLB	To make a metallic sound.
+bn:00088919v	WN	Make a certain noise or sound
+bn:00088919v	FRAMENET	To make an object emit phonons of compression and rarefaction.
+bn:00092296v	WN	Hit (a ball) with a racket
+bn:00089346v	WN	Cause to move by striking
+bn:00023406n	WN	A boot with a high arch and fancy stitching; worn by American cowboys
+bn:00023406n	WIKI	Cowboy boots refer to a specific style of riding boot, historically worn by cowboys.
+bn:00023406n	WIKI	Boot with Cuban heel, rounded to pointed toe, high shaft, no lacing
+bn:00043912n	WN	(19th century) a man's high tasseled boot
+bn:00043912n	WIKI	The Wellington boot is a type of boot based upon leather Hessian boots.
+bn:00043912n	WIKI	Hessian refers to a style of light boot that became popular from the beginning of the 19th century.
+bn:00043912n	WIKI	A jackboot is a military boot such as the cavalry jackboot or the hobnailed jackboot.
+bn:00043912n	WIKI	Military boot
+bn:00043912n	WIKIDIS	Almost knee-high boots made from rubber or PVC
+bn:00043912n	WIKIDIS	A style of boot
+bn:00043912n	WIKIDATA	Type of boot
+bn:00043912n	OMWIKI	Watertight boots made of rubber.
+bn:00043912n	WIKT	A type of boot made of rubber.
+bn:00043912n	WIKT	(the boot).
+bn:00043912n	WIKT	Wellington boots.
+bn:00043912n	WIKT	A boot with a low heel and semi-pointed toe, which became popular, initially among the military, in the 18th century.
+bn:00043912n	WIKT	Waterproof rubber boots, intended to be worn in wet or muddy conditions. Short forms: wellies.
+bn:00043912n	WIKT	One of a pair of Wellington boots.
+bn:00067772n	WN	A boot without laces that is worn for riding horses; part of a riding habit
+bn:00067772n	WIKI	A riding boot is a boot made to be used for horse riding.
+bn:00067772n	WIKI	Horse riding boot
+bn:00216416n	WIKI	A Beatle boot is a style of boot that has been worn since the 1960s—made popular by the English rock group the Beatles, for whom they were originally made.
+bn:00885164n	WIKI	Mukluks or Kamik are a soft boot, traditionally made of reindeer skin or sealskin, and worn by Arctic aboriginal people, including the Inuit, Iñupiat, and Yupik.
+bn:00885164n	WIKIDATA	Type of boot
+bn:00885164n	WIKT	A soft knee-high boot of sealskin or reindeer skin, originally worn by Inuit and Yupik.
+bn:00968172n	WIKI	Knee-high boots are boots that rise to the knee, or slightly thereunder.
+bn:00972612n	WIKI	An Australian work boot is a style of work shoe, typically constructed with a leather upper bound together with elastic sides and pull tabs on the front and back of the boot.
+bn:01244040n	WIKI	Dress boots are short leather boots worn by men.
+bn:02151684n	WIKI	A fashion boot is a boot worn for reasons of style or fashion.
+bn:02151684n	WIKT	A boot that rises up to the ankle.
+bn:02455517n	WIKI	The ballet boot is a contemporary style of fetish footwear that merges the look of the pointe shoe with a high heel.
+bn:03086864n	WIKI	Chelsea boots are close-fitting, ankle-high boots with an elastic side panel.
+bn:03141703n	WIKI	Sheepskin boots are boots made from sheepskin.
+bn:03280953n	WIKI	Magnetic boots are boots that are magnetic, which allows them to attach to the ferrous floor or hulls of a spacecraft during weightlessness, and presumably would allow someone to walk around the cabin of a spacecraft, but they would still feel weightless.
+bn:03562229n	WIKI	Thigh-high boots, known also as thigh-length boots or simply thigh boots, are boots that extend above the knees to at least mid-thigh.
+bn:03562229n	WIKI	Boot reaching above the knee
+bn:03562229n	OMWIKI	A type of boot that extends above the knees.
+bn:03742848n	WIKI	Ugg boots are a unisex style of sheepskin boot originating in Australia and New Zealand.
+bn:03742848n	WIKIDIS	A style of sheepskin boot that originated in Australia and New Zealand
+bn:03855682n	WIKI	Go-go boots are a low-heeled style of women's fashion boot first introduced in the mid-1960s.
+bn:03855682n	WIKT	A kind of low-heeled women's fashion boot introduced in the 1960s.
+bn:16271269n	WIKI	Hip boots, or hip waders as they are sometimes called, are a type of tall boot initially designed to be worn by river fishermen.
+bn:16271269n	WIKI	Waterproof boots reaching to the hips
+bn:14546357n	NONE	NONE
+bn:00059812n	WN	The outer sole of a shoe or boot that is the bottom of the shoe and makes contact with the ground
+bn:00059812n	WIKT	The underside of a shoe, which makes contact with the floor.
+bn:00077470n	WN	The forward tip of the upper of a shoe or boot that provides space and protection for the toes
+bn:00077474n	WN	A protective leather or steel cover for the toe of a boot or shoe, reinforcing or decorating it
+bn:00077567n	WN	The flap of material under the laces of a shoe or boot
+bn:00077567n	OMWIKI	In a shoe, the flap of material that goes between the laces and the foot.
+bn:00077567n	WIKT	In a shoe, the flap of material that goes between the laces and the foot, so called because it resembles a tongue in the mouth.
+bn:00079256n	WN	Piece of leather or synthetic material that forms the part of a shoe or boot above the sole that encases the foot
+bn:00079256n	WIKT	The piece of leather, etc., that forms the top part of a shoe above the sole.
+bn:00079256n	WIKTLB	The part of a shoe above the sole.
+bn:00012171n	WN	The act of delivering a blow with the foot
+bn:00012171n	WIKI	A kick is a physical strike using the leg, foot, heel, tibia, thigh or knee.
+bn:00012171n	WIKIDATA	Physical strike using the leg, foot or knee
+bn:00012171n	OMWIKI	A physical strike using the foot, leg, or knee.
+bn:00012171n	WIKT	A hit or strike with the leg, foot or knee.
+bn:00012171n	WIKT	A blow with the foot; a kick.
+bn:00012171n	WIKTLB	Hit or strike with the leg or foot.
+bn:00006994n	WN	(military) an offensive against an enemy (using weapons)
+bn:00006994n	OMWIKI	Close fighting during the culmination of a military attack.
+bn:00006994n	WIKT	A fierce attack.
+bn:00006994n	WIKT	A violent onset or attack with moral weapons, for example words, arguments, appeals, and the like.
+bn:00020670n	WN	(physics) a brief event in which two or more bodies come together
+bn:00020670n	WIKI	A collision or crash is an event in which two or more bodies exert forces on each other for a relatively short time.
+bn:00020670n	WIKIDIS	An impact between two or more moving objects
+bn:00020670n	WIKIDATA	Contact between objects in which physical force is exerted on each
+bn:00020670n	OMWIKI	An often violent body impact with another.
+bn:00020670n	FRAMENET	An instance of colliding.
+bn:00054973n	WN	Activity by a military or naval force (as a maneuver or campaign)
+bn:00054973n	WIKI	A military operation is the coordinated military actions of a state, or a non-state actor, in response to a developing situation.
+bn:00054973n	WIKIDIS	The coordinated military actions of a state in response to a developing situation
+bn:00054973n	WIKIDATA	Coordinated military actions of a state in response to a developing situation
+bn:00054973n	MSTERM	A request or request-response pairing on a port that is associated with either a send or receive action.
+bn:03140436n	WIKI	In computing, booting is the initialization of a computerized system.
+bn:03140436n	WIKIDIS	The initial set of operations that a computer system performs when turned on
+bn:03140436n	WIKIDATA	Initial set of operations that a computer system performs after electrical power to the CPU is switched on or when the computer is reset
+bn:03140436n	MSTERM	The process of starting or resetting a computer. When first turned on (cold boot) or reset (warm boot), the computer runs the software that loads and starts the computer's operating system, which prepares it for use.
+bn:03140436n	MSTERM	In a PC-compatible computer, the disk drive that the BIOS uses to automatically load the operating system when the computer is turned on.
+bn:00083788v	WN	Kick; give a boot to
+bn:00090086v	WN	Strike with the foot
+bn:00090086v	OMWIKI	To strike somebody or something with the foot.
+bn:00090086v	WIKT	To strike or hit with the foot or other extremity of the leg.
+bn:00090086v	WIKTLB	Strike with or raise the foot or leg
+bn:00090086v	FRAMENET	Strike or propel forcibly with the foot.
+bn:00007329n	WN	A vehicle carrying many passengers; used for public transport
+bn:00007329n	WIKI	A bus is a road vehicle designed to carry many passengers.
+bn:00007329n	WIKI	Motor bus or motorbus is a now somewhat archaic term referring to a bus powered by an onboard internal combustion engine, as opposed to a horse-drawn bus, steam bus or trolleybus.
+bn:00007329n	WIKI	A charabanc or "char-à-banc" is a type of horse-drawn vehicle or early motor coach, usually open-topped, common in Britain during the early part of the 20th century.
+bn:00007329n	WIKI	A coach is a type of bus used for conveying passengers.
+bn:00007329n	WIKIDIS	A multi-passenger vehicle
+bn:00007329n	WIKIDIS	An automotive vehicle for long-distance travel
+bn:00007329n	WIKIDATA	Archaic term referring to a bus
+bn:00007329n	WIKIDATA	Large vehicle for transporting people
+bn:00007329n	WIKIDATA	Type of bus for conveying passengers on excursions and on longer-distance intercity coach services
+bn:00007329n	OMWIKI	A large, long-bodied motor vehicle equipped with seating for passengers, usually operating as part of a scheduled service.
+bn:00007329n	WIKT	A vehicle set up to carry many people.
+bn:00007329n	WIKT	A single decked long-distance, or privately hired, bus.
+bn:00007329n	WIKT	A motorised bus, or coach.
+bn:00007329n	WIKT	A motorised bus, or coach.
+bn:00007329n	WIKT	A bus that is a motor vehicle, as opposed to earlier horse-drawn buses.
+bn:00007329n	WIKT	A vehicle, usually a bus or coach, with two decks.
+bn:00007329n	WIKTLB	Vehicle with two decks.
+bn:00021276n	WN	A small and economical car
+bn:00021276n	WIKI	A compact car, or small family car in British acceptation, is a classification of cars that are larger than a subcompact car but smaller than a mid-size car, equating roughly to the C-segment in Europe.
+bn:00021276n	WIKIDIS	A classification of automobile size
+bn:00021276n	WIKIDATA	Cars that are larger than a subcompact car but smaller than a mid-size car
+bn:00021276n	WIKT	A small and economical car.
+bn:00055185n	WN	A small box-shaped passenger van; usually has removable seats; used as a family car
+bn:00055185n	WIKI	A minivan, people carrier, or MPV or MUV is a vehicle size classification describing a high-roof vehicle with a flexible interior layout.
+bn:00055185n	WIKIDIS	American English name for a small van constructed for personal rather than commercial use
+bn:00055185n	WIKIDATA	American English term to describe a type of van designed for personal use
+bn:00055185n	WIKT	A small van.
+bn:00068678n	WN	A high-performance four-wheel drive car built on a truck chassis
+bn:00068678n	WIKI	Sport-utility, SUV or sport-ute is an automotive classification, typically a kind of station wagon / estate car with off-road vehicle features like raised ground clearance and ruggedness, and available four-wheel drive.
+bn:00068678n	WIKIDATA	Type of automobile
+bn:00068678n	WIKT	Sport utility vehicle.
+bn:00068678n	WIKT	A passenger vehicle which combines the towing capacity of a pickup truck with the passenger-carrying space of a minivan or station wagon together with on- or off-road ability.
+bn:00074870n	WN	A car smaller than a compact car
+bn:00074870n	WIKI	A subcompact car is the American term for an automobile with a class size smaller than a compact car usually not exceeding 165 inches in length, but larger than a microcar.
+bn:00074870n	WIKIDATA	American definition to indicate an automobile with a class size smaller than that of a compact car
+bn:00074870n	WIKT	Something that is smaller than the compact version, especially a very small car.
+bn:00147536n	WIKI	The Zhongxing Landmark is a mid-size SUV designed and developed by Hebei Zhongxing Automobile.
+bn:00161305n	WIKI	The Chevrolet Trax is one of three small car concepts introduced at the 2007 New York International Auto Show.
+bn:00161305n	WIKIDATA	Chevrolet mini SUV concept car shown at New York Auto Show 2007
+bn:00183906n	WIKI	The Ruf RK Coupe/Spyder is a mid-engined sports car made by Ruf Automobile and Studiotorino.
+bn:00195649n	WIKI	A roadable aircraft is a hybrid vehicle that combines the flying capability of an aircraft with the option of being driven as an automobile on the ground.
+bn:00195649n	WIKIDIS	An automobile that can legally travel on roads and can take off, fly, and land as an aircraft
+bn:00195649n	WIKIDATA	Aircraft that can also travel along roads
+bn:00197472n	WIKI	The Toyota LiteAce and TownAce are a line of light commercial and derivative passenger vans produced by the Japanese car manufacturer Toyota.
+bn:00197472n	WIKIDATA	Car model
+bn:00197472n	WIKIDATA	Car model
+bn:00004614n	WN	A rigid metal bar between the front suspensions and between the rear suspensions of cars and trucks; serves to stabilize the chassis
+bn:00004614n	WIKI	An anti-roll bar is a part of many automobile suspensions that helps reduce the body roll of a vehicle during fast cornering or over road irregularities.
+bn:00004614n	WIKT	A bar that is stressed to reduce roll in a car body during cornering.
+bn:00034505n	WN	One of a pair of decorations projecting above the rear fenders of an automobile
+bn:00034505n	WIKI	The tailfin era of automobile styling encompassed the 1950s and 1960s, peaking between 1957 and 1961.
+bn:00034505n	WIKIDIS	A styling feature of automobiles
+bn:00035320n	WN	The floor of an automobile
+bn:00037437n	WN	An internal-combustion engine that burns gasoline; most automobiles are driven by gasoline engines
+bn:00037437n	WIKI	A petrol engine is an internal combustion engine with spark-ignition, designed to run on petrol and similar volatile fuels.
+bn:00037437n	WIKIDATA	Internal combustion engine designed to run on gasoline
+bn:00037437n	OMWIKI	An internal combustion engine that uses a mixture of air and gasoline vapour as a fuel.
+bn:00037437n	WIKT	A device used to prime an internal combustion engine with gasoline, in airplanes.
+bn:00037437n	WIKTLB	Device used to prime an internal combustion engine with gasoline.
+bn:00040738n	WN	Compartment on the dashboard of a car
+bn:00040738n	WIKI	A glove compartment or glovebox or glovie is a compartment built into the dashboard, located over the front-seat passenger's footwell in an automobile, often used for miscellaneous storage.
+bn:00040738n	WIKT	A compartment recessed in an automobile’s dashboard, that usually has a door and can be locked, intended to hold gloves, papers, etc.
+bn:00040738n	WIKTLB	Compartment recessed in an automobile’s dashboard.
+bn:00041798n	WN	Grating that admits cooling air to car's radiator
+bn:00041798n	WIKI	A grille or grill is an opening of several slits side by side in a wall or metal sheet or other barrier, usually to let air or water enter and/or leave but keep larger objects including animals in or out.
+bn:00041798n	WIKIDATA	Architectural element
+bn:16647291n	WIKIDATA	Motorized vehicle
+bn:15671256n	WIKIDATA	Vehicle mainly meant to move on land
+bn:00058341n	WN	Usually large hard-shelled seed
+bn:00016952n	WN	The seed of the Swiss pine
+bn:00020523n	WN	Bitter brown seed containing caffein; source of cola extract
+bn:00020523n	WIKI	The kola nut is the fruit of the kola tree, a genus of trees that are native to the tropical rainforests of Africa.
+bn:00020523n	WIKIDIS	A genus of about 125 species of trees
+bn:00020523n	WIKIDATA	Is the fruit of the kola tree
+bn:00029760n	WN	A hard-shelled seed consisting of an edible kernel or meat enclosed in a woody or leathery shell
+bn:00053707n	WN	Nuts of forest trees (as beechnuts and acorns) accumulated on the ground
+bn:00053707n	WIKI	Mast is the "fruit of forest trees like acorns and other nuts".
+bn:00053707n	WIKIDIS	The edible seed and fruit produced by trees or shrubs that wildlife species will consume
+bn:00053707n	WIKIDATA	Fruit of forest trees like acorns and other nuts
+bn:00058354n	WN	A small nut
+bn:00058354n	WIKT	A small nut.
+bn:00060309n	WN	Seed of any oil palm
+bn:00060309n	WIKI	The palm kernel is the edible seed of the oil palm fruit.
+bn:00060309n	WIKT	The edible seed of Elaeis guineensis, the oil palm.
+bn:01000830n	WIKI	A flange nut is a nut that has a wide flange at one end that acts as an integrated, non-spinning washer.
+bn:01000830n	WIKIDATA	Type of threaded fastener
+bn:01000999n	WIKI	A distorted thread locknut, is a type of locknut that uses a deformed section of thread to keep the nut from loosening from vibrations or rotation of the clamped item.
+bn:01124958n	WIKI	A wingnut or wing nut is a type of nut with two large metal "wings", one on each side, so it can be easily tightened and loosened by hand without tools.
+bn:01124958n	WIKIDIS	A nut with a pair of wings to enable it to be turned without tools, used where frequent adjustments are needed or part removal can be made quickly at some later stage
+bn:01124958n	WIKIDATA	Type of fastener
+bn:01124958n	WIKT	A nut having wing-like projections so that it can be turned easily by hand.
+bn:01124958n	WIKTLB	Nut with winglike projections.
+bn:01326985n	WIKI	A swage nut or self-clinching nut is a type of nut or threaded insert is used on sheet metal.
+bn:01326985n	WIKIDATA	Type of fastener
+bn:00809817n	WIKI	A cage nut or caged nut consists of a nut in a spring steel cage which wraps around the nut.
+bn:01315294n	WIKI	On some firearms the gun barrel is fastened to the receiver with a nut, referred to as a barrel nut.
+bn:03154334n	WIKI	A lug nut or wheel nut is a fastener, specifically a nut, used to secure a wheel on a vehicle.
+bn:03154334n	WIKIDIS	A fastener that secures a wheel to a vehicle
+bn:03154334n	WIKIDATA	Fastener, specifically a nut, used to secure a wheel on a vehicle
+bn:03154334n	WIKT	A strong nut used to attach a wheel to an axle of a motor car.
+bn:03154334n	WIKTLB	Nut to attach wheel to axle.
+bn:04080769n	NONE	NONE
+bn:00014277n	WN	A threaded nut with winglike projections for thumb and forefinger leverage in turning
+bn:00014277n	WIKT	A nut with wing-like projections to provide leverage in turning with thumb and forefinger.
+bn:00014277n	WIKTLB	Nut with wing-like projections.
+bn:00043954n	WN	A nut with a hexagonal shape
+bn:00051789n	WN	Supplementary nut that is screwed down on a primary nut to prevent it from loosening
+bn:00051789n	WIKI	A locknut, also known as a lock nut, locking nut, prevailing torque nut, stiff nut or elastic stop nut, is a nut that resists loosening under vibrations and torque.
+bn:00051789n	WIKIDATA	Threaded fastener
+bn:00051789n	WIKT	A second nut, screwed down onto another in order to prevent it slipping.
+bn:00060124n	WN	A nut used to tighten a stuffing box
+bn:00073725n	WN	Nut with a square shape
+bn:00073725n	WIKI	A square nut is a four-sided nut.
+bn:00023486n	WN	A whimsically eccentric person
+bn:00023486n	WIKI	"Crank" is a pejorative term used for a person who holds an unshakable belief that most of his or her contemporaries consider to be false.
+bn:00023486n	WIKIDIS	A pejorative term
+bn:00023486n	WIKT	A crazy or eccentric person.
+bn:00023486n	WIKT	An eccentric, crazy or foolish person. A kook.
+bn:00023486n	WIKT	A crazy person.
+bn:00023486n	WIKTLB	Slang: insane person.
+bn:00029580n	WN	A person with an unusual or odd personality
+bn:00029580n	OMWIKI	A person who has an unusual, peculiar, or odd personality, or behaviour pattern.
+bn:00029580n	WIKT	An eccentric or unusual person.
+bn:00004407n	WN	A person who is unusual
+bn:00004407n	WIKT	Something or someone that is strange or unusual.
+bn:00004407n	WIKTLB	Something or someone that is strange or unusual.
+bn:00001285n	WN	Someone who is so ardently devoted to something that it resembles an addiction
+bn:00001285n	OMWIKI	A person who is so ardently devoted to something that it resembles an addiction.
+bn:00042318n	WN	Someone who spends all leisure time playing sports or working out in a gymnasium or health spa
+bn:00031019n	WN	An ardent and enthusiastic supporter of some person or activity
+bn:00001456n	WN	A person who backs a politician or a team etc.
+bn:00001603n	WN	A person who pleads for a cause or propounds an idea
+bn:00001603n	WIKT	A person who speaks in support of something.
+bn:00001603n	WIKTLB	Person who speaks in support of something.
+bn:00006049n	WN	A branch of the aorta supplying the testicles
+bn:00006049n	WIKI	The testicular artery is a branch of the abdominal aorta that supplies blood to the testis.
+bn:00006049n	WIKIDATA	Branch of the abdominal aorta that supplies blood to the testis
+bn:00029038n	WN	A duct that carries spermatozoa from the epididymis to the ejaculatory duct
+bn:00029038n	WIKI	The vas deferens, also called ductus deferens, is part of the male reproductive system of many vertebrates; these vasa transport sperm from the epididymis to the ejaculatory ducts in anticipation of ejaculation.
+bn:00029038n	WIKIDATA	Part of the male reproductive system of many vertebrates
+bn:00029038n	WIKT	The duct in the testicle that carries semen from the epididymis to the ejaculatory duct.
+bn:00031164n	WN	A convoluted tubule in each testis; carries sperm to vas deferens
+bn:00031164n	WIKI	The epididymis is a tube that connects a testicle to a vas deferens in the male reproductive system.
+bn:00031164n	WIKIDATA	Epididim
+bn:00031164n	WIKT	A narrow, tightly-coiled tube connecting the efferent ducts from the rear of each testicle to its vas deferens, where sperm are stored during maturation.
+bn:00067432n	WN	Network of tubules carrying sperm from the seminiferous tubules to the vasa efferentia
+bn:00067432n	WIKI	The rete testis is an anastomosing network of delicate tubules located in the hilum of the testicle that carries sperm from the seminiferous tubules to the efferent ducts.
+bn:00067432n	WIKT	A hilar testicular network that collects produced sperm from the seminiferous tubules, and connects with the efferent ducts.
+bn:00070441n	WN	Any of the numerous long convoluted tubules in the testis which are the sites where spermatozoa mature
+bn:00070441n	WIKI	Seminiferous tubules are located within the testes, and are the specific location of meiosis, and the subsequent creation of male gametes, namely spermatozoa.
+bn:00073294n	WN	A structure resembling a cord that suspends the testis within the scrotum and contains the vas deferens and other vessels and nerves
+bn:00073294n	WIKI	The spermatic cord is the cord-like structure in males formed by the vas deferens and surrounding tissue that runs from the deep inguinal ring down to each testicle.
+bn:00073294n	WIKI	Cord-like structure in males
+bn:00076673n	WN	A vein from the testicles
+bn:00076673n	WIKI	The testicular vein, the male gonadal vein, carries deoxygenated blood from its corresponding testis to the inferior vena cava or one of its tributaries.
+bn:00076673n	WIKIDATA	Male gonadal vein
+bn:05942227n	NONE	NONE
+bn:06167226n	NONE	NONE
+bn:00008807n	WN	A cap with a bill
+bn:00008807n	WIKI	A baseball cap is a type of soft cap with a rounded crown and a stiff peak projecting in front.
+bn:00008807n	WIKI	Cap with a visor as worn by baseball players
+bn:00008807n	WIKT	A cap with a rounded crown and a curved, stiffened bill at the front.
+bn:00008807n	WIKT	A baseball cap.
+bn:00008807n	WIKT	A cap that is not elasticated or adjustable at the back.
+bn:00008807n	WIKTLB	Type of cap.
+bn:00009389n	WN	Tall hat; worn by some British soldiers on ceremonial occasions
+bn:00009389n	WIKI	A shako is a tall, cylindrical military cap, usually with a visor, and sometimes tapered at the top.
+bn:00009389n	WIKI	A bearskin is a tall fur cap, usually worn as part of a ceremonial military uniform.
+bn:00009389n	WIKI	Busby is the English name for the Hungarian prémes csákó or kucsma, a military head-dress made of fur, originally worn by Hungarian hussars.
+bn:00009389n	WIKI	Fur military headdress
+bn:00009389n	WIKIDIS	A tall fur cap.
+bn:00009389n	WIKT	A tall ceremonial hat worn by members of some British regiments for ceremonial occasions; a busby.
+bn:00009389n	WIKT	A stiff, cylindrical military dress hat with a metal plate in front, a short visor, and a plume.
+bn:00009389n	WIKT	A fur hat, usually with a plume in the front, worn by certain members of the military or brass bands.
+bn:00009389n	WIKTLB	Fur hat, usually with a plume.
+bn:00010065n	WN	A stiff cap with ridges across the crown; worn by Roman Catholic clergy
+bn:00010065n	WIKI	The biretta is a square cap with three or four peaks or horns, sometimes surmounted by a tuft.
+bn:00010065n	WIKIDATA	Square cap with three or four peaks or horns
+bn:00010065n	WIKT	A square cap, originally with four ridges across the top, surmounted by a tuft, worn by Roman Catholic clergy . A three-sided biretta is worn by Roman Catholic clergy for liturgical celebrations.
+bn:00019981n	WN	A flat woolen cap with a stiff peak
+bn:00019981n	WIKI	A flat cap is a rounded cap with a small stiff brim in front.
+bn:00019981n	WIKI	Round caps with low, flat crowns, worn in the 16th and 17th centuries by London citizens, or any flat cloth cap descended from these
+bn:00019981n	WIKIDIS	A rounded cap with a brim, also called a sixpence
+bn:00019981n	WIKT	Cap paper, not folded.
+bn:00048927n	WN	A cap with a flat circular top and a visor
+bn:00048927n	WIKI	The kepi is a cap with a flat circular top and a peak, or visor.
+bn:00048927n	WIKI	A peaked cap, forage cap, barracks cover or combination cap is a form of headgear worn by the armed forces of many nations, as well as many uniformed civilian organisations such as law enforcement agencies and fire departments.
+bn:00048927n	WIKI	Flat circular cap with a visor
+bn:00048927n	WIKI	Form of uniform headgear with a short visor, crown, band, and insignia
+bn:00048927n	WIKT	A cap with a flat circular top and a visor, particularly associated with French uniforms.
+bn:00048927n	WIKTLB	Cap with a flat circular top.
+bn:00068852n	WN	A cap worn by sailors
+bn:00068852n	WIKI	A sailor cap is a round, flat visorless hat worn by sailors in many of the world's navies.
+bn:00071935n	WN	A close-fitting woolen cap; often has a tapering tail with a tassel
+bn:00071935n	WIKI	A knit cap, originally of wool is designed to provide warmth in cold weather.
+bn:00071935n	WIKIDIS	Called a "toboggan" in some regional dialects of the United States
+bn:00071935n	WIKT	A knitted woolen cap, often with a tassel.
+bn:00080552n	WN	A knitted dark blue wool cap worn by seamen in cold or stormy weather
+bn:00080552n	WIKI	A knit cap, originally of wool is designed to provide warmth in cold weather.
+bn:00080552n	WIKIDIS	Called a "toboggan" in some regional dialects of the United States
+bn:00080552n	WIKT	A knitted cap, such as the one worn by a seaman when on watch.
+bn:01750038n	WIKI	Forage cap is the designation given to various types of military undress, fatigue or working headwear.
+bn:01750038n	WIKIDATA	Designation given to various types of military undress, fatigue or working headresses
+bn:03679333n	WIKI	The coppola is a traditional kind of flat cap typically worn in Sicily, Calabria and Sardinia.
+bn:03679333n	WIKIDIS	A traditional flat cap worn by men in Sicily
+bn:14060785n	WIKI	Brimless cap worn as undress military wear
+bn:16850053n	NONE	NONE
+bn:00008218n	WN	A brimless dark blue Scottish cap with a flat top and a plume on one side
+bn:00008218n	WIKI	The Balmoral is a traditional Scottish hat that can be worn as part of formal or informal Highland dress.
+bn:00008218n	WIKI	Round knitted Scottish cap worn with Highland dress
+bn:00008218n	WIKIDIS	An unbrimmed cap common in Highland dress, named for the Scottish village and castle
+bn:00008218n	WIKT	A Scottish cap with a flat top and a plume but no brim; a bluebonnet.
+bn:00009012n	WN	A tight-fitting cap that keeps hair dry while swimming
+bn:00009012n	WIKI	A swimming cap, swim cap or bathing cap, is a tightly fitted, skin-tight garment, commonly made from silicone, latex or lycra, worn on the head by recreational and competitive swimmers.
+bn:00009012n	WIKI	Cap worn while swimming or bathing
+bn:00009012n	OMWIKI	A tight-fitting cap that keeps hair dry while swimming.
+bn:00009012n	WIKT	A silicone, latex or lycra cap worn on the head by recreational and competitive swimmers.
+bn:00009012n	WIKTLB	Cap worn by swimmers.
+bn:00010003n	WN	A cap with no brim or bill; made of soft cloth
+bn:00010003n	WIKI	A beret is a soft, round, flat-crowned hat, usually of woven, hand-knitted wool, crocheted cotton, wool felt, or acrylic fibre.
+bn:00010003n	WIKIDATA	Flat-topped, visorless cap
+bn:00010003n	OMWIKI	A soft, visorless cap with a close-fitting headband and a wide round top.
+bn:00010003n	WIKT	A type of round, brimless cap with a soft top and a headband to secure it to the head; usually culturally associated with France.
+bn:00010003n	WIKTLB	Type of brimless cap.
+bn:00025842n	WN	A tight-fitting hat with visors front and back; formerly worn by hunters
+bn:00025842n	WIKI	A deerstalker is a type of cap that is typically worn in rural areas, often for hunting, especially deer stalking.
+bn:00025842n	WIKIDATA	Cap with visors at front and back, often with earflaps tied on top
+bn:00025842n	WIKT	One who takes part in deer stalking.
+bn:00034200n	WN	A felt cap (usually red) for a man; shaped like a flat-topped cone with a tassel that hangs from the crown
+bn:00034200n	WIKI	The fez is a felt headdress of two types: either in the shape of a close-fitting skull cap, or a short cylindrical peakless hat made of kilim fabric, both usually red, and sometimes with a tassel attached to the top.
+bn:00034200n	WIKIDATA	Cone-shaped cap with a flat crown, of Turkish origin
+bn:00034200n	WIKT	A felt hat in the shape of a truncated cone, having a flat top with a tassel attached.
+bn:00034200n	WIKT	A red felt or cloth cap with a tassel, worn in the Arab world; a fez.
+bn:00037369n	WN	A wedge-shaped wool or cotton cap; worn as part of a uniform
+bn:00037369n	WIKI	A side cap is a foldable military cap with straight sides and a creased or hollow crown sloping to the back where it is parted.
+bn:00037369n	WIKI	Foldable military cap with straight sides and a creased or hollow crown
+bn:00037369n	WIKIDIS	A sort of military cap
+bn:00037369n	WIKT	A foldable military cap with straight sides and a creased or hollow crown sloping to the back where it is parted.
+bn:00037369n	WIKT	Side cap.
+bn:00029383n	WN	One of two flaps attached to a cap to keep the ears warm
+bn:00029383n	OMWIKI	One of the two flaps attached to a cap to cover the ears.
+bn:00029383n	WIKT	Either of two flaps attached to a cap that cover the ears.
+bn:00015399n	WN	A top (as for a bottle)
+bn:00023349n	WN	Covering for a hole (especially a hole in the top of a container)
+bn:00015404n	WN	An upper limit on what is allowed
+bn:00015404n	WIKT	An artificial upper limit or ceiling.
+bn:00015404n	WIKTLB	Artificial upper limit.
+bn:00022291n	WN	The economic policy of controlling or limiting or curbing prices or wages etc.
+bn:00029673n	WN	A government policy for maintaining economic growth and tax revenues
+bn:00029673n	WIKI	The economic policy of governments covers the systems for setting levels of taxation, government budgets, the money supply and interest rates as well as the labor market, national ownership, and many other areas of government interventions into the economy.
+bn:00029673n	WIKIDATA	Refers to the actions that governments take in the economic field.
+bn:00029673n	OMWIKI	A definite course of action adopted and pursued by a government, political party or enterprise pertaining to the production, distribution and use of income, wealth and commodities.
+bn:00063330n	WN	A line of argument rationalizing the course of action of a government
+bn:00063330n	WIKI	A policy is a deliberate system of principles to guide decisions and achieve rational outcomes.
+bn:00063330n	WIKIDIS	A governance device
+bn:00063330n	WIKIDATA	Principle or protocol to guide decisions and achieve rational outcomes
+bn:00063330n	WIKIQU	A policy is typically described as a principle or rule to guide decisions and achieve rational outcome.
+bn:00063351n	WN	Social relations involving intrigue to gain authority or power
+bn:00063351n	WIKI	Politics 
+bn:00063351n	WIKIDATA	Practice and theory of influencing other people, as in government
+bn:00063351n	OMWIKI	The theory and practice of acquiring and exercising the power to govern in a society in order to arbitrate values, allocate resources and establish and enforce rules.
+bn:00063351n	WIKT	A methodology and activities associated with running a government, an organization, or a movement.
+bn:00063351n	WIKTLB	A methodology and activities associated with running a government.
+bn:00063351n	WIKIQU	Politics is the practice and theory of influencing other people on a global, civic or individual level.
+bn:00051011n	WN	A movable top or cover (hinged or separate) for closing the opening at the top of a box, chest, jar, pan, etc.
+bn:00051011n	WIKI	A lid, also known as a cover, is part of a container, and serves as the closure or seal, usually one that completely closes the object.
+bn:00051011n	WIKIDIS	A cover or seal for a container
+bn:00051011n	OMWIKI	Top or cover of a container.
+bn:00051011n	WIKT	The top or cover of a container.
+bn:00051011n	WIKT	A lid.
+bn:00051011n	WIKTLB	Top or cover.
+bn:00084486v	WN	Lie at the top of
+bn:00084486v	WIKT	To lie over or on top of something.
+bn:00090321v	WN	Be located or situated somewhere; occupy a certain position
+bn:00090321v	WIKT	To be placed or situated.
+bn:00084487v	WN	Restrict the number or amount of
+bn:00084487v	FRAMENET	A.put or form a lid or cover on.
+bn:00084998v	WN	Restrict or confine, "I limit you to two visits to the pub a day"
+bn:06778024n	NONE	NONE
+bn:14096561n	NONE	NONE
+bn:14947254n	NONE	NONE
+bn:00031148n	WN	A circle that rolls around (inside or outside) another circle; generates an epicycloid or hypocycloid
+bn:00031148n	WIKT	Any circle whose circumference rolls around that of another circle, thus creating a hypocycloid or epicycloid.
+bn:00031148n	WIKTLB	Any circle whose circumference rolls around that of another circle.
+bn:00031295n	WN	A circle dividing a sphere or other surface into two usually equal and symmetrical parts
+bn:00031295n	WIKT	A similar great circle on any sphere, especially on a celestial body, or on other reasonably symmetrical three-dimensional body.
+bn:00031295n	WIKTLB	Circle around any sphere.
+bn:00008279n	WN	An unofficial association of people or groups
+bn:00008279n	OMWIKI	An association or group of people, usually meeting socially.
+bn:00008279n	WIKT	A group of people, usually meeting socially.
+bn:00008279n	WIKT	A group of people loosely united for a common purpose.
+bn:00008279n	WIKTLB	Group of people, usually meeting socially.
+bn:00015038n	WN	An exclusive circle of people with a common purpose
+bn:00015038n	WIKI	A clique, in the social sciences, is a group of individuals who interact with one another and share similar interests.
+bn:00015038n	OMWIKI	An exclusive circle of people with a common purpose.
+bn:00015038n	WIKT	An exclusive group of people, who associate closely for a common purpose; a clique.
+bn:00015038n	WIKT	A small, exclusive group of individuals; cabal.
+bn:00015038n	WIKTLB	Small, exclusive group.
+bn:00015796n	WN	A small group of car drivers who arrange to take turns driving while the others are passengers
+bn:00015796n	WIKI	Carpooling is the sharing of car journeys so that more than one person travels in a car, and prevents the need for others to have to drive to a location themselves.
+bn:00015796n	WIKIDIS	A mechanism for sharing automobile journeys.
+bn:00015796n	WIKIDATA	Activity
+bn:00015796n	OMWIKI	A model of car rental where people rent cars for short periods of time, often by the hour.
+bn:00020479n	WN	A band of warriors (originally a unit of a Roman Legion)
+bn:00020479n	WIKI	A cohort was a standard tactical military unit of a Roman legion and was composed of roughly 500 soldiers.
+bn:00020479n	WIKIDATA	Roman military unit
+bn:00020479n	OMWIKI	Any division of a Roman legion; normally of about 500 men.
+bn:00020479n	WIKT	Any division of a Roman legion, normally of about 500 men.
+bn:00020479n	WIKTLB	Division of Roman legion.
+bn:04238338n	WIKIDATA	Someone or something that undergoes testing or observation in a scientific experiment
+bn:00019170n	WN	Something approximating the shape of a circle
+bn:00084977v	WN	Travel around something
+bn:00084977v	FRAMENET	Move in a circle.
+bn:00084978v	WN	Move in circles
+bn:00084978v	WIKT	To move in circles or through a circuit.
+bn:00084978v	WIKTLB	To move in circles.
+bn:00224974n	WIKI	First-class cricket is an official classification of the highest standard international or domestic matches in the sport of cricket.
+bn:00224974n	WIKIDATA	Cricket played at the highest international or domestic standard
+bn:01590663n	WIKI	Limited overs cricket, also known as one-day cricket and in a slightly different context as List A cricket, is a version of the sport of cricket in which a match is generally completed in one day, whereas Test and first-class matches can take up to five days to complete.
+bn:01590663n	WIKIDATA	Version of the sport of cricket
+bn:01590663n	WIKT	One-day cricket.
+bn:02086994n	WIKI	Women's cricket is the form of the team sport of cricket that is played by women.
+bn:02086994n	WIKIDATA	Cricket when played by girls/women
+bn:03097717n	WIKI	A One Day International is a form of limited overs cricket, played between two teams with international status, in which each team faces a fixed number of overs, usually 50.
+bn:03097717n	WIKIDATA	Form of limited overs cricket
+bn:02436085n	WIKI	Test cricket is the longest form of the sport of cricket and is considered its highest standard.
+bn:02436085n	WIKI	The longest form of the sport of cricket; so called due to its long, grueling nature
+bn:02436085n	WIKT	The highest level of international cricket, where Test sides compete against each other in five-day matches.
+bn:03530168n	WIKI	Tennis ball cricket, is a variant of cricket, played using a tennis ball.
+bn:03530168n	WIKI	Variant of cricket, played using a tennis ball
+bn:00426322n	WIKI	East Lancashire Cricket Club is a cricket club in the Lancashire League, which plays its home games at Alexandra Meadows in Blackburn.
+bn:00426322n	WIKIDIS	A cricket club in the Lancashire League
+bn:01364661n	WIKI	G. Das was an Indian cricketer who played for Assam.
+bn:01364661n	WIKIDATA	Indian cricketer
+bn:01370277n	WIKI	CE Holkar was an Indian cricketer who played for Holkar.
+bn:01370277n	WIKIDATA	Indian cricketer
+bn:01370278n	WIKI	GK Bhatnagar was an Indian cricketer who played for Rajasthan.
+bn:01370278n	WIKIDATA	Indian cricketer
+bn:01390818n	WIKI	CN Haksar was an Indian cricketer who played for Gwalior.
+bn:01390818n	WIKIDATA	Indian cricketer
+bn:01549650n	WIKI	Fremantle District Cricket Club is a cricket club which competes in the Western Australian Grade Cricket competition, the highest level of club cricket in Western Australia.
+bn:01591470n	WIKI	Eglinton Cricket Club is a cricket club in Eglinton, County Londonderry, Northern Ireland, playing in the North West Premier League.
+bn:01795841n	WIKI	DS Bhatt was an Indian cricketer who played for Saurashtra.
+bn:01795843n	WIKI	Farook was an Indian cricketer who played for Saurashtra.
+bn:01795843n	WIKIDATA	Indian cricketer
+bn:01799678n	WIKI	C. Limaye was an Indian cricketer who played for Maharashtra.
+bn:01799678n	WIKIDATA	Indian cricketer
+bn:16484170n	NONE	NONE
+bn:17472524n	WIKI	A unicorn is a startup company valued at over $1 billion.
+bn:17472524n	WIKIDATA	Startup valued at more than 1 billion USD
+bn:03475304n	WIKI	A startup company is an entrepreneurial venture which is typically a newly emerged, fast-growing business that aims to meet a marketplace need by developing a viable business model around an innovative product, service, process or a platform.
+bn:03475304n	WIKIDIS	"friends, family, and fools"
+bn:03475304n	WIKIDATA	An entrepreneurial venture or a new business
+bn:00021286n	WN	An institution created to conduct business
+bn:00021286n	WIKI	A company, abbreviated as co., is a legal entity made up of an association of people, be they natural, legal, or a mixture of both, for carrying on a commercial or industrial enterprise.
+bn:00021286n	WIKIDIS	In business, in particular in "EU English", the term is used interchangeably, i.e. a business entity
+bn:00021286n	WIKIDATA	Company organized for commercial purposes or business firm
+bn:00021286n	WIKIDATA	Organized economic activity
+bn:00021286n	WIKIDATA	Association or collection of individuals, whether natural persons, juridic persons, or a mixture of both
+bn:00021286n	OMWIKI	A commercial association of two or more persons, especially when incorporated.
+bn:00021286n	WIKT	A business enterprise, however organized.
+bn:00021286n	WIKTLB	Business or company.
+bn:02743897n	WIKI	The Akbar Shāh, also known as the "Lustre of the Peacock Throne", is a diamond dating back to the Mughal dynasty of India.
+bn:02687215n	WIKI	The Jonker diamond was found at the Elandsfontein mine in South Africa by Johannes Jacobus Jonker on 17 January 1934.
+bn:00045707n	WN	Diamonds
+bn:00045707n	WIKT	One or more diamonds.
+bn:00010888n	WN	An inferior dark diamond used in industry for drilling and polishing
+bn:00010888n	WIKI	Carbonado, commonly known as the "black diamond", is the toughest form of natural diamond.
+bn:00010888n	WIKIDIS	A natural polycrystalline diamond
+bn:00010888n	WIKIDATA	Toughest form of natural diamond; it is an impure form of polycrystalline diamond consisting of diamond, graphite, and amorphous carbon
+bn:00010888n	WIKT	A black diamond used in drilling.
+bn:01354763n	WIKI	In geometry, a golden rhombus is a rhombus whose diagonals are in the ratio p q = φ {\displaystyle {\frac {p}{q}}=\varphi \!}, where φ {\displaystyle \varphi \!}
+bn:01354763n	WIKIDATA	Rhombus whose diagonal lengths are in the golden ratio
+bn:02369681n	WIKI	A lozenge, often referred to as a diamond, is a form of rhombus.
+bn:02369681n	WIKIDIS	◊, a form of rhombus and symbols with that shape
+bn:00747745n	WIKI	A parallelogon is a polygon such that images of the polygon under translations only tile the plane when fitted together along entire sides.
+bn:00340127n	WIKI	In geometry, a polygon P in the plane is called monotone with respect to a straight line L, if every line orthogonal to L intersects P at most twice.
+bn:15973029n	NONE	NONE
+bn:02895219n	WIKI	In Euclidean geometry, a tangential polygon, also known as a circumscribed polygon, is a convex polygon that contains an inscribed circle.
+bn:02895219n	WIKIDATA	Convex polygon that contains an inscribed circle
+bn:00026850n	WN	A playing card in the minor suit that has one or more red rhombuses on it
+bn:00026850n	WIKT	A card of the diamonds suit.
+bn:00026850n	WIKTLB	Card games: card of the diamonds suit.
+bn:00008811n	WN	The area of a baseball field that is enclosed by 3 bases and home plate
+bn:00008811n	WIKI	Infield is a sports term whose definition depends on the sport in whose context it is used.
+bn:00008811n	OMWIKI	In baseball the region of the field roughly bounded by the home plate, first base, second base and third base.
+bn:00008811n	WIKT	The region of the field roughly bounded by the home plate, first base, second base and third base.
+bn:00008811n	WIKT	A four-cornered part of a baseball field in which the corners are the three bases and the home plate.
+bn:00008811n	WIKTLB	Inner part of baseball field.
+bn:00007924n	WN	A place that the runner must touch before scoring
+bn:00009059n	WN	An area on a baseball diamond (on either side of home plate) marked by lines within which the batter must stand when at bat
+bn:00009059n	WIKT	One of two areas beside home plate in which a batter is required to stand during an at bat.
+bn:00044144n	WN	(baseball) the slight elevation on which the pitcher stands
+bn:00044144n	WIKT	The pitcher’s mound.
+bn:00044144n	WIKT	Elevated area of dirt upon which the pitcher stands to pitch.
+bn:00044144n	WIKTLB	Baseball: pitcher's mound.
+bn:00071241n	WN	The location on a baseball field where the shortstop is stationed
+bn:00071241n	WIKT	A shortstop.
+bn:00064755n	WN	The legal right of ownership
+bn:00064755n	WIKI	Property, in the abstract, is what belongs to or with something, whether as an attribute or as a component of said thing.
+bn:00064755n	WIKIDIS	One's father, especially if it has been handed down through generations in the same family, birthright; see heirloom.
+bn:00064755n	WIKIDATA	Physical or intangible entity owned by a person or a group of people
+bn:00064755n	WIKIQU	Property is any physical or intangible entity that is owned by a person or jointly by a group of people.
+bn:00064755n	MSTERM	A dockable window that displays the properties that are set on the selected object. In most cases, the property values can be edited in the window.
+bn:03283166n	WIKI	An estate in land is an interest in real property that is or may become possessory.
+bn:03283166n	WIKIDATA	The ownership of land or arable land
+bn:03283166n	WIKT	An ownership interest in a physical area of land with a set geographic location; real estate; real property.
+bn:17819227n	NONE	NONE
+bn:00012530n	WN	Any one of several designated areas on a ball field where the batter or catcher or coaches are positioned
+bn:00012530n	WIKT	The rectangle in which the batter stands.
+bn:00036057n	WN	Lines through 1st and 3rd base indicating the boundaries of a baseball field
+bn:00059772n	WN	The area of a baseball playing field beyond the lines connecting the bases
+bn:00059772n	WIKI	The outfield is a sporting term used in cricket and baseball to refer to the area of the field of play further from the batsman or batter than the infield, and in association football to players outside the goal.
+bn:00059772n	WIKIDIS	A portion of the field of play in certain sports
+bn:00059772n	WIKIDATA	Playing field section in baseball and cricket
+bn:00006752n	WN	A piece of land prepared for playing a game
+bn:00006752n	WIKI	A pitch or a sports ground is an outdoor playing area for various sports.
+bn:00006752n	WIKIDIS	A field of play, usually outdoors
+bn:00006752n	WIKIDATA	Surface on which a sports game takes place
+bn:00006752n	OMWIKI	A land area free of woodland or human settlements.
+bn:00006752n	WIKT	A land area free of woodland, cities, and towns; open country.
+bn:00006752n	WIKT	A playing field.
+bn:00006752n	WIKT	A field on which a game, especially a ball game, is played.
+bn:00006752n	WIKT	A stadium or piece of land used for sport.
+bn:00006752n	WIKTLB	A stadium or piece of land used for sport.
+bn:02033216n	WIKI	A sports venue is a building, structure, or place in which a sporting competition is held.
+bn:02033216n	WIKIDIS	Place used for a sporting event
+bn:02033216n	WIKIDATA	Building, structure, or place in which a sporting competition is held
+bn:03326354n	WIKI	A nonbuilding structure, also referred to simply as a structure, refers to any body or system of connected parts used to support a load that was not designed for continuous human occupancy.
+bn:03326354n	WIKIDATA	Any body or system of connected parts used to support a load that was not designed for continuous human occupancy
+bn:17891225n	NONE	NONE
+bn:00008203n	WN	A facility in which ball games are played (especially baseball games)
+bn:00008203n	WIKI	A baseball park, also known as a ballpark or diamond, is a venue where baseball is played.
+bn:00008203n	WIKIDATA	Park used to play the game of baseball
+bn:00008203n	WIKT	A field, stadium or park where ball, especially baseball, is played.
+bn:00013832n	WN	A place on a baseball field where relief pitchers can warm up during a game
+bn:00013832n	WIKI	In baseball, the bullpen is the area where relief pitchers warm-up before entering a game.
+bn:00013832n	WIKT	An enclosed area for pitchers to warm up in during a game.
+bn:00013832n	WIKTLB	Baseball: enclosed area for pitchers to warm up in during a game.
+bn:00029071n	WN	Either of two low shelters on either side of a baseball diamond where the players and coaches sit during the game
+bn:00029071n	WIKI	A dugout or dug-out, also known as a pit-house, earth lodge, is a shelter for humans or domesticated animals and livestock based on a hole or depression dug into the ground.
+bn:00029071n	WIKIDATA	Shelter for humans or domesticated animals and livestock based on a hole or depression dug into the ground
+bn:00029071n	WIKT	A sunken shelter at the side of a baseball or football field where non-playing team members and staff sit during a game.
+bn:00073909n	WN	Tiered seats consisting of a structure (often made of wood) where people can sit to watch an event (game or parade)
+bn:00005532n	WN	A large structure for open-air sports or entertainments
+bn:00005532n	WIKI	A stadium is a place or venue for outdoor sports, concerts, or other events and consists of a field or stage either partly or completely surrounded by a tiered structure designed to allow spectators to stand or sit and view the event.
+bn:00005532n	WIKI	An arena, also known as indoor stadium, is an enclosed area, often circular or oval-shaped, designed to showcase theater, musical performances, or sporting events.
+bn:00005532n	WIKIDIS	A building type (the usual modern name)
+bn:00005532n	WIKIDATA	Enclosed area designed to showcase theater, musical performances, or sporting events
+bn:00005532n	WIKIDATA	Place or venue for (mostly) outdoor sports, concerts, or other events
+bn:00005532n	OMWIKI	A large structure for open-air sports or entertainments.
+bn:00005532n	WIKT	A venue where sporting events are held.
+bn:00005532n	WIKT	An enclosed area, often outdoor, for the presentation of sporting events or other spectacular events; earthen area, often oval, specifically for rodeos or circular area for bullfights.
+bn:00005532n	WIKTLB	An enclosed area, often outdoor.
+bn:14034137n	WIKIDATA	Building suitable for hosting events
+bn:02046495n	WIKI	The Solar System is the gravitationally bound system comprising the Sun and the objects that orbit it, either directly or indirectly.
+bn:02046495n	WIKIDATA	Planetary system of the Sun
+bn:02046495n	OMWIKI	The Sun and the all celestial objects and matter gravitationally bound to it.
+bn:02046495n	WIKT	The Solar System; the Sun and all the objects in orbit around it.
+bn:02046495n	WIKIQU	The Solar System comprises the Sun and the objects that orbit it, whether they orbit it directly or by orbiting other objects that orbit it directly.
+bn:15290056n	NONE	NONE
+bn:00048466n	WN	(Roman mythology) supreme god of Romans; counterpart of Greek Zeus
+bn:00048466n	WIKI	Jupiter, also Jove, is the god of sky and thunder and king of the gods in Ancient Roman religion and mythology.
+bn:00048466n	WIKIDIS	Supreme Roman deity
+bn:00048466n	WIKIDATA	King of the gods in ancient Roman religion and myth
+bn:00048466n	WIKT	Jupiter, god of the sky.
+bn:00048466n	WIKIQU	Jupiter in mythology is Jove, the king of the gods and the god of sky and thunder in myth.
+bn:00010100n	WN	An epithet for Jupiter
+bn:00048647n	WN	An epithet for Jupiter
+bn:00048648n	WN	An epithet for Jupiter
+bn:00048649n	WN	An epithet for Jupiter
+bn:00048650n	WN	An epithet for Jupiter
+bn:00068182n	WN	A deity worshipped by the ancient Romans
+bn:06463623n	NONE	NONE
+bn:00002138n	WN	According to the Old Testament he was a pagan king of Israel and husband of Jezebel (9th century BC)
+bn:00002138n	WIKI	Ahab 
+bn:00002138n	WIKIDATA	King of Israel
+bn:00002138n	WIKT	A king of Israel, mentioned in the Bible.
+bn:00002138n	WIKT	Alternative form of Ahab.
+bn:00002138n	WIKTLB	Biblical king of Israel.
+bn:00002342n	WN	Early ruler of Egypt who rejected the old gods and replaced them with sun worship (died in 1358 BC)
+bn:00002342n	WIKI	Akhenaten, known before the fifth year of his reign as Amenhotep IV, was an ancient Egyptian pharaoh of the 18th Dynasty who ruled for 17 years and died perhaps in 1336 BC or 1334 BC.
+bn:00002342n	WIKIDIS	Pharaoh of the Eighteenth dynasty of Egypt
+bn:00002342n	WIKIDATA	18th dynasty pharaoh
+bn:00002342n	WIKIQU	Akhenaten, also spelled Akhenaton, Akhnaton, Ikhnaton, or Echnaton, and known before the fifth year of his reign as Amenhotep IV, was a Pharaoh of the Eighteenth dynasty of Egypt, who ruled for 17 years and died in 1336 BC or 1334 BC.
+bn:00002409n	WN	King of the Visigoths who captured Rome in 410 (370-410)
+bn:00002409n	WIKT	A historic king of the Visigoths.
+bn:00002409n	WIKTLB	King of Visigoths.
+bn:00002647n	WN	King of Wessex; defeated the Vikings and encouraged writing in English (849-899)
+bn:00002647n	WIKI	Alfred is a sung stage work about Alfred the Great with music by Thomas Arne and a libretto by David Mallet and James Thomson.
+bn:00002647n	WIKI	Alfred the Great was King of Wessex from 871 to 899.
+bn:00002647n	WIKIDATA	King of Wessex
+bn:00002647n	WIKIDATA	Sung stage work
+bn:00002647n	WIKIQU	Alfred is a masque written by David Mallet and James Thomson.
+bn:00002647n	WIKIQU	Ælfrēd or Alfred the Great, king of Wessex from 871 to 899, was responsible for turning back the Danish invasion of Wessex and for promoting a revival of education, scholarship, law and administration.
+bn:00005954n	WN	King of Persia who subdued numerous revolutions and made peace with Sparta (?-359 BC)
+bn:00005954n	WIKI	Artaxerxes II Mnemon was the Xšâyathiya Xšâyathiyânâm of Persia from 404 BC until his death in 358 BC.
+bn:00005954n	WIKIDIS	Artaxerxes II Memnon, r. 404 -- 358 BC, son and successor of Darius II
+bn:00005954n	WIKIDATA	King of Persia
+bn:00005955n	WN	King of Persia who sanctioned the practice of Judaism in Jerusalem (?-424 BC)
+bn:00005955n	WIKI	Artaxerxes I Old Persian: 𐎠𐎼𐎫𐎧𐏁𐏂 Artaxšaça, "whose rule is through arta "; Aramaic: אַרְתַּחְשַׁ֥שְׂתְּא‎, translit.
+bn:00005955n	WIKIDIS	Artaxerxes I Longimanus, r. 465 -- 424 BC, son and successor of Xerxes I
+bn:00005955n	WIKIDATA	The fifth king of kings of the Achaemenid Empire
+bn:00006328n	WN	King of Assyria who built a magnificent palace and library at Nineveh (668-627 BC)
+bn:00006328n	WIKI	Ashurbanipal, also spelled Assurbanipal or Ashshurbanipal, was King of the Neo-Assyrian Empire from 668 BC to c. 627 BC, the son of Esarhaddon and the last strong ruler of the empire, which is usually dated between 934 and 609 BC.
+bn:00006328n	WIKIDATA	Assyrian ruler
+bn:00006727n	WN	The first Saxon ruler who extended his kingdom to include nearly all of England (895-939)
+bn:00006727n	WIKI	Æthelstan or Athelstan was King of the Anglo-Saxons from 924 to 927 and King of the English from 927 to 939.
+bn:00006727n	WIKIDATA	King of the Anglo-Saxons, King of the English
+bn:00006727n	WIKT	A Saxon ruler from 895-939.
+bn:00007044n	WN	King of the Huns; the most successful barbarian invader of the Roman Empire (406-453)
+bn:00007044n	WIKI	Attila, frequently referred to as Attila the Hun, was the ruler of the Huns from 434 until his death in March 453.
+bn:00007044n	WIKIDATA	King of the Hunnic Empire
+bn:00007044n	WIKT	Attila, a king of the tribes of Huns.
+bn:00007044n	WIKTLB	King of the tribes of Huns.
+bn:00013449n	WN	King of Scotland from 1306 to 1329; defeated the English army under Edward II at Bannockburn and gained recognition of Scottish independence (1274-1329)
+bn:00013449n	WIKI	Robert I, popularly known as Robert the Bruce, was King of Scots from 1306 until his death in 1329.
+bn:00013449n	WIKIDIS	Also named Robert the Bruce, King of Scotland, 1306 -- 1329, helped achieve Scotland's independence
+bn:00013449n	WIKIDATA	King of Scots from 1306 until his death in 1329
+bn:00016101n	WN	King of Sweden since 1973 (born 1946)
+bn:00016101n	WIKI	Carl XVI Gustaf is the King of Sweden.
+bn:00016101n	WIKIDIS	King of Sweden (actually never called Charles)
+bn:00016101n	WIKIDATA	King of Sweden
+bn:00016101n	WIKIQU	Carl XVI Gustaf of Sweden is the reigning King of Sweden.
+bn:00020033n	WN	King of the Franks who unified Gaul and established his capital at Paris and founded the Frankish monarchy; his name was rendered as Gallic `Louis' (466-511)
+bn:00020033n	WIKI	Clovis was the first king of the Franks to unite all of the Frankish tribes under one ruler, changing the form of leadership from a group of royal chieftains to rule by a single king and ensuring that the kingship was passed down to his heirs.
+bn:00020033n	WIKIDIS	The first king of the Franks to unite all the Frankish tribes under one ruler
+bn:00020033n	WIKIDATA	First king of the Franks (c. 466-511)
+bn:00023907n	WN	Last king of Lydia (died in 546 BC)
+bn:00023907n	WIKI	Croesus was the king of Lydia who, according to Herodotus, reigned for 14 years: from 560 BC until his defeat by the Persian king Cyrus the Great in 546 BC.
+bn:00023907n	WIKIDATA	King of Lydia
+bn:00023907n	WIKT	A king of Lydia, noted for his great wealth.
+bn:00023907n	WIKTLB	King of Lydia.
+bn:00023907n	WIKIQU	Croesus was the king of Lydia from 560 to 547 BC until his defeat by the Persians.
+bn:00024879n	WN	King of Persia and founder of the Persian Empire (circa 600-529 BC)
+bn:00024879n	WIKI	Cyrus II of Persia, commonly known as Cyrus the Great  and also called Cyrus the Elder by the Greeks, was the founder of Achaemenid Empire, the first Persian Empire.
+bn:00024879n	WIKIDIS	An Achaemenid ruler and the founder of the Great Persian Empire
+bn:00024879n	WIKIDATA	King and founder of the Achaemenid Empire
+bn:00024879n	WIKIQU	Cyrus the Great (c. 600 BC or 576 -- December 530 BC), also known as Cyrus II of Persia and Cyrus the Elder, was the first Zoroastrian Shāhanshāh (Persian: "King of Kings", Emperor).
+bn:00025229n	WN	King of Persia who expanded the Persian Empire and invaded Greece but was defeated at the battle of Marathon (550-486 BC)
+bn:00025229n	WIKI	Darius I was the fourth king of the Persian Achaemenid Empire.
+bn:00025229n	WIKIDATA	Third king of the Persian Achaemenid Empire (550–486 BC)
+bn:00025229n	WIKIQU	Darius I was the son of Hystaspes and king of Persia from 522 BC to 486 BC.
+bn:00025230n	WN	King of Persia who was defeated by Alexander the Great; his murder effectively ended the Persian Empire (died in 330 BC)
+bn:00025230n	WIKI	Darius III, originally named Artashata and called Codomannus by the Greeks, was the last king of the Achaemenid Empire of Persia from 336 BC to 330 BC.
+bn:00025230n	WIKIDATA	King of the Achaemenid Empire
+bn:00025377n	WN	(Old Testament) the 2nd king of the Israelites; as a young shepherd he fought Goliath (a giant Philistine warrior) and killed him by hitting him in the head with a stone flung from a sling; he united Israel with Jerusalem as its capital; many of the Psalms are attributed to David (circa 1000-962 BC)
+bn:00025377n	WIKI	David is described in the Hebrew Bible as the second king of the United Kingdom of Israel and Judah.
+bn:00025377n	WIKIDIS	Born in Jerusalem
+bn:00025377n	WIKIDATA	Person in Hebrew Bible and Old Testament
+bn:00025377n	WIKT	The second king of Judah and Israel, the successor of Saul in the Old Testament.
+bn:00025377n	WIKTLB	King of Judah.
+bn:00025377n	WIKIQU	King David was a prophet who ruled Israel and Judah for 39 years.
+bn:00029788n	WN	King of the English who succeeded Athelstan; he drove out the Danes and made peace with Scotland (921-946)
+bn:00029788n	WIKI	Edmund I was King of the English from 939 until his death.
+bn:00029788n	WIKIDIS	King of England from 939 to 946
+bn:00029788n	WIKIDATA	Anglo Saxon monarch
+bn:00029789n	WN	King of the English who led resistance to Canute but was defeated and forced to divide the kingdom with Canute (980-1016)
+bn:00029789n	WIKI	Edmund Ironside, also known as Edmund II, was King of England from 23 April to 30 November 1016.
+bn:00029789n	WIKIDIS	King of the English, also known as Edmund II
+bn:00029789n	WIKIDATA	King of the English, Wessex dynasty
+bn:00029845n	WN	King of Wessex whose military success against the Danes made it possible for his son Athelstan to become the first king of all England (870-924)
+bn:00029845n	WIKI	Edward the Elder was King of the Anglo-Saxons from 899 until his death.
+bn:00029845n	WIKIDIS	King of the English
+bn:00029845n	WIKIDATA	English king, son of Alfred the Great
+bn:00556559n	WIKI	The two knights endgame is a chess endgame with a king and two knights versus a king.
+bn:00556559n	WIKI	Chess endgame with a king and two knights versus a king
+bn:00775901n	WIKI	The rook and bishop versus rook endgame is a chess endgame where one player has just a rook, bishop and king, and the other player has only a rook and king.
+bn:00954011n	WIKI	The Saavedra position is one of the best known chess endgame studies.
+bn:00954011n	WIKIDIS	A famous endgame study in chess
+bn:00954011n	WIKIDATA	Chess endgame study
+bn:01097953n	WIKI	The Philidor position usually refers to an important chess endgame which illustrates a drawing technique when the defender has a king and rook versus a king, rook, and a pawn.
+bn:01097953n	WIKI	A chess endgame with a king and rook versus a king, rook, and a pawn
+bn:01137833n	WIKI	The Réti endgame study is a chess endgame study by Richard Réti.
+bn:01137833n	WIKIDATA	Chess endgame study about king and pawn against king and pawn
+bn:01764109n	WIKI	The chess endgame with a king and a pawn versus a king is one of the most important and fundamental endgames, other than the basic checkmates.
+bn:01764109n	WIKIDATA	Pawn endgame
+bn:01818544n	WIKI	The queen and pawn versus queen endgame is a chess endgame in which both sides have a queen and one side has a pawn, which he is trying to promote.
+bn:02767993n	WIKI	The Lucena position is one of the most famous and important positions in chess endgame theory, where one side has a rook and a pawn and the defender has a rook.
+bn:02767993n	WIKIDIS	A chess position incorrectly named after Luis Ramírez de Lucena
+bn:03087519n	WIKI	The bishop and knight checkmate in chess is the checkmate of a lone king which can be forced by a bishop, knight, and king.
+bn:03087519n	WIKI	Chess endgame with a king, bishop, and knight against a lone king, which can almost always be checkmated with perfect play in at most 33 moves
+bn:03102895n	WIKI	The rook and pawn versus rook endgame is of fundamental importance to chess endgames,,,, and has been widely studied,.
+bn:03575276n	WIKI	The chess endgame of a queen versus pawn is usually an easy win for the side with the queen.
+bn:03760936n	WIKI	The opposite-colored bishops endgame is a chess endgame in which each side has a single bishop, but the bishops reside on opposite-colored squares on the chessboard, thus cannot attack or block each other.
+bn:03760936n	WIKI	Chess endgame in which each side has a single bishop, but the bishops reside on opposite-colored squares on the chessboard
+bn:00057209n	WN	Someone who negotiates (confers with others in order to reach a settlement)
+bn:00057209n	OMWIKI	Someone who confers with others in order to reach a settlement
+bn:00057209n	WIKT	One who negotiates.
+bn:00057209n	WIKTLB	One who negotiates.
+bn:10870904n	WIKIDATA	Quality of participation in relation
+bn:00012691n	WN	Death when respiration and other reflexes are absent; consciousness is gone; organs can be removed for transplantation before the heartbeat stops
+bn:00012691n	WIKI	Brain death is the complete loss of brain function.
+bn:00012691n	WIKIDIS	The irreversible cessation of all brain activity
+bn:00012691n	WIKIDATA	Complete and irreversible loss of brain function
+bn:00012691n	OMWIKI	The complete and irreversible end of all brain activity.
+bn:00012691n	WIKT	An irreversible loss of brain function and cessation of brain activity.
+bn:00012691n	WIKTLB	Irreversible cessation of brain activity.
+bn:02111042n	WIKI	Unnatural death is a category used by coroners or medical examiners and vital statistics specialists for classifying all human deaths not properly describable as death by natural causes.
+bn:02111042n	WIKIDATA	Category used by coroners and vital statistics specialists
+bn:03048054n	WIKI	Killed in action is a casualty classification generally used by militaries to describe the deaths of their own combatants at the hands of hostile forces.
+bn:03048054n	WIKIDIS	Status for combatants that has or was killed during combat action.
+bn:03048054n	WIKIDATA	Military casualty classification used for deaths caused by enemy action
+bn:03305499n	WIKI	A death by natural causes, as recorded by coroners and on death certificates and associated documents, is the end result of an illness or an internal malfunction of the body not directly caused by external forces.
+bn:03305499n	WIKIDATA	Manner of death
+bn:03507611n	WIKI	Information-theoretic death is the scrambling of information within a brain to such an extent that recovery of the original person becomes theoretically impossible.
+bn:03507611n	WIKIDATA	Destruction of the information within a human brain to such an extent that recovery of the original person is theoretically impossible by any physical means
+bn:03512327n	WIKI	Clinical death is the medical term for cessation of blood circulation and breathing, the two necessary criteria to sustain human and many other organisms' lives.
+bn:03589550n	WIKI	Karōshi, which can be translated literally as "overwork death" in Japanese, is occupational sudden mortality.
+bn:03589550n	OMWIKI	Sudden death caused by heavy stress and overload at work, the most common direct causes of death being heart attack and stroke.
+bn:03589550n	WIKT	Death, such as from heart attack or stroke, brought on by overwork or job-related stress.
+bn:03781882n	WIKI	Legal death is a government's official recognition that a person has died.
+bn:17317939n	WIKI	Death can occur during consensual sex for a number of reasons, generally because of the physical strain of the activity, or because of unusual extenuating circumstances.
+bn:02886095n	WIKI	Maternal death or maternal mortality is defined by the World Health Organization as "the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes."
+bn:02886095n	OMWIKI	The death of a woman during or shortly after a pregnancy.
+bn:02886095n	WIKT	The death of a woman that occurs directly related to the procreative process. Obstetric death.
+bn:02886095n	WIKTLB	Death of a woman that occurs directly related to the procreative process
+bn:04567338n	NONE	NONE
+bn:00213192n	WIKI	Victoria Snelgrove was a journalism student at Emerson College.
+bn:00213192n	WIKIDATA	Baseabll fan
+bn:00217264n	WIKI	Sergeant Jack William Avery was a War Reserve Constable who was murdered in Hyde Park, London, on 5 July 1940, having served less than one year with the Metropolitan Police Service.
+bn:00217264n	WIKIDATA	British policeman, murdered on duty
+bn:00271422n	WIKI	Faustus, Abibus and Dionysius of Alexandria were Christian martyrs put to death under Decius in 250.
+bn:00333772n	WIKI	Chanel Petro-Nixon was an American teenager who was strangled to death in Brooklyn, New York, United States in 2006.
+bn:04816357n	NONE	NONE
+bn:05955881n	NONE	NONE
+bn:00025585n	WN	The time when something ends
+bn:00025585n	WIKT	Death.
+bn:00025585n	FRAMENET	A person's death.
+bn:00030719n	WN	The point in time at which something ends
+bn:00030719n	FRAMENET	Death; 'meet' used as a support verb.
+bn:00063216n	WN	An instant of time
+bn:00063216n	WIKT	A moment.
+bn:00063216n	WIKT	A tiny amount of time; a moment.
+bn:00063216n	WIKTLB	Tiny amount of time.
+bn:00063216n	MSTERM	In Internet Backgammon, one of the twenty-four narrow triangles (twelve on each side) that make up the board.
+bn:00025586n	WN	The time at which life ends; continuing until dead
+bn:00035765n	WN	A walled section of Beijing that encloses the palace that was formerly the residence of the emperor of China
+bn:00035765n	WIKI	The Forbidden City is a palace complex in central Beijing, China.
+bn:00035765n	WIKIDIS	Imperial Palace of the Ming and Qing dynasties.
+bn:00035765n	WIKIDATA	Museum in the Forbidden City, Beijing, China
+bn:00035765n	WIKIDATA	Chinese imperial palace in Beijing
+bn:00035765n	OMWIKI	The Chinese imperial palace from the mid-Ming Dynasty to the end of the Qing Dynasty. It is located in the middle of Beijing, China and now houses the Palace Museum. For almost five centuries, it served as the home of the Emperor and his household, and the ceremonial and political centre of Chinese government. 
+bn:00035765n	WIKT	The palace of the Ming and Qing dynasties, which is preserved as a museum in Beijing, China.
+bn:00035765n	WIKTLB	Palace of the Ming and Qing dynasties.
+bn:03817129n	WIKI	Northern China or North China is a geographical region of China, lying North of the Qinling Huaihe Line.
+bn:03817129n	WIKIDATA	Geographical region of China
+bn:15204843n	WIKI	Jingjinji Metropolitan Region or Jing-Jin-Ji, also known as Beijing-Tianjin-Hebei, is the national capital region of China.
+bn:15204843n	WIKIDATA	National capital region of China and a megalopolis
+bn:03065307n	WIKI	Gaseous signaling molecules are gaseous molecules that are either synthesised internally in the organism, tissue or cell or are received by the organism, tissue or cell from outside and that are used to transmit chemical signals which induce certain physiological or biochemical changes in the organism, tissue or cell.
+bn:03065307n	WIKIDATA	Different gaseous signaling molecules such as NO, CO, H2S, SO2
+bn:03065307n	WIKT	Any simple, gaseous compound, synthesized by an organism, that has a biochemical function.
+bn:09282756n	WIKI	Fuel gas is any one of a number of fuels that under ordinary conditions are gaseous.
+bn:09282756n	WIKIDATA	Combustible in gas form
+bn:15983442n	WIKIDATA	Gas which is also a poison
+bn:00079571n	WN	A visible suspension in the air of particles of some substance
+bn:00079571n	WIKI	In physics a vapor or vapour is a substance in the gas phase at a temperature lower than its critical temperature, which means that the vapor can be condensed to a liquid by increasing the pressure on it without reducing the temperature.
+bn:00079571n	WIKIDIS	The gaseous state of matter
+bn:00079571n	WIKIDATA	A substance in the gas phase at a temperature lower than its critical point
+bn:15835798n	NONE	NONE
+bn:03767902n	WIKI	Forming gas is a mixture of hydrogen and nitrogen.
+bn:03893680n	WIKI	Nitrox refers to any gas mixture composed of nitrogen and oxygen.
+bn:03893680n	WIKIDATA	Mixture
+bn:03893680n	WIKT	A breathing gas, a mixture of nitrogen and oxygen, used instead of air and having a lower nitrogen content than air.
+bn:03893680n	WIKTLB	Mix of nitrogen and oxygen.
+bn:15022433n	WIKIDATA	Gases from unbound atoms
+bn:16033699n	NONE	NONE
+bn:00001865n	WN	A toxic mixture of gases (including carbon dioxide and carbon monoxide and nitrogen) after an explosion of firedamp in a mine
+bn:00001865n	WIKI	Afterdamp is the toxic mixture of gases left in a mine following an explosion caused by firedamp, which itself can initiate a much larger explosion of coal dust.
+bn:00001865n	WIKT	Suffocating gases present in a coal mine after an explosion caused by firedamp, consisting of nitrogen, carbon monoxide, carbon dioxide, and sometimes hydrogen sulfide.
+bn:00001865n	WIKT	An asphyxiant found in enclosed places such as mines and sewers; a mixture of several gases left after oxygen is removed from the air, typically nitrogen, carbon dioxide, and water vapor.
+bn:00035427n	WN	Continuous amorphous matter that tends to flow and to conform to the outline of its container: a liquid or a gas
+bn:00035427n	WIKT	Any substance which can flow with relative ease, tends to assume the shape of its container, and obeys Bernoulli's principle; a liquid, gas or plasma.
+bn:00035427n	WIKTLB	Any state of matter which can flow.
+bn:00035120n	WN	A state of excessive gas in the alimentary canal
+bn:00035120n	WIKI	Flatulence is defined in the medical literature as "flatus expelled through the anus" or the "quality or state of being flatulent", which is defined in turn as "marked by or affected with gases generated in the intestine or stomach; likely to cause digestive flatulence".
+bn:00035120n	WIKIDIS	Sometimes called a stink
+bn:00035120n	WIKIDATA	Bodily function of expelling intestinal gas out of the anus
+bn:00035120n	OMWIKI	The emission of digestive gases through the anus.
+bn:00035120n	WIKT	An emission of digestive gases from the anus; a flatus.
+bn:00035120n	WIKT	The state of having gas, often malodorous, trapped in the digestive system of a human and some other animals; wind; and when released, a flatus, a fart.
+bn:00035120n	WIKT	Flatulence.
+bn:00035120n	WIKT	Flatulence.
+bn:00035120n	WIKTLB	An emission of flatulent gases.
+bn:00062162n	WN	The condition or state of the body or bodily functions
+bn:00000633n	WN	A valve that regulates the supply of fuel to the engine
+bn:00000633n	WIKI	A throttle is the mechanism by which fluid flow is managed by the constriction or obstruction.
+bn:00000633n	OMWIKI	The mechanism by which an engine's power is increased or decreased.
+bn:00000633n	WIKT	A valve that regulates the supply of fuel-air mixture to an internal combustion engine and thus controls its speed; a similar valve that controls the air supply to an engine.
+bn:00000633n	WIKT	A part of the air intake system of a fuel injected engine, responsible for regulating the airflow into the engine.
+bn:00000633n	MSTERM	A Microsoft SQL Server tool designed to limit the performance of an instance of the database engine any time more than eight operations are active at the same time.
+bn:00012722n	WN	Foot pedal that moves a piston in the master brake cylinder
+bn:00012722n	WIKI	Car controls are the components in automobiles and other powered road vehicles, such as trucks and buses, used for driving and parking.
+bn:00012722n	OMWIKI	Pedal of a vehicle on which one pushes in order to brake.
+bn:00020080n	WN	A pedal or lever that engages or disengages a rotating shaft and a driving mechanism
+bn:00020080n	OMWIKI	A pedal in a car used to engage or disengage the clutch.
+bn:00020080n	WIKT	A pedal in a manual transmision car that modulates the clutch mechanism, via clutch plate pressure.
+bn:00020080n	WIKT	The pedal in a car that disengages power transmission.
+bn:00020080n	WIKTLB	The pedal in a car that disengages power transmission.
+bn:14691850n	NONE	NONE
+bn:00050864n	WN	A rigid bar pivoted about a fulcrum
+bn:00050864n	WIKI	A lever is a simple machine consisting of a beam or rigid rod pivoted at a fixed hinge, or fulcrum.
+bn:00050864n	WIKIDATA	One of the six simple machines
+bn:00079519n	WN	Control consisting of a mechanical device for controlling the flow of a fluid
+bn:00079519n	WIKI	A valve is a device that regulates, directs or controls the flow of a fluid by opening, closing, or partially obstructing various passageways.
+bn:00079519n	WIKIDATA	Device that regulates, directs or controls the flow of a fluid or a gas
+bn:00079519n	OMWIKI	Device that controls the flow of a liquid through a passage or a pipe.
+bn:00079519n	WIKT	A device that controls the flow of a gas or fluid through a pipe.
+bn:00079519n	WIKTLB	Device that controls flow of gas or fluid.
+bn:16004455n	WIKIDATA	Item used to build a machine
+bn:00022289n	WN	A mechanism that controls the operation of a machine
+bn:00022289n	WIKI	In computing and especially in computer hardware, a controller is a chip, an expansion card, or a stand-alone device that interfaces with a peripheral device.
+bn:00022289n	WIKIDIS	As described in the ORiN robot interface
+bn:00022289n	WIKIDATA	Computing device that interfaces with a peripheral device
+bn:00022289n	OMWIKI	A mechanism that controls or regulates the operation of a machine, especially a peripheral device in a computer.
+bn:00022289n	WIKT	A mechanism that controls or regulates the operation of a machine, especially a peripheral device in a computer.
+bn:00022289n	WIKTLB	Mechanism that controls or regulates the operation of a machine.
+bn:00022289n	MSTERM	A device that other devices rely on for access to a computer subsystem. A disk controller, for example, controls access to one or more disk drives, managing physical and logical access to the drive or drives.
+bn:00022289n	MSTERM	An hardware device for connecting a peripheral to the main computer, typically in the form of an expansion card.
+bn:16714413n	WIKIDATA	Smaller, self-contained part of a component entity (entity consisting of components)
+bn:00037385n	WN	A fossil fuel in the gaseous state; used for cooking and heating homes
+bn:00037385n	WIKI	Natural gas is a naturally occurring hydrocarbon gas mixture consisting primarily of methane, but commonly including varying amounts of other higher alkanes, and sometimes a small percentage of carbon dioxide, nitrogen, hydrogen sulfide, or helium.
+bn:00037385n	WIKIDIS	A form of gas, found in nature, often as a part of a reservoir of fossil fuel.
+bn:00037385n	WIKIDATA	Fossil fuel
+bn:00037385n	OMWIKI	A natural fuel containing methane and hydrocarbons that occurs in certain geologic formations. 
+bn:00037385n	WIKT	A mixture of gaseous hydrocarbons associated with petroleum deposits; mostly methane with smaller amounts of ethane, propane and butane; principally used as a fuel.
+bn:00037385n	WIKT	Gasoline; a derivative of petroleum used as fuel.
+bn:00037385n	WIKTLB	Mixture of gaseous hydrocarbons associated with petroleum deposits.
+bn:00054616n	WN	A colorless odorless gas used as a fuel
+bn:00054616n	WIKI	Methane is a chemical compound with the chemical formula CH4.
+bn:00054616n	WIKIDIS	A chemical compound
+bn:00054616n	WIKIDATA	Organic compound
+bn:00054616n	OMWIKI	A colourless, odourless, and tasteless gas, lighter than air and reacting violently with chlorine and bromine in sunlight, a chief component of natural gas; used as a source of methanol, acetylene, and carbon monoxide.
+bn:00088686v	WN	Attack with gas; subject to gas fumes
+bn:03466250n	WIKI	The International Telecommunication Union, in its International Radio Regulations, divides the world into three ITU regions for the purposes of managing the global radio spectrum.
+bn:03466250n	WIKIDATA	International Telecommunication Union region
+bn:00040292n	WN	A person of German nationality
+bn:00040292n	OMWIKI	A person of German nationality.
+bn:00040292n	WIKT	A native or inhabitant of Germany; a person of German citizenship or nationality.
+bn:00040292n	WIKTLB	Native or inhabitant of Germany; person of German citizenship or nationality.
+bn:00072838n	WN	A speaker of Sorbian
+bn:00000174n	WN	A city in western Germany near the Dutch and Belgian borders; formerly it was Charlemagne's northern capital
+bn:00000174n	WIKI	Aachen or Bad Aachen, French and traditional English: Aix-la-Chapelle, is a spa and border city in North Rhine-Westphalia, Germany.
+bn:00000174n	WIKI	Aken is a town in the district of Anhalt-Bitterfeld in Saxony-Anhalt, Germany.
+bn:00000174n	WIKIDIS	A city in Germany
+bn:00000174n	WIKIDIS	A town in Saxony-Anhalt, Germany
+bn:00000174n	WIKIDATA	City in North Rhine-Westphalia, Germany
+bn:00000174n	WIKIDATA	Municipality in Germany
+bn:00000174n	WIKT	A city in North Rhine-Westphalia, Germany.
+bn:00000174n	WIKTLB	City in North Rhine-Westphalia.
+bn:00009200n	WN	A state in southern Germany famous for its beer; site of an automobile factory
+bn:00009200n	WIKI	Bavaria, officially the Free State of Bavaria, is a landlocked federal state of Germany, occupying its southeastern corner.
+bn:00009200n	WIKIDIS	Now part of Berchtesgaden.
+bn:00009200n	WIKIDATA	Federated state in the south of Germany
+bn:00009200n	OMWIKI	A Free State (German: Freistaat), with an area of 70,553 km² and 12.4 million inhabitants, the southernmost state of today's Germany. Its capital is Munich.
+bn:00011731n	WN	A lake in southeastern Germany on the northern side of the Swiss Alps; forms part of the Rhine River
+bn:00011731n	WIKI	Lake Constance is a lake on the Rhine at the northern foot of the Alps, and consists of three bodies of water: the Obersee or Upper Lake Constance, the Untersee or Lower Lake Constance, and a connecting stretch of the Rhine, called the Seerhein.
+bn:00011731n	WIKIDIS	A lake on the river Rhine near this city
+bn:00011731n	WIKIDATA	Lake in Germany, Switzerland and Austria
+bn:00011731n	WIKT	A lake on the River Rhine, situated in Austria, Germany and Switzerland.
+bn:00013003n	WN	A city of northwestern Germany linked by the Weser River to the port of Bremerhaven and the North Sea; in the Middle Ages it was a leading member of the Hanseatic League
+bn:00013003n	WIKI	The City Municipality of Bremen is a Hanseatic city in northwestern Germany, which belongs to the Free Hanseatic City of Bremen, a federal state of Germany.
+bn:00013003n	WIKIDIS	A city in northwestern Germany
+bn:00013003n	WIKIDATA	City in Bremen, Germany
+bn:00013003n	WIKT	A city of northwest Germany on the Weser River southwest of Hamburg; it is a major port and was a leading member of the Hanseatic League in the middle ages.
+bn:00013004n	WN	A port city in northwestern Germany at the mouth of the Weser River on the North Sea; has a deep natural harbor and is an important shipping center
+bn:00013004n	WIKI	Bremerhaven is a city at the seaport of the Free Hanseatic City of Bremen, a state of the Federal Republic of Germany.
+bn:00013004n	WIKIDATA	German city in the Free Hanseatic City of Bremen
+bn:00018134n	WN	A city in east central Germany; formerly called Karl-Marx-Stadt until 1990; noted for textile manufacturing
+bn:00018134n	WIKI	Chemnitz, known from 1953 to 1990 as Karl-Marx-Stadt, is the third-largest city in the Free State of Saxony, Germany.
+bn:00018134n	WIKIDIS	City in Saxony, Germany
+bn:00018134n	WIKIDATA	City in Germany
+bn:00018134n	WIKT	An independent city in Saxony, Germany.
+bn:00018134n	WIKTLB	City in Saxony.
+bn:00020695n	WN	A commercial center and river port in western Germany on the Rhine River; flourished during the 15th century as a member of the Hanseatic League
+bn:00020695n	WIKI	Cologne is the largest city in the German federal State of North Rhine-Westphalia and the fourth most populated city in Germany.
+bn:00020695n	WIKIDIS	Originally Colonia Claudia Ara Agrippinensis, Germany's fourth-largest city
+bn:00020695n	WIKIDATA	City in North Rhine-Westphalia, Germany
+bn:00020695n	OMWIKI	The fourth biggest city in Germany, which is located in Northrhine-Westphalia.
+bn:00020695n	WIKT	A city in northwestern Germany on the Rhine River.
+bn:00020695n	WIKTLB	City in Germany.
+bn:00020695n	WIKIQU	Cologne is Germany's fourth-largest city, and is the largest city both in the German Federal State of North Rhine-Westphalia and within the Rhine-Ruhr Metropolitan Area, one of the major European metropolitan areas with more than ten million inhabitants.
+bn:00025139n	WN	The 2nd longest European river (after the Volga); flows from southwestern Germany to the Black Sea
+bn:00025139n	WIKI	The Danube or Donau is Europe's second longest river, after the Volga.
+bn:00025139n	WIKIDIS	A river in Central Europe
+bn:00025139n	WIKIDATA	River in Central Europe
+bn:00025139n	OMWIKI	An Eastern Palaungic language spoken by the Danau people in central areas of Shan State and the northern part of Kayah State in Myanmar.
+bn:00025139n	WIKT	A river of Europe, which arises in Germany, and flows 2850 km to the Black Sea in Romania.
+bn:00025139n	WIKTLB	River of Europe that flows to the Black Sea.
+bn:00028681n	WN	A city in southeastern Germany on the Elbe River; it was almost totally destroyed by British air raids in 1945
+bn:00028681n	WIKI	Dresden is the capital city and, after Leipzig, the second-largest city of the Free State of Saxony in Germany.
+bn:00028681n	WIKIDIS	See Buehlau, Dresden
+bn:00028681n	WIKIDATA	Capital city of the Free State of Saxony in Germany
+bn:00028681n	WIKT	The capital city of the German Federal State of Saxony.
+bn:00028681n	WIKTLB	Capital city of the German Federal State of Saxony.
+bn:00031627n	WN	A city in western Germany; industrial center of the Ruhr
+bn:00031627n	WIKI	Essen is a city in North Rhine-Westphalia, Germany.
+bn:00031627n	WIKIDATA	City in North Rhine-Westphalia, Germany
+bn:00031627n	OMWIKI	A city in the central part of the Ruhr area in North Rhine-Westphalia, Germany.
+bn:00031627n	WIKT	A large industrial city in Germany.
+bn:00036259n	WN	A German city; an industrial and commercial and financial center
+bn:00036259n	WIKI	Frankfurt, officially Frankfurt am Main, is a metropolis and the largest city in the German state of Hesse and the fifth-largest city in Germany.
+bn:00036259n	WIKIDATA	City in Hesse, Germany
+bn:00036259n	OMWIKI	Short for Frankfurt-am-Main, a city in central Germany.
+bn:00036259n	WIKT	Frankfurt-an-der-Oder, a city near Berlin Germany.
+bn:00036259n	WIKT	Frankfurt, a city in Hesse, Germany, on the Main River.
+bn:00036259n	WIKTLB	City in Germany.
+bn:00036590n	WN	A chain of islands in the North Sea off the coast of northwestern Europe extending from the IJsselmeer to Jutland
+bn:00036590n	WIKI	The Frisian Islands, also known as the Wadden Islands or the Wadden Sea Islands, form an archipelago at the eastern edge of the North Sea in northwestern Europe, stretching from the northwest of the Netherlands through Germany to the west of Denmark.
+bn:00036590n	WIKIDATA	Archipelago in the Wadden Sea
+bn:00042674n	WN	A city in the Saxony region of Germany on the Saale River; a member of the Hanseatic League during the 13th and 14th centuries
+bn:00042674n	WIKI	Halle is a city in the southern part of the German state Saxony-Anhalt.
+bn:00042674n	WIKIDATA	City in the German state of Saxony-Anhalt
+bn:00042723n	WN	A town in northern Germany (near Hanover) that is famous as the setting for the legend of the Pied Piper
+bn:00042723n	WIKI	Hamelin is a town on the river Weser in Lower Saxony, Germany.
+bn:00042723n	WIKIDATA	Town in Lower Saxony, Germany
+bn:00052201n	WN	A state in northwestern Germany
+bn:00052201n	WIKI	Lower Saxony is a German state situated in northwestern Germany.
+bn:00052201n	WIKIDIS	A component state of the Federal Republic of Germany
+bn:00052201n	WIKIDATA	State of Germany
+bn:00052201n	OMWIKI	Federal state of Germany, whose capital is Hannover.
+bn:00052201n	WIKT	One of the component states of Germany according to the current administrative division of the nation.
+bn:00053243n	WN	A city in southwestern Germany at the confluence of the Rhine and Neckar rivers
+bn:00053243n	WIKI	Mannheim is a city in the southwestern part of Germany, the third-largest in the German state of Baden-Württemberg after Stuttgart and Karlsruhe with a 2015 population of approximately 305,000 inhabitants.
+bn:00053243n	WIKIDATA	City in Baden-Württemberg, Germany
+bn:00053243n	WIKT	A city in Baden-Württemberg, Germany.
+bn:00053243n	WIKTLB	A city in Germany.
+bn:03921497n	NONE	NONE
+bn:06760533n	NONE	NONE
+bn:17745106n	WIKI	Mukkoottuthara Thiruvambadi SreeKrishna Swami temple is a traditional Kerala style Hindu shrine located near Mukkoottuthara in Erumely panchayath, Kottayam district.
+bn:17745106n	WIKIDATA	Hindu temple
+bn:08527945n	NONE	NONE
+bn:00046430n	WN	A native or inhabitant of India
+bn:00046430n	WIKT	A person from India.
+bn:00046430n	WIKTLB	A person from India.
+bn:00002080n	WN	A city in northern India; former capital of the Mogul empire; site of the Taj Mahal
+bn:00002080n	WIKI	Agra is a city on the banks of the river Yamuna in the northern state of Uttar Pradesh, India.
+bn:00002080n	WIKIDIS	Called Akbarabad when it was the capital of the Mughal Empire
+bn:00002080n	WIKIDATA	City in Uttar Pradesh, India
+bn:00002080n	WIKT	A large city in India, in the state of Uttar Pradesh.
+bn:00002080n	WIKTLB	City in India.
+bn:00003952n	WN	A state of southeastern India on the Bay of Bengal
+bn:00003952n	WIKI	Andhra Pradesh is one of the 29 states of India.
+bn:00003952n	WIKIDIS	A state in southern India
+bn:00003952n	WIKIDATA	Indian state
+bn:00003952n	OMWIKI	A state in southern India. Its capital city is Hyderabad.
+bn:00003952n	WIKT	A state in the union of India, where Telugu is the primary language.
+bn:00003952n	WIKTLB	State in the union of India.
+bn:00006457n	WN	State in northeastern India
+bn:00006457n	WIKI	Assam is a state in Northeast India, situated south of the eastern Himalayas along the Brahmaputra and Barak River valleys.
+bn:00006457n	WIKIDATA	Indian state
+bn:00006457n	OMWIKI	A state in north east India.
+bn:00006457n	WIKT	A state in north-eastern India.
+bn:00006457n	WIKTLB	State in India.
+bn:00010356n	WN	A state of northeastern India
+bn:00010356n	WIKI	Bihar is an Indian state considered to be a part of Eastern as well as Northern India.
+bn:00010356n	WIKIDIS	A state in India
+bn:00010356n	WIKIDATA	Indian state
+bn:00010356n	WIKT	State in eastern India which has Patna as its capital.
+bn:00010356n	WIKTLB	A state in eastern India.
+bn:00011933n	WN	A city in western India just off the coast of the Arabian Sea; India's 2nd largest city (after Calcutta); has the only natural deep-water harbor in western India
+bn:00011933n	WIKI	Mumbai is the capital city of the Indian state of Maharashtra.
+bn:00011933n	WIKIDATA	Capital and district of Maharashtra, India
+bn:00011933n	OMWIKI	Capital of the state of Maharashtra in India.
+bn:00011933n	WIKT	State capital of Maharashtra, India, formerly known as Bombay.
+bn:00011933n	WIKT	Mumbai, the state capital of Maharashtra, India.
+bn:00011933n	WIKIQU	Mumbai, also known by its former name Bombay, is the capital city of the Indian state of Maharashtra.
+bn:00012667n	WN	An Asian river; flows into the Bay of Bengal
+bn:00012667n	WIKI	The Brahmaputra 
+bn:00012667n	WIKIDATA	River in China, India, and Bangladesh
+bn:00014696n	WN	The largest city in India and one of the largest cities in the world; located in eastern India; suffers from poverty and overcrowding
+bn:00014696n	WIKI	Kolkata, formerly Calcutta, is the capital of the Indian state of West Bengal.
+bn:00014696n	WIKIDIS	West Bengal, India, nicknamed City of Palaces because of the British Raj buildings covering the cityscape in 19th Century
+bn:00014696n	WIKIDATA	Capital city of West Bengal, India
+bn:00014696n	OMWIKI	The capital of the Indian state of West Bengal, which is located in eastern India on the east bank of the Hooghly River.
+bn:00014696n	WIKT	The state capital of West Bengal , formerly known as Calcutta.
+bn:00014696n	WIKIQU	Kolkata (also known as Calcutta is the capital of the Indian state of West Bengal. Located on the east bank of the Hooghly river, it is the principal commercial, cultural, and educational center of East India, while the Port of Kolkata is India's oldest operating port as well as its sole major riverine port. As of 2011, the city had 4.5 million residents; the urban agglomeration, which comprises the city and its suburbs, was home to approximately 14.1 million, making it the third-most populous metropolitan area in India.
+bn:00015159n	WN	A historical region of southwestern India on the west coast
+bn:00015159n	WIKI	The Kanara region of Karnataka, comprises three coastal districts, namely Dakshina Kannada and Udupi district and Uttara Kannada.
+bn:00016469n	WN	An area in southwestern Asia whose sovereignty is disputed between Pakistan and India
+bn:00016469n	WIKI	The Bengal is a domestic cat breed developed to look like exotic jungle cats such as leopards, ocelots, margays and clouded leopards.
+bn:00016469n	WIKI	Kashmir is the northernmost geographical region of the Indian subcontinent.
+bn:00016469n	WIKI	Jammu and Kashmir is a state in northern India, often denoted by the acronym J&K. It is located mostly in the Himalayan mountains, and shares borders with the states of Himachal Pradesh and Punjab to the south. Jammu and Kashmir has an international border with China in the north and east, and the Line of Control separates it from the Pakistani-administered territories of Azad Kashmir and Gilgit-Baltistan in the west and northwest respectively.
+bn:00016469n	WIKIDIS	A film by Sanjay Kak covering issues related to Indian Administrated Kashmir.
+bn:00016469n	WIKIDIS	Area of Kashmir administered by Republic of India as a state; disputed by Pakistan.
+bn:00016469n	WIKIDATA	Cat breed
+bn:00016469n	WIKIDATA	Indian state
+bn:00016469n	WIKIDATA	Former country, now a conflict territory between India and Pakistan
+bn:00016469n	OMWIKI	A region in the northwest of the Indian subcontinent.
+bn:00016469n	WIKT	A cat of this breed.
+bn:00016469n	WIKT	A region of the northern part of the Indian subcontinent, located between China, India, and Pakistan.
+bn:00016469n	WIKT	A princely state which governed the region of Kashmir, the territory of which is now de facto divided between China, India, and Pakistan.
+bn:00018150n	WN	A city in Tamil Nadu on the Bay of Bengal; formerly Madras
+bn:00018150n	WIKI	Chennai is the capital of the Indian state of Tamil Nadu.
+bn:00018150n	WIKIDIS	Known as São Tomé when under Portuguese control
+bn:00018150n	WIKIDATA	South Indian city, capital of the state of Tamil Nadu
+bn:00018150n	OMWIKI	The capital city of the Indian state of Tamil Nadu.
+bn:00018150n	WIKT	State capital of Tamil Nadu , formerly known as Madras.
+bn:00018150n	WIKTLB	State capital of Tamil Nadu, India.
+bn:00018150n	WIKIQU	Chennai is the capital city of the Indian state of Tamil Nadu.
+bn:00026032n	WN	A city in north central India
+bn:00026032n	WIKI	Delhi, officially the National Capital Territory of Delhi, is a city and a union territory of India.
+bn:00026032n	WIKI	Old Delhi or Purani Dilli was founded as a walled city of Delhi, India, founded as Shahjahanabad in 1638, when Shah Jahan, the Mughal emperor at the time, decided to shift the Mughal capital from Agra.
+bn:00026032n	WIKIDATA	Walled city of Delhi, India
+bn:00026032n	WIKIDATA	Indian metropolis that includes New Delhi
+bn:00026032n	OMWIKI	The largest metropolis by area and the second-largest metropolis by population in India.
+bn:00026032n	WIKT	National capital territory and old city in northern India in which the country’s capital New Delhi is located.
+bn:00026032n	WIKT	Part of the National capital of India, located in the national capital territory of Delhi, formerly the Capital of the Mughal Empire.
+bn:00026032n	WIKTLB	Capital of the Mughal Empire.
+bn:00037249n	WN	An Asian river; rises in the Himalayas and flows east into the Bay of Bengal; a sacred river of the Hindus
+bn:00037249n	WIKI	The Ganges, also known as Ganga, is a trans-boundary river of Asia which flows through the nations of India and Bangladesh.
+bn:00037249n	WIKIDATA	River in Bangladesh and India with major tributeries from Nepal
+bn:00037249n	OMWIKI	A major river in the Indian subcontinent flowing east through the plains of northern India into Bangladesh.
+bn:00037249n	WIKT	A sacred river of India and Bangladesh.
+bn:00037249n	WIKT	Used in India.
+bn:00037249n	WIKTLB	The sacred river.
+bn:00041579n	WN	A desert to the east of the Indus River in northwestern India and southeastern Pakistan
+bn:00041579n	WIKI	The Thar Desert, also known as the Great Indian Desert, is a large arid region in the northwestern part of the Indian subcontinent that covers an area of 200,000 km2 and forms a natural boundary between India and Pakistan.
+bn:00041579n	WIKIDIS	A barren wasteland in Rajasthan, India and Sindh, Pakistan
+bn:00041579n	WIKIDATA	Large, arid region in the northwestern part of the Indian subcontinent
+bn:00042155n	WN	An industrialized state in western India that includes parts of Bombay
+bn:00042155n	WIKI	Gujarat is a state in Western India and Northwest India with an area of 196,024 km2, a coastline of 1,600 km –most of which lies on the Kathiawar peninsula, and a population in excess of 60 million.
+bn:00042155n	WIKIDIS	A state in western India
+bn:00042155n	WIKIDATA	State of India
+bn:00044153n	WN	A mountain range extending 1500 miles on the border between India and Tibet; this range contains the world's highest mountain
+bn:00044153n	WIKI	The Himalayas, or Himalaya, form a mountain range in Asia separating the plains of the Indian subcontinent from the Tibetan Plateau.
+bn:00044153n	WIKIDIS	A mountain range in Asia, meaning "abode of snow" in Sanskrit
+bn:00044153n	WIKIDATA	Large mountain range in Asia
+bn:00044153n	OMWIKI	A mountain range in Asia, separating the Indian subcontinent from the Tibetan Plateau.
+bn:00044153n	WIKT	The mountain range in south-central Asia which extends about 2,414 km through Kashmir, northern India, southern Tibet, Nepal, Sikkim, Bhutan and Assam; it contains nine of the world’s ten highest peaks, including Mount Everest/Qomolongma.
+bn:00044153n	WIKTLB	A mountain range of south-central Asia.
+bn:00044153n	WIKIQU	The Himalayas, or Himalaya, is a mountain range in South Asia separating the plains of the Indian subcontinent from the Tibetan Plateau.
+bn:00044190n	WN	Northern region of India where Hinduism predominates
+bn:00044190n	WIKI	Hindustan is the Persian name for India, broadly the Indian subcontinent, which later became an endonym.
+bn:00044190n	WIKIDIS	A name used for medieval India and still sometimes used for modern India
+bn:00044190n	WIKIDATA	Differ from Hindustan (historical region)
+bn:00044190n	WIKT	The northern region of India, in which the predominant religion is Hinduism.
+bn:00044190n	WIKTLB	Northern region of India
+bn:00045332n	WN	A city in south central India in Andhra Pradesh
+bn:00045332n	WIKI	Hyderabad is the capital of the southern Indian state of Telangana and de jure capital of Andhra Pradesh.
+bn:00045332n	WIKIDIS	A city in Andhra Pradesh, India
+bn:00045332n	WIKIDATA	Capital of Telangana, India
+bn:00045332n	OMWIKI	The capital and the most populous city of the South Indian state of Andhra Pradesh.
+bn:00045332n	WIKT	The state capital of Telangana state and Andhra Pradesh state in India.
+bn:00045332n	WIKT	A resident or native of Hyderabad, India.
+bn:00045332n	WIKTLB	Capital of Telangana.
+bn:00045332n	WIKIQU	Hyderabad is the capital and largest city of the southern Indian state of Andhra Pradesh.
+bn:00047787n	WN	An industrial city of central India to the southeast of Delhi
+bn:00047787n	WIKI	Jabalpur is a tier 2 city in the state of Madhya Pradesh, India.
+bn:00047787n	WIKIDATA	Human settlement
+bn:00047787n	WIKT	A large city in India, in the state of Madhya Pradesh.
+bn:00047787n	WIKTLB	City in India.
+bn:00048816n	WN	State in southern India; formerly Mysore
+bn:00048816n	WIKI	The Mysore region is an unofficial region that is part of Karnataka state in southern India.
+bn:00048816n	WIKI	Karnataka is a state in the south western region of India.
+bn:00048816n	WIKIDIS	An unofficial region in the state of Karnataka
+bn:00048816n	WIKIDIS	A state of southern India (ISO 3166-2: IN)
+bn:00048816n	WIKIDATA	Indian state
+bn:00048816n	WIKIDATA	Unofficial region of Karnataka state
+bn:00048816n	OMWIKI	The capital of the Indian state of Karnataka. Located on the Deccan Plateau in the south-eastern part of Karnataka, Bangalore is India's third most populous city.
+bn:00048816n	OMWIKI	One of the four southern states of India. Its capital city is Bangalore.
+bn:00048816n	WIKT	A state in southern India which has Bangalore as its capital.
+bn:00048816n	WIKTLB	State in southern India.
+bn:01331635n	WIKI	The Indian subcontinent or the subcontinent is a southern region of Asia, mostly situated on the Indian Plate and projecting southwards into the Indian Ocean from the Himalayas.
+bn:01331635n	WIKIDATA	Peninsular region in south-central Asia below the Himalayas
+bn:00074873n	WN	A large and distinctive landmass (as India or Greenland) that is a distinct part of some continent
+bn:00074873n	WIKIDATA	Large, relatively self-contained landmass forming a subdivision of a continent
+bn:00074873n	WIKT	A large landmass which is either smaller than a continent , or part of an even larger continent.
+bn:00034369n	WN	A diagram or picture illustrating textual material
+bn:00034369n	WIKT	A drawing or diagram conveying information.
+bn:00045962n	WN	Artwork that helps make something clear or attractive
+bn:00005929n	WN	Photographs or other visual representations in a printed publication
+bn:00005929n	WIKI	Graphics are visual images or designs on some surface, such as a wall, canvas, screen, paper, or stone to inform, illustrate, or entertain.
+bn:00005929n	WIKIDATA	Visual presentation on some surface
+bn:00005929n	OMWIKI	Any illustrative element in a page layout, such as a photograph, illustration, icon, ruled line, or any other non-text element.
+bn:00005929n	OMWIKI	Photographs or other visual representations in a printed publication.
+bn:00005929n	WIKT	Artwork.
+bn:00005929n	MSTERM	A visual representation such as a picture, chart or table.
+bn:00080128n	WN	Communication that relies on vision
+bn:00080128n	WIKI	Visual communication is a form of communication, described as the conveyance of ideas and information in forms that can be seen.
+bn:00003882n	WN	Alternative names for the body of a human being
+bn:00003882n	WIKI	The human body is the entire structure of a human being.
+bn:00003882n	WIKIDIS	Of or relating to the body
+bn:00003882n	WIKIDATA	Wine grape
+bn:00003882n	WIKIDATA	Entire structure of a human organism
+bn:00003882n	OMWIKI	A branch of biological sciences that studies the functions of organs and tissues in human beings. 
+bn:00003882n	OMWIKI	The physical structure of a human body.
+bn:00003882n	OMWIKI	The entire physical structure of an human being.
+bn:00003882n	WIKT	The human body as a physical entity.
+bn:00003882n	WIKT	The physique of a human body; constitution or structure of a human body.
+bn:00003882n	WIKT	A human figure, which dress or corset must fit to; the shape of a human body.
+bn:00003882n	WIKT	The body.
+bn:00003882n	WIKT	The natural constitution, or physical structure, of a person.
+bn:00003882n	WIKT	To do with structure or procedure.
+bn:00003882n	WIKTLB	Human figure; shape of human body.
+bn:15490794n	WIKIDATA	At the Mandaeans the name for the body of all people
+bn:03796397n	WIKI	The human skin is the outer covering of the body.
+bn:03796397n	WIKI	The outer covering of the human body
+bn:00001528n	WN	The body of an adult human being
+bn:00034019n	WN	The body of a female human being
+bn:00034019n	WIKI	Female body shape or female figure is the cumulative product of a woman's skeletal structure and the quantity and distribution of muscle and fat on the body.
+bn:00048686n	WN	The body of a young person
+bn:00052972n	WN	The body of a male human being
+bn:00061714n	WN	A human body (usually including the clothing)
+bn:14263042n	WIKIDATA	Physical body of a living thing
+bn:14263042n	OMWIKI	The physical structure of a human or animal.
+bn:14263042n	WIKT	The physical structure of a human or animal seen as one single organism.
+bn:14263042n	WIKTLB	Physical structure of a human or animal.
+bn:00079600n	WN	A wine made principally from one grape and carrying the name of that grape
+bn:00079600n	WIKI	A varietal wine is a wine made primarily from a single named grape variety, and which typically displays the name of that variety on the wine label.
+bn:00079600n	WIKIDATA	Wine made primarily from a single named grape variety
+bn:00079600n	WIKT	A wine made primarily from or exclusively from a single variety of grape, which carries the name of that grape.
+bn:00080022n	WN	Fermented juice (of grapes especially)
+bn:00080022n	WIKI	Wine is an alcoholic beverage made from grapes, generally Vitis vinifera, fermented without the addition of sugars, acids, enzymes, water, or other nutrients.
+bn:00080022n	WIKIDATA	Alcoholic beverage made from grapes
+bn:00080022n	OMWIKI	An alcoholic beverage made by fermenting juice of grapes.
+bn:00080022n	WIKT	An alcoholic beverage made by fermenting the juice of grapes.
+bn:00080022n	WIKTLB	Alcoholic beverage made from grapes.
+bn:00024351n	WN	A variety of a plant developed from a natural species and maintained under cultivation
+bn:00024351n	WIKI	The term cultivar most commonly refers to an assemblage of plants selected for desirable characters that are maintained during propagation.
+bn:00024351n	WIKIDATA	Plant or grouping of plants selected for desirable characteristics
+bn:00024351n	OMWIKI	A cultivated plant that has been selected and given a unique name because it has desirable characteristics 
+bn:00024351n	WIKT	A cultivated variety of a plant species or hybrid of two species.
+bn:04742072n	NONE	NONE
+bn:00010578n	WN	Any of the branches of natural science dealing with the structure and behavior of living organisms
+bn:00010578n	OMWIKI	A science based on living organisms collectively.
+bn:00010578n	WIKT	Any of several sciences that deal with living organisms.
+bn:00010578n	WIKTLB	Sciences dealing with living organisms.
+bn:00000075n	WN	The cardinal number that is the sum of one and one or a numeral representing this number
+bn:00000075n	WIKI	2 is a number, numeral, and glyph.
+bn:00000075n	WIKIDIS	The natural number following 1 and preceding 3
+bn:00000075n	WIKIDATA	Natural number
+bn:00000075n	OMWIKI	The second natural number (2).
+bn:00000075n	WIKT	The number two.
+bn:00000075n	WIKT	A numerical value equal to 2; this many dots (••). Ordinal: second.
+bn:00000075n	WIKT	Short form of number 2 pencil.
+bn:00000100n	WN	The cardinal number that is the sum of one and one and one
+bn:00000100n	WIKI	3 is a number, numeral, and glyph.
+bn:00000100n	WIKIDIS	A number, numeral, and glyph
+bn:00000100n	WIKIDATA	Natural number
+bn:00000100n	OMWIKI	Grammatical number related to precisely 3 objects of the same type
+bn:00000100n	OMWIKI	The cardinal number occurring after two and before four, represented in Roman numerals as III, in Arabic numerals as 3.
+bn:00000100n	WIKT	One of a group of three.
+bn:00000100n	WIKTLB	One of a group of three.
+bn:00000111n	WN	The cardinal number that is the sum of three and one
+bn:00000111n	WIKI	4 is a number, numeral, and glyph.
+bn:00000111n	WIKIDIS	A number, numeral, and glyph
+bn:00000111n	WIKIDATA	Number system that extends the complex numbers
+bn:00000111n	WIKIDATA	Natural number
+bn:00000111n	OMWIKI	The cardinal number occurring after three and before five, represented in Roman numerals as IV, in Arabic numerals as 4.
+bn:00000111n	WIKT	A Roman numeral representing four (4).
+bn:00000119n	WN	The cardinal number that is the sum of four and one
+bn:00000119n	WIKI	5 is a number, numeral, and glyph.
+bn:00000119n	WIKIDIS	A number, numeral, and glyph
+bn:00000119n	WIKIDATA	Natural number
+bn:00000119n	OMWIKI	The cardinal number occurring after four and before six, represented in Roman numerals as V, in Arabic numerals as 5.
+bn:00000119n	WIKT	A numerical value equal to 5; the number following four and preceding six. This many dots: (•••••).
+bn:00000129n	WN	The cardinal number that is the sum of six and one
+bn:00000129n	WIKI	7 is the natural number following 6 and preceding 8.
+bn:00000129n	WIKIDIS	Sju in Swedish and Norwegian
+bn:00000129n	WIKIDATA	Natural number
+bn:00000129n	OMWIKI	The cardinal number occurring after six and before eight, represented in Roman numerals as VII, in Arabic numerals as 7.
+bn:00000129n	WIKT	A numerical value equal to 7; the number occurring after six and before eight.
+bn:00000129n	WIKTLB	Cardinal number 7.
+bn:00000133n	WN	The cardinal number that is the sum of seven and one
+bn:00000133n	WIKI	8 is the natural number following 7 and preceding 9.
+bn:00000133n	WIKIDIS	Otto in Italian
+bn:00000133n	WIKIDATA	Natural number
+bn:00000133n	OMWIKI	The cardinal number occurring after seven and before nine, represented in Roman numerals as VIII, in Arabic numerals as 8.
+bn:00000133n	WIKT	A numerical value equal to 8; the number occurring after seven and before nine.
+bn:00000133n	WIKTLB	Cardinal number 8.
+bn:00000138n	WN	The cardinal number that is the sum of eight and one
+bn:00000138n	WIKI	9 is the natural number following 8 and preceding 10.
+bn:00000138n	WIKIDATA	Natural number
+bn:00000138n	OMWIKI	One of 9 equal parts of a whole.
+bn:00000138n	OMWIKI	The ninth natural number (9).
+bn:00000138n	WIKT	The number nine.
+bn:00000138n	WIKT	A numerical value equal to 9; the number occurring after eight and before ten.
+bn:00010478n	WN	Either 0 or 1 in binary notation
+bn:00010478n	WIKT	Either of the characters 0 and 1, used in the binary numeral system.
+bn:00010478n	WIKTLB	Either 0 or 1.
+bn:00029142n	WN	A digit from 0 to 11 in duodecimal notation
+bn:00015962n	WN	The number of elements in a mathematical set; denotes a quantity but not the order
+bn:00015962n	WIKI	In mathematics, cardinal numbers, or cardinals for short, are a generalization of the natural numbers used to measure the cardinality of sets.
+bn:00015962n	WIKIDIS	A concept in mathematics
+bn:00015962n	WIKIDATA	Unit of measure for the cardinality (size) of sets
+bn:00015962n	OMWIKI	A number used to denote a quantity.
+bn:00015962n	WIKT	A number used to denote quantity; a counting number; a cardinal.
+bn:00015962n	WIKT	A number indicating quantity, or the size of a set, e.g., one, two, three.
+bn:00015962n	WIKTLB	Number denoting quantity.
+bn:00057820n	WN	The number designating place in an ordered sequence
+bn:00057820n	WIKI	In set theory, an ordinal number, or ordinal, is one generalization of the concept of a natural number that is used to describe a way to arrange a collection of objects in order, one after another.
+bn:00057820n	WIKIDIS	A number type with order structures
+bn:00057820n	WIKIDATA	Order type of a well-ordered set
+bn:00057820n	WIKT	A word that expresses the relative position of an item in an ordered sequence.
+bn:00057820n	WIKTLB	Grammar: word used to denote relative position in a sequence.
+bn:07724194n	WIKIDATA	A number that can be represented with a finite number of decimal places
+bn:04620684n	WIKI	Fraction with a power of 10 as denominator
+bn:04620684n	WIKIDATA	number written in decimal notation, although it is more commonly used to refer to numbers that have a fractional part separated from the integer part with a decimal separator  (e.g. 11.25)
+bn:00034389n	WN	A model of a bodily form (especially of a person)
+bn:00055448n	WN	Representation of something (sometimes on a smaller scale)
+bn:00055448n	WIKT	A simplified representation used to explain the workings of a real world system or event.
+bn:00034390n	WN	A well-known or notable person
+bn:00046144n	WN	A person whose actions and opinions strongly influence the course of events
+bn:14465795n	WIKT	An advanced period of life; the latter part of life; the state of being old; eld, seniority.
+bn:14465795n	WIKTLB	Advanced period of life; latter part of life
+bn:00034392n	WN	An amount of money expressed numerically
+bn:00003601n	WN	A quantity of money
+bn:00003601n	OMWIKI	A quantity of money.
+bn:00003601n	WIKT	A quantity of money.
+bn:00003601n	WIKT	A quantity or volume.
+bn:00003601n	WIKTLB	Quantity of money.
+bn:00006505n	WN	Anything of material value or usefulness that is owned by a person or company
+bn:00063731n	WN	Anything owned or possessed
+bn:00063731n	WIKT	The condition or affliction of being possessed by a demon or other supernatural entity.
+bn:00063731n	WIKTLB	The state of being possessed by a spirit or demon.
+bn:02256427n	WIKI	Williams Cliff is a prominent rock cliff that stands out from the ice-covered southwest slopes of Mount Erebus, situated 6 nautical miles east of Cape Barne on Ross Island.
+bn:02256455n	WIKI	Wilson Bluff is a large, rather flat-topped rock outcrop at the south end of Lambert Glacier, 16 nautical miles west-northwest of Mount Borland.
+bn:02256478n	WIKI	Windscoop Bluff is a rock bluff east-northeast of Birthday Bluffs on the south side of Mason Spur, Hillary Coast, Ross Dependency.
+bn:02256508n	WIKI	Witt Bluff is a rock bluff on the southwest side of Eros Glacier in eastern Alexander Island.
+bn:02256577n	WIKI	Wrigley Bluffs is a rock bluffs 4 nautical miles long, standing 3 nautical miles north of Mount Cross in Anderson Hills in northern Patuxent Range, Pensacola Mountains.
+bn:11141878n	NONE	NONE
+bn:00219191n	WIKI	The WANK Worm was a computer worm that attacked DEC VMS computers in 1989 over the DECnet.
+bn:00219191n	WIKIDIS	A computer worm that attacked DEC VAX/VMS systems through DECnet in 1989
+bn:00220834n	WIKI	The Father Christmas worm, also known as the HI.
+bn:00259947n	WIKI	Toxbot is a computer worm that was primarily active in 2005.
+bn:00274718n	WIKI	Backdoor.Win32.IRCBot 
+bn:00274718n	WIKIDATA	Backdoor computer worm
+bn:00518078n	WIKI	Santy is a computer worm created in Perl to exploit a vulnerability in phpBB software which used Google to spread across the internet.
+bn:00584313n	WIKI	The W32.
+bn:00769011n	WIKI	MyLife, discovered by MessageLabs in 2002, is a computer worm that spreads itself by sending email to the addresses found in Microsoft Outlook's contacts list.
+bn:00790139n	WIKI	W32.
+bn:00790139n	WIKIDATA	Computer worm
+bn:00812508n	WIKI	ILOVEYOU, sometimes referred to as Love Bug or Love Letter, was a computer worm that attacked tens of millions of Windows personal computers on and after 5 May 2000 local time in the Philippines when it started spreading as an email message with the subject line "ILOVEYOU" and the attachment "LOVE-LETTER-FOR-YOU.txt.vbs".
+bn:00812508n	WIKIDIS	A computer worm that appeared in May 2000
+bn:00812508n	WIKIDATA	Computer worm
+bn:00877214n	WIKI	Bolgimo is a Win32 computer worm, a self-replicating computer program similar to a computer virus, which propogates by attempting to exploit unpatched Windows computers vulnerable to the DCOM RPC Interface Buffer Overrun Vulnerability using TCP port 445 on a network.
+bn:00877214n	WIKIDATA	Win32 computer worm
+bn:18200196n	NONE	NONE
+bn:00094234v	WN	To move in a twisting or contorted motion, (especially when struggling)
+bn:00094234v	FRAMENET	Twist or squirm in pain or as if in pain.
+bn:00094234v	FRAMENET	Twist and turn with quick writhing movements.
+bn:00094234v	FRAMENET	Move with wriggling movements.
+bn:00090946v	WN	Move so as to change position, perform a nontranslational motion
