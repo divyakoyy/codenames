@@ -25,7 +25,10 @@ babelnet_relationships_limits = {
 	"HYPONYM": 20,
 }
 
-stopwords = ['ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than', 'get', 'put']
+stopwords = [
+	'ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than', 'get', 'put',
+	'class', 'family'
+]
 
 idf_lower_bound = 0.0006
 
@@ -170,7 +173,7 @@ class Babelnet(object):
 
 	def _get_dict2vec(self):
 		input_file = open(self.dict2vec_embeddings_file,'rb')
-		word_to_dict2vec_embeddings = pickle.load(input_file)  
+		word_to_dict2vec_embeddings = pickle.load(input_file)
 		return word_to_dict2vec_embeddings
 
 	"""
@@ -244,7 +247,11 @@ class Babelnet(object):
 					)
 					# TODO: if we want to filter intermediate nodes, we need to call
 					# get_cached_labels_from_synset_v5 for all nodes in path.
-					lengths = {neighbor: len(path)
+					if self.configuration.length_exp_scaling is not None:
+						scaling_func = lambda x : self.configuration.length_exp_scaling ** x
+					else:
+						scaling_func = lambda x : x
+					lengths = {neighbor: scaling_func(len(path))
 							   for neighbor, path in paths.items()}
 					# lengths = nx.single_source_shortest_path_length(
 					#     G, source=synset, cutoff=10
@@ -317,24 +324,33 @@ class Babelnet(object):
 		dict_definition_score = self._get_dictionary_definition_score(
 			chosen_words, clue, red_words)
 
-		word2vec_score = self._get_word2vec_score(chosen_words, clue)
+		word2vec_score = self._get_word2vec_score(chosen_words, clue, red_words)
 		# if (self.configuration.visualize and clue == 'automobile' or clue == 'put' or clue =='hex' or clue == 'male' or clue=='domestic' ):
-		# 	print ("\t", clue, "score breakdown for", chosen_words, "IDF:", idf, "dictionary def score:", dict_definition_score, "word2vec score:", word2vec_score)
+		# 	print("\t", clue, "score breakdown for", chosen_words, "IDF:", idf, "dictionary def score:", dict_definition_score, "word2vec score:", word2vec_score)
 
-		dict2vec_score = self._get_dict2vec_score(chosen_words, clue)
+		dict2vec_score = self._get_dict2vec_score(chosen_words, clue, red_words)
 
 		if self.configuration.visualize:
-			print(clue, "score breakdown for", chosen_words,)
-			print ("\tIDF:", -2*idf, "dict2vec score", dict2vec_score, "dictionary def score:", dict_definition_score, "word2vec score:", 2*word2vec_score)
-		
+			if self.configuration.debug_file:
+				with open(self.configuration.debug_file, 'a') as f:
+					f.write(" ".join([str(x) for x in [
+						clue, "score breakdown for", chosen_words, "\n"
+					]]))
+					f.write(" ".join([str(x) for x in [
+						"\tIDF:", -2*idf, "dict2vec score", dict2vec_score, "dictionary def score:", dict_definition_score, "word2vec score:", 2*word2vec_score, "\n"
+					]]))
+			else:
+				print(clue, "score breakdown for", chosen_words,)
+				print("\tIDF:", -2*idf, "dict2vec score", dict2vec_score, "dictionary def score:", dict_definition_score, "word2vec score:", 2*word2vec_score)
+
 		return (-2*idf) + (dict_definition_score) + (2*word2vec_score) + (dict2vec_score)
 
 	"""
 	Helper methods
 	"""
-	def _get_dict2vec_score(self, chosen_words, potential_clue):
-		# TODO: factor in similarity to red words
+	def _get_dict2vec_score(self, chosen_words, potential_clue, red_words):
 		dict2vec_similarities = []
+		red_dict2vec_similarities = []
 
 		if potential_clue not in self.word_to_dict2vec_embeddings:
 			if self.configuration.verbose:
@@ -348,13 +364,19 @@ class Babelnet(object):
 				chosen_word_embedding = self.word_to_dict2vec_embeddings[chosen_word]
 				euclidean_distance = numpy.linalg.norm(chosen_word_embedding-potential_clue_embedding)
 				dict2vec_similarities.append(euclidean_distance)
+
+		for red_word in red_words:
+			if red_word in self.word_to_dict2vec_embeddings:
+				red_word_embedding = self.word_to_dict2vec_embeddings[red_word]
+				red_euclidean_distance = numpy.linalg.norm(red_word_embedding-potential_clue_embedding)
+				red_dict2vec_similarities.append(red_euclidean_distance)
 		#TODO: is average the best way to do this
-		return 1/(sum(dict2vec_similarities)/len(dict2vec_similarities))
+		return 1/(sum(dict2vec_similarities)/len(dict2vec_similarities)) - 1/(min(red_dict2vec_similarities))
 
-	def _get_word2vec_score(self, chosen_words, potential_clue):
+	def _get_word2vec_score(self, chosen_words, potential_clue, red_words):
 
-		# TODO: factor in similarity to red words
 		word2vec_similarities = []
+		red_word2vec_similarities = []
 		if potential_clue not in self.word2vec_model:
 			if self.configuration.verbose:
 				print("Potential clue word ", potential_clue, "not in Google news word2vec model")
@@ -364,8 +386,11 @@ class Babelnet(object):
 		for chosen_word in chosen_words:
 			if chosen_word in self.word2vec_model:
 				word2vec_similarities.append(self.word2vec_model.similarity(chosen_word, potential_clue))
+		for red_word in red_words:
+			if red_word in self.word2vec_model:
+				red_word2vec_similarities.append(self.word2vec_model.similarity(red_word, potential_clue))
 		#TODO: is average the best way to do this
-		return sum(word2vec_similarities)/len(word2vec_similarities)
+		return sum(word2vec_similarities)/len(word2vec_similarities) - max(red_word2vec_similarities)
 
 	def _get_dictionary_definition_score(self, chosen_words, potential_clue, red_words):
 		# the dictionary definitions of words (as given from their babelnet synset)
@@ -590,8 +615,15 @@ class Babelnet(object):
 						main_sense, senses, split_multi_word)[0][0]
 					shortest_path_labels.append(single_word_label)
 
-				print("shortest path from", word, shortest_path_synset,
-					  "to clue", clue, clue_synset, ":", shortest_path_labels)
+				if self.configuration.debug_file:
+					with open(self.configuration.debug_file, 'a') as f:
+						f.write(
+							" ".join([str(x) for x in ["shortest path from", word, shortest_path_synset,
+							"to clue", clue, clue_synset, ":", shortest_path_labels, "\n"]])
+						)
+				else:
+					print("shortest path from", word, shortest_path_synset,
+						"to clue", clue, clue_synset, ":", shortest_path_labels)
 
 				formatted_labels = [label.replace(
 					' ', '\n') for label in shortest_path_labels]

@@ -42,18 +42,31 @@ Configuration for running the game
 
 class CodenamesConfiguration(object):
     def __init__(
-        self, verbose=False, visualize=False, split_multi_word=True, disable_verb_split=True
+        self,
+        verbose=False,
+        visualize=False,
+        split_multi_word=True,
+        disable_verb_split=True,
+        debug_file=None,
+        length_exp_scaling=None,
     ):
         self.verbose = verbose
         self.visualize = visualize
         self.split_multi_word = split_multi_word
         self.disable_verb_split = disable_verb_split
+        self.debug_file = debug_file
+        self.length_exp_scaling = length_exp_scaling
 
 
 class Codenames(object):
 
     def __init__(
-        self, ann_graph_path=None, num_emb_batches=22, embedding_type="custom", emb_size=200, file_dir=None,
+        self,
+        ann_graph_path=None,
+        num_emb_batches=22,
+        embedding_type="custom",
+        emb_size=200,
+        file_dir=None,
         configuration=None
     ):
         """
@@ -805,9 +818,23 @@ if __name__ == "__main__":
                         help='print out verbose information')
     parser.add_argument('--visualize', dest='visualize', default=False,
                         help='visualize the choice of clues with graphs')
+    parser.add_argument('--split-multi-word', dest='split_multi_word', default=True)
+    parser.add_argument('--disable-verb-split', dest='disable_verb_split', default=True)
+    parser.add_argument('--debug-file', dest='debug_file', default=None,
+                        help='Write score breakdown to debug file')
+    parser.add_argument('--length-exp-scaling', type=int, dest='length_exp_scaling', default=None,
+                        help='Rescale lengths using exponent')
     args = parser.parse_args()
 
-    words = ['vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'table', 'lead', 'crown', 'bomb', 'bug', 'pipe', 'roulette','australia', 'play', 'cloak', 'piano', 'beijing', 'bison', 'boot', 'cap', 'car','change', 'circle', 'cliff', 'conductor', 'cricket', 'death','diamond', 'figure', 'gas', 'germany', 'india', 'jupiter','kid', 'king', 'lemon', 'litter', 'nut', 'phoenix', 'racket','row', 'scientist', 'shark', 'stream', 'swing', 'unicorn','witch', 'worm',]
+    words = [
+        'vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'table', 'lead', 'crown',
+        'bomb', 'bug', 'pipe', 'roulette','australia', 'play', 'cloak', 'piano', 'beijing', 'bison',
+        'boot', 'cap', 'car','change', 'circle', 'cliff', 'conductor', 'cricket', 'death', 'diamond',
+        'figure', 'gas', 'germany', 'india', 'jupiter', 'kid', 'king', 'lemon', 'litter', 'nut',
+        'phoenix', 'racket', 'row', 'scientist', 'shark', 'stream', 'swing', 'unicorn', 'witch', 'worm',
+        'pistol', 'saturn', 'rock', 'superhero', 'mug', 'fighter', 'embassy', 'cell', 'state', 'beach',
+        'capital', 'post', 'cast', 'soul', 'tower', 'green', 'plot', 'string', 'kangaroo', 'lawyer',
+    ]
     random.shuffle(words)
 
     # Use None to randomize the game, or pass in fixed lists
@@ -820,7 +847,13 @@ if __name__ == "__main__":
     ]
 
     configuration = CodenamesConfiguration(
-        verbose=args.verbose, visualize=args.visualize)
+        verbose=args.verbose,
+        visualize=args.visualize,
+        split_multi_word=args.split_multi_word,
+        disable_verb_split=args.disable_verb_split,
+        debug_file=args.debug_file,
+        length_exp_scaling=args.length_exp_scaling,
+    )
     game = Codenames(
         configuration=configuration,
         embedding_type=args.embedding,

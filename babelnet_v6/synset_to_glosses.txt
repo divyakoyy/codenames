@@ -29429,3 +29429,1847 @@ bn:00094234v	FRAMENET	Twist or squirm in pain or as if in pain.
 bn:00094234v	FRAMENET	Twist and turn with quick writhing movements.
 bn:00094234v	FRAMENET	Move with wriggling movements.
 bn:00090946v	WN	Move so as to change position, perform a nontranslational motion
+bn:00041648n	WN	Green color or pigment; resembling the color of growing grass
+bn:00041648n	WIKI	Green is the color between blue and yellow on the visible spectrum.
+bn:00041648n	WIKIDIS	A colour sometimes referred to as Luggage or Luggage Green
+bn:00041648n	WIKIDATA	Color; additive primary color; visible between blue and yellow
+bn:00041648n	OMWIKI	The colour of growing foliage, as well as other plant cells containing chlorophyll; the colour between yellow and blue in the visible spectrum; one of the primary additive colour for transmitted light; the colour obtained by subtracting red and blue from white light using cyan and yellow filters.
+bn:00041648n	WIKT	The colour of growing foliage, as well as other plant cells containing chlorophyll; the colour between yellow and blue in the visible spectrum; one of the primary additive colour for transmitted light; the colour obtained by subtracting red and blue from white light using cyan and yellow filters.
+bn:00041648n	WIKT	The state or quality of being green; green colour.
+bn:00041648n	WIKTLB	State of being green (green in color)
+bn:00011518n	WN	A blue-green color or pigment
+bn:00011518n	WIKI	Blue-green/bottle green is a color that is a representation of the color that is between blue and green on a typical traditional old-fashioned RYB color wheel.
+bn:00011518n	WIKIDATA	Color
+bn:00011518n	WIKT	A bluish green colour.
+bn:00012353n	WN	Dark to moderate or greyish green
+bn:00012353n	WIKI	Varieties of the color green may differ in hue, chroma or lightness, or in two or three of these qualities.
+bn:00012353n	WIKIDATA	Varieties of the color green
+bn:00012353n	WIKIDATA	Color
+bn:00017918n	WN	A shade of green tinged with yellow
+bn:00017918n	WIKI	Varieties of the color green may differ in hue, chroma or lightness, or in two or three of these qualities.
+bn:00017918n	WIKI	Chartreuse is a color between yellow and green that was named because of its resemblance to the green color of one of the French liqueurs called green chartreuse, introduced in 1764.
+bn:00017918n	WIKIDATA	Varieties of the color green
+bn:00017918n	WIKIDATA	Color
+bn:00017918n	OMWIKI	A green or yellow liqueur made from herbs and flowers.
+bn:00017918n	WIKT	A yellow or green liqueur made by Carthusian monks.
+bn:00017918n	WIKT	A yellowish green colour, like that of peas.
+bn:00017918n	WIKT	A dark green colour with a tint of yellow, like that of moss.
+bn:00028521n	WN	A dull greyish to yellowish or light olive brown
+bn:00028521n	WIKI	Olive is a dark yellowish-green color, like that of unripe or green olives.
+bn:00028521n	WIKI	Drab is a dull light-brown color.
+bn:00028521n	WIKIDIS	A dark yellowish-green color
+bn:00028521n	WIKIDIS	A dull light brown color
+bn:00028521n	WIKIDATA	Dark yellowish green color
+bn:00028521n	WIKT	The colour of this fabric; a dun, dull grey, or or dull brownish yellow.
+bn:00030519n	WN	The green color of an emerald
+bn:00030519n	WIKI	Varieties of the color green may differ in hue, chroma or lightness, or in two or three of these qualities.
+bn:00030519n	WIKIDATA	Varieties of the color green
+bn:00030519n	WIKIDATA	Color
+bn:00030519n	OMWIKI	The green color of an emerald.
+bn:00030519n	WIKT	A blue-green colour, mostly green.
+bn:00030519n	WIKT	A bright green colour.
+bn:00030519n	WIKT	A dark green colour.
+bn:00030519n	WIKT	Of a dark green colour, like that of forest foliage.
+bn:00030519n	WIKT	A dark green colour, like that of the British Army rifleman uniform.
+bn:00030519n	WIKT	A pale green colour, possibly tinted with gray.
+bn:00030519n	WIKT	A pale greyish green color, like that of lichen.
+bn:00041715n	WN	A shade of yellow tinged with green
+bn:00041715n	WIKI	Varieties of the color green may differ in hue, chroma or lightness, or in two or three of these qualities.
+bn:00041715n	WIKIDATA	Varieties of the color green
+bn:00041715n	WIKIDATA	Color
+bn:00047876n	WN	A light green color varying from bluish green to yellowish green
+bn:00047876n	WIKI	Varieties of the color green may differ in hue, chroma or lightness, or in two or three of these qualities.
+bn:00047876n	WIKIDATA	Varieties of the color green
+bn:00047876n	WIKIDATA	Color
+bn:00047876n	OMWIKI	A semiprecious gemstone either nephrite or jadeite, generally green or whitish in color, often used for carving figurines.
+bn:00047876n	WIKT	A semiprecious stone, either nephrite or jadeite, generally green or white in color, often used for carving figurines.
+bn:00058893n	WN	A color that is lighter and greener than olive
+bn:00058893n	WIKI	Olive is a dark yellowish-green color, like that of unripe or green olives.
+bn:00058893n	WIKIDIS	A dark yellowish-green color
+bn:00058893n	WIKIDATA	Dark yellowish green color
+bn:00058893n	OMWIKI	The color of a ripe olive, a dark brownish or yellowish green.
+bn:00058893n	WIKT	A dark yellowish-green color, that of an unripe olive.
+bn:00058896n	WN	A shade of brown tinged with green
+bn:00058896n	WIKI	Olive is a dark yellowish-green color, like that of unripe or green olives.
+bn:00058896n	WIKIDIS	A dark yellowish-green color
+bn:00058896n	WIKIDATA	Dark yellowish green color
+bn:00058896n	WIKT	A greyish green colour, like that of a ripe green olive.
+bn:05961559n	WIKIDATA	Group of colours
+bn:15398399n	WIKIDATA	Color shade of green
+bn:15398399n	WIKT	Emerald green, a colour.
+bn:16102308n	WIKIDATA	Color
+bn:16102308n	WIKT	A yellowish-green color.
+bn:17382593n	WIKI	This article incorporates information from the equivalent article on the German Wikipedia.
+bn:17382593n	WIKIDATA	Color shade of gray and green
+bn:04728814n	NONE	NONE
+bn:16815201n	WIKI	Teal is a medium blue-green color, similar to cyan.
+bn:16815201n	WIKIDIS	A blue-green color
+bn:16815201n	WIKIDATA	Low-saturated color, a bluish-green to dark medium, similar to medium blue-green and dark cyan
+bn:16815201n	WIKT	A dark, somewhat bluish-green colour; a dark cyan.
+bn:16815201n	MSTERM	A deep blue-green color, identified by the hex number #008080 in the HTML 4 specification.
+bn:00018882n	WN	A brilliant green color
+bn:00081052n	WN	The quality or state of the achromatic color of greatest lightness (bearing the least resemblance to black)
+bn:00081052n	WIKI	In colorimetry, whiteness is the degree to which a surface is white.
+bn:00081052n	WIKI	White is the lightest color and is achromatic, because it fully reflects and scatters all the visible wavelengths of light.
+bn:00081052n	WIKIDATA	Color
+bn:00081052n	OMWIKI	The quality or state of being white; white color, or freedom from darkness or obscurity on the surface.
+bn:00081052n	OMWIKI	The colour of light that contains equal amounts of all visible wavelengths.
+bn:00081052n	WIKT	The color/colour of snow or milk; the colour of light containing equal amounts of all visible wavelengths.
+bn:00081052n	WIKT	The state of being white.
+bn:00081052n	WIKT	Of a creamy white colour.
+bn:01953314n	WIKI	The RGB color model is an additive color model in which red, green and blue light are added together in various ways to reproduce a broad array of colors.
+bn:01953314n	WIKIDATA	Additive color model based on combining red, green, and blue
+bn:01953314n	MSTERM	A color model that describes color information in terms of the red (R), green (G), and blue (B) intensities that make up the color.
+bn:01953314n	MSTERM	A color model that describes color information in terms of the red (R), green (G), and blue (B) intensities that make up the color.
+bn:01953314n	MSTERM	A color model that describes color information in terms of the red (R), green (G), and blue (B) intensities that make up the color.
+bn:21705828n	WIKI	Eye color is a polygenic phenotypic character determined by two distinct factors: the pigmentation of the eye's iris and the frequency-dependence of the scattering of light by the turbid medium in the stroma of the iris.
+bn:21705828n	WIKIDATA	Color of eyes
+bn:00021051n	WN	A piece of open land for recreational use in an urban area
+bn:00021051n	WIKI	The commons is the cultural and natural resources accessible to all members of a society, including natural materials such as air, water, and a habitable earth.
+bn:00021051n	WIKIDIS	Publicly owned areas, especially those for meeting
+bn:00021051n	WIKIDATA	Shared resources
+bn:00021051n	OMWIKI	A public place or area set aside for recreation or preservation of a cultural or natural resource.
+bn:00021051n	WIKT	An area of land set aside for environment preservation and/or informal recreation.
+bn:00021051n	WIKTLB	Ground for preservation of game, etc.
+bn:00008794n	WN	The stock of basic facilities and capital equipment needed for the functioning of a country or area
+bn:00008794n	WIKI	Infrastructure is the fundamental facilities and systems serving a country, city, or other area, including the services and facilities necessary for its economy to function.
+bn:00008794n	WIKI	Fundamental facilities and systems serving a country, city, or other area
+bn:00008794n	WIKIDATA	Includes all durable facilities material or institutional nature that favor the functioning of a division of labor economy
+bn:00008794n	OMWIKI	The basic network or foundation of capital facilities or community investments which are necessary to support economic and community activities.
+bn:00008794n	WIKT	The basic facilities, services and installations needed for the functioning of a community or society.
+bn:00008794n	WIKTLB	Basic facilities, services and installations needed for the functioning of a community or society.
+bn:00036840n	WN	A supply of something available for future use
+bn:00036840n	WIKT	A store or supply
+bn:00036840n	WIKT	A supply held in storage.
+bn:00036840n	WIKTLB	Supply held in storage.
+bn:00000778n	WN	(finance) profits that are not paid out as dividends but are added to the capital base of the corporation
+bn:00000778n	MSTERM	Profits that are added to the capital of an organization instead of paid to investors as dividends.
+bn:00041652n	WN	An area of closely cropped grass surrounding the hole on a golf course
+bn:00041652n	OMWIKI	The part of a golf course near the hole.
+bn:00041652n	WIKT	A putting green, the part of a golf course near the hole.
+bn:00041652n	WIKT	The area of a golf course nearest the hole, with a smoother surface to make putting easier.
+bn:00041652n	WIKTLB	Area on a golf course.
+bn:00049847n	WN	The piece of land on which something is located (or is to be located)
+bn:00009186n	WN	Someone who fights (or is fighting)
+bn:00009186n	OMWIKI	A person who fights or struggles using physical force or weapon.
+bn:00009186n	WIKT	A warrior; fighting soldier.
+bn:00009186n	WIKT	A person who fights doggedly, who exhibits indomitable will.
+bn:00012555n	WN	Someone who fights with his fists for sport
+bn:00012555n	WIKT	One who fights with his fists; especially a professional prize fighter; a boxer.
+bn:00012555n	WIKTLB	One who fights with his fists; a boxer.
+bn:00012844n	WN	A fighter (especially one who participates in brawls)
+bn:00012844n	WIKI	Beat 'em up is a video game genre featuring hand-to-hand combat between the protagonist and an improbably large number of opponents.
+bn:00012844n	WIKIDATA	Video game genre featuring hand-to-hand combat between the protagonist and an improbably large number of opponents
+bn:00012844n	WIKT	A video game of the genre oriented around interpersonal combat . Not a tournament fighting game.
+bn:00014250n	WN	A fighter who strikes the opponent with his head
+bn:00025886n	WN	A fighter who holds out against attack
+bn:00025886n	WIKT	A fighter who repels an attack.
+bn:00034055n	WN	Someone skilled at fencing
+bn:00034055n	WIKT	A participant in the sport of fencing.
+bn:00034055n	WIKT	A person skilled at using swords in sport or combat; a fencer.
+bn:00034055n	WIKTLB	A person skilled at using swords.
+bn:00037204n	WN	Someone who is a very fierce fighter
+bn:00040585n	WN	(ancient Rome) a professional combatant or a captive who entertained the public by engaging in mortal combat
+bn:00040585n	WIKI	A gladiator was an armed combatant who entertained audiences in the Roman Republic and Roman Empire in violent confrontations with other gladiators, wild animals, and condemned criminals.
+bn:00040585n	WIKIDATA	Combatant who entertained audiences in the Roman Republic and Roman Empire
+bn:00040585n	OMWIKI	A person who entertained the public by engaging in mortal combat.
+bn:00040585n	WIKT	A person who entertained the public by engaging in mortal combat with another, or with a wild animal.
+bn:00040585n	WIKTLB	(in ancient Rome) a person (professional or slave) who entertained the public by engaging in mortal combat with another, or with a wild animal.
+bn:00041177n	WN	An attacker who gouges out the antagonist's eye
+bn:00041177n	WIKT	Someone who gouges.
+bn:00041428n	WN	Combatant who tries to throw opponent to the ground
+bn:00053713n	WN	A combatant who is able to defeat rivals
+bn:00053892n	WN	A fighter who batters the opponent
+bn:00072002n	WN	Someone who skirmishes (e.g., as a member of a scouting party)
+bn:00074605n	WN	Someone who learned to fight in the streets rather than being formally trained in the sport of boxing
+bn:00017612n	WN	Someone who fights for a cause
+bn:00017612n	WIKI	The paladins, sometimes known as the Twelve Peers, were the foremost warriors of Charlemagne's court, according to the literary cycle known as the Matter of France.
+bn:00017612n	WIKIDATA	Holy warrior
+bn:00017612n	WIKT	Someone who fights for a cause or status.
+bn:00017612n	WIKT	A person who fights; a combatant.
+bn:00017612n	WIKTLB	Defender of a cause.
+bn:00017612n	WIKIQU	In medieval literature, the paladins or Twelve Peers were known in the Matter of France as the retainers of Charlemagne.
+bn:00025885n	WN	A person who cares for persons or property
+bn:00025885n	WIKI	In trust law, a protector is a person appointed under the trust instrument to direct or restrain the trustees in relation to their administration of the trust.
+bn:00025885n	WIKIDIS	In trust law, a third party who monitors and controls the trustees
+bn:00025885n	WIKT	A person legally responsible for an incompetent person.
+bn:00025885n	WIKT	Someone who defends people or property.
+bn:00025885n	WIKTLB	Someone who defends.
+bn:00049329n	WN	Originally a person of noble birth trained to arms and chivalry; today in Great Britain a person honored by the sovereign for personal merit
+bn:00049329n	WIKI	A knight is a person granted an honorary title of knighthood by a monarch or other political leader for service to the monarch or country, especially in a military capacity.
+bn:00049329n	WIKIDATA	Person granted an honorary title by a monarch or other political leader
+bn:00049329n	OMWIKI	A title of nobilty or gentility applied exclusively to males, originating in the Middle Ages. Their principal duty was to fight as heavy cavalry.
+bn:00049329n	WIKT	Nowadays, a person on whom a knighthood has been conferred by a monarch.
+bn:00049329n	WIKTLB	Person on whom a knighthood has been conferred.
+bn:00064231n	WN	Someone who keeps safe from harm or danger
+bn:00052971n	WN	A man who is an aristocrat
+bn:00080510n	WN	Someone engaged in or experienced in warfare
+bn:00080510n	WIKI	A warrior is a person specializing in combat or warfare, especially within the context of a tribal or clan-based warrior culture society that recognizes a separate warrior class or caste.
+bn:00080510n	WIKIDIS	A person skilled in combat
+bn:00080510n	WIKIDATA	Person specializing in combat or warfare
+bn:00080510n	OMWIKI	A person who is actively engaged in battle, conflict or warfare.
+bn:00080510n	WIKT	A person who is actively engaged in battle, conflict or warfare; a soldier or combatant.
+bn:00080510n	WIKTLB	Person actively engaged in battle, conflict or warfare.
+bn:00080510n	WIKIQU	Spoiler Alert!! This page includes quotes from all Warriors series by Erin Hunter.
+bn:02635777n	WIKI	A title of honor or honorary title is a title bestowed upon individuals or organizations as an award in recognition of their merits.
+bn:02635777n	WIKIDIS	A title which is an award.
+bn:02635777n	WIKIDATA	Title bestowed upon individuals or organizations as an award in recognition of their merits
+bn:00054983n	WN	Rank in a military organization
+bn:00054983n	WIKI	Military ranks are a system of hierarchical relationships in armed forces, police, intelligence agencies or other institutions organized along military lines.
+bn:00054983n	WIKIDATA	Element of hierarchy in armed forces
+bn:03437272n	WIKI	Traditional rank amongst European royalty, peers, and nobility is rooted in Late Antiquity and the Middle Ages.
+bn:03437272n	WIKIDATA	Legal privilege given to some members in monarchial societies
+bn:00005661n	WN	A member of the aristocracy
+bn:00005661n	WIKI	The patricians were originally a group of ruling class families in ancient Rome.
+bn:00005661n	WIKIDIS	A rank in the Roman Republic and in the Roman Empire
+bn:00005661n	WIKIDATA	The name given to members of the old-established upper class in ancient Rome as well as in the Middle Ages
+bn:00005661n	WIKT	A proponent of aristocracy; an advocate of aristocratic government.
+bn:00005661n	WIKTLB	One of the aristocracy.
+bn:00676283n	WIKI	Combatant is a term of art that describes the legal status of an individual who has the right to engage in hostilities during an international armed conflict.
+bn:00676283n	WIKIDATA	Person who takes a direct part in the hostilities of an armed conflict
+bn:00676283n	OMWIKI	A person who is actively engaged in battle, conflict or warfare.
+bn:00676283n	WIKT	An armed fighter.
+bn:00000704n	WN	A tangible symbol signifying approval or distinction
+bn:00000704n	WIKI	The accolade was the central act in the rite of passage ceremonies conferring knighthood in the Middle Ages.
+bn:00000704n	WIKI	An award is something given to a person, a group of people, like a sports team, or an organization in recognition of their excellence in a certain field.
+bn:00000704n	WIKIDIS	Central act in rite of passage ceremonies conferring knighthood
+bn:00000704n	WIKIDATA	Something given to a person or a group of people to recognize their excellence in a certain field
+bn:00000704n	WIKIDATA	Central act in the rite of passage ceremonies conferring knighthood
+bn:00000704n	OMWIKI	A tangible symbol signifying approval or distinction.
+bn:00000704n	FRAMENET	Something granted as a special honour or in recognition of merit.
+bn:11257172n	WIKIDATA	Synonym of rank
+bn:00066152n	WN	Relative status
+bn:00007002n	WN	A high-speed military or naval airplane designed to destroy enemy aircraft in the air
+bn:00007002n	WIKI	A fighter aircraft is a military aircraft designed primarily for air-to-air combat against other aircraft, as opposed to bombers and attack aircraft, whose main mission is to attack ground targets.
+bn:00007002n	WIKI	An attack aircraft, strike aircraft, or attack bomber, is a tactical military aircraft that has a primary role of carrying out airstrikes with greater precision than bombers, and is prepared to encounter strong low-level air defenses while pressing the attack.
+bn:00007002n	WIKIDIS	A warplane designed to destroy or damage enemy warplanes in air-to-air combat
+bn:00007002n	WIKIDATA	Military aircraft designed primarily for air-to-air combat against other aircraft
+bn:00007002n	WIKIDATA	Military aircraft that have a primary role of attacking targets on the ground or sea
+bn:00007002n	WIKIDATA	Military aircraft specifically designed to conduct combat actions in and/or from the air
+bn:00007002n	WIKT	A military aircraft designed primarily for air-to-air combat with other aircraft.
+bn:00007002n	WIKT	A military aircraft primarily designed to attack enemy aircraft. Frequently shortened to fighter.
+bn:00007002n	WIKT	A class of fixed-wing aircraft whose primary purpose is that of shooting down other aircraft. Some of these also have a secondary purpose of attacking ground targets.
+bn:00007002n	WIKT	A fighter aircraft with one or more jet engines.
+bn:00027853n	WN	A bomber that releases its bombs during a steep dive toward the target
+bn:00027853n	WIKI	A dive bomber is a bomber aircraft that dives directly at its targets in order to provide greater accuracy for the bomb it drops.
+bn:00027853n	WIKIDATA	Bomber aircraft that dives directly at its targets
+bn:00027853n	WIKT	A bomber aircraft that dives directly at its target in order to provide greater accuracy for the bomb it drops.
+bn:00027853n	WIKTLB	Type of military aircraft.
+bn:00133722n	WIKI	The Aeromarine 700 was an early US Navy seaplane developed in 1917 to investigate the feasibility of using aircraft to launch torpedoes.
+bn:00133722n	WIKIDATA	Experimental torpedo bomber
+bn:00140998n	WIKI	The Sopwith Tabloid and Sopwith Schneider were British biplanes, originally designed as sports aircraft and later adapted for military use.
+bn:00140998n	WIKIDATA	Sporting aircraft family
+bn:00141305n	WIKI	The Breda Ba.64 was an Italian single-engine ground-attack aircraft used by the Regia Aeronautica during the 1930s.
+bn:00141305n	WIKIDATA	Attack aircraft
+bn:00156565n	WIKI	The Douglas A2D Skyshark was an American turboprop-powered attack aircraft built by the Douglas Aircraft Company for the United States Navy.
+bn:00156565n	WIKIDATA	Prototype carrier-based attack aircraft
+bn:00054976n	WN	An aircraft designed and used for combat
+bn:00054976n	WIKI	A military aircraft is any fixed-wing or rotary-wing aircraft that is operated by a legal or insurrectionary armed service of any type.
+bn:00054976n	WIKIDATA	Aircraft designed or utilized for use in or support of military operations
+bn:00054976n	WIKT	An aircraft designed for combat.
+bn:00054976n	WIKTLB	Aircraft for combat.
+bn:00062901n	WN	Any military structure or vehicle bearing weapons
+bn:00062901n	WIKI	A weapons platform is generally any structure or system on which a weapon can be mounted.
+bn:00043466n	WN	A non-buoyant aircraft that requires a source of power to hold it aloft and to propel it
+bn:16750414n	WIKI	A fixed-wing aircraft is an aircraft, such as an airplane or aeroplane, which is capable of flight using wings that generate lift caused by the vehicle's forward airspeed and the shape of the wings.
+bn:16750414n	WIKIDATA	Heavier-than-air aircraft with fixed wings generating aerodynamic lift in the airflow caused by forward airspeed
+bn:16750414n	OMWIKI	A powered heavier-than-air aircraft with fixed wings that obtains lift by the Bernoulli effect and is used for transportation.
+bn:16750414n	WIKT	A powered heavier-than-air aircraft with fixed wings.
+bn:00054990n	WN	Vehicle used by the armed forces
+bn:00054990n	WIKI	A military vehicle is a type of vehicle that includes all land combat and transportation vehicles, which are designed for or are significantly used by military forces.
+bn:00054990n	WIKIDATA	Land combat and transportation vehicles which are designed for or are significantly used by military forces
+bn:15108262n	WIKIDATA	Heavier-than-air aircraft, such as airplanes, must find some way to push air or gas downwards,so that a reaction occurs (by Newton's laws of motion) to push the aircraft upwards.This dynamic movement through the air is the origin of the term aerodyne
+bn:15108262n	WIKT	A heavier-than-air aircraft, deriving its lift from motion.
+bn:00020858n	WN	The act of fighting; any contest or struggle
+bn:00020858n	OMWIKI	Struggle for superiority.
+bn:00020858n	OMWIKI	A battle, a fight (often one in which weapons are used); a struggle for victory.
+bn:00020858n	WIKT	A battle, a fight ; a struggle for victory.
+bn:00020858n	WIKT	Struggle for superiority; combat.
+bn:00020858n	WIKT	A struggle; a contest.
+bn:00020858n	WIKT	A fight or battle; an occasion on which people fight.
+bn:00020858n	WIKTLB	Struggle; a contest; as, the battle of life.
+bn:00020858n	WIKIQU	Combat or fighting is a purposeful violent conflict meant to weaken, or establish dominance over the opposition, or to kill the opposition, or drive the opposition away from a location where it is not wanted or needed.
+bn:00020858n	FRAMENET	Fighting, especially between armed forces.
+bn:16166113n	WIKIDATA	Person who practise a martial art
+bn:00022164n	WN	A person who participates in competitions
+bn:00022164n	WIKI	A contestant is someone who takes part in a competition, usually a professional competition or a game show on television.
+bn:00022164n	OMWIKI	A person who takes part in a contest or competition.
+bn:00022164n	WIKT	Present participle of contestar.
+bn:00022164n	WIKT	A person or organization against whom one is competing.
+bn:00022164n	WIKTLB	Person against whom one is competing.
+bn:03176835n	WIKI	A superhero is a type of heroic stock character, usually possessing supernatural or superhuman powers, who is dedicated to fighting crime, protecting the public, and usually battling supervillains.
+bn:03176835n	WIKI	Type of stock character possessing "supernatural or superhuman powers" and dedicated to protecting the public
+bn:03176835n	WIKIDATA	Type of stock character possessing "extraordinary or superhuman powers" and dedicated to protecting the public
+bn:03176835n	WIKT	Any kind of fantasy/science fiction crime-fighting character, often with supernatural powers or equipment, in popular children's and fantasy literature.
+bn:03176835n	WIKT	A heroine with supernatural powers; a female superhero.
+bn:03176835n	WIKTLB	A fictional crime-fighting character with superpowers.
+bn:00738194n	WIKI	The article alternative versions of Supergirl focuses on stories published by DC Comics in which various incarnations of the character have been placed in storylines taking place both in and outside mainstream continuity.
+bn:00738194n	WIKIDATA	DC Comics characters
+bn:01863156n	WIKI	Impulse is an identity shared by three comic book superheroes published by DC Comics.
+bn:01863156n	WIKIDIS	An identity shared by three comic book superheroes published by DC Comics: Bart Allen, Kent Shakespeare, and Iris West
+bn:01863156n	WIKIDATA	Fictional character from DC Comics
+bn:02505216n	WIKI	The Flash is the name of several fictional characters appearing in comic books published by DC Comics.
+bn:02505216n	WIKIDIS	Several speedy DC Comics superheroes
+bn:02505216n	WIKIDATA	Superhero in the DC Comics universe
+bn:02505216n	WIKIQU	The Flash is the name shared by several fictional superheroes from the DC Comics Universe.
+bn:03605235n	WIKI	Green Lantern is the name of several superheroes appearing in American comic books published by DC Comics.
+bn:03605235n	WIKIDIS	Any of a number of similarly themed DC Comics characters
+bn:03605235n	WIKIDATA	Multiple superheroes from the DC universe
+bn:03605235n	WIKIQU	Green Lantern is the title of many superhero characters appearing in comic books published by DC Comics.
+bn:00144899n	WIKI	Southpaw is a fictional character that first appeared in the Marvel comic She-Hulk.
+bn:00144899n	WIKIDIS	A fictional character that first appeared in the Marvel comic She-Hulk
+bn:00149734n	WIKI	Raptor is the name of three fictional characters in the Marvel Comics' universe.
+bn:00149734n	WIKIDIS	The name of three fictional characters in the Marvel Comics universe
+bn:00151610n	WIKI	Quasar is a fictional superhero appearing in American comic books published by Marvel Comics.
+bn:00156381n	WIKI	Lotus Shinchuko is a fictional character in the Marvel Universe.
+bn:00156390n	WIKI	Note: This is not the same Hector Ayala as the respondent in the U.S. Supreme Court cade of Davis v.
+bn:00160179n	WIKI	Quagmire is a fictional character, owned by Marvel Comics who is a native of the universe of the Squadron Supreme.
+bn:00160179n	WIKIDIS	A Marvel Comics character
+bn:00169280n	WIKI	Siege is a fictional character, owned by Marvel Comics, who exists in the Marvel Universe.
+bn:00169280n	WIKIDIS	A Marvel Comics character created by Dwayne McDuffie and Gregory Wright
+bn:00169280n	WIKIDATA	Fictional character of the Marvel Universe
+bn:00173328n	WIKI	Pipeline is a fictional character, a mutant appearing in American comic books published by Marvel Comics.
+bn:00173328n	WIKIDIS	A character from Marvel Comics with the ability to teleport himself and others
+bn:00200660n	WIKI	Puck is the codename of two fictional characters appearing in American comic books published by Marvel Comics.
+bn:00200660n	WIKIDATA	Comic book character
+bn:00233011n	WIKI	Eric Masterson is a fictional character in the Marvel Comics Universe, a superhero that has appeared as Thor and later Thunderstrike.
+bn:00233011n	WIKIDIS	The original Thunderstrike
+bn:00262709n	WIKI	Komodo is the name of two fictional characters appearing in American comic books published by Marvel Comics.
+bn:00262709n	WIKIDIS	One of various characters in the Marvel Comics universe
+bn:00270805n	WIKI	Hardball is a fictional superhero appearing in American comic books published by Marvel Comics.
+bn:00270805n	WIKIDIS	A superhero in the Avengers: The Initiative series from Marvel Comics
+bn:00295294n	WIKI	Delroy Garrett, Jr. is a fictional superhero appearing in American comic books published by Marvel Comics.
+bn:00295555n	WIKI	Silverclaw, is a fictional character, a superhero in the Marvel Comics universe.
+bn:00306243n	WIKI	Aftermath was a super hero comic book imprint published by Devil's Due Publishing.
+bn:00306243n	WIKIDIS	An imprint of Devil's Due Publishing
+bn:00306243n	WIKIDATA	Superhero
+bn:00307133n	WIKI	Protector is a fictional superhero in the Marvel Universe.
+bn:00307133n	WIKIDIS	A character in the Marvel Universe
+bn:00307133n	WIKIDATA	Fictional superhero character
+bn:00548802n	WIKI	Superhero fiction is a type of speculative fiction examining the adventures, personalities and ethics of costumed crime fighters known as superheroes, who often possess superhuman powers and battle similarly powered criminals known as supervillains.
+bn:00548802n	WIKIDIS	A subgenre of science fiction
+bn:00043853n	WN	(classical mythology) a being of great strength and courage celebrated for bold exploits; often the offspring of a mortal and a god
+bn:00043853n	WIKI	A hero or heroine is a person or main character of a literary work who, in the face of danger, combats adversity through feats of ingenuity, bravery or strength, often sacrificing their own personal concerns for a greater good.
+bn:00043853n	WIKIDIS	One who displays courage and self-sacrifice for the greater good
+bn:00043853n	WIKIDATA	Person who displays characteristics of heroism
+bn:00043853n	WIKIDATA	2011 Odia film
+bn:00043853n	OMWIKI	A being of great strength and courage celebrated for bold exploits; often the offspring of a mortal and a god.
+bn:00043853n	WIKT	Somebody who possesses great bravery and carries out extraordinary deeds.
+bn:00043853n	WIKTLB	Person of great bravery.
+bn:01806167n	WIKI	Superhuman qualities are qualities that exceed those found in humans.
+bn:01806167n	WIKIDIS	An entity with intelligence or abilities exceeding normal human standards
+bn:03881611n	WIKI	A stock character is a stereotypical fictional character in a work of art such as a novel, play, or film, whom audiences recognize from frequent recurrences in a particular literary tradition.
+bn:03881611n	WIKIDIS	Standard character types seen in fiction and literature
+bn:03881611n	WIKIDATA	Literary or social stereotype used to create characters or determine their role in a story
+bn:03881611n	WIKT	Any fictional character drawn from some stereotype who is instantly recognizable.
+bn:18036844n	WIKIDATA	Set of recurring elements in the narrative, symbols, images, and character types in literary works
+bn:00005418n	WN	Something that serves as a model or a basis for making copies
+bn:00005418n	WIKI	The concept of an archetype appears in areas relating to behavior, modern psychological theory, and literary analysis.
+bn:00005418n	WIKIDIS	A general term of varied meanings
+bn:00005418n	WIKIDATA	Concept in psychology, literature, philosophy
+bn:00005418n	OMWIKI	The original pattern or model from which all things of the same kind are copied or on which they are based.
+bn:00005418n	WIKT	An original model of which all other similar persons, objects, or concepts are merely derivative, copied, patterned, or emulated; a prototype.
+bn:00005418n	WIKTLB	Original model of which all other similar persons, objects, or concepts are merely derivative.
+bn:00077766n	WN	A structure taller than its diameter; can stand alone or be attached to a larger building
+bn:00077766n	WIKI	A tower is a tall structure, taller than it is wide, often by a significant margin.
+bn:00077766n	WIKIDATA	Structure with height greater than width
+bn:00077766n	OMWIKI	Structure, usually taller than it is wide, often used as a lookout.
+bn:00077766n	WIKT	A structure, usually taller than it is wide, often used as a lookout, usually unsupported by guy-wires.
+bn:00009288n	WN	A tower with a light that gives warning of shoals to passing ships
+bn:00009288n	WIKI	A beacon is an intentionally conspicuous device designed to attract attention to a specific location.
+bn:00009288n	WIKI	A lighthouse is a tower, building, or other type of structure designed to emit light from a system of lamps and lenses and to serve as a navigational aid for maritime pilots at sea or on inland waterways.
+bn:00009288n	WIKIDIS	Traditionally a fire lit on a hill to attract attention.
+bn:00009288n	WIKIDATA	Structure designed to emit light to aid navigation
+bn:00009288n	WIKIDATA	Intentionally conspicuous device designed to attract attention to a specific location (on land or water)
+bn:00009288n	OMWIKI	A lighthouse, signal buoy, etc., on a shore or at a dangerous area at sea to warn and guide vessels.
+bn:00009288n	OMWIKI	A building designed to emit light as an aid to ship navigation.
+bn:00009288n	WIKT	A building, usually a tower, containing a light to warn or guide ships.
+bn:00009288n	WIKTLB	Building containing a light to warn or guide ships.
+bn:00009703n	WN	A room (often at the top of a tower) where bells are hung
+bn:00009703n	WIKI	The belfry is a structure enclosing bells for ringing as part of a building, usually as part of a bell tower or steeple.
+bn:00009703n	WIKIDIS	A structure enclosing bells
+bn:00009703n	WIKIDATA	Structure enclosing bells for ringing as part of building, usually as part of a bell tower or steeple
+bn:00009703n	OMWIKI	A tower in which bells are hung.
+bn:00009703n	WIKT	A tower or steeple specifically for containing bells, especially as part of a church.
+bn:00009703n	WIKTLB	Tower or steeple specifically for containing bells, especially as part of a church.
+bn:00009764n	WN	A tower that supports or shelters a bell
+bn:00009764n	WIKI	A bell tower is a tower that contains one or more bells, or that is designed to hold bells even if it has none.
+bn:00009764n	WIKIDATA	A tower that contains one or more bells, or that is designed to hold bells
+bn:00009764n	WIKIDATA	Type of building in Eastern Asia
+bn:00009764n	OMWIKI	A tower in which bells are hung.
+bn:00009764n	WIKT	A tower in which a bell is hung; a belfry.
+bn:00009764n	WIKT	A part of a large tower or steeple, specifically for containing bells.
+bn:00009764n	WIKTLB	Part of a large tower or steeple, specifically for containing bells.
+bn:00019894n	WN	A tower with a large clock visible high up on an outside face
+bn:00019894n	WIKI	Clock towers are a specific type of building which houses a turret clock and has one or more clock faces on the upper exterior walls.
+bn:00019894n	WIKIDATA	Architectural structure
+bn:00028227n	WN	The main tower within the walls of a medieval castle or fortress
+bn:00028227n	WIKI	A keep is a type of fortified tower built within castles during the Middle Ages by European nobility.
+bn:00028227n	WIKIDATA	Type of fortified tower built within castles during the Middle Ages by European nobility
+bn:00028227n	OMWIKI	Highest and most fortified tower of a castle.
+bn:00028227n	WIKT	The main tower of a motte or castle; a keep or donjon.
+bn:00028227n	WIKT	The fortified tower of a motte or early castle; a keep.
+bn:00028227n	WIKT	The main tower of a castle or fortress, located within the castle walls. (According to Wikipedia:keep, the word comes "from the Middle English term kype, meaning basket or cask, and was a term applied to the shell keep at Guînes, said to resemble a barrel".)
+bn:00028227n	WIKTLB	The main tower of a motte or castle; a keep or donjon.
+bn:00034669n	WN	A watchtower where a lookout is posted to watch for fires
+bn:00034669n	WIKI	A fire lookout tower, fire tower or lookout tower, provides housing and protection for a person known as a "fire lookout" whose duty it is to search for wildfires in the wilderness.
+bn:00034669n	WIKI	Building to house a person who watches for wildfires
+bn:00034669n	WIKT	A lookout tower to search for fires in a forest.
+bn:00034669n	WIKT	Watchtower.
+bn:00034669n	WIKT	A watchtower to search for fires in a forest.
+bn:00051977n	WN	A structure commanding a wide view of its surroundings
+bn:00051977n	WIKI	An observation tower is a structure used to view events from a long distance and to create a full 360 degree range of vision.
+bn:00051977n	WIKIDIS	A stand alone structure used to view events from a long distance and to create a full 360 degree range of vision
+bn:00051977n	WIKIDATA	Structure used to view events from a long distance
+bn:00053568n	WN	A circular masonry fort for coastal defence
+bn:00053568n	WIKI	Martello towers, sometimes known simply as Martellos, are small defensive forts that were built across the British Empire during the 19th century, from the time of the French Revolutionary Wars onwards.
+bn:00053568n	WIKIDIS	British Empire 19th century
+bn:00053568n	WIKT	A short sturdy round masonry fort, especially one constructed at various coastal points in the British Empire during the Napoleonic Wars.
+bn:00073427n	WN	A tall tower that forms the superstructure of a building (usually a church or temple) and that tapers to a point at the top
+bn:00073427n	WIKI	A spire is a tapering conical or pyramidal structure on the top of a building, often a skyscraper or a church tower.
+bn:00073427n	WIKI	A steeple, in architecture, is a tall tower on a building, topped by a spire and often incorporating a belfry and other components.
+bn:00073427n	WIKIDATA	Tapering structure on top of a building
+bn:00073427n	WIKIDATA	Tall tower on a building
+bn:00073427n	OMWIKI	Architectural element in the shape of a pyramid or cone crowning a structure (door, front, ground, etc.), much used in Gothic architecture.
+bn:00073427n	WIKT	A tall tower, often on a church, normally topped with a spire.
+bn:00073427n	WIKT	A tapering structure built on a roof or tower, especially as one of the central architectural features of a church or cathedral roof.
+bn:00073427n	WIKTLB	Tapering architectural structure.
+bn:00080560n	WN	An observation tower for a lookout to watch over prisoners or watch for fires or enemies
+bn:00080560n	WIKI	A watchtower, or watch tower, is a type of fortification used in many parts of the world.
+bn:00080560n	WIKIDIS	A type fortification used in many parts of the world
+bn:00080560n	WIKIDATA	Type of fortification
+bn:00080560n	WIKT	An observation tower in which a lookout keeps watch over prisoners, or looks out for fires, etc.
+bn:00080636n	WN	A large reservoir for water
+bn:00080636n	WIKI	A water tower is an elevated structure supporting a water tank constructed at a height sufficient to pressurize a water supply system for the distribution of potable water, and to provide emergency storage for fire protection.
+bn:00080636n	WIKIDATA	Elevated structure supporting a water tank
+bn:00080636n	OMWIKI	A very large tank constructed for the purpose of holding a supply of water at a height sufficient to pressurize a water supply system.
+bn:00080636n	WIKT	A large tank of water, in an elevated position, acting as a local reservoir; water is pumped into the tank and fed by gravity to the consumers.
+bn:00125291n	WIKI	A Typenturm is a standardised telecommunications tower built of reinforced concrete the former German federal post office.
+bn:00448495n	WIKI	A lattice tower or truss tower is a freestanding framework tower.
+bn:00448495n	WIKIDATA	Freestanding framework tower
+bn:00551372n	WIKI	The De Redin Towers are a series of small coastal watchtowers built in Malta by the Order of Saint John between 1658 and 1659.
+bn:00551372n	WIKIDATA	Tower
+bn:00551372n	WIKIDATA	Tower
+bn:00551372n	WIKIDATA	Tower
+bn:00551372n	WIKIDATA	Tower
+bn:00551372n	WIKIDATA	Tower
+bn:00560894n	WIKI	A service structure, or umbilical tower or launch tower, is a structure built on a rocket launch pad to facilitate fueling and loading of cargo and crew into a spacecraft.
+bn:00560894n	WIKIDATA	Structure built on a rocket launch pad to facilitate fueling and loading of cargo and crew into a spacecraft
+bn:01315091n	WIKI	Radio masts and towers are, typically, tall structures designed to support antennas for telecommunications and broadcasting, including television.
+bn:01315091n	WIKIDIS	Tall structures designed to support antennas (also known as aerials in the UK)
+bn:01315091n	WIKIDATA	Tall structure designed to support antennas
+bn:01540411n	WIKI	The talaiots, or talayots, are Bronze Age megaliths on the islands of Minorca and Majorca forming part of the Talaiotic Culture or Talaiotic Period.
+bn:01540411n	WIKIDIS	Megaliths on the islands of Minorca and Majorca
+bn:01540411n	WIKIDATA	Tower
+bn:01647042n	WIKI	Minaret, from Arabic: منارة‎ manāra, lit. "lighthouse", also known as Goldaste, is a distinctive architectural structure akin to a tower and typically found adjacent to mosques.
+bn:01647042n	WIKIDIS	Known as manara (منارة, but more usually مئذنة) in Arabic
+bn:01647042n	WIKIDATA	Distinctive architectural feature of mosques
+bn:01647042n	OMWIKI	A tall, graceful spire with onion-shaped crowns distinctive to Islamic mosques.
+bn:02178278n	WIKI	A fortified tower is one of the defensive structures used in fortifications, such as castles, along with curtain walls.
+bn:02178278n	WIKIDATA	Defensive structure used in fortifications
+bn:02246974n	WIKI	A siege tower or breaching tower is a specialized siege engine, constructed to protect assailants and ladders while approaching the defensive walls of a fortification.
+bn:02246974n	WIKIDATA	Siege engine
+bn:01966187n	WIKI	Ashby de la Zouch Castle is a ruined fortification in the town of Ashby-de-la-Zouch, Leicestershire, England.
+bn:16404738n	WIKI	"Forth Crossing" redirects here; not to be confused with the 400 kV Forth Crossing or earlier crossings, see History of the Forth Crossing.
+bn:16404738n	WIKIDIS	Planned to open in 2016
+bn:16404738n	WIKIDATA	Road bridge across the Firth of Forth, Scotland
+bn:00020824n	WN	Anything that approximates the shape of a column or tower
+bn:00074682n	WN	A lightweight cord
+bn:00074682n	WIKI	Twine is a light string or strong thread composed of two or more smaller strands or yarns twisted, and then twisted together.
+bn:00074682n	WIKIDATA	Light string or strong thread
+bn:00074682n	OMWIKI	A long, thin and flexible structure made from threads twisted together.
+bn:00074682n	WIKT	A long, thin and flexible structure made from threads twisted together.
+bn:00074682n	WIKT	A strong thread composed of two or three smaller threads or strands twisted together, and used for various purposes, as for binding small parcels, making nets, and the like; a small cord or string.
+bn:00074682n	WIKTLB	Long, thin structure made from twisted threads.
+bn:00017552n	WN	A chalked string used in the building trades to make a straight line on a vertical surface
+bn:00017552n	WIKI	A chalk line or chalk box is a tool for marking long, straight lines on relatively flat surfaces, much farther than is practical by hand or with a straightedge.
+bn:00017552n	WIKT	Chalk line.
+bn:00017552n	WIKT	A line made on a surface by snapping a taut string or cord dusted with colored chalk.
+bn:00060129n	WN	A strong three-ply twine used to sew or tie packages
+bn:00060129n	WIKT	A strong thread or twine used in tying up parcels.
+bn:00060129n	WIKTLB	A strong thread or twine used in tying up parcels.
+bn:00022589n	WN	A line made of twisted fibers or threads
+bn:00022589n	WIKI	In sewing, cord is a trimming made by twisting or plying two or more strands of yarn together.
+bn:00022589n	WIKIDIS	A trimming made of multiple strands of yarn twisted together
+bn:00022589n	OMWIKI	A long, thin, flexible length of twisted strands of fibre/fiber, for example rope; (uncountable) such a length of twisted strands considered as a commodity.
+bn:00022589n	WIKT	A long, thin, flexible length of twisted yarns of fiber ; such a length of twisted strands considered as a commodity.
+bn:00022589n	WIKTLB	Length of twisted strands.
+bn:00068266n	WN	A strong line
+bn:00068266n	WIKI	A rope is a group of yarns, plies, fibers or strands that are twisted or braided together into a larger and stronger form.
+bn:00068266n	WIKIDATA	Linear collection of plies, yarns or strands which are twisted or braided together
+bn:00068266n	OMWIKI	Thick, strong string made of several strands that have been twisted together.
+bn:00068266n	WIKT	A hard line drive.
+bn:00051300n	WN	Something (as a cord or rope) that is long and thin and flexible
+bn:00051300n	WIKT	A rope, cord, string, or thread, of any thickness.
+bn:00051300n	WIKTLB	Rope, cord, or string.
+bn:00012674n	WN	Trimming used to decorate clothes or curtains
+bn:00012674n	WIKI	A braid is a complex structure or pattern formed by interlacing three or more strands of flexible material such as textile yarns, wire, or hair.
+bn:00012674n	WIKIDATA	A complex structure or pattern
+bn:00012674n	OMWIKI	a hair style formed by interweaving three or more strands of hair.
+bn:00012674n	WIKT	A braided trimming used as decoration on clothes or curtains.
+bn:00012674n	WIKT	A weave of three or more strands of fibers, ribbons, cords or hair often for decoration.
+bn:00012674n	WIKT	A style of hair in which the hair is interweaved into thin locks.
+bn:00012674n	WIKT	A very thin braid in hair.
+bn:00012674n	WIKTLB	Style of hair.
+bn:00012674n	WIKIQU	The following quotes are from the PC, Xbox Live and Playstation Network game Braid.
+bn:00012674n	FRAMENET	A length of hair made up of three or more interlaced strands.
+bn:04165668n	WIKIDATA	Tensile line
+bn:00012483n	WN	Stringed instruments that are played with a bow
+bn:00012483n	WIKI	Bowed string instruments are a subcategory of string instruments that are played by a bow rubbing the strings.
+bn:00012483n	OMWIKI	A string instrument that is played by bowing its strings with a bow or a wheel.
+bn:00012483n	WIKT	The stringed instruments as a section of an orchestra, especially those played by a bow, or the persons playing those instruments.
+bn:00052470n	WN	A harp used by ancient Greeks for accompaniment
+bn:00052470n	WIKI	The lyre is a string instrument known for its use in Greek classical antiquity and later periods.
+bn:00052470n	WIKI	String instrument from Greek classical antiquity
+bn:00052470n	WIKIDIS	A stringed musical instrument known for its use in Classical Antiquity
+bn:00052470n	OMWIKI	A stringed instrument of the Middle Ages, precursor of harp.
+bn:00052470n	WIKT	A stringed musical instrument.
+bn:00052470n	WIKTLB	A stringed musical instrument.
+bn:00080034n	WN	Viol that is the tenor of the viol family
+bn:00080034n	WIKI	The viola d'amore is a 7- or 6-stringed musical instrument with sympathetic strings used chiefly in the baroque period.
+bn:00734358n	WIKI	The rebec is a bowed stringed instrument of the Medieval era and the early Renaissance era.
+bn:00734358n	WIKI	Bowed stringed instrument of the Medieval era and Renaissance era
+bn:00909933n	WIKI	The gaohu is a Chinese bowed string instrument developed from the erhu in the 1920s by the musician and composer Lü Wencheng and used in Cantonese music and Cantonese opera.
+bn:00909933n	WIKIDIS	Also known as Yuehu (粤胡), a bowed string instrument used in Cantonese music
+bn:00909933n	WIKT	A two-stringed vertical fiddle-like chordophone used as a leading instrument in Cantonese music.
+bn:01464555n	WIKI	The Byzantine lyra or lira was a medieval bowed string musical instrument in the Byzantine Empire.
+bn:01464555n	WIKIDIS	A bowed string musical instrument used in the Byzantine Empire
+bn:01480663n	WIKI	The Cretan lyra is a Greek pear-shaped, three-stringed bowed musical instrument, central to the traditional music of Crete and other islands in the Dodecanese and the Aegean Archipelago, in Greece.
+bn:01983692n	WIKI	The bowed psaltery is a type of psaltery or zither that is played with a bow.
+bn:02175117n	WIKI	The gehu is a Chinese instrument developed in the 20th century by the Chinese musician Yang Yusen.
+bn:02186654n	WIKI	The banhu is a Chinese traditional bowed string instrument in the huqin family of instruments.
+bn:02186654n	WIKIDATA	Chinese musical instrument
+bn:02434705n	WIKI	A tromba marina, or marine trumpet is a triangular bowed string instrument used in medieval and Renaissance Europe that was highly popular in the 15th century in England and survived into the 18th century.
+bn:02434705n	WIKI	Musical instrument
+bn:02664389n	WIKI	A kontra is a Hungarian, Czech, Polish, Romanian, Slovak and Romani instrument common in Transylvania.
+bn:02796414n	WIKI	The sārangī is a bowed, short-necked string instrument from India as well as Nepal and Pakistan which is used in Hindustani classical music.
+bn:02796414n	WIKIDATA	Bowed, short-necked string instrument from South Asia
+bn:02796414n	WIKT	A bowed string instrument used in the Hindustani classical music of North India.
+bn:02796414n	WIKTLB	North Indian bowed string instrument.
+bn:03063687n	WIKI	A nyckelharpa is a traditional Swedish musical instrument.
+bn:03129184n	WIKI	The Erhu is a two-stringed bowed musical instrument, more specifically a spike fiddle, which may also be called a Southern Fiddle, and sometimes known in the Western world as the Chinese violin or a Chinese two-stringed fiddle.
+bn:03129184n	WIKIDIS	A traditional Chinese musical instrument known as hena in Taiwan
+bn:03129184n	WIKIDATA	Chinese two-stringed musical instrument
+bn:03129184n	WIKT	A type of bowed spike fiddle having two strings, originating in China as part of the huqin family of string instruments.
+bn:00034583n	WN	A narrow strip of wood on the neck of some stringed instruments (violin or cello or guitar etc) where the strings are held against the wood with the fingers
+bn:00034583n	WIKI	The fingerboard is an important component of most stringed instruments.
+bn:00034583n	WIKIDATA	Component of many string instruments
+bn:00074684n	WN	A sequentially ordered set of things or events or ideas in which each successive member is related to the preceding
+bn:00028650n	WN	A tie consisting of a cord that goes through a seam around an opening
+bn:00028650n	WIKI	A drawstring is a string, cord, lace, or rope used to "draw" fabric or other material.
+bn:00028650n	WIKIDATA	Drawstring
+bn:00028650n	WIKT	Drawstring.
+bn:00077211n	WN	A cord (or string or ribbon or wire etc.) with which something is tied
+bn:00087254v	WN	Thread on or as if on a string
+bn:00042808n	WN	A firearm that is held and fired with one hand
+bn:00042808n	WIKI	A handgun is a short-barreled firearm designed to be fired with only one hand.
+bn:00042808n	WIKI	A pistol is a type of handgun, especially one with a chamber integral with the barrel.
+bn:00042808n	WIKIDIS	In American slang (mid-20th century)
+bn:00042808n	WIKIDATA	Type of handgun
+bn:00042808n	OMWIKI	A handgun, typically with a semi-automatic action and a clip magazine.
+bn:00042808n	WIKT	A handgun, typically with a chamber integrated in the barrel, a semi-automatic action and a box magazine.
+bn:00042808n	WIKT	A small gun with a relatively short barrel, designed to be held and operated with a single hand.
+bn:00042808n	WIKT	A small pistol.
+bn:00042808n	WIKT	A firearm, especially a handgun.
+bn:00042808n	WIKTLB	Small, hand-held gun.
+bn:00026477n	WN	A pocket pistol of large caliber with a short barrel
+bn:00026477n	WIKI	The original Philadelphia Deringer was a single-shot muzzleloading percussion cap pistol introduced in 1852, by Henry Deringer.
+bn:00026477n	WIKI	Small pistol
+bn:00067576n	WN	A pistol with a revolving cylinder (usually having six chambers for bullets)
+bn:00067576n	WIKI	A revolver is a repeating handgun that has a revolving cylinder containing multiple chambers and at least one barrel for firing.
+bn:00067576n	WIKIDATA	Handgun that has a cylinder containing multiple chambers and at least one barrel
+bn:00067576n	WIKT	A revolver with a cylinder that holds six bullets.
+bn:00067576n	WIKT	A revolver with a cylinder that holds six bullets. A six-gun.
+bn:00067576n	WIKT	A handgun with a revolving chamber enabling several shots to be fired without reloading.
+bn:00067576n	WIKTLB	A handgun with revolving chambers.
+bn:00070415n	WN	A pistol that is a semiautomatic firearm capable of loading and firing continuously
+bn:00070415n	WIKI	A semi-automatic pistol is a type of pistol that is semiautomatic, meaning it uses the energy of the fired cartridge to cycle the action of the firearm and advance the next available cartridge into position for firing.
+bn:00070415n	WIKIDIS	A type of self-loading handgun that can be fired in semi-automatic mode, firing one cartridge for each pull of the trigger.
+bn:00070415n	WIKIDATA	Type of pistol
+bn:03443048n	WIKI	A service pistol is any handgun issued to military personnel or law enforcement officers.
+bn:03443048n	WIKIDATA	Handgun issued to military personnel as standard equipment
+bn:00014043n	WN	A fully automatic pistol; a small submachine gun
+bn:00014043n	WIKI	A machine pistol is typically a handgun-style machine gun, capable of fully automatic or burst fire, and chambered for pistol cartridges.
+bn:00014043n	WIKI	Pistol capable of fully automatic fire
+bn:00014043n	WIKIDIS	A handgun-style, magazine-fed and self-loading firearm, capable of fully automatic or burst fire, and chambered for pistol cartridges
+bn:00014043n	WIKT	A small submachine gun.
+bn:00014043n	WIKT	A lightweight submachine gun, capable of being fired with one hand.
+bn:00074921n	WN	Machine gun that is a portable automatic firearm
+bn:00074921n	WIKI	A submachine gun is a magazine-fed, automatic carbine designed to fire pistol cartridges.
+bn:00074921n	WIKIDATA	Class of automatic firearms
+bn:00074921n	WIKT	A type of short range machine gun that is carried as a personal weapon and uses pistol ammunition.
+bn:00074921n	WIKTLB	Short range machine gun.
+bn:03279851n	WIKI	A duelling pistol is a type of pistol that was manufactured in matching pairs to be used in a duel, when duels were customary.
+bn:00451505n	WIKI	The Guncrafter Industries Model No. 1 is a variant of the widely popular M1911 handgun, modified for the .50 GI cartridge.
+bn:01016401n	WIKI	Gaztañaga Destroyer was an automatic pistol designed by Isidro Gaztañaga in Eibar, Basque country, in 1913, using 6.35 mm caliber.
+bn:01016401n	WIKIDIS	A Spanish pistol
+bn:01053375n	WIKI	The Mitchell Alpha .45 is a pistol manufactured by the American Mitchell Arms company.
+bn:01387540n	WIKI	The Beretta U22 Neos is a .22 Long Rifle semi-automatic, single-action pistol using a slide blow-back system, that has been manufactured in the United States since 2002 by Beretta USA.
+bn:01399835n	WIKI	The SIG Sauer P238 is a compact .380 ACP caliber, single-action pistol announced by SIG Sauer at the 2009 SHOT Show.
+bn:01617487n	WIKI	The pistole vz. 22 was the first Czech Army pistol of the inter-war period.
+bn:01692047n	WIKI	The Springfield Armory Enhanced Micro Pistol is a handgun based on the classic M1911 design.
+bn:01834209n	WIKI	The Intratec TEC-22 is a semi-automatic handgun chambered in .22 Long Rifle.
+bn:01834209n	WIKIDATA	Handgun
+bn:02265760n	WIKI	The Zastava M88 is a semi-automatic handgun produced by Zastava Arms, Serbia.
+bn:02475086n	WIKI	The Ruger LC9 is a 9mm caliber, recoil-operated, locked breech, double action only, semi-automatic pistol announced by Sturm, Ruger & Co. at the 2011 SHOT Show.
+bn:02572962n	WIKI	The PB 
+bn:02572962n	WIKIDIS	A Soviet silenced pistol intended for army reconnaissance groups and the KGB
+bn:02823549n	WIKI	The SIG Sauer P938 is a subcompact single-action pistol chambered for the 9 mm Parabellum cartridge announced by SIG Sauer at the 2011 SHOT Show.
+bn:00042254n	WN	The handle of a handgun or the butt end of a rifle or shotgun or part of the support of a machine gun or artillery gun
+bn:00042254n	WIKI	A gunstock, often simply stock, also known as a shoulder stock, a buttstock or simply a butt, is a part of a long gun such as rifle, to which the barrelled action and firing mechanism are attached and is held against the user's shoulder when shooting the gun.
+bn:00042254n	WIKIDIS	A part of a gun
+bn:00042254n	WIKIDATA	Part of a firearm
+bn:00042254n	WIKT	The stock in a firearm located in the rear of the firing mechanism where one's shoulder is held when shooting.
+bn:00715068n	WIKI	A side arm or sidearm is a weapon, usually a handgun but sometimes a dagger, knife or other mêlée weapon, which is worn on the body in a holster or sheath to permit immediate access and use.
+bn:00715068n	WIKIDIS	A backup weapon
+bn:00715068n	WIKIDATA	Pistol, dagger or other melee weapon worn on the body in a holster
+bn:00356560n	WIKI	A ranged weapon is any weapon that can engage targets beyond hand-to-hand distance, i.e. at distances greater than the physical reach of the weapon itself.
+bn:00356560n	WIKIDATA	Weapon that can harm targets at distances greater than hand-to-hand distance
+bn:00016338n	WN	A metal frame or container holding cartridges; can be inserted into an automatic gun
+bn:00016338n	WIKI	A magazine is an ammunition storage and feeding device within or attached to a repeating firearm.
+bn:00016338n	WIKI	A clip can reference a device that is used to store multiple rounds of ammunition together as a unit, ready for insertion into the magazine or cylinder of a firearm.
+bn:00016338n	WIKIDIS	A device that holds ammunition for firearms
+bn:00016338n	WIKIDATA	Used to hold ammunition for firearms
+bn:00016338n	WIKIDATA	Ammunition storage and feeding device within or attached to a repeating firearm
+bn:00016338n	WIKT	A chamber in a firearm enabling multiple rounds of ammunition to be fed into the firearm.
+bn:00016339n	WN	A mechanism in a firearm that ejects the empty shell case after firing
+bn:00016339n	WIKT	That part of the mechanism of a breech-loading firearm which ejects the empty shell.
+bn:00016340n	WN	A mechanism in a firearm that pulls an empty shell case out of the chamber and passes it to the ejector
+bn:00034720n	WN	Chamber that is the part of a gun that receives the charge
+bn:00034723n	WN	The action that ignites the charge in a firearm
+bn:00034723n	WIKI	A trigger is a mechanism that actuates the firing sequence of a firearm, airgun, crossbow or speargun.
+bn:00042225n	WN	A sight used for aiming a gun
+bn:00042225n	WIKI	A sight is an aiming device used to assist in visually aligning ranged weapons, surveying instruments or optical illumination equipments with the intended target.
+bn:00042225n	WIKIDIS	Used to assist aim by guiding the eye
+bn:00042225n	WIKIDATA	Device for alignment and aiming of a weapon
+bn:00042225n	WIKT	A device used in aiming a projectile, through which the person aiming looks at the intended target.
+bn:00042225n	WIKT	An optical instrument which establishes an optical line or axis for the purpose of aiming a weapon.
+bn:00042225n	WIKTLB	Device used in aiming a firearm.
+bn:00042233n	WN	The open circular discharging end of a gun
+bn:00042233n	WIKI	The muzzle of a firearm is the end of the barrel from which the projectile will exit.
+bn:00042233n	WIKIDIS	The mouth of a firearm
+bn:00042233n	WIKIDATA	End of firearm barrel
+bn:00042238n	WN	Lever that activates the firing mechanism of a gun
+bn:00042238n	WIKI	A trigger is a mechanism that actuates the firing sequence of a firearm, airgun, crossbow or speargun.
+bn:00042238n	OMWIKI	A finger-operated lever used to fire a gun.
+bn:00042238n	WIKT	A finger-operated lever used to fire a gun.
+bn:00042238n	WIKTLB	Finger-operated lever used to fire a gun.
+bn:00068804n	WN	Guard consisting of a locking device that prevents a weapon from being fired
+bn:00022026n	WN	The force of policemen and officers
+bn:00022026n	WIKI	Constabulary may have several definitions:
+bn:00022026n	WIKI	A police force is a constituted body of persons empowered by a state to enforce the law, to protect people and property, and to prevent crime and civil disorder.
+bn:00022026n	WIKIDIS	With `old bill' as a slang term in the UK
+bn:00022026n	WIKIDATA	Constituted body of persons empowered by the state to enforce the law
+bn:00022026n	OMWIKI	Branch of the government which is charged with the preservation of public order, the promotion of public health and safety, and the prevention, detection, and punishment of crimes.
+bn:00022026n	WIKT	A civil force granted the legal authority for law enforcement and maintaining public order.
+bn:00022026n	WIKTLB	An organisation that enforces the law.
+bn:00064914n	WN	The territory occupied by one of the constituent administrative districts of a nation
+bn:00064914n	WIKI	A province is almost always an administrative division, within a country or state.
+bn:00064914n	WIKIDATA	Territorial entity within a country or state
+bn:00064914n	OMWIKI	An administrative subdivision of a country, in some cases relatively autonomous and equivalent to a state, in others, smaller and less autonomous and more akin to a county.
+bn:00064914n	OMWIKI	A political division of a federation retaining a degree of autonomy.
+bn:00064914n	WIKT	A political division of a federation retaining a notable degree of autonomy, as in the United States or Germany; any province.
+bn:00064914n	WIKT	A territorial area within a country.
+bn:00064914n	WIKT	A province making up part of a larger province.
+bn:00064914n	WIKTLB	A political division of a federation retaining a degree of autonomy.
+bn:00064914n	MSTERM	The area in the country/region where an account is located.
+bn:00638521n	WIKI	Since the early 17th-century there have been four Provinces of Ireland: Connacht, Leinster, Munster and Ulster.
+bn:00653263n	WIKI	The provinces of Sweden are historical, geographical and cultural regions.
+bn:00653263n	WIKIDIS	The historical provinces of Sweden and Finland
+bn:00741416n	WIKI	The country of Belgium is divided into three regions.
+bn:00741416n	WIKIDATA	Subdivision of Belgium
+bn:00843962n	WIKI	Solomon Islands is divided into nine provinces.
+bn:00844753n	WIKI	A province is the second largest administrative division in Chile with 54 in total.
+bn:00891849n	WIKI	The provinces of the Philippines are the primary political and administrative divisions of the Philippines.
+bn:00891849n	WIKIDATA	Administrative division of the Philippines
+bn:00911299n	WIKI	The provinces of Peru, known in Spanish as provincias, are the second-level administrative subdivisions of the country.
+bn:00911299n	WIKIDATA	Second level administrative subdivision of Peru
+bn:00946782n	WIKI	The Provinces of Indonesia are the 34 largest subdivisions of the country and the highest tier of the local government.
+bn:00946782n	WIKIDATA	Indonesian administrative division, first-level subdivision of the country
+bn:01199183n	WIKI	Colombia is divided into 32 departments.
+bn:01249699n	WIKI	Between 1634 and 2009, Finland was administered as several provinces.
+bn:01267690n	WIKI	The historical provinces of Finland are a legacy of the country's joint history with Sweden.
+bn:01267690n	WIKIDIS	The subset of historical provinces in current day Finland
+bn:01267690n	WIKIDATA	Legacy of the country''s joint history with Sweden
+bn:01292084n	WIKI	Ethiopia was divided into provinces, further subdivided into awrajjas or districts, until they were replaced by regions and chartered cities in 1992.
+bn:01316602n	WIKI	Thailand is a unitary state that is subdivided into 76 provinces and one special administrative area representing the capital Bangkok.
+bn:01316602n	WIKIDATA	1st level administrative subdivision of Thailand
+bn:01414737n	WIKI	Spain and its autonomous communities are divided into fifty provinces.
+bn:01414737n	WIKIDATA	Wikimedia list article
+bn:01414737n	WIKIDATA	Provinces of Spain
+bn:01525949n	WIKI	The Provinces of Fiji,, are the 14 administrative units into which the country is divided, particularly in relation to the provision of resources and services to the indigenous Fijian population by the Fijian Affairs Board.
+bn:01719849n	WIKI	Administratively, Cuba is divided into 15 provinces and one special municipality not included in any province.
+bn:01740690n	WIKI	Argentina is subdivided into twenty-three provinces and one autonomous city, Buenos Aires, which is the federal capital of the nation as decided by Congress. The provinces and the capital have their own constitutions, but exist under a federal system.
+bn:02111621n	WIKI	The provinces of the Colony of New Zealand existed as a form of sub-national government.
+bn:02111621n	WIKIDATA	1841-1876 administrative areas of New Zealand
+bn:02305770n	WIKI	The Provinces of Venezuela were administrative divisions used from Venezuela's independence from Gran Colombia in 1830 to 1864, when the States of Venezuela were created.
+bn:02305770n	WIKIDATA	Former class of entities
+bn:02500164n	WIKI	In Ancient Rome, a province was the basic, and, until the Tetrarchy, largest territorial and administrative unit of the empire's territorial possessions outside of Italy.
+bn:02500164n	WIKIDIS	Or provincia, an administrative unit in the Roman empire
+bn:02500164n	WIKIDATA	Roman administrative territorial entity
+bn:00074010n	WN	The group of people comprising the government of a sovereign state
+bn:00074010n	WIKT	Any sovereign polity; a national or city-state government.
+bn:00074010n	WIKTLB	Any sovereign polity.
+bn:00007299n	WN	The organization that is the governing authority of a political unit
+bn:00007299n	WIKI	In politics, a regime is the form of government or the set of rules, cultural or social norms, etc. that regulate the operation of a government or institution and its interactions with society.
+bn:00007299n	WIKIDATA	Form of government or the set of rules, cultural or social norms, etc. that regulate the operation of a government or institution and its interactions with society
+bn:00007299n	WIKT	A form of government, or the government in power.
+bn:00007299n	WIKTLB	Form of government.
+bn:00063358n	WN	A politically organized unit
+bn:00063358n	WIKT	A politically organized unit; a state.
+bn:00063358n	WIKTLB	Politically organized unit.
+bn:15634449n	WIKIDATA	Regulating principle of humans, including laws, instructions, guidelines, social conventions
+bn:00017670n	WN	The act of changing something into something different in essential characteristics
+bn:00056915n	WN	A person who owes allegiance to that nation
+bn:00056915n	OMWIKI	A person who is a citizen of a nation.
+bn:00056915n	WIKT	A subject of a nation.
+bn:00056915n	WIKT	A citizen in a monarchy.
+bn:00056915n	WIKTLB	Subject
+bn:00031648n	WN	A major social class or order of persons regarded collectively as part of the body politic of the country (especially in the United Kingdom) and formerly possessing distinct political rights
+bn:00031648n	WIKI	The estates of the realm, or three estates, were the broad orders of social hierarchy used in Christendom from the medieval period to early modern Europe.
+bn:00031648n	WIKIDIS	A broad social category in the histories of certain countries.
+bn:00031648n	WIKIDATA	Broad social orders of the hierarchically conceived society recognised in the Middle Ages and Early Modern period in Christian Europe
+bn:00031648n	WIKT	A major social class or order of persons regarded collectively as part of the body politic of the country and formerly possessing distinct political rights.
+bn:00031648n	WIKTLB	Historical: major social class or order of persons.
+bn:16353370n	WIKIDATA	Total world population of humans
+bn:16353370n	WIKT	The human condition or nature.
+bn:08263063n	WIKIDATA	A legal construct through which the law allows a group of natural persons to act as if they were a single person for certain purposes
+bn:13858447n	WIKIDATA	Describes the current properties of a physical system
+bn:01110993n	WIKI	A state is a constituent political entity of the United States.
+bn:01110993n	WIKIDIS	A federated constituent state of the United States of America
+bn:01110993n	WIKIDATA	Constituent political entity sharing sovereignty with the United States of America
+bn:03200278n	WIKI	Political divisions of the United States are the various recognized governing entities that together form the United States.
+bn:00093287v	WN	Express in words
+bn:00093287v	OMWIKI	To communicate orally, using a particular language; to express in words.
+bn:00093287v	WIKT	To tell, either verbally or in writing.
+bn:00093287v	WIKTLB	To communicate verbally or in writing.
+bn:00093287v	FRAMENET	Utter words so as to convey information, an opinion, an instruction, etc.
+bn:00093287v	FRAMENET	Express definitely or clearly in speech or writing.
+bn:00093287v	FRAMENET	Communicate a message nonverbally.
+bn:00093287v	FRAMENET	Recite or create a speech, formula, or other meaningful text.
+bn:00087894v	WN	Articulate; either verbally or with a cry, shout, or noise
+bn:00087894v	WIKT	To make.
+bn:00087894v	WIKTLB	Make a noise.
+bn:00015496n	WN	Assets available for use in the production of further assets
+bn:00015496n	WIKI	Working capital is a financial metric which represents operating liquidity available to a business, organisation or other entity, including governmental entities.
+bn:00015496n	WIKI	In economics, capital consists of anything that can enhance a person's power to perform economically useful work.
+bn:00015496n	WIKI	Financial capital is any economic resource measured in terms of money used by entrepreneurs and businesses to buy what they need to make their products or to provide their services to the sector of the economy upon which their operation is based, i.e. retail, corporate, investment banking, etc.
+bn:00015496n	WIKIDIS	A financial metric
+bn:00015496n	WIKIDIS	A factor of production that is not wanted for itself but for its ability to help in producing other goods
+bn:00015496n	WIKIDIS	Any form of wealth capable of being employed in the production of more wealth
+bn:00015496n	WIKIDATA	Money used by entrepreneurs and businesses to buy what they need to make their products or provide their services
+bn:00015496n	WIKIDATA	Already-produced durable goods that are used in production of goods or services
+bn:00015496n	OMWIKI	Capital that consists of equipment and machines that are used to produce goods.
+bn:00015496n	OMWIKI	The financial means to acquire goods and services, especially in a non-barter system.
+bn:00015496n	WIKT	Money and wealth. The means to acquire goods and services, especially in a non-barter system.
+bn:00015496n	WIKT	The money used by entrepreneurs and businesses to buy what they need to make their products or provide their services.
+bn:00015496n	WIKT	Capital that is not financial capital, such as shovels for gravediggers, sewing machines for tailors, or machinery for manufacturing firms.
+bn:00015496n	WIKT	A financial metric that is a measure of current assets of a business that exceeds its liabilities and can be applied to its operation.
+bn:00015496n	WIKTLB	Money and wealth.
+bn:00015496n	MSTERM	The measure of the funds available to an organization to continue its operations; this financial metric is the difference between an organization’s current assets and its current liabilities.
+bn:00015496n	MSTERM	The amount of owners' investment in a business plus retained earnings.
+bn:06524256n	NONE	NONE
+bn:03220416n	WIKI	Natural capital is the world's stock of natural resources, which includes geology, soils, air, water and all living organisms.
+bn:03220416n	WIKI	World's stock of natural resources, which includes geology, soils, air, water and all living organisms
+bn:03220416n	WIKIDIS	The resources of an ecosystem that yields a flow of goods and services into the future
+bn:00024514n	WN	Assets in the form of cash (or easily convertible into cash)
+bn:00024514n	WIKI	In business, economics or investment, market liquidity is a market's feature whereby an individual or firm can quickly purchase or sell an asset without causing a drastic change in the asset's price.
+bn:00024514n	WIKI	In accounting, a current asset is any asset which can reasonably be expected to be sold, consumed, or exhausted through the normal operations of a business within the current fiscal year or operating cycle.
+bn:00024514n	WIKIDIS	The ability to buy or sell a particular commodity quickly without causing a significant price fluctuation
+bn:00024514n	WIKIDATA	An asset which can either be converted to cash or used to pay current liabilities within 12 months
+bn:00024514n	OMWIKI	Includes cash and those items that can be turned into cash in the near future, usually within one year.
+bn:00024514n	WIKT	An asset on the balance sheet which is expected to be sold or otherwise used up in the near future, usually within one year, or one business cycle - whichever is longer, such as cash, accounts receivable, and inventory.
+bn:00024514n	WIKT	An asset in the form of money or cash in hand, or an asset which can be quickly converted into cash without losing much value.
+bn:00024514n	WIKTLB	Asset in the form money, or that which can be quickly converted.
+bn:00024514n	MSTERM	An asset that currently is in the form of cash, or an asset that can be sold or consumed within a short period of time, usually one year or less.
+bn:00024514n	MSTERM	An asset that is cash or easily converted into cash.
+bn:00059118n	WN	Capital available for the operations of a firm (e.g. manufacturing or transportation) as distinct from financial transactions and long-term improvements
+bn:00067933n	WN	Wealth available for investment in new or speculative enterprises
+bn:00067933n	WIKI	Venture capital is a type of private equity, a form of financing that is provided by firms or funds to small, early-stage, emerging firms that are deemed to have high growth potential, or which have demonstrated high growth.
+bn:00067933n	WIKIDIS	General term for financing startup, early-stage, and "turnaround" - type businesses
+bn:00067933n	WIKIDATA	Start-up investment
+bn:00067933n	WIKIDATA	Incremental video game
+bn:00070261n	WN	Capital needed to set up a new business or enterprise
+bn:00070261n	WIKI	Seed money, sometimes known as seed funding or seed capital, is a form of securities offering in which an investor invests capital in exchange for an equity stake in the company.
+bn:00070261n	WIKIDIS	Commonly referred to as friends and family funding
+bn:00070261n	WIKT	Money used to set up a new business venture.
+bn:00070261n	WIKT	Money that is given to help start a new business or project.
+bn:00070261n	WIKTLB	Money used to set up a new business venture.
+bn:00074332n	WN	The capital raised by a corporation through the issue of shares entitling holders to an ownership interest (equity)
+bn:00074332n	WIKI	The stock of a corporation is constituted of the equity stock of its owners.
+bn:00074332n	WIKIDIS	The equity of a company, referred to as Stocks and Shares
+bn:00074332n	WIKIDATA	Financial instrument
+bn:00074332n	WIKT	The capital raised by a company through the issue of shares. The total of shares held by an individual shareholder.
+bn:00074332n	WIKTLB	Finance: capital raised by a company.
+bn:00239754n	WIKI	Instrumental and intrinsic value are technical labels for the two poles of an ancient dichotomy.
+bn:00239754n	WIKIDATA	Something of value in terms of usefulness as a means of achieving something else
+bn:00015497n	WN	Wealth in the form of money or property owned by a person or business and human resources of economic value
+bn:00022825n	WN	Capital as contrasted with the income derived from it
+bn:00030807n	WN	The capital that provides income for an institution
+bn:00030807n	WIKI	A financial endowment is a donation of money or property to a nonprofit organization for the ongoing support of that organization.
+bn:00030807n	WIKIDIS	Relating to funds or property donated to institutions or individuals (e.g., college endowment)
+bn:00030807n	OMWIKI	Money received of which only the interest earned on it may be spent.
+bn:00054013n	WN	Considerable capital (wealth or income)
+bn:02539284n	WIKI	The European Youth Capital is the title awarded to a European city for the period of one year, during which it is given the chance to showcase, through a multi-faceted programme, its youth-related cultural, social, political and economic life and development.
+bn:03600700n	WIKI	A federal capital is a political entity, often a municipality or capital city, that enjoys status as a seat of government in a federal state.
+bn:03600700n	WIKIDATA	Capital city in a federal state
+bn:09815265n	WIKIDATA	Capital city of a subnational entity
+bn:10975151n	WIKIDATA	List of capitals of Rus' and Russia during the history
+bn:14601654n	NONE	NONE
+bn:17799944n	NONE	NONE
+bn:05843060n	NONE	NONE
+bn:00006674n	WN	The capital and chief port of Paraguay
+bn:00006674n	WIKI	Asunción is the capital and largest city of Paraguay.
+bn:00006674n	WIKIDIS	Capital and largest city of Paraguay
+bn:00006674n	WIKIDATA	Capital of Paraguay
+bn:00006674n	OMWIKI	The capital of Paraguay.
+bn:00006674n	WIKT	The capital of Paraguay.
+bn:00006674n	WIKTLB	Capital of Paraguay.
+bn:00015499n	WN	One of the large alphabetic characters used as the first letter in writing or printing proper names and sometimes for emphasis
+bn:00015499n	WIKI	Letter case is the distinction between the letters that are in larger upper case and smaller lower case in the written representation of certain languages.
+bn:00015499n	WIKI	Distinction between alphabetic letters in taller, "upper" case and shorter "lower" case
+bn:00015499n	WIKIDIS	The distinction between upper and lowercase letters in typography
+bn:00015499n	WIKIDATA	Distinction between the letters that are in larger upper case and smaller lower case letters
+bn:00015499n	OMWIKI	An upper-case letter, used for emphasis, for starting sentences and proper names, etc.
+bn:00015499n	OMWIKI	In typography, the nature of a piece of alphabetic type, whether a “capital” (upper case) or “small” (lower case) letter.
+bn:00015499n	OMWIKI	Collective term for the capital letters.
+bn:00015499n	WIKT	The nature of a piece of alphabetic type, whether a “capital” or “small” letter.
+bn:00015499n	WIKT	An upper-case letter , used for emphasis, for starting sentences and proper names, etc.
+bn:00015499n	WIKT	Collective term for the capital letters A, B, C, ... as opposed to the small letters a, b, c, ....
+bn:00015499n	WIKT	An uppercase letter.
+bn:00015499n	WIKTLB	Letters A B C.
+bn:00015499n	MSTERM	In some languages, a distinct, and usually larger, form of a letter. May be used in word-initial position in certain cases, or for emphasis.
+bn:00015499n	MSTERM	In some languages, a distinct, and usually larger, form of a letter. May be used in word-initial position in certain cases, or for emphasis.
+bn:00015499n	MSTERM	In some languages, a distinct, and usually larger, form of a letter. May be used in word-initial position in certain cases, or for emphasis.
+bn:00015499n	MSTERM	In text processing, an indication of whether one or more alphabetic characters are capitalized (uppercase) or not (lowercase). A case-sensitive program or routine distinguishes between uppercase and lowercase letters and treats the word cat as totally distinct from either Cat or CAT. A case-sensitive program that also separates capitalized and lowercased words would list Arkansas before aardvark or antimony, even though its alphabetic position follows both lowercased words.
+bn:00002919n	WN	A signature written by one person for another
+bn:00002919n	WIKI	Allography, from the Greek for "other writing", has several meanings which all relate to how words and sounds are written down.
+bn:00002919n	WIKT	A signature made by one person for another.
+bn:00071547n	WN	Your name written in your own handwriting
+bn:00071547n	WIKI	A signature is a handwritten depiction of someone's name, nickname, or even a simple "X" or other mark that a person writes on documents as a proof of identity and intent.
+bn:00071547n	WIKIDIS	Placing one's name on a document
+bn:00071547n	WIKIDATA	Handwritten mark made as a proof of identity and intent
+bn:00071547n	OMWIKI	Your name written in your own handwriting.
+bn:00071547n	MSTERM	An image of a legally-binding signature that is stored and printed on checks as appropriate.
+bn:00015500n	WN	A center that is associated more than any other with some activity or product
+bn:00017130n	WN	A place where some particular activity is concentrated
+bn:00017130n	WIKT	A place where some function or activity occurs.
+bn:00017130n	WIKTLB	Place where a function or activity occurs.
+bn:00062700n	WN	Any area set aside for a particular purpose
+bn:00015501n	WN	The federal government of the United States
+bn:00015501n	WIKT	The federal government or administrative authority of the United States.
+bn:00033909n	WN	A government with strong central powers
+bn:00033909n	WIKI	The Federal Government of the United States is the national government of the United States, a republic in North America, composed of 50 states, one district, Washington, D.C., and several territories.
+bn:00033909n	WIKIDATA	National government of the United States
+bn:00033909n	WIKT	The national government of the United States, in contrast to government at the state level.
+bn:14068953n	WIKIDATA	Highest, central, level of government in a federation
+bn:14068953n	WIKT	The national government of Canada, in contrast to government at the provincial or territorial level.
+bn:00013504n	WN	Any of various small or medium-sized kangaroos; often brightly colored
+bn:00013504n	WIKI	A wallaby is a small- or mid-sized macropod found in Australia and New Guinea.
+bn:00013504n	WIKIDATA	Common name of small- or mid-sized macropods found in Australia and New Guinea
+bn:00013504n	OMWIKI	Any of several species of marsupial; usually smaller and stockier than kangaroos.
+bn:00013504n	WIKT	Any of several species of marsupial; usually smaller and stockier than kangaroos.
+bn:00013504n	WIKTLB	Any of several species of Marsupial.
+bn:00040403n	WN	Very large greyish-brown Australian kangaroo formerly abundant in open wooded areas
+bn:00040403n	WIKI	The eastern grey kangaroo is a marsupial found in southern and eastern Australia, with a population of several million.
+bn:00040403n	WIKIDATA	Species of mammal
+bn:00045647n	WN	Small kangaroo of northeastern Australia
+bn:00045647n	WIKI	The musky rat-kangaroo is a marsupial species found only in the rainforests of northeast Australia.
+bn:00045647n	WIKIDATA	Species of mammal
+bn:00048773n	WN	Any of several rabbit-sized ratlike Australian kangaroos
+bn:00258589n	WIKI	The Diprotodontia are an order of about 125 species of marsupial mammals including the kangaroos, wallabies, possums, koala, wombats, and many others.
+bn:00258589n	WIKIDATA	Order of mammals
+bn:00054591n	WN	Primitive pouched mammals found mainly in Australia and the Americas
+bn:00012083n	WN	A book to which you can refer for authoritative facts
+bn:00012083n	WIKI	A reference work is a book or periodical to which one can refer for information.
+bn:00012083n	WIKIDATA	Book or serial publication to which one can refer for confirmed facts
+bn:00012083n	WIKT	A reference work.
+bn:00033090n	WN	Kangaroos; wallabies
+bn:00033090n	WIKI	Macropods are marsupials belonging to the family Macropodidae, the kangaroo family, which includes kangaroos, wallabies, tree-kangaroos, pademelons, quokkas, and several others.
+bn:00033090n	WIKIDIS	Which includes kangaroos, wallabies, tree-kangaroos, pademelons, and several others
+bn:00033090n	WIKIDATA	Family of mammals
+bn:00026224n	WN	Tree wallabies
+bn:00038281n	WN	Musk kangaroos
+bn:00038281n	WIKI	The musky rat-kangaroo is a marsupial species found only in the rainforests of northeast Australia.
+bn:00038281n	WIKIDATA	Species of mammal
+bn:00038377n	WN	Hare wallabies
+bn:00038574n	WN	Type genus of the family Macropodidae: typical kangaroos and wallabies
+bn:00038574n	WIKI	Macropus is a marsupial genus that belongs to the family Macropodidae.
+bn:00038574n	WIKIDATA	Genus of mammals
+bn:00038925n	WN	A genus of Macropodidae
+bn:00039092n	WN	Rock wallabies
+bn:00039092n	WIKI	The rock-wallabies are the wallabies of the genus Petrogale.
+bn:00039092n	WIKIDATA	Genus of mammals
+bn:00039915n	WN	Pademelons
+bn:00063883n	WN	Rat kangaroos
+bn:00053080n	WN	A family of mammals
+bn:00009263n	WN	An area of sand sloping down to the water of a sea or lake
+bn:00009263n	WIKI	A beach is a landform alongside a body of water which consists of loose particles.
+bn:00009263n	WIKIDATA	Area of sand or small stones near the sea or another area of water such as a lake
+bn:00009263n	OMWIKI	A lat, narrow strip of sand, gravel or pebbles along the shoreline of a body of water (ocean, river, lake).
+bn:00009263n	WIKT	The shore of a body of water, especially when sandy or pebbly.
+bn:00132379n	WIKI	An urban beach; or city beach and sometimes beach club, is defined by urban planners as an artificially-created environment in an urban setting which simulates a public beachfront, through the use of sand, beach umbrellas, and seating elements.
+bn:00132379n	WIKIDIS	A modern leisure concept
+bn:00316901n	WIKI	A shingle beach is a beach which is armoured with pebbles or small- to medium-sized cobbles.
+bn:02610011n	WIKI	A "shell beach" is a sea beach that routinely has an unusually large accumulation of seashells washed up on it.
+bn:15668797n	NONE	NONE
+bn:18851396n	NONE	NONE
+bn:07129643n	NONE	NONE
+bn:00185065n	WIKI	Crown Memorial State Beach is a state park in the city of Alameda, CA on the shores of San Francisco Bay.
+bn:00229198n	WIKI	Miami Beach, Barbados, near the town of Oistins, is a popular sandy beach in Barbados.
+bn:00230775n	WIKI	Vigie Beach is located 2 km north of Castries, Saint Lucia, running parallel and immediately adjacent to the George F. L. Charles Airport.
+bn:00293088n	WIKI	Miami is a beach near Mikra Sports Center in Nea Krini, Kalamaria, Thessaloniki, Greece is often called Miami, because there is a luxurious restaurant called Miami in the area.
+bn:00368552n	WIKI	East Beach located in Santa Barbara, California is often the first beach seen upon entering the city limits.
+bn:00368552n	WIKIDIS	A beach in the city of Santa Barbara, California
+bn:00368552n	WIKIDATA	A beach located in Santa Barbara, California
+bn:00373855n	WIKI	Jomtien or Jomtien Beach, on road signs and road maps also often written Chom Tian, is a town on the east coast of the Gulf of Thailand about 165 km south-east of Bangkok in Chonburi Province.
+bn:00377118n	WIKI	Dunewood is a small beach community in the western end of Fire Island, New York State.
+bn:00406265n	WIKI	Uruno Beach is in the north of Guam.
+bn:00418294n	WIKI	This article is about Colún Beach, for the milk company see COLUN
+bn:00418294n	WIKIDIS	A beach in Chile west of La Unión
+bn:00455794n	WIKI	Den Permanente is a sea bath and a beach in Aarhus, Denmark.
+bn:00469947n	WIKI	Goat Rock Beach is a sand beach in northwestern Sonoma County, California, United States.
+bn:00469947n	WIKIDATA	Beach in Sonoma County, California
+bn:00526312n	WIKI	Salar de Carcote, also known as Salar de San Martín, is a salt flat in northern Chile.
+bn:00535032n	WIKI	Marina Puerto Salina is in the Mexican state of Baja California.
+bn:00069126n	WN	A loose material consisting of grains of rock or coral
+bn:00069126n	WIKI	Sand is a naturally occurring granular material composed of finely divided rock and mineral particles.
+bn:00069126n	WIKIDATA	Granular material composed of finely divided rock and mineral particles, sand particles range in diameter from 0.063 to 2 mm (per ISO 14688)
+bn:00069126n	OMWIKI	A loose material consisting of small mineral particles, or rock and mineral particles, distinguishable by the naked eye; grains vary from almost spherical to angular, with a diameter range from 1/16 to 2 millimeters.
+bn:00069126n	WIKIQU	Sand is a naturally occurring granular material composed of finely divided rock and mineral particles.
+bn:00071235n	WN	The land along the edge of a body of water
+bn:00071235n	WIKI	A shore or a shoreline is the fringe of land at the edge of a large body of water, such as an ocean, sea, or lake.
+bn:00071235n	WIKIDATA	Coast line or other edge of a waterbody
+bn:00071235n	OMWIKI	The land along the edge of a body of water.
+bn:00071235n	WIKT	Land adjoining a non-flowing body of water, such as an ocean, lake or pond.
+bn:00071235n	WIKTLB	Land adjoining a large body of water.
+bn:00020164n	WN	The shore of a sea or ocean
+bn:00020164n	WIKI	A coastline or a seashore is the area where land meets the sea or ocean, or a line that forms the boundary between the land and the ocean or a lake.
+bn:00020164n	WIKIDATA	Area where land meets the sea or ocean
+bn:00020164n	WIKT	The edge of the land where it meets an ocean, sea, gulf, bay, or large lake.
+bn:00020164n	WIKT	The coastal land bordering a sea or an ocean.
+bn:00020164n	WIKT	The coastal land bordering a sea or ocean.
+bn:00020164n	WIKTLB	The coastal land bordering a sea or ocean.
+bn:00008363n	WN	Sloping land (especially the slope beside a body of water)
+bn:00008363n	WIKI	In geography, the word bank generally refers to the land alongside a body of water.
+bn:00008363n	WIKIDIS	A raised portion of seabed or sloping ground along the edge of a stream, river, or lake
+bn:00008363n	WIKIDATA	In geography, area between high and low tide marks
+bn:00008363n	OMWIKI	The sloping side of any hollow in the ground, especially when bordering a river.
+bn:00008363n	WIKT	An edge of river, lake, or other watercourse.
+bn:00008363n	WIKT	The bank of a stream.
+bn:00008363n	WIKTLB	Edge of river or lake.
+bn:00046303n	WN	An elevated geological formation
+bn:00090973v	WN	Rob at gunpoint or with the threat of violence
+bn:00090973v	FRAMENET	An act of robbing.
+bn:00089420v	WN	Rob at gunpoint or by means of some other threat
+bn:00089420v	WIKT	To rob at gunpoint.
+bn:00089420v	WIKT	To rob at gunpoint.
+bn:00089420v	WIKTLB	To rob at gunpoint.
+bn:00089420v	FRAMENET	Rob someone or something at gunpoint.
+bn:00089420v	FRAMENET	Rob someone using the threat of violence.
+bn:00056230n	WN	With handle and usually cylindrical
+bn:00056230n	WIKI	A mug is a type of cup typically used for drinking hot beverages, such as coffee, hot chocolate, soup, or tea.
+bn:00056230n	OMWIKI	A large cup usually with a handle and used without a saucer.
+bn:00056230n	WIKT	A large cup for hot liquids, usually having a handle and used without a saucer.
+bn:05339344n	NONE	NONE
+bn:01032197n	WIKI	The silver Sapieha beaker is a 16th-century beaker, which originally belonged to Grygor Sapieha and was made in the Grand Duchy of Lithuania.
+bn:00009598n	WN	A mug intended for serving beer
+bn:00009598n	WIKI	The Stein Brewery was a Slovak brewery, located in Bratislava.
+bn:00009598n	WIKIDIS	A beer brewery in Bratislava, Slovakia
+bn:00009598n	WIKIDATA	Slovak brewery
+bn:00009598n	WIKT	A beer mug, usually made of ceramic.
+bn:00009598n	WIKTLB	A beer mug.
+bn:00020431n	WN	A mug intended for serving coffee
+bn:00077453n	WN	A drinking mug in the shape of a stout man wearing a three-cornered hat
+bn:00077453n	WIKI	A jug is a type of container commonly used to hold liquid.
+bn:00077453n	WIKIDATA	Container used to hold liquid
+bn:00077453n	OMWIKI	A container for holding and pouring liquids with a handle and a spout.
+bn:00077453n	WIKT	The amount that a jug can hold.
+bn:00077453n	WIKT	A drinking mug, in the shape of a human head with a hat atop.
+bn:00077453n	WIKTLB	Amount a jug can hold.
+bn:00028759n	WN	A vessel intended for drinking
+bn:00024410n	WN	A small open container usually used for drinking; usually has a handle
+bn:00024410n	WIKI	A cup is a small open container used for drinking and carrying drinks.
+bn:00024410n	WIKI	Goblet widespread in German areas, usually made with a cover and often made of glass or silver, usually intended for presentation or other ceremonial purposes
+bn:00024410n	WIKIDATA	Open bowl-shaped vessels, used chiefly for drinking, often having one handle
+bn:00024410n	WIKIDATA	Goblet widespread in German areas, usually made with a cover and often made of glass or silver, usually intended for presentation or other ceremonial purposes
+bn:00024410n	OMWIKI	A concave vessel for holding liquid, generally adorned with either a handle or a stem
+bn:00024410n	WIKT	A concave vessel for drinking from, usually made of opaque material and with a handle.
+bn:00024410n	WIKTLB	Vessel for drinking.
+bn:00076298n	WN	A cup from which tea is drunk
+bn:00076298n	WIKI	A teacup is a cup, with or without a handle, generally a small one that may be grasped with the thumb and one or two fingers.
+bn:00076298n	WIKIDATA	Tableware: cup, with or without a handle
+bn:00076298n	OMWIKI	A cup in which tea is served.
+bn:00076298n	WIKT	A small cup, usually with a handle, used for drinking tea; normally sits in a saucer as part of a tea set.
+bn:00076298n	WIKTLB	Cup for drinking tea.
+bn:00079863n	WN	An object used as a container (especially for liquids)
+bn:00079863n	OMWIKI	An object used as a container (e.g. for liquids).
+bn:00079863n	WIKT	A person as a container of qualities or feelings.
+bn:00023891n	WN	Tableware (eating and serving dishes) collectively
+bn:00023891n	OMWIKI	Plates, dishes and other eating and serving tableware, usually made of some ceramic material.
+bn:00023891n	WIKT	Plates, dishes and other eating and serving tableware, usually made of some ceramic material.
+bn:00023891n	WIKTLB	Plates, dishes and other eating and serving tableware.
+bn:00081331n	WN	A glass that has a stem and in which wine is served
+bn:00081331n	WIKI	A wine glass is a type of glass that is used to drink and taste wine.
+bn:00081331n	WIKIDATA	Drinking glasses with a large bowl, of various shapes, resting on a stemmed foot
+bn:00081331n	WIKIDATA	Drinking vessel
+bn:00081331n	OMWIKI	A glass stemware that is used to drink wine.
+bn:00081331n	WIKT	A glass vessel, normally with a stem, from which wine is drunk.
+bn:00081331n	WIKTLB	Glass vessel for drinking wine from.
+bn:13881519n	WIKIDATA	Class of container from which you drink
+bn:00028756n	WN	A container for holding liquids while drinking
+bn:00016526n	WN	The actors in a play
+bn:00016526n	WIKI	Dramatis personæ are the main characters in a dramatic work written in a list.
+bn:00016526n	WIKT	The collective group of actors performing a play or production together. Contrasted with crew.
+bn:00016526n	WIKTLB	Group of actors performing together.
+bn:00030962n	WN	A cast other than the principals
+bn:00032393n	WN	A word or phrase that particular people use in particular situations
+bn:00032393n	WIKI	A saying is any concisely written or spoken linguistic expression that is especially memorable because of its meaning or structure.
+bn:00032393n	WIKIDATA	Short, usually meaningful phrase, such as a maxim, proverb, motto, or adage
+bn:00032393n	OMWIKI	A widely known, fixed sentence, that expresses a maxim or a wisdom in a short and concise way.
+bn:00032393n	WIKT	A proverb or maxim.
+bn:00032393n	WIKT	The use of a word or phrase in an unusual or specialized way.
+bn:00032393n	WIKTLB	Proverb or maxim.
+bn:00062115n	WN	An expression consisting of one or more words forming a grammatical constituent of a sentence
+bn:00062115n	WIKI	In everyday speech, a phrase may be any group of words, often carrying a special idiomatic meaning; in this sense it is roughly synonymous with expression.
+bn:00062115n	WIKIDATA	Group of words
+bn:00062115n	WIKT	A word or group of words that functions as a single unit in the syntax of a sentence, usually consisting of a head, or central word, and elaborating words.
+bn:00062115n	WIKTLB	Grammar: group of two or more words that express an idea but do not form a complete sentence.
+bn:00394272n	WIKI	A fixed expression is a standard form of expression that has taken on a more specific meaning than the expression itself.
+bn:00394272n	WIKIDATA	Language functional unit
+bn:00045841n	WN	An expression whose meanings cannot be inferred from the meanings of the words that make it up
+bn:00045841n	WIKI	A set phrase or fixed phrase is a phrase whose parts are fixed in a certain order, even if the phrase could be changed without harming the literal meaning.
+bn:00045841n	WIKI	An idiom 
+bn:00045841n	WIKIDATA	Combination of words that has a figurative meaning
+bn:00045841n	OMWIKI	Group of words whose meaning is different from the sum of its parts.
+bn:00045841n	OMWIKI	A phrase that cannot be fully understood from the separate meanings of the individual words which form it, but instead must be learned as a whole unit of meaning.
+bn:00045841n	WIKT	A common expression whose words cannot be replaced by synonymous words without compromising the meaning.
+bn:00045841n	WIKT	An expression peculiar to or characteristic of a particular language, especially when the meaning is illogical or separate from the meanings of its component words.
+bn:00045841n	WIKTLB	An expression whose meanings cannot be inferred from the meanings of the words that make it up.
+bn:00022051n	WN	(grammar) a word or phrase or clause forming part of a larger grammatical construction
+bn:00022051n	WIKI	In syntactic analysis, a constituent is a word or a group of words that function as a single unit within a hierarchical structure.
+bn:00022051n	WIKIDIS	A unit within a hierarchical structure of words.
+bn:00022051n	WIKIDATA	Word or a group of words that functions as a single unit within a hierarchical structure
+bn:00022051n	WIKT	A functional element of a phrase or clause.
+bn:00022051n	WIKTLB	Functional element of a phrase or clause.
+bn:00035918n	WN	One of the traditional categories of words intended to reflect their functions in a grammatical context
+bn:00035918n	WIKI	A part of speech is a category of words which have similar grammatical properties.
+bn:00035918n	WIKIDIS	The role that a word or phrase plays in a sentence
+bn:00035918n	WIKIDATA	Linguistic category of words
+bn:00035918n	OMWIKI	The category a word is assigned to based on its syntactic function within a specified language.
+bn:00035918n	WIKT	A linguistic category of words , generally defined by the syntactic or morphological behaviour of the lexical item in question, such as noun or verb.
+bn:00035918n	WIKT	A linguistic category of words sharing syntactic or morphological behaviour and semantic properties, such as noun or verb.
+bn:00035918n	WIKTLB	Linguistic category of words.
+bn:00016527n	WN	Container into which liquid is poured to create a given shape when it hardens
+bn:00035917n	WN	A mold for setting concrete
+bn:00053853n	WN	Mold used in the production of phonograph records, type, or other relief surface
+bn:00062344n	WN	Mold consisting of a bed of sand in which pig iron is cast
+bn:00062344n	WIKT	A mold, made in a bed of sand, in which pig iron is cast; a pig.
+bn:00062344n	WIKT	The mold in which a block of metal is cast.
+bn:00062344n	WIKTLB	Mold for a cast metal block.
+bn:00069152n	WN	Mold consisting of a box with sand shaped to mold metal
+bn:00069152n	WIKT	A box filled with sand that is shaped to form a mould for metal casting.
+bn:00016530n	WN	Bandage consisting of a firm covering (often made of plaster of Paris) that immobilizes broken bones while they heal
+bn:00016530n	WIKT	A supportive and immobilising device used to help mend broken bones.
+bn:00016530n	WIKTLB	Medicine: supportive and immobilising device.
+bn:00008296n	WN	A piece of soft material that covers and protects an injured part of the body
+bn:00008296n	WIKI	A bandage is a piece of material used either to support a medical device such as a dressing or splint, or on its own to provide support to or to restrict the movement of a part of the body.
+bn:00008296n	WIKIDATA	Piece of material used either to support a medical device such as a dressing or splint
+bn:00008296n	OMWIKI	Any therapeutic material that is used to cover an injury.
+bn:00008296n	WIKT	A piece of material used to cover a wound.
+bn:00008296n	WIKT	A strip of gauze or similar material used to protect or support a wound or injury.
+bn:00008296n	WIKTLB	Medicine: piece of material used to cover a wound.
+bn:00028697n	WN	A cloth covering for a wound or sore
+bn:00028697n	WIKI	A dressing is a sterile pad or compress applied to a wound to promote healing and protect the wound from further harm.
+bn:00028697n	WIKIDIS	A medical covering for a wound, usually made of cloth
+bn:00028697n	WIKIDATA	Sterile pad or compress applied to a wound
+bn:00019982n	WN	A covering made of cloth
+bn:00084626v	WN	Select to play,sing, or dance a part in a play, movie, musical, opera, or ballet
+bn:00084626v	FRAMENET	Portray.
+bn:00090822v	WN	Cast an actor, singer, or dancer in an unsuitable role
+bn:00090822v	WIKT	To cast an actor in an inappropriate role.
+bn:00090822v	WIKTLB	To cast an actor in an inappropriate role.
+bn:00092485v	WN	Cast again, in a different role
+bn:00095297v	WN	Cast repeatedly in the same kind of role
+bn:00095297v	WIKT	To cast an actor in the same kind of role repeatedly.
+bn:00095297v	WIKTLB	To cast an actor in the same kind of role repeatedly.
+bn:00095297v	FRAMENET	Regard as fitting a stereotype.
+bn:00082857v	WN	Give an assignment to (a person) to a post, or assign a task to (a person)
+bn:00082857v	OMWIKI	To give something to (a person), or assign a task to (a person).
+bn:00082857v	WIKT	To transfer property, a legal right, etc., from one person to another.
+bn:00082857v	WIKT	To assign to or for something.
+bn:00082857v	WIKTLB	To transfer property, a legal right, etc., from one person to another
+bn:00082857v	MSTERM	To transfer rights or property from one person to.
+bn:00084627v	WN	Throw forcefully
+bn:00084627v	WIKT	To throw.
+bn:00084627v	WIKT	To throw with force.
+bn:00084627v	WIKTLB	To throw down or aside
+bn:00084627v	FRAMENET	Send forth by throwing.
+bn:00083846v	WN	Hurl a cricket ball from one end of the pitch towards the batsman at the other end
+bn:00083846v	WIKT	To roll or throw in the correct manner in cricket and similar games and sports.
+bn:00083846v	WIKTLB	Roll or throw (a ball).
+bn:00084649v	WN	Hurl as if with a sling
+bn:00085982v	WN	Hurl or thrust violently
+bn:00091931v	WN	Hurl or throw violently
+bn:00091931v	WIKT	To send violently into a certain state or condition.
+bn:00091931v	WIKTLB	To send violently into a certain state or condition.
+bn:00094934v	WN	Propel through the air
+bn:00094934v	OMWIKI	To cause (an object) to move rapidly through the air, with the force of the hand or arm.
+bn:00094934v	WIKT	To hurl; to cause an object to move rapidly through the air.
+bn:00094934v	WIKTLB	To cause an object to move rapidly through the air.
+bn:00094934v	FRAMENET	Propel with force through the air by a rapid movement of the arm and hand.
+bn:00084628v	WN	Assign the roles of (a movie or a play) to actors
+bn:00084628v	WIKT	To assign a role in a play or performance to.
+bn:00084628v	WIKTLB	To assign a role in a play or performance.
+bn:00084628v	FRAMENET	Select the cast for a performance.
+bn:00030470n	WN	A diplomatic building where ambassadors live or work
+bn:00027286n	WN	Government building in which diplomats live or work
+bn:00041196n	WN	A building that houses a branch of government
+bn:16054021n	WIKIDATA	Permanent diplomatic mission of higher level
+bn:03519723n	WIKI	An Apostolic Nunciature is a top-level diplomatic mission of the Holy See, equivalent to an embassy, however, it does not issue visas nor does it have consulates.
+bn:03519723n	WIKIDATA	Official diplomatic representation of the Holy See
+bn:00177825n	WIKI	The Japanese Embassy to the United States was dispatched in 1860 by the Tokugawa shogunate.
+bn:00177825n	WIKIDATA	Former embassy dispatched by Japan to the United States in 1860
+bn:00182834n	WIKI	The Embassy of Mexico in Washington, D.C. is the United Mexican States' diplomatic mission to the United States.
+bn:00213951n	WIKI	The Embassy of the United States in Canberra is the embassy of the United States to Australia.
+bn:00229903n	WIKI	The Finnish Embassy in Washington, D.C. is Finland's embassy to the United States.
+bn:00300702n	WIKI	The Embassy of Argentina in Canada is Argentina's primary foreign mission in Canada.
+bn:00325764n	WIKI	The German Embassy in Wellington is Germany's diplomatic mission to New Zealand.
+bn:00328966n	WIKI	The Embassy of Brazil in Ottawa is Brazil's embassy in Canada.
+bn:00422704n	WIKI	The Embassy of the United States of America in Rome is the diplomatic mission of United States of America to the Italian Republic.
+bn:00433955n	WIKI	The Embassy of the Czech Republic in Ottawa is the Czech Republic's embassy in Canada.
+bn:00433988n	WIKI	The Embassy of the Denmark in Ottawa is Denmark's embassy in Canada.
+bn:00434024n	WIKI	The Embassy of Egypt in Ottawa is Egypt's embassy in Canada.
+bn:00434024n	WIKIDATA	Embassy of Croatia, Ottawa
+bn:00490732n	WIKI	The building of Japanese Embassy is a very nice, unusually colored building located on the Main Square, Old Town in the center of Bratislava.
+bn:00510887n	WIKI	The Embassy of Finland in Ottawa is Finland's embassy in Canada.
+bn:00514522n	WIKI	The Embassy of the Hellenic Republic is Greece's embassy in Ottawa, Ontario, Canada.
+bn:00530436n	WIKI	The Embassy of Belgium in Washington, D.C. is the diplomatic mission of the Kingdom of Belgium to the United States.
+bn:00541825n	WIKI	The Embassy of the Republic of Croatia in Ottawa is located in Toller House at the corner of Chapel and Daly Streets in the Sandy Hill neighbourhood of Ottawa.
+bn:00549036n	WIKI	The Embassy of Ireland in Ottawa is Ireland's embassy in Canada.
+bn:00549068n	WIKI	The Embassy of Italy in Ottawa is Italy's embassy in Canada.
+bn:00549805n	WIKI	The Embassy of Latvia in Ottawa is Latvia's embassy in Canada.
+bn:00027289n	WN	A mission serving diplomatic ends
+bn:00027289n	WIKI	A diplomatic mission or foreign mission is a group of people from one state or an organisation present in another state to represent the sending state/organisation officially in the receiving state.
+bn:00027289n	WIKIDIS	A diplomatic outpost in a foreign territory
+bn:00027289n	WIKIDATA	Group of people from one state present in another state to represent the sending state
+bn:00027289n	OMWIKI	A group of people from one nation state present in another nation state to represent the sending state in the receiving state.
+bn:00027289n	WIKT	A temporary mission representing a sovereign state.
+bn:00027289n	WIKT	A group of people from one nation present in another as authorized representatives of the first, a foreign mission.
+bn:00027289n	WIKTLB	Organization representing a foreign state.
+bn:00021019n	WN	A group of representatives or delegates
+bn:00021019n	OMWIKI	A group of people authorised to represent a person or organisation.
+bn:00021019n	WIKT	A group of delegates used to discuss issues with an opponent.
+bn:00021019n	WIKT	A collection of delegates.
+bn:00021019n	WIKT	A body or group of people, officially tasked with carrying out a particular function.
+bn:00021019n	WIKTLB	A group of delegates.
+bn:00017026n	WN	Any small compartment
+bn:00017026n	WIKT	Each of the small hexagonal compartments in a honeycomb.
+bn:00011360n	WN	Either of two types of cells (erythrocytes and leukocytes) and sometimes including platelets
+bn:00011360n	WIKI	A blood cell, also called a haematopoietic cell, hemocyte, or hematocyte, is a cell produced through hematopoiesis and found mainly in the blood.
+bn:00011360n	WIKIDATA	Cell produced by hematopoiesis
+bn:00011360n	WIKT	Any of the cells normally found in blood, namely erythrocytes and leukocytes, sometimes including the platelets.
+bn:00011360n	WIKT	A blood cell.
+bn:00011360n	WIKTLB	Any of the cells normally found in the blood.
+bn:00034141n	WN	(genetics) the diploid cell resulting from the union of a haploid spermatozoon and ovum (including the organism that develops from that cell)
+bn:00034141n	WIKI	A zygote is a eukaryotic cell formed by a fertilization event between two gametes.
+bn:00034141n	WIKIDIS	The cell formed by the fusion of gametes
+bn:00034141n	OMWIKI	The diploid cell formed by the fusion of two haploid gametes during fertilization in eukaryotic organisms with sexual reproduction. 
+bn:00034141n	WIKT	A fertilized egg cell.
+bn:00034141n	WIKTLB	Fertilized egg cell.
+bn:00037209n	WN	A mature sexual reproductive cell having a single set of unpaired chromosomes
+bn:00037209n	WIKI	A gamete is a haploid cell that fuses with another haploid cell during fertilization in organisms that sexually reproduce.
+bn:00037209n	WIKIDATA	Cell that fuses with another cell during fertilization in organisms that reproduce sexually
+bn:00037209n	OMWIKI	A mature reproductive cell which is capable of fusing with a cell of similar origin but of opposite sex to form a zygote from which a new organism can develop.
+bn:00037209n	WIKT	A reproductive cell , having only half of a complete set of chromosomes.
+bn:00040658n	WN	Sustentacular tissue that surrounds and supports neurons in the central nervous system; glial and neural cells together compose the tissue of the central nervous system
+bn:00040658n	WIKI	Neuroglia, also called glial cells or simply glia, are non-neuronal cells that maintain homeostasis, form myelin, and provide support and protection for neurons in the central and peripheral nervous systems.
+bn:00040658n	WIKIDATA	Non-neuronal cells
+bn:00040658n	OMWIKI	A non-neuronal cell that maintains homeostasis, forms myelin, and provides support and protection for the brain's neurons.
+bn:00040658n	WIKT	The network of glial cells that supports nervous system tissue.
+bn:00040658n	WIKT	A type of cell, in the nervous system, that provides support for the neurons.
+bn:00040658n	WIKT	Any of various glial cells that are larger than microglia.
+bn:00054192n	WN	A large bone marrow cell; regarded as the source of blood platelets
+bn:00054192n	WIKI	A megakaryocyte is a large bone marrow cell with a lobulated nucleus responsible for the production of blood thrombocytes, which are necessary for normal blood clotting.
+bn:00054192n	WIKT	A large cell, found in bone marrow, responsible for the production of platelets.
+bn:00054192n	WIKTLB	Large cell found in bone marrow.
+bn:00056381n	WN	An elongated contractile cell that forms the muscles of the body
+bn:00056381n	WIKI	A myocyte is the type of cell found in muscle tissue.
+bn:00056381n	WIKI	Type of cell found in muscle tissue
+bn:00056381n	WIKT	An undifferentiated stem cell that develops into muscle tissue.
+bn:00056381n	WIKT	A single muscle fiber cell.
+bn:00056381n	WIKT	Muscle fiber.
+bn:00056381n	WIKT	A single cell of a muscle. Each muscle fiber contains many myofibrils, the contractile unit of muscles.
+bn:00057324n	WN	A cell that is specialized to conduct nerve impulses
+bn:00057324n	WIKI	A neuron, also known as a neurone and nerve cell, is an electrically excitable cell that receives, processes, and transmits information through electrical and chemical signals.
+bn:00057324n	WIKIDATA	Electrically excitable cell
+bn:00057324n	OMWIKI	A cell of the nervous system, which conducts nerve impulses; consisting of an axon and several dendrites. Neurons are connected by synapses
+bn:00057324n	WIKT	A cell of the nervous system, which conducts nerve impulses; consisting of an axon and several dendrites. Neurons are connected by synapses.
+bn:00057324n	WIKT	A cell of the nervous system which conducts nerve impulses; a neuron.
+bn:00057324n	WIKTLB	A cell of the nervous system.
+bn:00057324n	WIKIQU	A neuron is an electrically excitable cell that processes and transmits information through electrical and chemical signals.
+bn:00066515n	WN	An organ having nerve endings (in the skin or viscera or eye or ear or nose or mouth) that respond to stimulation
+bn:00066515n	WIKI	From a merge: This is a redirect from a page that was merged into another page.
+bn:00066515n	WIKIDIS	A structure that recognizes external stimuli
+bn:00066515n	WIKIDATA	Specialized cell transducing stimuli into corresponding signals and signalling to a neuron. Might be a sensory cell or a sensory neuron.
+bn:00066515n	OMWIKI	A structure that recognizes a stimulus in the internal or external environment of an organism.
+bn:00066515n	WIKT	A sensory nerve ending that recognizes a stimulus in the internal or external environment of an organism.
+bn:00066515n	WIKT	Any specialized cell or structure that responds to sensory stimuli.
+bn:00066515n	WIKTLB	Any specialized cell or structure that responds to sensory stimuli.
+bn:00073708n	WN	An epithelial cell that is flat like a plate and form a single layer of epithelial tissue
+bn:00073708n	WIKI	From a merge: This is a redirect from a page that was merged into another page.
+bn:00074172n	WN	An undifferentiated cell whose daughter cells may differentiate into other cell types (such as blood cells)
+bn:00074172n	WIKI	Stem cells are undifferentiated biological cells that can differentiate into specialized cells and can divide to produce more stem cells.
+bn:00074172n	WIKIDATA	Undifferentiated biological cells that can differentiate into specialized cells
+bn:00074172n	OMWIKI	Primal cell that can renew indefinitely and differentiate into several kinds of specialized cells.
+bn:00074172n	WIKT	A primal undifferentiated cell from which a variety of other cells can develop through the process of cellular differentiation.
+bn:00074172n	WIKTLB	Primal undifferentiated cell.
+bn:00075710n	WN	A mass of cytoplasm containing several nuclei and enclosed in a membrane but no internal cell boundaries (as in muscle fibers)
+bn:00075710n	WIKI	A syncytium or symplasm is a multinucleated cell that can result from multiple cell fusions of uninuclear cells, in contrast to a coenocyte, which can result from multiple nuclear divisions without accompanying cytokinesis.
+bn:00075710n	WIKT	A mass of cytoplasm containing many nuclei.
+bn:00075710n	WIKT	A mass of cytoplasm that has many nuclei and an enclosing membrane but no individual cells.
+bn:01054704n	WIKI	An antigen-presenting cell or accessory cell is a cell that displays antigen complexed with major histocompatibility complexes on their surfaces; this process is known as antigen presentation.
+bn:01054704n	WIKIDIS	A cell that displays foreign antigens
+bn:02757749n	WIKI	Alveolar cells, or pneumocytes, are cells lining the alveoli of the lungs.
+bn:03135716n	WIKI	A cystidium is a relatively large cell found on the sporocarp of a basidiomycete, often between clusters of basidia.
+bn:03135716n	WIKT	A relatively large cell found on the hymenium of a basidiomycete.
+bn:03135716n	WIKT	A relatively large cell found on the gill edge of a basidiomycete.
+bn:03135716n	WIKT	A relatively large cell found on the gill face of a basidiomycete.
+bn:03595293n	WIKI	A metamyelocyte is a cell undergoing granulopoiesis, derived from a myelocyte, and leading to a band cell.
+bn:03595293n	WIKIDATA	Cell undergoing formation
+bn:03595293n	WIKT	A cell undergoing granulopoiesis, derived from a myelocyte, and leading to a band cell; it is characterized by the appearance of a bent nucleus, cytoplasmic granules, and the absence of visible nucleoli.
+bn:03760473n	WIKI	Heterocysts are specialized nitrogen-fixing cells formed during nitrogen starvation by some filamentous cyanobacteria, such as Nostoc punctiforme, Cylindrospermum stagnale, and Anabaena sphaerica.
+bn:03760473n	WIKT	A specialized nitrogen-fixing cell formed by some filamentous cyanobacteria.
+bn:04872392n	WIKIDATA	Cell found in  rheumatoid arthritis synovial fluid
+bn:14745067n	NONE	NONE
+bn:14988722n	WIKI	Phagocytes are cells that protect the body by ingesting harmful foreign particles, bacteria, and dead or dying cells.
+bn:14988722n	WIKIDIS	A cell that ingests foreign cells, viruses, and debris
+bn:14988722n	WIKIDATA	Immune-cell type
+bn:14988722n	OMWIKI	A cell that ingest microorganisms, foreign particles, other cells, or dead tissue.
+bn:14988722n	WIKT	A cell of the immune system, such as a neutrophil, macrophage or dendritic cell, that engulfs and destroys viruses, bacteria and waste materials, or in the case of mature dendritic cells; displays antigens from invading pathogens to cells of the lymphoid lineage.
+bn:14988722n	WIKTLB	Cell of the immune system.
+bn:20205054n	NONE	NONE
+bn:00017036n	WN	A thin membrane (a double layer of lipids) enclosing the cytoplasm of a cell; proteins in the membrane control passage of ions (like sodium or potassium or calcium) in and out of the cell
+bn:00017036n	WIKI	The cell membrane is a biological membrane that separates the interior of all cells from the outside environment.
+bn:00017036n	WIKI	The membrane surrounding a cell that separates the cell from its external environment. It consists of a phospholipid bilayer and associated proteins.
+bn:00017036n	WIKIDIS	A membrane that separates the interior of all cells from the outside environment
+bn:00017036n	WIKIDATA	Biological membrane that separates the interior of a cell from its outside environment
+bn:00017036n	OMWIKI	The biological membrane separating the interior of a cell from the outside environment.
+bn:00017036n	WIKT	The cell membrane.
+bn:00017036n	WIKT	The semipermeable membrane that surrounds the cytoplasm of a cell.
+bn:00017036n	WIKT	A membrane found in cytoplasm.
+bn:00017036n	WIKTLB	Semipermeable membrane surrounding the cytoplasm of a cell.
+bn:00017037n	WN	A part of the cell containing DNA and RNA and responsible for growth and reproduction
+bn:00017037n	WIKI	In cell biology, the nucleus is a membrane-enclosed organelle found in eukaryotic cells.
+bn:00017037n	WIKIDIS	The central control system in every biological cell
+bn:00017037n	WIKIDATA	A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell''s chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In
+bn:00017037n	WIKT	The nucleus of a cell.
+bn:00017037n	WIKT	A large membrane-enclosed organelle found in eukaryotic cells which contains genetic material.
+bn:00017037n	WIKT	That part of a cell in which its development takes place.
+bn:00017037n	WIKTLB	Cytology: large organelle found in cells.
+bn:00017038n	WN	A specialized part of a cell; analogous to an organ
+bn:00017038n	WIKI	In cell biology, an organelle is a specialized subunit within a cell that has a specific function, in which their function is vital for the cell to live.
+bn:00017038n	WIKIDATA	Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma mem
+bn:00017038n	OMWIKI	A specialized subunit within a cell that has a specific function, and is separately enclosed within its own lipid membrane.
+bn:00017038n	WIKT	A specialized structure found inside cells that carries out a specific life process.
+bn:00017038n	WIKTLB	A membrane bound compartment found within cells.
+bn:00024905n	WN	The protoplasm of a cell excluding the nucleus; is full of proteins that control cell metabolism
+bn:00024905n	WIKI	In cell biology, the cytoplasm is the material within a living cell, excluding the cell nucleus.
+bn:00024905n	WIKIDIS	A jelly-like substance that fills cells, suspends and protects organelles
+bn:00024905n	WIKIDATA	All of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.
+bn:00024905n	OMWIKI	The living material of the cell, exclusive of the nucleus, consisting of a complex protein matrix or gel, and where essential membranes and cellular organelles (mitochondria, plastids, etc.) reside.
+bn:00024905n	WIKT	The contents of a cell except for the nucleus. It includes cytosol, organelles, vesicles, and the cytoskeleton.
+bn:00024905n	WIKTLB	Contents of a cell excluding the nucleus.
+bn:00030818n	WN	A biological unit consisting of a nucleus and the body of cytoplasm with which it interacts
+bn:00030818n	WIKI	Protoplast, from ancient Greek πρωτόπλαστος, is a biological term proposed by Hanstein in 1880 to refer to the entire cell, excluding the cell wall, but currently has several definitions: a plant, bacterial or fungal cell that had its cell wall completely or partially removed using either mechanical or enzymatic means.
+bn:00030818n	WIKT	A nucleus and the cytoplasm with which it interacts, considered as a unit.
+bn:00079452n	WN	A tiny cavity filled with fluid in the cytoplasm of a cell
+bn:00079452n	WIKI	A vacuole is a membrane-bound organelle which is present in all plant and fungal cells and some protist, animal and bacterial cells.
+bn:00079452n	WIKIDATA	A closed structure, found only in eukaryotic cells, that is completely surrounded by unit membrane and contains liquid material. Cells contain one or several vacuoles, that may have different functions from each other. Vacuoles have a diverse array o
+bn:00079452n	WIKT	A large membrane-bound vesicle in a cell's cytoplasm.
+bn:00079452n	WIKTLB	Large membrane-bound vesicle.
+bn:02936056n	WIKI	Cellular components are the complex biomolecules and structures of which cells, and thus living organisms, are composed.
+bn:02936056n	WIKIDIS	Material and substances of which cells (and thus living organisms) are composed
+bn:02936056n	WIKIDATA	The part of a cell or its extracellular environment in which a gene product is located. A gene product may be located in one or more parts of a cell and its location may be as specific as a particular macromolecular complex, that is, a stable, persis
+bn:00017028n	WN	A device that delivers an electric current as the result of a chemical reaction
+bn:00017029n	WN	A hand-held mobile radiotelephone for use in an area divided into small sections, each with its own short-range transmitter/receiver
+bn:00017029n	WIKI	A mobile phone, known as a cell phone in North America, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.
+bn:00017029n	WIKIDIS	A form of videotelephony that can convey simultaneous audio and video, or
+bn:00017029n	WIKIDATA	Portable device to make telephone calls using a radio link
+bn:00017029n	OMWIKI	A portable electronic device used for calling people.
+bn:00017029n	WIKT	A portable telephone that connects with the telephone network over radio wave transmission.
+bn:00017029n	WIKT	Cell phone /mobile phone, mobile.
+bn:00017029n	WIKT	Mobile phone.
+bn:00017029n	WIKT	Mobile phone, cell phone.
+bn:00017029n	WIKT	A cellular phone.
+bn:00017029n	WIKT	A portable, wireless telephone, which changes antenna connections seamlessly during travel from one radio reception cell to another without losing the party-to-party call connection.
+bn:00017029n	WIKT	A mobile phone using any technology.
+bn:00017029n	WIKTLB	Portable telephone.
+bn:00017029n	MSTERM	A button in the Options dialog box, on the Phones tab, that the user clicks to enter his or her mobile phone number.
+bn:00017029n	MSTERM	A handheld portable telephone that operates through a radio network.
+bn:00017029n	MSTERM	The link to the Windows Live site where users can register their mobile phone and find information about the Windows Live for Mobile services.
+bn:00017029n	MSTERM	A field that contains a contact's mobile phone number.
+bn:00017029n	MSTERM	A handheld portable telephone that operates through a radio network.
+bn:00017029n	MSTERM	A handheld portable telephone that operates through a radio network.
+bn:00017029n	MSTERM	A handheld portable telephone that operates through a radio network.
+bn:00065952n	WN	A telephone that communicates by radio waves rather than along cables
+bn:00065952n	WIKI	A cordless telephone or portable telephone is a telephone in which the handset is portable and communicates with the body of the phone by radio, instead of being attached by a cord.
+bn:00065952n	WIKIDIS	A telephone with a wireless handset that communicates via radio waves to its base station
+bn:00065952n	WIKT	A telephone with a wireless handset that communicates via radio waves with a base station connected to a fixed telephone line.
+bn:00065952n	WIKT	A telephone unit that has a battery-powered telephone receiver/handset that uses RF signals and antennas to communicate to the wired base station instead of a cord, which is attached to a land line and functions as a charger for the receiver.
+bn:00042771n	WN	A portable battery-powered computer small enough to be carried in your pocket
+bn:00042771n	WIKI	A mobile device is a computing device small enough to hold and operate in the hand.
+bn:00042771n	WIKIDIS	A computer designed for mobile computing
+bn:00042771n	WIKIDATA	Small, hand-held computing device
+bn:00042771n	MSTERM	A mobile device such as PDA, Pocket PC, smartphone that support mobile computing.
+bn:00042771n	MSTERM	A computer small enough to be held in one hand while being operated with the other hand. Handheld computers are commonly used in transportation and other field service industries. They are usually built to perform specific tasks. They often have restricted specialized keyboards rather than the standard QWERTY layout, smaller displays, input devices such as bar code readers, and communications devices for sending their data to a central computer; they rarely have disk drives. Their software is usually proprietary and stored in ROM.
+bn:00042771n	MSTERM	A piece of handheld equipment such as a portable music or video player, PDA (personal digital assistant), mobile phone, or Windows Mobile device that works on its own but can also connect to a computer. Many of these devices can sync information with Windows.
+bn:00042771n	MSTERM	A piece of handheld equipment such as a portable music or video player, PDA (personal digital assistant), mobile phone, or Windows Mobile device that works on its own but can also connect to a computer. Many of these devices can sync information with Windows.
+bn:00042771n	MSTERM	A piece of handheld equipment such as a portable music or video player, PDA (personal digital assistant), mobile phone, or warehouse device that works on its own but can also be connected to a computer. Many of these devices can sync information with Windows. Warehouse mobile devices use barcode technology to process inventory operations.
+bn:00062020n	WN	Electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds
+bn:00062020n	WIKI	A telephone, or phone, is a telecommunications device that permits two or more users to conduct a conversation when they are too far apart to be heard directly.
+bn:00062020n	WIKIDIS	Also known as "the horn", especially among soldiers and police officers
+bn:00062020n	WIKIDATA	Telecommunications device
+bn:00062020n	OMWIKI	An electronic device used for calling people.
+bn:00062020n	WIKT	A telecommunication device used for two-way talking with another person.
+bn:00062020n	WIKT	A device for transmitting conversations and other sounds in real time across distances.
+bn:00062020n	WIKTLB	A device used for two-way talking with other people.
+bn:00062020n	MSTERM	A traditional phone, which has a wired connection (as opposed to a mobile phone).
+bn:00062020n	MSTERM	An item the user can select in the Options dialog box, Phones tab, from the "Select the default device for calling phone numbers" drop-down list. When the user selects Phone as the default device for calling phone numbers, Communicator uses the PBX phone integrated with Communicator for making a call.
+bn:00063653n	WN	A personal computer that can easily be carried by hand
+bn:00021464n	WN	A machine for performing calculations automatically
+bn:00021464n	WIKI	A computer is a device that can be instructed to carry out arbitrary sequences of arithmetic or logical operations automatically.
+bn:00021464n	WIKIDIS	The combination of hardware and software which forms a complete, working computer. Computer systems will include the computer alongside any software (example: operating system, BIOS) and peripheral devices that are necessary to make the computer function.
+bn:00021464n	WIKIDATA	Simple general-purpose device for performing arithmetic or logical operations
+bn:00021464n	OMWIKI	A programmable device that performs mathematical calculations and logical operations, especially one that can process, store and retrieve large amounts of data very quickly.
+bn:00021464n	WIKT	A programmable electronic device that performs mathematical calculations and logical operations, especially one that can process, store and retrieve large amounts of data very quickly; now especially, a small one for personal or home use employed for manipulating text or graphics, accessing the Internet, or playing games or media.
+bn:00021464n	WIKIQU	A computer is a machine for manipulating data or storing data according to a list of instructions.
+bn:00021464n	MSTERM	Any device capable of processing information to produce a desired result. No matter how large or small they are, computers typically perform their work in three well-defined steps: (1) accepting input, (2) processing the input according to predefined rules (programs), and (3) producing output. There are several ways to categorize computers, including class (ranging from microcomputers to supercomputers), generation (first through fifth generation), and mode of processing (analog versus digital).
+bn:00021464n	MSTERM	The configuration that includes all functional components of a computer and its associated hardware. A basic microcomputer system includes a console, or system unit, with one or more disk drives, a monitor, and a keyboard. Additional hardware, called peripherals, can include such devices as a printer, a modem, and a mouse. Software is usually not considered part of a computer system, although the operating system that runs the hardware is known as system software.
+bn:00021464n	MSTERM	An item the user can select in the Options dialog box, Phones tab, from the "Select the default device for calling phone numbers" drop-down list. When the user selects Computer as the default device for calling phone numbers, Communicator uses the Voice Over Internet Protocol (VOIP) connection for making a call.
+bn:00030251n	WN	Equipment that involves the controlled conduction of electrons (especially in a gas or vacuum or semiconductor)
+bn:01162806n	WIKI	Consumer electronics or home electronics are electronic equipments intended for everyday use, typically in private homes.
+bn:01162806n	WIKIDATA	Collective term for electrical appliances that serve the user''s entertainment
+bn:00054739n	WN	A small digital computer based on a microprocessor and designed to be used by one person at a time
+bn:00054739n	WIKI	A personal computer is a multi-purpose computer whose size, capabilities, and price make it feasible for individual use.
+bn:00054739n	WIKI	A microcomputer is a small, relatively inexpensive computer with a microprocessor as its central processing unit.
+bn:00054739n	WIKIDIS	Any computer useful for individuals, and intended to be operated directly by an end user
+bn:00054739n	WIKIDATA	Small, relatively inexpensive computer
+bn:00054739n	WIKIDATA	Computer intended for use by an individual person
+bn:00054739n	OMWIKI	A small computer, built around a microprocessor, for use by one person at a time.
+bn:00054739n	OMWIKI	A microprocessor combined with input/output interface devices, some type of external memory, and the other elements required to form a working computer system; it is smaller, lower in cost, and usually slower than a minicomputer. 
+bn:00054739n	WIKT	A small computer, built around a microprocessor, for use by one person at a time.
+bn:00054739n	WIKT	A computer designed around a microprocessor, smaller than a minicomputer or a mainframe.
+bn:00054739n	WIKT	Symbol for the petacoulomb, an SI unit of electric charge equal to 1015 coulombs.
+bn:00054739n	WIKTLB	Computer designed around a microprocessor.
+bn:00054739n	MSTERM	A microcomputer designed for use by one person at a time. Personal computers do not need to share the processing, disk, and printer resources of another computer.
+bn:00054739n	MSTERM	A microcomputer designed for use by one person at a time. Personal computers do not need to share the processing, disk, and printer resources of another computer.
+bn:00054739n	MSTERM	A computer built around a single-chip microprocessor. Less powerful than minicomputers and mainframes, microcomputers have nevertheless evolved into very powerful machines capable of complex tasks. Technology has progressed so quickly that state-of-the-art microcomputers--essentially, in today's terms, a desktop PC--are as powerful as mainframe computers of only a few years ago, at a fraction of the cost.
+bn:17271339n	WIKIDATA	Electrical device for controlling other electrical or mechanical device
+bn:00017031n	WN	A room where a prisoner is kept
+bn:00017031n	WIKI	A prison cell, also known as a jail cell, is a small room in a prison or police station where a prisoner is held.
+bn:00017031n	WIKIDIS	In a police station used to hold prisoners until they are produced before a magistrate
+bn:00017031n	WIKT	The room to which a prisoner is confined in a prison.
+bn:00017031n	WIKT	A cell in a police station or courthouse in which a prisoner is held temporarily, pending charge, trial or sentencing.
+bn:00017031n	WIKT	A room in a prison or jail for one or more inmates.
+bn:00017031n	WIKTLB	Room in a prison for containing inmates.
+bn:00017031n	MSTERM	In a cube, the set of properties, including a value, specified by the intersection when one member is selected from each dimension.
+bn:15769800n	NONE	NONE
+bn:15983992n	WIKIDATA	Area within available space
+bn:00068045n	WN	A lump or mass of hard consolidated mineral matter
+bn:00068045n	OMWIKI	A lump or mass of hard consolidated mineral matter that is used in construction, either crushed for use as aggregate or cut into shaped blocks as dimension stone.
+bn:00068045n	WIKT	A boulder or large stone; or a smaller stone; a pebble.
+bn:00068045n	WIKTLB	Large stone or boulder.
+bn:00000888n	WN	A stony meteor lacking chondrules
+bn:00000888n	WIKI	An achondrite is a stony meteorite that does not contain chondrules.
+bn:00000888n	WIKIDATA	Meteorites that show signs of differentiation (no chondrules)
+bn:00000888n	WIKT	Any stony meteorite that contains no chondrules.
+bn:00009512n	WN	Solid unweathered rock lying beneath surface deposits of soil
+bn:00009512n	WIKI	In geology, bedrock is the lithified rock that lies under a loose softer material called regolith at the surface of the Earth or other terrestrial planets.
+bn:00009512n	WIKIDIS	Consolidated rock beneath a planet's surface
+bn:00009512n	WIKT	A surface which is a submanifold of another surface.
+bn:00009512n	WIKT	The solid rock that exists at some depth below the ground surface. Bedrock is rock "in place", as opposed to material that has been transported from another location by weathering and erosion.
+bn:00012403n	WN	A large smooth mass of rock detached from its place of origin
+bn:00012403n	WIKI	In geology, a boulder is a rock fragment with size greater than 25.6 centimetres in diameter.
+bn:00012403n	WIKIDATA	Rock with grain size of usually no less than 30 centimetres
+bn:00012403n	WIKT	A large mass of stone detached from the surrounding land.
+bn:00012403n	WIKTLB	Large mass of stone.
+bn:00014692n	WN	A hard lump produced by the concretion of mineral salts; found in hollow organs or ducts of the body
+bn:00014692n	WIKI	A concretion is a hard, compact mass of matter formed by the precipitation of mineral cement within the spaces between particles, and is found in sedimentary rock or soil.
+bn:00014692n	WIKT	A rounded mass of a mineral, sometimes found in sedimentary rock or on the ocean floor.
+bn:00014692n	WIKTLB	Petrology: A rounded mass of a mineral.
+bn:00018711n	WN	A rock of meteoric origin containing chondrules
+bn:00018711n	WIKI	Chondrites are stony meteorites that have not been modified due to melting or differentiation of the parent body.
+bn:00018711n	WIKIDATA	Class of stony meteorites
+bn:00018711n	WIKT	A meteorite consisting of rock containing chondrules.
+bn:00019590n	WN	(geology) a rock composed of broken pieces of older rocks
+bn:00019590n	WIKI	Clastic rocks are composed of fragments, or clasts, of pre-existing minerals and rock.
+bn:00019590n	WIKIDATA	Type of sedimentary rock
+bn:00019590n	OMWIKI	Made from fragments of pre-existing rocks.
+bn:00024211n	WN	A rock formed by the solidification of a substance; has regularly repeating internal structure; external plane faces
+bn:00047305n	WN	Rock produced by an intrusive process
+bn:00059760n	WN	The part of a rock formation that appears above the surface of the surrounding land
+bn:00059760n	WIKI	An outcrop or rocky outcrop is a visible exposure of bedrock or ancient superficial deposits on the surface of the Earth.
+bn:00059760n	WIKT	The part of a rock formation that appears at the surface of the ground.
+bn:00059760n	WIKTLB	Part of a rock formation that appears at the surface.
+bn:00061211n	WN	A small smooth rounded rock
+bn:00061211n	WIKI	A pebble is a clast of rock with a particle size of 2 to 64 millimetres based on the Krumbein phi scale of sedimentology.
+bn:00061211n	WIKIDATA	Clast of rock
+bn:00061211n	WIKT	Transparent and colourless rock crystal.
+bn:00061832n	WN	A rock created by petrifaction; an organic object infiltrated with mineral matter and preserved in its original form
+bn:00071610n	WN	(geology) a flat (usually horizontal) mass of igneous rock between two layers of older sedimentary rock
+bn:00071610n	WIKI	In geology, a sill is a tabular sheet intrusion that has intruded between older layers of sedimentary rock, beds of volcanic lava or tuff, or along the direction of foliation in metamorphic rock.
+bn:00071610n	WIKIDATA	Geology term for a type of rock formation
+bn:00071610n	WIKT	A horizontal layer of igneous rock between older rock beds.
+bn:00071610n	WIKTLB	Layer of igneous rock.
+bn:00074210n	WN	A stone in a marsh or shallow water that can be stepped on in crossing
+bn:00074210n	WIKT	A stone that can be stepped on in crossing something, especially a marsh or creek.
+bn:00074210n	WIKTLB	Stone used to cross something.
+bn:00077653n	WN	A prominent rock or pile of rocks on a hill
+bn:00077653n	WIKI	A tor, which is also known by geomorphologists as either a castle koppie or kopje, is a large, free-standing rock outcrop that rises abruptly from the surrounding smooth and gentle slopes of a rounded hill summit or ridge crest.
+bn:00077653n	WIKIDATA	Large, free-standing rock outcrop that rises abruptly from the surrounding smooth and gentle slopes of a rounded hill summit or ridge crest
+bn:00077653n	WIKT	A craggy outcrop of rock on the summit of a hill.
+bn:00077653n	WIKTLB	Outcrop of rock.
+bn:00080396n	WN	A rock immediately adjacent to a vein or fault
+bn:00080396n	WIKI	Wall rock is the rock that constitutes the wall of an area undergoing geologic activity.
+bn:00081006n	WN	Any of various hard colored rocks (especially rocks consisting of chert or basalt)
+bn:00081006n	WIKI	Whinstone is a term used in the quarrying industry to describe any hard dark-coloured rock.
+bn:00081006n	WIKT	Any hard dark-coloured rock.
+bn:00081006n	WIKT	Whinstone.
+bn:00081763n	WN	(geology) a piece of rock of different origin from the igneous rock in which it is embedded
+bn:00081763n	WIKI	A xenolith is a rock fragment that becomes enveloped in a larger rock during the latter's development and solidification.
+bn:00081763n	WIKT	Any piece of rock having a different origin to that of the igneous rock in which it is found.
+bn:00081763n	WIKT	A crystal that does not occur in a specific igneous rock.
+bn:00081763n	WIKTLB	Geology: any piece of rock having a different origin to that of the igneous rock in which it is found.
+bn:00009973n	WN	An absorbent aluminum silicate clay formed from volcanic ash
+bn:00009973n	WIKI	Bentonite is an absorbent aluminium phyllosilicate clay consisting mostly of montmorillonite.
+bn:00009973n	WIKIDATA	Clay rock, mainly montmorillonite
+bn:00009973n	WIKT	Any of several impure clay minerals consisting mostly of montmorillonite.
+bn:00045879n	WN	Rock formed by the solidification of molten magma
+bn:00045879n	WIKI	Igneous rock, or magmatic rock, is one of the three main rock types, the others being sedimentary and metamorphic.
+bn:00045879n	WIKI	One of the three main rock types; formed through the cooling and solidification of magma or lava
+bn:00045879n	WIKIDATA	One of the three main rock types
+bn:00045879n	OMWIKI	A rock formed when molten rock (magma) cools and solidifies, with or without crystallization.
+bn:00045879n	WIKT	One of the major groups of rock that makes up the crust of the Earth; formed by the cooling of molten rock, either below the surface or on the surface.
+bn:00045879n	WIKTLB	One of the major groups of rock that makes up the crust of the Earth.
+bn:00054571n	WN	Rock altered by pressure and heat
+bn:00054571n	WIKI	Metamorphic rocks arise from the transformation of existing rock types, in a process called metamorphism, which means "change in form".
+bn:00054571n	WIKIDATA	Rock resulting from a process called metamorphism; metamorphic rocks arise from the transformation of existing rock types, in a process called metamorphism, which means "change in form"
+bn:00054571n	WIKT	A rock that has been changed from its original form by subjection to heat and/or pressure.
+bn:18331921n	WIKIDATA	Make a polished stone materials
+bn:00024148n	WN	The outer layer of the Earth
+bn:00024148n	WIKI	In geology, the crust is the outermost solid shell of a rocky planet, dwarf planet, or natural satellite.
+bn:00024148n	WIKIDIS	The earth's (or another body's) geological solid outer shell. The upper crust is the planet's surface.
+bn:00024148n	WIKIDATA	Outermost solid shell of a rocky planet or natural satellite
+bn:00024148n	WIKIDATA	Crust
+bn:00024148n	OMWIKI	The outer layers of the Earth's structure, varying between 6 and 48 km in thickness.
+bn:00024148n	WIKT	The outermost layer of the lithosphere of the Earth.
+bn:00024148n	WIKTLB	Outermost layer of a planet.
+bn:00007760n	WN	A loud steady beat
+bn:14894574n	WIKIDATA	Rock; building material
+bn:00093072v	WN	Move back and forth or sideways
+bn:00093072v	WIKT	To sway or tilt violently back and forth.
+bn:00093072v	WIKTLB	Sway or tilt violently back and forth.
+bn:00093072v	FRAMENET	Move gently from side to side.
+bn:00093073v	WN	Cause to move back and forth
+bn:00093073v	OMWIKI	To move gently back and forth.
+bn:00093073v	WIKT	To move gently back and forth.
+bn:00093073v	WIKTLB	Move gently back and forth.
+bn:00093073v	FRAMENET	To move something from side to side.
+bn:00037187n	WN	A secret scheme to do something (especially something underhand or illegal)
+bn:00014410n	WN	A plot to carry out some harmful or illegal act (especially a political plot)
+bn:00014410n	WIKI	A cabal is a group of people united in some close design together, usually to promote their private views or interests in an ideology, state, or other community, often by intrigue, usually unbeknown to persons outside their group.
+bn:00014410n	WIKIDIS	See also Secret combination (Latter Day Saints)
+bn:00014410n	OMWIKI	A clever scheme or artful plot, usually crafted for evil purposes.
+bn:00014410n	WIKT	A secret plot.
+bn:00023210n	WN	A plot intended to subvert another plot
+bn:00023210n	WIKT	A plot made in opposition to another; a counterploy.
+bn:00023210n	WIKTLB	Plot made in opposition to another.
+bn:00047283n	WN	A crafty and involved plot to achieve your (usually sinister) ends
+bn:00047283n	OMWIKI	A clever scheme or artful plot, usually crafted for evil purposes.
+bn:00047283n	WIKT	A clever scheme or artful plot, usually crafted for evil purposes.
+bn:00047283n	WIKTLB	Clever scheme or artful plot, usually crafted for evil purposes.
+bn:00069579n	WN	An elaborate and systematic plan of action
+bn:00069579n	WIKI	Strategy is a high-level plan to achieve one or more goals under conditions of uncertainty.
+bn:00069579n	WIKIDATA	High-level plan to achieve objectives in uncertain conditions
+bn:00069579n	OMWIKI	A plan of action intended to accomplish a specific goal.
+bn:00069579n	OMWIKI	A systematic plan of future action.
+bn:00069579n	WIKT	A plan of action intended to accomplish a specific goal.
+bn:00069579n	WIKT	A systematic plan of future action.
+bn:00069579n	WIKTLB	A systematic plan of future action.
+bn:00069579n	WIKIQU	Strategy is a general or high level plan to achieve one or more goals under conditions of uncertainty.
+bn:00060967n	WN	A small area of ground covered by specific vegetation
+bn:00060967n	WIKI	In real estate, a lot or plot is a tract or parcel of land owned or meant to be owned by some owner.
+bn:00060967n	WIKIDIS	A piece of land
+bn:00060967n	WIKIDATA	A spatially separated part of the earth''s surface, which is recorded in the land register on a separate sheet of the Land Register
+bn:00060967n	WIKIDATA	Spatially separated part of the earth's surface, which is recorded in the land register on a separate sheet of the Land Register
+bn:00060967n	WIKT	An area or land used for building on or planting on.
+bn:00060967n	WIKTLB	Area of land used for building on or planting on.
+bn:03631750n	WIKI	In Australia, a station is a large landholding used for livestock production.
+bn:03631750n	WIKIDIS	A large Australian landholding used for livestock production
+bn:03631750n	WIKIDATA	Large landholding used for livestock production (in Australian agriculture)
+bn:17243606n	NONE	NONE
+bn:05861428n	NONE	NONE
+bn:14768473n	WIKIDATA	German term: a partial area that has no separate entry in the land register, the term of land law
+bn:00009473n	WN	A plot of ground in which plants are growing
+bn:00009473n	OMWIKI	A plot of ground in which plants are growing.
+bn:00009473n	WIKT	A garden plot, as in "bed of roses".
+bn:00037300n	WN	A plot of ground where plants are cultivated
+bn:00037300n	WIKI	A garden is a planned space, usually outdoors, set aside for the display, cultivation and enjoyment of plants and other forms of nature.
+bn:00037300n	WIKIDATA	Planned space set aside for the display, cultivation, and enjoyment of plants
+bn:00037300n	OMWIKI	A piece of land next to a house where flowers and other plants are grown and which often has an area of grass.
+bn:00037300n	WIKT	An outdoor area containing one or more types of plants, usually plants grown for food (vegetable garden) or ornamental purposes (flower garden).
+bn:00037300n	WIKTLB	Decorative piece of land outside with flowers and plants.
+bn:00037300n	WIKIQU	Gardens are planned spaces, usually outdoors, set aside for the display, cultivation, and enjoyment of plants and other forms of nature.
+bn:05458550n	NONE	NONE
+bn:00009183n	WN	A region where a battle is being (or has been) fought
+bn:00009183n	OMWIKI	A place where a battle is fought.
+bn:00009183n	WIKT	A place where a battle is fought; a battlefield.
+bn:00009183n	WIKT	A location where a battle may be fought, or has been fought.
+bn:00009183n	WIKT	Any place where a duel is fought.
+bn:00009183n	WIKT	The area where a land battle is or was fought, which is not necessarily a field.
+bn:00009183n	WIKTLB	Field of a land battle.
+bn:00012996n	WN	A place where animals breed
+bn:00017121n	WN	The piece of ground in the outfield directly ahead of the catcher
+bn:00032156n	WN	A right reserved exclusively by a particular person or group (especially a hereditary or official right)
+bn:00032156n	WIKI	In sociology the concept of privilege expresses a social theory that special rights or advantages are available only to a particular person or group of people.
+bn:00032156n	WIKI	In law, a prerogative is an exclusive right given from a government or state and invested in an individual or group, the content of which is separate from the body of rights enjoyed under the general law of the normative state.
+bn:00032156n	WIKI	In Anglo-Saxon law, an exclusive right, or exclusivity, is a de facto, non-tangible prerogative existing in law to perform an action or acquire a benefit and to permit or deny others the right to perform the same action or to acquire the same benefit.
+bn:00032156n	WIKI	Privilege in the canon law of the Roman Catholic Church is the legal concept whereby someone is exempt from the ordinary operation of the law over time for some specific purpose.
+bn:00032156n	WIKIDIS	A term in sociology describing any special status granted to one group and portrayed as default
+bn:00032156n	WIKIDATA	A non-tangible prerogative existing in law
+bn:00032156n	OMWIKI	An exclusive legal right given from a government or state and invested in an individual or group.
+bn:00032156n	WIKT	A hereditary or official right or privilege.
+bn:00032156n	WIKTLB	Hereditary or official right or privilege.
+bn:00063049n	WN	The story that is told in a novel or play or movie etc.
+bn:00063049n	WIKI	Concept in narratology: chronologically ordered sequence of events detached from its presentation in a narrative work
+bn:00063049n	WIKIDATA	Causal relationship of a featured event history in literature, theater, film etc.
+bn:00063049n	OMWIKI	The series of actions, situations and events that make up a novel or story.
+bn:00063049n	WIKT	The plot of a story.
+bn:00063049n	WIKT	The course of a story, comprising a series of incidents which are gradually unfolded, sometimes by unexpected means.
+bn:00063049n	WIKTLB	Course of a story.
+bn:00001131n	WN	The series of events that form a plot
+bn:00001131n	WIKI	Literary term; the physical movement of the characters
+bn:00001131n	WIKIDIS	A term of art in literature
+bn:00001131n	WIKIDATA	Literary term
+bn:00063052n	WN	The plot of a book or play or film
+bn:00966961n	WIKI	A chain of events is a number of actions and their effects that are contiguous and linked together that results in a particular outcome.
+bn:00966961n	WIKI	A number of actions and their effects
+bn:00063050n	WN	A chart or map showing the movements or progress of an object
+bn:16823777n	WIKI	Infographics are graphic visual representations of information, data or knowledge intended to present information quickly and clearly.
+bn:16823777n	WIKT	A visual representation of information.
+bn:02819891n	WIKI	Data visualization or data visualisation is viewed by many disciplines as a modern equivalent of visual communication.
+bn:02819891n	WIKI	Creation and study of the visual representation of data
+bn:02819891n	WIKIDATA	Study of the visual representation of data
+bn:17122907n	WIKI	A plot is a graphical technique for representing a data set, usually as a graph showing the relationship between two or more variables.
+bn:17122907n	WIKI	Graphical technique for representing a data set, usually as a graph showing the relationship between two or more variables
+bn:00831562n	WIKI	Statistical graphics, also known as graphical techniques, are graphics in the field of statistics used to visualize quantitative data.
+bn:00091755v	WN	Plan secretly, usually something illegal
+bn:00091685v	WN	Make plans for something
+bn:00086769v	WN	Make a schematic or technical drawing of that shows interactions among variables or how something is constructed
+bn:00007051n	WN	A professional person authorized to practice law; conducts lawsuits or gives legal advice
+bn:00007051n	WIKI	A lawyer is a person who practices law, as an advocate, barrister, attorney, counselor, solicitor, not as a paralegal or charter executive secretary.
+bn:00007051n	WIKI	In South Africa, there are two main branches of legal practitioner: attorneys, who do legal work of all kinds, and advocates, who are specialists litigators.
+bn:00007051n	WIKIDATA	Legal professional who helps clients and represents them in a court of law
+bn:00007051n	OMWIKI	A professional person who advises or represents others in legal matters as a profession.
+bn:00007051n	WIKT	A professional person qualified and authorized to practice law, i.e. conduct lawsuits and/or give legal advice.
+bn:00007051n	WIKTLB	Professional person authorized to practice law.
+bn:00007051n	WIKIQU	Lawyers are people who practice law.
+bn:00007051n	WIKIQU	Legal counsel is the primary function of a lawyer, and includes the advising and representation of clients.
+bn:00001604n	WN	A lawyer who pleads cases in court
+bn:00001604n	WIKI	A counsel or a counsellor at law is a person who gives advice and deals with various issues, particularly in legal matters.
+bn:00001604n	WIKI	Diplomatic rank is a system of professional and social rank used in the world of diplomacy and international relations.
+bn:00001604n	WIKI	A special pleader was a historical legal occupation.
+bn:00001604n	WIKI	An advocate in this sense is a professional in the field of law.
+bn:00001604n	WIKIDIS	Lawyer in certain jurisdictions
+bn:00001604n	WIKIDATA	Profession
+bn:00001604n	WIKIDATA	Legal profession in english-speaking countries
+bn:00001604n	OMWIKI	A lawyer who pleads cases in court.
+bn:00001604n	OMWIKI	A person who gives advice, more particularly in legal matters.
+bn:00001604n	WIKT	A person who pleads in court; an advocate.
+bn:00003296n	WN	An unethical lawyer who incites accident victims to sue
+bn:00003296n	WIKI	A personal injury lawyer is a lawyer who provides legal services to those who claim to have been injured, physically or psychologically, as a result of the negligence of another person, company, government agency or any entity.
+bn:00003296n	WIKI	Lawyer with a special focus
+bn:00008722n	WN	A British or Canadian lawyer who speaks in the higher courts of law on behalf of either the defense or prosecution
+bn:00008722n	WIKI	A barrister is a type of lawyer in common law jurisdictions.
+bn:00008722n	WIKIDIS	A qualification in Ireland and Nigeria
+bn:00008722n	WIKIDATA	Lawyer specialized in court representation in Wales, England and some other jurisdictions
+bn:00008722n	OMWIKI	A professional person who advises or represents others in legal matters as a profession.
+bn:00008722n	WIKT	A lawyer; one who advises or represents others in legal matters as a profession.
+bn:00008722n	WIKT	A lawyer with the right to speak and argue as an advocate in higher lawcourts.
+bn:00008722n	WIKTLB	Lawyer with the right to speak as an advocate in higher lawcourts.
+bn:00025890n	WN	The lawyer representing the defendant
+bn:00025890n	WIKI	A criminal defense lawyer is a lawyer specializing in the defense of individuals and companies charged with criminal activity.
+bn:00025890n	WIKIDATA	Lawyer specializing in the defense of individuals and companies charged with criminal conduct
+bn:00025890n	WIKT	A lawyer who specializes in criminal law.
+bn:00064806n	WN	A government official who conducts criminal prosecutions on behalf of the state
+bn:00064806n	WIKI	The prosecutor is the chief legal representative of the prosecution in countries with either the common law adversarial system, or the civil law inquisitorial system.
+bn:00064806n	WIKIDATA	Supreme representative of the prosecution (of the state)
+bn:00072715n	WN	A British lawyer who gives legal advice and prepares legal documents
+bn:00072715n	WIKI	A solicitor is a legal practitioner who traditionally deals with most of the legal matters in some jurisdictions.
+bn:00072715n	WIKIDATA	Lower kind of lawyer with no access to higher courts, in England and some other jurisdictions
+bn:00072715n	WIKT	In many common law jurisdictions, a type of lawyer whose traditional role is to offer legal services to clients apart from acting as their advocate in court. A solicitor instructs a barrister to act as an advocate for their client in court, although rights of audience for solicitors vary according to jurisdiction.
+bn:00072715n	WIKTLB	Lawyer offering legal services to clients apart from acting as court advocate.
+bn:01079490n	WIKI	A general counsel, chief counsel or chief legal officer is the chief lawyer of a legal department, usually in a company or a governmental department.
+bn:01079490n	WIKIDIS	The chief lawyer of a legal department, usually in a corporation or government department
+bn:01079490n	WIKIDATA	Chief lawyer of a legal department
+bn:01505886n	WIKI	The Los Angeles City Attorney is an elected official who serves as the city government’s lawyer and as a criminal prosecutor for misdemeanor violations.
+bn:03015951n	WIKI	A corporate lawyer is a lawyer who specializes in corporations law.
+bn:03613696n	WIKI	A patent attorney is an attorney who has the specialized qualifications necessary for representing clients in obtaining patents and acting in all matters and procedures relating to patent law and practice, such as filing an opposition.
+bn:03613696n	WIKIDATA	Advises and represents clients in the field of intellectual property and patent law
+bn:14070387n	WIKIDATA	Person and a profession who is advising on legal matters
+bn:06981070n	NONE	NONE
+bn:06575587n	NONE	NONE
+bn:16273936n	NONE	NONE
+bn:00065086n	WN	A lawyer who represents indigent defendants at public expense
+bn:00065086n	WIKI	A public defender is an attorney appointed to represent people who cannot afford to hire one.
+bn:00065086n	WIKIDIS	In American law
+bn:00065086n	WIKT	This sense?) A lawyer who represents defendants.
+bn:01600048n	WIKI	Lawyers in Singapore are part of a fused profession, meaning that they may act as both a solicitor and as an advocate, although lawyers usually specialize in one of litigation, conveyancing or corporate law.
+bn:02983839n	WIKI	The title of Senior Counsel or State Counsel is given to a senior lawyer in some countries that were formerly part of the British Empire.
+bn:02983839n	WIKI	Senior lawyer in some Commonwealth countries
+bn:17620205n	WIKI	Michael A. Middleton is an American academic, a deputy chancellor emeritus, and a professor emeritus at the University of Missouri School of Law.
+bn:17620205n	WIKIDATA	Lawywer, president interim of the Unversity of Missouri
+bn:03930282n	WIKIDATA	Spanish lawyer and politician (1884-1977)
+bn:03929960n	WIKIDATA	Spanish lawyer and politician (1877-1953)
+bn:00064610n	WN	A person engaged in one of the learned professions
+bn:15274652n	WIKIDATA	German term for contractual or legal representatives (use Q40348 for lawyer or attorney)
+bn:16248732n	WIKI	Fight for the Future is a nonprofit advocacy group in the area of digital rights founded in 2011.
+bn:00048656n	WN	A legal scholar versed in civil law or the law of nations
+bn:00048656n	WIKI	A jurist, also known as legal scholar or legal theorist, is someone who researches and studies jurisprudence.
+bn:00048656n	WIKIDATA	Legal scholar or academic, a professional who studies, teaches, and develops law
+bn:00048656n	OMWIKI	An expert in law.
+bn:00048656n	WIKT	An expert in law or jurisprudence.
+bn:00048656n	WIKT	Someone who has studied law.
+bn:00048656n	WIKTLB	Expert in law.
+bn:00008470n	WN	The body of individuals qualified to practice law in a particular jurisdiction
+bn:00008470n	WIKI	Legal profession is a profession, and legal professionals study, develop and apply law.
+bn:00008470n	WIKI	A bar association is a professional association of lawyers.
+bn:00008470n	WIKIDIS	A professional body of lawyers
+bn:00008470n	WIKIDATA	Who works in this profession, studies, develops and applies law as a lawyer, judge etc.
+bn:00008470n	WIKIDATA	Professional body of lawyers
+bn:00008470n	WIKT	An organization of lawyers which regulates their ability to practice law in a jurisdiction, and/or serves the interests of lawyers in that jurisdiction.
+bn:00008470n	WIKTLB	An organization of lawyers.
+bn:00064607n	WN	The body of people in a learned occupation
+bn:00064607n	OMWIKI	An occupation requiring specialized knowledge.
+bn:00064607n	WIKT	The practitioners of such an occupation collectively.
+bn:00064611n	WN	An association of practitioners of a given profession
+bn:00064611n	WIKI	A professional association is usually a nonprofit organization seeking to further a particular profession, the interests of individuals engaged in that profession and the public interest.
+bn:00064611n	WIKIDIS	A type of business organization
+bn:00064611n	WIKIDATA	Organization, often nonprofit, devoted to enhancing a particular profession
+bn:00064611n	OMWIKI	A group of persons engaged in the same profession, business, trade or craft that is organized or formally structured to attain common ends. 
+bn:00058568n	WN	A body of people doing the same kind of work
+bn:00069343n	WN	A giant planet that is surrounded by three planar concentric rings of ice particles; the 6th planet from the sun
+bn:00069343n	WIKI	Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter.
+bn:00069343n	WIKIDIS	The seventh planet from Earth in the Ptolemaic geocentric cosmology
+bn:00069343n	WIKIDATA	Sixth planet from the sun
+bn:00069343n	OMWIKI	The sixth planet (counted from the center) of our solar system.
+bn:00069343n	WIKIQU	Saturn is the sixth planet from the Sun and the second largest planet in the Solar System, after Jupiter.
+bn:00069344n	WN	(Roman mythology) god of agriculture and vegetation; counterpart of Greek Cronus
+bn:00069344n	WIKIDATA	The Moon as an object of study in astrology
+bn:00065006n	WN	The immaterial part of a person; the actuating cause of an individual life
+bn:00065006n	WIKT	An individual life.
+bn:00040370n	WN	The visible disembodied soul of a dead person
+bn:00040370n	WIKI	In folklore, a ghost is the soul or spirit of a dead person or animal that can appear to the living.
+bn:00040370n	WIKI	Soul or spirit of a dead person or animal that can appear to the living (for ghosts from a work of fiction see Q30061299)
+bn:00040370n	WIKIDIS	The disembodied spirit or soul of a deceased person
+bn:00040370n	WIKIDATA	Soul or spirit of a dead person or animal that can appear to the living
+bn:00040370n	OMWIKI	The visible disembodied soul of a dead person.
+bn:00040370n	WIKIQU	Ghosts, in traditional beliefs, are the souls or spirits of deceased persons or animals which can appear in visible forms or other manifestation, to the living.
+bn:00073430n	WN	The vital principle or animating force within living things
+bn:00051073n	WN	A hypothetical force to which the functions and qualities peculiar to living things are sometimes ascribed
+bn:00072886n	WN	Deep feeling or emotion
+bn:00072886n	WIKI	In many religious, philosophical and mythological traditions, there is a belief in the incorporeal essence of a living being called the soul.
+bn:00072886n	WIKIDIS	A putative essence or spirit inherent in living beings; see also Spirit
+bn:00072886n	WIKIDATA	Essence of an individual
+bn:00072886n	OMWIKI	In philosophical or religious belief the immaterial and immortal part of a human being which lives on after death.
+bn:00072886n	WIKT	The spirit or essence of anything.
+bn:00072886n	WIKIQU	A soul, -- in many spiritual, philosophical, and psychological traditions -- is the incorporeal identifying essence of a person, living thing, object, process, pattern or event.
+bn:14958703n	WIKIDATA	Vital force in Egyptian mythology
+bn:15539262n	WIKIDATA	Animating spiritual force in Egyptian mythology
+bn:00033963n	WN	The experiencing of affective and emotional states
+bn:00033963n	WIKI	Feeling is the nominalization of the verb to feel.
+bn:00033963n	WIKIDIS	The conscious subjective experience of emotion
+bn:00033963n	WIKIDATA	Conscious subjective experience of emotion
+bn:00033963n	OMWIKI	The experiencing of affective and emotional states.
+bn:00033963n	WIKT	Emotion; impression.
+bn:00033963n	WIKT	Quality of being feeling.
+bn:00061500n	WN	The representation of what is perceived; basic component in the formation of a concept
+bn:00061500n	WIKI	Perception is the organization, identification, and interpretation of sensory information in order to represent and understand the presented information, or the environment.
+bn:00061500n	WIKIDATA	Sensory interpretation
+bn:00061500n	WIKT	Organization, identification, and interpretation of sensory information.
+bn:00061500n	WIKT	Anything that can be perceived.
+bn:00061500n	WIKIQU	Perception is the organization, identification, and interpretation of sensory information in order to represent and understand an environment.
+bn:00027551n	WN	Any incorporeal supernatural being that can become visible (or audible) to human beings
+bn:00027551n	WIKI	A spirit is a supernatural being, often but not exclusively a non-physical entity; such as a ghost, fairy, or angel.
+bn:00027551n	WIKIDIS	Coming from the Latin Spiritus
+bn:00027551n	WIKIDATA	Immaterial being
+bn:00027551n	WIKIQU	Spirits are supernatural beings or essences -- transcendent and therefore metaphysical in nature.
+bn:00047021n	WN	The capacity for rational thought or inference or discrimination
+bn:00047021n	WIKI	Intellect is a term used in studies of the human mind, and refers to the ability of the mind to come to correct conclusions about what is true or real, and about how to solve problems.
+bn:00047021n	WIKI	Reason is the capacity for consciously making sense of things, establishing and verifying facts, applying logic, and changing or justifying practices, institutions, and beliefs based on new or existing information.
+bn:00047021n	WIKIDATA	Capacity for consciously making sense of things
+bn:00047021n	OMWIKI	The ability for rational thought.
+bn:00047021n	WIKT	The ability for rational thought.
+bn:00047021n	WIKT	Rational thinking ; the cognitive faculties, collectively, of conception, judgment, deduction and intuition.
+bn:00047021n	WIKTLB	(the capacity of the human mind for) rational thinking.
+bn:00047021n	WIKIQU	Reason involves the ability to think, understand and draw conclusions in an abstract way, as in human thinking.
+bn:16938586n	WIKI	A philosophical interpretation is the assignment of meanings to various concepts, symbols, or objects under consideration.
+bn:16938586n	WIKIDIS	The assignment of meanings to various concepts, symbols, or objects under consideration
+bn:00150735n	WIKI	Southern soul is a type of soul music that emerged from the Southern United States.
+bn:00150735n	WIKIDATA	Soul Genre
+bn:01999614n	WIKI	Soul jazz is a development of jazz incorporating strong influences from blues, soul, gospel and rhythm and blues in music for small groups, often an organ trio featuring a Hammond organ.
+bn:01999614n	WIKIDATA	Music genre
+bn:00629368n	WIKI	Psychedelic soul is a music genre that emerged in the late 1960s which saw soul musicians embrace elements of psychedelic rock, including its production techniques, instrumentation, effects units 
+bn:01383219n	WIKI	Smooth soul is a subgenre of soul music that developed in the early 1970s from soul, funk and pop music in the United States.
+bn:01383219n	WIKI	Music genre
+bn:03153531n	WIKI	Philadelphia soul, sometimes called Philly soul, the Philadelphia sound, or TSOP is a genre of late 1960s–1970s soul music characterized by funk influences and lush instrumental arrangements, often featuring sweeping strings and piercing horns.
+bn:03153531n	WIKIDATA	Style of soul music
+bn:03369997n	WIKI	Blue-eyed soul is rhythm and blues and soul music performed by white artists.
+bn:03369997n	WIKIDATA	Term sometimes used for rhythm and blues and soul music performed by white artists
+bn:03369997n	WIKT	Rhythm and blues or soul music performed by white artists.
+bn:03493795n	WIKI	Brown-eyed soul is a subgenre of soul music or rhythm and blues created and performed in the United States mainly by Latinos in Southern California during the 1960s, continuing through to the early 1980s.
+bn:08467671n	NONE	NONE
+bn:00001819n	WN	Music created by African-American musicians; early forms were songs that had a melodic line and a strong rhythmic beat with repeated choruses
+bn:00001819n	WIKI	African-American music is an umbrella term covering a diverse range of musics and musical genres largely developed by African Americans.
+bn:00001819n	WIKI	Black music is a term encompassing music produced or inspired by black people, including Sub-Saharan African music traditions and African popular music as well as the music genres of the African diaspora, including Afro-Caribbean music and African American music.
+bn:00001819n	WIKI	Musical traditions in the American context
+bn:00041147n	WN	Folk music consisting of a genre of a cappella music originating with Black slaves in the United States and featuring call and response; influential on the development of other genres of popular music (especially soul)
+bn:00041147n	WIKI	Gospel music is a genre of Christian music.
+bn:00041147n	WIKIDATA	Genre of music emphasizing Christian lyrics
+bn:00041147n	WIKT	Gospel music.
+bn:00041147n	WIKT	A type of African American religious music based on folk music melodies with the addition of elements of spirituals and jazz.
+bn:00041147n	WIKTLB	Type of music.
+bn:00041147n	MSTERM	One of the music genres that appears under Genre classification in Windows Media Player library. Based on ID3 standard tagging format for MP3 audio files. ID3v1 genre ID # 38.
+bn:00950725n	WIKI	The music of the United States reflects the country's multi-ethnic population through a diverse array of styles.
+bn:03333146n	WIKI	Christian music is music that has been written to express either personal or a communal belief regarding Christian life and faith.
+bn:03333146n	WIKIDATA	Music with Christian theme
+bn:03333146n	WIKIQU	Christian music is music that is written to express either personal or a communal belief regarding the Christian life, as well as to exist as a Christian alternative to main stream secular music.
+bn:00063991n	WN	Knowledge of how something is usually done
+bn:00019010n	WN	Genre of music composed for performance as part of religious ceremonies
+bn:00019010n	WIKI	Church music is music written for performance in church, or any musical setting of ecclesiastical liturgy, or music set to words expressing propositions of a sacred nature, such as a hymn.
+bn:00019010n	WIKI	The time is 3:03
+bn:00019010n	WIKIDATA	Music mainly written for performance in Christian service facilities
+bn:00019010n	WIKIDATA	Music genre
+bn:00063743n	WN	The position where someone (as a guard or sentry) stands or is assigned to stand
+bn:00063743n	WIKT	An assigned station; a guard post.
+bn:00013093n	WN	A defensive post at the end of a bridge nearest to the enemy
+bn:00013093n	WIKT	A fortification around the end of a bridge.
+bn:00051976n	WN	An elevated post affording a wide view
+bn:00059786n	WN	A station in a remote or sparsely populated location
+bn:00059786n	WIKT	A station or post in a remote position; an outpost.
+bn:00062704n	WN	The particular portion of space occupied by something
+bn:00054980n	WN	Military installation at which a body of troops is stationed
+bn:00054980n	WIKT	A military base; the place at which a soldier or a body of troops is stationed; also, the troops at such a station.
+bn:00054982n	WN	Living quarters for personnel on a military post
+bn:00035974n	WN	A fortified military post where troops are stationed
+bn:00035974n	WIKI	Garrison is the collective term for a body of troops stationed in a particular location, originally to guard it, but now often simply using it as a home base.
+bn:00035974n	WIKIDATA	Collective term for a body of troops stationed in a particular location
+bn:00035974n	WIKT	The troops stationed at such a post.
+bn:00059787n	WN	A military post stationed at a distance from the main body of troops
+bn:00059787n	WIKI	A military outpost is a detachment of troops stationed at a distance from the main force or formation, usually at a station in a remote or sparsely populated location, positioned to stand guard against unauthorized intrusions and surprise attacks; and the station occupied by such troops, usually a small military base or settlement in an outlying frontier, limit, political boundary or in another country.
+bn:00059787n	WIKI	Military post
+bn:00059787n	WIKIDIS	A detachment of troops stationed at a distance from the main force or formation, usually at a station in a remote or sparsely populated location
+bn:00059787n	WIKT	A military post stationed at a distance from the main body of troops.
+bn:00059787n	WIKTLB	A military post.
+bn:00054966n	WN	Any facility servicing military forces
+bn:00054966n	WIKI	A military base is a facility directly owned and operated by or for the military or one of its branches that shelters military equipment and personnel, and facilitates training and operations.
+bn:00054966n	WIKIDIS	Often called reservations
+bn:00054966n	WIKIDATA	Facility directly owned and operated by or for the military
+bn:00032645n	WN	A building or place that provides a particular service or is used for a particular industry
+bn:00032645n	WIKI	Installation art is an artistic genre of three-dimensional works that often are site-specific and designed to transform the perception of a space.
+bn:00032645n	WIKIDATA	Three-dimensional work of art, usually from various materials and larger than a sculpture. For the art genre, use Q212431.
+bn:00032645n	OMWIKI	A building, place or other thing that provides a certain service or facilitates something.
+bn:00032645n	WIKT	A work of installation art.
+bn:00032645n	MSTERM	A physical space, such as a room or hall, where a service activity can be performed.
+bn:00010073n	WN	A job in an organization
+bn:00010073n	OMWIKI	A job in an organization.
+bn:00010073n	WIKT	A post of employment; a job.
+bn:00010073n	WIKT	An organisation for delivering letters, parcels etc., or the service provided by such an organisation.
+bn:00010073n	WIKT	A position of responsibility.
+bn:00010073n	WIKT	A job or position, especially on a ship.
+bn:00010073n	WIKTLB	Position of responsibility.
+bn:00010073n	FRAMENET	A job.
+bn:00000565n	WN	The position of member of an honorary academy
+bn:00000754n	WN	The position of accountant
+bn:00000754n	WIKT	The office or employment of an accountant.
+bn:00001446n	WN	The office of admiral
+bn:00001446n	OMWIKI	The office or jurisdiction of an admiral.
+bn:00001446n	WIKT	The office or jurisdiction of an admiral.
+bn:00001446n	WIKTLB	Office or jurisdiction
+bn:00003253n	WN	The post of ambassador
+bn:00003253n	WIKT	The post or office of ambassador.
+bn:00004985n	WN	The position of apostle
+bn:00004985n	WIKT	The position, post, or duty of being an apostle.
+bn:00004985n	WIKTLB	The position of being an apostle.
+bn:00005138n	WN	The position of apprentice
+bn:00005138n	WIKT	The condition of, or the time served by, an apprentice.
+bn:00005138n	WIKTLB	Condition of, or the time served by, an apprentice.
+bn:00006538n	WN	The position of associate (as in an office or academy)
+bn:00007057n	WN	The position of attorney
+bn:00007057n	WIKT	The office or profession of an attorney.
+bn:00007983n	WN	The office of bailiff
+bn:00008662n	WN	The state of a baronet
+bn:00008662n	WIKT	The rank of a baronet.
+bn:00010715n	WN	The office and dignity of a bishop
+bn:00010715n	WIKI	A bishop is an ordained, consecrated, or appointed member of the Christian clergy who is generally entrusted with a position of authority and oversight.
+bn:00010715n	WIKIDIS	An overseer in the Christian church
+bn:00010715n	WIKIDATA	Ordained or consecrated member of the Christian clergy (for Catholic bishops, use Q611644, for Orthodox bishops, use Q15283040)
+bn:00010715n	OMWIKI	The office and dignity of a bishop.
+bn:00010715n	WIKT	The office or function of a bishop.
+bn:00010715n	WIKT	An overseer of congregations, either generally speaking or an official in the church hierarchy (actively or nominally) governing a diocese, supervising the church's priests, deacons, and property in its territory.
+bn:00010715n	WIKTLB	Church official, supervisor of priests and congregations.
+bn:00014524n	WN	The position of cadet
+bn:00014524n	WIKT	The position, rank, or commission of cadet.
+bn:00014785n	WN	The office of a caliph
+bn:00014785n	OMWIKI	The office of a caliph.
+bn:00015761n	WN	The post of captain
+bn:00015761n	WIKT	A player who takes on the responsibilities of captain when the captain is not playing.
+bn:00015761n	WIKT	The jurisdiction of a captain.
+bn:00015974n	WN	The office of cardinal
+bn:00015974n	WIKT	The office of a cardinal.
+bn:00063744n	WN	An upright consisting of a piece of timber or metal fixed firmly in an upright position
+bn:00063744n	WIKI	A post is a moderate to deep passing route in American football in which a receiver runs 10–20 yards from the line of scrimmage straight down the field, then cuts toward the middle of the field at a 45-degree angle.
+bn:00063744n	WIKIDIS	Route run by a receiver in American Football
+bn:00063744n	WIKIDATA	Passing route in American/Canadian football
+bn:00063744n	OMWIKI	A strong upright piece of wood, metal etc. that is fixed into the ground, especially to support something.
+bn:00063744n	WIKT	A moderate to deep passing route in which a receiver runs 10-20 yards from the line of scrimmage straight down the field, then cuts toward the middle of the field at a 45-degree angle.
+bn:00079272n	WN	A vertical structural member as a post or stake
+bn:00729193n	WIKI	A route is a pattern or path that a receiver in American football and Canadian football runs to get open for a forward pass.
+bn:00729193n	WIKIDATA	A planned path for a receiver in American or Canadian football
+bn:00074756n	WN	Support that is a constituent part of any structure or building
+bn:00075335n	WN	Any device that bears the weight of another thing
+bn:00075335n	OMWIKI	Any device that bears the weight of another thing.
+bn:00052817n	WN	Any particular collection of letters or packages that is delivered
+bn:00052817n	WIKT	A bag containing letters to be delivered by post.
+bn:00000777n	WN	Several things grouped together or considered as a whole
+bn:00000777n	WIKI	In computer science, object composition is a way to combine simple objects or data types into more complex ones.
+bn:00000777n	WIKIDIS	Combining simpler data types into more complex data types, or function calls into calling functions
+bn:00000777n	OMWIKI	Several things grouped together or considered as a whole.
+bn:00000777n	MSTERM	A collection of objects that makes a whole. An aggregation can be a concrete or conceptual set of whole-part relationships among objects.
+bn:00052815n	WN	The system whereby messages are transmitted via the post office
+bn:00052815n	WIKI	The mail or post is a system for physically transporting postcards, letters, and parcels.
+bn:00052815n	WIKIDIS	Anything sent through postal services
+bn:00052815n	WIKIDATA	System for transporting documents and other small packages
+bn:00052815n	OMWIKI	A batch of letters and parcels received via post.
+bn:00052815n	WIKT	The letters, parcels etc delivered to a particular address or person.
+bn:00052815n	WIKT	A single delivery of letters; the letters or deliveries that make up a single batch delivered to one person or one address.
+bn:00052815n	WIKTLB	Method of delivering mail.
+bn:00052815n	WIKIQU	Mail, or post, is a system for transporting letters and other tangible objects: written documents, typically enclosed in envelopes, and also small packages are delivered to destinations around the world.
+bn:00052815n	MSTERM	A message or topic published on a blog, message board or Help board.
+bn:00186310n	WIKI	Information exchange is an informal term that can either refer to bidirectional information transmission/information transfer in telecommunications and computer science or communication seen from a system-theoretic or information-theoretic point of view.
+bn:00063747n	WN	The delivery and collection of letters and packages
+bn:00013142n	WN	The act of delivering or distributing something (as goods or mail)
+bn:00013142n	WIKI	Delivery is the process of transporting goods from a source location to a predefined destination.
+bn:00013142n	WIKIDATA	Process of transporting goods from a source location to a predefined destination
+bn:00013142n	OMWIKI	Transportation and/or handing over of ordered goods to the orderer.
+bn:00056159n	WN	The act of changing the location of something
+bn:00091875v	WN	Affix in a public place or for public notice
+bn:00091875v	OMWIKI	To affix in a public place or for public notice.
+bn:00091875v	WIKT	To hold up to public blame or reproach; to advertise opprobriously; to denounce by public proclamation.
+bn:00082437v	WN	Attach to
+bn:00091876v	WN	Publicize with, or as if with, a poster
+bn:00082637v	WN	Make known; make an announcement
+bn:00082637v	OMWIKI	To make known by stating or announcing.
+bn:00082637v	WIKT	To give public notice, especially for the first time; to make known.
+bn:00082637v	WIKTLB	To give public notice, or first notice of.
