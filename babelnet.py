@@ -180,7 +180,7 @@ class Babelnet(object):
 	Required codenames methods
 	"""
 
-	def get_weighted_nn(self, word,  filter_entities=True):
+	def get_weighted_nn(self, word, filter_entities=True):
 		"""
 		:param word: the codeword to get weighted nearest neighbors for
 		returns: a dictionary mapping nearest neighbors (str) to distances from codeword (int)
@@ -330,19 +330,15 @@ class Babelnet(object):
 
 		dict2vec_score = self._get_dict2vec_score(chosen_words, clue, red_words)
 
-		if self.configuration.visualize:
-			if self.configuration.debug_file:
-				with open(self.configuration.debug_file, 'a') as f:
-					f.write(" ".join([str(x) for x in [
-						clue, "score breakdown for", chosen_words, "\n"
-					]]))
-					f.write(" ".join([str(x) for x in [
-						"\tIDF:", -2*idf, "dict2vec score", dict2vec_score, "dictionary def score:", dict_definition_score, "word2vec score:", 2*word2vec_score, "\n"
-					]]))
-			else:
-				print(clue, "score breakdown for", chosen_words,)
-				print("\tIDF:", -2*idf, "dict2vec score", dict2vec_score, "dictionary def score:", dict_definition_score, "word2vec score:", 2*word2vec_score)
-
+		if self.configuration.debug_file:
+			with open(self.configuration.debug_file, 'a') as f:
+				f.write(" ".join([str(x) for x in [
+					clue, "score breakdown for", chosen_words, "\n"
+				]]))
+				f.write(" ".join([str(x) for x in [
+					"\tIDF:", -2*idf, "dict2vec score", dict2vec_score, "dictionary def score:", dict_definition_score, "word2vec score:", 2*word2vec_score, "\n"
+				]]))
+		
 		return (-2*idf) + (dict_definition_score) + (2*word2vec_score) + (dict2vec_score)
 
 	"""
@@ -400,22 +396,11 @@ class Babelnet(object):
 		is_in_red_words_dict_definition = 0.0
 		for word in chosen_words:
 			if potential_clue in self.dictionary_definitions[word]:
-				is_in_chosen_words_dict_definition = 1.0
-				break
+				is_in_chosen_words_dict_definition += 1.0
+
 		for word in red_words:
 			if potential_clue in self.dictionary_definitions[word]:
-				is_in_red_words_dict_definition = 1.0
-				break
-
-		if self.configuration.verbose:
-			print()
-			print("-------------------------------")
-			print("CHOSEN WORDS", chosen_words)
-			print("DICTIONARY DEFINITION",
-				  [self.dictionary_definitions[word] for word in chosen_words])
-			print("POTENTIAL CLUE", potential_clue,
-				  "is_in_dict_definition", is_in_chosen_words_dict_definition,
-				  "is_in_red_words_dict_definition", is_in_red_words_dict_definition)
+				is_in_red_words_dict_definition += 1.0
 
 		return is_in_chosen_words_dict_definition - is_in_red_words_dict_definition
 

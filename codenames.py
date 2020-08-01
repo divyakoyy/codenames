@@ -19,6 +19,7 @@ from tqdm import tqdm
 
 # Embeddings
 from babelnet import Babelnet
+from word2vec import Word2Vec
 
 sys.path.insert(0, "../")
 
@@ -32,7 +33,7 @@ blacklist = set([
     "s00045800n",  # idea
     "s00050906n",  # lexicon
     "s00061984n",  # philosophy
-    "s00081546n"  # word
+    "s00081546n"   # word
 ])
 
 """
@@ -83,6 +84,7 @@ class Codenames(object):
             self.configuration = configuration
         else:
             self.configuration = CodenamesConfiguration()
+        self.embedding_type = embedding_type #TODO: remove this after the custom domain choosing from get_highest_clue is out
         self.embedding = self._get_embedding_from_type(embedding_type)
         self.weighted_nn = dict()
         self.num_emb_batches = num_emb_batches
@@ -121,6 +123,8 @@ class Codenames(object):
         """
         if embedding_type == 'babelnet':
             return Babelnet(self.configuration)
+        elif embedding_type == 'word2vec':
+            return Word2Vec(self.configuration)
 
         return None
 
@@ -150,7 +154,6 @@ class Codenames(object):
             # self.weighted_nn[word] = self.get_glove_knn(word)
             # self.weighted_nn[word] = self.get_wikidata_knn(word)
             # self.weighted_nn[word] = self.get_wibitaxonomy(word, pages=True, categories=True)
-            # self.weighted_nn[word] = self.get_word2vec_knn(word)
             # self.weighted_nn[word] = self.get_babelnet(word)
             self.weighted_nn[word] = self.embedding.get_weighted_nn(word)
 
@@ -240,33 +243,34 @@ class Codenames(object):
 
         # TODO : Instead of this override behavior, add domains to nn_w_dist
         # try to get a domain clue
-        domains = {}
-        for word in set(chosen_words).union(self.red_words):
-            for domain, score in self.embedding.nn_to_domain_label[word].items():
-                score = self.rescale_domain_score(score)
-                if score > domain_threshold:
-                    if domain not in domains:
-                        domains[domain] = dict()
-                    domains[domain][word] = score
-        domain_clues = []
-        for domain, word_scores in domains.items():
-            if all([word in word_scores for word in chosen_words]):
-                # get min word_set domain score
-                min_chosen_words_score = min(
-                    [word_scores[word] for word in chosen_words])
-                # get max red_words domain score
-                red_words_domain_scores = [
-                    word_scores[word] for word in self.red_words.intersection(word_scores.keys())]
-                if len(red_words_domain_scores) == 0:
-                    max_red_words_score = 0
-                else:
-                    max_red_words_score = max(
-                        red_words_domain_scores) + domain_gap
+        if self.embedding_type =='babelnet':
+            domains = {}
+            for word in set(chosen_words).union(self.red_words):
+                for domain, score in self.embedding.nn_to_domain_label[word].items():
+                    score = self.rescale_domain_score(score)
+                    if score > domain_threshold:
+                        if domain not in domains:
+                            domains[domain] = dict()
+                        domains[domain][word] = score
+            domain_clues = []
+            for domain, word_scores in domains.items():
+                if all([word in word_scores for word in chosen_words]):
+                    # get min word_set domain score
+                    min_chosen_words_score = min(
+                        [word_scores[word] for word in chosen_words])
+                    # get max red_words domain score
+                    red_words_domain_scores = [
+                        word_scores[word] for word in self.red_words.intersection(word_scores.keys())]
+                    if len(red_words_domain_scores) == 0:
+                        max_red_words_score = 0
+                    else:
+                        max_red_words_score = max(
+                            red_words_domain_scores) + domain_gap
 
-                if min_chosen_words_score > max_red_words_score:
-                    domain_clues.append(domain)
-        if len(domain_clues) >= 1:
-            return domain_clues, 1  # TODO: return different score?
+                    if min_chosen_words_score > max_red_words_score:
+                        domain_clues.append(domain)
+            if len(domain_clues) >= 1:
+                return domain_clues, 1  # TODO: return different score?
 
         potential_clues = potential_clues - \
             self.blue_words.union(self.red_words)
@@ -312,16 +316,19 @@ class Codenames(object):
 
         pq = []
 
-        domain_words = []
-        for word in remaining_words:
-            if clue in self.embedding.nn_to_domain_label[word]:
-                score = self.rescale_domain_score(
-                    self.embedding.nn_to_domain_label[word][clue])
-                if score > domain_threshold:
-                    domain_words.append((word, score))
-        if len(domain_words) >= n:
-            # This is a domain clue, choose domain words
-            return domain_words
+        # TODO : Instead of this override behavior, add domains to nn_w_dist
+        # try to get a domain clue
+        if self.embedding_type =='babelnet':
+            domain_words = []
+            for word in remaining_words:
+                if clue in self.embedding.nn_to_domain_label[word]:
+                    score = self.rescale_domain_score(
+                        self.embedding.nn_to_domain_label[word][clue])
+                    if score > domain_threshold:
+                        domain_words.append((word, score))
+            if len(domain_words) >= n:
+                # This is a domain clue, choose domain words
+                return domain_words
 
         for word in remaining_words:
             score = self.get_score(clue, word)
@@ -692,7 +699,7 @@ class Codenames(object):
                     self.graph, source=wiki_id, cutoff=10
                 )
             except NodeNotFound:
-                if self.verbose:
+                if self.configuration.verbose:
                     print(wiki_id, "not in G")
                 continue
             for node in lengths:
@@ -762,31 +769,6 @@ class Codenames(object):
         # lemmas that are closer to enemy words
         return nn_w_dists
 
-    def get_word2vec_knn(self, clue_word):
-        nn_w_dists = {}
-        limit = 5
-
-        def recurse_word2vec(word, curr_limit):
-            if curr_limit >= limit or word not in self.model.vocab:
-                return
-            neighbors = [x[0] for x in self.model.most_similar(word)]
-            for neighbor in neighbors:
-                if (self.model.vocab[neighbor].count < 2 or len(neighbor.split("_")) > 1):
-                    continue
-                dist = self.model.similarity(neighbor, clue_word)
-                neighbor = neighbor.lower()
-                if neighbor not in nn_w_dists:
-                    nn_w_dists[neighbor] = dist
-                    recurse_word2vec(neighbor, curr_limit + 1)
-                nn_w_dists[neighbor] = min(dist, nn_w_dists[neighbor])
-
-        recurse_word2vec(clue_word, 0)
-
-        # if self.verbose:
-        #     print(clue_word, nn_w_dists)
-
-        return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != clue_word}
-
     def build_graph(
         self, emb_type="custom", embeddings=None, num_trees=50, metric="angular"
     ):
@@ -854,6 +836,7 @@ if __name__ == "__main__":
         debug_file=args.debug_file,
         length_exp_scaling=args.length_exp_scaling,
     )
+
     game = Codenames(
         configuration=configuration,
         embedding_type=args.embedding,
