@@ -1,1 +1,52 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Codenames Demo</title>
+        <script src="/static/app.js?v=0.02" type="text/javascript"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="game.css">
+        <link rel="shortcut icon" type="image/png" id="favicon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA8SURBVHgB7dHBDQAgCAPA1oVkBWdzPR84kW4AD0LCg36bXJqUcLL2eVY/EEwDFQBeEfPnqUpkLmigAvABK38Grs5TfaMAAAAASUVORK5CYII="/>
+
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    
+    	<!-- Don't use this in production: -->
+    	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+
+	    <h1>CODENAMES</h1>
+	    <div class="grid-container">
+	    	<div class="codeword-button" data-commentid="1"></div>
+	    	<div class="codeword-button" data-commentid="2"></div>
+	    	<div class="codeword-button" data-commentid="3"></div>
+		  	<div class="codeword-button" data-commentid="4"></div>
+	    	<div class="codeword-button" data-commentid="5"></div>
+	    	<div class="codeword-button" data-commentid="6"></div>
+	    	<div class="codeword-button" data-commentid="7"></div>
+	    	<div class="codeword-button" data-commentid="8"></div>
+	    	<div class="codeword-button" data-commentid="9"></div>
+	    	<div class="codeword-button" data-commentid="10"></div>
+	    	<div class="codeword-button" data-commentid="11"></div>
+	    	<div class="codeword-button" data-commentid="12"></div>
+	    	<div class="codeword-button" data-commentid="13"></div>
+	    	<div class="codeword-button" data-commentid="14"></div>
+	    	<div class="codeword-button" data-commentid="15"></div>
+	    	<div class="codeword-button" data-commentid="16"></div>
+	    	<div class="codeword-button" data-commentid="17"></div>
+	    	<div class="codeword-button" data-commentid="18"></div>
+	    	<div class="codeword-button" data-commentid="19"></div>
+	    	<div class="codeword-button" data-commentid="20"></div>
+		</div>
+
+
+	    <!-- Load React. -->
+	    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+	    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+	    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+	    <!-- Load our React component. -->
+	    <script src="codeword_button.js"></script>
+
+    </body>
+</html>
