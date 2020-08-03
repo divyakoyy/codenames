@@ -1,14 +1,17 @@
 .grid-container {
   display: grid;
-  padding: 200px;
+  padding-left: 300px;
+  padding-right: 300px;
   grid-template-columns: auto auto auto auto;
   grid-gap: 2em;
 }
 
-.button {
-  background: red;
-  border-radius: 8px;
-  color: white;
+h1 {
+  font-family: system, -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+    'Lucida Grande';
+  text-align: center;
+  padding: 50px;
+
 }
 
 #game-view,

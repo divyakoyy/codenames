@@ -11,13 +11,39 @@ class CodewordButton extends React.Component {
   }
 
   render() {
+
     if (this.state.selected) {
-      return 'You selected this.';
+
+      const selectedStyle = {
+        background: '#4183cc',
+        color: 'white',
+        height: 100,
+        width: '100%',
+        fontSize: 20,
+        fontWeight: 'bold',
+        border: 'none',
+        textTransform: 'uppercase',
+      };
+
+      return e(
+        'button',
+        { style: selectedStyle },
+        this.props.wordLabel
+      );
     }
+
+    const divStyle = {
+      height: 100,
+      width: '100%',
+      fontSize: 20,
+      border: 'none',
+      textTransform: 'uppercase',
+    };
+
 
     return e(
       'button',
-      { onClick: () => this.setState({ selected: true }) },
+      { onClick: () => this.setState({ selected: true }), style: divStyle },
       this.props.wordLabel
     );
   }
@@ -53,7 +79,7 @@ document.querySelectorAll('.codeword-button')
     // Read the comment ID from a data-* attribute.
     const commentID = parseInt(domContainer.dataset.commentid, 10);
     ReactDOM.render(
-      e(CodewordButton, { commentID: commentID, wordLabel: words[commentID] }),
+      e(CodewordButton, { color: 'blue', commentID: commentID, wordLabel: words[commentID] }),
       domContainer
     );
   });
