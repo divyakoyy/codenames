@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Codenames Demo</title>
-        <script src="/static/app.js?v=0.02" type="text/javascript"></script>
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="game.css">
         <link rel="shortcut icon" type="image/png" id="favicon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA8SURBVHgB7dHBDQAgCAPA1oVkBWdzPR84kW4AD0LCg36bXJqUcLL2eVY/EEwDFQBeEfPnqUpkLmigAvABK38Grs5TfaMAAAAASUVORK5CYII="/>
@@ -12,10 +11,13 @@
     
     	<!-- Don't use this in production: -->
     	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
     </head>
     <body>
 
 	    <h1>C O D E N A M E S</h1>
+	    <div class="dropdown-menu">hi</div>
 	    <div class="grid-container">
 	    	<div class="codeword-button" data-commentid="1"></div>
 	    	<div class="codeword-button" data-commentid="2"></div>
@@ -47,6 +49,6 @@
 
 	    <!-- Load our React component. -->
 	    <script src="codeword_button.js"></script>
-
+	   	<script type="module" src="dropdown_menu.js"></script>
     </body>
 </html>

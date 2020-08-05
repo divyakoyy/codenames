@@ -1,14 +1,12 @@
 import gzip
 import os
-import pickle
 import re
 import requests
 import string
 import numpy
+import pickle
 
 # Gensim
-from gensim.corpora import Dictionary
-import gensim.downloader as api
 from gensim.utils import simple_preprocess
 from gensim.models import KeyedVectors
 
@@ -24,13 +22,6 @@ babelnet_relationships_limits = {
 	"MERONYM": 20,
 	"HYPONYM": 20,
 }
-
-stopwords = [
-	'ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than', 'get', 'put',
-	'class', 'family'
-]
-
-idf_lower_bound = 0.0006
 
 punctuation = re.compile("[" + re.escape(string.punctuation) + "]")
 
@@ -67,7 +58,6 @@ class Babelnet(object):
 			self.synset_to_metadata,
 		) = self._load_synset_data_v5()
 
-		self.word_to_df = self._get_df()  # dictionary of word to document frequency
 		self.word2vec_model = self._get_word2vec()
 
 		self.dict2vec_embeddings_file = 'data/word_to_dict2vec_embeddings'
@@ -148,22 +138,6 @@ class Babelnet(object):
 			synset_to_domains,
 			synset_to_metadata,
 		)
-
-	def _get_df(self):
-		"""
-		Sets up a dictionary from words to their document frequency
-		"""
-		if (os.path.exists("data/word_to_df.pkl")):
-			with open('data/word_to_df.pkl', 'rb') as f:
-				word_to_df = pickle.load(f)
-		else:
-			dataset = api.load("text8")
-			dct = Dictionary(dataset)
-			id_to_doc_freqs = dct.dfs
-			word_to_df = {dct[id]: id_to_doc_freqs[id]
-						  for id in id_to_doc_freqs}
-
-		return word_to_df
 
 
 	def _get_word2vec(self):
@@ -311,35 +285,22 @@ class Babelnet(object):
 		:param red_words: opponent's words
 		returns: using IDF and dictionary definition heuristics, how much to add to the score for this potential clue give these board words
 		"""
-		# the larger the idf is, the more uncommon the word
-		idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
-
-		# prune out super common words (e.g. "get", "go")
-		if (clue in stopwords or idf < idf_lower_bound):
-			# if (self.configuration.visualize):
-			# 	print(clue, "is too generic with idf", idf)
-			idf = 1.0
 
 		# factor in dictionary definition heuristic
 		dict_definition_score = self._get_dictionary_definition_score(
 			chosen_words, clue, red_words)
 
 		word2vec_score = self._get_word2vec_score(chosen_words, clue, red_words)
-		# if (self.configuration.visualize and clue == 'automobile' or clue == 'put' or clue =='hex' or clue == 'male' or clue=='domestic' ):
-		# 	print("\t", clue, "score breakdown for", chosen_words, "IDF:", idf, "dictionary def score:", dict_definition_score, "word2vec score:", word2vec_score)
-
+		
 		dict2vec_score = self._get_dict2vec_score(chosen_words, clue, red_words)
 
 		if self.configuration.debug_file:
 			with open(self.configuration.debug_file, 'a') as f:
 				f.write(" ".join([str(x) for x in [
-					clue, "score breakdown for", chosen_words, "\n"
-				]]))
-				f.write(" ".join([str(x) for x in [
-					"\tIDF:", -2*idf, "dict2vec score", dict2vec_score, "dictionary def score:", dict_definition_score, "word2vec score:", 2*word2vec_score, "\n"
+					" dict2vec score", round(dict2vec_score,3), "dictionary def score:", round(dict_definition_score,3), "word2vec score:", round(2*word2vec_score,3), "\n"
 				]]))
 		
-		return (-2*idf) + (dict_definition_score) + (2*word2vec_score) + (dict2vec_score)
+		return (dict_definition_score) + (2*word2vec_score) + (dict2vec_score)
 
 	"""
 	Helper methods

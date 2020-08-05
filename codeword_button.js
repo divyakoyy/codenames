@@ -79,7 +79,8 @@ document.querySelectorAll('.codeword-button')
     // Read the comment ID from a data-* attribute.
     const commentID = parseInt(domContainer.dataset.commentid, 10);
     ReactDOM.render(
-      e(CodewordButton, { color: 'blue', commentID: commentID, wordLabel: words[commentID] }),
+      e(CodewordButton, { commentID: commentID, wordLabel: words[commentID] }),
       domContainer
     );
   });
+

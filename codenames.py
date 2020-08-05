@@ -9,7 +9,13 @@ import urllib
 import string
 import argparse
 import gzip
+import pickle
 
+# Gensim
+from gensim.corpora import Dictionary
+import gensim.downloader as api
+
+# nltk
 from nltk.corpus import wordnet as wn
 
 import networkx as nx
@@ -36,11 +42,16 @@ blacklist = set([
     "s00081546n"   # word
 ])
 
+stopwords = [
+    'ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than', 'get', 'put',
+    'class', 'family'
+]
+
+idf_lower_bound = 0.0006
+
 """
 Configuration for running the game
 """
-
-
 class CodenamesConfiguration(object):
     def __init__(
         self,
@@ -90,7 +101,10 @@ class Codenames(object):
         self.num_emb_batches = num_emb_batches
         self.emb_size = emb_size
         self.file_dir = file_dir
+
         # pre-process
+        self.word_to_df = self._get_df()  # dictionary of word to document frequency
+
 
         # data from: https://github.com/uhh-lt/path2vec#pre-trained-models-and-datasets
         # self.get_path2vec_emb_from_txt(data_path='data/jcn-semcor_embeddings.vec')
@@ -121,6 +135,7 @@ class Codenames(object):
         returns the embedding object that will be used to play
 
         """
+        print("Building game for ", embedding_type, "...")
         if embedding_type == 'babelnet':
             return Babelnet(self.configuration)
         elif embedding_type == 'word2vec':
@@ -136,9 +151,6 @@ class Codenames(object):
         :return: None
         """
         self._generate_board_words(red, blue)
-        if self.configuration.verbose:
-            print("red words:", red)
-            print("blue words:", blue)
         self.sess = requests.Session()
         self.wikipedia_url = "https://en.wikipedia.org/w/api.php"
         self.save_path = save_path
@@ -146,8 +158,6 @@ class Codenames(object):
 
         words = self.blue_words.union(self.red_words)
         for word in words:
-            # e.g. for word = "spoon",   weighted_nns[word] = {'fork':30, 'knife':25}
-            # self.weighted_nn[word] = self.get_fake_knn(word)
             # self.weighted_nn[word] = self.get_hsm_knn(word)
             # self.weighted_nn[word] = self.get_path2vec_knn(word)
             # self.weighted_nn[word] = self.get_wordnet_knn(word)
@@ -179,6 +189,22 @@ class Codenames(object):
             self.red_words = set(red)
         if blue is not None:
             self.blue_words = set(blue)
+
+    def _get_df(self):
+        """
+        Sets up a dictionary from words to their document frequency
+        """
+        if (os.path.exists("data/word_to_df.pkl")):
+            with open('data/word_to_df.pkl', 'rb') as f:
+                word_to_df = pickle.load(f)
+        else:
+            dataset = api.load("text8")
+            dct = Dictionary(dataset)
+            id_to_doc_freqs = dct.dfs
+            word_to_df = {dct[id]: id_to_doc_freqs[id]
+                          for id in id_to_doc_freqs}
+
+        return word_to_df
 
     def get_clue(self, n, penalty):
         # where blue words are our team's words and red words are the other team's words
@@ -230,7 +256,7 @@ class Codenames(object):
 
     def is_valid_clue(self, clue):
         for board_word in self.red_words.union(self.blue_words):
-            if (clue in board_word):
+            if (clue in board_word or board_word in clue):
                 return False
         return True
 
@@ -297,12 +323,24 @@ class Codenames(object):
             embedding_score = self.embedding.rescale_score(
                 chosen_words, clue, self.red_words)
 
-            score = sum(blue_word_counts) - (penalty *
+            # the larger the idf is, the more uncommon the word
+            idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
+
+            # prune out super common words (e.g. "get", "go")
+            if (clue in stopwords or idf < idf_lower_bound):
+                idf = 1.0
+
+            score = (-2*idf) + sum(blue_word_counts) - (penalty *
                                              sum(red_word_counts)) + embedding_score
-            if self.configuration.verbose:
-                print("\tdistance:", sum(blue_word_counts) - (penalty * sum(red_word_counts)))
-            # if score >= highest_score and self.verbose:
-            #     print(clue, score, ">= highest_scoring_clue")
+            if self.configuration.debug_file:
+                with open(self.configuration.debug_file, 'a') as f:
+                    f.write(" ".join([str(x) for x in [
+                        clue, "score breakdown for", chosen_words, "\n"
+                    ]]))
+                    f.write(" ".join([str(x) for x in [
+                        "\tblue words score:", round(sum(blue_word_counts),3), " red words penalty:", round((penalty *sum(red_word_counts)),3), " IDF:", round(-2*idf,3)
+                    ]]))
+
             if score > highest_score:
                 highest_scoring_clues = [clue]
                 highest_score = score
@@ -800,6 +838,8 @@ if __name__ == "__main__":
                         help='print out verbose information')
     parser.add_argument('--visualize', dest='visualize', default=False,
                         help='visualize the choice of clues with graphs')
+    parser.add_argument('--num-trials', type=int, dest='num_trials', default=1,
+                        help='number of trials of the game to run')
     parser.add_argument('--split-multi-word', dest='split_multi_word', default=True)
     parser.add_argument('--disable-verb-split', dest='disable_verb_split', default=True)
     parser.add_argument('--debug-file', dest='debug_file', default=None,
@@ -807,6 +847,7 @@ if __name__ == "__main__":
     parser.add_argument('--length-exp-scaling', type=int, dest='length_exp_scaling', default=None,
                         help='Rescale lengths using exponent')
     args = parser.parse_args()
+
 
     words = [
         'vacuum', 'whip', 'moon', 'school', 'tube', 'lab', 'key', 'table', 'lead', 'crown',
@@ -817,16 +858,14 @@ if __name__ == "__main__":
         'pistol', 'saturn', 'rock', 'superhero', 'mug', 'fighter', 'embassy', 'cell', 'state', 'beach',
         'capital', 'post', 'cast', 'soul', 'tower', 'green', 'plot', 'string', 'kangaroo', 'lawyer',
     ]
-    random.shuffle(words)
 
-    # Use None to randomize the game, or pass in fixed lists
-    red_words = [
-        words[:10]
-    ]
+    red_words = []
+    blue_words = []
 
-    blue_words = [
-        words[10:20]
-    ]
+    for _ in range(0, args.num_trials):
+        random.shuffle(words)
+        red_words.append(words[:10])
+        blue_words.append(words[10:20])
 
     configuration = CodenamesConfiguration(
         verbose=args.verbose,
@@ -854,8 +893,9 @@ if __name__ == "__main__":
                 print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
 
         best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
+        
         print("===================================================================================================")
-        print("TRIAL", str(i), ":")
+        print("TRIAL", str(i+1))
         print("RED WORDS: ", list(game.red_words))
         print("BLUE WORDS: ", list(game.blue_words))
         print("BEST CLUES: ")
