@@ -24,8 +24,9 @@ import requests
 from tqdm import tqdm
 
 # Embeddings
-from babelnet import Babelnet
-from word2vec import Word2Vec
+from embeddings.babelnet import Babelnet
+from embeddings.word2vec import Word2Vec
+from embeddings.glove import Glove
 
 sys.path.insert(0, "../")
 
@@ -140,6 +141,8 @@ class Codenames(object):
             return Babelnet(self.configuration)
         elif embedding_type == 'word2vec':
             return Word2Vec(self.configuration)
+        elif embedding_type == 'glove':
+            return Glove(self.configuration)
 
         return None
 
