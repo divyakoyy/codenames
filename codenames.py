@@ -10,6 +10,7 @@ import string
 import argparse
 import gzip
 import pickle
+from datetime import datetime
 
 # Gensim
 from gensim.corpora import Dictionary
@@ -27,6 +28,7 @@ from tqdm import tqdm
 from embeddings.babelnet import Babelnet
 from embeddings.word2vec import Word2Vec
 from embeddings.glove import Glove
+from embeddings.fasttext import FastText
 
 sys.path.insert(0, "../")
 
@@ -105,6 +107,8 @@ class Codenames(object):
 
         # pre-process
         self.word_to_df = self._get_df()  # dictionary of word to document frequency
+        self.dict2vec_embeddings_file = 'data/word_to_dict2vec_embeddings'
+        self.word_to_dict2vec_embeddings = self._get_dict2vec()
 
 
         # data from: https://github.com/uhh-lt/path2vec#pre-trained-models-and-datasets
@@ -143,6 +147,8 @@ class Codenames(object):
             return Word2Vec(self.configuration)
         elif embedding_type == 'glove':
             return Glove(self.configuration)
+        elif embedding_type == 'fasttext':
+            return FastText(self.configuration)
 
         return None
 
@@ -208,6 +214,40 @@ class Codenames(object):
                           for id in id_to_doc_freqs}
 
         return word_to_df
+
+    def _get_dict2vec(self):
+        input_file = open(self.dict2vec_embeddings_file,'rb')
+        word_to_dict2vec_embeddings = pickle.load(input_file)
+        return word_to_dict2vec_embeddings
+
+    def _get_dict2vec_score(self, chosen_words, potential_clue, red_words):
+        dict2vec_similarities = []
+        red_dict2vec_similarities = []
+
+        if potential_clue not in self.word_to_dict2vec_embeddings:
+            if self.configuration.verbose:
+                print("Potential clue word ", potential_clue, "not in dict2vec model")
+            return 0.0
+
+        potential_clue_embedding = self.word_to_dict2vec_embeddings[potential_clue]
+        # TODO: change this to cosine distance 
+        for chosen_word in chosen_words:
+            if chosen_word in self.word_to_dict2vec_embeddings:
+                chosen_word_embedding = self.word_to_dict2vec_embeddings[chosen_word]
+                euclidean_distance = np.linalg.norm(chosen_word_embedding-potential_clue_embedding)
+                dict2vec_similarities.append(euclidean_distance)
+
+        for red_word in red_words:
+            if red_word in self.word_to_dict2vec_embeddings:
+                red_word_embedding = self.word_to_dict2vec_embeddings[red_word]
+                red_euclidean_distance = np.linalg.norm(red_word_embedding-potential_clue_embedding)
+                red_dict2vec_similarities.append(red_euclidean_distance)
+        #TODO: is average the best way to do this
+        return 1/(sum(dict2vec_similarities)/len(dict2vec_similarities)) - 1/(min(red_dict2vec_similarities))
+
+    '''
+    Codenames game methods
+    '''
 
     def get_clue(self, n, penalty):
         # where blue words are our team's words and red words are the other team's words
@@ -333,15 +373,17 @@ class Codenames(object):
             if (clue in stopwords or idf < idf_lower_bound):
                 idf = 1.0
 
-            score = (-2*idf) + sum(blue_word_counts) - (penalty *
-                                             sum(red_word_counts)) + embedding_score
+            dict2vec_score = self._get_dict2vec_score(chosen_words, clue, self.red_words)
+
+            score = sum(blue_word_counts) - (penalty *sum(red_word_counts)) + embedding_score + dict2vec_score + (-2*idf)
+
             if self.configuration.debug_file:
                 with open(self.configuration.debug_file, 'a') as f:
                     f.write(" ".join([str(x) for x in [
-                        clue, "score breakdown for", chosen_words, "\n"
+                        "\n", clue, "score breakdown for", chosen_words, "\n"
                     ]]))
                     f.write(" ".join([str(x) for x in [
-                        "\tblue words score:", round(sum(blue_word_counts),3), " red words penalty:", round((penalty *sum(red_word_counts)),3), " IDF:", round(-2*idf,3)
+                        "\tblue words score:", round(sum(blue_word_counts),3), " red words penalty:", round((penalty *sum(red_word_counts)),3), " IDF:", round(-2*idf,3), "dict2vec score:", round(dict2vec_score,3),
                     ]]))
 
             if score > highest_score:
@@ -835,18 +877,21 @@ class Codenames(object):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')
-    parser.add_argument('embedding', type=str,
+    parser.add_argument('embeddings', nargs='+',
                         help='an embedding method to use when playing codenames')
-    parser.add_argument('--verbose', dest='verbose', default=False,
-                        help='print out verbose information')
-    parser.add_argument('--visualize', dest='visualize', default=False,
+    parser.add_argument('--verbose', dest='verbose', action='store_true',
+                        help='print out verbose information'),
+    parser.add_argument('--visualize', dest='visualize', action='store_true',
                         help='visualize the choice of clues with graphs')
+    parser.add_argument('--debug', dest='debug', action='store_true',
+                        help='visualize the choice of clues with graphs')
+    parser.add_argument('--debug-file', dest='debug_file', default=None,
+                        help='Write score breakdown to debug file')
     parser.add_argument('--num-trials', type=int, dest='num_trials', default=1,
                         help='number of trials of the game to run')
     parser.add_argument('--split-multi-word', dest='split_multi_word', default=True)
     parser.add_argument('--disable-verb-split', dest='disable_verb_split', default=True)
-    parser.add_argument('--debug-file', dest='debug_file', default=None,
-                        help='Write score breakdown to debug file')
+
     parser.add_argument('--length-exp-scaling', type=int, dest='length_exp_scaling', default=None,
                         help='Rescale lengths using exponent')
     args = parser.parse_args()
@@ -859,7 +904,10 @@ if __name__ == "__main__":
         'figure', 'gas', 'germany', 'india', 'jupiter', 'kid', 'king', 'lemon', 'litter', 'nut',
         'phoenix', 'racket', 'row', 'scientist', 'shark', 'stream', 'swing', 'unicorn', 'witch', 'worm',
         'pistol', 'saturn', 'rock', 'superhero', 'mug', 'fighter', 'embassy', 'cell', 'state', 'beach',
-        'capital', 'post', 'cast', 'soul', 'tower', 'green', 'plot', 'string', 'kangaroo', 'lawyer',
+        'capital', 'post', 'cast', 'soul', 'tower', 'green', 'plot', 'string', 'kangaroo', 'lawyer', 'fire', 
+        'robot', 'mammoth', 'hole', 'spider', 'bill', 'ivory', 'giant', 'bar', 'ray', 'drill', 'staff', 
+        'greece', 'press','pitch', 'nurse', 'contract', 'water', 'watch', 'amazon','spell', 'kiwi', 'ghost',
+        'cold', 'doctor', 'port', 'bark','foot', 'luck', 'nail', 'ice',
     ]
 
     red_words = []
@@ -870,50 +918,54 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
-    configuration = CodenamesConfiguration(
-        verbose=args.verbose,
-        visualize=args.visualize,
-        split_multi_word=args.split_multi_word,
-        disable_verb_split=args.disable_verb_split,
-        debug_file=args.debug_file,
-        length_exp_scaling=args.length_exp_scaling,
-    )
+    for embedding_type in args.embeddings:
+        if args.debug is True and args.debug_file == None:
+            debug_file_path = embedding_type + "-" + datetime.now().strftime("%d-%m-%Y-%H.%M.%S") + ".txt"
 
-    game = Codenames(
-        configuration=configuration,
-        embedding_type=args.embedding,
-    )
+        configuration = CodenamesConfiguration(
+            verbose=args.verbose,
+            visualize=args.visualize,
+            split_multi_word=args.split_multi_word,
+            disable_verb_split=args.disable_verb_split,
+            debug_file=debug_file_path,
+            length_exp_scaling=args.length_exp_scaling,
+        )
 
-    for i, (red, blue) in enumerate(zip(red_words, blue_words)):
+        game = Codenames(
+            configuration=configuration,
+            embedding_type=embedding_type,
+        )
 
-        game._build_game(red=red, blue=blue,
-                         save_path="tmp_babelnet_" + str(i))
-        # TODO: Download version without using aliases. They may be too confusing
-        if game.configuration.verbose:
-            print("NEAREST NEIGHBORS:")
-            for word, clues in game.weighted_nn.items():
-                print(word)
-                print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
+        for i, (red, blue) in enumerate(zip(red_words, blue_words)):
 
-        best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
-        
-        print("===================================================================================================")
-        print("TRIAL", str(i+1))
-        print("RED WORDS: ", list(game.red_words))
-        print("BLUE WORDS: ", list(game.blue_words))
-        print("BEST CLUES: ")
-        for score, clues, board_words in zip(best_scores, best_clues, best_board_words_for_clue):
-            print()
-            print(clues, str(round(score,3)), board_words)
-            for clue in clues:
-                print(
-                    "WORDS CHOSEN FOR CLUE: ",
-                    game.choose_words(
-                        2, clue, game.blue_words.union(game.red_words)),
-                )
+            game._build_game(red=red, blue=blue,
+                             save_path="tmp_babelnet_" + str(i))
+            # TODO: Download version without using aliases. They may be too confusing
+            if game.configuration.verbose:
+                print("NEAREST NEIGHBORS:")
+                for word, clues in game.weighted_nn.items():
+                    print(word)
+                    print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
+
+            best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
+            
+            print("===================================================================================================")
+            print("TRIAL", str(i+1))
+            print("RED WORDS: ", list(game.red_words))
+            print("BLUE WORDS: ", list(game.blue_words))
+            print("BEST CLUES: ")
+            for score, clues, board_words in zip(best_scores, best_clues, best_board_words_for_clue):
+                print()
+                print(clues, str(round(score,3)), board_words)
+                for clue in clues:
+                    print(
+                        "WORDS CHOSEN FOR CLUE: ",
+                        game.choose_words(
+                            2, clue, game.blue_words.union(game.red_words)),
+                    )
 
 
-        # Draw graphs for all words
-        # all_words = red + blue
-        # for word in all_words:
-        #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
+            # Draw graphs for all words
+            # all_words = red + blue
+            # for word in all_words:
+            #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)

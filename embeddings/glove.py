@@ -11,7 +11,6 @@ class Glove(object):
 
         self.glove_model = KeyedVectors.load_word2vec_format('data/glove-wiki-gigaword-300.txt.gz')
 
-
     """
     Required codenames methods
     """
@@ -23,7 +22,7 @@ class Glove(object):
             return
         neighbors_and_similarities = self.glove_model.most_similar(word, topn=n)
         for neighbor, similarity in neighbors_and_similarities:
-            if (self.glove_model.vocab[neighbor].count < 2 or len(neighbor.split("_")) > 1):
+            if len(neighbor.split("_")) > 1:
                 continue
             neighbor = neighbor.lower()
             if neighbor not in nn_w_similarities:
