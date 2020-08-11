@@ -476,6 +476,7 @@ if __name__ == "__main__":
         blue_words.append(words[10:20])
 
     for embedding_type in args.embeddings:
+        debug_file_path = None
         if args.debug is True or args.debug_file != None:
             debug_file_path = (embedding_type + "-" + datetime.now().strftime("%m-%d-%Y-%H.%M.%S") + ".txt") if args.debug_file == None else args.debug_file
             # Create directory to put debug files if it doesn't exist
@@ -491,7 +492,7 @@ if __name__ == "__main__":
             disable_verb_split=args.disable_verb_split,
             debug_file=debug_file_path,
             length_exp_scaling=args.length_exp_scaling,
-            use_heuristics=(not args.no_heuristics)
+            use_heuristics=(not args.no_heuristics),
             single_word_label_scores=args.single_word_label_scores,
         )
 
