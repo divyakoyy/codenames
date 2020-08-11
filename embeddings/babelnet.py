@@ -241,17 +241,22 @@ class Babelnet(object):
 						if self.configuration.verbose:
 							print("skipping non-concept:", neighbor, neighbor_metadata["synsetType"])
 						continue
+
+					split_multi_word = self.configuration.split_multi_word
+					if self.configuration.disable_verb_split and synset.endswith(self.VERB_SUFFIX):
+						split_multi_word = False
+
 					single_word_labels = self.get_single_word_labels_v5(
 						neighbor_main_sense,
 						neighbor_senses,
-						split_multi_word=self.configuration.split_multi_word,
+						split_multi_word=split_multi_word,
 					)
 					for single_word_label, label_score in single_word_labels:
 						if single_word_label not in nn_w_dists:
 							nn_w_dists[single_word_label] = length * label_score
 							nn_w_synsets[single_word_label] = neighbor
 						else:
-							if nn_w_dists[single_word_label] > length:
+							if nn_w_dists[single_word_label] > (length * label_score):
 								nn_w_dists[single_word_label] = length * label_score
 								nn_w_synsets[single_word_label] = neighbor
 				# get domains
@@ -291,7 +296,7 @@ class Babelnet(object):
 			chosen_words, clue, red_words)
 
 		word2vec_score = self._get_word2vec_score(chosen_words, clue, red_words)
-		
+
 		dict2vec_score = self._get_dict2vec_score(chosen_words, clue, red_words)
 
 		if self.configuration.debug_file:
@@ -299,15 +304,15 @@ class Babelnet(object):
 				f.write(" ".join([str(x) for x in [
 					" dict2vec score", round(dict2vec_score,3), "dictionary def score:", round(dict_definition_score,3), "word2vec score:", round(2*word2vec_score,3), "\n"
 				]]))
-		
+
 		return (dict_definition_score) + (2*word2vec_score) + (dict2vec_score)
 
 	"""
 	Helper methods
 	"""
 	def _get_dict2vec_score(self, chosen_words, potential_clue, red_words):
-		dict2vec_similarities = []
-		red_dict2vec_similarities = []
+		dict2vec_distances = []
+		red_dict2vec_distances = []
 
 		if potential_clue not in self.word_to_dict2vec_embeddings:
 			if self.configuration.verbose:
@@ -315,20 +320,22 @@ class Babelnet(object):
 			return 0.0
 
 		potential_clue_embedding = self.word_to_dict2vec_embeddings[potential_clue]
-		# TODO: change this to cosine distance 
+		# TODO: change this to cosine distance
 		for chosen_word in chosen_words:
 			if chosen_word in self.word_to_dict2vec_embeddings:
 				chosen_word_embedding = self.word_to_dict2vec_embeddings[chosen_word]
 				euclidean_distance = numpy.linalg.norm(chosen_word_embedding-potential_clue_embedding)
-				dict2vec_similarities.append(euclidean_distance)
+				dict2vec_distances.append(euclidean_distance)
 
 		for red_word in red_words:
 			if red_word in self.word_to_dict2vec_embeddings:
 				red_word_embedding = self.word_to_dict2vec_embeddings[red_word]
 				red_euclidean_distance = numpy.linalg.norm(red_word_embedding-potential_clue_embedding)
-				red_dict2vec_similarities.append(red_euclidean_distance)
+				red_dict2vec_distances.append(red_euclidean_distance)
+			else:
+				print(f"red word {red_word} not in dict2vec")
 		#TODO: is average the best way to do this
-		return 1/(sum(dict2vec_similarities)/len(dict2vec_similarities)) - 1/(min(red_dict2vec_similarities))
+		return 1/(sum(dict2vec_distances)/len(dict2vec_distances)) - 1/(min(red_dict2vec_distances))
 
 	def _get_word2vec_score(self, chosen_words, potential_clue, red_words):
 
@@ -346,6 +353,8 @@ class Babelnet(object):
 		for red_word in red_words:
 			if red_word in self.word2vec_model:
 				red_word2vec_similarities.append(self.word2vec_model.similarity(red_word, potential_clue))
+			else:
+				print(f"red word {red_word} not in word2vec")
 		#TODO: is average the best way to do this
 		return sum(word2vec_similarities)/len(word2vec_similarities) - max(red_word2vec_similarities)
 
@@ -485,22 +494,23 @@ class Babelnet(object):
 
 	def get_single_word_labels_v5(self, lemma, senses, split_multi_word=False):
 		""""""
+		main_single, main_multi, other_single, other_multi = self.configuration.single_word_label_scores
 		single_word_labels = []
 		parsed_lemma, single_word = self.parse_lemma_v5(lemma)
 		if single_word:
-			single_word_labels.append((parsed_lemma, 1))
+			single_word_labels.append((parsed_lemma, main_single))
 		elif split_multi_word:
 			single_word_labels.extend(
-				zip(parsed_lemma.split("_"), [0.9 for _ in parsed_lemma.split("_")])
+				zip(parsed_lemma.split("_"), [main_multi for _ in parsed_lemma.split("_")])
 			)
 
 		for sense in senses:
 			parsed_lemma, single_word = self.parse_lemma_v5(sense)
 			if single_word:
-				single_word_labels.append((parsed_lemma, 0.9))
+				single_word_labels.append((parsed_lemma, other_single))
 			elif split_multi_word:
 				single_word_labels.extend(
-					zip(parsed_lemma.split("_"), [0.7 for _ in parsed_lemma.split("_")])
+					zip(parsed_lemma.split("_"), [other_multi for _ in parsed_lemma.split("_")])
 				)
 		if len(single_word_labels) == 0:
 			# can only happen if split_multi_word = False

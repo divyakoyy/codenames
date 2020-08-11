@@ -49,6 +49,7 @@ stopwords = [
 ]
 
 idf_lower_bound = 0.0006
+default_single_word_label_scores = (1, 1.1, 1.1, 1.2)
 
 """
 Configuration for running the game
@@ -62,6 +63,7 @@ class CodenamesConfiguration(object):
         disable_verb_split=True,
         debug_file=None,
         length_exp_scaling=None,
+        single_word_label_scores=default_single_word_label_scores,
     ):
         self.verbose = verbose
         self.visualize = visualize
@@ -69,6 +71,7 @@ class CodenamesConfiguration(object):
         self.disable_verb_split = disable_verb_split
         self.debug_file = debug_file
         self.length_exp_scaling = length_exp_scaling
+        self.single_word_label_scores = tuple(single_word_label_scores)
 
 
 class Codenames(object):
@@ -96,6 +99,7 @@ class Codenames(object):
             self.configuration = configuration
         else:
             self.configuration = CodenamesConfiguration()
+        print(self.configuration.__dict__)
         self.embedding_type = embedding_type #TODO: remove this after the custom domain choosing from get_highest_clue is out
         self.embedding = self._get_embedding_from_type(embedding_type)
         self.weighted_nn = dict()
@@ -849,6 +853,9 @@ if __name__ == "__main__":
                         help='Write score breakdown to debug file')
     parser.add_argument('--length-exp-scaling', type=int, dest='length_exp_scaling', default=None,
                         help='Rescale lengths using exponent')
+    parser.add_argument('--single-word-label-scores', type=float, nargs=4, dest='single_word_label_scores',
+                        default=default_single_word_label_scores,
+                        help='main_single, main_multi, other_single, other_multi scores')
     args = parser.parse_args()
 
 
@@ -862,8 +869,20 @@ if __name__ == "__main__":
         'capital', 'post', 'cast', 'soul', 'tower', 'green', 'plot', 'string', 'kangaroo', 'lawyer',
     ]
 
-    red_words = []
-    blue_words = []
+    red_words = [
+        # ['tube', 'bark', 'swing', 'cast', 'drill', 'diamond', 'cell', 'superhero', 'phoenix', 'luck'],
+        # ['unicorn', 'ivory', 'hole', 'state', 'lemon', 'superhero', 'rock', 'crown', 'lead', 'bison'],
+        # ['hole', 'string', 'nurse', 'cloak', 'india', 'king', 'pitch', 'cap', 'lead', 'jupiter'],
+        # ['vacuum', 'car', 'scientist', 'foot', 'gas', 'spider', 'lemon', 'cold', 'embassy', 'superhero'],
+        # ['ivory', 'fighter', 'nut', 'greece', 'india', 'boot', 'bar', 'pitch', 'rock', 'piano'],
+    ]
+    blue_words = [
+        # ['lab', 'moon', 'bug', 'spell', 'witch', 'tower', 'boot', 'racket', 'mammoth', 'saturn'],
+        # ['green', 'litter', 'scientist', 'kid', 'cold', 'cap', 'mammoth', 'staff', 'table', 'beijing'],
+        # ['lab', 'ivory', 'spell', 'witch', 'key', 'change', 'boot', 'amazon', 'fire', 'beijing'],
+        # ['lab', 'hole', 'giant', 'bug', 'nurse', 'key', 'capital', 'pipe', 'beijing', 'saturn'],
+        # ['row', 'cloak', 'tower', 'gas', 'spider', 'diamond', 'luck', 'capital', 'crown', 'racket'],
+    ]
 
     for _ in range(0, args.num_trials):
         random.shuffle(words)
@@ -877,6 +896,7 @@ if __name__ == "__main__":
         disable_verb_split=args.disable_verb_split,
         debug_file=args.debug_file,
         length_exp_scaling=args.length_exp_scaling,
+        single_word_label_scores=args.single_word_label_scores,
     )
 
     game = Codenames(
@@ -896,7 +916,7 @@ if __name__ == "__main__":
                 print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
 
         best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
-        
+
         print("===================================================================================================")
         print("TRIAL", str(i+1))
         print("RED WORDS: ", list(game.red_words))
