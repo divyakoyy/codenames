@@ -1,4 +1,8 @@
 babelnet_v4/*gz
 babelnet_v4/*_synsets
+babelnet_v6/*gz
+babelnet_v6/*_synsets
+embeddings/__pycache__
+notebooks/
 .DS_Store
 .ipynb_checkpoints/

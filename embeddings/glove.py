@@ -11,7 +11,6 @@ class Glove(object):
 
         self.glove_model = KeyedVectors.load_word2vec_format('data/glove-wiki-gigaword-300.txt.gz')
 
-
     """
     Required codenames methods
     """
@@ -23,7 +22,7 @@ class Glove(object):
             return
         neighbors_and_similarities = self.glove_model.most_similar(word, topn=n)
         for neighbor, similarity in neighbors_and_similarities:
-            if (self.glove_model.vocab[neighbor].count < 2 or len(neighbor.split("_")) > 1):
+            if len(neighbor.split("_")) > 1:
                 continue
             neighbor = neighbor.lower()
             if neighbor not in nn_w_similarities:
@@ -53,7 +52,7 @@ class Glove(object):
         if self.configuration.debug_file:
             with open(self.configuration.debug_file, 'a') as f:
                 f.write(" ".join([str(x) for x in [
-                    " penalty for red words glove", round(-0.5*sum(red_glove_similarities)/len(red_glove_similarities),3), "\n"
+                    " glove penalty for red words:", round(-0.5*sum(red_glove_similarities)/len(red_glove_similarities),3), "\n"
                 ]]))
         #TODO: is average the best way to do this
         return -0.5*sum(red_glove_similarities)/len(red_glove_similarities)
