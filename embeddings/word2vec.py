@@ -60,7 +60,7 @@ class Word2Vec(object):
         if self.configuration.debug_file:
             with open(self.configuration.debug_file, 'a') as f:
                 f.write(" ".join([str(x) for x in [
-                    " penalty for red words word2vec", round(-0.5*sum(red_word2vec_similarities)/len(red_word2vec_similarities),3), "\n"
+                    " word2vec penalty for red words:", round(-0.5*sum(red_word2vec_similarities)/len(red_word2vec_similarities),3), "\n"
                 ]]))
         #TODO: is average the best way to do this
         return -0.5*sum(red_word2vec_similarities)/len(red_word2vec_similarities)

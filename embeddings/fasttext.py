@@ -52,7 +52,7 @@ class FastText(object):
         if self.configuration.debug_file:
             with open(self.configuration.debug_file, 'a') as f:
                 f.write(" ".join([str(x) for x in [
-                    " penalty for red words glove", round(-0.5*sum(red_fasttext_similarities)/len(red_fasttext_similarities),3), "\n"
+                    " fasttext penalty for red words:", round(-0.5*sum(red_fasttext_similarities)/len(red_fasttext_similarities),3), "\n"
                 ]]))
         #TODO: is average the best way to do this
         return -0.5*sum(red_fasttext_similarities)/len(red_fasttext_similarities)
