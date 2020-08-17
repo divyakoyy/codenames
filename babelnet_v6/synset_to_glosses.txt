@@ -33609,3 +33609,865 @@ bn:00005282n	WIKIDATA	Class of arthropods
 bn:00005282n	OMWIKI	A class of eight-legged creatures in the subphylum Chelicerata.
 bn:00005282n	OMWIKI	Any of the eight-legged creatures, including spiders and scorpions, of the class Arachnida.
 bn:00005282n	WIKT	Any of the eight-legged creatures, including spiders and scorpions, of the class Arachnida.
+bn:00027984n	WN	Landing in a harbor next to a pier where ships are loaded and unloaded or repaired; may have gates to let water in or out
+bn:00027984n	WIKI	A dock is the area of water between or next to one or a group of human-made structures that are involved in the handling of boats or ships or such structures themselves.
+bn:00027984n	WIKIDIS	The mooring or drydocking of ships / watercraft.
+bn:00027984n	WIKIDATA	Human-made structure involved in the handling of boats or ships
+bn:00027984n	OMWIKI	An enclosed area of water used for loading, unloading, building or repairing ships.
+bn:00053461n	WN	An area in a town where a public mercantile establishment is set up
+bn:00053461n	WIKI	A market, or marketplace, is a location where people regularly gather for the purchase and sale of provisions, livestock, and other goods.
+bn:00053461n	WIKIDIS	A physical marketplace or public market
+bn:00053461n	WIKIDATA	Location where people regularly gather for the purchase and sale of provisions, livestock, and other goods
+bn:00053461n	WIKIDATA	Space in which a market operates
+bn:00053461n	WIKT	The space, actual or metaphorical, in which a market operates.
+bn:00053461n	WIKT	A market.
+bn:00053461n	WIKTLB	Space, actual or metaphorical, in which a market operates.
+bn:00060701n	WN	A space where an automobile can be parked
+bn:00060701n	WIKI	A parking space is a location that is designated for parking, either paved or unpaved.
+bn:00060701n	WIKIDATA	Designated location for parking a vehicle
+bn:00060701n	OMWIKI	A space that is large enough to park one car.
+bn:00060701n	WIKT	A space in which a car or other vehicle can be parked.
+bn:00060701n	WIKT	A parking space reserved for handicapped people.
+bn:00060701n	WIKTLB	Space in which a vehicle can be parked
+bn:00142897n	WIKI	A meeting point, meeting place, or assembly point is a geographically defined place where people meet.
+bn:00142897n	WIKIDATA	Place where people meet
+bn:00351325n	WIKI	A gravity hill, also known as a magnetic hill, mystery hill, mystery spot or gravity road, is a place where the layout of the surrounding land produces an optical illusion, making a slight downhill slope appear to be an uphill slope.
+bn:00351325n	WIKI	Place where the layout of the surrounding land produces an optical illusion, making a slight downhill slope appear to be an uphill slope
+bn:00351325n	WIKIDIS	The geographical phenomenon, where an optical illusion can make a downward sloping hill appear to slope upward
+bn:01139390n	WIKI	An airport reference point is the centre point of an airport, located at the geometric centre of all the usable runways.
+bn:01139390n	WIKIDATA	Center point of an airport
+bn:02055997n	WIKI	A historic site or heritage site is an official location where pieces of political, military, cultural, or social history have been preserved due to their cultural heritage value.
+bn:02055997n	WIKIDATA	Official location where pieces of political, military or social history have been preserved
+bn:02542037n	WIKI	A town centre is the commercial or geographical centre or core area of a town.
+bn:02823485n	WIKI	A Lagerstätte is a sedimentary deposit that exhibits extraordinary fossils with exceptional preservation—sometimes including preserved soft tissues.
+bn:02823485n	WIKIDATA	Sedimentary deposit that exhibits extraordinary fossils with exceptional preservation
+bn:02823485n	WIKT	A sedimentary deposit that exhibits extraordinary fossil richness or completeness.
+bn:02899533n	WIKI	A sacred natural site is a natural feature or a large area of land or water having special spiritual significance to peoples and communities.
+bn:03346822n	WIKI	A pole of inaccessibility marks a location that is the most challenging to reach owing to its remoteness from geographical features that could provide access.
+bn:03346822n	WIKIDIS	A location that is the most challenging to reach owing to its remoteness from geographical features which could provide access
+bn:03346822n	WIKIDATA	Most distant point from any coastline
+bn:03347501n	WIKI	A place of worship is a specially designed structure or consecrated space where individuals or a group of people such as a congregation come to perform acts of devotion, veneration, or religious study.
+bn:03347501n	WIKIDATA	Specially designed structure or consecrated space for use in worshipping
+bn:03373044n	WIKI	The Christianization of sites that had been pagan occurred as a result of conversions in early Christian times, as well as an important part of the strategy of Interpretatio Christiana during the Christianization of pagan peoples.
+bn:05156431n	NONE	NONE
+bn:05314776n	NONE	NONE
+bn:00011436n	WN	A blemish made by dirt
+bn:00011436n	WIKT	A blemish; a smear.
+bn:00011436n	WIKT	Dirt
+bn:00011436n	WIKTLB	A blemish; a smear.
+bn:00011197n	WN	A mark or flaw that spoils the appearance of something (especially on a person's body)
+bn:00011197n	OMWIKI	A small flaw which spoils the appearance of something.
+bn:00011197n	WIKT	A small flaw which spoils the appearance of something, a stain, a spot.
+bn:00011197n	WIKTLB	Small flaw which spoils the appearance of something.
+bn:00005023n	WN	Outward or visible aspect of a person or thing
+bn:00005023n	OMWIKI	The outward or visible aspect of a person or thing.
+bn:00005023n	WIKT	The way something looks; personal presence.
+bn:00005023n	WIKTLB	Personal presence, form or look.
+bn:00025211n	WN	A small contrasting part of something
+bn:00025211n	WIKI	Merle is a pattern in a dog's coat.
+bn:00025211n	WIKIDIS	A pattern called "dapple" in the Dachshund dog breed
+bn:00025211n	WIKIDATA	Pattern in a dog''s coat
+bn:00025211n	OMWIKI	A round or irregular patch on the surface of a thing having a different color, texture etc.
+bn:00025211n	WIKT	A round or irregular patch on the surface of a thing having a different color, texture etc. and generally round in shape.
+bn:00025211n	WIKTLB	A round or irregular patch of a different color.
+bn:00053484n	WN	A pattern of marks
+bn:05961199n	NONE	NONE
+bn:00086664v	WN	Catch sight of
+bn:00086664v	WIKT	To spot; to catch sight of.
+bn:00086664v	WIKTLB	To spot at a distance.
+bn:00093726v	WN	Catch sight of; to perceive with the eyes
+bn:00068067n	WN	Albums of rock music that aspired to the status of art; first appeared in the 1960s
+bn:00068067n	WIKI	A rock opera is a collection of rock music songs with lyrics that relate to a common story.
+bn:00068067n	WIKIDATA	Work of rock music that presents a storyline told over multiple parts, songs or sections in the manner of opera
+bn:00355769n	WIKI	Sung-through is an adjective describing a musical, musical film, or opera with no spoken dialogue, except perhaps for some occasional lines spoken in the course of a song but remaining part of the song's lyrics rather than constituting stand-alone dialogue.
+bn:00355769n	WIKIDATA	Term describing a musical or opera with no spoken dialogue
+bn:01458416n	WIKI	In music, a pasticcio or pastiche is an opera or other musical work composed of works by different composers who may or may not have been working together, or an adaptation or localization of an existing work that is loose, unauthorized, or inauthentic.
+bn:01458416n	WIKIDATA	Opera or other musical work composed by many people
+bn:02137191n	WIKI	Traditional Chinese opera, or Xiqu, is a popular form of drama and musical theatre in China with roots going back to the early periods in China.
+bn:02137191n	WIKIDIS	An art form combining music and drama rooted in traditional Chinese culture
+bn:02988029n	WIKI	Cendrillon is an opera—described as a "fairy tale"—in four acts by Jules Massenet to a French libretto by Henri Caïn based on Perrault's 1698 version of the Cinderella fairy tale.
+bn:02988029n	WIKIDIS	1899 opera by Jules Massenet
+bn:02988029n	WIKIDATA	Opera in four acts by Jules Massenet based on Perrault''s 1698 version of the Cinderella fairy tale
+bn:03281342n	WIKI	The history of opera in the English language commences in the 17th century.
+bn:03575036n	WIKI	French opera is one of Europe's most important operatic traditions, containing works by composers of the stature of Rameau, Berlioz, Gounod, Bizet, Massenet, Debussy, Ravel, Poulenc and Messiaen.
+bn:03575036n	WIKIDATA	Opera in the French tradition
+bn:03737161n	WIKI	Taiwanese Ke-Tse opera is the only form of traditional drama known to have originated in Taiwan.
+bn:03737161n	WIKIDATA	Form of traditional drama originating in Taiwan
+bn:14341768n	NONE	NONE
+bn:02922041n	WIKI	Opera seria is an Italian musical term which refers to the noble and "serious" style of Italian opera that predominated in Europe from the 1710s to about 1770.
+bn:02922041n	WIKIDATA	Opera genre
+bn:02922041n	WIKT	Serious or tragic opera; grand opera.
+bn:03314845n	WIKI	Russian opera is the art of opera in Russia.
+bn:04084055n	WIKI	Operatic genre
+bn:06486059n	NONE	NONE
+bn:15265029n	WIKI	In opera, verismo was a post-Romantic operatic tradition associated with Italian composers such as Pietro Mascagni, Ruggero Leoncavallo, Umberto Giordano, Francesco Cilea and Giacomo Puccini.
+bn:00017888n	WN	French revolutionary heroine (a Girondist) who assassinated Marat (1768-1793)
+bn:00017888n	WIKI	Charlotte Corday is an opera in three acts by Lorenzo Ferrero to an Italian-language libretto by Giuseppe Di Leva, written on commission from the Teatro dell'Opera di Roma for the 200th anniversary of the French Revolution which was commemorated in 1989.
+bn:00076815n	WN	Athenian statesman who persuaded Athens to build a navy and then led it to victory over the Persians (527-460 BC)
+bn:00076815n	WIKI	Temistocle is an opera seria in three acts by the German composer Johann Christian Bach.
+bn:00076815n	WIKIDATA	Opera
+bn:00117865n	WIKI	See also: The Princess and the Cowherd
+bn:00118446n	WIKI	Il cappello di paglia di Firenze is an opera by Nino Rota to an Italian-language libretto by the composer and Ernesta Rota, based on the play Le chapeau de paille d'Italie by Eugène Labiche and Marc Michel.
+bn:00118446n	WIKIDIS	An opera by Nino Rota first produced in 1955
+bn:00118446n	WIKIDATA	Opera
+bn:00131245n	WIKI	Mae Naak is a 2003 opera composed by Thai composer Somtow Sucharitkul to an English libretto based on one of Thailand's best known ghost stories Mae Nak Phra Khanong.
+bn:00005624n	WN	An elaborate song for solo voice
+bn:00005624n	WIKI	An aria in music was originally any expressive melody, usually, but not always, performed by a singer.
+bn:00005624n	WIKIDATA	Musical piece for a single voice as part of a larger work
+bn:00005624n	OMWIKI	A piece for one voice accompanied by instruments (usually an orchestra).
+bn:00005624n	WIKT	A musical piece written typically for a solo voice with orchestral accompaniment in an opera or cantata.
+bn:00005624n	WIKTLB	Type of musical piece.
+bn:00075306n	WN	Translation of the words of a foreign opera (or choral work) projected on a screen above the stage
+bn:00075306n	WIKI	Surtitles, also known as supertitles, are translated or transcribed lyrics/dialogue projected above a stage or displayed on a screen, commonly used in opera or other musical performances.
+bn:00075306n	WIKT	A translation of a segment of the libretto or other text or sometimes a brief summary of the plot projected onto a screen above the stage during a performance of an opera or other similar performance sung in a foreign language; a supertitle.
+bn:17306106n	NONE	NONE
+bn:06162070n	WIKIDATA	Arrangement of data or visual presentation
+bn:00011638n	WN	A committee having supervisory powers
+bn:00011650n	WN	A member of a governing board
+bn:00027367n	WN	Member of a board of directors
+bn:00001600n	WN	A board appointed to advise the chief administrator
+bn:00005021n	WN	A board of officials that are not judicial but are appointed to hear appeals
+bn:00011651n	WN	A group of persons chosen to govern the affairs of a corporation or other large institution
+bn:00011651n	WIKI	A board of directors is a recognized group of people who jointly oversee the activities of an organization, which can be either a for-profit business, nonprofit organization, or a government agency.
+bn:00011651n	WIKI	The Directorate was the short-lived transitional government of Russia during the Russian Revolution.
+bn:00011651n	WIKIDIS	A governing body within a company, corporation, or other organization
+bn:00011651n	WIKIDIS	The ruling body of the Russian Provisional Government, September -- October 1917
+bn:00011651n	WIKIDATA	Body overseeing an organization
+bn:00011651n	OMWIKI	A room where the board of a company meets.
+bn:00011651n	OMWIKI	All representatives in a company that have the assignment to administrate the company itself.
+bn:00011651n	WIKT	The room where a group of people conducts its meetings.
+bn:00011651n	WIKT	A body of directors.
+bn:00011652n	WN	A board in charge of local public schools
+bn:00011652n	WIKI	A board of education, school committee or school board is the board of directors or board of trustees of a school, local school district or higher administrative level.
+bn:00011652n	WIKIDIS	The governing body of a school or higher administrative level
+bn:00011654n	WN	A board of officials elected to administer the public business of a New England town
+bn:00011654n	WIKI	The board of selectmen is commonly the executive arm of the government of New England towns in the United States.
+bn:00028556n	WN	A board to select personnel for involuntary military service
+bn:00028556n	WIKI	Draft boards are a part of the Selective Service System which register and select men of military age in the event of conscription in the United States.
+bn:00033921n	WN	The seven-member board governing the Federal Reserve System
+bn:00033921n	WIKI	The Board of Governors of the Federal Reserve System, commonly known as the Federal Reserve Board, is the main governing body of the Federal Reserve System.
+bn:00041190n	WN	A board that manages the affairs of an institution
+bn:00082080n	WN	A board of officials who divide an area into zones that are subject to different restrictions
+bn:00082080n	WIKI	Zoning in the United States includes various land use laws falling under the police power rights of state governments and local governments to exercise authority over privately owned real property.
+bn:00021015n	WN	A special group delegated to consider some matter - Milton Berle
+bn:00021015n	WIKI	A committee is a body of one or more persons that is subordinate to a deliberative assembly.
+bn:00021015n	WIKIDATA	Body of one or more persons that is subordinate to a deliberative assembly
+bn:00021015n	OMWIKI	A group of persons convened for the accomplishment of some specific purpose, typically with formal protocols.
+bn:00021015n	WIKT	A body of one or more persons convened for the accomplishment of some specific purpose, typically with formal protocols.
+bn:00021015n	WIKTLB	Group of persons convened for the accomplishment of some specific purpose.
+bn:00001428n	WN	A unit with administrative responsibilities
+bn:00011639n	WN	A stout length of sawn timber; made in a wide variety of sizes and used for many purposes
+bn:00011639n	WIKI	A plank is timber that is flat, elongated, and rectangular with parallel faces that are higher and longer than wide.
+bn:00011639n	WIKIDATA	Flat rectangular piece of timber
+bn:00011639n	OMWIKI	A piece of wood or similar material that has been sawn into a regular shape, usually in preparation for using it in some sort of construction.
+bn:00011639n	WIKT	A relatively long, wide and thin piece of any material, usually wood or similar, often for use in construction or furniture-making.
+bn:00011639n	WIKT	A long, broad and thick piece of timber, as opposed to a board which is less thick.
+bn:00011639n	WIKTLB	Long, broad and thick piece of timber.
+bn:15542435n	WIKI	A panel discussion, or simply a panel, involves a group of people gathered to discuss a topic in front of an audience, typically at scientific, business or academic conferences, fan conventions, and on television shows.
+bn:15542435n	WIKIDATA	Thin wooden plank used to paint on
+bn:15542435n	WIKIDATA	Group of people gathered to discuss a topic in front of an audience
+bn:00049368n	WN	A hard cross-grained round piece of wood in a board where a branch emerged
+bn:00018517n	WN	A cheap hard material made from wood chips that are pressed together and bound with synthetic resin
+bn:00018517n	WIKI	Hardboard, also called high-density fiberboard, is a type of fiberboard, which is an engineered wood product.
+bn:00018517n	WIKIDATA	Type of fiberboard
+bn:00018517n	WIKT	A building material made from wood chips compressed and bound with synthetic resin.
+bn:00018517n	WIKTLB	A material made from compressed wood chips.
+bn:00025553n	WN	A plank of softwood (fir or pine board)
+bn:00025553n	WIKT	A plank of softwood.
+bn:00025553n	WIKTLB	Plank of softwood.
+bn:00053782n	WN	A board that has a groove cut into one edge and a tongue cut into the other so they fit tightly together (as in a floor)
+bn:00053782n	WIKI	Matchboard is a type of wooden board that connects with others using a tongue and groove or a half lap system.
+bn:00053782n	WIKT	A type of wooden board that connects with others using a tongue and groove system.
+bn:00071951n	WN	One of a pair of planks used to make a track for rolling or sliding objects
+bn:00074531n	WN	Thick plank forming a ridge along the side of a wooden ship
+bn:00074531n	WIKI	A strake or stringer is part of the shell of the hull of a boat or ship which, in conjunction with the other strakes, keeps the vessel watertight and afloat.
+bn:00074531n	WIKI	A wale is a thick plank of wood fastened to the side of a ship to provide protection from wear.
+bn:00074531n	WIKT	A horizontal ridge or ledge on the outside planking of a wooden ship.
+bn:00052293n	WN	The wood of trees cut and prepared for use as building material
+bn:00052293n	WIKI	Lumber or timber is a type of wood that has been processed into beams and planks, a stage in the process of wood production.
+bn:00052293n	WIKIDIS	Or other rigid material, milled or sawn flat
+bn:00052293n	WIKIDATA	Wood that has been processed into beams and planks
+bn:00052293n	OMWIKI	A wood, especially when regarded as a construction material. 
+bn:00052293n	WIKT	Wood that has been pre-cut and is ready for use in construction.
+bn:00052293n	WIKT	Wood intended as a building material.
+bn:00052293n	WIKTLB	Wood that has been cut ready for construction.
+bn:00487696n	WIKI	A forest product is any material derived from forestry for direct consumption or commercial use, such as lumber, paper, or forage for livestock.
+bn:00487696n	WIKIDATA	Any product derived from a forestery
+bn:00011640n	WN	A flat piece of material designed for a special purpose
+bn:00011640n	OMWIKI	A flat piece of material designed for a special purpose.
+bn:00005210n	WN	A board that is pulled by a speedboat as a person stands on it and skims over the top of the water
+bn:00005210n	WIKI	Aquaplaning or hydroplaning by the tires of a road vehicle, aircraft or other wheeled vehicle occurs when a layer of water builds between the wheels of the vehicle and the road surface, leading to a loss of traction that prevents the vehicle from responding to control inputs.
+bn:00005210n	WIKIDIS	Runway, or other surface.
+bn:00005210n	WIKIDATA	Cause of tires slipping on wet surfaces
+bn:00005210n	OMWIKI	The phenomenon that creates a thin film of water between the tire of a moving vehicle and the road surface, making this vehicle (temporarily) become unmanageable.
+bn:00012879n	WN	A wooden or plastic board on which dough is kneaded or bread is sliced
+bn:00012879n	WIKI	A breadboard is a construction base for prototyping of electronics.
+bn:00012879n	WIKIDIS	A construction base used in electric/electronic circuit prototyping
+bn:00013813n	WN	A board that hangs on a wall; displays announcements
+bn:00013813n	WIKI	A bulletin board is a surface intended for the posting of public messages, for example, to advertise items wanted or for sale, announce events, or provide information.
+bn:00013813n	WIKIDIS	A kind of noticeboard
+bn:00013813n	WIKT	A board, hanging on a wall, on which notices and announcements are posted.
+bn:00018738n	WN	A wooden board where meats or vegetables can be cut
+bn:00018738n	WIKI	A cutting board is a durable board on which to place material for cutting.
+bn:00018738n	WIKIDIS	A food preparation utensil
+bn:00018738n	WIKIDATA	Kitchen utensil
+bn:00018738n	OMWIKI	A board on which food is cut.
+bn:00018738n	WIKT	A sturdy board, used for cutting and preparing food.
+bn:00018738n	WIKT	Chopping board.
+bn:00018738n	WIKTLB	A sturdy board, upon which one chops and prepares food.
+bn:00028563n	WN	A smooth board on which paper is placed for making drawings
+bn:00035097n	WN	A flat artifact that is thin relative to its length and width
+bn:00035097n	OMWIKI	A smooth and rectangular piece, that is thin relative to its length and width, made of firm substance, like metal, glass, wood, stone, steel etc.
+bn:00011645n	WN	A flat portable surface (usually rectangular) designed for board games
+bn:00083708v	WN	Get on board of (trains, buses, ships, aircraft, etc.)
+bn:00083708v	OMWIKI	To enter trains, buses, ships, aircraft, etc.
+bn:00083708v	WIKT	To step or climb onto or otherwise enter a ship, aircraft, train or other conveyance.
+bn:00083708v	WIKTLB	To step or climb.
+bn:00085363v	WN	To come or go into
+bn:00085363v	OMWIKI	To come or go into.
+bn:00085363v	WIKT	To go or come into (a state or profession).
+bn:00085363v	FRAMENET	Of a road, river, etc., move into an area.
+bn:00085363v	FRAMENET	Come or go into.
+bn:00008813n	WN	The handwear used by fielders in playing baseball
+bn:00008813n	WIKI	A baseball glove or mitt is a large leather glove worn by baseball players of the defending team, which assists players in catching and fielding balls hit by a batter or thrown by a teammate.
+bn:00008813n	WIKIDATA	Large leather glove worn by baseball players
+bn:00008813n	WIKT	A protective mitt used when playing baseball.
+bn:00008813n	WIKT	An oversized, protective glove such as an oven mitt or a baseball mitt.
+bn:00008813n	WIKT	A glove used when playing baseball to protect the hand and enhance catching ability.
+bn:00008813n	WIKTLB	Oversized, protective glove
+bn:00008812n	WN	Equipment used in playing baseball
+bn:00008812n	WIKI	Bat
+bn:00042792n	WN	Clothing for the hands
+bn:16580363n	WIKIDATA	Clothing: Protects from dangerous influences such as heat, humidity, cold etc
+bn:00037266n	WN	A glove of armored leather; protects the hand
+bn:00037266n	WIKI	A gauntlet is a name for several different styles of glove, particularly those with an extended cuff covering part of the forearm.
+bn:00037266n	WIKIDIS	Protective gloves used as a form of armour
+bn:00037266n	WIKIDATA	Name for several different styles of glove
+bn:00037266n	WIKT	Protective armor for the hands, formerly thrown down as a challenge to combat.
+bn:00037266n	WIKTLB	Protective armor for the hands.
+bn:00368108n	WIKI	There are three styles of gloves worn by ice hockey players.
+bn:00368108n	WIKIDATA	In ice hockey
+bn:00698150n	WIKI	Arm warmers are knitted "sleeves" worn on the arms.
+bn:00698150n	WIKIDATA	Clothing
+bn:02412943n	WIKI	A washing mitt is a piece of terry cloth, shaped like a pouch that the hand fits in.
+bn:02412943n	OMWIKI	Pouch in thick absorbent cloth designed to put one's hand in and wash oneself.
+bn:03284416n	WIKI	Grips are devices that are worn on the hands of artistic gymnasts when performing on various apparatus.
+bn:03284416n	WIKIDATA	Hand protector worn by gymnasts
+bn:03557615n	WIKI	The Episcopal gloves or Pontifical gloves are a Roman Catholic pontifical vestment worn a by bishop when celebrating Solemn Pontifical Mass. The Episcopal gloves are worn from the beginning of the Mass until the offertory, when they are removed.
+bn:17651762n	WIKI	Gym gloves, fitness gloves or weightlifting gloves are small sized gloves with open fingers, which makes them ideal for weightlifting and fitness training.
+bn:17651762n	WIKIDATA	Small sized gloves with open fingers, which makes them ideal to be used for weightlifting and fitness training
+bn:05448629n	NONE	NONE
+bn:06519267n	NONE	NONE
+bn:00034566n	WN	One of the parts of a glove that provides covering for a finger or thumb
+bn:00077113n	WN	The part of a glove that provides a covering for the thumb
+bn:00009075n	WN	A glove worn by batters in baseball to give a firmer grip on the bat
+bn:00009075n	WIKI	Batting gloves are a component in Bat-and-ball games sportswear.
+bn:00037267n	WN	A glove with long sleeve
+bn:00041017n	WN	A glove worn by golfers to give a firm grip on the handle of the golf club
+bn:00049080n	WN	A glove made of fine soft leather (as kidskin)
+bn:00055380n	WN	Glove that encases the thumb separately and the other four fingers together
+bn:00055380n	WIKT	A type of glove or garment that covers a hand with a separate sheath for the thumb, but not for other fingers, which are either enclosed in a single section or left uncovered.
+bn:00055380n	WIKTLB	Glove with a separate sheath for the thumb only.
+bn:00073046n	WN	A helmet worn by astronauts while in outer space
+bn:00073046n	WIKI	A space suit is a garment worn to keep a human alive in the harsh environment of outer space, vacuum and temperature extremes.
+bn:00073046n	WIKIDIS	A system of garments for use in outer space
+bn:00073046n	WIKIDATA	Gas-tight protective suit for astronauts who are in the vacuum of space
+bn:00073046n	WIKT	A system of protective and pressurized clothing, together with environmental equipment, worn by astronauts when in space.
+bn:00073046n	WIKTLB	System of clothing worn by astronauts when in space.
+bn:00073058n	WN	A pressure suit worn by astronauts while in outer space
+bn:00073058n	WIKI	A space suit is a garment worn to keep a human alive in the harsh environment of outer space, vacuum and temperature extremes.
+bn:00073058n	WIKIDIS	A system of garments for use in outer space
+bn:00073058n	WIKIDATA	Gas-tight protective suit for astronauts who are in the vacuum of space
+bn:03357847n	WIKI	Personal protective equipment refers to protective clothing, helmets, goggles, or other garments or equipment designed to protect the wearer's body from injury or infection.
+bn:03153749n	WIKI	Security is freedom from, or resilience against, potential harm from external forces.
+bn:03153749n	WIKIDIS	Being protected against danger or loss (es)
+bn:03153749n	WIKIDATA	Degree of resistance to, or protection from, harm
+bn:03153749n	WIKIQU	Security is the degree of resistance to, or protection from, harm.
+bn:03153749n	MSTERM	Protection of a computer system and its data from harm or loss.
+bn:03153749n	MSTERM	Documentation for developers that describes specific security risks and how to avoid them when implementing Microsoft software.
+bn:00012564n	WN	Boxing equipment consisting of big and padded coverings for the fists of the fighters; worn for the sport of boxing
+bn:00012564n	WIKI	Boxing gloves are cushioned gloves that fighters wear on their hands during boxing matches and practices.
+bn:00012564n	OMWIKI	A padded mitten, designed to protect the hand while punching, and worn in boxing.
+bn:00012564n	WIKT	A padded mitten, designed to protect the hand while punching, and worn in boxing.
+bn:00012564n	WIKTLB	Padded mitten worn in boxing.
+bn:00012563n	WN	Equipment used in boxing
+bn:00028129n	WN	An eastern range of the Alps in northeastern Italy famous for their dolomitic limestone
+bn:00028129n	WIKI	The Dolomites are a mountain range located in northeastern Italy.
+bn:00028129n	WIKIDIS	Section of the Alps
+bn:00028129n	WIKIDATA	Mountain range in the Alps
+bn:00028129n	WIKT	A section of the Alps in north-eastern Italy.
+bn:00028129n	WIKTLB	Section of the Alps.
+bn:00055780n	WN	The highest mountain peak in the Alps; on the border between France and Italy to the south of Geneva (15,781 feet high)
+bn:00055780n	WIKI	Le Mont Blanc, meaning "White Mountain", is the highest mountain in the Alps and the highest in Europe west of Russia’s Caucasus peaks.
+bn:00055780n	WIKIDIS	La Dame Blanche (French: the white lady), a mountain in the Alps
+bn:00055780n	WIKIDATA	Highest mountain in the Alps (4810 m)
+bn:00055780n	WIKIDATA	Highest mountain in the Alps (15,780.9 foot)
+bn:00055780n	WIKT	The highest mountain in Europe, on the Alps between France and Italy.
+bn:00055780n	WIKTLB	The highest mountain in Europe
+bn:00078837n	WN	A popular tourist area in the Tyrol
+bn:00053874n	WN	A mountain in the Alps on the border between Switzerland and Italy (14,780 feet high); noted for its distinctive shape
+bn:00053874n	WIKI	The Matterhorn is a mountain of the Alps, straddling the main watershed and border between Switzerland and Italy.
+bn:00053874n	WIKIDIS	A mountain in the Pennine Alps
+bn:00053874n	WIKIDATA	Mountain in the Pennine Alps on the border between Switzerland and Italy
+bn:00053874n	WIKIDATA	Swiss mountain guide
+bn:00053874n	WIKT	An iconic pyramidal mountain on the border of Switzerland and Italy.
+bn:00080847n	WN	A mountain in the Alps in Switzerland (14,804 feet high)
+bn:00080847n	WIKI	The Weisshorn is a major peak of the Alps and Switzerland, culminating at 4,506 metres above sea level.
+bn:00080847n	WIKIDATA	Mountain in the Pennine Alps
+bn:00017494n	WN	A series of hills or mountains
+bn:00017494n	WIKI	A mountain range or hill range is a series of mountains or hills ranged in a line and connected by high ground.
+bn:00017494n	WIKIDIS	A chain of hills or mountains
+bn:00017494n	WIKIDATA	Geographic area containing numerous geologically related mountains
+bn:00017494n	WIKIDATA	Row of mountains within a larger mountain range
+bn:00017494n	OMWIKI	A single, large mass consisting of a succession of mountains or narrowly spaced mountain ridges, with or without peaks, closely related in position, direction, formation, and age.
+bn:00017494n	WIKT	A line or series of mountains, buildings, etc.
+bn:00017494n	WIKT	A series of mountain ranges stretching across a continent.
+bn:00017494n	WIKT	A series of lines of mountains.
+bn:00017494n	WIKTLB	Line of mountains, buildings etc.
+bn:02356087n	WIKI	"Alpide" redirects here; not to be confused with "Alpine".
+bn:02356087n	WIKIDATA	Mountain
+bn:14406410n	WIKIDATA	Geographic area containing numerous  mountains, not necessarily geologically related to each other
+bn:00020039n	WN	A formal association of people with similar interests
+bn:00020039n	WIKI	A guild is an association of artisans or merchants who oversee the practice of their craft in a particular town.
+bn:00020039n	WIKI	A social club may be a group of people or the place where they meet, generally formed around a common interest, occupation, or activity.
+bn:00020039n	WIKIDIS	An association of craftsmen
+bn:00020039n	WIKIDATA	Corporations of craftsmen that existed in the Middle Ages
+bn:00020039n	WIKIDATA	May refer to a group of people or the place where they meet
+bn:00020039n	OMWIKI	A formal association of people with similar interests.
+bn:00020039n	WIKT	A group of people who meet from time to time to engage in a common interest; an association or organization.
+bn:00020039n	WIKT	An association of members joining together for some common purpose, especially sports or recreation.
+bn:00020039n	WIKT	A group of tradespeople made up of merchants, craftspeople, or artisans, particularly in the Middle Ages.
+bn:00020039n	WIKTLB	Association of tradespeople.
+bn:00051635n	WN	One of the chartered companies of London originating with the craft guilds
+bn:00051635n	WIKI	The livery companies of the City of London, currently 110 in number, comprise London's ancient and modern trade associations and guilds, almost all of which are styled the "Worshipful Company of..."
+bn:00051635n	WIKIDATA	Ancient trade association in the City of London
+bn:00051635n	WIKT	A guild of the City of London, some now incorporated and taking part in the local government of that place.
+bn:01045235n	WIKI	The guilds of Florence were secular corporations that controlled the arts and trades in Florence from the twelfth into the sixteenth century.
+bn:01290318n	WIKI	A samba school is a dancing club or school.
+bn:01290318n	WIKIDIS	Rio Grande do Sul
+bn:00267449n	WIKI	A gentlemen's club, or formerly traditional gentlemen's club, is a members-only private club originally set up by and for British upper-class men in the 18th century, and popularised by English upper middle-class men and women in the late 19th century and early 20th century.
+bn:00267449n	WIKIDATA	Members-only private club of a type originally set up by and for British upper class men
+bn:00267449n	WIKT	A private club of a type originally set up by and for British upper-class men in the 18th century.
+bn:03158263n	WIKI	Working men's clubs are a type of private social club first created in the 19th century in industrialised areas of the United Kingdom, particularly the North of England, the Midlands, Scotland and many parts of the South Wales Valleys, to provide recreation and education for working class men and their families.
+bn:03158263n	WIKI	Type of private social club first created in the nineteenth century in industrialised areas of the United Kingdom
+bn:01398042n	WIKI	The Lansdowne Club is a London private club, which was established in 1935.
+bn:01398042n	WIKIDATA	Private club in Mayfair, London, England
+bn:01719966n	WIKI	The Hambledon Club was a social club that is famous for its organisation of 18th century cricket matches.
+bn:01719966n	WIKIDIS	Was a notable progenitor of the game of cricket
+bn:01719966n	WIKIDATA	Social club that is famous for its organisation of 18th century cricket matches
+bn:17126582n	WIKIDATA	Organization in Zurich
+bn:17477757n	WIKI	The Petroleum Club of Houston is a private social club located on the 35th floor in the Total Plaza in Downtown Houston.
+bn:13929031n	WIKIDATA	A public corporation of the city of Basel
+bn:15277932n	NONE	NONE
+bn:16131256n	WIKIDATA	A public corporation of the city of Basel
+bn:16504140n	WIKIDATA	One of the twelve historical guilds of Zurich city in Switzerland
+bn:00254813n	WIKI	The Guild of Saint Luke was the most common name for a city guild for painters and other artists in early modern Europe, especially in the Low Countries.
+bn:00254813n	WIKIDIS	The painters' and artists' guild in Medieval Europe
+bn:00254813n	WIKIDATA	Type of artist collective, usually a guild including artist-related professions, such as art teachers and art appraisers
+bn:16682615n	WIKIDATA	A public corporation of the city of Basel
+bn:08859274n	NONE	NONE
+bn:08864225n	NONE	NONE
+bn:08869928n	NONE	NONE
+bn:08871755n	NONE	NONE
+bn:08872860n	NONE	NONE
+bn:00020049n	WN	Someone who is a member of a club
+bn:00047082n	WN	(usually plural) a social group whose members control some field of activity and who have common aims
+bn:00047082n	WIKI	Advocacy groups use various forms of advocacy in order to influence public opinion and/or policy.
+bn:00047082n	WIKIDATA	Defines and represents the interests of a particular social group
+bn:00047082n	OMWIKI	A group of people who share common traits, attitudes, beliefs or objectives and who have formed a formal organization to serve specific concerns of the membership.
+bn:00051712n	WN	A group of people who try actively to influence legislation
+bn:00051712n	WIKI	Advocacy groups use various forms of advocacy in order to influence public opinion and/or policy.
+bn:00051712n	WIKIDATA	Defines and represents the interests of a particular social group
+bn:00051712n	OMWIKI	Any politically active group with a common set of values about resource use allocation.
+bn:00051712n	OMWIKI	A class or group of people who try to lobby or influence public officials; collectively, lobbyists.
+bn:00051712n	WIKT	A class or group of people who try to influence public officials; collectively, lobbyists.
+bn:00051712n	WIKT	An organised group of people who use various forms of advocacy to influence public opinion and policy.
+bn:00051712n	WIKTLB	Group of people who try to lobby.
+bn:00073197n	WN	An individual or group who are concerned with some particular part of the economy and who try to influence legislators or bureaucrats to act in their favor
+bn:00073197n	WIKI	Advocacy groups use various forms of advocacy in order to influence public opinion and/or policy.
+bn:00073197n	WIKIDATA	Defines and represents the interests of a particular social group
+bn:00899174n	WIKI	A club is an association of two or more people united by a common interest or goal.
+bn:00899174n	WIKIDATA	Association of people united by a common interest or goal
+bn:00899174n	WIKT	An organization devoted to bringing game players together.
+bn:00057592n	WN	An organization that is not part of the local or state or federal government
+bn:00057592n	WIKI	Non-governmental organizations, nongovernmental organizations, or nongovernment organizations, commonly referred to as NGOs, are usually non-profit and sometimes international organizations independent of governments and international governmental organizations that are active in humanitarian, educational, health care, public policy, social, human rights, environmental, and other areas to effect changes according to their objectives.
+bn:00057592n	WIKIDIS	A legally constituted, non-governmental organization with no participation or representation of any government
+bn:00057592n	WIKIDATA	Organization that is neither a part of a government not a conventional for-profit business
+bn:00057592n	OMWIKI	A private, voluntary, non-profit organisation, acting as pressure group. Throughout the world there are more than 5.000 international NGOs which are concerned with the environment and development, with millions of supporters.
+bn:00057592n	WIKT	Non-governmental organization / non-governmental organisation / nongovernmental organization, nongovernment organization.
+bn:00057592n	WIKT	A legally constituted non-commercial organization created by natural or legal persons with no participation or representation of any government. Abbreviated NGO.
+bn:00057592n	WIKT	Alternative spelling of non-governmental organization.
+bn:00057592n	WIKTLB	Organization with no government participation.
+bn:00020040n	WN	Stout stick that is larger at one end
+bn:00020040n	WIKI	A club is among the simplest of all weapons: a short staff or stick, usually made of wood, wielded as a weapon since prehistoric times.
+bn:00020040n	WIKIDIS	A blunt-force weapon
+bn:00020040n	WIKIDATA	Short staff or stick, usually made of wood, wielded as a weapon
+bn:03623190n	WIKI	A blunt instrument is any solid object used as a weapon, which damages its target by applying direct mechanical force, and has no penetrating point or edge, or is wielded so that the point or edge is not the part of the weapon that inflicts the injury.
+bn:03623190n	WIKI	Weapon causing blunt force trauma
+bn:00020041n	WN	A building that is occupied by a social club
+bn:00020041n	WIKT	Any building used by a club for meetings or social activities.
+bn:00020041n	WIKTLB	A building used by a club.
+bn:00020055n	WN	A room used for the activities of a club
+bn:00020055n	WIKT	A room used for club activities.
+bn:00066381n	WN	A room set aside for reading
+bn:00066381n	WIKT	A room in a library set aside for reading.
+bn:00066381n	WIKTLB	Room in a library.
+bn:00020042n	WN	Golf equipment used by a golfer to hit a golf ball
+bn:00020042n	WIKI	A golf club is a club used to hit a golf ball in a game of golf.
+bn:00020042n	WIKIDATA	Piece of sporting equipment used to hit a golf ball in a game of golf
+bn:00020042n	WIKT	In golf, the implement used to hit the golf ball.
+bn:00020042n	WIKT	An implement to hit the ball in some ballgames, e.g. golf.
+bn:00020042n	WIKT	A golf club used for middle-distance shots.
+bn:00020042n	WIKT	The portion of the head of a golf club to which the shaft of the club attaches.
+bn:00020044n	WN	(golf) the head of the club which strikes the ball
+bn:00020044n	WIKT	The head of a golf club: the part of the club that strikes the ball.
+bn:00041016n	WN	Sports equipment used in playing golf
+bn:00041016n	WIKI	Golf equipment encompasses the various items that are used to play the sport of golf.
+bn:00041016n	WIKIDATA	Various items that are used to play the sport of golf
+bn:00020043n	WN	A playing card in the minor suit that has one or more black trefoils on it
+bn:00014419n	WN	A spot that is open late at night and that provides entertainment (as singers or dancers) as well as dancing and food and drink
+bn:00014419n	WIKI	A nightclub is an entertainment venue and bar which serves alcoholic beverages that usually operates late into the night.
+bn:00014419n	WIKIDIS	Or discothèque, an entertainment venue
+bn:00014419n	WIKIDATA	Entertainment venue which usually operates late into the night
+bn:00014419n	OMWIKI	Drinking, dancing, and entertainment venue which does its primary business after dark.
+bn:00014419n	OMWIKI	A nightclub providing short programs of live entertainment.
+bn:00014419n	WIKT	The nightclub or restaurant where such entertainment is held.
+bn:00014419n	WIKT	A public or private establishment that is open late at night to provide entertainment, food, drink, music and/or dancing.
+bn:00014419n	WIKT	An establishment that is open late at night, especially one that provides entertainment, such as a nightclub.
+bn:00014419n	WIKTLB	Live entertainment held in a restaurant or nightclub.
+bn:00073590n	WN	A business establishment for entertainment
+bn:01748036n	WIKI	A music venue is any location used for a concert or musical performance.
+bn:01748036n	WIKIDIS	Place used for a concert or musical performance
+bn:01748036n	WIKIDATA	Any location used for a concert or musical performance
+bn:00014157n	WN	An establishment (a factory or an assembly plant or retail store or warehouse etc.) where business is conducted, goods are made or stored or processed or where services are rendered
+bn:03213311n	WIKI	A sports club or sporting club, sometimes athletics club or sports society or sports association, is a group of people formed for the purpose of playing sports.
+bn:03213311n	WIKIDATA	Organization for the purpose of playing one or more sports
+bn:10945696n	NONE	NONE
+bn:14984468n	WIKIDATA	Building, where dance events take place
+bn:00083686v	WN	Strike with a club or a bludgeon
+bn:00083686v	FRAMENET	Beat with a club or similar implement.
+bn:00089347v	WN	Deal a blow to, either with the hand or with an instrument
+bn:00089347v	OMWIKI	To deal one or more blows with a swift movement with the hand or one instrument.
+bn:00089347v	WIKT	To administer a blow to.
+bn:00089347v	WIKTLB	To give a blow.
+bn:00089347v	FRAMENET	Direct a blow at with one's hand or a tool or weapon.
+bn:00040605n	WN	A brittle transparent solid with irregular atomic structure
+bn:00040605n	WIKI	Glass is a non-crystalline amorphous solid that is often transparent and has widespread practical, technological, and decorative usage in, for example, window panes, tableware, and optoelectronics.
+bn:00040605n	WIKIDIS	An amorphous solid material
+bn:00040605n	WIKIDATA	Amorphous (non-crystalline) solid material
+bn:00040605n	OMWIKI	A hard, amorphous, inorganic, usually transparent, brittle substance made by fusing silicates, sometimes borates and phosphates, with certain basic oxides and then rapidly cooling to prevent crystallization.
+bn:00040605n	WIKT	Amorphous (non-crystalline) substance.
+bn:00035237n	WN	Optical glass of high dispersion and high refractive index
+bn:00035237n	WIKI	Flint glass is optical glass that has relatively high refractive index and low Abbe number.
+bn:00035237n	WIKIDIS	A form of glass characterised by having a high refractive index and a low Abbe number
+bn:00035237n	WIKIDATA	Optical glass that has relatively high refractive index and low Abbe number (high dispersion)
+bn:00049795n	WN	Glass made with plates of plastic or resin or other material between two sheets of glass to prevent shattering
+bn:00049795n	WIKI	Safety glass is glass with additional safety features that make it less likely to break, or less likely to pose a threat when broken.
+bn:00049795n	WIKI	Laminated glass is a type of safety glass that holds together when shattered.
+bn:00049795n	WIKT	A laminate of two or more sheets of glass with a sheet of plastic between each sheet.
+bn:00050360n	WN	Glass containing lead oxide; has a high refractive index
+bn:00050360n	WIKI	Lead glass, commonly called crystal, is a variety of glass in which lead replaces the calcium content of a typical potash glass.
+bn:00050360n	WIKIDIS	Potassium silicate glass which has been impregnated with a small amount of lead oxide in its fabrication
+bn:00050360n	OMWIKI	High grade, smoothed glass which gleams intensely.
+bn:00050360n	WIKT	Cut glass, containing lead oxide, that has a high refractive index.
+bn:00659678n	WIKI	Borosilicate glass is a type of glass with silica and boron trioxide as the main glass-forming constituents.
+bn:00659678n	WIKIDIS	A type of glass with the main glass-forming constituents silica and boron oxide
+bn:01449414n	WIKI	Ground glass is glass whose surface has been ground to produce a flat but rough finish.
+bn:01612166n	WIKI	Cobalt glass—known as "smalt" when ground as a pigment—is a deep blue colored glass prepared by including a cobalt compound, typically cobalt oxide or cobalt carbonate, in a glass melt.
+bn:01612166n	WIKT	A deep blue pigment made from powdered glass mixed with cobalt oxide.
+bn:02382533n	WIKI	Float glass is a sheet of glass made by floating molten glass on a bed of molten metal, typically tin, although lead and various low melting point alloys were used in the past.
+bn:02382533n	WIKIDATA	Material
+bn:02382533n	WIKT	Glass in the form of flat sheets, made by floating molten glass on the surface of molten metal; currently the main method of producing window glass.
+bn:03146624n	WIKI	Dichroic glass is glass which displays two different colors by undergoing a color change in certain lighting conditions.
+bn:03146624n	WIKIDATA	Glass which undergo a color change in certain lighting conditions
+bn:03321906n	WIKI	The term "opaline" in current times refers to many forms of opaque and colored glass.
+bn:03321906n	WIKI	Bluish white, fiery, opalescent, translucent glass
+bn:03321906n	WIKIDIS	The decorative French glass
+bn:03882257n	WIKI	Uranium glass is glass which has had uranium, usually in oxide diuranate form, added to a glass mix before melting for coloration.
+bn:13977880n	WIKIDATA	German term: describes a type of glass
+bn:14311596n	WIKI	Gold glass or gold sandwich glass is a luxury form of glass where a decorative design in gold leaf is fused between two layers of glass.
+bn:14366453n	WIKI	Container glass is a type of glass for the production of glass containers, such as bottles, jars, drinkware, and bowls.
+bn:14366453n	WIKIDATA	Glass used for glass containers
+bn:15849723n	WIKIDATA	Special kinds of glass used for making various components of optical devices and systems
+bn:16206537n	NONE	NONE
+bn:10485094n	NONE	NONE
+bn:18175481n	NONE	NONE
+bn:00062886n	WN	Glass formed into large thin sheets
+bn:00062886n	WIKI	Plate glass, flat glass or sheet glass is a type of glass, initially produced in plane form, commonly used for windows, glass doors, transparent walls, and windscreens.
+bn:00062886n	WIKI	Any glass made in flat sheets
+bn:00062886n	WIKT	Sheet glass; a type of glass, initially produced in plane form, commonly used for windows, windshields, etc.
+bn:00079732n	WN	Fine glassware made near Venice
+bn:00079732n	WIKI	Venetian glass is a type of glass object made in Venice, Italy, primarily on the island of Murano.
+bn:00827119n	WIKI	Forest glass is late medieval glass produced in northwestern and central Europe from approximately 1000–1700 AD using wood ash and sand as the main raw materials and made in factories known as glasshouses in forest areas.
+bn:00827119n	WIKI	Late medieval glass produced in northwestern and central Europe
+bn:02253632n	WIKI	In condensed matter physics and materials science, an amorphous or non-crystalline solid is a solid that lacks the long-range order that is characteristic of a crystal.
+bn:02253632n	WIKIDATA	Crystal system
+bn:00012836n	WN	A 3-dimensional geometric arrangement of the atoms or molecules or ions composing a crystal
+bn:00012836n	WIKI	In crystallography, crystal structure is a description of the ordered arrangement of atoms, ions or molecules in a crystalline material.
+bn:00012836n	WIKI	In geometry and crystallography, a Bravais lattice, named after Auguste Bravais, is an infinite array of discrete points in three dimensional space generated by a set of discrete translation operations described by:
+bn:00012836n	WIKIDATA	Unique arrangement of atoms or molecules in a crystalline liquid or solid
+bn:00012836n	WIKT	A regular three-dimensional geometric arrangement of atoms, molecules or ions in a crystal.
+bn:00012836n	WIKT	An infinite array of discrete points generated by a set of discrete translation operations R = n 1 a 1 + n 2 a 2 + n 3 a 3 , where ni are any integers and ai are known as the primitive vectors which lie in different directions and span the lattice.
+bn:00079110n	WN	The smallest group of atoms or molecules whose repetition at regular intervals in three dimensions produces the lattices of a crystal
+bn:00079110n	WIKI	In crystallography, crystal structure is a description of the ordered arrangement of atoms, ions or molecules in a crystalline material.
+bn:00079110n	WIKIDATA	Unique arrangement of atoms or molecules in a crystalline liquid or solid
+bn:00079110n	WIKT	The smallest repeating structure of atoms within a crystal, from which the structure of the complete crystal can be inferred.
+bn:00079110n	WIKTLB	Smallest repeating structure in crystal.
+bn:03218185n	WIKI	In crystallography, the terms crystal system, crystal family and lattice system each refer to one of several classes of space groups, lattices, point groups or crystals.
+bn:03218185n	WIKIDATA	Class of space groups, lattices, point groups, or crystals
+bn:00040608n	WN	Glassware collectively
+bn:00040608n	WIKT	Glassware.
+bn:00040622n	WN	An article of tableware made of glass
+bn:00040622n	WIKT	Glasses, jugs and other tableware made of glass.
+bn:00040622n	WIKT	Work, such as art, made from glass.
+bn:00080482n	WN	Articles of the same kind or material; usually used in combination: `silverware', `software'
+bn:14788565n	WIKIDATA	Vessel intended for an individual to use for drinking wine, water, or other beverage
+bn:00049259n	WN	Hardware utensils for use in a kitchen
+bn:00049259n	WIKI	For a record label, see Kitchenware Records
+bn:00049259n	WIKIDATA	Object used in the kitchen
+bn:00049259n	WIKT	Instruments and utensils found in a kitchen, particularly those associated with the preparation and serving of food.
+bn:00037229n	WN	Meat cut from the thigh of a hog (usually smoked)
+bn:00037229n	WIKI	Gammon is the hind leg of pork after it has been cured by dry-salting or brining.
+bn:00037229n	WIKI	Ham is pork from a leg cut that has been preserved by wet or dry curing, with or without smoking.
+bn:00037229n	WIKIDIS	A cut of quick-cured pork leg
+bn:00037229n	WIKIDATA	Processed pork foodstuff
+bn:00037229n	OMWIKI	Meat cut from the thigh of a pork.
+bn:00037229n	WIKT	Meat from the thigh of a hog cured for food.
+bn:00037229n	WIKTLB	Thigh of a hog cured for food.
+bn:00064802n	WN	Italian salt-cured ham usually sliced paper thin
+bn:00064802n	WIKI	Prosciutto is an Italian dry-cured ham that is usually thinly sliced and served uncooked; this style is called prosciutto crudo in Italian and is distinguished from cooked ham, prosciutto cotto.
+bn:00064802n	WIKIDIS	A type of ham
+bn:00064802n	WIKIDATA	Ham
+bn:00064802n	WIKIDATA	San Daniele ham is one of the finest italian prosciutto.
+bn:00064802n	WIKT	A dry-cured ham from Italy, thinly sliced.
+bn:00064802n	WIKTLB	Dry-cured ham from Italy.
+bn:00080062n	WN	A lean hickory-smoked ham; has dark red meat
+bn:00080062n	WIKI	Country ham is a variety of ham produced using a method of curing and smoking practiced in Southeast U.S. states such as North Carolina, South Carolina, Tennessee, Virginia, Georgia, Kentucky, Maryland, and other nearby states.
+bn:00080062n	WIKIDATA	Variety of cured ham
+bn:00155733n	WIKI	Njeguška pršuta is a specialty of Njeguši, a village in Montenegro.
+bn:00527151n	WIKI	Bayonne Ham or Jambon de Bayonne is a cured ham that takes its name from the ancient port city of Bayonne in the far South West of France, a city located in both the cultural regions of Basque Country and Gascony.
+bn:00527151n	WIKIDATA	Protected designation of origin
+bn:00527151n	WIKT	An air-dried salted ham that takes its name from the French city of Bayonne.
+bn:00527151n	WIKTLB	An air dried salted ham that takes its name from the French city of Bayonne.
+bn:00567470n	WIKI	Jamón serrano is a type of dry-cured Spanish jamón which includes most varieties other than those made with black Iberian pigs.
+bn:00567470n	WIKIDIS	A Spanish variety of cured ham
+bn:00567470n	WIKIDATA	Type of dry-cured Spanish ham
+bn:00728655n	WIKI	Ammerländer Schinken – or Ammerländer Knochenschinken – is a type of dry-cured ham produced in the Ammerland area of North Germany.
+bn:02288616n	WIKI	Speck Alto Adige PGI is a dry-cured, lightly smoked ham, produced in South Tyrol, northern Italy.
+bn:02523876n	WIKI	Vallée d’Aoste Jambon de Bosses is a spicy cured ham product from Saint-Rhémy-en-Bosses in the Aosta Valley in Italy, one of the region's specialties.
+bn:02752037n	WIKI	Éisleker Ham or Jambon d'Oesling, literally Oesling ham, is a speciality from the Oesling region in the north of Luxembourg which is produced from the hind legs of pigs.
+bn:02752037n	WIKIDATA	Speciality from the Oesling region in the north of Luxembourg
+bn:03082941n	WIKI	Jamón ibérico, "Iberian ham", is a type of cured ham produced in Spain and Portugal.
+bn:03082941n	WIKT	A type of cured ham from Spain, made from the black Iberian pig.
+bn:03183003n	WIKI	Elenski but is a dry-cured ham from the town of Elena in northern Bulgaria and a popular delicacy throughout the country.
+bn:03183003n	WIKIDATA	Dry-cured ham from the town of Elena in northern Bulgaria
+bn:03316331n	WIKI	Black Forest ham, or Schwarzwälder Schinken in German, is a variety of dry-cured smoked ham, produced in the Black Forest region of Germany.
+bn:03316331n	WIKIDIS	A variety of smoked ham
+bn:03455364n	WIKI	Jinhua ham is a type of dry-cured ham named after the city of Jinhua, where it is produced, in the Zhejiang province of eastern China.
+bn:04992916n	NONE	NONE
+bn:12371906n	NONE	NONE
+bn:14031385n	NONE	NONE
+bn:14143600n	WIKI	Prague Ham is a type of brine-cured, stewed, and mildly beechwood-smoked boneless ham originally from Prague in Bohemia.
+bn:14248865n	NONE	NONE
+bn:14840433n	WIKI	Spam is a brand of canned cooked meat made by Hormel Foods Corporation.
+bn:14840433n	WIKIDIS	A canned pork meat product
+bn:14840433n	WIKIDATA	Canned precooked meat product
+bn:14840433n	OMWIKI	A canned meat product made of 100 % pure pork and ham.
+bn:14840433n	WIKT	(tinned meat product)
+bn:00024626n	WN	Cut of meat from a hog or pig
+bn:00042705n	WN	A sandwich made with a filling of sliced ham
+bn:00042705n	WIKI	The ham sandwich is a common type of sandwich.
+bn:00042705n	WIKIDIS	A popular sandwich
+bn:00042705n	WIKT	A sandwich made with ham.
+bn:00194186n	WIKI	A Denver sandwich, also known as a Western sandwich, consists of a Denver omelet, sandwiched between two pieces of bread.
+bn:00256080n	WIKI	Gimbap is a Korean dish made from cooked rice and other ingredients that are rolled in gim—dried sheets of laver seaweed—and served in bite-sized slices.
+bn:00256080n	WIKIDATA	Seeweed roll
+bn:00256080n	WIKT	A Korean dish of steamed white rice and other ingredients rolled in sheets of dried laver seaweed and served in bite-size slices.
+bn:00256080n	WIKTLB	A Korean dish.
+bn:01141965n	WIKI	A ham and cheese sandwich is a common type of sandwich.
+bn:01141965n	WIKI	Common type of sandwich
+bn:01141965n	WIKIDIS	A variation on the ham sandwich
+bn:01151021n	WIKI	Garbure is a thick French soup or stew of ham with cabbage and other vegetables, usually with cheese and stale bread added.
+bn:01914030n	WIKI	In traditional Mexican cuisine, the quesadilla sincronizada is a tortilla-based sandwich made by placing ham and sometimes refried beans and chorizo and a portion of Oaxaca cheese between two corn tortillas.
+bn:02375266n	WIKI	A Monte Cristo is a fried ham and cheese sandwich, a variation of the French croque-monsieur.
+bn:02375266n	WIKIDIS	A grilled or fried sandwich
+bn:02375266n	WIKT	A fried sandwich with ham and/or turkey, sometimes battered and often served with fruit and cream.
+bn:02375308n	WIKI	A croque monsieur is a baked or fried boiled ham and cheese sandwich.
+bn:02375308n	WIKIDIS	A grilled ham and cheese sandwich
+bn:02375308n	WIKIDATA	A grilled ham-and-cheese sandwich
+bn:02375308n	WIKT	A hot grilled ham and cheese sandwich, originating from France.
+bn:02375308n	WIKT	A croque-monsieur with a fried egg on top.
+bn:03129668n	WIKI	Schnitz un knepp, often spelled schnitz un gnepp, is a popular main dish item in the cuisine of the Pennsylvania Dutch and rural families.
+bn:03622675n	WIKI	Budae-jjigae or sausage stew is a type of jjigae, made with ham, sausage, baked beans, and kimchi.
+bn:03622675n	WIKI	Sausage stew
+bn:03622675n	WIKIDATA	Type of thick Korean soup
+bn:04833607n	NONE	NONE
+bn:04889222n	NONE	NONE
+bn:04897090n	NONE	NONE
+bn:13833748n	WIKI	Pizza capricciosa is a style of pizza in Italian cuisine prepared with mozzarella cheese, Italian baked ham, mushroom, artichoke and tomato.
+bn:13833748n	WIKI	Pizza prepared with mozzarella cheese, Italian baked ham, mushroom, artichoke and tomato
+bn:14519233n	NONE	NONE
+bn:00052331n	WN	Any of various sausages or molded loaf meats sliced and served cold
+bn:00052331n	WIKI	Lunch meats—also known as cold cuts, luncheon meats, cooked meats, sliced meats, cold meats, smallgoods, Colton and deli meats—are precooked or cured meat, often sausages or meat loaves, that are sliced and served cold or hot on sandwiches or on party trays.
+bn:00052331n	WIKIDATA	Precooked or cured meat, often sausages or meat loaves, that are sliced and served cold or hot on sandwiches or on party trays
+bn:00052331n	WIKT	Luncheon meat.
+bn:00052331n	WIKT	Lunch meat.
+bn:00052331n	WIKT	Any processed, prepackaged molded meat served sliced for consumption in sandwiches or salads.
+bn:00052331n	WIKTLB	Processed, prepackaged molded meat.
+bn:00063606n	WN	Meat from a domestic hog or pig
+bn:00063606n	WIKI	Pork is the culinary name for meat from a domestic pig.
+bn:00063606n	WIKIDIS	The meat of a domestic pig
+bn:00063606n	WIKIDATA	Meat from a pig
+bn:00063606n	OMWIKI	The meat of a pig.
+bn:00063606n	WIKT	The meat of a pig; swineflesh.
+bn:00063606n	WIKT	The flesh or meat of a pig; pork.
+bn:00063606n	WIKT	The meat or flesh of a pig, used especially for food; pork.
+bn:00063606n	WIKT	The edible meat of such an animal; pork.
+bn:00063606n	WIKTLB	Meat of a pig.
+bn:05321410n	NONE	NONE
+bn:00024604n	WN	A piece of meat that has been cut from an animal carcass
+bn:00024604n	WIKI	A primal cut or cut of meat is a piece of meat initially separated from the carcass of an animal during butchering.
+bn:00024604n	WIKIDIS	Several types of cuts of meat (beef, lamb, pork, chicken etc..)
+bn:00024604n	WIKIDATA	Piece of meat initially separated from the carcass of an animal during butchering
+bn:00024604n	WIKT	One of the pieces of meat initially separated from the carcass during butchering.
+bn:00024604n	WIKT	A slab, especially of meat.
+bn:00024604n	WIKTLB	Slab of meat.
+bn:00020544n	WN	Sliced assorted cold meats
+bn:00020544n	WIKT	Any cold cooked meat such as luncheon meat or lunch meat, spam, chopped pork, corned beef, and so on.
+bn:00020544n	WIKT	Cooked, sliced meat served cold, as in a sandwich or a tray of finger food.
+bn:00020544n	WIKTLB	Cold cooked meats.
+bn:00051689n	WN	A quantity of food (other than bread) formed in a particular shape
+bn:00051689n	WIKT	Any solid block of food, such as meat or sugar.
+bn:00051689n	WIKTLB	Block of food.
+bn:14048803n	WIKIDATA	Products, which is derived from fresh meat of animals
+bn:00054026n	WN	The flesh of animals (including fishes and birds and snails) used as food
+bn:00054026n	WIKI	Meat is animal flesh that is eaten as food.
+bn:00054026n	WIKIDIS	Animal flesh used as food
+bn:00054026n	WIKIDATA	Animal flesh eaten as food
+bn:00054026n	OMWIKI	The edible flesh of animals, especially that of mammals.
+bn:00054026n	WIKT	The flesh of an animal used as food.
+bn:00054026n	WIKTLB	Animal flesh used as food.
+bn:00054026n	WIKIQU	Meat is the flesh of an animal which is eaten.
+bn:00035182n	WN	The soft tissue of the body of a vertebrate: mainly muscle tissue and fat
+bn:00035182n	WIKI	Flesh is the soft substance of the body of a living thing.
+bn:00035182n	WIKIDATA	Soft substance of an animal body that consists of muscle and fat
+bn:00035182n	WIKT	The soft tissue of the body, especially muscle and fat.
+bn:00012146n	WN	A deep prolonged loud noise
+bn:00012146n	WIKI	Thunder is the sound caused by lightning.
+bn:00012146n	WIKIDIS	The sound of the shock wave produced by lightning
+bn:00012146n	WIKIDATA	Sound caused by lightning
+bn:00012146n	OMWIKI	Short, violent thunder.
+bn:00012146n	OMWIKI	Sound produced by fast air expansion induced by a lightning.
+bn:00012146n	WIKT	A deep, rumbling noise.
+bn:00012146n	WIKT	A loud, deep, prolonged sound, as of a large beast; a roar.
+bn:00012146n	WIKT	A loud resounding noise.
+bn:00012146n	WIKT	A sudden, loud thunder caused by a nearby lightning strike; a shock of thunder, as opposed to reverberating rumble.
+bn:00012146n	WIKT	A low-pitched, resonant sound, such as of an explosion.
+bn:00012146n	WIKIQU	Thunder is the sound made by lightning.
+bn:00030169n	WN	A storm resulting from strong rising air currents; heavy rain or hail along with thunder and lightning
+bn:00030169n	WIKI	A thunderstorm, also known as an electrical storm, lightning storm, or thundershower, is a storm characterized by the presence of lightning and its acoustic effect on the Earth's atmosphere, known as thunder.
+bn:00030169n	WIKIDATA	Type of weather
+bn:00030169n	OMWIKI	A storm caused by strong rising air currents and characterized by thunder and lightning and usually heavy rain or hail.
+bn:00030169n	WIKT	A storm consisting of thunder and lightning produced by a cumulonimbus, usually accompanied with heavy rain, wind, and sometimes hail; and in rarer cases sleet, freezing rain, or snow.
+bn:00030169n	WIKTLB	Storm with thunder and lightning.
+bn:00030169n	FRAMENET	A storm with thunder and lightning and typically also heavy rain or hail.
+bn:00012147n	WN	A state of economic prosperity
+bn:00064819n	WN	An economic state of growth with rising profits and full employment
+bn:00064819n	WIKI	Prosperity is the state of flourishing, thriving, good fortune or successful social status.
+bn:00064819n	OMWIKI	State of being prosperous; wealth or success.
+bn:00064819n	WIKIQU	Prosperity refers to states of flourishing, thriving, good fortune, or successful social status, which often involve measurable wealth but also includes others factors which can be independent of this to varying degrees, such as happiness and health.
+bn:00029666n	WN	The condition of the economy
+bn:00012148n	WN	A pole carrying an overhead microphone projected over a film or tv set
+bn:00063293n	WN	A long (usually round) rod of wood or metal or plastic
+bn:00063293n	OMWIKI	A strong upright piece of wood, metal etc. that is fixed into the ground, especially to support something.
+bn:00063293n	WIKT	Originally, a stick; now specifically, a long and slender piece of metal or wood, used for various construction or support purposes.
+bn:00068105n	WN	A long thin implement made of metal or wood
+bn:00068105n	OMWIKI	A long thin implement made of metal or wood.
+bn:00083778v	WN	Make a resonant sound, like artillery
+bn:00083778v	WIKT	To make a loud, resonant sound.
+bn:00083778v	WIKTLB	To make a loud, resonant sound.
+bn:00083778v	FRAMENET	Make a loud, deep sound.
+bn:00080526n	WN	Someone who washes things for a living
+bn:00080526n	WIKT	A person who washes for a living; a washerman or washerwoman.
+bn:00080526n	WIKTLB	Person who washes for a living.
+bn:00050215n	WN	A working woman who takes in washing
+bn:00050215n	WIKT	A woman whose employment is laundering.
+bn:00050215n	WIKT	A woman who washes other people's laundry for payment.
+bn:00050215n	WIKTLB	Woman who washes other people's laundry.
+bn:00050221n	WN	Operates industrial washing machine
+bn:00081304n	WN	Someone who washes windows
+bn:00080527n	WN	Seal consisting of a flat disk placed to prevent leakage
+bn:00080527n	WIKI	A washer is a thin plate with a hole that is normally used to distribute the load of a threaded fastener, such as a screw or nut.
+bn:00080527n	WIKIDATA	Thin plate with a hole, normally used to distribute the load of a threaded fastener
+bn:00080527n	WIKT	A flat disk, placed beneath a nut or at some joint, to distribute pressure, alleviate friction or prevent leakage.
+bn:00859003n	WIKI	An anchor plate or wall washer is a large plate or washer connected to a tie rod or bolt.
+bn:00859003n	WIKIDIS	To strengthen buildings
+bn:01035582n	WIKI	A rubber washer is a ring made of rubber used in mechanical devices.
+bn:01035582n	WIKT	A ring or tube made of rubber, in particular a circular air-filled tube used as an aid to swimming.
+bn:01035582n	WIKTLB	Inflatable ring used as an aid to swimming.
+bn:03810988n	WIKI	A Belleville washer, also known as a coned-disc spring, conical spring washer, disc spring, Belleville spring or cupped spring washer, is a conical shell which can be loaded along its axis either statically or dynamically.
+bn:03810988n	WIKIDIS	A type of spring
+bn:03810988n	WIKT	A type of conical washer.
+bn:00051777n	WN	Washer that prevents a nut from loosening
+bn:00051777n	WIKI	For the Bronze Age jewellery, see lock ring.
+bn:00051777n	WIKT	A threaded washer used to prevent components from become loose during rotation. They are found on a bottom bracket and a track hub.
+bn:00070017n	WN	Fastener that provides a tight and perfect closure
+bn:00070017n	WIKT	A tight closure, secure against leakage.
+bn:00070017n	WIKTLB	Tight closure.
+bn:00007365n	WN	A home appliance for washing clothes and linens automatically
+bn:00007365n	WIKI	A washing machine is a device used to wash laundry.
+bn:00007365n	WIKIDATA	Appliance used to clean laundry automatically
+bn:00007365n	OMWIKI	A machine, usually automatic, which washes clothes etc.
+bn:00007365n	WIKT	A machine, usually automatic, which washes clothes etc.
+bn:00007365n	WIKT	Something that washes; especially an appliance such as a washing machine or dishwasher.
+bn:00007365n	WIKTLB	Machine that washes clothes.
+bn:00081070n	WN	Large electrical home appliances (refrigerators or washing machines etc.) that are typically finished in white enamel
+bn:00081070n	WIKI	A major appliance, or domestic appliance, is a large machine in home appliance used for routine housekeeping tasks such as cooking, washing laundry, or food preservation.
+bn:00081070n	WIKIDATA	Large machine which accomplishes some routine housekeeping task
+bn:00081070n	OMWIKI	A machine or device, especially an electrical one used domestically.
+bn:00081070n	WIKT	The large household appliances such as refrigerators, stoves, washing machines and driers as a group.
+bn:00071687n	WN	A leaf that is not divided into parts
+bn:00035596n	WN	The main organ of photosynthesis and transpiration in higher plants
+bn:00035596n	WIKI	A leaf is an organ of a vascular plant and is the principal lateral appendage of the stem.
+bn:00035596n	WIKIDIS	A major part of a leaf
+bn:00035596n	WIKIDATA	Organ of a vascular plant, composing its foliage
+bn:00035596n	OMWIKI	The leaves of a plant together.
+bn:00035596n	OMWIKI	The main organ of photosynthesis and transpiration in higher plants, usually consisting of a flat green blade attached to the stem directly or by a stalk.
+bn:00035596n	WIKT	Anything resembling the leaf of a plant.
+bn:00035596n	WIKT	The leaves of plants.
+bn:00035596n	WIKT	A structure at the base of a leaf's petiole that partly surrounds or protect the stem or another organ that it subtends.
+bn:00035596n	WIKTLB	Anything resembling the leaf of a plant.
+bn:00057167n	WN	A slender pointer for indicating the reading on the scale of a measuring instrument
+bn:00057167n	OMWIKI	A long, slender device for indicating the reading of measurements on a dial (such as a compass).
+bn:00057167n	WIKT	A long, thin device for indicating measurements on a dial or graph, e.g. a compass needle.
+bn:00063246n	WN	An indicator as on a dial
+bn:00046478n	WN	A device for showing the operating condition of some system
+bn:00046478n	MSTERM	A graphic that provides information about the state of an assignment, resource, or task. For example, a check mark indicator shows that a task is completed.
+bn:00057168n	WN	A sharp pointed implement (usually steel)
+bn:00057168n	OMWIKI	A hollow, thin and usually sharp implement used for injecting or drawing fluids from a person or animal.
+bn:00057168n	WIKT	A long, thin, sharp implement usually for piercing such as sewing, or knitting, acupuncture, tattooing, body piercing, medical injections etc.
+bn:00057168n	WIKTLB	Implement for sewing etc.
+bn:00063222n	WN	Sharp end
+bn:00023885n	WN	A needle with a hook on the end; used in crocheting
+bn:00023885n	WIKI	A crochet hook is an implement used to make loops in thread or yarn and to interlock them into crochet stitches.
+bn:00028944n	WN	A steel needle for engraving without acid on a bare copper plate
+bn:00045590n	WN	A hollow needle
+bn:00045590n	WIKI	A hypodermic needle, one of a category of medical tools which enter the skin, called sharps, is a very thin, hollow tube with a sharp tip that contains a small opening at the pointed end.
+bn:00045590n	WIKIDIS	Syringe, or injection
+bn:00045590n	OMWIKI	A hollow, thin and usually sharp implement used for injecting or drawing fluids from a person or animal.
+bn:00045590n	WIKT	A syringe.
+bn:00049347n	WN	Needle consisting of a slender rod with pointed ends; usually used in pairs
+bn:00049347n	WIKI	A knitting needle or knitting pin is a tool in hand-knitting to produce knitted fabrics.
+bn:00049347n	WIKIDIS	A tool for knitting, not as sharp as a sewing needle
+bn:00049347n	WIKT	A long, thin, pointed rod, used in pairs to knit yarn.
+bn:00049347n	WIKTLB	Thin rod used to knit yarn.
+bn:00060123n	WN	A large needle used to sew up canvas packages
+bn:00070770n	WN	A needle used in sewing to pull thread through cloth
+bn:00070770n	WIKI	A sewing needle for hand-sewing is a long slender tool with a pointed tip at one end and a hole or eye at the other.
+bn:00070770n	WIKIDIS	A long slender tool with a pointed tip
+bn:00070770n	WIKIDATA	Elongated, thin tool made ​​of hard material
+bn:00005723n	WN	The collection of equipment and methods used in the practice of medicine
+bn:00005723n	WIKI	Medical equipment is designed to aid in the diagnosis, monitoring or treatment of medical conditions.
+bn:00005723n	WIKT	All of the equipment available for carrying out a task, especially all the equipment used by a physician in the practice of medicine.
+bn:00005723n	MSTERM	A medical instrument used in the diagnosis, treatment or prevention of a disease.
+bn:14749498n	WIKIDATA	German term: an aid in measurement
+bn:00025265n	WN	A long needle with an eye large enough for heavy darning or embroidery thread
+bn:00025265n	WIKT	A large needle used for darning.
+bn:00025265n	WIKTLB	Needle for darning.
+bn:00070925n	WN	A long thin sewing needle with a sharp point
+bn:00070925n	WIKT	A sewing needle with a very slender point, more pointed than a blunt or a between.
+bn:00079251n	WN	Any of several very heavy and sometimes curved sewing needles used by upholsterers
+bn:05058073n	WIKI	The textile industry is primarily concerned with the design, production and distribution of yarn, cloth and clothing.
+bn:05058073n	WIKIDIS	Also known as the "rag trade"
+bn:05058073n	WIKIDATA	Economic sector
+bn:05058073n	OMWIKI	Industry for the production of fabrics. 
+bn:05058073n	WIKT	The fashion industry.
+bn:00012524n	WN	A (usually rectangular) container; may have a lid
+bn:00012524n	WIKI	Box describes a variety of containers and receptacles for permanent use as storage, or for temporary use, often for transporting contents.
+bn:00012524n	WIKIDIS	Or any of a variety of containers or receptacles
+bn:00012524n	WIKIDATA	Variety of container
+bn:00012524n	OMWIKI	Plural form of box.
+bn:00012524n	WIKT	A cuboid space; a container, usually with a hinged lid.
+bn:00016478n	WN	Box in which a corpse is buried or cremated
+bn:00016478n	WIKI	A coffin is a funerary box used for viewing or keeping a corpse, either for burial or cremation.
+bn:00016478n	WIKI	A Casket or jewelry box is a container that is usually smaller than a chest, and in the past were typically decorated.
+bn:00016478n	WIKIDATA	Container for transport, laying out and the burial of a corpse
+bn:00016478n	WIKIDATA	Container
+bn:00016478n	OMWIKI	The box in which the body of a dead person is placed for burial.
+bn:00016478n	WIKT	An oblong closed box in which a dead person is buried.
+bn:00016478n	WIKT	A little box, e.g. for jewellery.
+bn:00016478n	WIKTLB	Little box e.g. for jewelry
+bn:00065471n	WN	A small box used by ancient Greeks to hold medicines
+bn:00065471n	WIKI	A pyxis is a shape of vessel from the classical world, usually a cylindrical box with a separate lid.
+bn:00065471n	WIKIDIS	A piece of ancient Greek pottery
+bn:00065471n	WIKIDATA	Cylindrical box from the classical world
+bn:00065471n	WIKT	A small box.
+bn:00068790n	WN	Strongbox where valuables can be safely kept
+bn:00068790n	WIKI	A safe is a secure lockable box used for securing valuable objects against theft and/or damage from fire.
+bn:00068790n	WIKIDATA	Secure lockable box used for securing valuable objects
+bn:00068790n	OMWIKI	A reinforced case that is used to secure its contents.
+bn:00068790n	WIKT	A box, usually made of metal, in which valuables can be locked for safekeeping.
+bn:00068790n	WIKTLB	Box in which valuables can be locked for safekeeping.
+bn:05156506n	NONE	NONE
+bn:07936550n	WIKIDATA	A kind of box
+bn:00008199n	WN	A box where voters deposit their ballots
+bn:00008199n	WIKI	A ballot box is a temporarily sealed container, usually a square box though sometimes a tamper resistant bag, with a narrow slot in the top sufficient to accept a ballot paper in an election but which prevents anyone from accessing the votes cast until the close of the voting period.
+bn:00008199n	OMWIKI	A box where voters deposit their ballots.
+bn:00008199n	WIKT	A sealed box with a slit, into which a voter puts a completed voting slip.
+bn:00008199n	WIKTLB	A sealed box into which a voter puts a voting slip
+bn:00053783n	WN	A small folder of paper safety matches
+bn:00053783n	WIKI	A matchbook is a small paperboard folder enclosing a quantity of matches and having a coarse striking surface on the exterior.
+bn:00053783n	WIKIDATA	Paperboard folder (matchcover) enclosing a quantity of matches
+bn:00077588n	WN	A box or chest or cabinet for holding hand tools
+bn:00077588n	WIKI	A toolbox is a box to organize, carry, and protect the owner's tools.
+bn:00077588n	WIKIDATA	Box to organize, carry, and protect the owner''s tools
+bn:00077588n	OMWIKI	A box designed to store and transport tools.
+bn:00077588n	WIKT	A bag used to carry tools.
+bn:00077588n	WIKT	A storage case for tools.
+bn:00077588n	WIKT	A toolbox.
+bn:00077588n	WIKTLB	Storage case for tools.
+bn:03317675n	WIKI	An oshizushihako is a box or mold used to make oshizushi.
+bn:21575283n	WIKI	The pizza box or pizza package is a folding box made of cardboard in which hot pizzas are stored in for takeaway.
+bn:00060373n	WN	(Greek mythology) a box that Zeus gave to Pandora with instructions that she not open it; she gave in to her curiosity and opened it; all the miseries and evils flew out to afflict mankind
+bn:00060373n	WIKI	Pandora's box is an artifact in Greek mythology, taken from the myth of Pandora in Hesiod's Works and Days.
+bn:00060373n	WIKIDATA	Mythic artifact
+bn:00060373n	WIKT	A box given to Pandora by Zeus whose instructions that it must not be opened were ignored with disastrous consequences.
+bn:03973304n	WIKIDATA	French cheese from Norrmandy
+bn:00008796n	WN	A flat bottom on which something is intended to sit
+bn:00002980n	WN	Box for collecting alms, especially one in a church
+bn:00002980n	WIKI	A poor box, alms box, offertory box, or mite box is a box that is used to collect coins for charitable purposes.
+bn:00008299n	WN	A light cylindrical box for holding light articles of attire (especially hats)
+bn:00016327n	WN	A box made of cardboard; opens by flaps on top
+bn:00016327n	WIKI	A carton is a box or container usually made of paperboard and sometimes of corrugated fiberboard.
+bn:00016327n	WIKIDATA	Box or container usually made of paperboard and sometimes of corrugated fiberboard
+bn:00016479n	WN	Small and often ornate box for holding jewels or other valuables
+bn:00017327n	WN	A paper box in which breakfast cereals are sold
+bn:00018208n	WN	Box with a lid; used for storage; usually large and sturdy
+bn:00018208n	WIKI	A chest is a form of furniture typically of a rectangular structure with four walls and a liftable lid, for storage.
+bn:00018208n	WIKIDATA	Type of furniture
+bn:00018208n	OMWIKI	A generic large, strong container or box (most often made of wood or metal with a lid) that is commonly used to store clothes or toys.
+bn:00018208n	WIKT	A box, now usually a large strong box with a secure convex lid.
+bn:00060114n	WN	Material used to make packages
+bn:00060114n	WIKI	Packaging is the science, art and technology of enclosing or protecting products for distribution, storage, sale, and use.
+bn:00060114n	WIKIDIS	Encloses products for distribution, storage, sale, and use
+bn:00060114n	WIKIDATA	Enclosing or protecting products for distribution, storage, sale, and use
+bn:00060114n	OMWIKI	All products made of any materials of any nature to be used for the containment, protection, handling, delivery and presentation of goods, from raw materials to processed goods, from the producer to the user or the consumer.
+bn:00060114n	WIKT	The materials used to pack something.
+bn:00060114n	WIKT	The material in which something is wrapped.
+bn:00060114n	WIKTLB	The materials used to pack something.
+bn:00060114n	MSTERM	The material used to bundle goods for protection during shipment.
+bn:00060120n	WN	Any material used especially to protect something
+bn:00060120n	WIKI	Packaging is the science, art and technology of enclosing or protecting products for distribution, storage, sale, and use.
+bn:00060120n	WIKI	Wadding is a disc of material used in guns to seal gas behind a projectile or to separate powder for shot.
+bn:00060120n	WIKIDIS	Encloses products for distribution, storage, sale, and use
+bn:00060120n	WIKIDIS	Disc of material used in guns to seal gas behind a projectile or to separate powder from shot
+bn:00060120n	WIKIDATA	Enclosing or protecting products for distribution, storage, sale, and use
+bn:00060120n	WIKT	Material used to fill in the space around something, especially to make a piston etc. watertight or airtight.
+bn:00053803n	WN	Things needed for doing or making something
+bn:06595566n	WIKI	Group of goods prepared for transport as a single unit
+bn:00012533n	WN	A blow with the hand (usually on the ear)
+bn:00083850v	WN	Hit with the fist
+bn:00083851v	WN	Engage in a boxing match
+bn:00083851v	OMWIKI	To engage in a boxing match.
+bn:00083851v	WIKT	To fight against in a boxing match.
+bn:00083851v	WIKTLB	Fight against (a person) in a boxing match.

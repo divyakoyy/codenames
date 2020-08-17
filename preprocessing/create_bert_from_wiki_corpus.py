@@ -18,7 +18,6 @@ def get_word_emb(bert_embedding, word):
 
 def create_graph():
     #ctx = mx.gpu(0)
-    regex = re.compile('[^a-zA-Z]')
     bert_embedding = BertEmbedding(model='bert_12_768_12', dataset_name='book_corpus_wiki_en_cased')
     emb_size = 768
     t = AnnoyIndex(emb_size, metric='angular')

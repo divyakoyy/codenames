@@ -30,6 +30,7 @@ from embeddings.babelnet import Babelnet
 from embeddings.word2vec import Word2Vec
 from embeddings.glove import Glove
 from embeddings.fasttext import FastText
+from embeddings.bert import Bert
 
 sys.path.insert(0, "../")
 
@@ -133,8 +134,10 @@ class Codenames(object):
             return Glove(self.configuration)
         elif embedding_type == 'fasttext':
             return FastText(self.configuration)
+        elif embedding_type == 'bert':
+            return Bert(self.configuration)
         else:
-            print("Valid embedding types are babelnet, word2vec, glove and fasttext")
+            print("Valid embedding types are babelnet, word2vec, glove, fasttext, and bert")
 
         return None
 
@@ -452,23 +455,20 @@ if __name__ == "__main__":
         'capital', 'post', 'cast', 'soul', 'tower', 'green', 'plot', 'string', 'kangaroo', 'lawyer', 'fire',
         'robot', 'mammoth', 'hole', 'spider', 'bill', 'ivory', 'giant', 'bar', 'ray', 'drill', 'staff',
         'greece', 'press','pitch', 'nurse', 'contract', 'water', 'watch', 'amazon','spell', 'kiwi', 'ghost',
-        'cold', 'doctor', 'port', 'bark','foot', 'luck', 'nail', 'ice',
+        'cold', 'doctor', 'port', 'bark','foot', 'luck', 'nail', 'ice', 'needle', 'disease', 'comic', 'pool', 
+        'field', 'star', 'cycle', 'shadow', 'fan', 'compound', 'heart', 'flute','millionaire', 'pyramid', 'africa',
+        'robin', 'chest', 'casino','fish', 'oil', 'alps', 'brush', 'march', 'mint','dance', 'snowman', 'torch', 
+        'round', 'wake', 'satellite','calf', 'head', 'ground', 'club', 'ruler', 'tie','parachute', 'board', 
+        'paste', 'lock', 'knight', 'pit', 'fork', 'egypt', 'whale', 'scale', 'knife', 'plate','scorpion', 'bottle',
+        'boom', 'bolt', 'fall', 'draft', 'hotel', 'game', 'mount', 'train', 'air', 'turkey', 'root', 'charge',
+        'space', 'cat', 'olive', 'mouse', 'ham', 'washer', 'pound', 'fly', 'server','shop', 'engine', 'himalayas',
+        'box', 'antarctica', 'shoe', 'tap', 'cross', 'rose', 'belt', 'thumb', 'gold', 'point', 'opera', 'pirate', 
+        'tag', 'olympus', 'cotton', 'glove', 'sink', 'carrot', 'jack', 'suit', 'glass', 'spot', 'straw', 'well', 
+        'pan', 'octopus', 'smuggler', 'grass', 'dwarf', 'hood', 'duck', 'jet', 'mercury',
     ]
 
-    red_words = [
-        # ['tube', 'bark', 'swing', 'cast', 'drill', 'diamond', 'cell', 'superhero', 'phoenix', 'luck'],
-        # ['unicorn', 'ivory', 'hole', 'state', 'lemon', 'superhero', 'rock', 'crown', 'lead', 'bison'],
-        # ['hole', 'string', 'nurse', 'cloak', 'india', 'king', 'pitch', 'cap', 'lead', 'jupiter'],
-        # ['vacuum', 'car', 'scientist', 'foot', 'gas', 'spider', 'lemon', 'cold', 'embassy', 'superhero'],
-        # ['ivory', 'fighter', 'nut', 'greece', 'india', 'boot', 'bar', 'pitch', 'rock', 'piano'],
-    ]
-    blue_words = [
-        # ['lab', 'moon', 'bug', 'spell', 'witch', 'tower', 'boot', 'racket', 'mammoth', 'saturn'],
-        # ['green', 'litter', 'scientist', 'kid', 'cold', 'cap', 'mammoth', 'staff', 'table', 'beijing'],
-        # ['lab', 'ivory', 'spell', 'witch', 'key', 'change', 'boot', 'amazon', 'fire', 'beijing'],
-        # ['lab', 'hole', 'giant', 'bug', 'nurse', 'key', 'capital', 'pipe', 'beijing', 'saturn'],
-        # ['row', 'cloak', 'tower', 'gas', 'spider', 'diamond', 'luck', 'capital', 'crown', 'racket'],
-    ]
+    red_words = []
+    blue_words = []
 
     for _ in range(0, args.num_trials):
         random.shuffle(words)
