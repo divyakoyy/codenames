@@ -20,22 +20,17 @@ class Word2Vec(object):
 
     def get_weighted_nn(self, word, n=500):
         nn_w_similarities = dict()
-        limit = 1
 
-        def recurse_word2vec(word, curr_limit):
-            if curr_limit >= limit or word not in self.word2vec_model.vocab:
-                return
-            neighbors_and_similarities = self.word2vec_model.most_similar(word, topn=n)
-            for neighbor, similarity in neighbors_and_similarities:
-                if (self.word2vec_model.vocab[neighbor].count < 2 or len(neighbor.split("_")) > 1):
-                    continue
-                neighbor = neighbor.lower()
-                if neighbor not in nn_w_similarities:
-                    nn_w_similarities[neighbor] = similarity
-                    recurse_word2vec(neighbor, curr_limit + 1)
-                nn_w_similarities[neighbor] = max(similarity, nn_w_similarities[neighbor])
-
-        recurse_word2vec(word, 0)
+        if word not in self.word2vec_model.vocab:
+            return
+        neighbors_and_similarities = self.word2vec_model.most_similar(word, topn=n)
+        for neighbor, similarity in neighbors_and_similarities:
+            if len(neighbor.split("_")) > 1:
+                continue
+            neighbor = neighbor.lower()
+            if neighbor not in nn_w_similarities:
+                nn_w_similarities[neighbor] = similarity
+            nn_w_similarities[neighbor] = max(similarity, nn_w_similarities[neighbor])
 
         return {k: v for k, v in nn_w_similarities.items() if k != word}
 

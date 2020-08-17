@@ -25,7 +25,7 @@ def create_graph():
     tree_idx = 0
     tree_idx_to_word_dict = dict()
     glove_model = KeyedVectors.load_word2vec_format('../data/glove-wiki-gigaword-300.txt.gz')
-    print("Vocab size", glove_model.vocab.size)
+    print("Vocab size", len(glove_model.vocab))
     i = 0
     mod = 50000
     for word in glove_model.vocab:
