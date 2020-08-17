@@ -36506,3 +36506,1644 @@ bn:00093758v	WIKTLB	To produce harmonious sounds with one’s voice.
 bn:00093758v	FRAMENET	Make musical sounds with the voice, especially words with a set tune.
 bn:00083393v	WN	Deliver a blow to
 bn:00083393v	FRAMENET	Beat or hit very hard.
+bn:00076002n	WN	Mongolian ruler of Samarkand who led his nomadic hordes to conquer an area from Turkey to Mongolia (1336-1405)
+bn:00076002n	WIKI	Timur, historically known as Amir Timur and Tamerlane, was a Turco-Mongol conqueror.
+bn:00076002n	WIKIDIS	A Central Asian ruler and conqueror
+bn:00076002n	WIKIDATA	Turkic ruler
+bn:00003314n	WN	An independent ruler or chieftain (especially in Africa or Arabia)
+bn:00003314n	WIKI	An Emir, sometimes transliterated Amir, Amier, or Ameer, is an aristocratic or noble and military title of high office used in a variety of places in the Arab countries and Afghanistan.
+bn:00003314n	WIKIDIS	The title of rulers or military leaders in many Muslim countries
+bn:00003314n	WIKIDATA	Title of high office, used throughout the Muslim world.
+bn:00003314n	OMWIKI	An independent ruler in the Islamic world.
+bn:00003314n	WIKT	A high title of nobility or office, used in some Muslim countries.
+bn:00003314n	WIKT	A prince, commander or other leader or ruler in an Islamic nation.
+bn:00003314n	WIKTLB	Islamic prince or leader.
+bn:00005253n	WN	The leader of an Arab village or family
+bn:00005253n	WIKI	Sheikh —also transliterated Sheik, Shykh, Shaik, Shayk, Shaykh, Cheikh, Shekh, and Shaikh—is an honorific title in the Arabic language.
+bn:00005253n	WIKIDIS	An honorific term in Arabic
+bn:00005253n	WIKIDATA	Honorific in the Arabic language
+bn:00005253n	WIKT	The leader of an Arab village, family or small tribe.
+bn:00005253n	WIKTLB	Leader of an Arab village, family or small tribe.
+bn:00008855n	WN	A ruler of the eastern Roman Empire
+bn:00012436n	WN	A member of the European royal family that ruled France
+bn:00014743n	WN	The civil and religious leader of a Muslim state considered to be a representative of Allah on earth
+bn:00014743n	WIKI	A tariqa is a school or order of Sufism, or specifically a concept for the mystical teaching and spiritual practices of such an order with the aim of seeking Haqiqa, which translates as "ultimate truth".
+bn:00014743n	WIKIDIS	A Sufi order and its way of life
+bn:00014743n	WIKIDATA	Head of state in a Caliphate
+bn:00014743n	WIKT	The political leader of the Muslim world, successor of Muhammad's political authority, not religious or spiritual.
+bn:00014743n	WIKTLB	Political leader of the Muslim world.
+bn:00026965n	WN	A ruler who is unconstrained by law
+bn:00026965n	WIKI	A dictator is a political leader who possesses absolute power.
+bn:00026965n	WIKIDATA	Person who leads a dictatorship
+bn:00026965n	OMWIKI	An absolute ruler with unbounded power.
+bn:00026965n	WIKT	A ruler or Führer, the highest level of authority.
+bn:00029304n	WN	A hereditary ruler
+bn:00029304n	WIKT	A ruler or governor, especially a hereditary ruler or someone who founded or is part of a dynasty.
+bn:00031719n	WN	The ruler of a province (as in the Roman Empire and Byzantine Empire) or certain religious rulers with secular authority
+bn:00031719n	WIKI	Ethnarch, pronounced, the anglicized form of ethnarches, refers generally to political leadership over a common ethnic group or homogeneous kingdom.
+bn:00031719n	WIKI	Leader of a homogenous ethnic community
+bn:00041348n	WN	The ruler of a Muslim country (especially of the former Ottoman Empire)
+bn:00041348n	WIKI	Sultan is a position with several historical meanings.
+bn:00041348n	WIKIDIS	8th Yang di-Pertuan Agong of Malaysia the 24th Sultan of Johor
+bn:00041348n	WIKIDATA	Noble title with several historical meanings
+bn:00041348n	WIKT	A hereditary ruler in various Muslim states , varying from petty principalities , often vassal of a greater ruler, to independent realms, such as Oman, Brunei, or an empire such as the Turkish Ottoman Empire.
+bn:00042582n	WN	A Muslim ruler or governor or judge
+bn:00042582n	WIKI	Ḥakīm and Ḥākim are two Arabic titles derived from the same triliteral root Ḥ-K-M "appoint, choose, judge".
+bn:00042582n	WIKIDATA	Title
+bn:00042879n	WN	Any of the British rulers who were members of the House of Hanover
+bn:00042879n	WIKT	Someone from the House of Hanover.
+bn:00046255n	WN	A ruler of the Incas (or a member of his family)
+bn:00049031n	WN	A title given to rulers or other important people in Asian countries
+bn:00049031n	WIKI	Khan is a title for a sovereign or a military ruler, used by Mongolians living to the north of China.
+bn:00049031n	WIKIDIS	Alternative spelling, notably in Turkic languages
+bn:00049031n	WIKIDATA	Turkic and Mongol governor title
+bn:00049031n	WIKT	After Genghis Khan, a ruler over various Turkish, Tatar and Mongol peoples in the Middle Ages.
+bn:00049031n	WIKTLB	A ruler over various Turkic, Tatar and Mongol peoples in the Middle Ages.
+bn:00052017n	WN	A person who has general authority over others
+bn:00052017n	WIKT	A person holding an office of authority, especially the presiding officer.
+bn:00055508n	WN	A member of the Muslim dynasty that ruled India until 1857
+bn:00055508n	WIKI	The Mughals are a number of culturally related clans of India and Pakistan.
+bn:00055508n	WIKIDIS	The Asian peoples from which the rulers of the empire came
+bn:00055508n	WIKT	A Mongol or Mongolian, especially a member or follower of the Moghul dynasty.
+bn:00055508n	WIKTLB	Mongol or Mongolian, or follower of dynasty.
+bn:00058872n	WN	One of the rulers in an oligarchy
+bn:00058872n	WIKT	A member of an oligarchy, someone who is part of a small group that runs a country.
+bn:00058872n	WIKTLB	A member of an oligarchy.
+bn:00061884n	WN	The title of the ancient Egyptian kings
+bn:00061884n	WIKI	Pharaoh is the common title of the monarchs of ancient Egypt from the First Dynasty until the annexation of Egypt by the Roman Empire in 30 BCE, although the actual term "Pharaoh" was not used contemporaneously for a ruler until circa 1200 BCE.
+bn:00061884n	WIKIDATA	Ruler of Ancient Egypt
+bn:00065255n	WN	A leader or ruler who is chosen by a despot to head a government
+bn:00065255n	WIKI	A puppet ruler is a person who has a title indicating possession of political power, but who, in reality, is controlled by outside individuals or forces.
+bn:00065255n	WIKT	A leader or ruler chosen by another ruler to head a government, usually under the other ruler's order.
+bn:00054020n	WN	Measuring instrument having a sequence of marks at regular intervals; used as a reference in making measurements
+bn:00054020n	WIKI	A measuring rod is a tool used to physically measure lengths and survey areas of various sizes.
+bn:17816164n	WIKI	Stationery is a mass noun referring to commercially manufactured writing materials, including cut paper, envelopes, writing implements, continuous form paper, and other office supplies.
+bn:17816164n	WIKIDATA	Variety of office supplies including paper
+bn:04194880n	NONE	NONE
+bn:03384856n	WIKI	Office supplies are consumables and equipment regularly used in offices by businesses and other organizations, by individuals engaged in written communications, recordkeeping or bookkeeping, janitorial and cleaning, and for storage of supplies or data.
+bn:03384856n	WIKIDATA	Item regularly used in offices by businesses and other organizations
+bn:00075103n	WN	A set of garments (usually including a jacket and trousers or skirt) for outerwear all of the same fabric and color
+bn:00075103n	WIKI	In clothing, a suit is a set of garments made from the same cloth, usually consisting of at least a jacket and trousers.
+bn:00075103n	WIKI	Set of matching garments used as formal or business attire
+bn:00075103n	WIKIDIS	A set of clothing with matching pieces, including at least a coat and trousers
+bn:00075103n	WIKIDATA	Formal attire
+bn:00075103n	OMWIKI	A set of men's clothes consisting of trousers and a jacket, traditionally worn with a shirt and a tie.
+bn:00075103n	WIKT	A person who wears matching jacket and trousers, especially a boss or a supervisor.
+bn:00075103n	WIKTLB	Slang: person who wears matching jacket and trousers
+bn:00042407n	WN	Attire that is typically worn by a horseback rider (especially a woman's attire)
+bn:00042407n	WIKI	A riding habit is women's clothing for horseback riding.
+bn:00042407n	WIKI	Women's clothing for horseback riding, riding costume
+bn:00042407n	WIKIDIS	Riding clothes worn for hunting or for exhibition
+bn:00042407n	OMWIKI	A piece of clothing worn uniformly for a specific activity, e.g. by a horseback rider.
+bn:00042407n	WIKT	A piece of clothing worn uniformly for a specific activity.
+bn:00042407n	WIKTLB	Piece of clothing worn uniformly for a specific activity.
+bn:02735816n	WIKI	A fatsuit is a bodysuit-like undergarment used to thicken the appearance of an actress or actor of light to medium build into a heavy-set or obese character, in conjunction with prosthetic makeup.
+bn:02735816n	WIKIDATA	Bodysuit-like undergarment used to thicken the appearance of an actress or actor
+bn:04731333n	NONE	NONE
+bn:00010993n	WN	Semiformal evening dress for men
+bn:00010993n	WIKI	Tux is a penguin character and the official brand character of the Linux kernel.
+bn:00010993n	WIKI	A tuxedo, dinner jacket, or dinner suit is a semi-formal evening suit distinguished primarily by satin or grosgrain facings on the jacket's lapels and buttons and a similar stripe along the outseam of the trousers.
+bn:00010993n	WIKI	Black tie, occasionally known in the English-speaking world by its French name cravate noire, is a dress code for evening events and social functions derived from British and American costume conventions of the 19th century.
+bn:00010993n	WIKIDIS	The Linux mascot
+bn:00010993n	WIKIDIS	A semi-formal dress code for evening events and social functions in Western fashion
+bn:00010993n	WIKIDATA	Mascot of the Linux kernel
+bn:00010993n	WIKIDATA	Dress code for events and social functions
+bn:00010993n	WIKIDATA	Semi-formal evening suit consisting of a dinner jacket and trousers
+bn:00010993n	OMWIKI	A typically black formal jacket worn by men.
+bn:00010993n	WIKT	A typically black formal jacket worn by men.
+bn:00010993n	WIKT	Dinner jacket; tuxedo.
+bn:00010993n	WIKT	A cuddly cartoon penguin, the official Linux mascot.
+bn:00010993n	WIKT	A man's formal suit worn in the evening; a tuxedo.
+bn:00010993n	WIKT	A jacket, often white, corresponding to a tuxedo jacket.
+bn:00060445n	WN	A pair of pants and a matching jacket worn by women
+bn:00060445n	WIKI	A pantsuit or pant suit, also known as a trouser suit outside the United States, is a woman's suit of clothing consisting of pants and a matching or coordinating coat or jacket.
+bn:00060445n	WIKI	Woman's ensemble consisting of trousers and coat or jacket
+bn:00060445n	WIKT	A women's suit consisting of coordinated pants and jacket.
+bn:03147342n	WIKI	A skeleton suit was an outfit of clothing for small boys, popular from about 1790 to the late 1820s, after which it increasingly lost favor with the advent of trousers.
+bn:03147342n	WIKI	Small boy's suit with a tight short- or long-sleeved coat or jacket buttoned to a pair of high-waisted trousers
+bn:03147342n	WIKIDIS	A 19th-century fashion in boys' clothing
+bn:03943849n	WIKI	Woman's simple ensemble of skirt and jacket
+bn:00014173n	WN	A suit of clothes traditionally worn by businessmen
+bn:00028350n	WN	A suit with a double-breasted jacket
+bn:00028350n	WIKI	In clothing, the term double-breasted refers to a coat or jacket with wide, overlapping front flaps and two parallel columns of buttons or snaps; by contrast, a single-breasted coat has a narrow overlap and only one column of buttons.
+bn:00028350n	WIKIDIS	Garment such as coat or jacket with two columns of buttons
+bn:00062540n	WN	A suit made from a fabric with very thin stripes
+bn:00062540n	WIKT	A suit made of such fabric.
+bn:00062540n	WIKTLB	Suit made of such fabric.
+bn:00071738n	WN	A suit having a single-breasted jacket
+bn:00072038n	WN	Casual dress consisting of slacks and matching jacket
+bn:00082095n	WN	A flashy suit of extreme cut
+bn:00082095n	WIKI	A zoot suit is a men's suit with high-waisted, wide-legged, tight-cuffed, pegged trousers, and a long coat with wide lapels and wide padded shoulders.
+bn:00082095n	WIKIDIS	A style of clothing first popular in the 1930s and 1940s
+bn:00082095n	WIKT	A large suit with excessive amounts of fabric popular in the 1930's and 1940's with wide lapels, padded shoulders, a high waist and pegged pants.
+bn:00001081n	WN	A natural and unavoidable catastrophe that interrupts the expected course of events
+bn:00001081n	WIKI	Force majeure – or vis major – meaning "superior force", also known as cas fortuit or casus fortuitus "chance occurrence, unavoidable accident", is a common clause in contracts that essentially frees both parties from liability or obligation when an extraordinary event or circumstance beyond the control of the parties, such as a war, strike, riot, crime, or an event described by the legal term act of God 
+bn:00001081n	WIKI	In legal usage throughout the English-speaking world, an act of God is a natural hazard outside human control, such as an earthquake or tsunami, for which no person can be held responsible.
+bn:00001081n	WIKIDIS	A legal term for events outside of human control
+bn:00001081n	WIKIDATA	Extraordinary occurrence beyond control
+bn:00001081n	WIKIDATA	Usually-natural disaster for which no person is at fault
+bn:00001081n	OMWIKI	A non attributable impossibility to redeem an obligation.
+bn:00001081n	WIKT	An unforeseen occurrence beyond one's control, such as a natural disaster.
+bn:00016854n	WN	The causal agent resulting in death
+bn:00016854n	WIKI	For a comprehensive list of potential causes, see List of causes of death by rate.
+bn:00016854n	WIKIDIS	A term typically used on official reports
+bn:00016854n	WIKIDATA	Conditions resulting in a death
+bn:00019484n	WN	A lawsuit brought by a representative member of a large group of people on behalf of all members of the group
+bn:00019484n	WIKI	A class action, class suit, or representative action is a type of lawsuit where one of the parties is a group of people who are represented collectively by a member of that group.
+bn:00019484n	WIKIDIS	A form of lawsuit where a large group of people collectively bring a claim to court
+bn:00019484n	WIKIDATA	Type of lawsuit
+bn:00019484n	WIKT	A lawsuit brought by a single plaintiff as a representative of a large group of others having a common interest.
+bn:00078198n	WN	(law) the determination of a person's innocence or guilt by due process of law
+bn:00078198n	WIKI	In law, a trial is a coming together of parties to a dispute, to present information in a tribunal, a formal setting with the authority to adjudicate claims or disputes.
+bn:00078198n	WIKIDATA	Coming together of parties to a dispute, to present information in a tribunal
+bn:00078198n	OMWIKI	A judicial examination and determination of issues between parties to action; whether they need issues of law or of fact. A judicial examination, in accordance with law of the land, of a cause, either civil or criminal, of the issues between the parties, whether of law or fact, before a court that has proper jurisdiction.
+bn:00078198n	WIKT	Appearance at judicial court.
+bn:00078198n	WIKTLB	Appearance at judicial court.
+bn:00078198n	WIKIQU	Trials are difficult experiences which test the character of the person experiencing them.
+bn:00353316n	WIKI	The causes of landslides are usually related to instabilities in slopes.
+bn:00429690n	WIKI	In Canadian law, a reference question is a submission by the federal or a provincial government to the courts asking for an advisory opinion on a major legal issue.
+bn:00429690n	WIKIDATA	Type of legal case in Canada where the executive asks for the opinion of the court
+bn:01613159n	WIKI	Within some criminal justice systems, a preliminary hearing, preliminary examination, evidentiary hearing or probable cause hearing is a proceeding, after a criminal complaint has been filed by the prosecutor, to determine whether there is enough evidence to require a trial.
+bn:01613159n	WIKIDATA	Type of legal case that precedes a trial
+bn:00050563n	WN	(law) the institution of a sequence of steps by which legal judgments are invoked
+bn:00050563n	WIKI	A legal proceeding is an activity that seeks to invoke the power of a tribunal in order to enforce a law.
+bn:00050563n	WIKIDATA	Evaluation of evidence to make a decision
+bn:00050563n	WIKT	The collection of academic papers published in the context of an academic conference.
+bn:03666738n	WIKI	Libel tourism is a term, first coined by Geoffrey Robertson, to describe forum shopping for libel suits.
+bn:03666738n	WIKIDATA	Defamation litigation chosen based on favorable jurisdiction
+bn:03666738n	WIKT	A form of forum shopping in which plaintiffs choose to file libel suits in jurisdictions thought more likely to give a favourable result.
+bn:00029052n	WN	(law) the administration of justice according to established rules and principles; based on the principle that a person cannot be deprived of life or liberty or property without appropriate legal procedures and safeguards
+bn:00029052n	WIKI	Due process is the legal requirement that the state must respect all legal rights that are owed to a person.
+bn:00029052n	WIKT	A legal concept where a person is ensured all legal rights when deprived of life, liberty and the pursuit of happiness for a given reason.
+bn:00029052n	WIKIQU	Due process is the principle that the government must respect all of the legal rights that are owed to a person according to the law.
+bn:02220665n	WIKI	In information technology and computer science, a program is described as stateful if it is designed to remember preceding events or user interactions; the remembered information is called the state of the system.
+bn:02220665n	WIKI	Set of instantaneous values of all variables to which a system or computer program has access;
+bn:02220665n	WIKIDIS	A unique configuration of information in a program or machine
+bn:02220665n	WIKIDATA	Set of instantaneous values of all variables to which a system or computer program has access
+bn:02220665n	OMWIKI	In computing, the stable condition of a processor during a particular clock cycle.
+bn:02220665n	WIKT	The stable condition of a processor during a particular clock cycle.
+bn:02220665n	WIKTLB	Computing: the stable condition of a processor during a particular clock cycle.
+bn:02220665n	MSTERM	The condition at a particular time of any of numerous elements of computing--a device, a communications channel, a network station, a program, a bit, or other element--used to report on or to control computer operations.
+bn:02220665n	MSTERM	The condition of a system, process, or party.
+bn:02220665n	MSTERM	In a statechart or activity diagram, a condition during which an object satisfies a condition, performs an action, or waits for an event.
+bn:02220665n	MSTERM	The condition at a particular time of any of numerous elements of computing--a device, a communications channel, a network station, a program, a bit, or other element--used to report on or to control computer operations.
+bn:00022422n	WN	Cooking utensil consisting of a wide metal vessel
+bn:00022422n	WIKI	Cookware and bakeware are types of food preparation containers, commonly found in a kitchen.
+bn:00022422n	WIKIDIS	Where the name is used.
+bn:00022422n	WIKIDATA	Types of food preparation containers, commonly found outside a kitchen; cooking pots, casseroles, saucepans, frying pans, baking tins, stockpots,  etc.
+bn:00022422n	OMWIKI	A generic kitchen utensil used for cooking food by boiling, frying or other methods.
+bn:00036719n	WN	A pan used for frying foods
+bn:00036719n	WIKI	A frying pan, frypan, or skillet is a flat-bottomed pan used for frying, searing, and browning foods.
+bn:00036719n	WIKIDATA	Flat bottomed pan for cooking food on a stove
+bn:00036719n	OMWIKI	Cooking utensil relatively flat, having a handle, used to cook food such as meat, vegetables or eggs, usually in oil or butter.
+bn:00036719n	WIKT	A frying pan.
+bn:00036719n	WIKT	A long-handled, shallow pan used for frying food.
+bn:00036719n	WIKT	A pan for frying, generally large and heavy.
+bn:00036719n	WIKTLB	Long-handled, shallow pan used for frying food.
+bn:01503435n	WIKI	A kazan, qazan, qozon, qazghan or ghazan, is a type of large cooking pot used throughout Central Asia, Russia, and the Balkan Peninsula, roughly equivalent to a cauldron, boiler, or Dutch oven.
+bn:01503435n	WIKIDIS	Turkic term for a boiler and especially a cooking pan
+bn:01503435n	WIKIDATA	Large cooking pot
+bn:02835984n	WIKI	KitchenAid is an American home appliance brand owned by Whirlpool Corporation.
+bn:02835984n	WIKIDATA	An American home appliance brand owned by Whirlpool Corporation
+bn:03088085n	WIKI	A rice cooker or rice steamer is an automated kitchen appliance designed to boil or steam rice.
+bn:03088085n	WIKIDATA	Container or kitchen appliance dedicated to cooking rice
+bn:03088085n	OMWIKI	An electric device used for cooking rice.
+bn:03088085n	WIKT	A kitchen appliance which is designed to cook rice, through either boiling or steaming it. It may also be used as a steam cooker for other foods.
+bn:03138876n	WIKI	Betty Crocker is a fictional character used in advertising campaigns for food and recipes.
+bn:03138876n	WIKIDIS	Brand name owned by General Mills
+bn:06488450n	NONE	NONE
+bn:06523229n	NONE	NONE
+bn:06773443n	NONE	NONE
+bn:00011829n	WN	A metal pot for stewing or boiling; usually has a lid
+bn:00011829n	WIKI	A kettle, sometimes called a tea kettle or teakettle, is a type of pot, typically metal, specialized for boiling water, with a lid, spout, and handle, or a small kitchen appliance of similar shape that functions in a self-contained manner.
+bn:00011829n	WIKIDATA	Appliance for boiling water
+bn:00011829n	OMWIKI	A metal container used for boiling water for tea.
+bn:00011829n	WIKT	A vessel for boiling a liquid or cooking food, usually metal and equipped with a lid.
+bn:00011829n	WIKTLB	Vessel for boiling a liquid or cooking food.
+bn:00014699n	WN	A very large pot that is used for boiling
+bn:00014699n	WIKI	A cauldron is a large metal pot for cooking and/or boiling over an open fire, with a large mouth and frequently with an arc-shaped hanger.
+bn:00014699n	WIKI	Large metal pot for cooking or boiling over an open fire
+bn:00014699n	WIKIDATA	Casserole
+bn:00014699n	OMWIKI	A very large pot that is used for boiling.
+bn:00014699n	WIKT	A large bowl-shaped pot used for boiling over an open flame.
+bn:00014699n	WIKTLB	Large bowl-shaped pot.
+bn:00074383n	WN	A pot used for preparing soup stock
+bn:00074383n	WIKI	Stock pot is a generic name for one of the most common types of cooking pot used worldwide.
+bn:00074383n	WIKI	Generic name for one of the most common types of cooking pot used worldwide
+bn:00074383n	WIKT	A large pot, such as is used for making stock or for cooking large amounts of soup.
+bn:00074383n	WIKTLB	Large pot for cooking soup.
+bn:16474174n	NONE	NONE
+bn:00155720n	WIKI	Crepulja is a shallow clay container with a little hole in the middle.
+bn:00410621n	WIKI	A palayok is a clay pot used as the traditional food preparation container in the Philippines.
+bn:00715345n	WIKI	The Bedourie oven is an Australian adaptation of the camp oven.
+bn:01135330n	WIKI	Cassolette may refer to:
+bn:01160162n	WIKI	A caquelon is a cooking vessel of stoneware, ceramic, enamelled cast iron, or porcelain for the preparation of fondue, also called a fondue pot.
+bn:01160162n	WIKIDATA	Casserole
+bn:01160162n	WIKT	A Swiss cooking vessel used to serve fondue.
+bn:02203717n	WIKI	A chip pan is a deep-sided cooking pan used for deep-frying.
+bn:02702910n	WIKI	A roasting pan is a piece of cookware used for roasting meat in an oven, either with or without vegetables or other ingredients.
+bn:00022424n	WN	A kitchen utensil made of material that does not melt easily; used for cooking
+bn:00022424n	WIKI	Cookware and bakeware are types of food preparation containers, commonly found in a kitchen.
+bn:00022424n	WIKIDIS	Where the name is used.
+bn:00022424n	WIKIDATA	Types of food preparation containers, commonly found outside a kitchen; cooking pots, casseroles, saucepans, frying pans, baking tins, stockpots,  etc.
+bn:00049257n	WN	A utensil used in preparing food
+bn:00049257n	WIKI	A kitchen utensil is a small hand held tool used for food preparation.
+bn:00049257n	WIKIDIS	One of the tools of cooking and baking -- cookware and bakeware
+bn:00049257n	WIKIDATA	Tool or utensil that is used in the kitchen
+bn:06126286n	NONE	NONE
+bn:00079388n	WN	An implement for practical use (especially in a household)
+bn:00079388n	OMWIKI	An implement for practical use.
+bn:00006122n	WN	One of a class of artifacts
+bn:00006122n	WIKT	A member of a group or class.
+bn:00006122n	WIKTLB	Member of a group or class.
+bn:00060335n	WN	Shallow container made of metal
+bn:00060393n	WN	The handle of a pan
+bn:00060393n	WIKT	The handle of a pan.
+bn:00060393n	WIKTLB	Handle of a pan.
+bn:00022223n	WN	Someone who imports or exports without paying duties
+bn:00022223n	WIKI	Smuggling is the illegal transportation of objects, substances, information or people, such as out of a house or buildings, into a prison, or across an international border, in violation of applicable laws or other regulations.
+bn:00022223n	WIKIDIS	The clandestine transportation of goods or persons
+bn:00022223n	WIKIDATA	Illegal movement of goods or people
+bn:00022223n	OMWIKI	A man who imports or exports without paying the lawful customs charges or duties.
+bn:00022223n	OMWIKI	The clandestine transportation of goods or persons in violation of applicable laws or other regulations.
+bn:00022223n	FRAMENET	One who moves (goods) illegally into or out of a country.
+bn:00023431n	WN	Someone who smuggles illegal immigrants into the United States (usually across the Mexican border)
+bn:00023431n	WIKI	People smuggling, under US law, is "the facilitation, transportation, attempted transportation or illegal entry of a person or persons across an international border, in violation of one or more countries' laws, either clandestinely or through deception, such as the use of fraudulent documents".
+bn:00023431n	WIKT	A smuggler of illegal immigrants across the land border from Mexico into the United States of America.
+bn:01576841n	WIKI	A mule or courier is someone who smuggles contraband across a border 
+bn:01576841n	WIKIDIS	A person used to carry contraband
+bn:01576841n	WIKIDATA	Person who smuggles contraband across a border for a smuggling organization
+bn:01576841n	WIKIDATA	Practice of smuggling goods outside the body
+bn:00005795n	WN	A smuggler of guns
+bn:00068546n	WN	Someone who illegally smuggles liquor across a border
+bn:00068546n	WIKI	Rum-running, or bootlegging, is the illegal business of transporting alcoholic beverages where such transportation is forbidden by law.
+bn:00068546n	WIKIDATA	Illegal business of smuggling alcoholic beverages
+bn:00023815n	WN	Someone who has committed a crime or has been legally convicted of a crime
+bn:00023815n	WIKI	In historical legal systems, an outlaw is declared as outside the protection of the law.
+bn:00023815n	WIKIDIS	Particularly in the American Old West
+bn:00023815n	WIKIDATA	Person, that is declared as outside the protection of the law
+bn:00023815n	OMWIKI	A person that has conducted a criminal act.
+bn:00023815n	WIKT	A person who is guilty of a crime, notably breaking the law.
+bn:00023815n	WIKT	A person who operates outside established norms.
+bn:00023815n	WIKT	A person who has been tried and convicted of a felony.
+bn:00023815n	WIKT	A declaration that an individual cannot benefit from the protection of law in a jurisdiction.
+bn:00023815n	WIKTLB	A person convicted of a crime.
+bn:00064423n	WN	(criminal law) any person involved in a criminal offense, regardless of whether the person profits from such involvement
+bn:05040795n	WIKIDATA	Person who has committed a crime
+bn:00001193n	WN	Activity that transgresses moral or civil law
+bn:00001193n	WIKI	In law, misconduct is wrongful, improper, or unlawful conduct motivated by premeditated or intentional purpose or by obstinate indifference to the consequences of one's acts.
+bn:00001193n	WIKIDATA	Legal term; form of wrongful, improper, or unlawful conduct
+bn:13962366n	WIKIDATA	Action against the law, subject to punishment
+bn:00000520n	WN	Cruel or inhumane treatment
+bn:00000520n	WIKI	Abuse is the improper usage or treatment of an entity, often to unfairly or improperly gain benefit.
+bn:00000520n	WIKIDATA	Improper usage or treatment of an entity
+bn:00000520n	OMWIKI	Improper or excessive treatment or usage (e.g. alchool); application to a wrong or bad purpose (e.g. public funds).
+bn:00000520n	WIKT	Improper treatment or usage; application to a wrong or bad purpose; an unjust, corrupt or wrongful practice or custom.
+bn:00000520n	WIKT	Cruel or harmful treatment or abuse; mistreatment.
+bn:00000520n	WIKT	Bad, cruel or unkind treatment.
+bn:09068976n	NONE	NONE
+bn:17404592n	WIKI	A violation of law is any act that fails to abide by existing law.
+bn:00056911n	WN	Pool that provides a facility for swimming
+bn:00056911n	WIKI	A natatorium is a building containing a swimming pool.
+bn:00056911n	WIKI	A swimming pool, swimming bath, wading pool, or paddling pool is a structure designed to hold water to enable swimming or other leisure activities.
+bn:00056911n	WIKIDIS	An artificially enclosed body of water used for swimming
+bn:00056911n	WIKIDATA	Building containing a swimming pool
+bn:00056911n	WIKIDATA	Artificial container filled with water intended for swimming
+bn:00056911n	OMWIKI	A swimming pool in a building.
+bn:00056911n	OMWIKI	A basin used for swimming.
+bn:00056911n	WIKT	A pool of water used for swimming, usually one which has been artificially constructed.
+bn:00056911n	WIKT	A swimming pool, especially an indoor one; a building housing one or more swimming pools.
+bn:01573043n	WIKI	An Olympic-size swimming pool is the type of swimming pool used in the Olympic Games, where the race course is 50 metres in length.
+bn:04091815n	NONE	NONE
+bn:04744556n	WIKIDATA	Type of French public swimming pool
+bn:06501794n	NONE	NONE
+bn:00421537n	WIKI	Arlington Baths Club is a not-for-profit member-run swimming club in Glasgow, housed in a purpose-built Category A Listed Building opened on 1 August 1871.
+bn:00421537n	WIKIDATA	A nineteenth-century baths in Glasgow, Scotland
+bn:00530944n	WIKI	Beatty Park Leisure Centre is a swimming pool complex in the suburb of North Perth, Western Australia.
+bn:00530944n	WIKIDATA	Swimming pool in Perth, Western Australia
+bn:01283068n	WIKI	The Aztec Aquaplex, located on the San Diego State University campus in San Diego, California, USA.
+bn:01953669n	WIKI	Frognerbadet is a pool complex in the borough of Frogner in Oslo, Norway.
+bn:02897202n	WIKI	The Harold Holt Memorial Swimming Centre is a public swimming pool complex located on the corner of High street & Edgar Street, Glen Iris, Melbourne, Australia.
+bn:02897202n	WIKIDATA	Swimming centre in Melbourne, Australia
+bn:03303142n	WIKI	Jesus Green Swimming Pool is a lido situated on Jesus Green in Cambridge, England.
+bn:03528626n	WIKI	The Richmond Municipal Natatorium, commonly known as The Plunge or The Richmond Plunge, is a historic swim center in the Point Richmond neighborhood of Richmond, California.
+bn:03528626n	WIKIDIS	A historic swim center in Richmond California
+bn:03716635n	WIKI	The Doone Kennedy Hobart Aquatic Centre is a major, $17 million aquatic sporting facility located upon the Queens Domain, within less than 1 kilometre of the CBD of Hobart, the capital city of Tasmania, Australia.
+bn:03716635n	WIKIDATA	Aquatic sporting facility in Hobart, Australia
+bn:05126039n	WIKIDATA	Public swimming pool in Berlin
+bn:05339355n	WIKIDATA	Swimming pool in Bad Homburg, Germany
+bn:10508870n	WIKIDATA	Swimming pool in Rotterdam, the Netherlands
+bn:14120832n	WIKI	Social Pool is an artwork created in 2014 by the Austrian artist Alfredo Barsuglia.
+bn:16043247n	WIKI	+POOL is an initiative to bring a floating swimming pool to the East River, on the Manhattan and/or Brooklyn banks, in New York City; a permanent location has yet to have been determined.
+bn:16043247n	WIKIDATA	Initiative to bring a floating swimming pool to the East River in New York City
+bn:16408987n	WIKI	The Hugo Municipal Pool, in Hugo, Colorado, was built during 1936-38.
+bn:05754091n	NONE	NONE
+bn:05770736n	NONE	NONE
+bn:00006751n	WN	A facility for athletic events
+bn:00063534n	WN	An excavation that is (usually) filled with water
+bn:06505589n	NONE	NONE
+bn:10461495n	NONE	NONE
+bn:00032110n	WN	A hole in the ground made by excavating
+bn:00063535n	WN	An organization of people or resources that can be shared
+bn:00063536n	WN	Any communal combination of funds
+bn:00010111n	WN	The money risked on a gamble
+bn:00010111n	WIKI	In the game of poker, the play largely centers on the act of betting, and as such, a protocol has been developed to speed up play, lessen confusion, and increase security while playing.
+bn:00067298n	WN	Funds taken out of earnings to provide for anticipated future payments
+bn:00007805n	WN	Something kept back or saved for future use or a special purpose
+bn:00007805n	OMWIKI	Any area of land or water that has been set aside for a special purpose, often to prevent or reduce harm to its wildlife and ecosystems. 
+bn:00007805n	WIKT	That which is reserved, or kept back, as for future use.
+bn:00007805n	WIKT	A supply, especially a large one, of something kept for future use.
+bn:00007805n	WIKTLB	That which is reserved, or kept back, as for future use.
+bn:00063537n	WN	A small body of standing water (rainwater) or other liquid
+bn:00063537n	WIKI	A puddle is a small accumulation of liquid, usually water, on a surface.
+bn:00063537n	WIKI	Small accumulation of liquid, usually water, on a surface
+bn:00063537n	OMWIKI	An accumulation of water in a small deepening on the ground which forms during a rainfall and dries out after some time.
+bn:00063537n	WIKT	A small pool of water, usually on a path or road.
+bn:00063537n	WIKT	A small and rather deep collection of fresh water, as one supplied by a spring, or occurring in the course of a stream; a reservoir for water.
+bn:00063537n	WIKTLB	Small body of standing or stagnant water; a puddle.
+bn:17337835n	WIKIDATA	Natural or man-made body of water
+bn:00063165n	WN	Any of various games played on a pool table having 6 pockets
+bn:00063165n	WIKI	Pool, also more formally known as pocket billiards or pool billiards, is the family of cue sports and games played on a pool table having six receptacles called pockets along the rails, into which balls are deposited as the main goal of play.
+bn:00063165n	WIKIDIS	Such as eight-ball and nine-ball, in general (a chiefly colloquial North American usage)
+bn:00063165n	WIKIDATA	Family of cue sports
+bn:00063165n	WIKT	Any of a family of billiards games played on a specific class of billiards table, having six receptacles called pockets along the rails, in which balls are deposited as the main goal of play.
+bn:00012905n	WN	The opening shot that scatters the balls in billiards or pool
+bn:00012905n	WIKT	The first shot in a game of billiards.
+bn:00012905n	WIKTLB	Billiards, snooker: first shot
+bn:00015308n	WN	A shot in billiards in which the cue ball contacts one object ball and then the other
+bn:00015308n	OMWIKI	A shot in billiards or snooker in which the ball struck with the cue comes in contact with two or more balls on the table.
+bn:00015308n	WIKT	A shot in which the ball struck with the cue comes in contact with two or more balls on the table; a hitting of two or more balls with the player's ball.
+bn:00015308n	WIKTLB	Shot in which the cue ball strikes two balls.
+bn:00053699n	WN	A shot in billiards made by hitting the cue ball with the cue held nearly vertically; the cue ball spins around another ball before hitting the object ball
+bn:00053699n	WIKI	Cue sports techniques are a vital important aspect of game play in the various cue sports such as carom billiards, pool, snooker and other games.
+bn:00055284n	WN	A faulty shot in billiards; the cue tip slips off the cue ball
+bn:00055284n	WIKT	In a cue sport, an error in hitting the ball with the cue.
+bn:00075817n	WN	A game that is played on a table
+bn:00075817n	WIKI	In casinos, the term table game is used to distinguish games such as blackjack, craps, roulette and baccarat that are played on a table and operated by one or more live dealers like a croupier or poker dealer, from games played on a mechanical device like a video slot machine.
+bn:00075817n	WIKIDATA	Wikimedia list article
+bn:00010435n	WN	Any of several games played on rectangular cloth-covered table (with cushioned edges) in which long tapering cue sticks are used to propel ivory (or composition) balls
+bn:00010435n	WIKI	Cue sports, also known as billiard sports, are a wide variety of games of skill generally played with a cue stick, which is used to strike billiard balls and thereby cause them to move around a cloth-covered billiards table bounded by elastic bumpers known as cushions.
+bn:00010435n	WIKI	Skill games using cue stick to strike billiard balls
+bn:00010435n	OMWIKI	A class of games being payed with hard balls, shot with the tips of stick called cues, on tables of recatangular shape, usually covered with green felt coating having edges made of cushions that reflect balls almost perfecty when they roll against them at every spped.
+bn:00010435n	WIKT	A game played with a cue and balls, such as billiards.
+bn:00010435n	WIKTLB	Game played with cue and balls.
+bn:00091838v	WN	Combine into a common fund
+bn:00091838v	WIKT	To put together; contribute to a common fund, on the basis of a mutual division of profits or losses; to make a common interest of.
+bn:00093574v	WN	Use jointly or in common
+bn:00093574v	OMWIKI	To use jointly or in common.
+bn:00093574v	WIKT	To have or use in common.
+bn:00093574v	WIKTLB	To have in common.
+bn:00011897n	WN	A discharge of lightning accompanied by thunder
+bn:00011897n	WIKI	A thunderbolt or lightning bolt is a symbolic representation of lightning when accompanied by a loud thunderclap.
+bn:00011897n	WIKIDATA	Symbolic representation of lightning
+bn:00011897n	WIKT	A flash of lightning accompanied by an instant crash of thunder.
+bn:00011897n	WIKT	A lightning spark, i.e., a lightning bolt.
+bn:00051161n	WN	Abrupt electric discharge from cloud to cloud or from cloud to earth accompanied by the emission of light
+bn:00051161n	WIKI	Lightning is a sudden electrostatic discharge that occurs typically during a thunderstorm.
+bn:00051161n	WIKIDIS	A natural phenomenon
+bn:00051161n	WIKIDATA	Weather phenomenon
+bn:00051161n	WIKT	A flash of light produced by short-duration, high-voltage discharge of electricity within a cloud, between clouds, or between a cloud and the earth.
+bn:00051161n	WIKIQU	Lightning is an atmospheric discharge of electricity usually accompanied by thunder, which typically occurs during thunderstorms, and sometimes during volcanic eruptions or dust storms; this page is for quotes about lightning, or where lightning is used as a metaphor.
+bn:00006809n	WN	Electrical discharges in the atmosphere
+bn:00006809n	WIKI	Atmospheric electricity is the study of electrical charges in the Earth's atmosphere.
+bn:03736694n	WIKI	Electrical breakdown or dielectric breakdown is when current flows through an electrical insulator when the voltage applied across it exceeds the breakdown voltage.
+bn:03736694n	WIKI	When current flows through an electrical insulator when the voltage applied across it exceeds the breakdown voltage
+bn:03736694n	WIKIDIS	The failure of an electric circuit or a rapid reduction in the resistance of an electrical insulator that can lead to a spark
+bn:00006810n	WN	A physical phenomenon associated with the atmosphere
+bn:00006810n	WIKI	Optical phenomena are any observable events that result from the interaction of light and matter.
+bn:00006810n	WIKIDATA	Observable events that result from the interaction of light and matter
+bn:00030179n	WN	A discharge of electricity
+bn:00068803n	WN	A bolt that cannot be moved from outside the door or gate
+bn:00011900n	WN	The act of moving with great haste
+bn:00043115n	WN	The act of moving hurriedly and in a careless manner
+bn:00011901n	WN	A roll of cloth or wallpaper of a definite length
+bn:00011901n	WIKI	A bolt is a unit of measurement used as an industry standard for a variety of materials from wood to canvas, typically materials stored in a roll.
+bn:00011901n	WIKIDATA	Unit of fabric measurement
+bn:00011901n	WIKT	A large roll of fabric or similar material, as a bolt of cloth.
+bn:00011901n	WIKTLB	Large roll of material.
+bn:00068136n	WN	Anything rolled up in cylindrical form
+bn:00068136n	WIKT	A quantity of cloth wound into a cylindrical form.
+bn:00068136n	WIKTLB	Quantity of cloth wound into a cylindrical form.
+bn:00011902n	WN	A screw that screws into a nut to form a fastener
+bn:00019810n	WN	The flattened part of a nail or bolt or rivet
+bn:00043275n	WN	A projection out from one end, "a pinhead is the head of a pin"
+bn:00043275n	WIKT	The end of a table.
+bn:00043275n	WIKTLB	End of hammer, etc.
+bn:00070898n	WN	Cylinder forming the part of a bolt between the thread and the head
+bn:00016243n	WN	A roundheaded bolt for timber; threaded along part of the shank; inserted into holes already drilled
+bn:00016243n	WIKI	A carriage bolt, coach bolt or round head square neck bolt is a form of bolt used to fasten metal to wood.
+bn:00016243n	WIKIDIS	A bolt with a self-locking head
+bn:00016243n	WIKT	A type of bolt with a rounded head and a square shank which will not turn.
+bn:00032281n	WN	A bolt that has an attachment that expands as the bolt is driven into a surface
+bn:00049166n	WN	Bolt that provides a steering joint in a motor vehicle
+bn:00049166n	WIKI	The kingpin, also king-pin and king pin, is the main pivot in the steering mechanism of a car or other vehicle.
+bn:00049166n	WIKIDIS	See also camber angle
+bn:00049166n	WIKT	The main bolt of a structure, especially the bolt in a motor vehicle that links the chassis to the axle, providing the steering pivot.
+bn:00052563n	WN	A bolt with a square or hexagonal head on one end and a threaded shaft on the other end; tightened with a wrench; used to connect metal parts
+bn:00074480n	WN	A small machine bolt
+bn:00083751v	WN	Secure or lock with a bolt
+bn:00083751v	WIKT	To secure a door by locking or barring it.
+bn:00083751v	WIKTLB	To secure a door.
+bn:00083324v	WN	Leave suddenly and as if in a hurry
+bn:00083324v	OMWIKI	To leave suddenly and as if in a hurry.
+bn:00083324v	FRAMENET	Run away suddenly.
+bn:00088939v	WN	Go away from a place
+bn:00088939v	OMWIKI	To go away from a place; to leave.
+bn:00088939v	WIKT	To leave.
+bn:00088939v	WIKT	To leave.
+bn:00088939v	WIKT	To depart from a place; to set out.
+bn:00088939v	FRAMENET	Abandon (a spouse or partner).
+bn:00056067n	WN	A lightweight horse kept for riding only
+bn:00056067n	WIKI	Equestrianism, more often known as riding, horse riding or horseback riding, refers to the skill of riding, driving, steeplechasing or vaulting with horses.
+bn:00056067n	WIKIDIS	Riding a horse
+bn:00056067n	WIKIDATA	Horse riding
+bn:00056067n	WIKIDATA	Horse used by mounted horse riders for sport, recreation or transportation
+bn:00056067n	WIKT	A horse that has been specially trained for riding, specifically the American Saddlebred.
+bn:00043033n	WN	Horse used for pulling vehicles
+bn:00043033n	WIKI	Driving, when applied to horses, ponies, mules, or donkeys, is a broad term for hitching equines to a wagon, carriage, cart, sleigh, or other horse-drawn vehicle by means of a harness and working them in this way.
+bn:00043033n	WIKIDIS	Is the control of an equine harnessed to a vehicle or to a piece of mobile equipment that, for example, carries out agricultural work.
+bn:00043033n	WIKIDATA	Use of horses to pull carriages
+bn:00043033n	WIKIDATA	Type of draft horse
+bn:00044837n	WN	The sport of racing horses
+bn:00044837n	WIKI	Horse racing is an equestrian performance sport, typically involving two or more horses ridden by jockeys or driven over a set distance for competition.
+bn:00044837n	WIKIDATA	Equestrian sport
+bn:00044837n	WIKT	A sport where horses and their jockeys compete to be fastest.
+bn:00044837n	WIKTLB	A sport where horses and their jockeys compete to be fastest.
+bn:00071332n	WN	Riding horses in competitions over set courses to demonstrate skill in jumping over obstacles
+bn:00071332n	WIKI	Show jumping, also known as "stadium jumping", "open jumping", or simply "jumping", is a part of a group of English riding equestrian events that also includes dressage, eventing, hunters, and equitation.
+bn:00071332n	WIKT	A sporting competition where horses are ridden around a course consisting of several jumps, to demonstrate the skill of both the rider and the horse.
+bn:02113314n	WIKI	Combined driving is an equestrian sport involving carriage driving.
+bn:02113314n	WIKIDIS	Is an equestrian sport involving carriage driving
+bn:14324827n	WIKIDATA	Part of the field of sport that encompasses all sports that are practiced with the horse as a partner
+bn:00952787n	WIKI	Beebe Ranch is an American horse ranch and museum located at 3062 Ridge Road, Chincoteague, Virginia.
+bn:00003464n	WN	A high-stepping horse originating in Kentucky
+bn:00003464n	WIKI	The American Saddlebred is a horse breed from the United States.
+bn:00003464n	WIKIDATA	Horse breed
+bn:00003464n	WIKT	A breed of horse that originated in Kentucky by crossing Thoroughbreds, Morgans and Standardbreds.
+bn:00005001n	WN	A hardy breed of saddle horse developed in western North America and characteristically having a spotted rump
+bn:00005001n	WIKI	The Appaloosa is an American horse breed best known for its colorful spotted coat pattern.
+bn:00005001n	WIKIDATA	Horse breed
+bn:00005249n	WN	A spirited graceful and intelligent riding horse native to Arabia
+bn:00005249n	WIKT	A native of Arabia.
+bn:00013609n	WN	Horse of a light yellowish dun color with dark mane and tail
+bn:00013609n	WIKI	Buckskin is a hair coat color of horses, referring to a color that resembles certain shades of tanned deerskin.
+bn:00013609n	WIKIDIS	A color of horses similar to buckskin leather
+bn:00013609n	WIKT	A grayish yellow in colour.
+bn:00023393n	WN	A light saddle horse trained for herding cattle
+bn:00023393n	WIKI	A stock horse is a horse of a type that is well suited for working with livestock, particularly cattle.
+bn:00024060n	WN	An emaciated horse likely soon to become carrion and so attractive to crows
+bn:00024060n	WIKT	An old, emaciated horse.
+bn:00029119n	WN	Horse of a dull brownish grey color
+bn:00029119n	WIKI	The dun gene is a dilution gene that affects both red and black pigments in the coat color of a horse.
+bn:00029119n	WIKIDIS	Producing a brownish-gray color in horses and other equidae
+bn:00029119n	OMWIKI	The colour of the coats of some horses: pale with a dark face, mane, back and tail.
+bn:00029119n	OMWIKI	The color of the coats of some horses: pale with a dark face, mane, back and tail.
+bn:00029119n	WIKT	A brownish grey colour.
+bn:00041513n	WN	Horse of a light gray or whitish color
+bn:00042427n	WN	A saddle horse used for transportation rather than sport etc.
+bn:00051456n	WN	A compact and sturdy saddle horse that is bred and trained in Vienna; smart and docile and excellent for dressage
+bn:00051456n	WIKI	The Lipizzan or Lipizzaner, is a breed of horse closely associated with the Spanish Riding School of Vienna, Austria, where they demonstrate the haute école or "high school" movements of classical dressage, including the highly controlled, stylized jumps and other movements known as the "airs above the ground."
+bn:00051456n	WIKIDIS	An Austrian breed of horses renowned for their "airs above the ground"
+bn:00051456n	WIKIDATA	Horse breed
+bn:00055887n	WN	An American breed of small compact saddle horses
+bn:00060283n	WN	Especially a light saddle horse for a woman
+bn:00060283n	WIKI	A palfrey is a type of horse that was highly valued as a riding horse in the Middle Ages.
+bn:00060283n	WIKI	Type of horse
+bn:00060283n	WIKIDIS	A light riding horse common in the Middle Ages
+bn:00060283n	WIKT	A small horse with a smooth, ambling gait, popular in the Middle Ages with nobles and women.
+bn:00031345n	WN	Solid-hoofed herbivorous quadruped domesticated since prehistoric times
+bn:00031345n	WIKI	The horse is one of two extant subspecies of Equus ferus.
+bn:00031345n	WIKIDIS	As rural slang
+bn:00031345n	WIKIDATA	Domesticated horse
+bn:00031345n	WIKIDATA	Domesticated (work) animal
+bn:00031345n	OMWIKI	A large animal with four legs of the Equus caballus species which people ride on or use for carrying things or pulling vehicles.
+bn:00031345n	WIKT	Horse.
+bn:00031345n	WIKIQU	Horses are large ungulates, which have had a long relationship with human society.
+bn:00031307n	WN	Hoofed mammals having slender legs and a flat coat with a narrow mane along the back of the neck
+bn:00058632n	WN	Placental mammals having hooves with an odd number of toes on each foot
+bn:00058632n	WIKI	Members of the order Perissodactyla, also known as odd-toed ungulates, are mammals characterized by an odd number of toes and by hindgut fermentation with somewhat simple stomachs.
+bn:00058632n	WIKIDATA	Order of mammals
+bn:00058632n	WIKT	Any ungulate mammal with an odd number of toes and belonging to the Perissodactyla, including the horses, zebra, and rhinoceros.
+bn:00090934v	WN	Attach to a support
+bn:00090934v	WIKT	To attach (an object) to a support.
+bn:00090934v	WIKTLB	Attach an object.
+bn:00090934v	FRAMENET	Fix in position.
+bn:00082893v	WN	Cause to be attached
+bn:00082893v	FRAMENET	Fasten; join.
+bn:00083448v	WN	Get up on the back of
+bn:00083448v	WIKT	To board or mount , especially a vehicle.
+bn:00083448v	WIKT	To place oneself on ; to bestride.
+bn:00083448v	WIKTLB	To board or mount.
+bn:00044668n	WN	(slang) a neighborhood
+bn:00044668n	WIKT	Neighborhood.
+bn:00057221n	WN	People living near one another
+bn:00044672n	WN	A headdress that protects the head and face
+bn:00044672n	WIKI	A hood is a kind of headgear that covers most of the head and neck and sometimes the face.
+bn:00044672n	WIKIDIS	Type of head covering
+bn:00044672n	WIKIDATA	Type of headgear
+bn:00139958n	WIKI	Bondage is the practice of consensually tying, binding, or restraining a partner for erotic, aesthetic, or somatosensory stimulation.
+bn:00139958n	WIKIDIS	The practice of tying people up for pleasure
+bn:00139958n	WIKT	The practice of tying people up for sexual pleasure.
+bn:00139958n	WIKTLB	The practice of tying people up for sexual pleasure.
+bn:00008028n	WN	A cap that is close-fitting and woolen and covers all of the head but the face
+bn:00008028n	WIKI	A balaclava, also known as a balaclava helmet or ski mask, is a form of cloth headgear designed to expose only part of the face.
+bn:00008028n	WIKIDIS	A form of headgear also known as a "balaclava helmet" or "ski mask"
+bn:00008028n	WIKIDATA	Woollen cap covering the head and neck leaving the face revealed
+bn:00008028n	OMWIKI	Garment, made of wool or other tissues, wich covers the whole head but the eyes or the face, used to hide identity or to protect from the cold wheather.
+bn:00008028n	WIKT	A warm cap shielding the neck and head, often made out of wool.
+bn:00017723n	WN	One who accompanies and supervises a young woman or gatherings of young people
+bn:00017723n	WIKI	Chaperon was a form of hood or, later, highly versatile hat worn in all parts of Western Europe in the Middle Ages.
+bn:00017723n	WIKI	A chaperone in its original social usage was a person who for propriety's sake accompanied an unmarried girl in public: usually she was an older married woman, and most commonly the girl's own mother.
+bn:00017723n	WIKI	Type of head cover
+bn:00017723n	WIKIDIS	A form of hood or versatile hat worn in Western Europe in the Middle Ages
+bn:00017723n	WIKIDIS	An adult who accompanies or supervises young people on social occasions
+bn:00017723n	WIKT	An adult who accompanies or supervises one or more young, unmarried men or women during social occasions, usually with the specific intent of preventing some types of social or sexual interactions or illegal behavior.
+bn:00017723n	WIKT	An older person who accompanies other younger people to ensure the propriety of their behaviour, often an older woman accompanying a young woman.
+bn:00017723n	WIKTLB	An older person who accompanies younger people to ensure good behaviour.
+bn:00793751n	WIKI	An almuce was a fur hood-like shoulder cape worn as a choir vestment in the Middle Ages, especially in England.
+bn:00793751n	WIKT	A hood or cape.
+bn:00793751n	WIKTLB	Hood or cape made of fur.
+bn:00007445n	WN	A medieval hood of mail suspended from a basinet to protect the head and neck
+bn:00007445n	WIKI	An aventail or camail is a flexible curtain of mail attached to the skull of a helmet that extends to cover the throat, neck and shoulders.
+bn:00007445n	WIKI	Helmet component
+bn:00007445n	WIKT	A piece of armor used to protect the neck.
+bn:00007445n	WIKT	The flap or adjustable part of the hood of mail, which when unfastened allowed the hood to drop upon the shoulders.
+bn:00007445n	WIKTLB	Adjustable mail protecting the neck.
+bn:00014654n	WN	A woman's large folded hooped hood; worn in the 18th century
+bn:00785791n	WIKI	A hoodie is a sweatshirt with a hood.
+bn:00785791n	WIKIDATA	Sweatshirt with a hood
+bn:00785791n	WIKT	A sweatshirt, with an integral hood and, sometimes, a large kangaroo pocket at the front.
+bn:00785791n	WIKTLB	Sweatshirt, with an integral hood.
+bn:00044675n	WN	An ornament on the front of the hood of a car emblematic of the manufacturer
+bn:00044675n	WIKI	A hood/bonnet ornament, radiator cap, motor mascot or car mascot is a specially crafted model which symbolizes a car company like a badge, located on the front center portion of the hood.
+bn:00044675n	WIKIDIS	A decoration on the hood of an automobile
+bn:00044675n	WIKT	A decorative object fastened on a car's hood, often symbolizing the manufacturer or brand; sometimes fixed to the radiator cap.
+bn:00044675n	WIKTLB	Decoration on car's hood.
+bn:00588563n	WIKI	In anatomy, a spatium or anatomic space is a space.
+bn:14361968n	WIKIDATA	German term: term from the audio engineering
+bn:00943708n	WIKI	The Wallops Flight Facility Visitor Center is located in Building J-17, Wallops Island, Virginia, United States along Route 175.
+bn:15971127n	WIKI	Earthling Society is an English space/psychedelic rock band formed in Fleetwood, England in January 2004 by vocalist/guitarist Fred Laird and drummer Jon Blacow with bassist, David Fyall.
+bn:16458975n	WIKIDATA	German term: a separated horse box, in which a mare give birth to her foal undisturbed
+bn:07019237n	WIKIDATA	Space
+bn:07030574n	WIKIDATA	Space
+bn:15051642n	WIKIDATA	Square in Balassagyarmat
+bn:18235898n	WIKIDATA	Szekszárd
+bn:16473269n	WIKI	Espai Volart is a space for temporary exhibitions of artists featured in the collection of the Fundacio Vila Casas.
+bn:00001701n	WN	The atmosphere and outer space considered as a whole
+bn:00001701n	WIKI	Aerospace is the human effort in science, engineering and business to fly in the atmosphere of Earth and surrounding space.
+bn:00001701n	WIKIDATA	Engineering effort to fly in the atmosphere of Earth (aeronautics) and surrounding space (astronautics)
+bn:00001701n	WIKIDATA	Study of the design and construction of aircraft
+bn:00001701n	WIKT	The atmosphere of the Earth and the region of space around it.
+bn:00001701n	WIKTLB	Earth's atmosphere and space the around it.
+bn:00000448n	WN	Physical space independent of what occupies it
+bn:00000448n	WIKI	Absolute space and time is a concept in physics and philosophy about the properties of the universe.
+bn:00000448n	WIKIDATA	Theoretical foundation of Newtonian mechanics
+bn:00061910n	WN	(physics) an ideal space in which the coordinate dimensions represent the variables that are required to describe a system or substance
+bn:00061910n	WIKI	In mathematics and physics, a phase space of a dynamical system is a space in which all possible states of a system are represented, with each possible state corresponding to one unique point in the phase space.
+bn:00061910n	WIKIDIS	A concept in physics, frequently applied in thermodynamics, statistical mechanics, dynamical systems, symplectic manifolds and chaos theory
+bn:00061910n	WIKT	The topological space in which each point represents a possible state of a system.
+bn:00061910n	WIKTLB	Space of states of a system.
+bn:00025821n	WN	Any region in space outside the solar system
+bn:00025821n	WIKT	All of space beyond the gravitational influence of Earth, or outside the Solar System.
+bn:00025821n	WIKTLB	All of space beyond the gravitational influence of Earth.
+bn:00047096n	WN	The space between galaxies
+bn:00047191n	WN	The part of outer space within the solar system
+bn:00047191n	OMWIKI	Space extending between the sun and the planets of the solar system. Interplanetary space is not empty, but contains dust, particles with an electric charge, and the magnetic field of the sun (also called the IMF, or Interplanetary Magnetic Field).
+bn:00047191n	WIKT	That part of outer space between the planets of a solar system and its star.
+bn:00047221n	WN	The space between stars
+bn:00047221n	WIKT	The space between the stars.
+bn:00047221n	WIKTLB	Space between the stars.
+bn:06166674n	NONE	NONE
+bn:00011110n	WN	A blank character used to separate successive words in writing or printing
+bn:00011110n	WIKI	In writing, a space is a blank area that separates words, sentences, syllables and other written or printed glyphs.
+bn:00011110n	WIKIDIS	The space between two words of text
+bn:00011110n	WIKIDATA	Punctuation mark
+bn:00011110n	WIKT	The space character; the character resulting from pressing the space-bar on a keyboard.
+bn:00011110n	WIKT	A gap in text between words, lines etc., or a digital character used to create such a gap.
+bn:00011110n	MSTERM	The approximate location of one or more resources, such as a person, computer, printer, or asset, in a space plan.
+bn:00011110n	MSTERM	A character that is entered by pressing the SPACEBAR on the keyboard and that typically appears on the screen as a blank space.
+bn:00011110n	MSTERM	The empty space that can be found between two handwritten words.
+bn:00011110n	MSTERM	The character entered by pressing the spacebar.
+bn:00011110n	MSTERM	A typographical unit of measure that is equal in width to the point size of a particular font. For many fonts, this is equal to the width of a capital N, from which the en space takes its name.
+bn:14187717n	WIKIDATA	Symbols that indicate the structure and organization of written language, as well as intonation and pauses
+bn:05225688n	NONE	NONE
+bn:14490181n	WIKIDATA	Category of writing characters that are not letters, but used to write words (ie belonging to the spelling)
+bn:00007842n	WN	The wave that spreads behind a boat as it moves forward
+bn:00007842n	WIKI	In fluid dynamics, a wake may either be: the region of recirculating flow immediately behind a moving or stationary blunt body, caused by viscosity, which may be accompanied by flow separation and turbulence, or the wave pattern on the water surface downstream of an object in a flow, or produced by a moving object, caused by pressure differences of the fluids above and below the free surface and gravity, or both.
+bn:00007842n	WIKIDATA	Region of recirculating flow immediately behind a moving or stationary solid body
+bn:00007842n	WIKT	The turbulent flow, with many eddies, downstream of a blunt body.
+bn:00056171n	WN	One of a series of ridges that moves across the surface of a liquid (especially across a large body of water)
+bn:00056171n	WIKI	In fluid dynamics, wind waves, or wind-generated waves, are surface waves that occur on the free surface of bodies of water.
+bn:00056171n	WIKIDATA	Surface waves that occur on the free surface of water bodies
+bn:00056171n	OMWIKI	A moving ridge or swell of water occurring close to the surface of the sea, characterized by oscillating and rising and falling movements, often as a result of the frictional drag of the wind. 
+bn:00056171n	WIKT	A moving disturbance in the level of a body of water; an undulation.
+bn:00056171n	WIKTLB	Moving disturbance, undulation.
+bn:00056171n	FRAMENET	A sudden occurrence of or increase in a specified phenomenon or emotion.
+bn:00041923n	WN	A radio wave propagated on or near the earth's surface
+bn:00041923n	WIKI	In physics, a surface wave is a mechanical wave that propagates along the interface between differing media, usually as a gravity wave between two fluids with different densities.
+bn:00041923n	WIKIDIS	A mechanical wave, in physics
+bn:00079987n	WN	A vigil held over a corpse the night before burial
+bn:00079987n	WIKI	In funeral services, a viewing is the time that the family and friends come to see the deceased after they have been prepared by a funeral home.
+bn:00079987n	WIKI	A wake is a social gathering associated with death, usually held before a funeral.
+bn:00079987n	WIKIDIS	The part of funerals where family and friends see the deceased
+bn:00079987n	WIKIDIS	A ritual which takes place during some funeral ceremonies
+bn:00079987n	WIKIDATA	Ceremony associated with death
+bn:00079987n	WIKT	A wake.
+bn:00079989n	WN	The rite of staying awake for devotional purposes (especially on the eve of a religious festival)
+bn:00079989n	WIKI	A vigil, from the Latin vigilia meaning wakefulness, is a period of purposeful sleeplessness, an occasion for devotional watching, or an observance.
+bn:00079989n	WIKIDIS	A period of purposeful sleeplessness, an occasion for devotional watching, or an observance.
+bn:00079989n	WIKIDATA	Period of intentional sleeplessness
+bn:00079989n	WIKT	The eve of a religious festival in which staying awake is part of the ritual devotions.
+bn:00079989n	WIKTLB	Eve of a religious festival.
+bn:00067050n	WN	An established ceremony prescribed by a religion
+bn:00067050n	WIKI	A ritual "is a sequence of activities involving gestures, words, and objects, performed in a sequestered place, and performed according to set sequence".
+bn:00067050n	WIKI	A rite or ritual is an established, ceremonial, usually religious, act.
+bn:00067050n	WIKIDATA	Established, ceremonious act
+bn:00067050n	WIKIDATA	Set of actions, performed mainly for their symbolic value
+bn:00067050n	OMWIKI	The act of performing divine or solemn service, as established by law, precept, or custom.
+bn:00067050n	WIKT	A religious custom.
+bn:00067050n	WIKT	Rite; a repeated set of actions.
+bn:00067043n	WN	A ceremony having religious meaning
+bn:00067043n	WIKI	A ritual "is a sequence of activities involving gestures, words, and objects, performed in a sequestered place, and performed according to set sequence".
+bn:00067043n	WIKIDATA	Set of actions, performed mainly for their symbolic value
+bn:00095595v	WN	Be awake, be alert, be there
+bn:00093789v	WN	Not go to bed
+bn:00062878n	WN	Dish on which food is served or from which food is eaten
+bn:00062878n	WIKI	A plate is a broad, concave, but mainly flat vessel on which food can be served.
+bn:00062878n	WIKIDIS	A broad, mainly flat vessel commonly used to serve food.
+bn:00062878n	WIKIDATA	Type of dish
+bn:00062878n	OMWIKI	A dish on which food is served or from which food is eaten.
+bn:00062878n	WIKT	A flat dish from which food is served or eaten.
+bn:00062878n	WIKTLB	Dish from which food is served or eaten.
+bn:02190841n	WIKI	This article relates to the type of Greek pottery.
+bn:02876394n	WIKI	Charger plates or service plates are larger plates used during full course dinners or to dress up special events like parties and weddings.
+bn:02876394n	WIKIDIS	Decorative plates used to fancify a place setting
+bn:06758832n	NONE	NONE
+bn:17265450n	WIKI	Eggplant Papucaki is a typical Aegean dish found on both Turkish and Greek sides of the Aegean Sea.
+bn:17265450n	WIKIDATA	An eggplant dish from the Turkish cuisine
+bn:05292171n	WIKI	The Euphorbos plate is the name of an East Greek plate with mythological painting in the Orientalising style.
+bn:05292171n	WIKIDATA	Ancient eastern greek plate in orientalizing style
+bn:17803136n	NONE	NONE
+bn:17803137n	NONE	NONE
+bn:00026594n	WN	A small plate on which dessert can be served
+bn:00027212n	WN	A plate from which a diner eats during the main course of a meal
+bn:00060479n	WN	A disposable plate made of cardboard
+bn:00068901n	WN	A plate or bowl for individual servings of salad
+bn:00072929n	WN	A deep plate with a wide rim
+bn:00074136n	WN	A plate of steel
+bn:00035122n	WN	Tableware that is relatively flat and fashioned as a single piece
+bn:00035122n	WIKT	Plates, dishes and other relatively flat crockery.
+bn:04036415n	WIKIDATA	Set of dishes or tableware sold in a group
+bn:00062876n	WN	A sheet of metal or wood or glass or plastic
+bn:00062876n	WIKT	The contents of such a dish.
+bn:00062876n	WIKTLB	Contents of a plate.
+bn:00007919n	WN	A flat plate that controls or directs the flow of fluid or energy
+bn:00007919n	WIKI	Baffles are flow-directing or obstructing vanes or panels used in some industrial process vessels, such as shell and tube heat exchangers, chemical reactors, and static mixers.
+bn:00007919n	WIKIDIS	A flow-directing vane or panel in some vessels such as shell and tube heat exchangers, chemical reactors, or static mixers
+bn:00007919n	WIKIDATA	Vane or panel for directing the flow of a fluid
+bn:00024783n	WN	A detachable plate that covers the closed end of a cylinder chamber in a reciprocating engine or pump
+bn:00024783n	WIKI	In an internal combustion engine, the cylinder head sits above the cylinders on top of the cylinder block.
+bn:00024783n	WIKIDIS	A part of an internal combustion engine
+bn:00024783n	WIKIDATA	Component of a cylinder of an internal combustion engine
+bn:00024783n	WIKT	A part of an internal combustion engine, usually made as a removable piece, that closes one end of the engine's cylinders.
+bn:00024783n	WIKTLB	Part of an internal combustion engine.
+bn:00025125n	WN	A movable iron plate that regulates the draft in a stove or chimney or furnace
+bn:00025125n	WIKI	A damper is a valve or plate that stops or regulates the flow of air inside a duct, chimney, VAV box, air handler, or other air handling equipment.
+bn:00025125n	WIKIDIS	A mechanical device in a duct or chimney that regulates airflow
+bn:00025125n	WIKIDATA	Mobile plate or valve allowing to regulate the flow of air inside a chimney or other air handling equipment
+bn:00025125n	WIKT	A valve or movable plate in the flue or other part of a stove, furnace, etc., used to check or regulate the draught of air.
+bn:00025125n	WIKTLB	Valve or movable plate used to regulate flow of air.
+bn:00030902n	WN	A block or plate or other hard surface that has been engraved
+bn:00030902n	WIKI	Engraving is the practice of incising a design onto a hard, usually flat surface by cutting grooves into it.
+bn:00030902n	WIKIDATA	Practice of incising a design on to a hard, usually flat surface, by cutting grooves into it
+bn:00030902n	OMWIKI	The practice of incising a design onto a hard, flat surface, by cutting grooves into it.
+bn:00030902n	WIKT	The practice of incising a design onto a hard, flat surface, by cutting grooves into it.
+bn:00030902n	WIKTLB	The practice of incising a design onto a hard, flat surface.
+bn:00031579n	WN	(nautical) a plate on a ship's stern on which the name is inscribed
+bn:00031579n	WIKT	The part of a ship's stern where its name is displayed.
+bn:13839828n	WIKIDATA	Common piece of tableware
+bn:00021416n	WN	A whole formed by a union of two or more elements or parts
+bn:00021416n	WIKT	A substance made from any combination elements.
+bn:00021416n	WIKTLB	Chemistry: substance made by chemical combination of elements.
+bn:00000142n	WN	Any of several fat-soluble vitamins essential for normal vision; prevents night blindness or inflammation or dryness of the eyes
+bn:00000142n	WIKI	Vitamin A is a group of unsaturated nutritional organic compounds that includes retinol, retinal, retinoic acid, and several provitamin A carotenoids.
+bn:00000142n	WIKIDIS	Also called retinol, an essential human nutrient
+bn:00000142n	WIKIDATA	Vitamin, group of molecules
+bn:00000142n	OMWIKI	A nutrient essential for proper vision and healthy skin and mucous membranes.
+bn:00000142n	WIKT	Vitamin A.
+bn:00000142n	WIKT	Any of several closely related fat-soluble vitamins that are essential for normal vision; retinol.
+bn:00000142n	WIKTLB	Any fat-soluble vitamin essential for vision.
+bn:00000902n	WN	Any of various water-soluble compounds having a sour taste and capable of turning litmus red and reacting with a base to form a salt
+bn:00000902n	WIKI	An acid is a molecule or ion capable of donating a hydron, or, alternatively, capable of forming a covalent bond with an electron pair.
+bn:00000902n	WIKIDATA	Type of chemical substance that reacts with a base
+bn:00000902n	OMWIKI	A compound capable of transferring a hydrogen ion in solution.
+bn:00000902n	WIKT	A sour substance.
+bn:00000902n	WIKT	Any acid that has only one replaceable hydrogen ion.
+bn:00000902n	WIKTLB	A sour substance.
+bn:00002771n	WN	Any of various water-soluble compounds capable of turning litmus blue and reacting with an acid to form a salt and water
+bn:00002771n	WIKI	In chemistry, bases are substances that, in aqueous solution, are slippery to the touch, taste astringent, change the color of indicators, react with acids to form salts, promote certain chemical reactions, accept protons from any proton donor, and/or contain completely or partially displaceable OH− ions.
+bn:00002771n	WIKI	In chemistry, an alkali is a basic, ionic salt of an alkali metal or alkaline earth metal chemical element.
+bn:00002771n	WIKI	Basic, ionic salt of an alkali metal or alkaline earth metal chemical element
+bn:00002771n	WIKIDIS	A substance that can accept hydrogen ions (protons)
+bn:00002771n	WIKIDIS	A specific type of chemical base
+bn:00002771n	WIKIDATA	Substance that can accept hydrogen ions (protons) or more generally, donate a pair of valence electrons
+bn:00002771n	OMWIKI	Any chemical species, ionic or molecular, capable of accepting or receiving a proton (hydrogen ion) from another substance; the other substance acts as an acid in giving of the proton.
+bn:00002771n	WIKT	Any of a class of generally water-soluble compounds, having bitter taste, that turn red litmus blue, and react with acids to form salts.
+bn:00002771n	WIKTLB	Chemical compound that will neutralize an acid.
+bn:00003529n	WN	A methyl with the hydrogen atom replaced by an amino radical
+bn:00003529n	WIKI	Methylamine is an organic compound with a formula of CH3NH2.
+bn:00003529n	WIKIDATA	Group of chemical compound
+bn:00003529n	WIKIDATA	Chemical compound
+bn:00003542n	WN	A complex inorganic compound that contains ammonia molecules
+bn:00003542n	WIKI	In coordination chemistry, metal ammine complexes are metal complexes containing at least one ammonia ligand.
+bn:00004712n	WN	A B vitamin that is used to treat pernicious anemia
+bn:00004712n	WIKI	Vitamin B12, also called cobalamin, is a water-soluble vitamin that has a key role in the normal functioning of the brain and nervous system via the synthesis of myelin, and the formation of red blood cells.
+bn:00004712n	WIKIDATA	Water-soluble vitamin
+bn:00004712n	OMWIKI	A vitamin that is needed to make red blood cells and DNA (the genetic material in cells) and to keep nerve cells healthy.
+bn:00006295n	WN	A vitamin found in fresh fruits (especially citrus fruits) and vegetables; prevents scurvy
+bn:00006295n	WIKI	Vitamin C, also known as ascorbic acid and L-ascorbic acid, is a nutrient for some animal species, including humans, but not for others.
+bn:00006295n	WIKI	Ascorbic acid is a naturally occurring organic compound with antioxidant properties.
+bn:00006295n	WIKIDATA	Group of chemical compounds
+bn:00006295n	WIKIDATA	Pharmaceutical drug
+bn:00006295n	OMWIKI	A key nutrient that the body needs to fight infection, heal wounds, and keep tissues healthy, including the blood vessels, cartilage, ligaments, tendons, bones, muscle, skin, teeth, and gums.
+bn:00006295n	WIKT	Ascorbic acid.
+bn:00006295n	WIKT	A white crystalline organic compound, C6H8O6, found in citrus fruits and many vegetables; it is an antioxidant and an efficient scavenger of free radicals.
+bn:00006295n	WIKT	The L-enantiomer of ascorbic acid, a water-soluble nutrient essential for life, synthesized by most animals and plants but not humans, although used in our bodies for many purposes. It is plentiful in citrous fruits and many vegetables, and a deficiency causes scurvy.
+bn:00006295n	WIKT	Any salt or ester of ascorbic acid.
+bn:00006295n	WIKTLB	L-enantiomer of ascorbic acid.
+bn:00006854n	WN	A hard brittle multivalent metallic element; resistant to corrosion and tarnishing
+bn:00006854n	WIKI	Chromium is a chemical element with symbol Cr and atomic number 24.
+bn:00006854n	WIKI	Hexavalent chromium refers to chemical compounds that contain the element chromium in the +6 oxidation state.
+bn:00006854n	WIKIDIS	A chemical element
+bn:00006854n	WIKIDATA	Chemical compounds that contain the element chromium in the +6 oxidation state
+bn:00006854n	WIKIDATA	Chemical element with the atomic number of 24
+bn:00006854n	OMWIKI	A hard grey metallic element that takes a high polish, occurring principally in chromite: used in steel alloys and electroplating to increase hardness and corrosion-resistance.
+bn:00006854n	WIKT	A metallic chemical element with an atomic number of 24.
+bn:00007576n	WN	Any dye containing one or more azo groups
+bn:00007576n	WIKI	Azo compounds are compounds bearing the functional group R−N=N−R′, in which R and R′ can be either aryl or alkyl.
+bn:00007576n	WIKI	Class of organic compounds bearing the functional group R–N=N–R′, in which R and R′ can be either aryl or alkyl
+bn:00007576n	WIKIDIS	A chemistry functional group and class of compounds
+bn:00007576n	WIKT	Any of a large number of mostly yellow to red synthetic dyes that contain an azo or diimide functional group.
+bn:00008788n	WN	A phosphoric ester of a nucleoside; the basic structural unit of nucleic acids (DNA or RNA)
+bn:00008788n	WIKI	Nucleobases, also known as nitrogenous bases or often simply bases, are nitrogen-containing biological compounds that form nucleosides, which in turn are components of nucleotides, with all of these monomers constituting the basic building blocks of nucleic acids.
+bn:00008788n	WIKI	Nucleotides are organic molecules that serve as the monomer units for forming the nucleic acid polymers deoxyribonucleic acid and ribonucleic acid, both of which are essential biomolecules in all life-forms on Earth.
+bn:00008788n	WIKIDIS	In genetics, the parts of DNA and RNA involved in forming base pairs
+bn:00008788n	WIKIDATA	Nitrogen-containing biological compounds that form nucleosides
+bn:00008788n	WIKIDATA	Biological molecules that form the building blocks of nucleic acids
+bn:00008788n	OMWIKI	A chemical compound that consists of 3 portions: a heterocyclic base, a sugar, and one or more phosphate groups.
+bn:00008788n	OMWIKI	The correspondence between the set of 64 possible nucleotide triplets and the amino acids and stop codons that they specify.
+bn:00008788n	WIKT	The monomer constituting DNA or RNA biopolymer molecules. Each nucleotide consists of a nitrogenous heterocyclic base , which can be either a double-ringed purine or a single-ringed pyrimidine; a five-carbon pentose sugar ; and a phosphate group.
+bn:00008788n	WIKTLB	Monomer constituting DNA or RNA.
+bn:00012206n	WN	A salt or ester of boric acid
+bn:00012206n	WIKI	Borates are the name for a large number of boron-containing oxyanions.
+bn:00012206n	WIKIDATA	Boron-containing chemical compound
+bn:00012206n	WIKT	A salt or ester formed by the combination of boric acid with a base or positive radical.
+bn:00012206n	WIKT	Any salt of pyroboric acid.
+bn:00012206n	WIKTLB	Salt of boric acid.
+bn:00013292n	WN	A red fluorescent dye resulting from the action of bromine on fluorescein; used in cosmetics and as a biological stain for studying cell structures
+bn:00013292n	WIKI	Eosin is a name of several fluorescent acidic compounds which bind to and form salts with basic, or eosinophilic, compounds like proteins containing amino acid residues such as arginine and lysine, and stains them dark red or pink as a result of the actions of bromine on fluorescein.
+bn:00013292n	WIKIDATA	Groups of chemical compound used as dyes
+bn:00013292n	OMWIKI	A red fluorescent dye resulting from the action of bromine on fluorescein; used in cosmetics and as a biological stain for studying cell structures.
+bn:00013292n	WIKT	A red, acidic dye commonly used in histological stains.
+bn:00013292n	WIKTLB	Red, acidic dye.
+bn:00014224n	WN	Any of three isomeric hydrocarbons C4H8; all used in making synthetic rubbers
+bn:00014224n	WIKI	Butene, also known as butylene, is an alkene with the formula C4H8.
+bn:00014224n	WIKIDATA	Family of chemical compounds
+bn:00014224n	WIKT	Any of several forms of butylene.
+bn:00014224n	WIKT	Any of three isomeric aliphatic alkenes containing four carbon atoms and one double bond; their polymers are used as synthetic rubber.
+bn:00014224n	WIKTLB	Isomeric aliphatic alkene.
+bn:00014663n	WN	A fat-soluble vitamin that prevents rickets
+bn:00014663n	WIKI	Vitamin D is a group of fat-soluble secosteroids responsible for increasing intestinal absorption of calcium, magnesium, and phosphate, and multiple other biological effects.
+bn:00014663n	WIKIDATA	Group of molecules used as vitamin
+bn:00014663n	OMWIKI	A nutrient that helps the body use calcium and phosphorus and make strong bones and teeth.
+bn:00014663n	WIKT	Constituent of vitamin D1 and vitamin D2.
+bn:00014663n	WIKT	Any of a number of fat-soluble vitamins, required for normal bone development and that prevents rickets; can be manufactured in the skin on exposure to sunlight.
+bn:00014663n	WIKT	Constituent of vitamin D2.
+bn:00014663n	WIKTLB	Any of a number of fat-soluble vitamins
+bn:00016483n	WN	Any of a group of proteases that mediate apoptosis
+bn:00016483n	WIKI	Caspases are a family of protease enzymes playing essential roles in programmed cell death and inflammation.
+bn:00016483n	WIKIDATA	Family of cysteine proteases
+bn:00016483n	WIKT	Any of several intracellular proteolytic enzymes that mediate apoptosis.
+bn:00017255n	WN	One of several broad spectrum antibiotic substances obtained from fungi and related to penicillin (trade names Mefoxin); addition of side chains has produced semisynthetic antibiotics with greater antibacterial activity
+bn:00017255n	WIKI	The cephalosporins 
+bn:00017255n	WIKI	Cefoxitin is a second-generation cephamycin antibiotic developed by Merck & Co., Inc. from Cephamycin C in the year following its discovery, 1972.
+bn:00017255n	WIKIDATA	Chemical compound
+bn:00017255n	WIKT	Any of a group of semisynthetic, broad-spectrum antibiotics related to penicillin.
+bn:00020398n	WN	Any of several quinones found in living cells and that function as coenzymes that transfer electrons from one molecule to another in cell respiration
+bn:00020398n	WIKI	Coenzyme Q10, also known as ubiquinone, ubidecarenone, coenzyme Q, and abbreviated at times to CoQ10 /ˌkoʊ ˌkjuː ˈtɛn/, CoQ, or Q10 is a coenzyme that is ubiquitous in the bodies of most animals.
+bn:00020398n	WIKIDATA	Chemical compound
+bn:00020398n	OMWIKI	A substance found in most tissues in the body, and in many foods. It can also be made in the laboratory. It is used by the body to produce energy for cells, and as an antioxidant.
+bn:00021370n	WN	A compound described in terms of the central atom to which other atoms are bound or coordinated
+bn:00021370n	WIKI	In chemistry, a coordination complex consists of a central atom or ion, which is usually metallic and is called the coordination centre, and a surrounding array of bound molecules or ions, that are in turn known as ligands or complexing agents.
+bn:00021370n	WIKIDIS	Also called macromolecular metal complex, is a complex of atom or usually metallic ion and a surrounding array of bound molecules or anions, which are known as ligands. In bioinorganic chemistry the ligands are the side chains of proteins or cofactors like porphyrins
+bn:00021370n	OMWIKI	Formation of a complex compound. Also known as complexing or complexation.
+bn:00021370n	WIKT	The formation of a complex; complexation.
+bn:00021370n	WIKT	Any ion in which a central metal atom is surrounded by a group of ions or molecules . e.g. ferricyanide.
+bn:00021370n	WIKT	A structure consisting of a central atom or molecule weakly connected to surrounding atoms or molecules.
+bn:00023627n	WN	A commercial brand of epoxy glue
+bn:00023627n	WIKI	Cyanoacrylates are a family of strong fast-acting adhesives with industrial, medical, and household uses.
+bn:00023627n	WIKIDIS	A chemical compound
+bn:00023627n	WIKIDATA	Group of chemical compounds
+bn:00023627n	WIKT	A very strong glue.
+bn:00023627n	WIKTLB	Very strong glue.
+bn:00193722n	WIKI	The metabolome refers to the complete set of small-molecule chemicals found within a biological sample.
+bn:00193722n	WIKIDATA	Complete set of small-molecule chemicals found within a biological sample
+bn:00193722n	WIKT	The complete set of metabolites found in a biological sample; especially that found in a person's body under normal conditions, and when suffering from a disease.
+bn:00021417n	WN	An enclosure of residences and other building (especially in the Orient)
+bn:00021417n	WIKI	Compound when applied to a human habitat refers to a cluster of buildings in an enclosure, having a shared or associated purpose, such as the houses of an extended family.
+bn:00021417n	WIKIDIS	A cluster of buildings having a shared purpose, usually inside a fence or wall
+bn:00021417n	WIKIDATA	Cluster of buildings in an enclosure
+bn:00021417n	OMWIKI	An enclosure of residences and other buildings.
+bn:00021417n	WIKT	A group of buildings situated close together, e.g. for a school or block of offices.
+bn:00021417n	WIKTLB	Group of buildings for the same purpose.
+bn:00030693n	WN	A structure consisting of an area that has been enclosed for some purpose
+bn:00030693n	WIKI	In archaeology, an enclosure is one of the most common types of archaeological site.
+bn:00030693n	WIKIDIS	An area of land separated from surrounding land by earthworks, walls, or fencing
+bn:00030693n	OMWIKI	An area, domain, or amount of something partially or entirely enclosed by barriers.
+bn:00030693n	WIKT	An area, domain, or amount of something partially or entirely enclosed by barriers.
+bn:00030693n	WIKTLB	Area partially or entirely enclosed by walls, fences or buildings.
+bn:00085493v	WN	Make more intense, stronger, or more marked, "Her rudeness intensified his dislike for her"
+bn:00089666v	WN	Become bigger or greater in amount
+bn:00089666v	FRAMENET	Become greater along some dimension.
+bn:00085494v	WN	Calculate principal and interest
+bn:00068283n	WN	Any of many shrubs of the genus Rosa that bear roses
+bn:00068283n	WIKI	A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.
+bn:00068283n	WIKIDATA	Genus of plants
+bn:00068283n	OMWIKI	A flower of the rose plant (Rosa).
+bn:00068283n	WIKT	A flower of the rose plant.
+bn:00068283n	WIKIQU	Roses are perennial plants of the genus Rosa, within the family Rosaceae.
+bn:03953233n	NONE	NONE
+bn:14011547n	WIKIDATA	Cultivar of rose obtained in 1992 by the Delbard house.
+bn:14409771n	NONE	NONE
+bn:14427486n	WIKIDATA	Variety of shrub rose
+bn:15767137n	WIKIDATA	Describe rose varieties with similar characteristics
+bn:15838186n	WIKIDATA	Rambler
+bn:04001761n	WIKIDATA	Rose
+bn:06138015n	NONE	NONE
+bn:16097333n	NONE	NONE
+bn:12340856n	NONE	NONE
+bn:00177149n	WIKI	'Général Jacqueminot', also called 'General Jack' or 'Jack Rose', is an early Hybrid Perpetual rose cultivar, developed by Roussel, an amateur from Meudon, and introduced by the gardener Rousselet in 1853.
+bn:03545488n	WIKI	Abraham Darby is a popular apricot rose cultivar which was introduced by David Austin in England in 1985.
+bn:03545488n	WIKIDATA	Rose
+bn:15648476n	NONE	NONE
+bn:00754611n	WIKI	Iceberg is a white floribunda rose cultivar bred by Kordes in Germany in 1958.
+bn:00754611n	WIKIDIS	A rose cultivar that was bred in Germany in 1958
+bn:03163431n	WIKI	Hybrid tea is an informal horticultural classification for a group of garden roses.
+bn:03163431n	WIKIDATA	Type of rose
+bn:14155740n	WIKIDATA	Rose variety
+bn:04040983n	WIKIDATA	Rose
+bn:06000625n	WIKIDATA	Rose variety
+bn:06143895n	NONE	NONE
+bn:15687954n	NONE	NONE
+bn:00044200n	WN	The fruit of a rose plant
+bn:00044200n	WIKI	The rose hip, also known as rose haw or rose hep, is the fruit of the rose plant, that is typically red-to-orange, but ranges from dark purple to black in some species.
+bn:00044200n	WIKIDIS	The fruit of the rose
+bn:00044200n	WIKT	The fruit of a rose plant.
+bn:00044200n	WIKT	The fruit of a rose.
+bn:00044200n	WIKTLB	The fruit of a rose.
+bn:00068284n	WN	A dusty pink color
+bn:00068284n	WIKI	Rose is the color halfway between red and magenta on the HSV color wheel, also known as the RGB color wheel, on which it is at hue angle of 330 degrees.
+bn:00068284n	WIKIDIS	Rosy or pink
+bn:00068284n	WIKIDATA	Color halfway between red and magenta on the HSV color wheel
+bn:00068284n	WIKT	A purplish-red or pink colour, the colour of some rose flowers.
+bn:00062507n	WN	A light shade of red
+bn:00062507n	WIKI	Pink is a pale red color that is named after a flower of the same name.
+bn:00062507n	WIKIDATA	Any of the colors between bluish red (purple) and red, of medium to high brightness and of low to moderate saturation
+bn:00062507n	OMWIKI	A colour obtained when mixing red and white paint.
+bn:00062507n	WIKT	Having a colour between red and white; pale red.
+bn:00062507n	WIKTLB	Pale red colour
+bn:00066631n	WN	Red color or pigment; the chromatic color resembling the hue of blood
+bn:00066631n	WIKI	Red is the colour at the end of the visible spectrum of light, next to orange and opposite violet.
+bn:00066631n	WIKIDATA	Color; additive and subtractive (RYB) primary color; visible between orange and purple
+bn:00066631n	OMWIKI	The colour obtained by subtracting green and blue from white. A primary colour in the additive colour system, and a secondary colour in the subtractive colour system. It is the complementary colour of cyan.
+bn:00066631n	WIKT	Any of a range of colours having the longest wavelengths, 670 nm, of the visible spectrum; a primary additive colour for transmitted light: the colour obtained by subtracting green and blue from white light using magenta and yellow filters; the colour of blood, ripe strawberries, etc.
+bn:00066631n	WIKT	The quality of being red in color.
+bn:00066631n	WIKT	The blood-red colour of raw flesh.
+bn:00066631n	WIKTLB	Quality of being red.
+bn:00034509n	WN	Organ of locomotion and balance in fishes and some other aquatic animals
+bn:00034509n	WIKI	A fin is a thin component or appendage attached to a larger body or structure.
+bn:00034509n	WIKIDATA	Appendage
+bn:00034509n	OMWIKI	An appendage of a fish used for swimming.
+bn:00034509n	WIKT	A similar appendage of a cetacean or other marine animal.
+bn:00034509n	WIKTLB	Appendage of a cetacean or other marine animal.
+bn:00034848n	WN	Scale of the kind that covers the bodies of fish
+bn:00034848n	WIKI	The skin of most fishes is covered with scales, which, in many cases, are animal reflectors or produce animal coloration.
+bn:00034853n	WN	A bone of a fish
+bn:00034853n	WIKT	A bone from a fish.
+bn:00034853n	WIKTLB	Bone of a fish.
+bn:00050137n	WN	Sense organs of fish and amphibians; believed to detect pressure changes in the water
+bn:00050137n	WIKI	The lateral line is a system of sense organs found in aquatic vertebrates, used to detect movement and vibration in the surrounding water.
+bn:00050137n	WIKIDIS	Sense organ used by some fish and larval lissamphibians to detect movement and vibrations
+bn:00050137n	WIKT	A sense organ of a fish running lengthwise down each of its sides from the vicinity of the operculum to the base of the tail, used to detect movement and vibration in the surrounding water.
+bn:00055078n	WN	Seminal fluid produced by male fish
+bn:00055078n	WIKT	Fish semen.
+bn:00068110n	WN	Eggs of female fish
+bn:00068110n	WIKT	The eggs of fish.
+bn:00068110n	WIKTLB	Eggs of fish.
+bn:00000163n	WN	A small perch of India whose gills are modified to allow it to breathe air; has spiny pectoral fins that enable it to travel on land
+bn:00000163n	WIKI	Anabas testudineus, the climbing perch, is a species of fish in the family Anabantidae, the climbing gouramis.
+bn:00000163n	WIKIDATA	Species of fish
+bn:00012044n	WN	Any fish of the class Osteichthyes
+bn:00012044n	WIKT	A fish of the taxonomic group Osteichthyes.
+bn:00012370n	WN	A fish that lives and feeds on the bottom of a body of water
+bn:00012370n	WIKI	A bottom feeder is an aquatic animal that feeds on or near the bottom of a body of water.
+bn:00012370n	WIKT	A fish or other aquatic creature that feeds off the bottom of its habitat; a flatfish.
+bn:00012379n	WN	A fish that lurks on the bottom of a body of water
+bn:00034586n	WN	A young or small fish
+bn:00034586n	WIKI	Juvenile fish go through various stages between birth and adulthood.
+bn:00034586n	WIKIDIS	A young salmon
+bn:00034586n	WIKT	Young fish; fishlings.
+bn:00034586n	WIKT	A young salmon or trout.
+bn:00034586n	WIKT	Newly hatched fish, especially salmon.
+bn:00035660n	WN	Any fish used for food by human beings
+bn:00035660n	WIKI	Many species of fish are consumed as food in virtually all regions around the world.
+bn:00035660n	WIKIDATA	Food consumed by many species, including humans
+bn:00035660n	WIKT	The flesh of the fish used as food.
+bn:00035660n	WIKTLB	Flesh of fish as food.
+bn:00037192n	WN	Any fish providing sport for the angler
+bn:00037192n	WIKI	Game fish are fish pursued by recreational anglers.
+bn:00037192n	WIKI	Fish hunted for sport or food
+bn:00037192n	WIKT	Fish providing sport for an angler.
+bn:00037192n	WIKT	Fishing for pleasure or competition, as opposed to commercial fishing.
+bn:00037192n	WIKT	Synonym of sport fish.
+bn:00056143n	WN	Any of various fishes that carry their eggs and their young in their mouths
+bn:00056143n	WIKI	Mouthbrooding, also known as oral incubation and buccal incubation, is the care given by some groups of animals to their offspring by holding them in the mouth of the parent for extended periods of time.
+bn:00056143n	WIKT	Oral incubation; the care given by some animals, especially fishes, to their offspring by holding them in the mouth for extended periods of time.
+bn:00056143n	WIKT	Any animal that cares for its offspring, either eggs or juveniles, by holding them in its mouth for extended periods of time.
+bn:00068362n	WN	Any fish useless for food or sport or even as bait
+bn:00068362n	WIKI	Rough fish is a term used by U.S. state agencies and U.S. anglers to describe fish that are less desirable to sport anglers within a limited region.
+bn:00068362n	WIKT	Any fish not considered valuable as sport fish nor used as bait or for food.
+bn:00068362n	WIKTLB	Fish regarded as having no value to humans.
+bn:00073167n	WN	A female fish at spawning time
+bn:00073167n	WIKT	A female fish, often specifically a salmon, which is physiologically ready to spawn.
+bn:00081951n	WN	A fish that is young
+bn:00058092n	WN	A voracious freshwater fish that is native to northeastern China; can use fin to walk and can survive out of water for three days; a threat to American populations of fish
+bn:00058092n	WIKI	The northern snakehead is a species of snakehead fish native to China, Russia, North Korea, and South Korea, ranging from the Amur River to Hainan.
+bn:00058092n	WIKIDATA	Species of fish
+bn:00058092n	WIKT	A fish, Channa argus, native to Russia, China and Korea; considered to be invasive in the United States.
+bn:00005220n	WN	Animal living wholly or chiefly in or on water
+bn:00023542n	WN	Animals having a bony or cartilaginous skeleton with a segmented spinal column and a large brain enclosed in a skull or cranium
+bn:00023542n	WIKI	A craniate is a member of the Craniata, a proposed clade of chordate animals with a skull of hard bone or cartilage.
+bn:00023542n	WIKI	Vertebrates comprise all species of animals within the subphylum Vertebrata 
+bn:00023542n	WIKIDATA	Clade of chordates
+bn:00023542n	WIKIDATA	Subphylum of chordates
+bn:00023542n	OMWIKI	Any chordate animal of the subphylum Vertebrata, characterized by a bony or cartilaginous skeleton and a well-developed brain: the group contains fishes, amphibians, reptiles, birds, and mammals. 
+bn:00023542n	WIKT	An animal having a backbone.
+bn:00023542n	WIKTLB	An animal having a backbone.
+bn:00018748n	WN	Any animal of the phylum Chordata having a notochord or spinal column
+bn:00018748n	WIKI	A chordate is an animal belonging to the phylum Chordata; chordates possess a notochord, a hollow dorsal nerve cord, pharyngeal slits, an endostyle, and a post-anal tail, for at least some period of their life cycle.
+bn:00018748n	WIKIDIS	A phylum of animals which includes all animals with backbones and several other types of animals
+bn:00018748n	WIKIDATA	Phylum of animals
+bn:00018748n	OMWIKI	The highest phylum in the animal kingdom, characterized by a notochord, nerve cord, and gill slits; includes the urochordate, lancelets and vertebrates.
+bn:00018748n	WIKT	A member of the phylum Chordata; numerous animals having a notochord at some stage of their development; in vertebrates this develops into the spine.
+bn:00018748n	WIKTLB	A member of the phylum Chordata.
+bn:00034817n	WN	The flesh of fish used as food
+bn:00002608n	WN	Flesh of shad-like fish abundant along the Atlantic coast or in coastal streams
+bn:00003907n	WN	Tiny fishes usually canned or salted; used for hors d'oeuvres or as seasoning in sauces
+bn:00029858n	WN	The fatty flesh of eel; an elongate fish found in fresh water in Europe and America; large eels are usually smoked or pickled
+bn:00029858n	WIKI	Eels are elongated fish, ranging in length from 5 centimetres to 4 metres.
+bn:00029858n	WIKIDATA	Food made from eels
+bn:00041526n	WN	Highly valued lean flesh of marine or freshwater mullet
+bn:00042439n	WN	Lean white flesh of fish similar to but smaller than cod; usually baked or poached or as fillets sauteed or fried
+bn:00042575n	WN	The lean flesh of a fish similar to cod
+bn:00060386n	WN	Any of numerous small food fishes; especially those caught with hook and line and not available on the market
+bn:00060386n	WIKI	A panfish, also spelled pan-fish or pan fish, is an edible game fish that usually doesn't outgrow the size of a frying pan.
+bn:00088236v	WN	Catch or try to catch fish or shellfish
+bn:00088236v	OMWIKI	To catch or try to catch fish.
+bn:00088236v	WIKT	To try to catch fish, whether successfully or not.
+bn:00088236v	WIKTLB	Intransitive: to try to catch fish.
+bn:00084654v	WN	Take hold of so as to seize or restrain or stop the motion of
+bn:00084654v	OMWIKI	To take hold of, especially in the hands, so as to seize or restrain or stop the motion of.
+bn:00084654v	WIKT	To grab, seize, take hold of.
+bn:00028545n	WN	A current of air (usually coming into a chimney or room or vehicle)
+bn:00028545n	OMWIKI	A current of air.
+bn:00028545n	WIKT	A current of air (usually coming into a room or vehicle).
+bn:00028545n	WIKT	A current of air, usually coming into a room or vehicle.
+bn:00028545n	WIKTLB	A current of air.
+bn:00028481n	WN	A strong downward air current
+bn:00028481n	WIKI	An updraft is a small‐scale current of rising air, often within a cloud.
+bn:00028481n	WIKIDIS	Vertical movement of air, which can be dangerous to airplanes.
+bn:00028481n	WIKIDATA	Small‐scale current of rising air
+bn:00028481n	WIKT	A strong, downward air current; an air pocket or air hole.
+bn:00028481n	WIKTLB	A strong, downward air current.
+bn:00079240n	WN	A strong upward air current
+bn:00079240n	WIKI	An updraft is a small‐scale current of rising air, often within a cloud.
+bn:00079240n	WIKIDIS	Vertical movement of air, which can be dangerous to airplanes.
+bn:00079240n	WIKIDATA	Small‐scale current of rising air
+bn:00079240n	WIKT	An upward current of air, especially a strong one.
+bn:00006808n	WN	The atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation
+bn:00006808n	WIKI	Weather is the state of the atmosphere, describing for example the degree to which it is hot or cold, wet or dry, calm or stormy, clear or cloudy.
+bn:00006808n	WIKIDIS	Sometimes referred to as "the elements"
+bn:00006808n	WIKIDATA	State of the atmosphere
+bn:00006808n	OMWIKI	The day-to-day meteorological conditions, especially temperature, cloudiness, and rainfall, affecting a specific place.
+bn:00006808n	WIKT	Unpleasant or destructive atmospheric conditions, and their effects.
+bn:00006808n	WIKTLB	Unpleasant or destructive atmospheric conditions.
+bn:00006808n	WIKIQU	Weather is the state of the atmosphere, to the degree that it is hot or cold, wet or dry, calm or stormy, clear or cloudy.
+bn:00006808n	FRAMENET	The state of the atmosphere at a place and time as regards temperature, wind, rain, etc.
+bn:00024016n	WN	A community of people smaller than a village
+bn:00024016n	WIKI	A hamlet is a small human settlement.
+bn:00024016n	WIKIDIS	In Spanish-speaking countries
+bn:00024016n	WIKIDATA	Usually a type of small settlement in a rural area
+bn:00024016n	WIKT	A village that does not have its own church.
+bn:00024016n	WIKTLB	Village without its own church.
+bn:00028546n	WN	A preliminary sketch of a design or picture
+bn:00028546n	OMWIKI	A preliminary sketch of a picture or document.
+bn:00028546n	WIKT	A preliminary sketch, rough outline
+bn:03858294n	WIKI	In art, an underpainting is an initial layer of paint applied to a ground, which serves as a base for subsequent layers of paint.
+bn:03858294n	WIKIDATA	Initial layer of paint applied to a ground, which serves as a base for subsequent layers of paint
+bn:03858294n	WIKT	An initial layer of paint, often monochromatic, applied to a ground as a base for subsequent layers.
+bn:00028547n	WN	A serving of drink (usually alcoholic) drawn from a keg
+bn:00028547n	WIKT	Any alcoholic drink.
+bn:00028547n	WIKT	Beer drawn from a cask or keg rather than a bottle or can.
+bn:00028547n	WIKTLB	Slang: any alcoholic drink.
+bn:00065524n	WN	A hearty draft
+bn:00028749n	WN	A single serving of a beverage
+bn:00028749n	WIKT	Drink alcoholic beverage).
+bn:00028749n	WIKTLB	Alcoholic beverages in general
+bn:00043637n	WN	An individual quantity of food or drink taken as part of a meal
+bn:00043637n	OMWIKI	A predetermined amount of a food given to a person.
+bn:00043637n	WIKT	A portion served to someone.
+bn:00043637n	WIKT	An amount or quantity.
+bn:00043637n	WIKTLB	Portion of food.
+bn:00072273n	WN	An indefinite quantity that is below average size or magnitude
+bn:00028548n	WN	Any of the various versions in the development of a written work
+bn:00028548n	OMWIKI	A preliminary version of a written work.
+bn:00028548n	WIKT	An early version of a written work or drawing; a preliminary sketch or outline.
+bn:00028548n	WIKTLB	Early version of a written work.
+bn:00028548n	MSTERM	A preliminary version.
+bn:00028548n	MSTERM	A status that indicates an article is being written.
+bn:00021954n	WN	Compulsory military service
+bn:00021954n	WIKI	Conscription, sometimes called the draft, is the compulsory enlistment of people in a national service, most often a military service.
+bn:00021954n	WIKIDIS	The process of drafting a country's population into involuntary labour.
+bn:00021954n	WIKIDATA	Compulsory enlistment into national or military service
+bn:00021954n	OMWIKI	The compulsory enrolment of people to serve in a country's military, usually for a fixed period of time.
+bn:00021954n	WIKT	Involuntary labor, especially military service, demanded by some established authority.
+bn:00021954n	WIKT	Conscription, the system of forcing people to serve in the military.
+bn:00021954n	WIKTLB	Involuntary labor, especially military service.
+bn:00147928n	WIKI	Conscription in the United States, commonly known as the draft, has been employed by the federal government of the United States in four conflicts: the American Civil War, World War I, World War II, and the Cold War.
+bn:00050888n	WN	The act of drafting into military service
+bn:00050888n	WIKT	The act of levying.
+bn:00050888n	WIKTLB	Act of levying.
+bn:00054947n	WN	Act of assembling and putting into readiness for war or other emergency: "mobilization of the troops"
+bn:00054947n	WIKI	Militarization, or militarisation, is the process by which a society organizes itself for military conflict and violence.
+bn:00054947n	WIKI	Mobilization, in military terminology, is the act of assembling and readying troops and supplies for war.
+bn:00054947n	WIKIDIS	The act of assembling and making both troops and supplies ready for war
+bn:00054947n	OMWIKI	The act of mobilising.
+bn:00054947n	WIKT	The act of mobilising.
+bn:00054947n	WIKT	The marshalling of troops and national resources in preparation for war.
+bn:00054947n	WIKT	Alternative form of militarization.
+bn:00054947n	WIKT	The process whereby some area of land or procedure becomes controlled by the military or administered in a military fashion.
+bn:00054947n	WIKTLB	Marshalling of troops and national resources in preparation for war.
+bn:00030933n	WN	The act of getting recruits; enlisting people for the army (or for a job or a cause etc.)
+bn:00030933n	WIKI	An enlisted rank is, in some armed services, any rank below that of a commissioned officer.
+bn:00030933n	WIKI	Recruitment is a core function of human resource management.
+bn:00030933n	WIKIDATA	Process of attracting, selecting and appointing candidates to a job
+bn:00030933n	OMWIKI	The act or process of recruiting.
+bn:00030933n	WIKT	A style or process of recruiting.
+bn:00072529n	WN	Control exerted (actively or passively) by group action
+bn:00072529n	WIKI	Social control is a concept within the disciplines of the social sciences.
+bn:00072529n	WIKIDIS	Societal and political mechanisms or processes that regulate individual and group behaviour in an attempt to gain conformity and compliance
+bn:00072529n	WIKIDATA	Concept within the disciplines of the social sciences and within political science
+bn:00000724n	WN	The action of accomplishing something
+bn:03453952n	WIKI	A draft is a process used in some countries and sports to allocate certain players to teams.
+bn:03453952n	WIKIDIS	Selection of players for professional sports teams
+bn:03453952n	WIKIDATA	Process used to allocate certain players to sports teams
+bn:03453952n	WIKT	A system of assigning rookie players to professional sports teams.
+bn:03453952n	WIKTLB	System of assigning rookie players to professional sports teams.
+bn:03514158n	WIKI	An expansion draft, in professional sports, occurs when a sports league decides to create one or more new expansion teams or franchises.
+bn:03743078n	WIKI	The NHL Entry Draft is an annual meeting in which every franchise of the National Hockey League systematically select the rights to available ice hockey players who meet draft eligibility requirements.
+bn:15791962n	WIKI	The first-year player draft, is Major League Baseball's primary mechanism for assigning amateur baseball players, from high schools, colleges, and other amateur baseball clubs, to its teams.
+bn:15791962n	WIKIDATA	Primary draft by Major League Baseball teams to assign amateur players
+bn:16048329n	WIKI	The NBA draft is an annual event dating back to 1947 in which the teams from the National Basketball Association can draft players who are eligible and wish to join the league.
+bn:01262607n	WIKI	The Indiana Pacers have selected the following players in the National Basketball Association Draft.
+bn:17438691n	WIKI	The 2016 NFL Draft was the 81st annual meeting of National Football League franchises to select newly eligible American football players.
+bn:17438691n	WIKIDATA	NFL selection meeting for new American football players
+bn:17513193n	WIKI	The NWSL College Draft is an annual event which takes place in January of each year where the teams of the National Women's Soccer League select players who are in their senior season in college or have exhausted their college eligibility.
+bn:17554066n	WIKI	The 2016 Major League Baseball First-Year Player Draft began on June 9, 2016, to assign amateur baseball players to MLB teams.
+bn:15181999n	WIKI	The National Football League Draft, also called the player selection meeting, is an annual event in which the National Football League teams select eligible college football players.
+bn:00306299n	WIKI	The term social procedure is sometimes applied to any of the procedures carried out by people in various areas of society, such as legislative assemblies, judicial systems, and resource arbiters, such as banks or other lending organizations.
+bn:00411236n	WIKI	Drafting is the preliminary stage of a written work in which the author begins to develop a more cohesive product.
+bn:00411236n	WIKIDIS	A preliminary stage of a written work
+bn:00411236n	WIKIDATA	Preliminary stage of a written work
+bn:01575419n	WIKI	"The Vale of Lost Women" is one of the original short stories about Conan the Cimmerian, written by American author Robert E. Howard, but not published during his lifetime.
+bn:01575419n	WIKIDATA	Unfinished Conan story fragment by Robert E. Howard
+bn:14621944n	NONE	NONE
+bn:03471695n	WIKI	An unfinished creative work is a painting, novel, musical composition, or other creative work, that has not been brought to a completed state.
+bn:03471695n	WIKIDATA	Creative work that has not been finished
+bn:00087210v	WN	Draw up an outline or sketch for something
+bn:00087210v	OMWIKI	To draw up an outline or sketch for something.
+bn:00087210v	WIKT	To draw an outline of.
+bn:00087210v	WIKT	To write a first version, make a preliminary sketch.
+bn:00087210v	WIKTLB	To draw an outline of something.
+bn:00087210v	FRAMENET	Prepare a preliminary version of (a text).
+bn:00085489v	WN	Produce a literary work
+bn:00085489v	OMWIKI	To produce or create a literary or musical work.
+bn:00085489v	WIKT	To construct by mental labor; to think up; particularly, to produce or create a literary or musical work.
+bn:00085489v	WIKT	To write, especially a literary or artistic work; to compose.
+bn:00085489v	WIKTLB	To construct by mental labor; to think up.
+bn:00085489v	FRAMENET	Write or create (a work of art, especially music or poetry).
+bn:00085489v	FRAMENET	Write or compose.
+bn:00070648n	WN	A person whose occupation is to serve at table (as in a restaurant)
+bn:00070648n	WIKI	Waiting staff are those who work at a restaurant or a bar, and sometimes in private homes, attending customers—supplying them with food and drink as requested.
+bn:00070648n	WIKIDIS	Those who work at a restaurant or a bar attending customers and supplying them with food and drink as requested
+bn:00070648n	WIKIDATA	Staff serving in restaurant or private homes
+bn:00070648n	OMWIKI	An attendant who offers or distributes food and drink to those in an eating place (at a restaurant, a refectory, etc.).
+bn:00070648n	OMWIKI	A server in a restaurant, cafe or similar.
+bn:00070648n	WIKT	A male or sometimes female attendant who serves customers at their tables in a restaurant, café or similar.
+bn:00070648n	WIKT	Collectively, staff employed to wait at tables in a restaurant.
+bn:00008600n	WN	An employee who mixes and serves alcoholic drinks at a bar
+bn:00008600n	WIKI	A bartender is a person who formulates and serves alcoholic or soft drink beverages behind the bar, usually in a licensed establishment.
+bn:00008600n	WIKIDIS	Someone who serves beverages behind a bar
+bn:00008600n	WIKIDATA	Person who serves usually alcoholic beverages behind the bar in a licensed establishment
+bn:00008600n	OMWIKI	A man preparing and serving drinks at a bar.
+bn:00008600n	OMWIKI	A person preparing and serving drinks at a bar.
+bn:00008600n	OMWIKI	A woman preparing and serving drinks at a bar.
+bn:00008600n	WIKT	One who tends a bar or pub; a person preparing and serving drinks at a bar.
+bn:00008600n	WIKT	A bartender: a person preparing and serving drinks at a bar.
+bn:00008600n	WIKT	A woman who serves in a bar.
+bn:00008600n	WIKT	A man who works in a bar.
+bn:00008600n	WIKT	Someone who works in a bar, a bartender.
+bn:00008600n	WIKTLB	Person who works in a bar.
+bn:00013904n	WN	A young waitress in a nightclub whose costume includes the tail and ears of a rabbit
+bn:00013904n	WIKI	A Playboy Bunny is a waitress at a Playboy Club.
+bn:00013904n	WIKT	A bunny girl: a nightclub waitress who wears a costume having rabbit ears and tail.
+bn:00013904n	WIKTLB	Women in a costume of rabbit ears and tail.
+bn:01398439n	WIKI	A barista is a person, usually a coffeehouse employee, who prepares and serves espresso-based coffee drinks.
+bn:01398439n	WIKIDATA	Person, usually a coffeehouse employee, who prepares and serves espresso-based coffee drinks
+bn:01398439n	WIKT	A person who prepares coffee in a coffee shop for customers.
+bn:00016058n	WN	A waiter at a drive-in restaurant
+bn:00016058n	WIKI	A carhop is a waiter or waitress who brings fast food to people in their cars at drive-in restaurants.
+bn:00016058n	WIKT	A waiter or waitress who serves customers, especially in their vehicles, at a drive-in restaurant, sometimes on rollerskates.
+bn:00023200n	WN	Someone who attends a counter (as in a diner)
+bn:00072785n	WN	A waiter who manages wine service in a hotel or restaurant
+bn:00072785n	WIKI	A sommelier, or wine steward, is a trained and knowledgeable wine professional, normally working in fine restaurants, who specializes in all aspects of wine service as well as wine and food pairing.
+bn:00072785n	WIKIDATA	Person with proficiency in wine tasting
+bn:00072785n	OMWIKI	Trained and knowledgeable wine professional.
+bn:00072785n	WIKT	The member of staff at a restaurant who keeps the wine cellar and advises the guests on a choice of wines; a wine steward / stewardess, a wine waiter / waitress / server.
+bn:00080344n	WN	A woman waiter
+bn:00080344n	OMWIKI	A female attendant who serves customers in a restaurant, cafe, or similar.
+bn:00080344n	WIKT	A female attendant who serves customers in a restaurant, café, or similar.
+bn:00080344n	WIKT	A waiter or waitress.
+bn:00080344n	WIKT	A waiter or waitress.
+bn:00027196n	WN	Someone employed to provide service in a dining room
+bn:01812865n	WIKI	In English-speaking countries, a blue-collar worker is a working class person who performs non-agricultural manual labour.
+bn:01812865n	WIKIDIS	A traditional designation of the working class
+bn:01812865n	WIKIDATA	Working class person who performs manual labor
+bn:00030618n	WN	A worker who is hired to perform a job
+bn:00030618n	FRAMENET	A person that is employed for wage or salary.
+bn:00049570n	WN	A social class comprising those who do manual labor or work for wages
+bn:00049570n	WIKI	The proletariat is the class of wage-earners in a capitalist society whose only possession of significant material value is their labour-power.
+bn:00049570n	WIKI	The working class are the people employed for wages, especially in manual-labour occupations and industrial work.
+bn:00049570n	WIKIDIS	The working class
+bn:00049570n	WIKIDIS	Those employed in blue collar and manual jobs
+bn:00049570n	WIKIDATA	Social class
+bn:00049570n	WIKIDATA	Those employed in lower tier jobs
+bn:00049570n	OMWIKI	A social class comprising those who do manual labour for wage, especially those who do not own any property.
+bn:00049570n	OMWIKI	One of the factors of production. It includes all the exertions - manual, physical or mental - by individuals, directed towards the production of wealth.
+bn:00049570n	WIKT	The working class or lower class.
+bn:00049570n	WIKT	The social class of those who perform physical work for a living, as opposed to the professional or middle class, the upper class, or others.
+bn:00049570n	WIKT	Workers in general; the working class, the workforce; sometimes specifically the labour movement, organised labour.
+bn:00049570n	WIKTLB	Working class or lower class.
+bn:00049570n	WIKIQU	The proletariat is a term used to describe the class of wage-earners in a capitalist society whose only possession of significant material value is their labour-power.
+bn:00044916n	WN	(computer science) a computer that provides client stations with access to files and printers as shared resources to a computer network
+bn:00044916n	WIKI	In computing, a server is a computer program or a device that provides functionality for other programs or devices, called "clients".
+bn:00044916n	WIKI	A network host is a computer or other device connected to a computer network.
+bn:00044916n	WIKIDIS	A system that responds to requests across a computer network to provide, or help to provide, a network service
+bn:00044916n	WIKIDIS	A computer connected to the Internet or another IP-based network
+bn:00044916n	WIKIDATA	Computer to access a central resource or service on a network
+bn:00044916n	WIKIDATA	Computer connected to a computer network
+bn:00044916n	OMWIKI	A computer that provides services to other interconnected computers (the clients).
+bn:00044916n	OMWIKI	In a client-server model, the functionality that responds to the requests of the client program.
+bn:00044916n	WIKT	Any computer attached to a network.
+bn:00044916n	WIKT	A program that provides services to other programs or devices, either in the same computer or over a computer network.
+bn:00044916n	WIKTLB	Computing: computer attached to a network.
+bn:00044916n	MSTERM	A computer that acts as a source of information or signals. The host computer provides services, such as news, mail, or data, to computers that connect to it. The term can refer to almost any kind of computer, from a centralized mainframe that is a host to its terminals, to a server that is host to its clients, to a desktop PC that is host to its devices, such as printers and scanners.
+bn:00044916n	MSTERM	A computer that acts as a source of information or signals. The host computer provides services, such as news, mail, or data, to computers that connect to it. The term can refer to almost any kind of computer, from a centralized mainframe that is a host to its terminals, to a server that is host to its clients, to a desktop PC that is host to its devices, such as printers and scanners.
+bn:00044916n	MSTERM	On the Internet or other network, a computer or program that hosts web pages and responds to commands from a client.
+bn:00044916n	MSTERM	A computer that provides shared resources, such as files or printers, to network users.
+bn:00044916n	MSTERM	Any device on a TCP/IP network that has an Internet Protocol (IP) address. Examples of hosts include servers, workstations, network-interface print devices, and routers. Sometimes used to refer to a specific network computer that is running a service used by network or remote clients., For Network Load Balancing, a cluster consists of multiple hosts connected over a local area network (LAN).
+bn:00044916n	MSTERM	On the Internet or other network, a computer or program that hosts web pages and responds to commands from a client.
+bn:00044916n	MSTERM	A program, routine, or process that performs a specific system function to support other programs.
+bn:00044916n	MSTERM	In the .NET Framework add-in programming model, a host application assembly that communicates with an add-in over the communication pipeline.
+bn:00044916n	MSTERM	A physical computer that is running virtualization software, such as Hyper-V, on which virtual machines can be deployed.
+bn:00044916n	MSTERM	A UI element, such as a window or control, that contains other UI elements. A host performs UI automation services on behalf of the hosted elements.
+bn:03114693n	WIKI	A name server is a computer application that implements a network service for providing responses to queries against a directory service.
+bn:03114693n	WIKIDIS	A computer server that implements a name service protocol
+bn:03114693n	WIKIDATA	Computer hardware or software server
+bn:03114693n	MSTERM	A server that maintains information about a portion of the DNS database and that responds to and resolves DNS queries.
+bn:03114693n	MSTERM	A name that uniquely identifies a server computer on a network.
+bn:07989142n	WIKIDATA	Line of computer servers manufactured by Fujitsu in Japan
+bn:00009260n	WN	A computer that is running software that allows users to leave messages and access information of general interest
+bn:00009260n	WIKI	A bulletin board system or BBS is a computer server running software that allows users to connect to the system using a terminal program.
+bn:00009260n	WIKIDIS	A computerised version of traditional bulletin boards
+bn:00009260n	WIKIDATA	Server for communication over modems
+bn:00009260n	WIKT	Initialism of bulletin board system or bulletin board service.
+bn:00009260n	WIKT	A type of computer system, now largely obsolete, used to exchange messages and data over a telecommunications network.
+bn:00009260n	WIKTLB	Computer system to exchange messages and data.
+bn:00009260n	MSTERM	An application or computer that makes it possible to join an online community and exchange messages, share files, and participate in Usenet and chat rooms, often at not cost. The BBS found its inspiration in traditional bulletin boards that held participants' posted communication.
+bn:03211375n	WIKI	Network-attached storage is a file-level computer data storage server connected to a computer network providing data access to a heterogeneous group of clients.
+bn:03211375n	WIKIDIS	A network-based computer data storage system
+bn:03211375n	MSTERM	A storage unit directly connected to the network using standard protocols such as Ethernet and TCP/IP for providing file access services.
+bn:01352469n	WIKI	Windows Server 2003 is a server operating system produced by Microsoft and released on April 24, 2003.
+bn:01352469n	WIKIDIS	A product from the Windows XP era for server applications.
+bn:01352469n	WIKIDATA	Version of the Windows Server line of server operating systems, based off Windows XP
+bn:02538622n	WIKI	GNU SIP Witch is a free SIP server software with Peer-to-peer capabilities from the GNU Project.
+bn:06829183n	NONE	NONE
+bn:12176038n	WIKIDATA	Second version of the Windows Server line of server operating systems, and a minor upgrade to Windows Server 2003
+bn:02591762n	WIKI	MediaWiki is a free and open-source wiki software.
+bn:02591762n	WIKIDATA	Wiki software
+bn:02591762n	OMWIKI	A free and open source wiki software, written in the PHP programming language, used to power wiki websites such as Wikipedia, Wiktionary, Commons and OmegaWiki.
+bn:02591762n	WIKT	The wiki software used by many websites, including the Wikimedia projects such as Wikipedia, Wiktionary, etc.
+bn:02591762n	WIKIQU	MediaWiki is a free web-based wiki software application.
+bn:00024712n	WN	A computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange
+bn:00024712n	WIKI	Cyberspace refers to interconnected technology.
+bn:00024712n	WIKI	The Internet is the global system of interconnected computer networks that use the Internet protocol suite to link devices worldwide.
+bn:00024712n	WIKIDIS	A protocol, defined in RFC -LSB- http://www.ietf.org/rfc/rfc4204.txt 4204 -RSB- that runs between a pair of nodes and is used to manage traffic engineering (TE) links
+bn:00024712n	WIKIDATA	Global system of connected computer networks
+bn:00024712n	WIKIDATA	Cyberspace
+bn:00024712n	OMWIKI	A network of connected computers, ranging from a small home LAN to the world-spanning Internet.
+bn:00024712n	OMWIKI	A global consortium of local computer networks that uses the TCP/IP (Transmission Control Protocol/Internet Protocol) protocol to connect machines to each other.
+bn:00024712n	WIKT	A three-dimensional representation of virtual space in a computer network.
+bn:00024712n	WIKT	The specific internet consisting of a global network of computers that communicate using Internet Protocol and that use Border Gateway Protocol to identify the best paths to route those communications.
+bn:00024712n	WIKTLB	Science fiction: three-dimensional representation of virtual space.
+bn:00024712n	WIKIQU	The Internet is a global system of interconnected computer networks that use the standard Internet Protocol Suite to serve billions of users worldwide.
+bn:00024712n	MSTERM	The worldwide collection of networks and gateways that use the TCP/IP suite of protocols to communicate with one another.
+bn:00024712n	MSTERM	The universe of environments, such as the Internet, in which persons interact by means of connected computers. A defining characteristic of cyberspace is that communication is independent of physical distance
+bn:00024712n	MSTERM	Two or more network segments connected by routers.
+bn:00047269n	WN	A restricted computer network; a private network created using World Wide Web software
+bn:00047269n	WIKI	An intranet is a private network accessible only to an organization's staff. Generally a wide range of information and services from the organization's internal IT systems are available that would not be available to the public from the Internet.
+bn:00047269n	WIKIDATA	A standalone  computer network, in contrast to an internet
+bn:00047269n	WIKT	A private computer network that uses the protocols of the Internet.
+bn:00047269n	WIKTLB	Private computer network that uses the protocols of the Internet.
+bn:00047269n	MSTERM	A network within an organization that uses Internet technologies and protocols, but is available only to certain people, such as employees of a company.
+bn:00047269n	MSTERM	A network that links internal servers and users.
+bn:03655088n	WIKI	A mission control center is a facility that manages space flights, usually from the point of launch until landing or the end of the mission.
+bn:03655088n	WIKIDIS	An facility that manages aerospace vehicle flights
+bn:03655088n	WIKIDATA	A facility that manages aerospace vehicle flights
+bn:03496583n	WIKI	The client–server model is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters, called clients.
+bn:03496583n	WIKIDIS	A computer network programming model
+bn:03496583n	WIKIDATA	Distributed application structure in computing
+bn:03496583n	MSTERM	A model of computing whereby client applications running on a desktop or personal computer access information on remote servers or host computers. The client portion of the application is typically optimized for user interaction, whereas the server portion provides centralized, multiuser functionality.
+bn:03496583n	MSTERM	A model of computing whereby client applications running on a desktop or personal computer access information on remote servers or host computers. The client portion of the application is typically optimized for user interaction, whereas the server portion provides centralized, multiuser functionality.
+bn:00048165n	WN	An airplane powered by one or more jet engines
+bn:00048165n	WIKI	A jet aircraft is an aircraft propelled by jet engines.
+bn:00048165n	WIKIDIS	An aircraft propelled by jet engines
+bn:00048165n	WIKIDATA	Aircraft propelled by jet engines
+bn:00048165n	OMWIKI	An aeroplane using jet engines rather than propellers.
+bn:00048165n	WIKT	A jet: an airplane that is powered by a jet engine.
+bn:00048165n	WIKT	A type of airplane using jet engines rather than propellers.
+bn:00048165n	WIKTLB	An airplane that is powered by a jet engine.
+bn:00078762n	WN	A jet plane propelled by two jet engines
+bn:00078762n	WIKI	A twinjet or twin-engine jet is a jet aircraft powered by two engines.
+bn:00078762n	WIKIDATA	Aircraft propelled by two jet engines
+bn:00078762n	WIKT	An aircraft powered by two jet engines.
+bn:00977391n	WIKI	First generation jet fighters are the first attempts at creation of military aircraft using jet engines.
+bn:00977391n	WIKIDATA	Classification of sub-sonic jet-powered fighter aircraft developed through the mid 1950s
+bn:01366784n	WIKI	A fifth-generation jet fighter is a jet fighter classification used around the world that encompasses the most advanced jet fighter generation.
+bn:01366784n	WIKIDATA	Classification of jet-powered fighter aircraft developed from the 1990s through the 2020s
+bn:01686720n	WIKI	A sixth-generation jet fighter is a conceptualized class of fighter aircraft design more advanced than the fifth-generation jet fighters that are currently in service in and in development in several countries.
+bn:01686720n	WIKIDIS	A speculated generation of fighter aircraft expected to enter service around 2025 -- 2030
+bn:01686720n	WIKIDATA	Classification of jet-powered aircraft developed beyond the 2020s
+bn:01814842n	WIKI	A business jet, private jet, or bizjet, or simply B.J., is a jet aircraft designed for transporting small groups of people.
+bn:01814842n	WIKIDATA	Civil jet aircraft designed to transport executives and other VIPs
+bn:01814842n	WIKT	A relatively small jet aircraft designed for transporting groups of businesspeople or wealthy individuals.
+bn:02376870n	WIKI	The second generation jet fighters are jet fighter aircraft that existed between the mid-1950s to the early 1960s.
+bn:02376870n	WIKIDATA	Classification of jet-powered fighter aircraft developed from the mid-1950s through mid-1960s
+bn:02376872n	WIKI	The third-generation jet fighter was the class of fighter aircraft developed between the early 1960s to the 1970s.
+bn:02376872n	WIKIDATA	Classification of supersonic fighter aircraft developed from the mid 1960s through mid 1970s
+bn:02932448n	WIKI	A trijet is a jet aircraft powered by three jet engines.
+bn:02932448n	WIKIDATA	Aircraft propelled by three jet engines
+bn:02932448n	WIKT	An aircraft powered by three jet engines.
+bn:02932448n	WIKTLB	Aircraft powered by three jet engines.
+bn:14750922n	WIKIDATA	Aircraft propelled by four jet engines
+bn:18347926n	WIKIDATA	Aircraft powered by a turbojet or turbofan engine
+bn:05313762n	NONE	NONE
+bn:05317298n	WIKI	Aircraft with eight jets
+bn:05322725n	NONE	NONE
+bn:03198863n	WIKI	The Baade 152 also known as Dresden 152, VL-DDR 152 or simply 152 was the first German jetliner.
+bn:03198863n	WIKIDIS	The first German jet passenger airliner
+bn:03198863n	WIKIDATA	German jet passenger airliner
+bn:02708562n	WIKI	The Comac ARJ21 Xiangfeng is a twin-engined regional jet, manufactured by the Chinese aerospace company Comac.
+bn:02708562n	WIKIDATA	Aircraft manufactured by Comac
+bn:14067240n	WIKIDATA	Converted Airbus A300 aircraft
+bn:03250483n	WIKI	The Nakajima Kikka was Japan's first jet aircraft.
+bn:03250483n	WIKIDATA	World War II Japanese twin engined jet aircraft
+bn:02403308n	WIKI	The Harrier, informally referred to as the Harrier Jump Jet, is a family of jet-powered attack aircraft capable of vertical/short takeoff and landing operations.
+bn:02403308n	WIKIDATA	Family of military jet aircraft capable of vertical/short takeoff and landing
+bn:00048169n	WN	A gas turbine produces a stream of hot gas that propels a jet plane by reaction propulsion
+bn:00048169n	WIKI	A jet engine is a reaction engine discharging a fast-moving jet that generates thrust by jet propulsion.
+bn:00048169n	WIKIDATA	Reaction engine which generates thrust by jet propulsion
+bn:00048169n	WIKT	Any engine propelled by expelling a high speed fluid jet , such as a rocket, turbojet, turbofan, ramjet etc.
+bn:00033601n	WN	An airplane propelled by a fanjet engine
+bn:00048166n	WN	The occurrence of a sudden discharge (as of liquid)
+bn:00027475n	WN	The pouring forth of a fluid
+bn:00027475n	WIKI	In hydrology, discharge is the volume rate of water flow that is transported through a given cross-sectional area.
+bn:00027475n	WIKIDIS	The outflow or discharge of a river is the volume of water transported by it in a certain amount of time.
+bn:00027475n	WIKIDATA	Volume rate of water flow through a given cross-sectional area
+bn:00027475n	OMWIKI	The volume of water transported by a river in a certain amount of time.
+bn:00027475n	WIKT	The volume of water transported by a river in a certain amount of time, usually in units of m3/s.
+bn:00027475n	WIKTLB	Volume of water transported by a river in a certain amount of time.
+bn:00066236n	WN	A magnitude or frequency relative to a time unit
+bn:00066236n	WIKI	In mathematics, a rate is the ratio between two related quantities.
+bn:00066236n	WIKIDIS	A specific kind of ratio, in which two measurements are related to each other
+bn:00066236n	WIKIDATA	Quantity of process intensivity
+bn:00066236n	OMWIKI	The amount of change in some quantity during a time interval divided by the length of the time interval.
+bn:00036078n	WN	An artificially produced flow of water
+bn:00089963v	WN	Fly a jet plane
+bn:00089963v	FRAMENET	Transport by means of jet aircraft.
+bn:00089963v	FRAMENET	Travel by means of an jet aircraft.
+bn:00082957v	WN	Operate an airplane
+bn:00071215n	WN	A mercantile establishment for the retail sale of goods or services
+bn:00071215n	OMWIKI	A place, especially a small building, for the retail sale of goods and services.
+bn:00071215n	OMWIKI	An establishment, either physical or virtual, that sells goods or services to the public.
+bn:00071215n	WIKT	An establishment that sells goods or services to the public; originally only a physical location, but now a virtual establishment as well.
+bn:00071215n	WIKTLB	Establishment that sells goods.
+bn:00071225n	WN	The front side of a store facing the street; usually contains display windows
+bn:00071225n	WIKI	A storefront or shopfront is the facade or entryway of a retail store located on the ground floor or street level of a commercial building, typically including one or more display windows.
+bn:00071225n	WIKIDATA	Architectural feature
+bn:00071225n	WIKT	The side of a store which faces the street; usually contains display windows.
+bn:00071225n	WIKT	The side of a shop that faces the street, usually having display windows.
+bn:00004993n	WN	A retail shop where medicine and other articles are sold
+bn:00004993n	WIKI	Pharmacy is the science and technique of preparing and dispensing drugs.
+bn:00004993n	WIKIDATA	Interdisciplinary science that deals with the nature, effect, development, testing, manufacture and distribution of medicine
+bn:00004993n	OMWIKI	A shop in which medicines are made and sold.
+bn:00004993n	WIKT	A place where prescription drugs are dispensed, a dispensary.
+bn:00004993n	WIKTLB	A place where prescription drugs are dispensed.
+bn:00008010n	WN	A workplace where baked goods (breads and cakes and pastries) are produced or sold
+bn:00008010n	WIKI	A bakery is an establishment that produces and sells flour-based food baked in an oven such as bread, cookies, cakes, pastries, and pies.
+bn:00008010n	WIKIDATA	Establishment that produces and sells flour-based food baked in an oven
+bn:00008010n	WIKT	A shop in which bread is baked and/or sold.
+bn:00008010n	WIKT	A shop where baked goods are made and sold.
+bn:00008010n	WIKTLB	A shop in which bread and such is baked and sold.
+bn:00008540n	WN	A shop where men can get their hair cut
+bn:00009254n	WN	A shop where a variety of goods are sold
+bn:00009443n	WN	A shop where hairdressers and beauticians work
+bn:00009443n	OMWIKI	A shop where hairdressers and beauticians work.
+bn:00009443n	WIKT	A salon where hairdressers and beauticians work.
+bn:00009443n	WIKT	A shop that provides hairdressing and beauticians' work.
+bn:00009443n	WIKTLB	Salon with hairdressers and beauticians.
+bn:00010164n	WN	A licensed bookmaker's shop that is not at the race track
+bn:00010164n	WIKI	In the United Kingdom, a betting shop is a shop away from a racecourse where one can legally place bets in person with a licensed bookmaker such as William Hill, Ladbrokes, or Coral.
+bn:00011730n	WN	A small Hispanic shop selling wine and groceries
+bn:00011730n	WIKT	A store specializing in Hispanic groceries.
+bn:00012141n	WN	A shop where books are sold
+bn:00012141n	WIKI	Bookselling is the commercial trading of books, the retail and distribution end of the publishing process.
+bn:00012141n	WIKIDATA	Commercial trader of books
+bn:00012141n	OMWIKI	A store where books are sold.
+bn:00012141n	WIKT	A shop that sells books.
+bn:00012141n	WIKT	A store where books are bought and sold.
+bn:00012141n	WIKTLB	Shop that sells books.
+bn:00012182n	WN	A small shop at a fair; for selling goods or entertainment
+bn:00012452n	WN	A shop that sells women's clothes and jewelry
+bn:00012452n	WIKI	A boutique is "a small store that sells stylish clothing, jewelry, or other usually luxury goods".
+bn:00012452n	WIKIDATA	Small, upscale shop
+bn:00012452n	OMWIKI	An establishment, either physical or virtual, that sells goods or services to the public.
+bn:00012452n	WIKT	A small shop, especially one that sells fashionable clothes, jewelry and the like.
+bn:00012452n	WIKTLB	A small shop, especially one that sells fashionable clothes, jewelry and the like.
+bn:00013735n	WN	A store where builders can purchase materials for building houses and related structures
+bn:00014217n	WN	A shop in which meat and poultry (and sometimes fish) are sold
+bn:00014217n	WIKI	A meat market is, traditionally, a marketplace where meat is sold, often by a butcher.
+bn:00014217n	WIKIDIS	A marketplace where meat is sold
+bn:00014217n	OMWIKI	A shop that is specialized in meat and meat products.
+bn:00014217n	WIKT	A market where meat is sold.
+bn:00014217n	WIKT	The butchering of meat.
+bn:00014217n	WIKTLB	Butchering of meat.
+bn:00015233n	WN	A confectioner's shop
+bn:00015233n	WIKI	A confectionery store sells confectionery and the intended market is usually children.
+bn:00015233n	WIKIDIS	A store that sells candy (called a confectioner's in the UK)
+bn:00015233n	OMWIKI	Food item that is rich in sugar.
+bn:00015233n	WIKT	A confectioner's shop; a confectionery.
+bn:00015233n	WIKT	A store where confectionery is sold; a confectioner's shop.
+bn:00015233n	WIKT	A shop selling confectionery, especially one that sells predominantly confectionery.
+bn:00015233n	WIKT	Confectionery, candy.
+bn:00015233n	WIKT	A store that sells principally candy.
+bn:00015345n	WN	Sells food and personal items to personnel at an institution or school or camp etc.
+bn:00017510n	WN	One of a chain of retail stores under the same management and selling the same merchandise
+bn:00017510n	WIKI	Chain store or retail chain are retail outlets that share a brand and central management, and usually have standardized business methods and practices.
+bn:00017510n	WIKIDIS	Retail outlets which share a brand and central management
+bn:00017510n	WIKIDATA	Retail outlets that share a brand and central management, and usually have standardized business methods and practices.
+bn:00019646n	WN	Shop where dry cleaning is done
+bn:00019995n	WN	A store where men's clothes are sold
+bn:00019995n	OMWIKI	A store that sells clothes.
+bn:00021013n	WN	A retail store that sells equipment and provisions (usually to military personnel)
+bn:00021013n	WIKI	A commissary is a store for provisions.
+bn:00021013n	WIKT	A store primarily serving persons in an institution, most often soldiers or prisoners.
+bn:00021498n	WN	A store that sells computers to the small businessperson or personal user
+bn:00022327n	WN	A store selling a limited variety of food and pharmaceutical items; open long hours for the convenience of customers
+bn:00022327n	WIKI	A convenience store or convenience shop is a small retail business that stocks a range of everyday items such as groceries, snack foods, confectionery, soft drinks, tobacco products, over-the-counter drugs, toiletries, newspapers, and magazines.
+bn:00022327n	WIKIDATA	Small store that stocks a range of everyday items
+bn:00022327n	OMWIKI	A food-oriented retailer that is well located, is open long hours, and carries a moderate number of items.
+bn:00022327n	WIKT	A small retail store, often in a residential area, that carries a limited selection of items such as staples, junk food, and drugstore items, and which is open long hours for the convenience of shoppers.
+bn:00022327n	WIKT	A small retail store, often in a residential area, that carries a limited selection of everyday items such as newspapers, sweets and stationery, and is open long hours for the convenience of shoppers.
+bn:00022327n	WIKT	A convenience store, whether or not it is on a corner.
+bn:00022327n	WIKTLB	A small retail store.
+bn:00054409n	WN	A place of business for retailing goods
+bn:00138321n	WIKI	Mall of America is a shopping mall located in Bloomington, Minnesota, United States.
+bn:00138321n	WIKIDIS	A shopping mall in Bloomington, Minnesota
+bn:00138321n	WIKIDATA	Shopping mall in Bloomington, Minnesota, United States
+bn:00665823n	WIKI	Pilsen Plaza is a 20,000-square-metre shopping mall and entertainment center in Plzeň, Czech Republic.
+bn:01201518n	WIKI	Westquay is a shopping centre in Southampton, United Kingdom, and has an area of 800,000 square feet of retail space and contains around a 150 shops, including major retailers such as, John Lewis, Marks and Spencer, Zara, Schuh, Waterstone's, Hollister Co., Apple, and many more top brand names.
+bn:02729192n	WIKI	The Myer Centre is located between the Queen Street Mall and Elizabeth Street in Brisbane, Queensland, Australia.
+bn:03468856n	WIKI	Market Mall is one of the largest malls in Calgary, Alberta, Canada.
+bn:03634206n	WIKI	Olympia-Einkaufszentrum is a U-Bahn station in Munich, serving the Olympia-Einkaufszentrum, a shopping mall in the Olympiapark area of Moosach.
+bn:03634206n	WIKI	The Olympia-Einkaufszentrum or Olympia shopping mall is a shopping mall opened in 1972.
+bn:03634206n	WIKIDATA	Metro station in Munich, Germany
+bn:03634206n	WIKIDATA	Shopping mall in the Moosach district of Munich, Germany
+bn:03639485n	WIKI	Sunridge Mall is a major enclosed shopping mall in Calgary, Alberta containing 830599 square feet / 77165 m² of retail space.
+bn:03968311n	NONE	NONE
+bn:04923778n	NONE	NONE
+bn:05007587n	NONE	NONE
+bn:08686212n	WIKI	Mall of Scandinavia is a shopping mall located in Solna Municipality, Stockholm, Sweden.
+bn:08686212n	WIKIDATA	Shopping mall in Solna, Sweden
+bn:14456300n	WIKI	Palladium is a shopping mall located in the centre of Prague in the Czech Republic.
+bn:14456300n	WIKIDIS	A shopping centre in the Czech Republic
+bn:14467791n	WIKI	Westgate Shopping Mall is an upscale shopping mall located in the Westlands division of Nairobi, Kenya.
+bn:14467791n	WIKIDATA	Shopping mall located at Westlands in Nairobi, Kenya
+bn:14836611n	WIKI	Nový Smíchov is a shopping mall located west of the centre of Prague in the Czech Republic.
+bn:15043789n	WIKI	Emporia is a shopping mall and one of the biggest ones in Scandinavia.
+bn:15043789n	WIKIDIS	A shopping mall in Malmö in southern Sweden
+bn:16552610n	NONE	NONE
+bn:17053982n	NONE	NONE
+bn:17817999n	NONE	NONE
+bn:00593556n	WIKIDATA	Lexeme with a specific meaning in jurisprudence
+bn:00593556n	WIKIDATA	lexeme with a specific meaning in jurisprudence
+bn:00676148n	WIKI	Barren vegetation describes an area of land where plant growth may be sparse, stunted, and/or contain limited biodiversity.
+bn:00030756n	WN	A region of Antarctica between Queen Maud Land and Wilkes Land; claimed by Australia
+bn:00030756n	WIKI	Enderby Land is a projecting land mass of Antarctica.
+bn:00030756n	WIKIDIS	A projecting land mass of East Antarctica
+bn:00030756n	WIKIDATA	Geographical object
+bn:00003342n	WN	North America and South America and Central America
+bn:00003342n	WIKI	The Americas, also known as America, are lands of the western hemisphere, composed of numerous entities and regions variably defined by geography, politics, and culture.
+bn:00003342n	WIKI	The Americas encompass the totality of the continents of North and South America.
+bn:00003342n	WIKIDIS	In some contexts
+bn:00003342n	WIKIDATA	Landmass comprising the continents of North America and South America
+bn:00003342n	OMWIKI	Continent which extends on a great part of the Occidental Hemisphere of the Earth, from the Artic Ocean in the North, to the Cape Horn in the South at the confluence of the Atlantic and Pacific Oceans, which delimits the continent on the East and West respectively.
+bn:00003342n	WIKT	North America and South America taken together.
+bn:00003342n	WIKT	The continents of North and South America, especially when considered to form a single continent.
+bn:00003342n	WIKTLB	North and South America.
+bn:00003342n	WIKIQU	The Americas, or America, also known as the New World, are the combined continental landmasses of North America and South America along with their associated islands.
+bn:00009282n	WN	A strip of land running along a beach
+bn:00015427n	WN	A strip of land projecting into a body of water
+bn:00015427n	WIKI	In geography, a cape is a headland or a promontory of large size extending into a body of water, usually the sea.
+bn:00015427n	WIKIDATA	Headland of large size extending into a body of water, usually the sea
+bn:00015427n	OMWIKI	A piece of land extending into water.
+bn:00015427n	WIKT	A piece or point of land, extending beyond the adjacent coast into a sea or lake; a promontory; a headland.
+bn:00015427n	WIKT	A promontory; a cape or headland.
+bn:00015427n	WIKTLB	A promontory; a cape or headland.
+bn:00017609n	WN	Extensive tract of level open land
+bn:00017609n	WIKI	In geography, a plain is a flat, sweeping landmass that generally does not change much in elevation.
+bn:00017609n	WIKIDATA	Flat region
+bn:00017609n	OMWIKI	An extensive, broad tract of level or rolling, almost treeless land with a shrubby vegetation, usually at a low elevation.
+bn:00017609n	WIKT	A region containing a particular mineral.
+bn:00017609n	WIKT	An expanse of land with relatively low relief.
+bn:00017609n	WIKT	Open countryside, or an area of open countryside.
+bn:00017609n	WIKTLB	An expanse of land with relatively low relief.
+bn:00020173n	WN	A plain adjacent to a coast
+bn:00035306n	WN	The ground on which people and animals move about
+bn:00035842n	WN	Land forming the forward margin of something
+bn:00047696n	WN	A relatively narrow strip of land (with water on both sides) connecting two larger land areas
+bn:00047696n	WIKT	A narrow strip of land, bordered on both sides by water, and connecting two larger landmasses.
+bn:00047696n	WIKTLB	Narrow part connecting two larger structures.
+bn:00057132n	WN	A narrow elongated projecting strip of land
+bn:00059970n	WN	The land inside an oxbow bend in a river
+bn:00059970n	WIKT	A meander in a river; the land enclosed by such a loop.
+bn:00061370n	WN	A large mass of land projecting into a body of water
+bn:00061370n	WIKI	Presented below is a list of peninsulas.
+bn:00061370n	WIKIDIS	Such as `Portland Bill '
+bn:00061370n	WIKIDATA	Piece of land that is bordered by water on three sides but connected to mainland
+bn:00061370n	OMWIKI	A piece of land extending into the sea almost entirely surrounded by water.
+bn:00061370n	WIKT	A piece of land projecting into water from a larger land mass.
+bn:00061370n	WIKTLB	Piece of land projecting into water
+bn:00072061n	WN	An open tract of land in a forest that is strewn with debris from logging (or fire or wind)
+bn:00072061n	WIKI	In forestry, slash, or slashings are coarse and fine woody debris generated during logging operations or through wind, snow or other natural forest disturbances.
+bn:00072061n	WIKIDIS	Coarse and fine woody debris generated during logging operations or through natural forest disturbances
+bn:00072061n	WIKIDATA	Forestry term
+bn:00072061n	WIKT	Coarse, fine woody debris generated during logging operations or through wind, snow, etc.
+bn:00081490n	WN	A place or scene of great or strange beauty or wonder
+bn:00029425n	WN	The loose soft material that makes up a large part of the land surface
+bn:00029425n	OMWIKI	The soft and loose material forming a great part of the Earth surface.
+bn:00029425n	WIKT	Any general rock-based material.
+bn:00029425n	WIKTLB	Any general rock-based material.
+bn:00008870n	WN	A relation that provides the foundation for something
+bn:00008870n	WIKT	Basis, foundation, groundwork, legwork.
+bn:00008870n	WIKTLB	Basis, foundation, groundwork.
+bn:00036063n	WN	The basis on which something is grounded
+bn:00041883n	WN	Material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use)
+bn:00041883n	OMWIKI	A mixture of sand and organic material, used to support plant growth.
+bn:00041883n	OMWIKI	The top layer of the land surface of the earth that is composed of disintegrated rock particles, humus, water and air.
+bn:00041883n	WIKT	The unconsolidated mineral or organic material on the immediate surface of the earth that serves as a natural medium for the growth of land plants.
+bn:00041883n	WIKT	Soil, earth.
+bn:00041883n	WIKT	The soil, in respect to its nature or quality for farming.
+bn:00041883n	WIKTLB	Ground that is suitable for farming.
+bn:00027386n	WN	The part of the earth's surface consisting of humus and disintegrated rock
+bn:00027386n	WIKI	Soil is a mixture of organic matter, minerals, gases, liquids, and organisms that together support life.
+bn:00027386n	WIKI	Dirt is unclean matter, especially when in contact with a person's clothes, skin or possessions when they are said to become dirty.
+bn:00027386n	WIKIDIS	That is found on the ground
+bn:00027386n	WIKIDIS	A blanket term for unclean matter.
+bn:00027386n	WIKIDATA	Unclean matter
+bn:00027386n	WIKIDATA	Natural body consisting of layers that are primarily composed of minerals
+bn:00027386n	OMWIKI	A mixture of sand and organic material, used to support plant growth.
+bn:00027386n	WIKT	A mixture of sand and organic material, used to support plant growth.
+bn:00027386n	WIKT	Soil or earth.
+bn:00027386n	WIKTLB	Soil or earth.
+bn:00027386n	WIKIQU	Terms used in lieu of soil include terra, dirt, and, as applicable, land and ground.
+bn:00034265n	WN	A piece of land cleared of trees and usually enclosed
+bn:00034265n	WIKI	In agriculture, a field is an area of land, enclosed or otherwise, used for agricultural purposes such as cultivating crops or as a paddock or other enclosure for livestock.
+bn:00034265n	WIKIDATA	Agricultural field
+bn:00034265n	OMWIKI	A limited area of land with grass or crops growing on it, which is usually surrounded by fences or closely planted bushes when it is part of a farm.
+bn:00034265n	WIKT	A field.
+bn:00034265n	WIKT	A wide, open space that is usually used to grow crops or to hold farm animals.
+bn:00034265n	WIKTLB	Wide, open space used to grow crops or to hold farm animals.
+bn:00343370n	WIKI	The pedosphere is the outermost layer of the Earth that is composed of soil and subject to soil formation processes.
+bn:00343370n	WIKIDIS	Outermost layer of the Earth composed of soil
+bn:00343370n	OMWIKI	That shell or layer of the Earth in which soil-forming processes occur.
+bn:00343370n	WIKT	The outermost layer or "skin" of the Earth, subject to soil formation processes.
+bn:06386236n	NONE	NONE
+bn:03556721n	WIKI	A granular material is a conglomeration of discrete solid, macroscopic particles characterized by a loss of energy whenever the particles interact.
+bn:03556721n	WIKIDATA	Conglomeration of discrete solid, macroscopic particles
+bn:00069467n	WN	Relative magnitude
+bn:00069467n	WIKT	A means of assigning a magnitude.
+bn:00069467n	WIKTLB	Assigning a magnitude.
+bn:00052760n	WN	A relation between magnitudes
+bn:00032212n	WN	A thin flake of dead epidermis shed from the surface of the skin
+bn:00032212n	WIKI	Exfoliation involves the removal of the oldest dead skin cells on the skin's outermost surface.
+bn:00032212n	WIKIDIS	A cosmetic technique that aimed to remove dead skin from the body and face
+bn:00032212n	WIKIDATA	Peeling
+bn:00032212n	WIKT	The removal of a layer of skin, as in cosmetic preparation.
+bn:00032212n	WIKT	The flakes of skin that fall off as a result of a skin disease.
+bn:00032212n	WIKT	Exfoliation of the skin using a chemical agent.
+bn:00032212n	WIKT	A flake of skin of an animal afflicted with dermatitis.
+bn:00032212n	WIKTLB	The removal of a layer of skin, as in cosmetic preparation.
+bn:00025159n	WN	Small scales from animal skins or hair or bird feathers that can cause allergic reactions in some people
+bn:00025159n	WIKI	Dander is material shed from the body of humans and various animals that have fur, hair, or feathers.
+bn:00025159n	WIKIDIS	"pet pollen", material shed from the body of various animals, similar to dandruff
+bn:00025164n	WN	Loose scales shed from the scalp
+bn:00010727n	WN	A small fragment of something broken off from the whole
+bn:00010727n	WIKI	In archaeology, a lithic flake is a "portion of rock removed from an objective piece by percussion or pressure," and may also be referred to as a chip or spall, or collectively as debitage.
+bn:00010727n	WIKIDIS	The portion of a rock removed to make a tool
+bn:00010727n	WIKIDATA	Portion of rock removed from an objective piece by percussion or pressure
+bn:00010727n	OMWIKI	A small fragment of something broken off from the whole.
+bn:00010727n	WIKT	A portion of something.
+bn:00010727n	WIKT	A part broken off; a small, detached portion; an imperfect part, either physically or not.
+bn:00010727n	WIKT	A damaged area of a surface where a small piece has been broken off.
+bn:00036165n	WN	A piece broken off or cut off of something else
+bn:00000984n	WN	The distribution of energy as a function of frequency for a particular sound source
+bn:00000984n	WIKI	A harmonic series is the sequence of sounds—pure tones, represented by sinusoidal waves—in which the frequency of each sound is an integer multiple of the fundamental, the lowest frequency.
+bn:00000984n	WIKI	Sequence of sounds where the base frequency of each sound is an integer multiple of the lowest base frequency
+bn:00000984n	WIKIDIS	The series of overtones (or partials) present in a musical note, or the vibrational modes of a string or an air column
+bn:00055200n	WN	A diatonic scale with notes separated by whole tones except for the 2nd and 3rd and 5th and 6th
+bn:00055200n	WIKI	In music theory, the term minor scale is more complicated than the term major scale because it generally refers to three scale formations – the natural minor scale, the harmonic minor scale, and the melodic minor scale – rather than just one as with the major scale.
+bn:00055200n	WIKIDATA	Describes a type of music of acoustic tones
+bn:00055200n	WIKT	A type of minor scale with the 3rd, 6th, and 7th notes lowered by one semitone, with the interval pattern:.
+bn:00055200n	WIKT	A type of minor scale with the 3rd and 6th notes lowered by one semitone, with the interval pattern:.
+bn:00055200n	WIKT	A diatonic scale based upon a relative major scale by changing its tonic note by three semitones.
+bn:00055445n	WN	Any of various fixed orders of the various diatonic notes within an octave
+bn:00055445n	WIKI	In the theory of Western music, a mode is a type of musical scale coupled with a set of characteristic melodic behaviors.
+bn:00055445n	WIKIDIS	A classification system of musical tonalities
+bn:00055445n	WIKIDATA	Type of musical scale
+bn:00055445n	WIKT	A tonal scale used in most forms of Western music.
+bn:00061429n	WN	A gapped scale with five notes; usually the fourth and seventh notes of the diatonic scale are omitted
+bn:00061429n	WIKI	A pentatonic scale is a musical scale with five notes per octave, in contrast to the more familiar heptatonic scale that has seven notes per octave.
+bn:00061429n	WIKT	A scale having five notes per octave.
+bn:00061429n	WIKTLB	Scale having five notes.
+bn:00316691n	WIKI	The enigmatic scale is an unusual musical scale, with elements of both major and minor scales, as well as the whole-tone scale.
+bn:02175314n	WIKI	The term Gypsy scale refers to one of several musical scales named after their supported and associated with Romani or "Gypsy" music:
+bn:02175314n	WIKIDIS	A musical scale sometimes found in Romani music
+bn:03361341n	WIKI	A Shepard tone, named after Roger Shepard, is a sound consisting of a superposition of sine waves separated by octaves.
+bn:03361341n	WIKIDIS	A sound consisting of a superposition of sine waves separated by octaves
+bn:03361341n	WIKIDATA	Auditory illusion
+bn:03361341n	WIKT	A superposition of sine waves, separated by an octave, whose relative amplitude may be varied to give the illusion of a rising or falling note.
+bn:03794351n	WIKI	"Istrian scale" refers both to a "unique" musical scale and to the Istrian and Kvarnerian folk music genres which use the scale.
+bn:15485736n	WIKI	The Obikhod is a collection of polyphonic Russian Orthodox liturgical chants forming a major tradition of Russian liturgical music which includes both liturgical texts and psalm settings.
+bn:05271109n	NONE	NONE
+bn:01000037n	WIKI	An octatonic scale is any eight-note musical scale.
+bn:01000037n	WIKIDATA	Eight-note musical scale
+bn:01105458n	WIKI	A jazz scale is any musical scale used in jazz.
+bn:01105458n	WIKIDATA	Type of musical scale
+bn:03738839n	WIKI	In music, the Phrygian dominant scale is the fifth mode of the harmonic minor scale, the fifth being the dominant.
+bn:03738839n	WIKIDATA	Gamma
+bn:01525001n	WIKI	In mathematics, a multivalued function is a left-total relation.
+bn:01525001n	WIKIDIS	A one-to-many function in mathematics
+bn:01525001n	WIKIDATA	Binary relation, which is left-total, but may not be right-unique
+bn:01676048n	WIKI	In mathematics, a partial function from X to Y is a function f: X ′ → Y, for some subset X ′ of X. It generalizes the concept of a function f: X → Y by not forcing f to map every element of X to an element of Y.
+bn:01676048n	WIKIDATA	Binary relation, which is right-unique, but may not be left-total
+bn:00486730n	WIKI	Reptile skin is covered with scutes or scales which, along with many other characteristics, distinguish reptiles from animals of other classes.
+bn:00093300v	WN	Measure by or as if by a scale
+bn:00090716v	WN	Have certain dimensions
+bn:00090716v	FRAMENET	(of an entity) have a size, width, length, etc. specified as (a particular quantity).
+bn:00059000n	WN	A charge of ammunition for a single shot
+bn:00059000n	OMWIKI	A charge of ammunition for a single shot.
+bn:00003543n	WN	Projectiles to be fired from a gun
+bn:00003543n	WIKI	Ammunition is the material fired, scattered, dropped or detonated from any weapon.
+bn:00003543n	WIKIDATA	General term for a wide range of weapon items such as bombs, missiles, mines and projectiles
+bn:00003543n	OMWIKI	Projectiles to be fired from a weapon.
+bn:00055323n	WN	A weapon that is forcibly thrown or projected at a targets but is not self-propelled
+bn:00055323n	WIKI	A projectile is any object thrown into space by the exertion of a force.
+bn:00055323n	WIKI	Any object thrown into space (empty or not) by the exertion of a force
+bn:00055323n	OMWIKI	An object intended to be or having been fired from a weapon.
+bn:00055323n	OMWIKI	Object intended to be launched into the air.
+bn:00055323n	WIKT	An object intended to be or having been fired from a weapon.
+bn:00055323n	WIKT	An object intended to be launched into the air at a target.
+bn:00055323n	WIKTLB	Object to be launched.
+bn:00019175n	WN	Any circular or rotating mechanism
+bn:00068326n	WN	A mechanism that rotates

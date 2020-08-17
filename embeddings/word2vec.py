@@ -22,7 +22,7 @@ class Word2Vec(object):
         nn_w_similarities = dict()
 
         if word not in self.word2vec_model.vocab:
-            return
+            return nn_w_similarities
         neighbors_and_similarities = self.word2vec_model.most_similar(word, topn=n)
         for neighbor, similarity in neighbors_and_similarities:
             if len(neighbor.split("_")) > 1:

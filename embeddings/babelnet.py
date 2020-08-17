@@ -295,19 +295,18 @@ class Babelnet(object):
 		dict_definition_score = self._get_dictionary_definition_score(
 			chosen_words, clue, red_words)
 
-		word2vec_score = self._get_word2vec_score(chosen_words, clue, red_words)
-
 		if self.configuration.debug_file:
 			with open(self.configuration.debug_file, 'a') as f:
 				f.write(" ".join([str(x) for x in [
-					"dictionary def score:", round(dict_definition_score,3), "word2vec score:", round(2*word2vec_score,3), "\n"
+					"dictionary def score:", round(dict_definition_score,3), "\n"
 				]]))
 
-		return (dict_definition_score) + (2*word2vec_score)
+		return (dict_definition_score)
 
 	"""
 	Helper methods
 	"""
+	# TODO: remove this if we're not using word2vec score anymore
 	def _get_word2vec_score(self, chosen_words, potential_clue, red_words):
 
 		word2vec_similarities = []
