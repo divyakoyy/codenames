@@ -34471,3 +34471,2038 @@ bn:00083851v	WN	Engage in a boxing match
 bn:00083851v	OMWIKI	To engage in a boxing match.
 bn:00083851v	WIKT	To fight against in a boxing match.
 bn:00083851v	WIKTLB	Fight against (a person) in a boxing match.
+bn:00072478n	WN	A figure of a person made of packed snow
+bn:00072478n	WIKI	A snowman is an anthropomorphic snow sculpture often built by children in regions with sufficient snowfall.
+bn:00072478n	WIKIDIS	A temporary sculpture made of snow
+bn:00072478n	WIKIDATA	A figure sculpted from snow
+bn:00072478n	OMWIKI	A manlike figure formed out of snow.
+bn:00834816n	WIKI	Snow sculpture is a sculpture form comparable to sand sculpture or ice sculpture in that most of it is now practiced outdoors, and often in full view of spectators, thus giving it kinship to performance art in the eyes of some.
+bn:00029246n	WN	A person who is markedly small
+bn:00029246n	WIKT	Any short person.
+bn:00029246n	WIKTLB	Derogatory: any short person.
+bn:00045611n	WN	A dwarf whose condition is caused by a deficiency of growth hormones, rather than by genetic factors (as in the case of the achondroplastic dwarf)
+bn:00045616n	WN	An achondroplastic dwarf whose small size is the result of a genetic defect; body parts and mental and sexual development are normal
+bn:00045616n	WIKI	Primordial dwarfism is a form of dwarfism that results in a smaller body size in all stages of life beginning from before birth.
+bn:00045616n	WIKIDIS	A form of dwarfism beginning from before birth
+bn:00072276n	WN	A person of below average size
+bn:00029247n	WN	A legendary creature resembling a tiny old man; lives in the depths of the earth and guards buried treasure
+bn:00029247n	WIKI	A gnome is a diminutive spirit in Renaissance magic and alchemy, first introduced by Paracelsus in the 16th century and later adopted by more recent authors including those of modern fantasy literature.
+bn:00029247n	WIKIDIS	Spelled Nome in the Oz books by L. Frank Baum
+bn:00029247n	WIKIDATA	Diminutive spirit in Renaissance magic and alchemy
+bn:00999533n	WIKI	Kabouter is the Dutch word for gnome or leprechaun.
+bn:01645770n	WIKI	The Heinzelmännchen are a race of creatures appearing in a tale connected with the city of Cologne in Germany.
+bn:01645770n	WIKIDATA	Fictional creatures connected with the city of Cologne (Germany)
+bn:03364759n	WIKI	In the Dungeons & Dragons fantasy role-playing game, svirfneblin, or deep gnomes, are a sub-race of gnome.
+bn:13268435n	NONE	NONE
+bn:00004019n	WN	(Norse mythology) a dwarf who possessed a treasure that was stolen by Loki
+bn:00004019n	WIKI	In Norse mythology, Andvari is a dwarf who lives underneath a waterfall and has the power to change himself into a fish at will. Andvari had a magical ring Andvaranaut, which helped him become wealthy.
+bn:00004019n	WIKIDATA	Norse mythical character
+bn:00057608n	WN	(German mythology) any of the race of dwarfs who possessed a treasure hoard that was stolen by Siegfried
+bn:00057608n	WIKI	The German Nibelungen – with the corresponding Old Norse form Niflung – is the name in Germanic and Norse mythology of the royal family or lineage of the Burgundians who settled in the early 5th century at Worms.
+bn:00032695n	WN	A small being, human in form, playful and having magical powers
+bn:00032695n	WIKI	A sprite is a supernatural entity.
+bn:00032695n	WIKI	A fairy is a type of mythical being or legendary creature in European folklore, a form of spirit, often described as metaphysical, supernatural, or preternatural.
+bn:00032695n	WIKI	Elemental spirit associated with water
+bn:00032695n	WIKIDIS	A broad term referring to a number of supernatural legendary creatures
+bn:00032695n	WIKIDATA	Broad term referring to a number of supernatural legendary creatures
+bn:00032695n	WIKIDATA	Mythical being or legendary creature
+bn:00032695n	OMWIKI	one of a class of female supernatural beings, generally conceived as having a diminutive human form and possessing magical powers.
+bn:00032695n	WIKIQU	Fairies are mythical beings or legendary creatures, a form of spirit, often described as metaphysical, supernatural or preternatural.
+bn:01988101n	WIKI	Universally, an elemental is a type of magical entity who personifies a force of nature and therefore possesses superpowers correlative to his/her/its personal element.
+bn:01988101n	WIKIDATA	Mythological being
+bn:01988101n	OMWIKI	A mythological being associated with one of the four elements water, air, fire and earth.
+bn:01988101n	WIKT	A creature that is attuned with, or composed of, one of the classical elements: air, earth, fire and water. They sometimes have unique proper names and sometimes are referred to as Air, Earth, Fire, or Water.
+bn:00029248n	WN	A plant or animal that is atypically small
+bn:00029248n	WIKI	In Germanic mythology, a dwarf is an entity that dwells in mountains and in the earth, and is variously associated with wisdom, smithing, mining, and crafting.
+bn:00029248n	WIKIDATA	Being in mythology
+bn:00029248n	WIKIDATA	Being that dwells in mountains and in the earth, and is variously associated with wisdom, smithing, mining, and crafting
+bn:00029248n	WIKT	An animal, plant or other thing much smaller than the usual of its sort.
+bn:00029248n	WIKTLB	Something much smaller than the usual of its sort.
+bn:03326009n	WIKI	In Norse mythology, svartálfar, also called myrkálfar, are beings who dwell in Svartalfheim.
+bn:03326009n	WIKIDIS	A type of elf in Norse mythology
+bn:03326009n	WIKIDATA	"black elves" who dwell in Svartalfheim
+bn:15465995n	WIKIDATA	"light elves" who dwell in Alfheim
+bn:16231354n	NONE	NONE
+bn:05535805n	NONE	NONE
+bn:16307058n	WIKIDATA	A dwarf in Norse mythology
+bn:00058030n	WN	The mythology of Scandinavia (shared in part by Britain and Germany) until the establishment of Christianity
+bn:00058030n	WIKI	Norse mythology is the body of myths of the North Germanic people stemming from Norse paganism and continuing after the Christianization of Scandinavia and into the Scandinavian folklore of the modern period.
+bn:00058030n	WIKIDIS	Helgrind is the main entrance to Hel.
+bn:00058030n	WIKIDATA	Body of mythology of the North Germanic people stemming from Norse paganism and continuing after the Christianization of Scandinavia and into the Scandinavian folklore of the modern period
+bn:03241941n	WIKI	Germanic mythology consists of the body of myths native to the Germanic peoples.
+bn:03241941n	WIKIDIS	Myths associated with Germanic paganism
+bn:03241941n	WIKIDATA	Body of mythology associated with historical Germanic paganism
+bn:08564019n	NONE	NONE
+bn:00007406n	WN	The season when the leaves fall from the trees
+bn:00007406n	WIKI	Autumn, also known as fall in American and Canadian English, is one of the four temperate seasons.
+bn:00007406n	WIKIDATA	One of the Earth''s four temperate seasons, occurring between summer and winter
+bn:00007406n	OMWIKI	The season after summer and before winter, traditionally from September 21 to December 20 in the northern hemisphere and from March 21 to June 20 in the southern hemisphere.
+bn:00007406n	WIKT	Traditionally the third of the four seasons, when deciduous trees lose their leaves; typically regarded as being from September 24 to December 22 in parts of the Northern Hemisphere, and the months of March, April and May in the Southern Hemisphere.
+bn:00007406n	WIKIQU	Fall is an American term for one of the four seasons.
+bn:00007410n	WN	September 22
+bn:00046467n	WN	A period of unusually warm weather in the autumn
+bn:00046467n	WIKI	Indian summer is a period of unseasonably warm, dry weather that sometimes occurs in autumn in the Northern Hemisphere.
+bn:00046467n	WIKIDIS	A period of sunny, warm weather in autumn
+bn:00046467n	WIKIDATA	Period of unseasonably warm weather that sometimes occurs in autumn in the Northern Hemisphere
+bn:00046467n	WIKT	A stretch of sunny and warm days during late autumn.
+bn:00046467n	WIKTLB	Stretch of warm days in autumn.
+bn:00070057n	WN	One of the natural periods into which the year is divided by the equinoxes and solstices or atmospheric conditions
+bn:00070057n	WIKI	A season is a division of the year marked by changes in weather, ecology, and amount of daylight.
+bn:00070057n	WIKIDATA	Weather-based subdivision of the year
+bn:00070057n	OMWIKI	One of the four equal periods into which the year is divided by the equinoxes and solstices, resulting from the apparent movement of the sun north and south of the equator during the course of the earth's orbit around it. These periods (spring, summer, autumn and winter) have their characteristic weather conditions in different regions, and occur at opposite times of the year in the N and S hemispheres.
+bn:00070057n	WIKT	Each of the four divisions of a year: spring, summer, autumn and winter.
+bn:00070057n	WIKT	A particular period in the year.
+bn:00070057n	WIKTLB	Quarter of a year.
+bn:00070057n	WIKIQU	Seasons are divisions of the year, marked by changes in weather, ecology, and hours of daylight.
+bn:00032804n	WN	A sudden drop from an upright position
+bn:00032804n	OMWIKI	A sudden drop from an upright position.
+bn:00032804n	FRAMENET	A rapid decline in amount or value.
+bn:00064031n	WN	A fall onto your buttocks
+bn:00064031n	WIKT	A fall onto the buttocks.
+bn:00081383n	WN	A spill in some sport (as a fall from a bicycle or while skiing or being capsized on a surfboard)
+bn:00072173n	WN	An accidental misstep threatening (or causing) a fall
+bn:00055265n	WN	An instance of misfortune
+bn:00055265n	WIKT	An accidental mishap or misfortune.
+bn:00007886n	WN	Unnecessary and unforeseen trouble resulting from an unfortunate event
+bn:00007886n	OMWIKI	An undesirable event such as an accident.
+bn:00007886n	WIKT	Bad luck.
+bn:00007886n	WIKTLB	Bad luck.
+bn:00028827n	WN	A free and rapid descent by the force of gravity
+bn:00036347n	WN	The ideal falling motion of something subject only to a gravitational field
+bn:00036347n	WIKI	In Newtonian physics, free fall is any motion of a body where gravity is the only force acting upon it.
+bn:00036347n	WIKI	Motion of a body where its weight is the only force acting upon it; any motion of a body where gravity is the only force acting upon it
+bn:00036347n	WIKIDATA	Motion of a body where its weight is the only force acting upon it
+bn:00036347n	WIKT	The state of being in a motion affected by no acceleration other than that provided by gravity.
+bn:00036347n	WIKTLB	Being affected only by gravity.
+bn:00063098n	WN	A steep and rapid fall
+bn:00064090n	WN	The act of casting down or falling headlong from a height
+bn:00026497n	WN	A movement downward
+bn:00026497n	OMWIKI	A movement downward.
+bn:00026497n	FRAMENET	A downward slope.
+bn:00041492n	WN	Movement downward resulting from gravitational attraction
+bn:00027260n	WN	A sudden sharp decrease in some quantity
+bn:00022844n	WN	A drop in stock market activity or stock prices following a period of increases
+bn:00022844n	WIKI	A market trend is a perceived tendency of financial markets to move in a particular direction over time.
+bn:00022844n	WIKIDIS	Prolonged period of time when prices in a financial market are rising or falling faster than their historical average, also known as "bull" and "bear" markets, respectively
+bn:00022844n	WIKIDATA	Tendency of a financial market to move in a particular direction over time
+bn:00022844n	WIKT	A stock market where a majority of investors are selling , causing overall stock prices to drop.
+bn:00022844n	WIKT	A stock market where a majority of investors are buying , causing overall stock prices to rise.
+bn:00022844n	WIKT	A decline in a stock market price after a large rise.
+bn:00022844n	WIKTLB	Decline in a stock market price.
+bn:00080226n	WN	A decrease in voltage along a conductor through which current is flowing
+bn:00080226n	WIKI	Voltage drop describes how energy is supplied of a voltage source that is reduced as electric current moves through the passive elements of an electrical circuit.
+bn:00025779n	WN	The amount by which something decreases
+bn:00003602n	WN	The relative magnitude of something with reference to a criterion
+bn:00087976v	WN	Descend in free fall under the influence of gravity
+bn:00087976v	OMWIKI	Move to a lower position due to the effect of gravity.
+bn:00087976v	WIKT	To move to a lower position under the effect of gravity.
+bn:00087976v	WIKTLB	Move to a lower position under the effect of gravity.
+bn:00087976v	FRAMENET	Move from a higher to a lower level, typically rapidly and without control.
+bn:00016270n	WN	Deep orange edible root of the cultivated carrot plant
+bn:00068246n	WN	(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground
+bn:00068246n	WIKI	In vascular plants, the root is the organ of a plant that typically lies below the surface of the soil.
+bn:00068246n	WIKIDATA	Part of plant
+bn:00068246n	OMWIKI	The absorbing and anchoring organ of a vascular plant; it bears neither leaves nor flowers and is usually subterranean.
+bn:00068246n	WIKT	The part of a plant, generally underground, that anchors and supports the plant body, absorbs and stores water and nutrients, and in some plants is able to perform vegetative reproduction.
+bn:00062812n	WN	Any part of a plant or fungus
+bn:00016271n	WN	Perennial plant widely cultivated as an annual in many varieties for its long conical orange edible roots; temperate and tropical regions
+bn:00016271n	WIKI	The carrot is a root vegetable, usually orange in colour, though purple, black, red, white, and yellow varieties exist.
+bn:00016271n	WIKIDATA	Root vegetable, usually orange in color
+bn:00016271n	OMWIKI	A yellow-orange, longish-rounded root vegetable, which is eaten raw or boiled.
+bn:00016271n	WIKT	A vegetable with a nutritious, juicy, sweet root that is often orange in colour, Daucus carota, especially the subspecies sativus in the family Apiaceae.
+bn:00016271n	WIKTLB	Orange root vegetable.
+bn:00016271n	WIKIQU	The carrot is a root vegetable, usually orange in color, though purple, red, white, and yellow varieties exist.
+bn:05386764n	WIKIDATA	Variety of carrot from Switzerland
+bn:17792448n	NONE	NONE
+bn:00016272n	WN	Orange root; important source of carotene
+bn:00016272n	WIKI	In optics, orange has a wavelength between approximately 585 and 620 nm and a hue of 30° in HSV color space.
+bn:00016272n	WIKIDATA	Color
+bn:00016272n	OMWIKI	The zest of an orange.
+bn:00016272n	WIKT	A dark shade of orange.
+bn:00016272n	WIKT	A shade of orange similar to the flesh of most carrots.
+bn:00043776n	WN	A plant lacking a permanent woody stem; many are flowering garden plants or potherbs; some having medicinal properties; some are pests
+bn:00043776n	WIKI	In general use, herbs are plants with savory or aromatic properties that are used for flavoring food, in medicine, or as fragrances.
+bn:00043776n	WIKI	Herbaceous plants are plants that have no persistent woody stem above ground.
+bn:00043776n	WIKIDATA	Plant used for flavoring, food, medicine, or perfume
+bn:00043776n	WIKIDATA	Plant which has no persistent woody stem above ground
+bn:00043776n	OMWIKI	Any green, leafy plant, or parts thereof, used to flavour or season food.
+bn:00043776n	WIKT	Any green, leafy plant, or parts thereof, used to flavour or season food.
+bn:00043776n	WIKTLB	Plant used to flavour food.
+bn:00043776n	WIKIQU	Herbs are plants that are valued for flavor, scent, medicinal or other qualities.
+bn:00012266n	WN	A Russian or Polish soup usually containing beet juice as a foundation
+bn:00012266n	WIKI	Borscht is a sour soup popular in several Eastern European cuisines, including Ukrainian, Russian, Polish, Lithuanian, Belarusian, Romanian, Ashkenazi Jewish and Armenian cuisines.
+bn:00012266n	WIKIDIS	A Ukrainian soup
+bn:00012266n	WIKIDATA	Soup
+bn:00012266n	WIKIDATA	Food
+bn:00012266n	OMWIKI	Traditional Eastern European soup usually made of beetroot and beef.
+bn:00012266n	WIKT	A beetroot/beet soup that can be served hot or cold, usually with sour cream.
+bn:00069072n	WN	Small turnover of Indian origin filled with vegetables or meat and fried and served hot
+bn:00069072n	WIKI	A samosa, sambusa, or samboksa is a fried or baked dish with a savoury filling, such as spiced potatoes, onions, peas, lentils, macaroni, noodles, cheese, minced lamb or minced beef.
+bn:00069072n	WIKIDATA	Baked dish common to South Asia and the Horn of Africa
+bn:00069072n	WIKT	A snack, of Indian origin, consisting of a deep-fried triangular turnover filled with vegetables or meat.
+bn:00580872n	WIKI	Cezerye is a semi-gelatinous traditional Turkish confectionery made from caramelised carrots, shredded coconut, and roasted walnuts, hazelnuts, or pistachios.
+bn:00580872n	WIKIDATA	Semi-gelatinous Turkish confectionery made from caramelised carrots
+bn:01653878n	WIKI	Dressed herring, colloquially known as herring under a fur coat is a layered salad composed of diced pickled herring covered with layers of grated boiled vegetables, chopped onions, and mayonnaise.
+bn:01838599n	WIKI	A mirepoix is diced vegetables, cooked for a long time on a gentle heat without colour or browning, usually with butter or other fat or oil.
+bn:01838599n	WIKIDIS	A traditional French culinary combination of onions, carrots and celery aromatics
+bn:01838599n	WIKIDATA	Mixture of chopped celery, onions and carrots
+bn:01838599n	WIKT	A combination of diced onions, carrots, celery and herbs sautéed in oil or butter as used in French cooking.
+bn:01953708n	WIKI	Escudella i carn d'olla, or shorter escudella, is a traditional Catalan soup and stew.
+bn:16058576n	WIKI	Vinegret or Russian vinaigrette is a salad in Russian cuisine which is also popular in other post-Soviet states.
+bn:16058576n	WIKIDIS	A salad in Russian cuisine
+bn:16058576n	WIKIDATA	Russian salad
+bn:00034573n	WN	Food to be eaten with the fingers
+bn:00034573n	WIKI	Finger food is food meant to be eaten directly using the hands, in contrast to food eaten with a knife and fork, spoon, chopsticks, or other utensils.
+bn:00034573n	WIKIDATA	Food to be consumed without utensils
+bn:00034573n	WIKT	Food that can be eaten with one's hands, as opposed to requiring utensils; often appetizers and snacks.
+bn:00034573n	WIKT	Snacks or finger food.
+bn:00034573n	WIKTLB	Food that can be eaten with one's hands.
+bn:00076129n	WN	(botany) main root of a plant growing straight downward from the stem
+bn:00076129n	WIKI	A taproot is a large, central, and dominant root from which other roots sprout laterally.
+bn:00076129n	WIKIDATA	Enlarged, somewhat straight to tapering plant root that grows downward
+bn:00035324n	WN	(botany) a living organism lacking the power of locomotion
+bn:00035324n	WIKI	Plants are mainly multicellular, predominantly photosynthetic eukaryotes of the kingdom Plantae.
+bn:00035324n	WIKI	Flora is the plant life occurring in a particular region or time, generally the naturally occurring or indigenous—native plant life.
+bn:00035324n	WIKIDATA	Inventory of plant species in a given region
+bn:00035324n	WIKIDATA	Multicellular eukaryote of the kingdom Plantae
+bn:00035324n	OMWIKI	The plants that inhabit a certain region or environment.
+bn:00035324n	OMWIKI	Species belonging to the plant kingdom.
+bn:00035324n	OMWIKI	Any living organism that synthesizes its food from inorganic substances, possesses cellulose cell walls, responds slowly and often permanently to a stimulus, lacks specialized sense organs and nervous system, and has no powers of locomotion.
+bn:00035324n	OMWIKI	The plant life characterizing a specific geographic region or environment.
+bn:00035324n	WIKT	Plants considered as a group, especially those of a particular country, region, time, etc.
+bn:00035324n	WIKT	An organism that is not an animal, especially an organism capable of photosynthesis. Typically a small or herbaceous organism of this kind, rather than a tree.
+bn:00035324n	WIKT	Plants, taken collectively.
+bn:00035324n	WIKT	Collectively, the set of all plants.
+bn:00035324n	WIKTLB	A small or herbaceous organism, rather than a tree.
+bn:00035324n	WIKIQU	Plants are living organisms belonging to the kingdom Plantae.
+bn:00000173n	WN	An aneurysm of the abdominal aorta associated with old age and hypertension
+bn:00000173n	WIKI	Abdominal aortic aneurysm is a localized enlargement of the abdominal aorta such that the diameter is greater than 3 cm or more than 50% larger than normal diameter.
+bn:00000173n	WIKIDATA	Disease of the aorta
+bn:00000292n	WN	A rare inherited disorder of fat metabolism; characterized by severe deficiency of beta-lipoproteins and abnormal red blood cells (acanthocytes) and abnormally low cholesterol levels
+bn:00000292n	WIKI	Abetalipoproteinemia is a disorder that interferes with the normal absorption of fat and fat-soluble vitamins from food.
+bn:00000292n	WIKIDIS	A rare genetic disorder
+bn:00000292n	WIKIDATA	Human disease
+bn:00000292n	WIKT	A rare autosomal recessive disorder that interferes with the normal absorption of fat and fat-soluble vitamins from food.
+bn:00000392n	WN	An abraded area where the skin is torn or worn off
+bn:00000392n	WIKI	A cutaneous condition is any medical condition that affects the integumentary system—the organ system that encloses the body and includes skin, hair, nails, and related muscle and glands.
+bn:00000392n	WIKI	An abrasion is a wound caused by superficial damage to the skin, no deeper than the epidermis.
+bn:00000392n	WIKI	Superficial skin wound
+bn:00000392n	WIKIDIS	A wound consisting of superficial damage to the skin
+bn:00000392n	WIKIDATA	A superficial skin wound
+bn:00000392n	WIKIDATA	Class of disorder that affects skin, hair or nails
+bn:00000392n	WIKT	A superficial wound caused by scraping; an area of skin where the cells on the surface have been scraped or worn away.
+bn:00000392n	WIKTLB	Medicine: superficial wound.
+bn:00000410n	WN	A disorder of pregnancy in which the placenta prematurely separates from the wall of the uterus
+bn:00000410n	WIKI	Placental abruption is when the placenta separates early from the uterus, in other words separates before childbirth.
+bn:00000410n	WIKIDATA	Human disease
+bn:00000410n	WIKT	A premature separation of the placenta from the uterine wall.
+bn:00000419n	WN	An abscess of a common kind in the tissue around a tooth
+bn:00000419n	WIKI	A dental abscess, is a localized collection of pus associated with a tooth.
+bn:00000419n	WIKI	Tooth disease characterized by a localized collection of pus associated with a tooth
+bn:00000419n	WIKI	Human disease
+bn:00000419n	WIKIDATA	Human disease
+bn:00000602n	WN	A skin disease characterized by dark wartlike patches in the body folds; can be benign or malignant
+bn:00000602n	WIKI	Acanthosis nigricans is a brown to black, poorly defined, velvety hyperpigmentation of the skin.
+bn:00000602n	WIKIDIS	A brown to black, poorly defined, velvety hyperpigmentation of the skin
+bn:00000602n	WIKIDATA	Human disease
+bn:00000884n	WN	A condition in which little or no bile is secreted or the flow of bile into the digestive tract is obstructed
+bn:00000884n	WIKI	The acholia is the lack or absence of bile secretion.
+bn:00000884n	WIKI	Cholestasis is a condition where bile cannot flow from the liver to the duodenum.
+bn:00000884n	WIKIDATA	Ausencia o insuficiencia de la secreción de bilis que indica lesión de la célula hepática.
+bn:00000884n	WIKIDATA	Human disease
+bn:00000884n	WIKT	The suppression of the flow of bile caused by an obstruction associated with the liver.
+bn:00000884n	WIKT	Deficiency or absence of bile.
+bn:00000889n	WN	An inherited skeletal disorder beginning before birth; cartilage is converted to bone resulting in dwarfism
+bn:00000889n	WIKI	Achondroplasia is a genetic disorder that results in dwarfism.
+bn:00000889n	WIKI	Osteosclerosis is a disorder that is characterized by abnormal hardening of bone and an elevation in bone density.
+bn:00000889n	WIKI	Chondrodystrophy refers to a skeletal disorder caused by one of myriad genetic mutations that can affect the development of cartilage.
+bn:00000889n	WIKIDATA	Human disease
+bn:00000889n	WIKIDATA	Human disease
+bn:00000889n	WIKT	A genetic disorder, the most common form of short limb dwarfism.
+bn:00000889n	WIKT	An increase in bone density.
+bn:00000889n	WIKTLB	The genetic disorder.
+bn:00000945n	WN	A skin disease of adults (more often women) in which blood vessels of the face enlarge resulting in a flushed appearance
+bn:00000945n	WIKI	Rosacea is a long-term skin condition that typically affects the face.
+bn:00000945n	WIKIDIS	A human skin condition
+bn:00000945n	WIKIDATA	Human disease
+bn:00000945n	WIKT	A chronic condition characterized by redness of the face.
+bn:00000946n	WN	The most common form of acne; usually affects people from puberty to young adulthood
+bn:00000946n	WIKI	Acne, also known as acne vulgaris, is a long-term skin disease that occurs when hair follicles are clogged with dead skin cells and oil from the skin.
+bn:00000946n	WIKI	Sebaceous gland's disease characterized by areas of blackheads, whiteheads, pimples, greasy skin, and possibly scarring.
+bn:00000946n	WIKIDIS	The most common form of the most common skin disease
+bn:00000946n	WIKIDATA	Human disease
+bn:00000946n	WIKT	An inflammatory disease of the skin, caused by changes in the pilosebaceous units.
+bn:00000946n	WIKTLB	Inflammatory disease of the skin.
+bn:00000970n	WN	An impairment in understanding spoken language that is not attributable to hearing loss
+bn:00000970n	WIKI	Auditory verbal agnosia, also known as pure word deafness, is the inability to comprehend speech.
+bn:00000970n	WIKIDATA	Agnosia that is a loss of the ability to recognising spoken words as semantically meaningful
+bn:00001053n	WN	Enlargement of bones of hands and feet and face; often accompanied by headache and muscle pain and emotional disturbances; caused by overproduction of growth hormone by the anterior pituitary gland (due to a tumor)
+bn:00001053n	WIKI	Acromegaly is a disorder that results from excess growth hormone after the growth plates have closed.
+bn:00001053n	WIKIDATA	Human disease / micro cephaly opposite
+bn:00001053n	WIKT	A chronic disease marked by enlargement of the bones of the extremities, face, and jaw that is caused by over-activity of the pituitary gland.
+bn:00001053n	WIKTLB	Chronic disease marked by enlargement of the bones.
+bn:00001098n	WN	An overgrowth of skin layers resulting from extended exposure to the sun
+bn:00001098n	WIKI	Actinic keratosis is a pre-cancerous patch of thick, scaly, or crusty skin.
+bn:00001098n	WIKIDIS	A skin condition
+bn:00001098n	WIKIDATA	Human disease
+bn:00001119n	WN	Disease of cattle that can be transmitted to humans; results from infection with actinomycetes; characterized by hard swellings that exude pus through long sinuses
+bn:00001119n	WIKI	Actinomycosis is a rare infectious bacterial disease caused by Actinomyces species.
+bn:00001119n	WIKIDATA	Human disease
+bn:00001208n	WN	An acute viral disease marked by inflammation of nerve cells of the brain stem and spinal cord
+bn:00001208n	WIKI	Poliomyelitis, often called polio or infantile paralysis, is an infectious disease caused by the poliovirus.
+bn:00001208n	WIKIDIS	Acute clinical disease caused by polio virus
+bn:00001208n	WIKIDATA	Human disease
+bn:00001208n	OMWIKI	Acute infection by the poliovirus, especially of the motor neurons in the spinal cord and brainstem, leading to muscle weakness, paralysis and sometimes deformity.
+bn:00001208n	WIKT	Acute infection by the poliovirus, especially of the motor neurons in the spinal cord and brainstem, leading to muscle weakness, paralysis and sometimes deformity.
+bn:00001208n	WIKTLB	Infection by the poliovirus.
+bn:00001214n	WN	Common form of acute encephalitis caused by herpes simplex 1; usually affects the temporal and frontal lobes
+bn:00001214n	WIKI	Herpesviral encephalitis is encephalitis due to herpes simplex virus.
+bn:00001214n	WIKIDATA	Encephalitis associated with herpes simplex virus
+bn:00001217n	WN	Acute leukemia characterized by proliferation of immature lymphoblast-like cells in bone marrow, lymph nodes, spleen, and blood; most common in children
+bn:00001217n	WIKI	Acute lymphoblastic leukemia is a cancer of the lymphoid line of blood cells characterized by the development of large numbers of immature lymphocytes.
+bn:00001217n	WIKIDATA	Human disease
+bn:00001217n	WIKT	A type of leukemia that affects the lymphocytes.
+bn:00001218n	WN	Acute leukemia characterized by proliferation of granular leukocytes; most common in adolescents and young adults
+bn:00001218n	WIKI	Acute myeloid leukemia is a cancer of the myeloid line of blood cells, characterized by the rapid growth of abnormal cells that build up in the bone marrow and blood and interfere with normal blood cells.
+bn:00001218n	WIKIDATA	Human disease
+bn:00001218n	WIKT	A disease in which there is a vastly increased number of white blood cells in the blood.
+bn:00001257n	WN	Recurrent sudden attacks of unconsciousness caused by impaired conduction of the impulse that regulates the heartbeat
+bn:00001257n	WIKI	Stokes–Adams syndrome is a periodic fainting spell in which there is a periodic onset and offset of blockage of heart due to disorder of heart rhythm that may last for seconds, hours, days, or even weeks before the conduction returns.
+bn:00001257n	WIKI	Atrioventricular block is a type of heart block in which the conduction between the atria and ventricles of the heart is impaired.
+bn:00001257n	WIKI	Heart block is a disease or inherited condition that causes a fault within the heart's natural pacemaker due to some kind of obstruction in the electrical conduction system of the heart.
+bn:00001257n	WIKI	Periodic fainting spell in which there is a periodic onset and offset of blockage of heart due to disorder of heart rhythm
+bn:00001257n	WIKIDIS	A heart disease
+bn:00001257n	WIKIDATA	Cardiovascular system disease that involves the heart's electrical conduction system
+bn:00001257n	WIKIDATA	Heart conduction disease that is characterized by the impairment of the conduction between the atria and ventricles of the heart
+bn:00001257n	WIKT	A disease in the electrical system of the heart, opposed to coronary artery disease, which is disease of the blood vessels of the heart.
+bn:00001257n	WIKT	A heart block occurring within the fascicles of the left bundle branch.
+bn:00001274n	WN	A condition (mostly in boys) characterized by behavioral and learning disorders
+bn:00001274n	WIKI	Attention deficit hyperactivity disorder is a mental disorder of the neurodevelopmental type.
+bn:00001274n	WIKI	Attention deficit hyperactivity disorder predominantly inattentive, is one of the three presentations of attention deficit hyperactivity disorder.
+bn:00001274n	WIKI	Category of mental disorders with impulsive behavior, difficulty focusing, or excessive activity
+bn:00001274n	WIKIDIS	A developmental disorder characterized by attentional problems and hyperactivity
+bn:00001274n	WIKIDATA	Mental disorder
+bn:00001274n	OMWIKI	Behavior disorder originating in childhood in which the essential features are signs of developmentally inappropriate inattention, impulsivity, and hyperactivity.
+bn:00001274n	WIKT	Attention deficit hyperactivity disorder.
+bn:00001274n	WIKT	Initialism of attention deficit disorder.
+bn:00001274n	WIKT	A developmental disorder in which a person has a persistent pattern of impulsiveness and inattention, with or without a component of hyperactivity.
+bn:00001274n	WIKT	Attention Deficit Hyperactivity Disorder-Primarily Inattentive.
+bn:00071527n	WN	(medicine) any objective evidence of the presence of a disorder or disease
+bn:00071527n	WIKI	A medical sign is an objective indication of some medical fact or characteristic that may be detected by a patient or anyone, especially a physician, before or during a physical examination of a patient.
+bn:00071527n	WIKIDATA	Objective indication of a medical fact or characteristic
+bn:00075683n	WN	(medicine) any sensation or change in bodily function that is experienced by a patient and is associated with a particular disease
+bn:00075683n	WIKI	A symptom is a departure from normal function or feeling which is noticed by a patient, reflecting the presence of an unusual state, or of a disease.
+bn:00075683n	WIKIDATA	Departure from normal function or feeling which is noticed by a patient, reflecting the presence of an unusual state, or of a disease; subjective, observed by the patient, cannot be measured directly
+bn:00075683n	OMWIKI	Any objective evidence of disease or of a patient's condition founded on clinical observation. 
+bn:00075683n	WIKT	A perceived change in some function, sensation or appearance of a person that indicates a disease or disorder, such as fever, headache or rash.
+bn:00075683n	WIKTLB	Something that indicates a disease or disorder.
+bn:00075719n	WN	A pattern of symptoms indicative of some disease
+bn:00075719n	WIKI	A syndrome is a set of medical signs and symptoms that are correlated with each other and, often, with a particular disease or disorder.
+bn:00075719n	WIKIDATA	Association of several clinically recognizable features
+bn:00075719n	OMWIKI	A collection of symptoms that characterize a specific disease or condition.
+bn:00075719n	WIKT	A recognizable pattern of signs, symptoms and/or behaviours, especially of a disease or medical or psychological condition.
+bn:00075719n	WIKTLB	Recognizable pattern of symptoms or behaviours.
+bn:00031495n	WN	A sudden violent spontaneous occurrence (usually of some undesirable condition)
+bn:00031495n	WIKI	In epidemiology, an outbreak is a sudden increase in occurrences of a disease in a particular time and place.
+bn:00031495n	WIKIDATA	Sudden increase in occurrences of a disease
+bn:00031495n	WIKIQU	Outbreak is a 1995 film directed by Wolfgang Petersen and written by Laurence Dworet and Robert Roy Pool.
+bn:00048242n	WN	A state of difficulty that needs to be resolved
+bn:00048242n	WIKIDATA	Situation that invites resolution
+bn:00048242n	OMWIKI	A difficulty that needs to be resolved or dealt with.
+bn:00048242n	WIKT	A difficulty that has to be resolved or dealt with.
+bn:00048242n	WIKIQU	A problem is a doubtful or difficult matter requiring a solution, or something hard to understand, accomplish or deal with.
+bn:00061011n	WN	A physical condition that is caused by disease
+bn:00018207n	WN	The part of the human torso between the neck and the diaphragm or the corresponding part in other vertebrates
+bn:00018207n	WIKI	The thorax or chest is a part of the anatomy of humans and various other animals located between the neck and the abdomen.
+bn:00018207n	WIKIDIS	A division of an animal's body that lies between the head and the abdomen.
+bn:00018207n	WIKIDATA	Part of the anatomy of humans and various other animals
+bn:00018207n	WIKIDATA	Frontal part of an animal''s body, between its head and abdomen
+bn:00018207n	OMWIKI	The cavity in the vertebrate body enclosed by the ribs between the diaphragm and the neck and containing the lungs and heart.
+bn:00018207n	OMWIKI	The portion of the body from the base of the neck to the top of the abdomen; the thorax.
+bn:00018207n	WIKT	The region of the mammalian body between the neck and abdomen as well as the cavity containing the heart and lungs.
+bn:00018207n	WIKTLB	Region of the mammalian body.
+bn:00005522n	WN	A triangular area of the front of the chest (determined by percussion); corresponds to the part of the heart not covered by the lungs
+bn:00012950n	WN	The front of the trunk from the neck to the abdomen
+bn:00012950n	OMWIKI	The portion of the body from the base of the neck to the top of the abdomen; the thorax.
+bn:00012950n	WIKT	The portion of the front of the human body from the base of the neck to the top of the abdomen; the thorax. Also the analogous area in other animals.
+bn:00012950n	WIKT	The ventral portion of an animal's thorax.
+bn:00012960n	WN	The flat bone that articulates with the clavicles and the first seven pairs of ribs
+bn:00012960n	WIKI	The sternum or breastbone is a long flat bone shaped like a necktie located in the center of the chest.
+bn:00012960n	WIKIDATA	Flat bone in the middle front part of the rib cage
+bn:00012960n	WIKIDATA	Bone in humans
+bn:00012960n	OMWIKI	That connects to the sternum (when referring to ribs).
+bn:00012960n	OMWIKI	The central narrow bone in the front of the chest.
+bn:00012960n	OMWIKI	The broad, upper part of the sternum.
+bn:00012960n	WIKT	The broad, upper part of the sternum.
+bn:00012960n	WIKT	The central narrow bone in the front of the chest, connecting the collarbone and the top ribs.
+bn:00012960n	WIKT	One of the segments of the sternum.
+bn:00012960n	WIKTLB	The central narrow bone in the front of the chest.
+bn:00018209n	WN	The cavity in the vertebrate body enclosed by the ribs between the diaphragm and the neck and containing the lungs and heart
+bn:00018209n	WIKI	The thoracic cavity is the chamber of the body of vertebrates that is protected by the thoracic wall.
+bn:00018209n	OMWIKI	The cavity in the vertebrate body enclosed by the ribs between the diaphragm and the neck and containing the lungs and heart.
+bn:00018209n	WIKT	The thoracic cavity.
+bn:00037089n	WN	A muscular sac attached to the liver that stores bile (secreted by the liver) until it is needed for digestion
+bn:00037089n	WIKI	In vertebrates, the gallbladder is a small hollow organ where bile is stored and concentrated before it is released into the small intestine.
+bn:00037089n	WIKIDIS	Which stores bile for digestion
+bn:00037089n	OMWIKI	Pear-shaped organ that stores bile, releasing it when the body needs it for digestion.
+bn:00037089n	WIKT	A pear-shaped organ that stores bile from the liver, until the body needs it for the digestion and absorption of fats in the duodenum.
+bn:00037089n	WIKTLB	Pear-shaped organ that stores bile.
+bn:00056402n	WN	Either of two large muscles of the chest
+bn:00056402n	WIKI	The pectoralis major is a thick, fan-shaped muscle, situated at the chest of the human body.
+bn:00056402n	WIKIDIS	A thick, fan-shaped chest muscle
+bn:00056402n	WIKIDATA	Main human chest muscle
+bn:00056402n	WIKT	The pectoralis major muscle.
+bn:00056402n	WIKT	The large muscle that covers the chest and ribs.
+bn:00056402n	WIKTLB	A pectoral muscle.
+bn:00067693n	WN	The bony enclosing wall of the chest
+bn:00067693n	WIKI	The rib cage is an arrangement of bones in the thorax of all vertebrates except the lamprey and the frog.
+bn:00067693n	WIKIDATA	Bony and cartilaginous structure which surrounds the thoracic cavity
+bn:00067693n	WIKIDATA	Arrangement of bones
+bn:00067693n	OMWIKI	A part of the skeleton within the thoracic area consisting of ribs, sternum and thoracic vertebrae.
+bn:00067693n	OMWIKI	A rib connected only to the vertebra.
+bn:00067693n	WIKT	A part of the skeleton within the thoracic area consisting of ribs, sternum and thoracic vertebrae.
+bn:00067693n	WIKT	A rib cage.
+bn:00067693n	WIKTLB	Part of skeleton.
+bn:00076990n	WN	A branch of the descending aorta; divides into the iliac arteries
+bn:00076990n	WIKI	The descending thoracic aorta is a part of the aorta located in the thorax.
+bn:00076990n	WIKIDATA	Part of the aorta located in the thorax
+bn:00076995n	WN	Veins that drain the thoracic walls
+bn:00014184n	WN	The chest of a woman
+bn:00052975n	WN	The chest of a man
+bn:00011748n	WN	The body excluding the head and neck and limbs
+bn:00011748n	WIKI	The torso or trunk is an anatomical term for the central part of the many animal bodies from which extend the neck and limbs.
+bn:00011748n	WIKIDATA	Anatomy
+bn:00011748n	OMWIKI	The part of the body from the neck to the groin excluding the head and limbs.
+bn:00011748n	WIKT	The main part of the body that extends from the neck to the groin, excluding the head and limbs.
+bn:00011748n	WIKT	The torso.
+bn:00011748n	WIKT	The section of a dress extending from the neck to the waist, excluding the arms.
+bn:00011748n	WIKTLB	Body excluding the head and limbs.
+bn:00424929n	WIKI	A cista is a box or basket used by the ancient Egyptians, Greeks, Etruscans and Romans for various practical and mystical purposes.
+bn:03527221n	WIKI	A cassone or marriage chest is a rich and showy Italian type of chest, which may be inlaid or carved, prepared with gesso ground then painted and gilded.
+bn:03527221n	WIKT	A highly-decorated traditional Italian dowry chest.
+bn:16239498n	WIKI	The Chest of Courtrai is a medieval oak chest that bears a carving depicting scenes from the Franco-Flemish War, including the 1302 Battle of the Golden Spurs at Kortrijk, Flanders, between Flemish citizen foot-soldiers and French Knights.
+bn:16239498n	WIKIDATA	Oak chest dating from the Middle Ages
+bn:01830385n	WIKI	The Arca Santa is an oak reliquary covered with silver-gilt decorated in the Romanesque style.
+bn:01830385n	WIKIDATA	Oak reliquary kept in the Cathedral of Oviedo, Spain
+bn:15883867n	NONE	NONE
+bn:08320138n	NONE	NONE
+bn:00005694n	WN	(Judaism) sacred chest where the ancient Hebrews kept the two tablets containing the Ten Commandments
+bn:00005694n	WIKI	The ark in a synagogue is generally a receptacle, or ornamental closet, which contains each synagogue's Torah scrolls.
+bn:00005694n	WIKI	The Ark of the Covenant, also known as the Ark of the Testimony, is a gold-covered wooden chest with lid cover described in the Book of Exodus as containing the two stone tablets of the Ten Commandments.
+bn:00005694n	WIKIDIS	The consecrated container for the tablets of the Ten Commandments
+bn:00005694n	WIKIDATA	Religious artifact of the Hebrew religion
+bn:00005694n	WIKT	The chest carried by the Hebrews containing the stone tablets carved with the Ten Commandments;.
+bn:00005694n	WIKT	The sacred container, a gold-plated wooden chest, of the two tablets of law given to Moses by the Hebrew God.
+bn:00005694n	WIKTLB	The sacred container, a gold-plated wooden chest.
+bn:00003564n	WN	A chest to hold ammunition
+bn:00003564n	WIKT	A large box to hold ammunition.
+bn:00003564n	WIKTLB	Large box of ammunition.
+bn:00016950n	WN	A chest made of cedar
+bn:00020438n	WN	A chest especially for storing valuables
+bn:00020438n	WIKT	A strongbox: a strong chest or box used for keeping money or valuables safe.
+bn:00044741n	WN	Chest for storage of clothing (trousseau) and household goods in anticipation of marriage
+bn:00044741n	WIKI	A hope chest, also called dowry chest, cedar chest, trousseau chest or glory box is a piece of furniture traditionally used to collect items such as clothing and household linen, by unmarried young women in anticipation of married life.
+bn:00044741n	WIKIDIS	A box containing items stored for a future marriage
+bn:00044741n	WIKIDATA	Chest (furniture) that women use to store dower items, including linens and baby clothes
+bn:00044741n	WIKT	A box containing items, especially clothing, table linens, towels, bed linens, and quilts, typically stored by unmarried young women in anticipation of future marriages or married lives.
+bn:00062691n	WN	A chest in which coins from the mint are held to await assay
+bn:00069959n	WN	A sailor's storage chest for personal property
+bn:00076275n	WN	Chest for storing or transporting tea
+bn:00076275n	WIKI	A tea chest is a type of wooden case originally produced and used to ship tea to the United Kingdom, Australia and New Zealand.
+bn:00076275n	WIKT	A similar sized box made of cardboard, used for transporting and storing household items.
+bn:00013948n	WN	Furniture with drawers for keeping clothes
+bn:00013948n	WIKI	A chest of drawers, also called a bureau, is a piece of furniture that has multiple parallel, horizontal drawers stacked one above another.
+bn:00013948n	WIKIDIS	A piece of furniture that has multiple, stacked, parallel drawers
+bn:00013948n	WIKIDATA	Piece of cabinet furniture
+bn:00013948n	OMWIKI	A piece of furniture with several horizontal drawers stacke one above each other.
+bn:00013948n	WIKT	A piece of furniture which has multiple parallel, horizontal drawers stacked one above each other, used mainly for the storage of clean clothes.
+bn:00013948n	WIKT	A chest of drawers.
+bn:00013948n	WIKT	A chest of drawers for clothes.
+bn:00013948n	WIKT	An item of bedroom furniture, like a low chest of drawers, often with a mirror.
+bn:00013948n	WIKTLB	Chest of drawers.
+bn:00028636n	WN	A boxlike container in a piece of furniture; made so as to slide in and out
+bn:00028636n	WIKI	A drawer is a box-shaped container that fits into a piece of furniture in such a way that it can be drawn out horizontally to reach its contents.
+bn:00028636n	WIKI	Box-shaped container that fits into a piece of furniture
+bn:00028636n	OMWIKI	A sliding compartment of a piece of furniture, open on its top, that can be pulled to access to its content more easily.
+bn:00028636n	WIKT	An open-topped box that can be slid in and out of the cabinet that contains it, used for storing clothing or other articles.
+bn:00028636n	WIKTLB	Open-topped box in a cabinet used for storing.
+bn:00070999n	WN	A support that consists of a horizontal surface for holding objects
+bn:00070999n	WIKI	A shelf is a flat horizontal plane which is used in a home, business, store, or elsewhere to hold items that are being displayed, stored, or offered for sale.
+bn:00070999n	WIKIDIS	A flat horizontal surface used for display and storage
+bn:00070999n	WIKIDATA	Flat horizontal plane used for storage
+bn:00070999n	OMWIKI	A flat, rigid, rectangular structure, fixed at right angles to a wall, and used to support, store or display objects.
+bn:00070999n	WIKT	A flat, rigid structure, fixed at right angles to a wall or forming a part of a cabinet, desk etc., and used to support, store or display objects.
+bn:00023072n	WN	Soft silky fibers from cotton plants in their raw state
+bn:00023072n	WIKI	Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case, around the seeds of the cotton plants of the genus Gossypium in the mallow family Malvaceae.
+bn:00023072n	WIKIDATA	Plant fiber from the genus Gossypium
+bn:00023072n	OMWIKI	Fluffy wadding originally made from raw cotton, used for cleaning the skin or bathing wounds.
+bn:00023072n	OMWIKI	Fiber obtained from plants of the genus Gossypium, used in making fabrics, cordage, and padding and for producing artificial fibers and cellulose.
+bn:00023072n	OMWIKI	A shrub of the genus Gossypium known for the soft fibers that protect its seeds.
+bn:00023072n	WIKT	Raw fibers of cotton before being processed.
+bn:00023072n	WIKT	The round, fluffy clumps in which form cotton grows on a cotton plant.
+bn:00023072n	WIKTLB	Raw fibers of cotton.
+bn:00023072n	WIKIQU	Cotton is a soft, fluffy staple fiber that grows in a boll, or protective capsule, around the seeds of cotton plants of the genus Gossypium.
+bn:14133369n	WIKI	Class of long-staple cotton fibers from Egypt
+bn:16054268n	WIKI	Short cotton fibers that remain attached to the seed after the first ginning
+bn:00026236n	WN	A coarse durable twill-weave cotton fabric
+bn:00026236n	WIKI	Dungaree fabric is a historical term for coarse thick 2/2 twill-weave cotton cloth, often coloured blue.
+bn:00026236n	WIKI	Denim is a sturdy cotton warp-faced textile in which the weft passes under two or more warp threads.
+bn:00026236n	WIKIDATA	Sturdy cotton twill textile
+bn:00026236n	OMWIKI	A kind of cotton cloth, often blue, used for making jeans, overalls and other work and leisure garments.
+bn:00026236n	WIKT	A textile often made of cotton with a distinct diagonal pattern.
+bn:00026236n	WIKT	Heavy denim fabric, often blue; blue jean material.
+bn:00026236n	WIKTLB	Heavy denim fabric, often blue; blue jean material.
+bn:00000468n	WN	Cotton made absorbent by removal of the natural wax
+bn:00051918n	WN	Cotton with relatively long fibers
+bn:00071245n	WN	Cotton with relatively short fibers
+bn:00062806n	WN	Fiber derived from plants
+bn:00062806n	WIKI	Fiber crops are field crops grown for their fibres, which are traditionally used to make paper, cloth, or rope.
+bn:00062806n	WIKIDATA	Plants grown for fiber
+bn:00062806n	WIKIDATA	Fiber from plants
+bn:00048145n	WN	A slightly elastic machine-knit fabric
+bn:00048145n	WIKI	Jersey is a knit fabric used predominantly for clothing manufacture.
+bn:00048145n	WIKIDATA	Knit fabric
+bn:00048145n	WIKT	A type of fabric knit.
+bn:00056739n	WN	A soft lightweight muslin used especially for babies
+bn:00056739n	WIKI	Nainsook is a soft, fine, lightweight form of muslin.
+bn:00056739n	WIKI	Soft, lightweight, plain-woven cotton fabric
+bn:00056739n	WIKT	A soft, fine muslin of South Asian origin, sometimes used to make baby clothes.
+bn:05320540n	WIKI	Trademarked microfiber upholstery fabric
+bn:04727045n	WIKI	Class of fibers used to make yarn or fabric
+bn:00056987n	WN	Fiber derived from plants or animals
+bn:00056987n	WIKI	Natural Fibers or Natural Fibres are fibers that are produced by plants, animals, and geological processes.
+bn:00056987n	WIKIDATA	Any fiber derived from natural sources such as plants, animals or minerals
+bn:00056987n	OMWIKI	A textile fiber of mineral, plant or animal origin.
+bn:00056987n	WIKT	An organic fiber that is obtained naturally, notably from a plant or animal.
+bn:00056987n	WIKTLB	Fiber which is obtained naturally.
+bn:00062813n	WN	A product made from plant material
+bn:00023932n	WN	A cultivated plant that is grown commercially on a large scale
+bn:00023932n	WIKI	A crop is "a plant or animal product that can be grown and harvested extensively for profit or subsistence."
+bn:00023932n	WIKIDATA	Cultivated plant harvested by a human
+bn:00023932n	WIKT	A plant, especially a cereal, grown to be harvested as food, livestock fodder, or fuel or for any other economic purpose.
+bn:00023932n	WIKTLB	Plant grown for food.
+bn:04087871n	WIKI	Natural or regenerated fibers containing cellulose
+bn:00019980n	WN	Artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers
+bn:00019980n	WIKI	A textile is a flexible material consisting of a network of natural or artificial fibres.
+bn:00019980n	WIKIDIS	Any type of material made from fibers or other extended linear materials such as thread or yarn.
+bn:00019980n	WIKIDATA	Material produced by twining, weaving, felting, knotting, or otherwise processing natural or synthetic fibers
+bn:00019980n	OMWIKI	A woven fabric such as used in dressing, decorating, cleaning or other practical use.
+bn:00019980n	OMWIKI	A material made of natural or man-made fibers and used for the manufacture of items such as clothing and furniture fittings.
+bn:00019980n	OMWIKI	Any cloth made from yarn or fibres by weaving, knitting, felting, etc.
+bn:00019980n	WIKT	A woven fabric such as used in dressing, decorating, cleaning or other practical use.
+bn:00019980n	WIKT	A material made of fibers, a textile or cloth.
+bn:00019980n	WIKT	Cloth produced from a fabric.
+bn:00019980n	WIKTLB	Material made of fibers.
+bn:00034205n	WN	A slender and greatly elongated substance capable of being spun into yarn
+bn:00034205n	WIKI	Fiber or fibre is a natural or synthetic substance that is significantly longer than it is wide.
+bn:00034205n	WIKIDIS	A long strand of material.
+bn:00034205n	WIKIDATA	Natural or synthetic substance made of long, thin filaments
+bn:00034205n	OMWIKI	An extremely long, pliable, cohesive natural or manufactured threadlike object from which yarns are spun to be woven into textiles.
+bn:00034205n	OMWIKI	A fiber manufactured from glass, rock, or slag generally for use in fabricating heat insulation.
+bn:00062809n	WN	Material derived from plants
+bn:17178428n	WIKIDATA	Useful or ornamental plant
+bn:00067117n	WN	Any natural resource (as wood or solar energy) that can be replenished naturally with the passage of time
+bn:00067117n	WIKI	A renewable resource is a natural resource which replenishes to overcome resource depletion caused by usage and consumption, either through biological reproduction or other naturally recurring processes in a finite amount of time in a human time scale.
+bn:00067117n	WIKIDATA	A natural resource which can replenish with the passage of time, either through biological reproduction or other naturally recurring processes
+bn:00067117n	OMWIKI	A resource capable of being continuously renewed or replaced through such processes as organic reproduction and cultivation such as those practiced in agriculture, animal husbandry, forestry and fisheries.
+bn:00067117n	WIKT	A natural resource that is replenished by natural processes at a rate comparable to its rate of consumption by humans or other users.
+bn:00023073n	WN	Fabric woven from cotton fibers
+bn:00023073n	OMWIKI	Fiber obtained from plants of the genus Gossypium, used in making fabrics, cordage, and padding and for producing artificial fibers and cellulose.
+bn:00037528n	WN	(medicine) bleached cotton cloth of plain weave used for bandages and dressings
+bn:00037528n	WIKI	Gauze is a thin, translucent fabric with a loose open weave.
+bn:00037528n	WIKI	Thin translucent fabric with a open weave
+bn:00037528n	WIKT	A thin fabric with a loose, open weave.
+bn:00037528n	WIKTLB	Thin fabric with open weave.
+bn:00023074n	WN	Erect bushy mallow plant or small tree bearing bolls containing seeds with many long hairy fibers
+bn:00023074n	OMWIKI	A shrub of the genus Gossypium known for the soft fibers that protect its seeds.
+bn:00023087n	WN	Seed of cotton plants; source of cottonseed oil
+bn:00023087n	WIKI	Cottonseed is the seed of the cotton plant.
+bn:00023087n	WIKIDATA	Seed of the cotton plant
+bn:00023087n	WIKT	The seed of the cotton plant.
+bn:00005691n	WN	Shrub of southern Arizona and Mexico
+bn:00005691n	WIKI	Gossypium thurberi, also known as Arizona wild cotton, Thurber's cotton, or Desert Cotton, is a wild species of cotton.
+bn:00005691n	WIKIDATA	Species of plant
+bn:00029959n	WN	Fine somewhat brownish long-staple cotton grown in Egypt; believed to be derived from sea island cotton or by hybridization with Peruvian cotton
+bn:00041157n	WN	East Indian shrub cultivated especially for ornament for its pale yellow to deep purple blossoms
+bn:00041157n	WIKI	Gossypium arboreum, commonly called tree cotton, is a species of cotton native to India, Pakistan and other tropical and subtropical regions of the Old World.
+bn:00041157n	WIKIDIS	A short staple cotton on the genus Gossypium arboreum
+bn:00041157n	WIKIDATA	Species of plant
+bn:00041159n	WN	Old World annual having heart-shaped leaves and large seeds with short greyish lint removed with difficulty; considered an ancestor of modern short-staple cottons
+bn:00041159n	WIKI	Gossypium herbaceum, commonly known as Levant cotton, is a species of cotton native to the semi-arid regions of sub-Saharan Africa and Arabia where it still grows in the wild as a perennial shrub.
+bn:00041159n	WIKIDATA	Species of plant
+bn:00041161n	WN	Cotton with long rough hairy fibers
+bn:00041158n	WN	Small bushy tree grown on islands of the Caribbean and off the Atlantic coast of the southern United States; yields cotton with unusually long silky fibers
+bn:00041158n	WIKI	Gossypium barbadense, also known as extra-long staple cotton, is a species of cotton plant that has been cultivated to have ELS fibres – fibres longer than 34 millimetres – which are associated with high quality cotton cloth.
+bn:00041158n	WIKIDATA	Species of plant
+bn:00041160n	WN	Native tropical American plant now cultivated in the United States yielding short-staple cotton
+bn:00041160n	WIKI	Gossypium hirsutum, also known as upland cotton or Mexican cotton, is the most widely planted species of cotton in the United States, constituting some 95% of all cotton production there.
+bn:00041160n	WIKIDATA	Species of plant
+bn:00014095n	WN	A low woody perennial plant usually having several major stems
+bn:00014095n	WIKI	A shrub or bush is a small to medium-sized woody plant.
+bn:00014095n	WIKIDATA	Type of plant
+bn:00014095n	OMWIKI	A plant resembling a small tree, but has no, and will never develop, a stem.
+bn:00014095n	OMWIKI	A woody perennial plant, smaller than a tree, with several major branches arising from near the base of the main stem.
+bn:00014095n	WIKT	A woody plant smaller than a tree, and usually with several stems from the same base.
+bn:00014095n	WIKT	A plant with a woody, durable stem, but less than a tree; a shrub.
+bn:00014095n	WIKT	A woody plant distinguished from a tree by its multiple stems and lower height, being usually less than six metres tall; a horticultural rather than strictly botanical category.
+bn:00051173n	WN	A plant having hard lignified tissues or woody parts especially stems
+bn:00051173n	WIKI	A woody plant is a plant that produces wood as its structural tissue.
+bn:00061541n	WN	(botany) a plant lasting for three seasons or more
+bn:00061541n	WIKI	A perennial plant or simply perennial is a plant that lives for more than two years.
+bn:00061541n	WIKIDATA	Plant that lives for more than two years
+bn:00061541n	WIKT	A perennial plant; a plant that is active throughout the year or survives for more than two growing seasons. Compare annual, biennial.
+bn:00061541n	WIKIQU	Perennial refers to that which lasts or remains active throughout the year, or all the time.
+bn:05313493n	NONE	NONE
+bn:00023075n	WN	Thread made of cotton fibers
+bn:00051501n	WN	A strong tightly twisted cotton thread (usually made of long-staple cotton)
+bn:00077028n	WN	A fine cord of twisted fibers (of cotton or silk or wool or nylon etc.) used in sewing and weaving
+bn:00077028n	WIKI	Yarn is a long continuous length of interlocked fibres, suitable for use in the production of textiles, sewing, crocheting, knitting, weaving, embroidery, or ropemaking.
+bn:00077028n	WIKIDATA	Long continuous length of interlocked fibers
+bn:00077028n	OMWIKI	A twisted strand of fiber used for knitting.
+bn:00077028n	OMWIKI	A long, thin and flexible form of material, generally with a round cross-section, used in sewing, weaving or in the construction of string.
+bn:00077028n	WIKT	A long, thin and flexible form of material, generally with a round cross-section, used in sewing, weaving or in the construction of string.
+bn:00077028n	WIKT	A twisted strand of fiber used for knitting or weaving.
+bn:00077028n	WIKTLB	Fiber strand for knitting or weaving.
+bn:00016473n	WN	A public building for gambling and entertainment
+bn:00016473n	WIKI	A casino is a facility which houses and accommodates certain types of gambling activities.
+bn:00016473n	WIKIDATA	Facility which houses and accommodates certain types of gambling activities
+bn:00016473n	OMWIKI	A public building or room for entertainment, especially gambling.
+bn:00016473n	OMWIKI	A place where an activity is accomplished, whether actual, as a pub, or virtual, as a website.
+bn:00016473n	WIKT	A public building or room for entertainment, especially gambling.
+bn:00016473n	WIKT	The audience for a live theatrical or similar performance.
+bn:00016473n	WIKTLB	Public building or room for entertainment, especially gambling
+bn:14597404n	WIKI	A casino hotel is an establishment consisting of a casino with temporary lodging provided in an on-premises hotel.
+bn:00183931n	WIKI	Majestic Star Casino consists of two casino gaming boats on Lake Michigan in Gary, Indiana's Buffington Harbor, owned and operated by The Majestic Star Casino, LLC.
+bn:00311565n	WIKI	Wildhorse Resort & Casino is a casino owned and operated since 1994 by the Confederated Tribes of the Umatilla Indian Reservation in the U.S. state of Oregon.
+bn:00311565n	WIKIDIS	A Native American casino in Oregon, United States
+bn:00540468n	WIKI	Spotlight 29 Casino is an Indian casino in Coachella, California, owned and operated by the Twenty-Nine Palms Band of Mission Indians of California.
+bn:01533513n	WIKI	Pala Casino Spa and Resort is a hotel casino and spa located in Pala on the Pala Indian Reservation near San Diego, California.
+bn:01533513n	WIKIDIS	A casino located in Pala, California
+bn:01680515n	WIKI	The Rampart Casino is a locals casino in the Summerlin area of Las Vegas, Nevada.
+bn:01680515n	WIKIDATA	Casino in the Summerlin area of Las Vegas, Nevada
+bn:01970426n	WIKI	Fantasy Springs Resort Casino is a casino and hotel located south and east of Palm Springs, California near I-10 in Indio, California.
+bn:02118109n	WIKI	The Paradise Casino is a small casino located in Yuma, Arizona.
+bn:02118109n	WIKI	Casino located in Yuma, Arizona
+bn:02205788n	WIKI	Northern Quest Resort & Casino is an Indian casino in Airway Heights, Washington, near Spokane, owned and operated by the Kalispel Tribe.
+bn:02292559n	WIKI	Santa Ysabel Resort & Casino was an Indian owned and operated casino located on the Santa Ysabel Indian Reservation in Santa Ysabel, California.
+bn:02370173n	WIKI	The Diamond Jo Casino – Worth is a casino and entertainment complex in Worth County, Iowa, near Northwood.
+bn:02370173n	WIKIDATA	A casino and entertainment complex in Worth County, Iowa, near Northwood
+bn:02495630n	WIKI	Casino San Pablo is a Native American reservation with a gambling hall located in San Pablo, California.
+bn:02495658n	WIKI	The Sugar Bowl Casino is a planned 2,000 slot gambling hall in North Richmond, California.
+bn:02517568n	WIKI	Maryland Live! Casino is a casino and entertainment complex in Hanover, Maryland, adjacent to Arundel Mills Mall, owned and operated by The Cordish Companies.
+bn:02625381n	WIKI	The Old Camp Casino was a tribal casino near Burns, Oregon, United States, owned and operated by the Burns Paiute Tribe.
+bn:03127689n	WIKI	Commerce Casino is a cardroom located in the Los Angeles suburb of Commerce.
+bn:03218118n	WIKI	Morongo Casino, Resort & Spa is an Indian gaming casino, of the Morongo Band of Cahuilla Mission Indians, located in Cabazon, California, United States, near San Gorgonio Pass. The casino has 310 rooms and suites.
+bn:03238415n	WIKI	The Pechanga Resort & Casino is an Indian Casino on the Pechanga Indian Reservation in Temecula, California.
+bn:03391823n	WIKI	Barona Resort and Casino is an Indian casino on the Barona Indian Reservation located in Lakeside, in northeastern San Diego County in California.
+bn:03391823n	WIKIDATA	Indian casino on the Barona Indian Reservation located in Lakeside, in San Diego County
+bn:03403655n	WIKI	The Bicycle Hotel & Casino is a poker cardroom in California.
+bn:00037171n	WN	A public building in which a variety of games of chance can be played (operated as a business)
+bn:00057149n	WN	Neckwear consisting of a long narrow piece of material worn (mostly by men) under a collar and tied in knot at the front
+bn:00057149n	WIKI	A necktie, or simply a tie, is a long piece of cloth, worn usually by men, for decorative purposes around the neck, resting under the shirt collar and knotted at the throat.
+bn:00057149n	WIKIDIS	A long piece of cloth worn around the neck or shoulders
+bn:00057149n	WIKIDATA	Clothing item, traditionally worn by boys and men with dress shirt
+bn:00057149n	OMWIKI	A long, thin piece of material that is tied around a person's neck (underneath their collar) to make them look smarter, politer or more successful.
+bn:00057149n	WIKT	A strip of cloth worn around the neck and tied in the front. See also bowtie.
+bn:00057149n	WIKTLB	Strip of cloth worn around the neck and tied in the front.
+bn:00023602n	WN	Neckwear worn in a slipknot with long ends overlapping vertically in front
+bn:00023602n	WIKI	The cravat is a neckband, the forerunner of the modern tailored necktie and bow tie, originating from a style worn by members of the seventeenth-century military unit known as the Croats.
+bn:00023602n	WIKI	Long strip of fine cloth wound around the neck and tied in front into a bow or knot
+bn:00023602n	WIKIDIS	The forerunner to the modern tie
+bn:00023602n	WIKIDATA	Forerunner of the modern necktie
+bn:00058837n	WN	Necktie indicating the school the wearer attended
+bn:00058837n	WIKI	For the 1992 film directed by Robert Mandel see School Ties.
+bn:00058837n	WIKIDATA	Necktie in an exclusive pattern, signifying attendance at a particular school
+bn:00058837n	WIKT	A necktie designated as school uniform.
+bn:00058837n	WIKTLB	Necktie.
+bn:15950493n	NONE	NONE
+bn:00011844n	WN	A cord fastened around the neck with an ornamental clasp and worn as a necktie
+bn:00011844n	WIKI	A bolo tie is a type of necktie consisting of a piece of cord or braided leather with decorative metal tips – aglets – secured with an ornamental clasp or slide.
+bn:00011844n	WIKIDATA	Necktie of thin cord usually tipped with with aglets and fastened with a decorative slide
+bn:00011844n	WIKT	A necktie consisting of a heavy cord held in front by an ornamental clasp or slide.
+bn:00011844n	WIKT	A string or leather necktie secured with an ornamental slide.
+bn:00012473n	WN	A man's tie that ties in a bow
+bn:00012473n	WIKI	The bow tie is a type of traditional necktie.
+bn:00012473n	WIKIDIS	A type of necktie and ribbon fashion accessory tied in a bow knot
+bn:00012473n	WIKIDATA	Variety of necktie
+bn:00012473n	OMWIKI	A ribbon of fabric tied around the collar which is worn with formal attire by men.
+bn:00012473n	WIKT	A man's necktie tied in a bow around the throat.
+bn:00012473n	WIKTLB	Necktie shaped like a bow.
+bn:03522848n	WIKI	A clip-on tie is a bow tie or necktie which is permanently tied, and worn by attaching it to the front of the shirt collar by a clip.
+bn:03522848n	WIKI	Pre-tied necktie with a clip to hold it in place
+bn:03522848n	WIKIDIS	A bow tie or necktie that is fixed to the front of the shirt collar by a metal clip
+bn:05196105n	NONE	NONE
+bn:00036088n	WN	A long necktie that is tied in a slipknot with one end hanging in front of the other
+bn:00036088n	WIKI	The four-in-hand knot is a method of tying a necktie.
+bn:00036088n	WIKIDATA	Necktie knot
+bn:00036088n	WIKT	A slip knot with one end hanging in front of the other; a simple necktie.
+bn:00036088n	WIKT	A common knot used to tie a necktie.
+bn:00074694n	WN	A very narrow necktie usually tied in a bow
+bn:00081313n	WN	A wide necktie worn in a loose bow
+bn:00057150n	WN	Articles of clothing worn about the neck
+bn:00057150n	WIKI	Neckwear refers to various styles of clothing worn around the neck.
+bn:00057150n	WIKI	Any of various fashion accessories worn at or around  the neck
+bn:00057150n	WIKT	Articles of clothing or jewelry which hang from the neck, such as ties or necklaces.
+bn:00001755n	WN	A social or business relationship
+bn:00001755n	OMWIKI	A social or business relationship.
+bn:00067002n	WN	A state involving mutual dealings between people or parties or countries
+bn:00077208n	WN	Equality of score in a contest
+bn:00077208n	WIKI	A draw or tie occurs in a competitive sport when the results are identical or inconclusive.
+bn:00077208n	WIKIDIS	As in other games.
+bn:05590302n	WIKIDATA	Common expression used in horse racing and other sports to describe a tie
+bn:01999594n	WIKI	In chess, a draw is the result of a game ending in a tie.
+bn:01999594n	WIKI	Result of a chess game ending in a tie
+bn:01999594n	WIKIDIS	One of the possible outcomes of a chess game (a tie)
+bn:01999594n	WIKT	A draw.
+bn:00026675n	WN	A tie in tennis or table tennis that requires winning two successive points to win the game
+bn:00026675n	WIKT	A tie in which one player can win by scoring two consecutive points.
+bn:00026675n	WIKTLB	Tennis: tie, both players able to win by scoring two additional points.
+bn:00031285n	WN	A state of being essentially equal or equivalent; equally balanced
+bn:00031285n	OMWIKI	The state or quality of being equal.
+bn:00031285n	OMWIKI	The condition of being essentially equal.
+bn:00031285n	WIKT	The condition of being equivalent or essentially equal.
+bn:00031285n	WIKT	The fact of being equal.
+bn:00031285n	WIKTLB	Condition of being equivalent
+bn:00063703n	WN	The relative position or standing of things or especially persons in a society
+bn:00063703n	WIKI	Legal status is the position held by something or someone with regard to law.
+bn:00063703n	WIKIDATA	Status in law
+bn:00063703n	WIKT	A status or rank.
+bn:00063703n	WIKT	A person’s condition, position or standing relative to that of others.
+bn:00063703n	WIKTLB	Person’s position or standing.
+bn:00063703n	MSTERM	The condition of the payment schedule of an account or a business contact; possible values are 'current' or 'overdue'.
+bn:00063703n	MSTERM	The condition of an object in a system or process.
+bn:00063703n	MSTERM	The condition of a user that can be displayed to the user's contacts to communicate whether the user is currently online and available, offline and unavailable, and so on.
+bn:00063703n	MSTERM	The approval status for an entry.
+bn:00051401n	WN	A fastener that serves to join or connect
+bn:00051401n	FRAMENET	Connection; link.
+bn:00013084n	WN	The link between two lenses; rests on the nose
+bn:00013084n	WIKT	The bridge between spectacle lenses that rests on the nose.
+bn:00083498v	WN	Fasten or secure with a rope, string, or cord
+bn:00083498v	WIKT	To secure by string or the like.
+bn:00083498v	WIKTLB	To secure something by tying a string or the like.
+bn:00083498v	FRAMENET	Attach or fasten with string, cord, etc.
+bn:00083498v	FRAMENET	(of shoes or clothing) form a knot in the laces of in order to close.
+bn:00083067v	WN	Bind or tie together, as with a band
+bn:00083501v	WN	Finish the last row
+bn:00083501v	WIKT	To complete, finish, or resolve.
+bn:00085813v	WN	Bind or tie with a cord
+bn:00088052v	WN	Cause to be firmly attached
+bn:00088052v	OMWIKI	To make something fixed or stable; to cause to be firmly attached.
+bn:00088052v	FRAMENET	Attach or position securely.
+bn:00088052v	FRAMENET	Make secure; fix or fasten securely.
+bn:00040390n	WN	A very bright star of large diameter and low density (relative to the Sun)
+bn:00040390n	WIKI	A giant star is a star with substantially larger radius and luminosity than a main-sequence star of the same surface temperature.
+bn:00040390n	WIKIDATA	Type of star with a radius 10-100 times, and luminosity 10-1000x that of the Sun
+bn:00040390n	WIKT	A star that is considerably more luminous than a main sequence star of the same temperature.
+bn:00075285n	WN	A star that explodes and becomes extremely luminous in the process
+bn:00075285n	WIKI	A supernova is a transient astronomical event that occurs during the last stellar evolutionary stages of a massive star's life, whose destruction is marked by one final titanic explosion.
+bn:00075285n	WIKIDATA	Star exploding at the end of its stellar lifespan
+bn:00075285n	OMWIKI	Spectacular explosion of a star at the end of its lifetime
+bn:00075285n	WIKT	A star which explodes, increasing its brightness to typically a billion times that of our sun, though attenuated by the great distance from our sun. Some leave only debris ; others fade to invisibility as neutron stars.
+bn:00079582n	WN	A star that varies noticeably in brightness
+bn:00079582n	WIKI	A variable star is a star whose brightness as seen from Earth fluctuates.
+bn:00079582n	WIKIDIS	A type of star (as in astronomical object)
+bn:00079582n	WIKIDATA	Star whose brightness as seen from Earth fluctuates
+bn:00079582n	WIKT	Any star whose brightness varies.
+bn:00079582n	WIKT	Variable.
+bn:00079582n	WIKTLB	Star whose brightness varies.
+bn:00498981n	WIKI	In astrophysics, chemically peculiar stars are stars with distinctly unusual metal abundances, at least in their surface layers.
+bn:00630191n	WIKI	A circumpolar star is a star, as viewed from a given latitude on Earth, that never sets below the horizon due to its apparent proximity to one of the celestial poles.
+bn:00630191n	WIKIDIS	Stars that never rise or set from the perspective of a given latitude on Earth.
+bn:00630191n	WIKIDATA	Star that never sets
+bn:00802889n	WIKI	A K-type main-sequence star, also referred to as an orange dwarf or K dwarf, is a main-sequence star of spectral type K and luminosity class V. These stars are intermediate in size between red M-type main-sequence stars and yellow G-type main-sequence stars.
+bn:00802889n	WIKIDATA	Stellar classification
+bn:00802889n	WIKIDATA	Type of star according to Stellar classification (O, B, A, F, G, K, and M)
+bn:01297233n	WIKI	A Lambda Boötis star is a type of peculiar star which has an unusually low abundance of iron peak elements in its surface layers.
+bn:01345109n	WIKI	A blue straggler is a main-sequence star in an open or globular cluster that is more luminous and bluer than stars at the main-sequence turn-off point for the cluster.
+bn:01345109n	WIKIDATA	Main sequence stars
+bn:01349664n	WIKI	In astronomy, the term compact star is used to refer collectively to white dwarfs, neutron stars, and black holes.
+bn:01349664n	WIKIDIS	Also called a compact object, a degenerate star like a neutron star
+bn:01404293n	WIKI	A hypergiant is among the very rare kinds of stars that typically show tremendous luminosities and very high rates of mass loss by stellar winds.
+bn:01612078n	WIKI	Wolf–Rayet stars, often abbreviated as WR stars, are a rare heterogeneous set of stars with unusual spectra showing prominent broad emission lines of highly ionised helium and nitrogen or carbon.
+bn:01612078n	WIKIDIS	A type of evolved, massive star
+bn:01612078n	WIKIDATA	Evolved, massive star
+bn:01904516n	WIKI	Be Stars are a heterogeneous set of stars with B spectral types and emission lines.
+bn:01904516n	WIKIDIS	A B-type star in astronomy
+bn:02104099n	WIKI	A dwarf star is a star of relatively small size and low luminosity.
+bn:02104099n	WIKIDATA	Star of relatively small size and low luminosity
+bn:02113786n	WIKI	An intergalactic star, also known as an intracluster star or a rogue star, is a star not gravitationally bound to any galaxy.
+bn:02113786n	WIKIDATA	Star not located within any galaxy
+bn:02418083n	WIKI	Stellar radio sources, radio source stars or radio stars are stellar objects that produce copious emissions of various radio frequencies, whether constant or pulsed.
+bn:02431497n	WIKI	A Kepler object of interest is a star observed by the Kepler spacecraft that is suspected of hosting one or more transiting planets.
+bn:02431497n	WIKI	Star observed by the Kepler spacecraft that is suspected of hosting one or more transiting planets
+bn:03358529n	WIKI	A pre-main-sequence star is a star in the stage when it has not yet reached the main sequence.
+bn:03358529n	WIKIDATA	Star in the stage when it has not yet reached the main sequence
+bn:03424284n	WIKI	A carbon star is typically an asymptotic giant branch star, a luminous red giant, whose atmosphere contains more carbon than oxygen; the two elements combine in the upper layers of the star, forming carbon monoxide, which consumes all the oxygen in the atmosphere, leaving carbon atoms free to form other carbon compounds, giving the star a "sooty" atmosphere and a strikingly ruby red appearance.
+bn:03424284n	WIKIDATA	A star whose atmosphere contains more carbon than oxygen
+bn:03586703n	WIKI	Young stellar object denotes a star in its early stage of evolution.
+bn:03586703n	WIKIDATA	Star in its early stage of evolution
+bn:03771143n	WIKI	Barium stars are spectral class G to K giants, whose spectra indicate an overabundance of s-process elements by the presence of singly ionized barium, Ba II, at λ 455.4 nm.
+bn:00056292n	WN	A system of three or more stars associated by gravity
+bn:00056292n	WIKI	A star system or stellar system is a small number of stars that orbit each other, bound by gravitational attraction.
+bn:00056292n	WIKIDATA	Type of astronomical object, stars which orbit each other
+bn:00056292n	WIKIDATA	Three or more stars close to one another
+bn:00056292n	OMWIKI	A huge gravitationally bound system of relatively close stars.
+bn:00056292n	WIKT	Four stars which form a stellar system, such that they orbit the point of equilibrium of their gravitational fields; a quadruple star system.
+bn:00056292n	WIKT	Multiple stars which form a stellar system, such that they orbit the point of equilibrium of their gravitational fields; a multiple star system.
+bn:00056292n	WIKT	Three stars which form a stellar system, such that they orbit the point of equilibrium of their gravitational fields; a trinary star.
+bn:00056292n	WIKT	A star system consisting of a solitary star not gravitationally bound to other stars.
+bn:00056292n	WIKT	A stellar system that has three stars orbiting around each other; triple star.
+bn:00056292n	WIKT	A stellar system that has four stars orbiting around each other; quadruple star.
+bn:00056292n	WIKT	A stellar system that has multiple stars orbiting around each other; multiple star.
+bn:00000790n	WN	Someone who is dazzlingly skilled in any field
+bn:00000790n	WIKI	An adept is an individual identified as having attained a specific level of knowledge, skill, or aptitude in doctrines relevant to a particular author or organization.
+bn:00000790n	WIKI	Superstar is a term used to refer to someone who has great popular appeal and is widely known, prominent, or successful in some field.
+bn:00000790n	WIKI	A maven is a trusted expert in a particular field, who seeks to pass timely and relevant knowledge on to others in the respective field.
+bn:00000790n	WIKIDATA	An individual identified as having attained a specific level of knowledge, skill, or aptitude in doctrines relevant to a particular author or organization.
+bn:00000790n	WIKIDATA	Extremely well-known celebrity
+bn:00000790n	OMWIKI	A celebrity who is widely known and successful in some field.
+bn:00000790n	OMWIKI	A trusted expert in a particular field, who seeks to pass knowledge on to others.
+bn:00000790n	WIKT	An expert in a given field.
+bn:00000790n	WIKT	One who is especially skilled or unusually talented in a particular field.
+bn:00000790n	WIKT	An expert at something.
+bn:00000790n	WIKT	Someone who is remarkably skilled at something.
+bn:00000790n	WIKT	Someone with exceptional skills in a certain field.
+bn:00000790n	WIKTLB	Person skilled or unusually talented in a particular field.
+bn:00073965n	WN	Any celestial body visible (as a point of light) from the Earth at night
+bn:00073965n	OMWIKI	A natural luminous object in the cosmos that is visible in the sky from the earth at least during clear nights.
+bn:00073965n	WIKT	Any small luminous dot appearing in the cloudless portion of the night sky, especially with a fixed location relative to other such dots.
+bn:00073965n	WIKTLB	Astronomy: a luminous celestial body.
+bn:00073966n	WN	A plane figure with 5 or more points; often used as an emblem
+bn:05159080n	NONE	NONE
+bn:00043321n	WN	A performer who receives prominent billing
+bn:00094294v	WN	Feature as the star
+bn:00094294v	FRAMENET	Have (someone) as a principal performer.
+bn:00094295v	WN	Be the star in a performance
+bn:00087107v	WN	Carry out or perform an action
+bn:00087107v	OMWIKI	To perform an action, as in executing a program or a command.
+bn:00087107v	OMWIKI	To perform (with obj. being the action).
+bn:00087107v	WIKT	To perform.
+bn:00087107v	WIKT	To perform; to execute.
+bn:00087107v	WIKT	To achieve or perform by running or as if by running.
+bn:00087107v	MSTERM	To perform an instruction.
+bn:00087107v	MSTERM	To execute queries and macros.
+bn:00017680n	WN	A mountain in the central Himalayas on the border of Tibet and Nepal (24,780 feet high)
+bn:00032025n	WN	A mountain in the central Himalayas on the border of Tibet and Nepal; the highest mountain peak in the world (29,028 feet high)
+bn:00032025n	WIKI	Mount Everest, known in Nepali as Sagarmāthā and in Tibetan as Chomolungma, is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas.
+bn:00032025n	WIKIDIS	The highest mountain in the world
+bn:00032025n	WIKIDATA	Mountain in Nepal and Tibet, Earth''s highest mountain, with a peak at 8,848 metres (29,029 feet) above sea level
+bn:00032025n	WIKIDATA	Earth's highest mountain, with a peak at 8,848 metres (29,029 feet) above sea level, part of the Himalaya mountain range between Nepal and China
+bn:00032025n	WIKT	The world’s highest mountain, located in the Himalayas between Nepal and Tibet.
+bn:00032025n	WIKT	Alternative form of Chomolungma, the Tibetan name for Mount Everest.
+bn:00032025n	WIKT	Alternative form of Chomolungma, the Tibetan name for Mount Everest.
+bn:00032025n	WIKTLB	World’s highest mountain, located in the Himalayas.
+bn:00032025n	WIKIQU	Mount Everest or Qomolangma or Sagarmatha or Chomolungma pronounced as is the highest mountain on Earth, as measured by the height of its summit above sea level.
+bn:00041144n	WN	A mountain in the Himalayas in Tibet (26,290 feet high)
+bn:00041144n	WIKI	Shishapangma, also called Gosainthān, is the 14th highest mountain in the world at 8,027 metres above sea level.
+bn:00041144n	WIKIDATA	Mountain in China
+bn:00048763n	WN	A mountain the Himalayas on the border between Nepal and Tibet (28,208 feet high)
+bn:00048763n	WIKI	Kangchenjunga, also spelled Kanchenjunga, is the third highest mountain in the world, and lies partly in Nepal and partly in Sikkim, India.
+bn:00048763n	WIKIDATA	3rd highest mountain in the world
+bn:00048763n	WIKT	A Himalayan mountain between Nepal and India, the third highest in the world.
+bn:00056790n	WN	A mountain in the Himalayas in northern India (25,660 feet high)
+bn:00056790n	WIKI	Nanda Devi is the second highest mountain in India, and the highest located entirely within the country.
+bn:00056790n	WIKIDATA	Mountain
+bn:00003837n	WN	A mountain in the Himalayas in Nepal (26,500 feet high)
+bn:00003837n	WIKIDATA	Mountain in the Himalayas
+bn:00026776n	WN	A mountain in the Himalayas in Nepal (26,820 feet high)
+bn:00026776n	WIKI	The Dhaulagiri massif in Nepal extends 120 km from the Kaligandaki River west to the Bheri.
+bn:00026776n	WIKIDATA	Mountain in Nepal
+bn:00048752n	WN	A mountain in the Himalayas in northern India (25,450 feet high)
+bn:00048752n	WIKI	For the thus named written Hebrew character vowel form markup, see Romanization of Hebrew
+bn:00048752n	WIKIDATA	Mountain
+bn:00050916n	WN	A mountain in the central Himalayas on the border of Tibet and Nepal (27,890 feet high)
+bn:00050916n	WIKI	Lhotse is the fourth highest mountain in the world at 8,516 metres, after Mount Everest, K2, and Kangchenjunga.
+bn:00050916n	WIKIDATA	Mountain in Nepal
+bn:00050916n	WIKIDATA	Mountain in Nepal
+bn:00050916n	WIKT	A Himalayan mountain on the border between Nepal and China, the fourth highest in the world.
+bn:00052900n	WN	A mountain in the Himalayas in Nepal (27,790 feet high)
+bn:00052900n	WIKI	Makalu is the fifth highest mountain in the world at 8,485 metres.
+bn:00052900n	WIKIDATA	Himalayan mountain
+bn:00052900n	WIKT	A mountain on the border between Nepal and China, the fifth highest in the world.
+bn:00052900n	WIKTLB	Mountain between Nepal and China.
+bn:00056792n	WN	A mountain in the Himalayas in Kashmir (26,660 feet high)
+bn:00056792n	WIKI	Nanga Parbat, locally known as Diamer, is the ninth highest mountain in the world at 8,126 metres above sea level.
+bn:00056792n	WIKIDATA	Mountain in Pakistan
+bn:00056792n	OMWIKI	The ninth highest mountain on Earth with an elevation of 8,126 metres, situated in Kashmir, Pakistan.
+bn:00058322n	WN	A mountain in the central Himalayas on the border of Tibet and Nepal (25,726 feet high)
+bn:00058322n	WIKI	Nuptse or Nubtse is a mountain in the Khumbu region of the Mahalangur Himal, in the Nepalese Himalayas.
+bn:00058322n	WIKIDATA	Mountain in Himalaya
+bn:00008165n	WN	A theatrical representation of a story that is performed to music by trained dancers
+bn:00008165n	WIKI	Concert dance is dance performed for an audience.
+bn:00008165n	WIKI	Ballet is a type of performance dance that originated during the Italian Renaissance in the 15th century and later developed into a concert dance form in France and Russia.
+bn:00008165n	WIKI	Type of dance (performing arts genre)
+bn:00008165n	WIKIDATA	Type of performance dance (performing arts genre)
+bn:00008165n	OMWIKI	A classical form of dance accompanied by music.
+bn:00008165n	WIKT	A classical form of dance.
+bn:00008165n	WIKTLB	Form of dance.
+bn:00008165n	WIKIQU	Ballet is a type of performance dance that originated in the Italian Renaissance courts of the 15th century and later developed into a concert dance form in France and Russia.
+bn:00015176n	WN	A high-kicking dance of French origin performed by a female chorus line
+bn:00015176n	WIKI	The can-can is a high-energy, physically demanding dance that became a popular music hall dance in the 1840s, continuing in popularity in French cabaret to this day.
+bn:00015176n	WIKIDATA	Dance
+bn:00015176n	WIKT	A high-kicking chorus line dance originating in France.
+bn:00076093n	WN	A dance step tapped out audibly with the feet
+bn:00076093n	WIKI	Tap dance is a form of dance characterized by using the sounds of tap shoes striking the floor as a form of percussion.
+bn:00076093n	WIKIDATA	Tap dance
+bn:00076093n	WIKT	The performance of tap dance.
+bn:00076093n	WIKT	A rhythmic dance in which the heels and toes of the dancer's shoes make a series of clicks.
+bn:00220387n	WIKI	Balinese dance is a very ancient dance tradition that is part of the religious and artistic expression among the Balinese people of Bali island, Indonesia.
+bn:00220387n	WIKIDIS	Ancient Balinese dancing tradition
+bn:00764009n	WIKI	Dance in India comprises numerous styles of dances, generally classified as classical or folk.
+bn:01350560n	WIKI	Zaramo is a popular shoulder-hold dance in the Republic of Macedonia and also in Macedonia in the region around Florina.
+bn:01350560n	WIKIDATA	Macedonian dance
+bn:01526147n	WIKI	The polonaise is a dance of Polish origin, in 34 time.
+bn:01526147n	WIKIDIS	A slow, stately dance of Polish origin.
+bn:01526147n	WIKIDATA	A polish dance characterized by the rhythm of one eighth note, two sixteenth notes, and four eighth notes, in triple time
+bn:01526147n	WIKT	Music for this dance.
+bn:01857464n	WIKI	Eisa is a form of folk dance originating from the Okinawa Islands, Japan.
+bn:01857464n	WIKIDIS	In Okinawa Prefecture, Japan
+bn:02619765n	WIKI	Competitive dance is a popular, widespread sport in which competitors perform dances in any of several permitted dance styles—such as acro, ballet, contemporary, jazz, hip-hop, lyrical, modern, musical theatre, and tap—before a common group of judges.
+bn:02824840n	WIKI	Bruckins, also spelled brukins, is a Jamaican dance performed primarily to celebrate Emancipation Day.
+bn:02824840n	WIKIDATA	Jamaican dance
+bn:02878950n	WIKI	Group dances are danced by groups of people simultaneously, as opposed to individuals dancing alone or individually, and as opposed to couples dancing together but independently of others dancing at the same time, if any.
+bn:03070894n	WIKI	A street dance is a dance style—founded by African-Americans—that evolved outside dance studios in any available open space such as streets, dance parties, block parties, parks, school yards, raves, and nightclubs.
+bn:03070894n	WIKT	Any of several forms of dance that evolved outside of dance studios, usually accompanied by some form of hip hop or dance music.
+bn:03137516n	WIKI	Dancesport denotes competitive ballroom dancing, as contrasted to social or exhibition dancing.
+bn:03137516n	WIKIDATA	Dancing as a sport
+bn:03137516n	WIKT	Dance as a sport activity; often specifically competitive ballroom dancing.
+bn:03201539n	WIKI	A sher or sherele is a dance and musical form in Eastern European Jewish folk music, notably Klezmer music.
+bn:03201539n	WIKIDIS	An East European Jewish dance
+bn:03201539n	WIKIDATA	Dance
+bn:03248354n	WIKI	Baroque dance is dance of the Baroque era, closely linked with Baroque music, theatre and opera.
+bn:03248354n	WIKIDATA	Dance of the Baroque era
+bn:03553758n	WIKI	Expressionist dance is a term for a movement that arose in 1900 as a protest against the artistic stagnation of classical ballet and towards maturity in the future of art in general.
+bn:05272402n	WIKIDATA	Dance
+bn:00008128n	WN	A lavish dance requiring formal attire
+bn:00008128n	WIKI	A ball is a formal dance party.
+bn:00008128n	WIKIDATA	Dance party
+bn:00008128n	OMWIKI	A lavish formal dance.
+bn:00008128n	WIKT	A formal dance.
+bn:00008128n	FRAMENET	A formal social gathering for dancing.
+bn:00006195n	WN	Studies intended to provide general knowledge and intellectual skills (rather than occupational or professional skills)
+bn:00006195n	WIKI	Liberal arts education can claim to be the oldest programme of higher education in Western history.
+bn:00006195n	WIKI	Humanities are academic disciplines that study aspects of human culture.
+bn:00006195n	WIKIDIS	A group of academic disciplines and the educational philosophy associated with them
+bn:00006195n	WIKIDATA	Subjects that in classical antiquity were considered essential for a free person to know
+bn:00006195n	WIKIDATA	Academic disciplines that study human culture
+bn:00006195n	OMWIKI	Studies intended to provide general knowledge and intellectual skills (rather than occupational or professional skills).
+bn:00006195n	OMWIKI	Those areas of learning that require and cultivate general intellectual ability rather than technical skills.
+bn:00006195n	WIKT	Those areas of learning that require and cultivate general intellectual ability rather than technical skills; the humanities
+bn:00006195n	WIKIQU	The liberal arts are those subjects or skills that in classical antiquity were considered essential for a free person to know in order to take an active part in civic life.
+bn:00052877n	WN	The principal field of study of a student at a university
+bn:00052877n	WIKI	An academic major is the academic discipline to which an undergraduate student formally commits.
+bn:00052877n	WIKIDIS	The primary field of study for a Bachelor's degree in the United States and some other countries
+bn:00052877n	WIKIDATA	Academic discipline to which a student formally commits
+bn:00052877n	OMWIKI	The main area of study of a student working toward a degree at a college or university.
+bn:00052877n	WIKT	The main area of study of a student working toward a degree at a college or university.
+bn:00052877n	WIKTLB	A student at a college or university concentrating on a given area of study.
+bn:02319887n	WIKI	The arts refers to the theory and physical expression of creativity found in human societies and cultures.
+bn:02319887n	WIKIDIS	The general types of artistic expression
+bn:02319887n	WIKIDATA	Represent an outlet of human expression, usually influenced by culture
+bn:00025143n	WN	A party of people assembled for dancing
+bn:00060835n	WN	A group of people gathered together for pleasure
+bn:00060835n	WIKT	A group of people traveling or attending an event together, or participating in the same activity.
+bn:00060835n	WIKTLB	Group of people travelling or attending an event together.
+bn:00072527n	WN	A gathering for the purpose of promoting fellowship
+bn:00025144n	WN	Taking a series of rhythmical steps (and movements) in time to music
+bn:00025144n	OMWIKI	A sequence of rhythmic steps or movements performed to music, for pleasure or as a form of social interaction.
+bn:00025144n	OMWIKI	The activity of making rhythmic movements to music.
+bn:00025144n	WIKT	A sequence of rhythmic steps or movements usually performed to music, for pleasure or as a form of social interaction.
+bn:00025144n	WIKT	The activity of taking part in a dance.
+bn:00025144n	WIKTLB	Move rhythmically to music.
+bn:00025144n	FRAMENET	A social gathering at which people dance.
+bn:00025145n	WN	A party for social dancing
+bn:00060836n	WN	An occasion on which people can assemble for social interaction and entertainment
+bn:00060836n	WIKI	A party is a gathering of people who have been invited by a host for the purposes of socializing, conversation, recreation, or as part of a festival or other commemoration of a special occasion.
+bn:00060836n	WIKIDIS	A social gathering
+bn:00060836n	WIKIDATA	Gathering of invited guests
+bn:00060836n	OMWIKI	Social gathering for entertainment and fun.
+bn:00060836n	WIKT	A gathering of usually invited guests for entertainment, fun and socializing.
+bn:00060836n	WIKT	A social gathering around, and in, a swimming pool.
+bn:00060836n	FRAMENET	A social gathering of invited guests, typically involving eating, drinking, and entertainment.
+bn:00001736n	WN	A vaguely specified social event
+bn:00001736n	WIKT	An official or social occasion.
+bn:00001736n	WIKTLB	Official or social occasion.
+bn:14035017n	WIKIDATA	Temporary and scheduled event, like a festival or competition
+bn:02810547n	WIKI	Social phenomena include all behavior that influences or is influenced by organisms sufficiently alive to respond to one another.
+bn:02810547n	WIKIDATA	Phenomenon involving multiple organisms reacting to each other
+bn:00086271v	WN	Move in a graceful and rhythmical way
+bn:00086271v	OMWIKI	To move with rhythmic steps or movements, especially in time to music.
+bn:00086271v	WIKT	To move with rhythmic steps or movements, especially in time to music.
+bn:00086271v	WIKTLB	Move rhythmically to music.
+bn:00086273v	WN	Skip, leap, or move up and down or sideways
+bn:00086273v	FRAMENET	Move rhythmically to music, typically following a set sequence of steps. 2a.
+bn:00023946n	WN	A wooden structure consisting of an upright post with a transverse piece
+bn:00023946n	WIKT	A wooden post with a perpendicular beam attached and used to execute criminals.
+bn:00023946n	WIKTLB	Wooden post with a perpendicular beam, used for crucifixion.
+bn:00023947n	WN	A representation of the structure on which Jesus was crucified; used as an emblem of Christianity or in heraldry
+bn:00023947n	WIKT	The cross on which Christ was crucified.
+bn:00023947n	WIKTLB	Definite: the cross on which Christ was crucified.
+bn:00014931n	WN	A Latin cross set on three steps
+bn:00017072n	WN	A Latin cross with a ring surrounding the intersection
+bn:00017072n	WIKI	The Celtic cross is a form of Christian cross featuring a nimbus or ring that emerged in Ireland and Britain in the Early Middle Ages.
+bn:00017072n	WIKI	Form of Christian cross with a ring surrounding the intersection of the vertical and horizontal members
+bn:00017072n	WIKT	A Christian symbol, common in Ireland, which combines the cross with a ring surrounding the intersection.
+bn:00023974n	WN	A cross with two crossbars, one above and one below the midpoint of the vertical, the lower longer than the upper
+bn:00023974n	WIKI	The Cross of Lorraine was originally a heraldic cross.
+bn:00024103n	WN	Representation of the cross on which Jesus died
+bn:00024103n	WIKI	A crucifix is an image of Jesus on the cross, as distinct from a bare cross.
+bn:00024103n	WIKI	A rood or rood cross, sometimes known as a triumphal cross, is a cross or crucifix, especially the large Crucifixion set above the entrance to the chancel of a medieval church.
+bn:00024103n	WIKIDATA	Image or artwork of Jesus on the cross
+bn:00024103n	OMWIKI	An ornamental or symbolic representation of Christ on a cross.
+bn:00024103n	WIKT	A representation of the cross on which Jesus was crucified.
+bn:00024103n	WIKT	A crucifix, cross.
+bn:00024103n	WIKT	An ornamental or symbolic sculptural representation of Christ on a cross, often worn as a pendant or displayed in a Christian church.
+bn:00041640n	WN	A cross with each of the four arms the same length
+bn:00041640n	WIKI	A cross is a geometrical figure consisting of two intersecting lines or bars, usually perpendicular to each other.
+bn:00041640n	WIKIDATA	Geometrical figure
+bn:00041640n	OMWIKI	A geometrical figure consisting of two straight lines or bars intersecting each other such that at least one of them is bisected by the other.
+bn:00041640n	WIKT	A geometrical figure consisting of two straight lines or bars intersecting each other such that at least one of them is bisected by the other.
+bn:00041640n	WIKT	A cross with orthogonal arms of equal length.
+bn:00048154n	WN	A cross with equal arms, each terminating in a small crossbar
+bn:00048154n	WIKI	The Jerusalem cross is a heraldic cross and Christian cross variant consisting of a large cross potent surrounded by four smaller Greek crosses, one in each quadrant.
+bn:00050167n	WN	A cross with the lowest arm being longer than the others
+bn:00053053n	WN	A cross with triangular or arrow-shaped arms and the points toward the center
+bn:00053053n	WIKI	The Maltese cross is the cross symbol associated with the Order of St. John since 1567, with the traditional Knights Hospitaller and the Sovereign Military Order of Malta, and by extension with the island of Malta.
+bn:00053053n	WIKIDATA	Cross symbol associated with the Knights Hospitaller (the Knights of Malta)
+bn:00053053n	WIKT	A cross having four equal arms resembling arrowheads joined at the points.
+bn:00060454n	WN	A cross with three crossbars
+bn:00061028n	WN	A cross with two crossbars
+bn:00061028n	WIKI	The Patriarchal cross is a variant of the Christian cross, the religious symbol of Christianity.
+bn:00069015n	WN	A cross resembling the letter x, with diagonal bars of equal length
+bn:00069015n	WIKI	A saltire, also called Saint Andrew's Cross, is a heraldic symbol in the form of a diagonal cross, like the shape of the letter X in Roman type.
+bn:00069015n	WIKIDATA	Heraldic symbol in the form of a diagonal cross
+bn:00073779n	WN	Cross resembling the Greek letter tau
+bn:00030485n	WN	Special design or visual object representing a quality, type, group, etc.
+bn:00030485n	WIKI	An emblem is an abstract or representational pictorial image that represents a concept, like a moral truth, or an allegory, or a person, like a king or saint.
+bn:00030485n	WIKIDATA	Pictorial image that epitomizes a concept or that represents a person
+bn:00030485n	WIKT	Something which represents a larger whole.
+bn:02109827n	WIKI	The Christian cross, seen as a representation of the instrument of the crucifixion of Jesus, is the best-known symbol of Christianity.
+bn:02109827n	WIKIDIS	The basic symbol of Christianity
+bn:02109827n	WIKIDATA	Christian symbol
+bn:02198315n	WIKI	A conciliation cross was a stone cross, which was set up in place where a murder or accident had happened.
+bn:17125487n	WIKI	Stone crosses in Central Europe are usually bulky Christian monuments, some 80 to 120 centimetres high and 40 to 60 centimetres wide, that were almost always hewn from a single block of stone, usually granite, sandstone, limestone or basalt.
+bn:17125487n	WIKI	Christian monument made of stone
+bn:00508030n	WIKI	A processional cross is a crucifix or cross which is carried in Christian processions.
+bn:00508030n	WIKIDIS	A Crucifix held during a Christian procession
+bn:03878890n	WIKI	A high cross or standing cross is a free-standing Christian cross made of stone and often richly decorated.
+bn:03878890n	WIKIDIS	Early Medieval free-standing Christian cross made of stone and often richly decorated
+bn:03878890n	WIKIDATA	Free-standing Christian cross made of stone and often richly decorated
+bn:03878890n	WIKT	A large free-standing Celtic cross made of stone and often richly decorated.
+bn:03878890n	WIKTLB	A large free-standing Celtic cross made of stone.
+bn:01859069n	WIKI	The Cross of Justin II or Crux Vaticana in the Treasury of Saint Peter's in St. Peter's Basilica, is a processional cross and also a reliquary of the True Cross, one of the oldest surviving, if not the oldest.
+bn:01859069n	WIKIDATA	Processional cross and reliquary of the True Cross
+bn:01882897n	WIKI	The Holyrood or Holy Rood is a Christian relic considered to be part of the True Cross on which Jesus died.
+bn:01882897n	WIKIDIS	Relics of the True Cross on which Jesus died
+bn:01882897n	WIKIDATA	Christian relic considered to be part of the True Cross
+bn:01882897n	WIKT	A relic believed to be part of the True Cross.
+bn:03319212n	WIKI	The Brussels Cross or Drahmal Cross is an Anglo-Saxon cross-reliquary of the early 11th century, now in the treasury of the St. Michael and St. Gudula Cathedral, Brussels, that bears engraved images and an inscription in Old English.
+bn:03319212n	WIKIDATA	Anglo-Saxon cross-reliquary
+bn:14649207n	NONE	NONE
+bn:00151162n	WIKI	Christian symbolism is the use of symbols, including archetypes, acts, artwork or events, by Christianity.
+bn:00151162n	WIKIDIS	The use of symbols, including archetypes, acts, artwork or events, by Christianity
+bn:14426826n	WIKI	A religious symbol is an iconic representation intended to represent a specific religion, or a specific concept within a given religion.
+bn:16636885n	WIKIDATA	Practice of representing things by symbols
+bn:00085339v	WN	Come together
+bn:00085339v	OMWIKI	To come together with someone by accident.
+bn:00085339v	WIKT	To come face to face with by accident; to encounter.
+bn:00085339v	WIKT	To find, usually by accident.
+bn:00085339v	WIKT	To come to a realization of having been mistaken or misled.
+bn:00085339v	WIKTLB	Find, usually by accident.
+bn:00024724n	WN	An interval during which a recurring sequence of events occurs
+bn:00024724n	OMWIKI	An interval of space or time in which one set of events or phenomena is completed.
+bn:00024724n	WIKT	An interval of space or time in which one set of events or phenomena is completed.
+bn:00024724n	WIKT	A series of changes or events ending where it began; a series of like events recurring in continuance; a cycle; a periodical revolution.
+bn:00047229n	WN	A definite length of time marked off by two instants
+bn:00047229n	OMWIKI	A period of time when something is available.
+bn:00047229n	WIKT	A period of time with fixed, well-defined limits.
+bn:00047229n	WIKTLB	A period of time with fixed, well-defined limits.
+bn:00047229n	MSTERM	A period of time during which a setting or other functionality is in effect.
+bn:00024726n	WN	A periodically repeated sequence of events
+bn:00054474n	WN	A never-ending cycle of activities and events (especially when they seem to have little purpose)
+bn:00069089n	WN	(Hinduism and Buddhism) the endless cycle of birth and suffering and death and rebirth
+bn:00069089n	WIKI	Saṃsāra is a Sanskrit word that means "wandering" or "world", with the connotation of cyclic, circuitous change.
+bn:00069089n	WIKIDATA	World or realm of existence related to rebirth concept in Buddhism, Hinduism, Jainism, Bon, Taoism and Sikhism
+bn:00069089n	WIKT	In Jainism, Hinduism, Buddhism, and some other eastern religions, the ongoing cycle of birth, death, and rebirth endured by human beings and all other mortal beings, and from which release is obtained by achieving the highest enlightenment.
+bn:00069089n	WIKTLB	Cycle of reincarnation.
+bn:00067153n	WN	An event that repeats
+bn:00067153n	OMWIKI	The occurrence of an event which has occurred before.
+bn:00067153n	MSTERM	A gradient brush option that makes the gradient repeat.
+bn:00067153n	MSTERM	An option that allows the user to specify the intervals at which an appointment or task will be repeated.
+bn:00061613n	WN	An event that recurs at intervals
+bn:00010248n	WN	A wheeled vehicle that has two wheels and is moved by foot pedals
+bn:00010248n	WIKI	A bicycle, also called a cycle or bike, is a human-powered, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other.
+bn:00010248n	WIKIDATA	Human-powered, pedal-driven two-wheel vehicle
+bn:00010248n	OMWIKI	A vehicle with two wheels in tandem, pedals connected to the rear wheel by a chain, handlebars for steering, and a saddlelike seat.
+bn:00010248n	WIKT	A vehicle that has two wheels, one behind the other, a steering handle, and a saddle seat or seats and is usually propelled by the action of a rider’s feet upon pedals.
+bn:00010248n	WIKT	A pedal-powered vehicle, such as a unicycle, bicycle, or tricycle, or a motorized vehicle that has either two or three wheels, such as a motorbike, motorcycle, motorized tricycle, or motortrike.
+bn:00010248n	WIKT	Short for bicycle.
+bn:00002797n	WN	A bicycle with a sturdy frame and fat tires; originally designed for riding in mountainous country
+bn:00002797n	WIKI	A mountain bike or mountain bicycle is a bicycle designed for off-road cycling.
+bn:00002797n	WIKI	An off-road vehicle is considered to be any type of vehicle which is capable of driving on and off paved or gravel surface.
+bn:00002797n	WIKIDIS	Known in French as Vélo tout terrain (VTT)
+bn:00002797n	WIKIDATA	Type of bicycle
+bn:00002797n	OMWIKI	A bicycle, that is mainly used for riding off road and in the mountains.
+bn:00002797n	WIKT	A bicycle specially designed for off-road riding, typically with straight, flat handlebars, a heavier frame than road bikes, higher ground clearance, and wider tires, sometimes with knobs on them for greater traction.
+bn:00002797n	WIKTLB	Bicycle especially designed for off-road riding.
+bn:00010249n	WN	A bicycle with two sets of pedals and two seats
+bn:00010249n	WIKI	The tandem bicycle or twin is a form of bicycle designed to be ridden by more than one person.
+bn:00010249n	WIKIDATA	Bicycle to be ridden by multiple riders seated in tandem
+bn:00010249n	OMWIKI	A bicycle with two seats, two sets of pedals, and two wheels.
+bn:00010249n	WIKT	A bicycle with two seats, two sets of pedals, and two wheels.
+bn:00415987n	WIKI	The Sociable or Buddy Bike or Side By Side Bicycle is a bicycle that supports two riders who sit side by side.
+bn:00910987n	WIKI	A recumbent bicycle is a bicycle that places the rider in a laid-back reclining position.
+bn:00910987n	WIKIDIS	A bicycle which places the rider in a seated or supine position
+bn:01673247n	WIKI	A BMX bike is an off-road sport bicycle used for racing and stunt riding.
+bn:01673247n	WIKIDIS	A bicycle used for casual use and sport, and designed mainly for dirt and motocross cycling
+bn:01673247n	WIKIDATA	Off-road sport bicycle used for racing and stunt riding
+bn:02141304n	WIKI	A motorised bicycle is a bicycle with an attached motor or engine and transmission used either to power the vehicle unassisted, or to assist with pedalling.
+bn:02141304n	WIKIDIS	A bicycle powered by human and another power source such as liquid fuels or electricity
+bn:02198695n	WIKI	A lowrider bicycle is a highly customized bicycle with styling inspired by lowrider cars.
+bn:02198695n	WIKIDIS	A modified bicycle in the style of a lowrider car
+bn:02265084n	WIKI	Freight bicycles, carrier cycles, freight tricycles, cargo bikes, box bikes, or cycletrucks are human powered vehicles designed and constructed specifically for transporting loads.
+bn:02265084n	WIKIDATA	Used to move large or heavy loads with pedal drive
+bn:02405773n	WIKI	A roadster bicycle, is a type of utility bicycle once common worldwide, and still common in Asia, Africa, Latin America, and some parts of Europe.
+bn:02437973n	WIKI	A folding bicycle is a bicycle designed to fold into a compact form, facilitating transport and storage.
+bn:02437973n	WIKIDIS	A bicycle which can be folded for compactness
+bn:02437973n	OMWIKI	A bicycle that can be folded to a smaller size.
+bn:02655546n	WIKI	A cruiser bicycle, also known as a beach cruiser or motobike, is a bicycle that usually combines balloon tires, an upright seating posture, a single-speed drivetrain, and straightforward steel construction with expressive styling.
+bn:02655546n	WIKIDIS	In Marin county, California. The inspiration for the Mountain bike.
+bn:03103079n	WIKI	A touring bicycle is a bicycle designed or modified to handle bicycle touring.
+bn:03103079n	WIKIDIS	A long-distance type of bicycle that includes expedition bicycles, which are made for long journeys over rough terrain
+bn:03464111n	WIKI	A party bike, fietscafé, bierfiets, pedal crawler, pedibus, cycle pub, beer bike, bierbike, megacycle, bici bar or birriciclo is a multi-passenger human powered vehicle, invented in 1997 by Het Fietscafe BV from the Netherlands.
+bn:03740017n	WIKI	A utility bicycle is a bicycle designed for practical transportation, as opposed to those primarily for recreation and competition, such as touring bicycles, racing bicycles, and mountain bicycles.
+bn:03740600n	WIKI	A racing bicycle, also known as a road bike, is a bicycle designed for competitive road cycling, a sport governed by according to the rules of the Union Cycliste Internationale.
+bn:03745273n	WIKI	A track bicycle or track bike is a bicycle optimized for racing at a velodrome or outdoor track.
+bn:03803166n	WIKI	Hybrid bicycles blend characteristics from more specialized road bikes, touring bikes and mountain bikes.
+bn:03803166n	WIKIDIS	A bicycle with features of road and mountain bikes
+bn:03894604n	WIKI	A fixed-gear bicycle is a bicycle that has a drivetrain with no freewheel mechanism.
+bn:03894604n	WIKT	A fixed-gear bicycle.
+bn:03894604n	WIKT	A bicycle that does not have a freewheel, and only has a single gear ratio.
+bn:03894604n	WIKTLB	Bicycle without a freewheel.
+bn:00010255n	WN	A seat for the rider of a bicycle
+bn:00010255n	WIKI	A bicycle seat, unlike a bicycle saddle, is designed to support the rider's buttocks and back, usually in a semi-reclined position.
+bn:00010255n	OMWIKI	A backless seat for the rider of vehicles such as a bicycle, motorcycle, etc.
+bn:00010255n	WIKT	A seat on a bicycle, motorcycle etc.
+bn:00010255n	WIKTLB	Seat on a bicycle etc.
+bn:00010257n	WN	The wheel of a bicycle
+bn:00010257n	WIKI	A bicycle wheel is a wheel, most commonly a wire wheel, designed for a bicycle.
+bn:00017489n	WN	A series of (usually metal) rings or links fitted into one another to make a flexible ligament
+bn:00017489n	OMWIKI	A series of interlocked rings or links forming a flexible length.
+bn:00017489n	WIKT	A series of interconnected rings or links usually made of metal.
+bn:00017489n	WIKTLB	Series of interconnected rings or links.
+bn:00020178n	WN	A brake on a bicycle that engages with reverse pressure on the pedals
+bn:00020178n	WIKI	A bicycle brake reduces the speed of a bicycle or prevents it from moving.
+bn:00042819n	WN	The shaped bar used to steer a bicycle
+bn:00042819n	OMWIKI	The bar used to steer a bicycle, motorbike, or similar vehicle.
+bn:00042819n	WIKT	The bar used to steer a bicycle, motorbike, or similar vehicle, usually used in the plural.
+bn:00042819n	WIKTLB	Bar for steering.
+bn:00049076n	WN	A swiveling metal rod attached to a bicycle or motorcycle or other two-wheeled vehicle; the rod lies horizontally when not in use but can be kicked into a vertical position as a support to hold the vehicle upright when it is not being ridden
+bn:00049076n	WIKI	A kickstand is a device on a bicycle or motorcycle that allows the bike to be kept upright without leaning against another object or the aid of a person.
+bn:00056214n	WN	A curved piece above the wheel of a bicycle or motorcycle to protect the rider from water or mud thrown up by the wheels
+bn:00056214n	WIKT	A cover over the wheels of a vehicle, or a flap behind that wheel, to prevent water and mud being projected.
+bn:00056214n	WIKTLB	A cover over, or a flap behind, the wheels of a vehicle.
+bn:00073664n	WN	Thin wheel with teeth that engage with a chain
+bn:00073664n	WIKI	A sprocket or sprocket-wheel is a profiled wheel with teeth, or cogs, that mesh with a chain, track or other perforated or indented material.
+bn:00073664n	OMWIKI	The tooth of a sprocket [a toothed wheel that enmeshes with a chain].
+bn:00073664n	WIKT	A toothed wheel that enmeshes with a chain or other perforated band.
+bn:00073664n	WIKTLB	Toothed wheel.
+bn:00078268n	WN	A vehicle with three wheels that is moved by foot pedals
+bn:00078268n	WIKI	A velocipede is a human-powered land vehicle with one or more wheels.
+bn:00078268n	WIKI	A tricycle, often abbreviated to trike, is a human-powered three-wheeled vehicle.
+bn:00078268n	WIKIDATA	Human-powered land vehicle with one or more wheels
+bn:00078268n	OMWIKI	A cycle with three wheels, powered by pedals and usually intended for young children.
+bn:00078268n	WIKT	A cycle with three wheels, powered by pedals and usually intended for young children.
+bn:00078268n	WIKT	A tricycle.
+bn:00078268n	WIKTLB	Cycle with three wheels.
+bn:16915676n	NONE	NONE
+bn:00500914n	WIKI	A three-wheeler is a vehicle with three wheels.
+bn:00500914n	WIKIDATA	Vehicle with three wheels
+bn:00500914n	WIKT	Three-wheeler; motor vehicle with three wheels.
+bn:00500914n	WIKT	A car, cycle or motorbike having three wheels.
+bn:00500914n	WIKTLB	Cycle or motorcycle with three wheels.
+bn:02946813n	WIKI	Human-powered land vehicles are land vehicles propelled over ground by human power.
+bn:02946813n	WIKIDATA	Land vehicles propelled over ground by human power
+bn:03844299n	WIKI	A Forecar was a car body style adopted by several makers of light cars and motorcycles in the first decade of the 20th century.
+bn:03844299n	WIKIDATA	Automobile or motorcycle with passenger seat placed in front of the engine
+bn:00086245v	WN	Recur in repeating sequences
+bn:00092553v	WN	Happen or occur again
+bn:00092553v	WIKT	To happen again.
+bn:00092553v	WIKTLB	To happen again.
+bn:00019829n	WN	A practitioner (of medicine or psychology) who does clinical work instead of laboratory experiments
+bn:00019829n	WIKI	A clinician is a health care professional that works as a primary care giver of a patient in a hospital, skilled nursing facility, clinic, or patient's home.
+bn:00037664n	WN	A physician who is not a specialist but treats all illnesses
+bn:00037664n	WIKI	In the medical profession, a general practitioner is a medical doctor who treats acute and chronic illnesses and provides preventive care and health education to patients.
+bn:00037664n	WIKIDIS	In medicine, a term for a family physician
+bn:00037664n	WIKIDATA	Type of medical doctor specialising as a generalist, usually working in primary care setting
+bn:00037664n	OMWIKI	Name for a general physician who does peripheral work (not in a hospital) and who is the first station for people with problems with their health in the broadest sence.
+bn:00037664n	WIKT	A physician who provides primary care; treating acute and chronic illnesses and providing preventive care and health education; a family doctor.
+bn:00037664n	WIKTLB	Physician who provides primary care; family doctor.
+bn:00037664n	MSTERM	A physician who directs a patient for treatment to another doctor for specialty care or services.
+bn:00851881n	WIKI	In the United States and other countries, an aviation medical examiner is a physician designated by the local aviation authority and given the authority to perform flight physical examinations and issue aviation medical certificates.
+bn:00851881n	WIKIDATA	Physician specialising in aviation medicine
+bn:00858603n	WIKI	Physician writers are physicians who write creatively in fields outside their practice of medicine.
+bn:00858603n	WIKIDATA	Physicians who write creatively in fields outside their practice of medicine
+bn:00930606n	WIKI	A ship's doctor or ship's surgeon is the person responsible for the health of the people aboard a ship at sea.
+bn:00930606n	WIKIDATA	Person responsible for the health of the people aboard a ship at sea
+bn:01419827n	WIKI	Uinyeo were female physicians who specialized in the treatment of women during the Joseon Dynasty of Korea.
+bn:01490533n	WIKI	In the United States and Canada, an attending physician is a physician who has completed residency and practices medicine in a clinic or hospital, in the specialty learned during residency.
+bn:01490533n	WIKIDATA	Attending physician
+bn:01627489n	WIKI	A chief physician, also called a head physician, physician in chief, senior consultant, or chief of medicine, is a physician in a senior management position at a hospital or other institution.
+bn:02071086n	WIKI	This is about the physician to the President of the United States.
+bn:03236948n	WIKI	In the United Kingdom, Republic of Ireland, and parts of the Commonwealth, consultant is the title of a senior hospital-based physician or surgeon who has completed all of his or her specialist training and been placed on the specialist register in their chosen speciality.
+bn:03236948n	WIKIDIS	A medical specialist in the United Kingdom, Ireland, and Commonwealth of Nations, similar to an Attending physician in the United States
+bn:03236948n	WIKIDATA	Title of a senior hospital-based physician or surgeon
+bn:05140886n	WIKIDATA	Surgeon; a term used from the Middle Ages to the 2nd half of the 19th century
+bn:06750747n	NONE	NONE
+bn:08990143n	WIKIDATA	Physician who works for the military
+bn:10498637n	WIKIDATA	Physician specialising in the study of lipids
+bn:13888609n	NONE	NONE
+bn:16314172n	WIKIDATA	A certified physician who has not yet completed a further study to a certain profession
+bn:16839975n	WIKIDATA	Psychiatrist or psychotherapist who specializes in psychoanalysis
+bn:04079403n	WIKI	Medical doctor appointed to the service of important personages, such as royalty, aristocrats, presidents, the Pope or a senior politician
+bn:05132577n	NONE	NONE
+bn:06485208n	NONE	NONE
+bn:00054116n	WN	Someone who practices medicine
+bn:00054116n	WIKI	A health professional, health practitioner or healthcare provider is an individual who provides preventive, curative, promotional or rehabilitative health care services in a systematic way to people, families or communities.
+bn:00054116n	WIKIDATA	Individual who systematically provides health care services
+bn:00054116n	WIKIDATA	individual who systematically provides health care services
+bn:00054116n	MSTERM	An individual or institution that provides preventive or curative health care services to individuals or families.
+bn:00054116n	MSTERM	An individual or institution that provides preventive or curative health care services to individuals or families.
+bn:00087135v	WN	Alter and make impure, as with the intention to deceive
+bn:00087135v	OMWIKI	To alter or make obscure, as with the intention to deceive.
+bn:00087135v	WIKT	To alter or make obscure, as with the intention to deceive, especially a document.
+bn:00087135v	WIKT	To alter and make impure, as with the intention to deceive.
+bn:00087135v	WIKTLB	Alter or make obscure, in order to deceive.
+bn:00082391v	WN	Corrupt, debase, or make impure by adding a foreign or inferior substance; often by replacing valuable ingredients with inferior ones
+bn:00082391v	WIKT	To weaken, especially by adding a foreign substance.
+bn:00087136v	WN	Give medical treatment to
+bn:00087136v	OMWIKI	To provide medical treatment to.
+bn:00087136v	WIKT	To act as a medical doctor to.
+bn:00087136v	WIKTLB	Act as a medical doctor to.
+bn:00056396n	WN	The abductor muscle of the thumb
+bn:00077117n	WN	The nail of the thumb
+bn:00077117n	WIKT	The fingernail on the thumb.
+bn:00077117n	WIKTLB	Fingernail on the thumb.
+bn:00077117n	MSTERM	A miniature version of an image that is often used for quick browsing through multiple images.
+bn:00034565n	WN	Any of the terminal members of the hand (sometimes excepting the thumb)
+bn:00034565n	WIKI	A finger is a limb of the human body and a type of digit, an organ of manipulation and sensation found in the hands of humans and other primates.
+bn:00034565n	WIKIDIS	A part of the hand
+bn:00034565n	WIKIDATA	Organ of manipulation and sensation found in the hands of humans and other primates
+bn:00034565n	OMWIKI	One of the long extremities of the hand that is used for gripping objects.
+bn:00034565n	WIKT	One of the long extremities of the hand, sometimes excluding the thumb.
+bn:00034565n	WIKTLB	Extremity of the hand.
+bn:00035494n	WN	Two-winged insects characterized by active flight
+bn:00035494n	WIKI	True flies are insects of the order Diptera, the name being derived from the Greek δι- di- "two", and πτερόν pteron "wings".
+bn:00035494n	WIKIDATA	Order of insects
+bn:00035494n	OMWIKI	A common insect; any species of insect of the order Diptera.
+bn:00035494n	WIKT	An entomologist who specializes in the order Diptera.
+bn:00035494n	WIKT	Any insect of the order Diptera; characterized by having two wings , also called true flies.
+bn:00035494n	WIKTLB	Insect of the order Diptera.
+bn:00035494n	WIKIQU	Flies are insects of the order Diptera.
+bn:13319918n	WIKIDATA	Generic common name of small flying insects, especially Diptera
+bn:13319918n	WIKT	Especially, any of the insects of the family Muscidae, such as the common housefly.
+bn:13319918n	WIKTLB	Insect of the family Muscidae.
+bn:14807087n	WIKIDATA	Later homonym
+bn:00003160n	WN	Scalelike structure between the base of the wing and the halter of a two-winged fly
+bn:00003160n	WIKI	Brighamia insignis, commonly known as Ōlulu or Alula in Hawaiian, or colloquially as the vulcan palm or cabbage on a stick, is a critically endangered species of Hawaiian lobelioid in the bellflower family, Campanulaceae.
+bn:00003160n	WIKI	A calypter is either of two posterior lobes of the posterior margin of the forewing of flies between the extreme posterior wing base and the alula, which covers the halteres.
+bn:00003160n	WIKIDATA	Species of plant
+bn:00003160n	WIKT	Either of two posterior wing lobes that appear in dipteran flies of the subsection Calyptrata, and that cover the halteres.
+bn:00009531n	WN	Hairy nectar-eating fly that resembles a bee; larvae are parasitic on larvae of bees and related insects
+bn:00011448n	WN	Large usually hairy metallic blue or green fly; lays eggs in carrion or dung or wounds
+bn:00011448n	WIKI	Clarence Henry Reid was an American musician, songwriter and producer, also known by the stage name and alternate persona Blowfly.
+bn:00011448n	WIKIDIS	Also known by his real name Clarence Reid
+bn:00011448n	WIKIDATA	Musician, rap artist
+bn:00035184n	WN	Fly whose larvae feed on carrion or the flesh of living animals
+bn:00035184n	WIKI	Flies in the family Sarcophagidae are commonly known as flesh flies.
+bn:00035184n	WIKI	Sarcophaga carnaria or the common flesh fly is a European species of flesh fly.
+bn:00035184n	WIKIDATA	Family of insects
+bn:00035184n	WIKIDATA	Species of insect
+bn:00035184n	WIKT	Alternative form of flesh fly.
+bn:00035184n	WIKTLB	Carrion eating fly.
+bn:00036990n	WN	Any of various large flies that annoy livestock
+bn:00036990n	OMWIKI	Any of various large flies that annoy livestock.
+bn:00040720n	WN	Bloodsucking African fly; transmits sleeping sickness etc.
+bn:00040720n	WIKI	Tsetse, sometimes spelled tzetze and also known as tik-tik flies, are large biting flies that inhabit much of tropical Africa.
+bn:00040720n	WIKIDATA	Genus of insects
+bn:00040720n	OMWIKI	A large biting fly from Africa which live by feeding on the blood of vertebrate animals (of the family Glossinidae).
+bn:00042457n	WN	Small black European fly introduced into North America; sucks blood from cattle especially at the base of the horn
+bn:00042457n	WIKI	Haematobia irritans, the horn fly, is a small fly described by Linnaeus in 1758.
+bn:00042457n	WIKIDATA	Species of insect
+bn:00045007n	WN	Common fly that frequents human habitations and spreads many diseases
+bn:00045007n	WIKI	The housefly is a fly of the suborder Cyclorrhapha.
+bn:00045007n	WIKIDIS	A common house fly.
+bn:00045007n	WIKIDATA	Species of insect
+bn:00045007n	WIKT	The common housefly, Musca domestica, that frequents most homes and spreads some diseases.
+bn:00075848n	WN	Bristly fly whose larvae live parasitically in caterpillars and other insects; important in control of noxious insects
+bn:00027317n	WN	Insects having usually a single pair of functional wings (anterior pair) with the posterior pair reduced to small knobbed structures and mouth parts adapted for sucking or lapping or piercing
+bn:00027317n	OMWIKI	An order of insects possessing only a single pair of wings on the mesothorax.
+bn:00027317n	WIKT	Any of very many flies, of the order Diptera, that have two wings.
+bn:00035498n	WN	Fisherman's lure consisting of a fishhook decorated to look like an insect
+bn:00035498n	WIKT	A lightweight fishing lure resembling an insect.
+bn:00028931n	WN	A fly (fisherman's lure) that skims the surface of the water
+bn:00028931n	WIKI	An artificial fly or fly lure is a type of fishing lure, usually used in the sport of fly fishing.
+bn:00028931n	WIKIDIS	A type of fishing lure, usually used in the sport of fly fishing and also used in other forms of angling
+bn:00028931n	WIKT	A lure for fly fishing designed to be fished beneath the surface of the water.
+bn:00028931n	WIKT	A fly used in fly fishing, designed to float in or on the surface of the water.
+bn:00074592n	WN	An artificial fly that has wings extending back beyond the crook of the fishhook
+bn:00074592n	WIKI	An artificial fly or fly lure is a type of fishing lure, usually used in the sport of fly fishing.
+bn:00074592n	WIKIDIS	A type of fishing lure, usually used in the sport of fly fishing and also used in other forms of angling
+bn:00080940n	WN	Fisherman's fly that floats under the surface of the water
+bn:00034845n	WN	(angling) any bright artificial bait consisting of plastic or metal mounted with hooks and trimmed with feathers
+bn:00007999n	WN	Something used to lure fish or other animals into danger so they can be trapped or killed
+bn:00007999n	WIKI	In chess, decoying is the tactic of ensnaring a piece, usually the king or queen, by forcing it to move to a poisoned square with a sacrifice on that square.
+bn:00007999n	WIKI	Bait is any substance used to attract prey, e.g. in a mousetrap.
+bn:00007999n	WIKIDIS	A tactic in chess
+bn:00007999n	WIKIDIS	Bait as a luring substance
+bn:00007999n	WIKT	Any substance, especially food, used in catching fish, or other animals, by alluring them to a hook, snare, trap, or net.
+bn:00007999n	WIKT	An artificial bait attached to a fishing line to attract fish.
+bn:00007999n	WIKTLB	Artificial fishing bait.
+bn:00092559v	WN	Travel on an overnight flight
+bn:00012339n	WN	A glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped
+bn:00012339n	WIKI	A bottle is a container with a neck that is narrower than the body and a mouth.
+bn:00012339n	WIKIDATA	Container of liquids
+bn:00012339n	OMWIKI	A container, typically made of glass and having a tapered neck, used for holding liquids.
+bn:00012339n	WIKT	A container, typically made of glass or plastic and having a tapered neck, used primarily for holding liquids.
+bn:00009591n	WN	A bottle that holds beer
+bn:00009591n	WIKI	A beer bottle is a bottle designed as a container for beer.
+bn:00009591n	WIKIDATA	Bottle to contain beer
+bn:00009591n	WIKT	A bottle designed to contain beer.
+bn:00009591n	WIKTLB	A bottle designed to contain beer.
+bn:00080579n	WN	A bottle for holding water
+bn:00080579n	WIKI	A water bottle is a container that is used to hold water, liquids or other beverages for consumption.
+bn:00080579n	WIKT	A bottle used for carrying water or other drinks.
+bn:00080579n	WIKTLB	A bottle used for carrying water.
+bn:00081322n	WN	A bottle for holding wine
+bn:00081322n	WIKI	A wine bottle is a bottle, generally made of glass, that used for holding wine.
+bn:00081322n	WIKIDATA	Bottle used for holding wine
+bn:00081322n	WIKT	A bottle for holding wine.
+bn:00081322n	WIKT	A bottle of wine in the port wine trade containing 2.25 liters of fluid, three times the volume of a standard bottle.
+bn:00081322n	WIKT	A bottle of wine containing 3 liters of fluid, four times the volume of a standard bottle.
+bn:00081322n	WIKT	A bottle of wine containing 62 centiliters of fluid, traditionally used for vin jaune.
+bn:00081322n	WIKTLB	Bottle for holding wine.
+bn:00294224n	WIKI	A plastic bottle is a bottle constructed from plastic.
+bn:00294224n	WIKIDATA	Bottle constructed of plastic
+bn:00386652n	WIKI	An aluminium bottle is a bottle made of aluminium.
+bn:01881852n	WIKI	A squeeze bottle is a type of container such as a bottle for dispensing a fluid, that is powered by squeezing the container by exerting pressure with the user's hand.
+bn:01884193n	WIKI	Milk bottles are bottles used for milk.
+bn:01884193n	WIKIDATA	Bottle used for the storage and delivery of milk
+bn:02154930n	WIKI	Reagent bottles, also known as media bottles or graduated bottles, are containers made of glass, plastic, borosilicate or related substances, and topped by special caps or stoppers and are intended to contain chemicals in liquid or powder form for laboratories and stored in cabinets or on shelves.
+bn:02258171n	WIKI	A glass bottle is a bottle created from glass.
+bn:03404429n	WIKI	The two-liter bottle is a common container for soft drinks.
+bn:03419161n	WIKI	A spray bottle is a bottle that can squirt, spray or mist fluids.
+bn:14311855n	WIKI	A Codd bottle is a type of bottle used for carbonated drinks.
+bn:15386114n	WIKI	Methuselah was a UK bottle size for wine and champagne.
+bn:15386114n	WIKIDATA	6 liter bottle
+bn:08998685n	NONE	NONE
+bn:00015892n	WN	A large bottle for holding corrosive liquids; usually cushioned in a special container
+bn:00015892n	WIKI	A carboy, demijohn, or jimmyjohn is a rigid container with a typical capacity of 20 to 60 litres.
+bn:00015892n	WIKIDATA	Rigid container
+bn:00044930n	WN	A stoppered receptacle (usually made of rubber) that is to be filled with hot water and used for warming a bed or parts of the body
+bn:00044930n	WIKI	A hot water bottle is a container filled with hot water and sealed with a stopper, used to provide warmth, typically while in bed, but also for the application of heat to a specific part of the body.
+bn:00044930n	WIKIDATA	Container filled with hot water used for heating
+bn:00044930n	WIKT	A flexible, saclike bottle, usually made of rubber, intended to be filled with hot water and placed on some part of the body for thermotherapy, or simple warming.
+bn:00044930n	WIKTLB	A flexible bottle for heat therapy.
+bn:05296127n	NONE	NONE
+bn:15278771n	WIKIDATA	Nine liter bottle
+bn:15278771n	WIKT	A bottle of Champagne or Burgundy wine containing 9 liters of fluid, twelve times the volume of a standard bottle.
+bn:15278771n	WIKTLB	Bottle of champagne or Burgundy wine.
+bn:00012358n	WN	A cap that seals a bottle
+bn:00012358n	WIKI	A bottle cap seals the top opening of a bottle.
+bn:00012358n	OMWIKI	A device used to seal the openings of bottles of many types.
+bn:00012358n	WIKT	Alternative form of bottle cap.
+bn:00012358n	WIKT	A bottle cap.
+bn:00012358n	WIKT	Any of several designs of closure used to seal bottles.
+bn:00056141n	WN	The opening of a jar or bottle
+bn:00012351n	WN	The plug in the mouth of a bottle (especially a wine bottle)
+bn:00012351n	OMWIKI	Conical or cylindrical-shaped plug that is pushed in the bottleneck of a (wine) bottle to stop it up.
+bn:00012351n	WIKT	A bottle stopper made from this or any other material.
+bn:00016606n	WN	Feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats
+bn:00016606n	WIKI	The domestic cat is a small, typically furry, carnivorous mammal.
+bn:00016606n	WIKIDIS	A small, usually furry, domesticated, carnivorous mammal
+bn:00016606n	WIKIDATA	Domesticated species of feline
+bn:00016606n	OMWIKI	A common four-legged animal (Felis silvestris) that is often kept as a household pet.
+bn:00016606n	OMWIKI	A cat that is hold as a pet.
+bn:00016606n	WIKT	A cat.
+bn:00016606n	WIKT	A domesticated subspecies of feline animal, commonly kept as a house pet.
+bn:00016606n	WIKT	A domesticated cat, of the species Felis catus or Felis domesticus, especially one kept as a pet or vermin control.
+bn:00016606n	WIKT	A pet name for a cat.
+bn:00016606n	WIKT	Felis silvestris forma catus.
+bn:00016606n	WIKT	An affectionate term for a cat.
+bn:00016606n	WIKTLB	Informal: affectionate term for a cat.
+bn:00016606n	WIKIQU	This entry is about the animal.
+bn:00000537n	WN	A small slender short-haired breed of African origin having brownish fur with a reddish undercoat
+bn:00000537n	WIKI	The Abyssinian is a breed of domestic short-haired cat with a distinctive "ticked" tabby coat, in which individual hairs are banded with different colors.
+bn:00000537n	WIKIDIS	A shorthair cat breed
+bn:00000537n	WIKIDATA	Cat breed
+bn:00000537n	WIKT	A domestic breed of cat with long ears, short hair and a black stripe along the spine.
+bn:00000537n	WIKT	A short-haired domestic cat descended from cats of ancient Egypt making it one of the oldest breeds in the world; Abyssinian cat.
+bn:00004168n	WN	A long-haired breed of cat similar to the Persian cat
+bn:00004168n	WIKI	The Turkish Angora is a breed of domestic cat.
+bn:00004168n	WIKIDIS	A breed of cat originally known as just Angora.
+bn:00004168n	WIKIDATA	Cat breed
+bn:00004168n	WIKT	A domestic cat breed.
+bn:00004168n	WIKT	An angora cat.
+bn:00004168n	WIKTLB	A domestic cat breed.
+bn:00053290n	WN	A short-haired tailless breed of cat believed to originate on the Isle of Man
+bn:00053290n	WIKI	The Manx cat, is a breed of domestic cat originating on the Isle of Man, with a naturally occurring mutation that shortens the tail.
+bn:00053290n	WIKIDATA	Breed of domestic cat
+bn:00053290n	WIKT	A cat of the Manx breed; a Manx cat.
+bn:00053290n	WIKT	A domestic cat of a breed that is native to the Isle of Man, principally characterized by suppression of the tail, and with a short-haired coat and a medium-sized, rounded, cobby body.
+bn:00075807n	WN	A cat with a grey or tawny coat mottled with black
+bn:00075807n	WIKI	A tabby is any domestic cat that has a coat featuring distinctive stripes, dots, lines or swirling patterns, usually together with a mark resembling an 'M' on its forehead.
+bn:00075807n	WIKIDATA	Domestic cat with a coat which has stripes, dots, lines etc.
+bn:00141500n	WIKI	The Chausie is a domestic breed of cat that was developed by breeding a few individuals from the nondomestic species jungle cat to a far greater number of domestic cats.
+bn:00141500n	WIKIDATA	Cat breed
+bn:00289092n	WIKI	The European Shorthair, called the European in FIFe and WCF is a breed originating in Europe.
+bn:00289092n	WIKIDIS	Breed of short-haired cat originating in Ancient Rome
+bn:00289092n	WIKIDATA	Breed of short-haired cat originating in Sweden
+bn:00289092n	WIKT	A sturdy short-hair domestic cat breed, developed from various ordinary cat breeds.
+bn:00427846n	WIKI	The Burmilla is a breed of domestic cat which originated in the United Kingdom in 1981.
+bn:00427846n	WIKIDATA	Breed of domestic cat which originated in the United Kingdom in 1981
+bn:00427846n	WIKT	A medium-sized short-hair domestic cat breed, originating in Great Britain, sometimes called a Smoke.
+bn:00636828n	WIKI	The Aegean cat is a naturally occurring landrace of domestic cat originating from the Cycladic Islands of Greece.
+bn:00636828n	WIKIDIS	A cat breed from Greece
+bn:00636828n	WIKIDATA	Cat breed
+bn:00654946n	WIKI	A domestic short-haired cat is a cat of mixed ancestry – thus not belonging to any particular recognized cat breed – possessing a coat of short fur.
+bn:00654946n	WIKIDIS	The most common type of non-purebred house cat; "Domestic Shorthair" is a cat show competition category name for this landrace, as used by some but not all fancier organizations which permit them
+bn:00654946n	WIKIDATA	Cat of mixed ancestry
+bn:00668936n	WIKI	The Devon Rex is a breed of intelligent, short-haired cat that emerged in England during the late 1950s.
+bn:00668936n	WIKIDIS	A breed of cat
+bn:00668936n	WIKIDATA	Breed of cat
+bn:00668936n	WIKT	A domestic cat of a particular medium-sized breed with rippled or swirling hair, originated during the 1960s in Great Britain.
+bn:00669031n	WIKI	The Birman, also called the "Sacred Cat of Burma", is a domestic cat breed.
+bn:00669031n	WIKIDATA	Cat breed
+bn:00669031n	WIKT	A medium-sized semi-longhair domestic cat of a breed originating in Burma.
+bn:00702420n	WIKI	The American Bobtail is an uncommon breed of domestic cat which was developed in the late 1960s.
+bn:00702420n	WIKIDIS	A breed of cat
+bn:00702420n	WIKIDATA	Cat breed
+bn:00702420n	WIKT	A short-haired domestic cat breed originating in the United States, having a short tail as a result of genetic mutation.
+bn:00720524n	WIKI	The ship's cat has been a common feature on many trading, exploration, and naval ships dating to ancient times.
+bn:00720524n	WIKIDATA	Common feature on many trading, exploration, and naval ships
+bn:00735132n	WIKI	The British Longhair is a medium-sized, semi-long-haired breed of domestic cat, originating in Great Britain.
+bn:00735132n	WIKIDIS	A breed of cat
+bn:00735132n	WIKIDATA	Medium-sized, long-haired breed of domestic cat, originating in Great Britain
+bn:00735132n	WIKT	A medium size, long-haired domestic cat breed, originating in Great Britain.
+bn:01172920n	WIKI	The Brazilian Shorthair is a breed of cat.
+bn:01172920n	WIKIDIS	Breed of cat
+bn:01172920n	WIKIDATA	Breed of cat from Brazil
+bn:01172920n	WIKT	A medium size, shorthaired domestic cat breed, originating in Brazil.
+bn:01172920n	WIKTLB	Breed of cat.
+bn:01274123n	WIKI	The Dragon Li is a Chinese breed of domestic cat originating from nascent Chinese folklore and dynastic culture.
+bn:01274123n	WIKIDATA	Chinese Cat breed originating from nascent Chinese folklore and dynastic culture
+bn:01274123n	WIKT	A large, short hair Chinese domestic cat breed originating from China.
+bn:01363758n	WIKI	Congenital sensorineural deafness occurs in domestic cats with a white coat.
+bn:01528722n	WIKI	The Kurilian Bobtail is a cat breed originating from the Kuril Islands, as well as Sakhalin Island and the Kamchatka peninsula of Russia.
+bn:01528722n	WIKIDATA	Cat breed (or breed group, depending on registry) originating from the Kuril Islands, claimed by both Russia and Japan, and Sakhalin Island and the Kamchatka peninsula of Russia
+bn:00033982n	WN	Any of various lithe-bodied roundheaded fissiped mammals, many with retractile claws
+bn:03475541n	WIKI	A cat organ or cat piano is a hypothetical musical instrument which consists of a line of cats fixed in place with their tails stretched out underneath a keyboard so that they cry out when a key is pressed.
+bn:03475541n	WIKIDATA	Conjectural musical instrument
+bn:00040368n	WN	A mental representation of some haunting experience
+bn:00040368n	WIKT	The disembodied soul; the soul or spirit of a deceased person; a spirit appearing after death.
+bn:00040368n	WIKTLB	Spirit appearing after death.
+bn:00005015n	WN	Something existing in perception only
+bn:00005015n	OMWIKI	Something existing in perception only.
+bn:00005015n	WIKT	This sense?) The comic The Phantom, and the character in it by the same name.
+bn:00005015n	WIKTLB	Comic and its main character.
+bn:00045960n	WN	An erroneous mental representation
+bn:00045960n	WIKI	An illusion is a distortion of the senses, revealing how the brain normally organizes and interprets sensory stimulation.
+bn:00045960n	WIKIDIS	A distortion of the senses
+bn:00045960n	WIKIDATA	Distortion of the senses
+bn:00045960n	WIKIQU	An Illusion is an appearance which is in some manner deceptive, or at least divergent from norms of truth or expectations.
+bn:00005026n	WN	A mental representation
+bn:02140856n	WIKI	A bogle, boggle, or bogill is a Northumbrian and Scots term for a ghost or folkloric being, used for a variety of related folkloric creatures including Shellycoats, Barghests, Brags, the Hedley Kow and even giants such as those associated with Cobb's Causey.
+bn:02140856n	WIKIDIS	Boggle or bogill, a Northumbrian and Scots term for a ghost or folkloric being
+bn:02140856n	WIKIDATA	Ghost or folkloric being
+bn:03289760n	WIKI	The lemures were shades or spirits of the restless or malignant dead in Roman mythology, and are probably cognate with an extended sense of larvae as disturbing or frightening.
+bn:03289760n	WIKIDIS	Wandering and vengeful spirits of the dead in Roman mythology
+bn:03289760n	WIKT	The spirits or ghosts of the dead.
+bn:03408023n	WIKI	The Nazgûl, also called Ringwraiths, Ring-wraiths, Black Riders, Dark Riders, the Nine Riders, or simply the Nine, are characters in J. R. R. Tolkien's Middle-earth legendarium.
+bn:03408023n	WIKIDIS	Sauron's chief servants in the fantasy book The Lord of the Rings by J.R.R. Tolkien
+bn:03408023n	WIKIDATA	Character group from J. R. R. Tolkien''s legendarium
+bn:09116609n	WIKIDATA	Disembodied spirits of deceased characters in the Harry Potter universe
+bn:01564825n	WIKI	Ghosts are believed to be wandering souls and are thought by Vietnamese people to affect their daily lives.
+bn:03559276n	WIKI	A White Lady is a type of female ghost dressed in all white reportedly seen in rural areas and associated with some local legend of tragedy.
+bn:03559276n	WIKIDIS	A female ghost
+bn:00251675n	WIKI	The ghost of Minnie Quay is a legend in the paranormal circles of Michigan.
+bn:00251675n	WIKIDATA	American ghost
+bn:03371201n	WIKI	The Greenbrier Ghost is the name popularly given to the alleged ghost of a young woman in Greenbrier County, West Virginia, United States, who was murdered in 1897.
+bn:03371201n	WIKIDATA	American ghost
+bn:00035518n	WN	The captain of a phantom ship (the Flying Dutchman) who was condemned to sail against the wind until Judgment Day
+bn:00035518n	WIKI	The Flying Dutchman is a legendary ghost ship that can never make port and is doomed to sail the oceans forever.
+bn:00035518n	WIKIDATA	Legendary ghost ship
+bn:00035518n	WIKT	A ghost ship.
+bn:01391752n	WIKI	Casper the Friendly Ghost is a fictional character and the protagonist of the Famous Studios theatrical animated cartoon series of the same name.
+bn:01391752n	WIKIDIS	A Paramount cartoon character owned by Harvey Comics
+bn:05005570n	WIKIDATA	Fantastic creature of Slavic mythology
+bn:02304449n	WIKI	The Brown Lady of Raynham Hall is a ghost that reportedly haunts Raynham Hall in Norfolk, England.
+bn:02304449n	WIKIDATA	Ghost
+bn:06941435n	NONE	NONE
+bn:15274117n	WIKI	Sadako Yamamura is the central character and antagonist of Koji Suzuki's Ring novel series along with its numerous film and television adaptions.
+bn:00679898n	WIKI	The Enfield Poltergeist is the name given to the claims of poltergeist activity at 284, Green Street, a council house in Brimsdown, Enfield, England from 1977 to 1979 involving two sisters, ages 11 and 13.
+bn:00679898n	WIKIDATA	Alleged ghost
+bn:00635611n	WIKI	The ghost of Hamlet's late father is a character from William Shakespeare's play Hamlet.
+bn:00635611n	WIKIDIS	A character from William Shakespeare's play Hamlet
+bn:00635611n	WIKIDATA	Ghost character in Shakespeare''s play Hamlet
+bn:00067516n	WN	Someone who has returned from the dead
+bn:00063396n	WN	A ghost that announces its presence with rapping and the creation of disorder
+bn:00063396n	WIKI	In folklore and parapsychology, a 'poltergeist' is a type of ghost or spirit that is responsible for physical disturbances, such as loud noises and objects being moved or destroyed.
+bn:00063396n	WIKIDIS	A troublesome spirit or ghost that manifests itself by moving and influencing objects
+bn:00063396n	WIKT	An unseen ghost which makes noises and causes disruption, especially by causing physical objects to move or fly about.
+bn:00063396n	WIKTLB	A disruptive ghost.
+bn:02549457n	WIKI	The undead are beings in legend, or fiction that are deceased but behave as if they were alive.
+bn:02549457n	WIKIDIS	Particularly in the Warcraft universe
+bn:02549457n	WIKIDATA	Deceased being which behaves as if alive (for undead from works of fiction see Q30061600)
+bn:03151630n	WIKI	Liminal beings are those that cannot easily be placed into a single category of existence.
+bn:03151630n	WIKIDIS	A fictional lifeform
+bn:00506452n	WIKI	An umbrella term is a word or phrase that covers a wide range of concepts belonging to a common category.
+bn:00506452n	WIKIDATA	Single common category that covers multiple terms
+bn:00506452n	WIKT	A term used to cover a broad category of things rather than a single specific item.
+bn:00506452n	WIKTLB	Term covering a broad category of things
+bn:00088798v	WN	Haunt like a ghost; pursue
+bn:00091968v	WN	Engage or engross the interest or attention of beforehand or occupy urgently or obsessively
+bn:00058534n	WN	Egg-shaped terra cotta wind instrument with a mouthpiece and finger holes
+bn:00058534n	WIKI	The ocarina is an ancient wind musical instrument—a type of vessel flute.
+bn:00058534n	WIKIDATA	Small egg-shaped wind instrument with a mouthpiece and finger holes
+bn:00058534n	WIKT	A woodwind musical instrument that is closed at both sides to produce an enclosed space, and punctured with finger holes.
+bn:00058534n	WIKTLB	A musical instrument.
+bn:00060368n	WN	A primitive wind instrument consisting of several parallel pipes bound together
+bn:00060368n	WIKI	The pan flutes are a group of musical instruments based on the principle of the closed tube, consisting of multiple pipes of gradually increasing length.
+bn:00060368n	WIKIDIS	A wind instrument he is often depicted playing
+bn:00060368n	WIKIDATA	Type of flute
+bn:00060368n	OMWIKI	A musical instrument, played by mouth, comprising tubes arranged in order of length.
+bn:00060368n	WIKT	Panpipes, a musical instrument, played by mouth, comprising tubes arranged in order of length.
+bn:00060368n	WIKT	A pan flute.
+bn:00060368n	WIKT	An instrument consisting of a series of ten or more tubes of different lengths, typically closed at the bottom and open at the top. The instrument is played by blowing across the open end at the top.
+bn:00061399n	WN	An inexpensive fipple flute
+bn:00061399n	WIKI	The tin whistle, also called the penny whistle, English flageolet, Scottish penny whistle, tin flageolet, Irish whistle, Belfast Hornpipe, feadóg stáin and Clarke London Flageolet is a simple, six-holed woodwind instrument.
+bn:00061399n	WIKT	A tin whistle.
+bn:00061399n	WIKT	A suit (from whistle and flute).
+bn:00167876n	WIKI	Hotchiku, sometimes romanized as hocchiku or hochiku, is a Japanese end-blown flute, crafted from root sections of bamboo.
+bn:00167876n	WIKT	An end-blown vertical bamboo flute used in traditional Japanese music, similar to the shakuhachi.
+bn:00287008n	WIKI	The bass flute is the tenor member of the flute family.
+bn:00488259n	WIKI	A boatswain's call, pipe or bosun's whistle is a pipe or a non-diaphragm type whistle used on naval ships by a boatswain.
+bn:00488259n	WIKIDIS	A pipe or whistle used to issue commands onboard ship.
+bn:00488259n	WIKT	A whistle, previously used by boatswain's mates to pipe orders throughout a ship; now used for the ceremonial piping onboard of visiting dignitaries.
+bn:00592305n	WIKI	A kōauau is a small flute, ductless and notchless, four to eight inches long, open at both ends and having from three to six fingerholes placed along the pipe.
+bn:00819893n	WIKI	The rondador is a set of chorded cane panpipes that produces two tones simultaneously.
+bn:01122670n	WIKI	The ryūteki is a Japanese transverse fue made of bamboo.
+bn:01149809n	WIKI	The shakuhachi is a Japanese end-blown flute.
+bn:01149809n	WIKIDATA	Japanese end-blown flute
+bn:01149809n	WIKT	A Japanese flute which is tuned to a pentatonic scale is end-blown like a recorder instead of being held transversely like the Western transverse flute.
+bn:01241980n	WIKI	Apito, which is the Portuguese word for "whistle", refers to any of a variety of whistles.
+bn:01347747n	WIKI	The xun is a globular, vessel flute from China.
+bn:01347747n	WIKIDIS	Chinese vessel flute made of clay or ceramic
+bn:01352324n	WIKI	The soprano flute is a type of flute, a musical instrument in the woodwind family.
+bn:01647304n	WIKI	The willow flute, also known as sallow flute, is a Nordic folk flute, or whistle, consisting of a simple tube with a transverse fipple mouthpiece and no finger holes.
+bn:01647304n	WIKIDIS	A type of Scandinavian folk flute consisting of a simple tube with a transverse fipple mouthpiece and no finger holes
+bn:02354997n	WIKI	The flûte d'amour is pitched in either A or B♭ and is intermediate in size between the modern C concert flute and the alto flute in G. It is the mezzo-soprano member of the flute family.
+bn:03253396n	WIKI	Flute, viola and harp are the instruments of a chamber music grouping that have become common through the establishment of ensembles that feature this set of instruments and have enjoyed new compositions written for the set.
+bn:03651367n	WIKI	A wind quintet, also known as a woodwind quintet, is a group of five wind players.
+bn:03651367n	WIKIDATA	Group of five wind players
+bn:00029956n	WN	A native or inhabitant of Egypt
+bn:00029956n	WIKT	A person from Egypt or of Egyptian descent.
+bn:00029956n	WIKTLB	Person from Egypt.
+bn:00002630n	WN	The chief port of Egypt; located on the western edge of the Nile delta on the Mediterranean Sea; founded by Alexander the Great; the capital of ancient Egypt
+bn:00002630n	WIKI	Alexandria is the second-largest city in Egypt and a major economic centre, extending about 32 km along the coast of the Mediterranean Sea in the north central part of the country.
+bn:00002630n	WIKIDIS	As in Alexandrian text-type
+bn:00002630n	WIKIDATA	Second largest city in Egypt
+bn:00002630n	OMWIKI	The second-largest city in Egypt, and its largest seaport, with a population of 3.5 to 5 million.
+bn:00002630n	WIKT	A city and port in Egypt.
+bn:00002630n	WIKTLB	City in Egypt.
+bn:00005261n	WN	A desert in Egypt between the Nile River and the Red Sea
+bn:00005261n	WIKI	The Eastern Desert is the part of the Sahara desert that is located east of the Nile river, between the river and the Red Sea.
+bn:00006556n	WN	An ancient city on the Nile in Egypt; two dams across the Nile have been built nearby
+bn:00006556n	WIKI	Aswan is a city in the south of Egypt, the capital of the Aswan Governorate.
+bn:00006556n	WIKIDATA	Egyptian city
+bn:00006677n	WN	One of the world's largest dams on the Nile River in southern Egypt
+bn:00006677n	WIKI	The Aswan Dam, or more specifically since the 1960s, the Aswan High Dam, is an embankment dam built across the Nile in Aswan, Egypt, between 1960 and 1970.
+bn:00006677n	WIKIDATA	Dam on the Nile River in Aswan, Egypt
+bn:00030020n	WN	A city in central Egypt on the east bank of the Nile that is a center for visitors to the ruins of and around Thebes
+bn:00030020n	WIKI	Luxor is a city in Upper Egypt and the capital of Luxor Governorate.
+bn:00030020n	WIKIDATA	City in Egypt
+bn:00030022n	WN	A village to the west of Alexandria on the northern coast of Egypt; the scene of a decisive Allied victory over the Germans in 1942
+bn:00049723n	WN	Lake in Egypt formed by dams built on the Nile River at Aswan
+bn:00049723n	WIKI	Lake Nasser is a vast reservoir in southern Egypt and northern Sudan.
+bn:00049723n	WIKIDIS	A vast reservoir in southern Egypt and northern Sudan
+bn:00049723n	WIKIDATA	Reservoir
+bn:00050982n	WN	The northeastern part of the Sahara Desert in Libya and Egypt and Sudan
+bn:00050982n	WIKI	The Libyan Desert forms the northern and eastern part of the Sahara Desert.
+bn:00050982n	WIKIDIS	In the northern and eastern part of the Sahara Desert
+bn:00050982n	WIKIDATA	North-eastern part of the Sahara comprising desert areas in Egypt, Libya and Sudan
+bn:00052193n	WN	One of the two main administrative districts of Egypt; consists of the Nile delta
+bn:00052193n	WIKI	Lower Egypt is the northernmost region of Egypt: the fertile Nile Delta, between Upper Egypt and the Mediterranean Sea — from El Aiyat, south of modern-day Cairo, and Dahshur.
+bn:00052193n	WIKIDATA	Northernmost region of Egypt
+bn:00052193n	OMWIKI	The part of Egypt from the Nile Delta near Cairo to the Mediterranean.
+bn:00052193n	WIKT	The half of Ancient Egypt north of Memphis, the Nile Delta, so named because the Nile flows South to North.
+bn:00054308n	WN	An ancient city of Egypt on the Nile (south of Cairo)
+bn:00054308n	WIKT	A city of ancient Egypt.
+bn:00054308n	WIKTLB	City of ancient Egypt.
+bn:00057721n	WN	The world's longest river (4150 miles); flows northward through eastern Africa into the Mediterranean; the Nile River valley in Egypt was the site of the world's first great civilization
+bn:00057721n	WIKI	The Nile is a major north-flowing river in northeastern Africa, and is commonly regarded as the longest river in the world, though some sources cite the Amazon River as the longest.
+bn:00057721n	WIKIDATA	River in Africa and the longest river in the world
+bn:00057721n	OMWIKI	A 6,650 km long north-flowing river in North Africa.
+bn:00057721n	WIKT	A large river in Africa flowing through Khartoum and Cairo into the Mediterranean Sea, usually considered to be the longest river in the world.
+bn:00057721n	WIKIQU	The Nile is a major north-flowing river in North Africa, generally regarded as the longest river in the world.
+bn:00068890n	WN	A town in northern Egypt; site of the oldest Egyptian pyramids
+bn:00068890n	WIKI	Saqqara, also spelled Sakkara or Saccara in English, is a vast, ancient burial ground in Egypt, serving as the necropolis for the Ancient Egyptian capital, Memphis.
+bn:00068890n	WIKIDIS	An ancient Egyptian necropolis
+bn:00068890n	WIKIDATA	Village in Giza Governorate, Egypt
+bn:00071713n	WN	A peninsula in northeastern Egypt; at north end of Red Sea
+bn:00071713n	WIKI	The Sinai Peninsula or simply Sinai 
+bn:00071713n	WIKIDIS	A region in Egypt
+bn:00071713n	WIKIDATA	Peninsula in the Red Sea
+bn:00071713n	WIKT	A peninsula of eastern Egypt, bordering Asia.
+bn:00075066n	WN	A city in northeastern Egypt at the head of the Gulf of Suez and at the southern end of the Suez Canal
+bn:00075066n	WIKI	Suez is a seaport city in north-eastern Egypt, located on the north coast of the Gulf of Suez, near the southern terminus of the Suez Canal, having the same boundaries as Suez governorate.
+bn:00075066n	WIKIDIS	A seaport town in Egypt
+bn:00075066n	WIKIDATA	City in Egypt
+bn:00075066n	WIKT	A town in north-east Egypt.
+bn:00075067n	WN	A ship canal in northeastern Egypt linking the Red Sea with the Mediterranean Sea
+bn:00075067n	WIKI	The Suez Canal is an artificial sea-level waterway in Egypt, connecting the Mediterranean Sea to the Red Sea through the Isthmus of Suez.
+bn:00075067n	WIKIDIS	A unique unit of measurement representing the revenue-earning capacity of a vessel
+bn:00075067n	WIKIDATA	Canal in Egypt between the Mediterranean Sea and the Red Sea
+bn:00075067n	WIKT	A canal linking the Mediterranean Sea and the Red Sea.
+bn:00076805n	WN	An ancient Egyptian city on the Nile River that flourished from the 22nd century BC to the 18th century BC; today the archeological remains include many splendid temples and tombs
+bn:00079260n	WN	One of the two main administrative districts of Egypt; extends south from Cairo to Sudan
+bn:00079260n	WIKI	Upper Egypt is the strip of land on both sides of the Nile that extends between Nubia and downriver to Lower Egypt.
+bn:00079260n	WIKIDATA	Strip of land on the Nile valley between Nubia and Lower Egypt
+bn:00079260n	OMWIKI	The part of Egypt from modern-day Aswan to modern-day Luxor on both sides of the Nile.
+bn:00030026n	WN	An ancient Egyptian city on the west bank of the Nile opposite Cairo; site of three Great Pyramids and the Sphinx
+bn:00030026n	WIKI	Giza is the third-largest city in Egypt, is the capital of the Giza Governorate.
+bn:00030026n	WIKIDATA	City in Egypt
+bn:00030026n	WIKT	A city on the west bank of the Nile river in Egypt, famous for its ancient monuments, including the Great Sphinx of Giza and the Great Pyramid of Giza.
+bn:00030026n	WIKTLB	City in Egypt.
+bn:00001824n	WN	Any one of the countries occupying the African continent
+bn:00029955n	WN	An ancient empire to the west of Israel; centered on the Nile River and ruled by a Pharaoh; figured in many events described in the Old Testament
+bn:00029955n	WIKI	The New Kingdom of Egypt, also referred to as the Egyptian Empire, is the period in ancient Egyptian history between the 16th century BC and the 11th century BC, covering the 18th, 19th, and 20th Dynasties of Egypt. Radiocarbon dating places the exact beginning of the New Kingdom between 1570 BC and 1544 BC.
+bn:00029955n	WIKIDATA	The period 1550 to 1070 BC in ancient Egypt
+bn:00030601n	WN	The domain ruled by an emperor or empress; the region over which imperial dominion is exercised
+bn:00030601n	WIKI	An empire is defined as "an aggregate of nations or people ruled over by an emperor or other powerful sovereign or government, usually a territory of greater extent than a kingdom, as the former British Empire, Spanish Empire, French Empire, Persian Empire, Russian Empire, German Empire, Byzantine Empire, Ottoman Empire, or Roman Empire".
+bn:00030601n	WIKIDATA	Geographically extensive group of states and peoples united and ruled either by a central authority or a central figure
+bn:00030601n	OMWIKI	A state ruled by an emperor.
+bn:00030601n	WIKT	A state ruled by an emperor.
+bn:00030601n	WIKTLB	State ruled by an emperor.
+bn:00030601n	WIKIQU	Empire is a science fiction novel by Orson Scott Card.
+bn:00031261n	WN	A period marked by distinctive character or reckoned from a fixed point or event
+bn:00031261n	WIKI	In the fields of chronology and periodization, an epoch is an instant in time chosen as the origin of a particular era.
+bn:00031261n	WIKI	An era is a span of time defined for the purposes of chronology or historiography, as in the regnal eras in the history of a given monarchy, a calendar era used for a given calendar, or the geological eras defined for the history of Earth.
+bn:00031261n	WIKIDIS	A moment in time chosen as the origin of a particular era
+bn:00031261n	WIKIDATA	Reference point from which time is measured
+bn:00031261n	WIKIDATA	An approximation of spatio-temporal bounds marked by cultural or natural phenomena
+bn:00031261n	OMWIKI	A period of time in history seen as a single coherent entity.
+bn:00031261n	WIKT	A period of time in history seen as a single coherent entity; an epoch, era.
+bn:00031261n	WIKT	A time period of indeterminate length, generally more than one year.
+bn:00031261n	WIKT	A particular period of history, especially one considered noteworthy or remarkable.
+bn:01698879n	WIKI	Periodization is the process or study of categorizing the past into discrete, quantified named blocks of time in order to facilitate the study and analysis of history.
+bn:01698879n	WIKIDIS	The act of segmenting history into abstract named periods
+bn:01698879n	WIKIDATA	Process or study of categorizing the past into discrete, quantified named blocks of time
+bn:01698879n	WIKIDATA	Segment of time in history
+bn:01698879n	WIKT	The process of categorizing something into named periods.
+bn:01698879n	WIKTLB	Process of categorizing something (e.g. history) into named periods
+bn:01698879n	WIKIQU	Periodization is the attempt to divide time into named blocks.
+bn:01698879n	MSTERM	The period in which a domain has a specific name.
+bn:00026129n	WN	Territory over which rule or control is exercised
+bn:00026129n	OMWIKI	Land that is controlled by a specific country or ruler.
+bn:00026129n	WIKT	A large extent or tract of land; for example a region, country or district.
+bn:00026129n	WIKTLB	Large tract of land.
+bn:00049169n	WN	The domain ruled by a king or queen
+bn:00049169n	WIKI	A realm is a community or territory over which a sovereign rules; It is commonly used to describe a kingdom or other monarchical or dynastic state.
+bn:00049169n	WIKIDIS	The dominions of a king (or queen); a kingdom
+bn:00049169n	WIKIDATA	Community or territory over which a sovereign rules
+bn:00049169n	WIKIDATA	state over which a king or queen rules
+bn:00049169n	WIKT	A territory or state, as ruled by a specific power, especially by a king.
+bn:00049169n	WIKTLB	Territory or state.
+bn:15592420n	WIKIDATA	Geological unit of time
+bn:06449438n	WIKIDATA	Every human activity led by purposeful motives
+bn:00060144n	WN	A detachable lock; has a hinged shackle that can be passed through the staple of a hasp or the links in a chain and then snapped shut
+bn:00060144n	WIKI	Padlocks are portable locks with a shackle that may be passed through an opening to prevent use, theft, vandalism or harm.
+bn:00060144n	WIKIDATA	Portable locks with a shackle that may be passed through an opening
+bn:00060144n	OMWIKI	A detachable lock that can be used to secure something by means of a sliding or hinged shackle
+bn:00060144n	WIKT	A detachable lock that can be used to secure something by means of a sliding or hinged shackle.
+bn:00060144n	WIKTLB	Type of lock.
+bn:00696318n	WIKI	A bicycle lock is a security device used to deter bicycle theft, generally by fastening the bicycle to a fixed object, e.g., a bike rack.
+bn:05198578n	WIKIDATA	Type of lock
+bn:00069301n	WN	A lock attached to the sashes of a double hung window that can fix both in the shut position
+bn:00069301n	WIKI	A mortise lock is a lock that requires a pocket—the mortise—to be cut into the door or piece of furniture into which the lock is to be fitted.
+bn:01032818n	WIKI	A rim lock is a locking device that attaches to the surface of a door.
+bn:01032818n	WIKT	A lock and plate fixed to the surface of a door rather than morticed within the door.
+bn:14382384n	WIKI	A smart lock is an electromechanical lock which is designed to perform locking and unlocking operations on a door when it receives such instructions from an authorized device using a wireless protocol and a cryptographic key to execute the authorization process.
+bn:01291187n	WIKI	A disc lock is a portable security device for motorcycles and scooters.
+bn:01694063n	WIKI	The Club is the trademark version of a popular automotive steering wheel lock, produced by Sharon, Pennsylvania-based Winner International.
+bn:01694063n	WIKIDIS	A steering wheel lock
+bn:01694063n	WIKIDATA	Brand of automotive steering wheel lock
+bn:03222571n	WIKI	Snakeholme Lock is a brick chamber canal lock on the Driffield Navigation, in the East Riding of Yorkshire, England.
+bn:03222571n	WIKIDATA	Canal lock on the Driffield Navigation, in the East Riding of Yorkshire, England
+bn:05333491n	NONE	NONE
+bn:01578163n	WIKI	An electromagnetic lock, magnetic lock, or maglock is a locking device that consists an electromagnet and an armature plate.
+bn:00011899n	WN	The part of a lock that is engaged or withdrawn with a key
+bn:00011899n	WIKI	A bolt is a form of threaded fastener with an external male thread.
+bn:00011899n	WIKI	A dead bolt, deadbolt or dead lock is a locking mechanism distinct from a spring bolt lock because a deadbolt cannot be moved to the open position except by rotating the lock cylinder with the key.
+bn:00011899n	WIKIDIS	Similar to a screw, used with a nut
+bn:00011899n	WIKIDIS	A kind of locking mechanism
+bn:00011899n	WIKT	The part of the lock which is moved when the key is engaged.
+bn:00011899n	WIKT	A sliding pin or bar in a lock or latch mechanism.
+bn:00011899n	WIKTLB	Sliding pin or bar in a lock.
+bn:00049011n	WN	The hole where a key is inserted
+bn:00049011n	WIKI	A keyhole is a hole or aperture for receiving a key.
+bn:00049011n	WIKT	The hole in a lock where the key is inserted and turns.
+bn:00049011n	WIKTLB	A hole to lock/unlock with a key.
+bn:00078573n	WN	A movable obstruction in a lock that must be adjusted to a given position (as by a key) before the bolt can be thrown
+bn:00078573n	OMWIKI	A movable part in a lock, which is moved by a key for locking or unlocking.
+bn:00078573n	WIKT	A movable obstruction in a lock, consisting of a lever, latch, wheel, slide, or the like, which must be adjusted to a particular position by a key or other means before the bolt can be thrown in locking or unlocking.
+bn:00078573n	WIKTLB	Movable obstruction in lock.
+bn:00020880n	WN	Lock that can be opened only by turning dials in a special sequence
+bn:00020880n	WIKI	A combination lock is a type of locking device in which a sequence of symbols, usually numbers, is used to open the lock.
+bn:00020880n	WIKIDIS	A type of lock
+bn:00020880n	OMWIKI	A lock that can be opened only by turning dials in a special sequence.
+bn:00020880n	WIKT	A type of lock opened by a sequence of numbers or symbols.
+bn:00020880n	WIKTLB	Lock opened by sequence of numbers or symbols
+bn:00024784n	WN	A lock in which a cylinder rotates to move a bolt; tumblers are pins; inserting the key lifts and aligns the pins to free the cylinder to rotate
+bn:00028253n	WN	Spring-loaded doorlock that can only be opened from the outside with a key
+bn:00028261n	WN	A lock on an exterior door
+bn:00028261n	WIKI	Power door locks allow the driver or front passenger to simultaneously lock or unlock all the doors of an automobile or truck, by pressing a button or flipping a switch.
+bn:00050868n	WN	A lock whose tumblers are levers that must be raised to a given position so that the bolt can move
+bn:00028247n	WN	A swinging or sliding barrier that will close the entrance to a room or building or vehicle
+bn:00028247n	WIKI	A door is a moving mechanism used to block off and allow access to, an entrance to or within an enclosed space, such as a building, room or vehicle.
+bn:00028247n	WIKIDATA	Movable structure used to open and close an entrance
+bn:00028247n	OMWIKI	An opening, or passage in a fence or wall; the entrance through which you enter or leave a room or building.
+bn:00028247n	OMWIKI	The frame that supports a door.
+bn:00028247n	WIKIQU	Doors are parts of structures which may be opened or closed in order to control and restrict access.
+bn:00024493n	WN	A strand or cluster of hair
+bn:00024493n	WIKI	A ringlet is a type of hairstyle.
+bn:00024493n	WIKT	A tuft or length of hair.
+bn:00024493n	WIKTLB	Length of hair.
+bn:00024493n	FRAMENET	A) a piece of a person's hair that coils or hangs together. b) locks chiefly poetic/literary a person's hair.
+bn:00023831n	WN	A lock of hair that has been artificially waved or curled
+bn:00028656n	WN	One of many long thin braids of hair radiating from the scalp; popularized by Rastafarians
+bn:00028656n	WIKI	Dreadlocks, also locs, dreads, or in Sanskrit, Jata, are ropelike strands of hair formed by matting or braiding hair.
+bn:00028656n	WIKIDIS	Matted coils of hair, known as locks
+bn:00028656n	WIKIDATA	Matted coils of hair
+bn:00028656n	WIKT	A hairstyle worn by Rastafarians and others in which the hair is left to grow into long matted strings.
+bn:00028656n	WIKTLB	Hair left to grow into long matted strings.
+bn:00042526n	WN	A covering for the body (or parts of it) consisting of a dense growth of threadlike structures (as on the human head); helps to prevent heat loss
+bn:00042526n	WIKI	Hair is a protein filament that grows from follicles found in the dermis.
+bn:00042526n	WIKI	Protein filament that grows from follicles found in the dermis, or skin; one of the defining characteristics of mammals. The human body, apart from areas of glabrous skin, is covered in follicles which produce thick terminal and fine vellus hair
+bn:00042526n	WIKIDATA	Filamentous biomaterial that grows from follicles found in the dermis
+bn:00042526n	OMWIKI	The collection or mass of filaments growing from the skin of humans and animals, and forming a covering for a part of the head or for any part or the whole body.
+bn:00042526n	WIKT	The collection or mass of such growths growing from the skin of humans and animals, and forming a covering for a part of the head or for any part or the whole body.
+bn:00042526n	WIKTLB	The collection or mass of filaments growing from the skin of humans and animals.
+bn:00042526n	WIKIQU	Hair is a collection of biological filaments that grows from follicles on the skin.
+bn:00042526n	FRAMENET	The collective hairs on someone's head.
+bn:03355665n	WIKI	In biology, a filament is a "long chain of proteins, such as those found in hair, muscle, or in flagella".
+bn:03355665n	WIKIDIS	A long chain of protein subunits, such as those found in hair, muscle, or in flagella
+bn:03467585n	WIKI	A biomaterial is any substance that has been engineered to interact with biological systems for a medical purpose - either a therapeutic or a diagnostic one.
+bn:03467585n	WIKIDIS	Any matter, surface, or construct that interacts with biological systems
+bn:00090427v	WN	Fasten with a lock
+bn:00090427v	WIKT	To fasten with a lock.
+bn:00090427v	WIKTLB	To fasten with a lock.
+bn:00007060n	WN	(physics) a point in the ideal multidimensional phase space that is used to describe a system toward which the system tends to evolve regardless of the starting conditions of the system
+bn:00007060n	WIKI	In the mathematical field of dynamical systems, an attractor is a set of numerical values toward which a system tends to evolve, for a wide variety of starting conditions of the system.
+bn:00007060n	WIKIDIS	A dynamic system
+bn:00007060n	WIKT	Informally, a set of points from which a dynamical system spontaneously moves to a particular attractor.
+bn:00007060n	WIKT	A set of points or states to which a dynamical system evolves after a long enough time. That is, points that get close enough to the attractor remain close even if slightly disturbed.
+bn:00007060n	WIKTLB	Set of points.
+bn:00047056n	WN	The point at which a line intersects a coordinate axis
+bn:00047056n	WIKT	The coordinate of the point at which a curve intersects an axis.
+bn:00047056n	WIKTLB	Coordinate of the point at which a curve intersects an axis.
+bn:00047215n	WN	A point where lines intersect
+bn:00047215n	WIKI	In Euclidean geometry, the intersection of a line and a line can be the empty set, a point, or a line.
+bn:00000526n	WN	Point of contact between two objects or parts
+bn:00000526n	WIKT	The point of junction between two things, in particular a support, that abuts.
+bn:00000526n	WIKTLB	Point of junction that abuts.
+bn:00004702n	WN	(physics) the point of maximum displacement in a periodic system
+bn:00009635n	WN	The place where something begins, where it springs into being
+bn:00009635n	OMWIKI	Origin, beginning of an event, a condition or a period
+bn:00009635n	OMWIKI	The place where something begins, where it springs into being.
+bn:00009635n	WIKT	That which begins or originates something; the first cause.
+bn:00009635n	WIKT	The primary source; origin.
+bn:00009635n	WIKTLB	That which begins or originates something.
+bn:00009635n	MSTERM	The web application from which Operations Manager received the event.
+bn:00009800n	WN	A scar where the umbilical cord was attached
+bn:00009800n	WIKI	The navel is a hollowed or sometimes raised area on the abdomen at the attachment site of the umbilical cord.
+bn:00009800n	WIKI	The omphalos hypothesis is one attempt to reconcile the scientific evidence that the universe is billions of years old with the ancient history as described in the Book of Genesis, which indicates that the Earth is only a few thousand years old.
+bn:00009800n	WIKI	An omphalos is a religious stone artifact, or baetylus.
+bn:00009800n	WIKIDIS	Which proposes that God made the world appear old when he created it
+bn:00009800n	WIKIDATA	Argument that God created the world recently
+bn:00009800n	OMWIKI	A scar where the umbilical cord was attached.
+bn:00009800n	WIKT	The indentation or bump remaining in the abdomen of mammals where the umbilical cord was attached before birth.
+bn:00009800n	WIKT	An ancient religious stone artifact, or baetylus, used to denote the direction of the "center" of the world.
+bn:00009800n	WIKT	Navel.
+bn:00009800n	WIKT	The navel.
+bn:00009800n	WIKT	The navel or umbilicus.
+bn:00009800n	WIKT	A navel that protrudes from the abdomen.
+bn:00009800n	WIKT	A navel that is formed of a hollow in the abdomen.
+bn:00009800n	WIKTLB	Remnant of umbilical cord.
+bn:00011264n	WN	The point where the optic nerve enters the retina; not sensitive to light
+bn:00011264n	WIKI	The optic disc or optic nerve head is the point of exit for ganglion cell axons leaving the eye.
+bn:00011264n	WIKIDIS	In the retina
+bn:00011264n	OMWIKI	The place where the optic nerve attaches to the retina and the retina cannot detect light.
+bn:00011264n	WIKT	The place where the optic nerve attaches to the retina, and so where the retina cannot detect light.
+bn:00011264n	WIKT	The location where ganglion cell axons exit the eye to form the optic nerve.
+bn:00011264n	WIKTLB	Place where the optic nerve attaches to the retina.
+bn:00017015n	WN	A point in the heavens (on the celestial sphere)
+bn:00018677n	WN	A point of congestion or blockage
+bn:00022734n	WN	The point where two lines meet or intersect
+bn:00022734n	OMWIKI	The point where two or more edges of an geometrical body meet.
+bn:00022734n	WIKT	The space in the angle between converging lines or walls which meet in a point.
+bn:00022737n	WN	The point where three areas or surfaces meet or intersect
+bn:00022737n	OMWIKI	The point where three areas or surfaces meet or intersect.
+bn:00023836n	WN	Point where the hairline meets the midpoint of the forehead
+bn:00023836n	WIKT	The point where the hairline meets the centre of the forehead.
+bn:00024005n	WN	A point where two lines (paths or arcs etc.) intersect
+bn:00035557n	WN	A point of convergence of light (or other radiation) or a point from which it diverges
+bn:00035557n	WIKI	In geometrical optics, a focus, also called an image point, is the point where light rays originating from a point on the object converge.
+bn:00035557n	WIKIDIS	The point at which initially collimated rays of light meet after passing through a convex lens, or reflecting from a concave mirror
+bn:00035557n	WIKIDATA	Point where light rays originating from a point converge on an object
+bn:00035557n	WIKT	A focus; a point at which rays of light or other radiation converge.
+bn:00035557n	WIKT	A point of a conic at which rays reflected from a curve or surface converge.
+bn:00035558n	WN	A central point or locus of an infection in an organism
+bn:00035558n	WIKT	A locus of infection in an organism.
+bn:00035565n	WN	A fixed reference point on the concave side of a conic section
+bn:00035565n	WIKI	In geometry, focuses or foci, singular focus, are special points with reference to which any of a variety of curves is constructed.
+bn:00035565n	WIKIDIS	A special point used in describing conic sections
+bn:00035565n	WIKIDATA	Fixed reference point; special points with reference to which any of a variety of curves is constructed
+bn:00035565n	OMWIKI	A special point used to define a conic section.
+bn:00041926n	WN	The point of detonation (or above or below) of a nuclear weapon
+bn:00041926n	WIKT	The point on the land or water surface below, above, or at which an atomic or nuclear bomb detonates.
+bn:00041926n	WIKTLB	Location on the surface marking the detonation of a bomb.
+bn:00063215n	WN	A brief version of the essential meaning of something
+bn:00000657n	WN	The accepted meaning of a word
+bn:00000657n	WIKI	In linguistics, a word sense is one of the meanings of a word.
+bn:00000657n	WIKIDIS	One of the meanings of a word
+bn:00000657n	WIKIDATA	One of the meanings of a word
+bn:00000657n	OMWIKI	The specific meaning in which a word or expression is understood.
+bn:00000657n	WIKT	The meaning in which a word or expression is understood, or generally received.
+bn:00000657n	WIKT	A single conventional use of a word; one of the entries for a word in a dictionary.
+bn:00061177n	WN	A V shape
+bn:00072721n	WN	A three-dimensional shape
+bn:00072721n	WIKT	A three-dimensional figure.
+bn:00072721n	WIKTLB	Geometry: three-dimensional object.
+bn:00028329n	WN	A very small circular shape
+bn:00027455n	WN	Something with a round shape resembling a flat circular plate
+bn:00027455n	WIKT	Something resembling a disk.
+bn:00027455n	WIKT	Something resembling a disc.
+bn:00027455n	WIKTLB	Something resembling a disk.
+bn:00063218n	WN	The unit of counting in scoring a game or contest
+bn:00063218n	WIKI	In games, score refers to an abstract quantity associated with a player or team.
+bn:00063218n	WIKI	In ice hockey, point has three contemporary meanings:
+bn:00063218n	WIKI	Points in basketball are used to keep track of the score in a game.
+bn:00063218n	WIKI	A point in tennis is the smallest subdivision of the match, the completion of which changes the score.
+bn:00063218n	WIKIDIS	A number of points achieved in a game
+bn:00063218n	WIKIDIS	Units obtained by scoring baskets during a game
+bn:00063218n	WIKIDIS	The smallest unit of scoring in tennis
+bn:00063218n	WIKIDATA	In games, abstract quantity associated with a player or team
+bn:00063218n	WIKIDATA	Ice hockey statistic summing a player''s goals and assists
+bn:00063218n	WIKIDATA	Basketball unit of scoring accumulated by making field goals and free throws
+bn:00063218n	WIKIDATA	Tennis term for the smallest subdivision of play, the conclusion of which results in a score change
+bn:00063218n	WIKT	A unit of scoring in a game or competition.
+bn:00063218n	WIKTLB	Unit of scoring in a game or competition.
+bn:00032499n	WN	The outermost or farthest region or point
+bn:00032499n	WIKT	The most extreme or furthest point of something.
+bn:00041433n	WN	Narrow-leaved green herbage: grown as lawns; used as pasture for grazing animals; cut and dried as hay
+bn:00041433n	WIKIDATA	Family of herbaceous plants
+bn:00041433n	OMWIKI	A very large and widespread family of Monocotyledoneae, with more than 10.000 species, most of which are herbaceous, but a few are woody. The stems are jointed, the long, narrow leaves originating at the nodes. The flowers are inconspicuous, with a much reduced perianth, and are wind-pollinated or cleistogamous.
+bn:00041433n	WIKT	Various plants not in family Poaceae that resemble grasses.
+bn:00041433n	WIKIQU	Grasses, or more technically graminoids, are monocotyledonous, usually herbaceous plants with narrow leaves growing from the base.
+bn:00001623n	WN	European grass naturalized as a weed in North America; sharp-pointed seeds cause injury when eaten by livestock
+bn:00004013n	WN	Tall grass with smooth bluish leaf sheaths grown for hay in the United States
+bn:00004013n	WIKI	Andropogon gerardi, known commonly as big bluestem, turkeyfoot, tall bluestem, and bluejoint, is a tall grass native to much of the Great Plains and prairie regions of central North America and grasslands, savannas and woodlands throughout eastern North America.
+bn:00004013n	WIKIDATA	Species of plant
+bn:00005880n	WN	Coarse perennial Eurasian grass resembling oat; found on roadside verges and rough grassland and in hay meadows; introduced in North America for forage
+bn:00005880n	WIKI	Arrhenatherum elatius, with the common names false oat-grass, tall oat-grass, tall meadow oat, onion couch and tuber oat-grass, is a perennial species of grass, common in the temperate regions of Europe.
+bn:00005880n	WIKIDATA	Species of plant
+bn:00006213n	WN	Tall grass of New Zealand grown for plumelike flower heads
+bn:00006213n	WIKI	Austroderia richardii, syn.
+bn:00006213n	WIKIDATA	Species of plant
+bn:00007958n	WN	Trailing grass native to Europe now cosmopolitan in warm regions; used for lawns and pastures especially in southern United States and India
+bn:00007958n	WIKI	Cynodon dactylon, also known as Vilfa stellata dūrvā grass, Dhoob, Bermuda grass, dubo, dog's tooth grass, Bahama grass, devil's grass, couch grass, Indian doab, arugampul, grama, wiregrass and scutch grass, is a grass that originated in the Middle East. Although it is not native to Bermuda, it is an abundant invasive species there.
+bn:00007958n	WIKI	Elymus repens, commonly known as couch grass, is a very common perennial species of grass native to most of Europe, Asia, the Arctic biome, and northwest Africa.
+bn:00007958n	WIKIDIS	A fast growing grass best suited for warm climates
+bn:00007958n	WIKIDIS	Or couch, usually refers to the grass species Elymus repens, but sometimes Cynodon dactylon or various species of Digitaria
+bn:00007958n	WIKIDATA	Species of grass
+bn:00007958n	WIKIDATA	Species of plant
+bn:00007958n	WIKT	Bermuda grass.
+bn:00007958n	WIKT	Couch grass.
+bn:00007958n	WIKTLB	Species of grass.
+bn:00007965n	WN	Perennial tropical American grass used as pasture grass in arid areas of the Gulf States
+bn:00007965n	WIKI	Paspalum notatum, known commonly as bahiagrass, common bahia, and Pensacola bahia, is a tropical to subtropical perennial grass.
+bn:00007965n	WIKIDATA	Species of plant
+bn:00009220n	WN	Any of various grasses of the genus Eragrostis; specially useful for forage and for the prevention of erosion
+bn:00009220n	WIKI	Eragrostis is a large and widespread genus of plants in the grass family, found in many countries on all inhabited continents and many islands.
+bn:00009220n	WIKIDATA	Genus of plants
+bn:00009220n	WIKT	Any of several grasses, of the genus Eragrostis, grown as a forage crop or to protect against erosion.
+bn:00009220n	WIKT	Any of several species of grass from the genus Eragrostis; lovegrass.
+bn:00009271n	WN	Tough grasses with strong roots that can grow on exposed sandy shores
+bn:00009271n	WIKI	Ammophila 
+bn:00009271n	WIKIDATA	Genus of grasses
+bn:00009964n	WN	Grass for pastures and lawns especially bowling and putting greens
+bn:00010655n	WN	Canary Islands grass; seeds used as feed for caged birds
+bn:00010655n	WIKI	Canary grass is a plant, Phalaris canariensis, belonging to the family Poaceae.
+bn:00010655n	WIKIDATA	Species of plant
+bn:00011517n	WN	Any of various grasses of the genus Poa
+bn:00013289n	WN	Any of various woodland and meadow grasses of the genus Bromus; native to temperate regions
+bn:00013289n	WIKT	Any grass of the genus Bromus.
+bn:00013289n	WIKT	Any of various North American grasses, of the genus Bromus, that are used for forage.
+bn:00013289n	WIKTLB	Grass of Bromus.
+bn:00013357n	WN	Any of several grasses of the genus Andropogon; used in broom making
+bn:00013575n	WN	Short grass growing on dry plains of central United States (where buffalo roam)
+bn:00013575n	WIKI	Bouteloua dactyloides, commonly known as buffalograss or buffalo grass, is a North American prairie grass native to Canada, Mexico, and the United States.
+bn:00013575n	WIKIDATA	Prairie grass native to North America
+bn:00013663n	WN	Low mat-forming grass of southern United States and tropical America; grown as a lawn grass
+bn:00013663n	WIKI	St. Augustine grass is a warm-season lawn grass that is popular for cultivation in tropical and subtropical regions.
+bn:00013663n	WIKIDATA	Species of plant, St. Augustine Grass
+bn:00013876n	WN	Any of various grasses of many genera that grow in tufts or clumps rather than forming a sod or mat; chiefly of western United States
+bn:00013876n	WIKT	Any of various grasses of the family Poaceae that grow in clumps rather than forming a sod or mat.
+bn:00013932n	WN	A grass of the genus Cenchrus
+bn:00013932n	WIKT	A grass of the genus Cenchrus, growing in sand and having burs for fruit.
+bn:00017088n	WN	Grass of the eastern United States and tropical America having spikelets enclosed in prickly burs
+bn:00017323n	WN	Grass whose starchy grains are used as food: wheat; rice; rye; oats; maize; buckwheat; millet
+bn:00017323n	WIKI	Cereal is any grass cultivated for the edible components of its grain, composed of the endosperm, germ, and bran.
+bn:00017323n	WIKIDIS	A group of grasses cultivated for their edible seeds. In British English, "corn" can mean any cereal.
+bn:00017323n	WIKIDATA	Grass of which the fruits are used as grain, or the fruits themselves
+bn:00017323n	WIKT	The grains of such a grass.
+bn:00017323n	WIKTLB	Grains of such a grass.
+bn:00020302n	WN	Widely grown stout Old World hay and pasture grass
+bn:00020302n	WIKI	Dactylis glomerata, also known as cock's-foot, orchard grass, or cat grass is a common species of grass in the genus Dactylis.
+bn:00020302n	WIKIDATA	Species of plant
+bn:00041300n	WN	Cosmopolitan herbaceous or woody plants with hollow jointed stems and long narrow leaves
+bn:03940922n	NONE	NONE
+bn:00010555n	WN	A major biotic community characterized by the dominant forms of plant life and the prevailing climate
+bn:00010555n	WIKI	A biome is a community of plants and animals that have common characteristics for the environment they exist in.
+bn:00010555n	WIKIDATA	Contiguous area with similar climatic conditions
+bn:00010555n	OMWIKI	A major regional group of distinctive plant and animal communities best adapted to the region's physical natural environment, latitude, altitude, and terrain.
+bn:00010555n	WIKT	Any major regional biological community such as that of forest or desert.
+bn:03353031n	WIKI	A biotope is an area of uniform environmental conditions providing a living place for a specific assemblage of plants and animals.
+bn:03353031n	WIKIDATA	Uniform environment where specific organisms live
+bn:03353031n	OMWIKI	A region of relatively uniform environmental conditions, occupied by a given plant community and its associated animal community.
+bn:03353031n	WIKT	A geographical area that has a uniform biological environment and a uniform distribution of plants and animals.
+bn:01766816n	WIKI	In biology, the range or distribution of a species is the geographical area within which that species can be found. Within that range, dispersion is variation in local density.
+bn:01766816n	WIKIDIS	The geographical area where a species can be found
+bn:01766816n	WIKIDATA	Geographical area in which a species can be found
+bn:01766816n	WIKT	The geographical area or zone where a species is normally naturally found.
+bn:00031444n	WN	Small Old World songbird with a reddish breast
+bn:00031444n	OMWIKI	A bird of the species Erithacus rubecula from the family of the Old World flycatchers (Muscicapidae) with bright red chest and gorge.
+bn:00077103n	WN	Songbirds characteristically having brownish upper plumage with a spotted breast
+bn:00077103n	WIKI	The thrushes are a family, Turdidae, of passerine birds with a worldwide distribution.
+bn:00077103n	WIKIDATA	Family of passerine birds
+bn:00077103n	WIKIQU	The thrushes, family Turdidae, are a group of passerine birds that occur worldwide.
+bn:00059635n	WN	Passerine bird having specialized vocal apparatus
+bn:00059635n	WIKT	Any bird of the suborder Passeri , which have better vocal control than other birds.
+bn:00060902n	WN	Perching birds mostly small and living near the ground with feet having 4 toes arranged to allow for gripping the perch; most are songbirds; hatchlings are helpless
+bn:00060902n	WIKI	A passerine is any bird of the order Passeriformes, which includes more than half of all bird species.
+bn:00060902n	WIKIDATA	Order of birds
+bn:00060902n	WIKT	Any bird of the order Passeriformes, which comprises more than half of all bird species.
+bn:00003463n	WN	Large American thrush having a rust-red breast and abdomen
+bn:00003463n	WIKI	The American robin is a migratory songbird of the true thrush genus and Turdidae, the wider thrush family.
+bn:00003463n	WIKIDATA	Species of bird
+bn:00003463n	WIKT	An American robin; Turdus migratorius.
+bn:03892115n	WIKI	Robin is the name of several fictional superheroes appearing in American comic books published by DC Comics.
+bn:03892115n	WIKIDIS	"The Boy Wonder", Batman's crime-fighting partner
+bn:03892115n	WIKIDATA	Identity used by several DC Comics characters
+bn:00009822n	WN	Endless loop of flexible material between two rotating shafts or pulleys
+bn:00009833n	WN	The material of which belts are made
+bn:00009833n	WIKI	Belting is a specific technique of singing by which a singer mixes in the proper proportions, their lower and upper resonances; resulting a sound that resembles yelling but is actually a controlled, sustained phonation.
+bn:00009833n	WIKIDATA	Specific technique of singing by which a singer produces a loud sound in the upper middle of the pitch range
+bn:00009833n	WIKT	The material from which belts for machinery are made.
+bn:00008288n	WN	A driving belt in machinery
+bn:00008288n	WIKT	A belt or strap that is part of a machine.
+bn:00016740n	WN	An endless metal belt on which tracked vehicles move over the ground
+bn:00016740n	WIKI	Continuous track, also called tank tread or caterpillar track, is a system of vehicle propulsion in which a continuous band of treads or track plates is driven by two or more wheels.
+bn:00016740n	WIKIDIS	A belt providing motive traction for a tracked vehicle such as a tank or a bulldozer
+bn:00016740n	WIKIDATA	System of vehicle propulsion
+bn:00016740n	WIKT	A continuous track in the form of a steel or rubber belt fitted instead of wheels to crawlers, bulldozers, tanks and similar off-road vehicles.
+bn:00016740n	WIKTLB	Continuous track in the form of steel or rubber belt.
+bn:00022384n	WN	A moving belt that transports objects (as in a factory)
+bn:00022384n	WIKI	A conveyor system is a common piece of mechanical handling equipment that moves materials from one location to another.
+bn:00022384n	WIKI	A conveyor belt is the carrying medium of a belt conveyor system.
+bn:00022384n	WIKIDIS	A device for transporting goods along a fixed track
+bn:00022384n	WIKIDATA	Machinery and equipment that are used for the conveyance of materials
+bn:00022384n	WIKIDATA	Material-handling equipment
+bn:00022384n	OMWIKI	A moving belt that transports objects.
+bn:00022384n	WIKT	A conveyor belt that transports objects in a factory etc.
+bn:00022384n	WIKT	Anything that conveys, transports or delivers.
+bn:00022384n	WIKT	A continuous flexible band moved by a series of rollers to transport objects or material from one place to another, especially within a factory or mine.
+bn:00022384n	WIKTLB	Continuous band moved to transport objects.
+bn:00028803n	WN	A belt that carries motion from a motor to the machinery
+bn:00033603n	WN	A belt driven by the crankshaft that drives a fan that pulls air through the radiator
+bn:00033603n	WIKI	A belt is a loop of flexible material used to link two or more rotating shafts mechanically, most often parallel.
+bn:00033603n	WIKIDIS	A looped strip of material used to link multiple rotating shafts
+bn:00033603n	WIKIDATA	Loop of flexible material used to mechanically link rotating shafts
+bn:00051982n	WN	Anything with a round or oval shape (formed by a curve that is closed and does not intersect itself)
+bn:00051982n	WIKIDIS	One of the fundamental structures used to tie knots
+bn:00051982n	WIKIDATA	Term in reference to knots
+bn:00051982n	WIKT	A shape produced by a curve that bends around and crosses itself.
+bn:00051982n	WIKTLB	Shape produced by a curve that bends around and crosses itself.
+bn:00048415n	WN	A closed curve that does not intersect itself
+bn:00048415n	WIKI	In topology, a Jordan curve is a non-self-intersecting continuous loop in the plane.
+bn:00048415n	WIKIDATA	Theorem stating that a closed curve divides the plane into two regions
+bn:00049367n	WN	Any of various fastenings formed by looping and tying a rope (or cord) upon itself or to another rope or to another object
+bn:00049367n	WIKI	A knot is a method of fastening or securing linear material such as rope by tying or interweaving.
+bn:00049367n	WIKIDATA	Method of fastening or securing linear material, such as rope, by tying or interweaving
+bn:00049367n	OMWIKI	A loop of string or any other long flexible material which cannot be untied without pulling part of the string through the loops.
+bn:00049367n	WIKT	A looping of a piece of string or of any other long, flexible material that cannot be untangled without passing one or both ends of the material through its loops.
+bn:00049367n	WIKT	The end of a rope that is used to make a knot.
+bn:00049367n	WIKTLB	End of rope.
+bn:00051408n	WN	A mechanical system of rods or springs or pivots that transmits power or motion
+bn:00051408n	WIKI	A mechanical linkage is an assembly of bodies connected to manage forces and movement.
+bn:00051408n	WIKIDIS	Assemblies of links designed to manage forces and movement
+bn:00051408n	WIKIDATA	Assembly of bodies connected to manage forces and movement
+bn:00009823n	WN	A band to tie or buckle around the body (usually at the waist)
+bn:00009823n	WIKI	A belt is a flexible band or strap, typically made of leather or heavy cloth, and worn around the waist.
+bn:00009823n	WIKIDIS	A band worn around the waist
+bn:00009823n	WIKIDATA	Worn band or braid around the waist
+bn:00009823n	OMWIKI	A clothing accessory, usually made of leather or heavy cloth, worn around the waist and used to support trousers or other articles of clothing.
+bn:00009823n	WIKT	The part of the strike zone at the height of the batter's waist.
+bn:00009823n	WIKTLB	Band worn around the waist.
+bn:01490831n	WIKI	A zoster was a form of girdle or belt worn by men and perhaps later by women in Ancient Greece, from the Archaic period to the Hellenistic period.
+bn:01490831n	WIKIDATA	Form of girdle or belt
+bn:03445674n	WIKI	A chastity belt is a locking item of clothing designed to prevent sexual intercourse or masturbation.
+bn:03445674n	WIKIDIS	A device worn to prevent sexual intercourse
+bn:03445674n	WIKIDATA	Device to prevent wifely infidelity
+bn:03445674n	WIKT	A belt-like garment, designed to be worn over the genitals and locked to prevent sexual intercourse, typically for long periods of time, to maintain chastity, or to enforce BDSM submission.
+bn:13834293n	WIKI	In military uniforms, a shoulder belt is a wide belt worn usually over the shoulder and across the body.
+bn:13834293n	WIKIDATA	Belt worn usually over the right shoulder and across the body
+bn:17158743n	WIKIDATA	Alpine leather belt in the 18th century
+bn:00008089n	WN	A wide (ornamented) belt worn over the right shoulder to support a sword or bugle by the left hip
+bn:00008089n	WIKI	Baldrick is the name of several fictional characters featured in the long-running BBC historic comedy television series Blackadder.
+bn:00008089n	WIKI	A baldric is a belt worn over one shoulder that is typically used to carry a weapon or other implement such as a bugle or drum.
+bn:00008089n	WIKI	Belt worn over one shoulder, typically used to carry a weapon (usually a sword) or other implement such as a bugle or drum
+bn:00008089n	WIKIDIS	A shoulder belt used to carry a weapon
+bn:00008089n	WIKIDATA	Fictional human
+bn:00008089n	WIKT	A broad belt, sometimes richly ornamented, worn over one shoulder, across the breast, and under the opposite arm; less properly, any belt.
+bn:00008089n	WIKT	A belt used to hold a sword, sometimes richly ornamented, worn diagonally from shoulder to hip.
+bn:00055647n	WN	Belt with a concealed section for holding money
+bn:00055647n	WIKI	Money belts are belts with secret compartments often worn by tourists.
+bn:00055647n	WIKI	Belt with a concealed compartment
+bn:00055647n	WIKT	A belt concealed under clothing, having a pocket for money or other documents.
+bn:00069046n	WN	Leather belt supported by a strap over the right shoulder
+bn:00069046n	WIKI	The Sam Browne belt is a wide belt, usually leather, supported by a narrower strap passing diagonally over the right shoulder.
+bn:00069046n	WIKIDIS	Item of clothing named for General Sam Browne
+bn:00069046n	WIKT	A wide military belt, usually leather, supported by a strap going diagonally over the right shoulder.
+bn:15379595n	WIKI	The faixa is a traditional Catalan clothing accessory.
+bn:00009829n	WN	The buckle used to fasten a belt
+bn:00009829n	WIKI	A belt buckle is a buckle, a clasp for fastening two ends, such as of straps or a belt, in which a device attached to one of the ends is fitted or coupled to the other.
+bn:00016336n	WN	A broad belt with loops or pockets for holding ammunition
+bn:00044464n	WN	A belt with loops or slots for carrying small hand tools
+bn:00044464n	WIKT	A belt with loops or slots for carrying small tools or other equipment.
+bn:00044464n	WIKTLB	Belt with loops or slots.
+bn:00051061n	WN	Belt attaching you to some object as a restraint in order to prevent you from getting hurt
+bn:00051061n	WIKI	A safety harness is a form of protective equipment designed to protect a person, animal, or object from injury or damage.
+bn:00051061n	OMWIKI	A belt or a set of belts used to secure the passengers of a car or a plane to their seat.
+bn:00051061n	WIKT	A belt or strap that attaches a person to an immovable object for safety.
+bn:00051061n	WIKTLB	A belt hat attaches a person to an immovable object for safety.
+bn:00000677n	WN	Clothing that is worn or carried, but not part of your main clothing
+bn:00000677n	OMWIKI	Clothing that is worn or carried, but not part of your main clothing.
+bn:00000677n	WIKT	An article of clothing or equipment, in particular when used as an accessory.
+bn:00009827n	WN	The act of hitting vigorously
+bn:00083392v	WN	Sing loudly and forcefully
+bn:00083392v	WIKT	To sing loudly; to emit music loudly.
+bn:00093758v	WN	Produce tones with the voice
+bn:00093758v	OMWIKI	To produce harmonious sounds with one's voice.
+bn:00093758v	WIKT	To produce musical or harmonious sounds with one’s voice.
+bn:00093758v	WIKTLB	To produce harmonious sounds with one’s voice.
+bn:00093758v	FRAMENET	Make musical sounds with the voice, especially words with a set tune.
+bn:00083393v	WN	Deliver a blow to
+bn:00083393v	FRAMENET	Beat or hit very hard.
