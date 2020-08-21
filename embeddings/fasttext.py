@@ -22,7 +22,7 @@ class FastText(object):
             return nn_w_similarities
         neighbors_and_similarities = self.fasttext_model.most_similar(word, topn=n)
         for neighbor, similarity in neighbors_and_similarities:
-            if len(neighbor.split("_")) > 1:
+            if len(neighbor.split("_")) > 1 or len(neighbor.split("-")) > 1:
                 continue
             neighbor = neighbor.lower()
             if neighbor not in nn_w_similarities:

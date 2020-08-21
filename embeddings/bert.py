@@ -32,7 +32,7 @@ class Bert(object):
 
         for neighbor_annoy_idx, distance in zip(neigbors_and_distances[0], neigbors_and_distances[1]):
             neighbor_word = self.bert_annoy_tree_idx_to_word[neighbor_annoy_idx].lower()
-            if len(neighbor_word.split("_")) > 1:
+            if len(neighbor.split("_")) > 1 or len(neighbor.split("-")) > 1:
                 continue
             
             similarity = 1.0 if distance == 0.0 else (1 - distance/2)

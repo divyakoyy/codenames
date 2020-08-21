@@ -475,62 +475,63 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
-    for embedding_type in args.embeddings:
-        debug_file_path = None
-        if args.debug is True or args.debug_file != None:
-            debug_file_path = (embedding_type + "-" + datetime.now().strftime("%m-%d-%Y-%H.%M.%S") + ".txt") if args.debug_file == None else args.debug_file
-            # Create directory to put debug files if it doesn't exist
-            if not os.path.exists('debug_output'):
-                os.makedirs('debug_output')
-            debug_file_path = os.path.join('debug_output', debug_file_path)
-            print("Writing debug output to", debug_file_path)
+    for useHeuristicOverride in [True, False]:
+        for embedding_type in args.embeddings:
+            debug_file_path = None
+            if args.debug is True or args.debug_file != None:
+                debug_file_path = (embedding_type + "-" + datetime.now().strftime("%m-%d-%Y-%H.%M.%S") + ".txt") if args.debug_file == None else args.debug_file
+                # Create directory to put debug files if it doesn't exist
+                if not os.path.exists('debug_output'):
+                    os.makedirs('debug_output')
+                debug_file_path = os.path.join('debug_output', debug_file_path)
+                print("Writing debug output to", debug_file_path)
 
-        configuration = CodenamesConfiguration(
-            verbose=args.verbose,
-            visualize=args.visualize,
-            split_multi_word=args.split_multi_word,
-            disable_verb_split=args.disable_verb_split,
-            debug_file=debug_file_path,
-            length_exp_scaling=args.length_exp_scaling,
-            use_heuristics=(not args.no_heuristics),
-            single_word_label_scores=args.single_word_label_scores,
-        )
+            configuration = CodenamesConfiguration(
+                verbose=args.verbose,
+                visualize=args.visualize,
+                split_multi_word=args.split_multi_word,
+                disable_verb_split=args.disable_verb_split,
+                debug_file=debug_file_path,
+                length_exp_scaling=args.length_exp_scaling,
+                use_heuristics=useHeuristicOverride,
+                single_word_label_scores=args.single_word_label_scores,
+            )
 
-        game = Codenames(
-            configuration=configuration,
-            embedding_type=embedding_type,
-        )
+            game = Codenames(
+                configuration=configuration,
+                embedding_type=embedding_type,
+            )
 
-        for i, (red, blue) in enumerate(zip(red_words, blue_words)):
+            for i, (red, blue) in enumerate(zip(red_words, blue_words)):
 
-            game._build_game(red=red, blue=blue,
-                             save_path="tmp_babelnet_" + str(i))
-            # TODO: Download version without using aliases. They may be too confusing
-            if game.configuration.verbose:
-                print("NEAREST NEIGHBORS:")
-                for word, clues in game.weighted_nn.items():
-                    print(word)
-                    print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
+                game._build_game(red=red, blue=blue,
+                                 save_path="tmp_babelnet_" + str(i))
+                # TODO: Download version without using aliases. They may be too confusing
+                if game.configuration.verbose:
+                    print("NEAREST NEIGHBORS:")
+                    for word, clues in game.weighted_nn.items():
+                        print(word)
+                        print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
 
-            best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
+                best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
 
-            print("===================================================================================================")
-            print("TRIAL", str(i+1))
-            print("RED WORDS: ", list(game.red_words))
-            print("BLUE WORDS: ", list(game.blue_words))
-            print("BEST CLUES: ")
-            for score, clues, board_words in zip(best_scores[:3], best_clues[:3], best_board_words_for_clue[:3]):
-                print()
-                print(clues, str(round(score,3)), board_words)
-                for clue in clues:
-                    print(
-                        "WORDS CHOSEN FOR CLUE: ",
-                        game.choose_words(
-                            2, clue, game.blue_words.union(game.red_words)),
-                    )
+                print("===================================================================================================")
+                print("TRIAL", str(i+1))
+                print("RED WORDS: ", list(game.red_words))
+                print("BLUE WORDS: ", list(game.blue_words))
+                print("BEST CLUES: ")
+                for score, clues, board_words in zip(best_scores[:3], best_clues[:3], best_board_words_for_clue[:3]):
+                    print()
+                    print(clues, str(round(score,3)), board_words)
+                    for clue in clues:
+                        print(
+                            "WORDS CHOSEN FOR CLUE: ",
+                            game.choose_words(
+                                2, clue, game.blue_words.union(game.red_words)),
+                        )
 
 
-            # Draw graphs for all words
-            # all_words = red + blue
-            # for word in all_words:
-            #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
+                # Draw graphs for all words
+                # all_words = red + blue
+                # for word in all_words:
+                #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
