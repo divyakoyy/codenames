@@ -2,7 +2,7 @@
 from annoy import AnnoyIndex
 import numpy as np
 
-class Word2Vec(object):
+class Bert(object):
 
     def __init__(self, configuration=None):
 
@@ -15,6 +15,7 @@ class Word2Vec(object):
         self.bert_annoy_tree = AnnoyIndex(emb_size, 'angular')
         self.bert_annoy_tree.load('data/annoy_tree_bert_emb_768_brown_corpus.ann')
         self.bert_annoy_tree_idx_to_word = np.load('data/annoy_tree_index_to_word_bert_emb_768_brown_corpus.npy').item()
+        self.bert_annoy_tree_word_to_idx = {v: k for k, v in self.bert_annoy_tree_idx_to_word.items()}
 
     """
     Required codenames methods
@@ -22,22 +23,22 @@ class Word2Vec(object):
 
     def get_weighted_nn(self, word, n=500):
         nn_w_similarities = dict()
-        limit = 1
+        
+        if word not in self.bert_annoy_tree_word_to_idx:
+            return nn_w_similarities
 
-        def recurse_word2vec(word, curr_limit):
-            if curr_limit >= limit or word not in self.word2vec_model.vocab:
-                return
-            neighbors_and_similarities = self.word2vec_model.most_similar(word, topn=n)
-            for neighbor, similarity in neighbors_and_similarities:
-                if (self.word2vec_model.vocab[neighbor].count < 2 or len(neighbor.split("_")) > 1):
-                    continue
-                neighbor = neighbor.lower()
-                if neighbor not in nn_w_similarities:
-                    nn_w_similarities[neighbor] = similarity
-                    recurse_word2vec(neighbor, curr_limit + 1)
-                nn_w_similarities[neighbor] = max(similarity, nn_w_similarities[neighbor])
+        annoy_idx = self.bert_annoy_tree_word_to_idx[word]
+        neigbors_and_distances = self.bert_annoy_tree.get_nns_by_item(annoy_idx, n, include_distances=True)
 
-        recurse_word2vec(word, 0)
+        for neighbor_annoy_idx, distance in zip(neigbors_and_distances[0], neigbors_and_distances[1]):
+            neighbor_word = self.bert_annoy_tree_idx_to_word[neighbor_annoy_idx].lower()
+            if len(neighbor.split("_")) > 1 or len(neighbor.split("-")) > 1:
+                continue
+            
+            similarity = 1.0 if distance == 0.0 else (1 - distance/2)
+            if neighbor_word not in nn_w_similarities:
+                nn_w_similarities[neighbor_word] = similarity
+            nn_w_similarities[neighbor_word] = max(similarity, nn_w_similarities[neighbor_word])
 
         return {k: v for k, v in nn_w_similarities.items() if k != word}
 
@@ -48,21 +49,6 @@ class Word2Vec(object):
         :param red_words: opponent's words
         returns: penalizes a potential_clue for being have high word2vec similarity with opponent's words
         """
-        word2vec_similarities = []
-        red_word2vec_similarities = []
-        if potential_clue not in self.word2vec_model:
-            if self.configuration.verbose:
-                print("Potential clue word ", potential_clue, "not in Google news word2vec model")
-            return 0.0
+        # TODO
 
-        for red_word in red_words:
-            if red_word in self.word2vec_model:
-                red_word2vec_similarities.append(self.word2vec_model.similarity(red_word, potential_clue))
-
-        if self.configuration.debug_file:
-            with open(self.configuration.debug_file, 'a') as f:
-                f.write(" ".join([str(x) for x in [
-                    " penalty for red words word2vec", round(-0.5*sum(red_word2vec_similarities)/len(red_word2vec_similarities),3), "\n"
-                ]]))
-        #TODO: is average the best way to do this
-        return -0.5*sum(red_word2vec_similarities)/len(red_word2vec_similarities)
+        return 0

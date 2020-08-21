@@ -295,48 +295,18 @@ class Babelnet(object):
 		dict_definition_score = self._get_dictionary_definition_score(
 			chosen_words, clue, red_words)
 
-		word2vec_score = self._get_word2vec_score(chosen_words, clue, red_words)
-
-		dict2vec_score = self._get_dict2vec_score(chosen_words, clue, red_words)
-
 		if self.configuration.debug_file:
 			with open(self.configuration.debug_file, 'a') as f:
 				f.write(" ".join([str(x) for x in [
-					" dict2vec score", round(dict2vec_score,3), "dictionary def score:", round(dict_definition_score,3), "word2vec score:", round(2*word2vec_score,3), "\n"
+					"dictionary def score:", round(dict_definition_score,3), "\n"
 				]]))
 
-		return (dict_definition_score) + (2*word2vec_score) + (dict2vec_score)
+		return (dict_definition_score)
 
 	"""
 	Helper methods
 	"""
-	def _get_dict2vec_score(self, chosen_words, potential_clue, red_words):
-		dict2vec_distances = []
-		red_dict2vec_distances = []
-
-		if potential_clue not in self.word_to_dict2vec_embeddings:
-			if self.configuration.verbose:
-				print("Potential clue word ", potential_clue, "not in dict2vec model")
-			return 0.0
-
-		potential_clue_embedding = self.word_to_dict2vec_embeddings[potential_clue]
-		# TODO: change this to cosine distance
-		for chosen_word in chosen_words:
-			if chosen_word in self.word_to_dict2vec_embeddings:
-				chosen_word_embedding = self.word_to_dict2vec_embeddings[chosen_word]
-				euclidean_distance = numpy.linalg.norm(chosen_word_embedding-potential_clue_embedding)
-				dict2vec_distances.append(euclidean_distance)
-
-		for red_word in red_words:
-			if red_word in self.word_to_dict2vec_embeddings:
-				red_word_embedding = self.word_to_dict2vec_embeddings[red_word]
-				red_euclidean_distance = numpy.linalg.norm(red_word_embedding-potential_clue_embedding)
-				red_dict2vec_distances.append(red_euclidean_distance)
-			else:
-				print(f"red word {red_word} not in dict2vec")
-		#TODO: is average the best way to do this
-		return 1/(sum(dict2vec_distances)/len(dict2vec_distances)) - 1/(min(red_dict2vec_distances))
-
+	# TODO: remove this if we're not using word2vec score anymore
 	def _get_word2vec_score(self, chosen_words, potential_clue, red_words):
 
 		word2vec_similarities = []

@@ -31,6 +31,7 @@ from embeddings.babelnet import Babelnet
 from embeddings.word2vec import Word2Vec
 from embeddings.glove import Glove
 from embeddings.fasttext import FastText
+from embeddings.bert import Bert
 
 sys.path.insert(0, "../")
 
@@ -134,8 +135,10 @@ class Codenames(object):
             return Glove(self.configuration)
         elif embedding_type == 'fasttext':
             return FastText(self.configuration)
+        elif embedding_type == 'bert':
+            return Bert(self.configuration)
         else:
-            print("Valid embedding types are babelnet, word2vec, glove and fasttext")
+            print("Valid embedding types are babelnet, word2vec, glove, fasttext, and bert")
 
         return None
 
@@ -453,23 +456,20 @@ if __name__ == "__main__":
         'capital', 'post', 'cast', 'soul', 'tower', 'green', 'plot', 'string', 'kangaroo', 'lawyer', 'fire',
         'robot', 'mammoth', 'hole', 'spider', 'bill', 'ivory', 'giant', 'bar', 'ray', 'drill', 'staff',
         'greece', 'press','pitch', 'nurse', 'contract', 'water', 'watch', 'amazon','spell', 'kiwi', 'ghost',
-        'cold', 'doctor', 'port', 'bark','foot', 'luck', 'nail', 'ice',
+        'cold', 'doctor', 'port', 'bark','foot', 'luck', 'nail', 'ice', 'needle', 'disease', 'comic', 'pool', 
+        'field', 'star', 'cycle', 'shadow', 'fan', 'compound', 'heart', 'flute','millionaire', 'pyramid', 'africa',
+        'robin', 'chest', 'casino','fish', 'oil', 'alps', 'brush', 'march', 'mint','dance', 'snowman', 'torch', 
+        'round', 'wake', 'satellite','calf', 'head', 'ground', 'club', 'ruler', 'tie','parachute', 'board', 
+        'paste', 'lock', 'knight', 'pit', 'fork', 'egypt', 'whale', 'scale', 'knife', 'plate','scorpion', 'bottle',
+        'boom', 'bolt', 'fall', 'draft', 'hotel', 'game', 'mount', 'train', 'air', 'turkey', 'root', 'charge',
+        'space', 'cat', 'olive', 'mouse', 'ham', 'washer', 'pound', 'fly', 'server','shop', 'engine', 'himalayas',
+        'box', 'antarctica', 'shoe', 'tap', 'cross', 'rose', 'belt', 'thumb', 'gold', 'point', 'opera', 'pirate', 
+        'tag', 'olympus', 'cotton', 'glove', 'sink', 'carrot', 'jack', 'suit', 'glass', 'spot', 'straw', 'well', 
+        'pan', 'octopus', 'smuggler', 'grass', 'dwarf', 'hood', 'duck', 'jet', 'mercury',
     ]
 
-    red_words = [
-        # ['tube', 'bark', 'swing', 'cast', 'drill', 'diamond', 'cell', 'superhero', 'phoenix', 'luck'],
-        # ['unicorn', 'ivory', 'hole', 'state', 'lemon', 'superhero', 'rock', 'crown', 'lead', 'bison'],
-        # ['hole', 'string', 'nurse', 'cloak', 'india', 'king', 'pitch', 'cap', 'lead', 'jupiter'],
-        # ['vacuum', 'car', 'scientist', 'foot', 'gas', 'spider', 'lemon', 'cold', 'embassy', 'superhero'],
-        # ['ivory', 'fighter', 'nut', 'greece', 'india', 'boot', 'bar', 'pitch', 'rock', 'piano'],
-    ]
-    blue_words = [
-        # ['lab', 'moon', 'bug', 'spell', 'witch', 'tower', 'boot', 'racket', 'mammoth', 'saturn'],
-        # ['green', 'litter', 'scientist', 'kid', 'cold', 'cap', 'mammoth', 'staff', 'table', 'beijing'],
-        # ['lab', 'ivory', 'spell', 'witch', 'key', 'change', 'boot', 'amazon', 'fire', 'beijing'],
-        # ['lab', 'hole', 'giant', 'bug', 'nurse', 'key', 'capital', 'pipe', 'beijing', 'saturn'],
-        # ['row', 'cloak', 'tower', 'gas', 'spider', 'diamond', 'luck', 'capital', 'crown', 'racket'],
-    ]
+    red_words = []
+    blue_words = []
 
     for _ in range(0, args.num_trials):
         random.shuffle(words)
@@ -494,77 +494,79 @@ if __name__ == "__main__":
         writer.writerow(header_row)
 
 
-    for embedding_type in args.embeddings:
-        embedding_trial_number = 0
-        debug_file_path = None
-        if args.debug is True or args.debug_file != None:
-            debug_file_path = (embedding_type + "-" + datetime.now().strftime("%m-%d-%Y-%H.%M.%S") + ".txt") if args.debug_file == None else args.debug_file
-            # Create directory to put debug files if it doesn't exist
-            if not os.path.exists('debug_output'):
-                os.makedirs('debug_output')
-            debug_file_path = os.path.join('debug_output', debug_file_path)
-            print("Writing debug output to", debug_file_path)
+    for useHeuristicOverride in [True, False]:
 
-        configuration = CodenamesConfiguration(
-            verbose=args.verbose,
-            visualize=args.visualize,
-            split_multi_word=args.split_multi_word,
-            disable_verb_split=args.disable_verb_split,
-            debug_file=debug_file_path,
-            length_exp_scaling=args.length_exp_scaling,
-            use_heuristics=(not args.no_heuristics),
-            single_word_label_scores=args.single_word_label_scores,
-        )
+        for embedding_type in args.embeddings:
+            embedding_trial_number = 0
+            debug_file_path = None
+            if args.debug is True or args.debug_file != None:
+                debug_file_path = (embedding_type + "-" + datetime.now().strftime("%m-%d-%Y-%H.%M.%S") + ".txt") if args.debug_file == None else args.debug_file
+                # Create directory to put debug files if it doesn't exist
+                if not os.path.exists('debug_output'):
+                    os.makedirs('debug_output')
+                debug_file_path = os.path.join('debug_output', debug_file_path)
+                print("Writing debug output to", debug_file_path)
 
-        game = Codenames(
-            configuration=configuration,
-            embedding_type=embedding_type,
-        )
+            configuration = CodenamesConfiguration(
+                verbose=args.verbose,
+                visualize=args.visualize,
+                split_multi_word=args.split_multi_word,
+                disable_verb_split=args.disable_verb_split,
+                debug_file=debug_file_path,
+                length_exp_scaling=args.length_exp_scaling,
+                use_heuristics=(not args.no_heuristics),
+                single_word_label_scores=args.single_word_label_scores,
+            )
 
-        for i, (red, blue) in enumerate(zip(red_words, blue_words)):
+            game = Codenames(
+                configuration=configuration,
+                embedding_type=embedding_type,
+            )
 
-            game._build_game(red=red, blue=blue,
-                             save_path="tmp_babelnet_" + str(i))
-            # TODO: Download version without using aliases. They may be too confusing
-            if game.configuration.verbose:
-                print("NEAREST NEIGHBORS:")
-                for word, clues in game.weighted_nn.items():
-                    print(word)
-                    print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
+            for i, (red, blue) in enumerate(zip(red_words, blue_words)):
 
-            best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
+                game._build_game(red=red, blue=blue,
+                                 save_path="tmp_babelnet_" + str(i))
+                # TODO: Download version without using aliases. They may be too confusing
+                if game.configuration.verbose:
+                    print("NEAREST NEIGHBORS:")
+                    for word, clues in game.weighted_nn.items():
+                        print(word)
+                        print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
 
-            print("===================================================================================================")
-            print("TRIAL", str(i+1))
-            print("RED WORDS: ", list(game.red_words))
-            print("BLUE WORDS: ", list(game.blue_words))
-            print("BEST CLUES: ")
-            for score, clues, board_words in zip(best_scores[:3], best_clues[:3], best_board_words_for_clue[:3]):
-                print()
-                print(clues, str(round(score,3)), board_words)
-                for clue in clues:
-                    print(
-                        "WORDS CHOSEN FOR CLUE: ",
-                        game.choose_words(
-                            2, clue, game.blue_words.union(game.red_words)),
-                    )
+                best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
 
-            # Write to CSV
-            heuristic_string = "withHeuristics" if configuration.use_heuristics else "noHeuristics"
-            embedding_with_trial_number = embedding_type +  heuristic_string + "Trial" + str(embedding_trial_number)
+                print("===================================================================================================")
+                print("TRIAL", str(i+1))
+                print("RED WORDS: ", list(game.red_words))
+                print("BLUE WORDS: ", list(game.blue_words))
+                print("BEST CLUES: ")
+                for score, clues, board_words in zip(best_scores[:3], best_clues[:3], best_board_words_for_clue[:3]):
+                    print()
+                    print(clues, str(round(score,3)), board_words)
+                    for clue in clues:
+                        print(
+                            "WORDS CHOSEN FOR CLUE: ",
+                            game.choose_words(
+                                2, clue, game.blue_words.union(game.red_words)),
+                        )
 
-            with open('amt.csv', 'a', newline='') as csvfile:
-                writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                writer.writerow([embedding_with_trial_number, best_clues[0][0]] + list(game.blue_words.union(game.red_words)))
+                # Write to CSV
+                heuristic_string = "withHeuristics" if configuration.use_heuristics else "noHeuristics"
+                embedding_with_trial_number = embedding_type +  heuristic_string + "Trial" + str(embedding_trial_number)
 
-            with open('amt_key.csv', 'a', newline='') as csvfile:
-                writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                writer.writerow([embedding_with_trial_number, str(configuration.__dict__), best_clues[0][0], best_board_words_for_clue[0][0], best_board_words_for_clue[0][1]] + list(game.blue_words) + list(game.red_words))
+                with open('amt.csv', 'a', newline='') as csvfile:
+                    writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                    writer.writerow([embedding_with_trial_number, best_clues[0][0]] + list(game.blue_words.union(game.red_words)))
 
-            embedding_trial_number += 1
+                with open('amt_key.csv', 'a', newline='') as csvfile:
+                    writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                    writer.writerow([embedding_with_trial_number, str(configuration.__dict__), best_clues[0][0], best_board_words_for_clue[0][0], best_board_words_for_clue[0][1]] + list(game.blue_words) + list(game.red_words))
+
+                embedding_trial_number += 1
 
 
-            # Draw graphs for all words
-            # all_words = red + blue
-            # for word in all_words:
-            #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
+                # Draw graphs for all words
+                # all_words = red + blue
+                # for word in all_words:
+                #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
