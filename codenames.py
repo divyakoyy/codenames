@@ -476,27 +476,31 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
+    amt_file_path = 'amt_2.csv'
+    amt_key_file_path = 'amt_key_2.csv'
     # Setup CSVs
-    if not os.path.exists('amt.csv'):
-        with open('amt.csv', 'w'): pass
+    if not os.path.exists(amt_file_path):
+        with open(amt_file_path, 'w'): pass
 
-    with open('amt.csv', 'w', newline='') as csvfile:
+    with open(amt_file_path, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         header_row = ['embedding_name', 'clue'] + ["word" + str(x) for x in range(0,20)]
         writer.writerow(header_row)
 
-    if not os.path.exists('amt_key.csv'):
-        with open('amt_key.csv', 'w'): pass
+    if not os.path.exists(amt_key_file_path):
+        with open(amt_key_file_path, 'w'): pass
 
-    with open('amt_key.csv', 'w', newline='') as csvfile:
+    with open(amt_key_file_path, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         header_row = ['embedding_name', 'configuration','clue', 'word0ForClue', 'word1ForClue'] + ["blueWord" + str(x) for x in range(0,10)] + ["redWord" + str(x) for x in range(0,10)]
         writer.writerow(header_row)
 
+    emebedding_trial_to_clue = dict()
 
     for useHeuristicOverride in [True, False]:
-
-        for embedding_type in args.embeddings:
+        shuffled_embeddings = args.embeddings
+        random.shuffle(shuffled_embeddings)
+        for embedding_type in shuffled_embeddings:
             embedding_trial_number = 0
             debug_file_path = None
             if args.debug is True or args.debug_file != None:
@@ -514,7 +518,8 @@ if __name__ == "__main__":
                 disable_verb_split=args.disable_verb_split,
                 debug_file=debug_file_path,
                 length_exp_scaling=args.length_exp_scaling,
-                use_heuristics=(not args.no_heuristics),
+                # use_heuristics=(not args.no_heuristics),
+                use_heuristics=useHeuristicOverride,
                 single_word_label_scores=args.single_word_label_scores,
             )
 
@@ -552,19 +557,24 @@ if __name__ == "__main__":
                         )
 
                 # Write to CSV
-                heuristic_string = "withHeuristics" if configuration.use_heuristics else "noHeuristics"
+                heuristic_string = "WithHeuristics" if configuration.use_heuristics else "WithoutHeuristics"
                 embedding_with_trial_number = embedding_type +  heuristic_string + "Trial" + str(embedding_trial_number)
 
-                with open('amt.csv', 'a', newline='') as csvfile:
-                    writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                    writer.writerow([embedding_with_trial_number, best_clues[0][0]] + list(game.blue_words.union(game.red_words)))
+                # Check if this clue has already been chosen with useHeuristicOverride = True
+                embedding_number = embedding_type + str(embedding_trial_number)
+                if useHeuristicOverride == True or (useHeuristicOverride == False and emebedding_trial_to_clue[embedding_number] != best_clues[0][0]):
 
-                with open('amt_key.csv', 'a', newline='') as csvfile:
+                    with open(amt_file_path, 'a', newline='') as csvfile:
+                        writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                        writer.writerow([embedding_with_trial_number, best_clues[0][0]] + list(game.blue_words.union(game.red_words)))
+
+                with open(amt_key_file_path, 'a', newline='') as csvfile:
                     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                     writer.writerow([embedding_with_trial_number, str(configuration.__dict__), best_clues[0][0], best_board_words_for_clue[0][0], best_board_words_for_clue[0][1]] + list(game.blue_words) + list(game.red_words))
 
                 embedding_trial_number += 1
-
+                if (useHeuristicOverride == True):
+                    emebedding_trial_to_clue[embedding_number] = best_clues[0][0]
 
                 # Draw graphs for all words
                 # all_words = red + blue

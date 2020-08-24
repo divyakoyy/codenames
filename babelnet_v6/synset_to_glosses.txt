@@ -41168,3 +41168,662 @@ bn:00066217n	WIKI	Rats are various medium-sized, long-tailed rodents of the supe
 bn:00066217n	WIKIDATA	Rodents of the superfamily Muroidea
 bn:00066217n	OMWIKI	A nearly omnivorous rodent of the genus ''rattus'' characterised by a long hairless tail, rounded ears, and a pointed nose.
 bn:00066217n	WIKIQU	Rats are various medium-sized, long-tailed rodents of the superfamily Muroidea.
+bn:00020899n	WN	A professional performer who tells jokes and performs comical acts
+bn:00020899n	WIKI	A comedian or comic is a person who seeks to entertain an audience by making them laugh.
+bn:00020899n	WIKIDATA	Person who seeks to entertain an audience, primarily by making them laugh
+bn:00020899n	OMWIKI	A professional performer who tells jokes and or performs comical acts.
+bn:00020899n	WIKT	A comedian.
+bn:02619569n	WIKI	A monologist, or interchangeably monologuist, is a solo artist who recites or gives dramatic readings from a monologue, soliloquy, poetry, or work of literature, for the entertainment of an audience.
+bn:02619569n	WIKI	Solo artist who recites or gives dramatic readings from a monologue, soliloquy, poetry, or work of literature, for the entertainment of an audience
+bn:15731577n	WIKIDATA	Japanese comedian
+bn:09182828n	NONE	NONE
+bn:05030283n	NONE	NONE
+bn:00470445n	WIKI	The Krankies are a Scottish comedy duo who enjoyed success as a cabaret act in the 1970s and on television in the 1980s, featuring in their own television shows and releasing their own music single.
+bn:00470445n	WIKIDATA	Scottish comedy duo
+bn:00006103n	WN	United States comedian; one of four brothers who made motion pictures together (1893-1964)
+bn:00006103n	WIKI	Arthur Julius Marx was an American author, a nationally ranked amateur tennis player, and son of entertainer Groucho Marx, and his first wife, Ruth Johnson.
+bn:00006103n	WIKIDATA	American author and tennis player
+bn:00014033n	WN	United States comedian and film actor (1896-1996)
+bn:00014033n	WIKI	For other uses, see George Burns 
+bn:00014033n	WIKIDATA	American comedian, actor, and writer
+bn:00014033n	WIKIQU	George Burns, born Nathan Birnbaum, was an American comedian, actor and comedic partner and husband of Gracie Allen.
+bn:00014193n	WN	United States comedian and actor in silent films noted for his acrobatic skills and deadpan face (1895-1966)
+bn:00014193n	WIKI	Joseph Frank "Buster" Keaton was an American actor, comedian, film director, producer, screenwriter, and stunt performer.
+bn:00014193n	WIKIDATA	American actor and filmmaker
+bn:00014193n	WIKIQU	Joseph Frank Keaton VI was American actor and filmmaker, often called The Great Stone Face, he was the first person ever called "Buster", acquiring the nickname from Harry Houdini who saw him take a fall down some stairs as an infant.
+bn:00017727n	WN	English comedian and film maker; portrayed a downtrodden little man in baggy pants and bowler hat (1889-1977)
+bn:00017727n	WIKI	Sir Charles Spencer Chaplin, was an English comic actor, filmmaker, and composer who rose to fame in the era of silent film.
+bn:00017727n	WIKIDIS	English comedy film actor and director
+bn:00017727n	WIKIDATA	British comic actor and filmmaker
+bn:00017727n	WIKIQU	Sir Charles Spencer Chaplin, KBE was a British comedic actor and director, usually known by his stage name of Charlie Chaplin.
+bn:00018312n	WN	United States comedian; one of four brothers who made motion pictures together (1891-1961)
+bn:00018312n	WIKI	Leonard Marx, known professionally as Chico Marx, was an American comedian, musician, bandleader, actor and film star.
+bn:00018312n	WIKIDATA	American comedian
+bn:00034339n	WN	United States comedian and film actor (1880-1946)
+bn:00034339n	WIKI	William Claude Dukenfield, better known as W. C. Fields, was an American comedian, actor, juggler and writer.
+bn:00034339n	WIKIDATA	Actor
+bn:00034339n	WIKIQU	W. C. Fields, born William Claude Dukenfield, was an American Actor and Comedian.
+bn:00042982n	WN	United States slapstick comedian who played the pompous and overbearing member of the Laurel and Hardy duo who made many films (1892-1957)
+bn:00042982n	WIKI	Oliver Norvell "Babe" Hardy was an American comic actor and one half of Laurel and Hardy, the double act that began in the era of silent films and lasted 25 years, from 1927 to 1951.
+bn:00042982n	WIKIDIS	American comic actor sometimes billed as Babe Hardy early in his career
+bn:00042982n	WIKIDATA	American comic actor famous as one half of Laurel and Hardy
+bn:00043077n	WN	Scottish ballad singer and music hall comedian (1870-1950)
+bn:00043077n	WIKI	Sir Henry Lauder was a Scottish singer and comedian popular in both the English music hall and vaudevillian theatre tradition; he achieved international success.
+bn:00043077n	WIKIDATA	Scottish entertainer
+bn:00043793n	WN	United States comedian; one of four brothers who made motion pictures together (1901-1979)
+bn:00053580n	WN	United States actor and comedian (born in 1945)
+bn:00053580n	WIKI	Stephen Glenn Martin is an American actor, comedian, writer, producer and musician.
+bn:00053580n	WIKIDATA	American actor, comedian, musician, author, playwright, and producer
+bn:00053580n	WIKIQU	Stephen Glenn Martin is an American comedian, writer, actor, musician and composer.
+bn:00002658n	WN	Risque English comedian (1925-1992)
+bn:00002658n	WIKI	Alfred Hawthorne "Benny" Hill was an English comedian and actor, best remembered for his television programme The Benny Hill Show, an amalgam of slapstick, burlesque and double entendre in a format that included live comedy and filmed segments, with him at the focus of almost every segment.
+bn:00002658n	WIKIDIS	Born Alfred Hawthorn Hill, English comedian and star of The Benny Hill Show
+bn:00002658n	WIKIDATA	English comedian and actor
+bn:00002658n	WIKIQU	Benny Hill was an English comedian and actor, notable for his long-running television program The Benny Hill Show.
+bn:00006113n	WN	United States slapstick comedian (born in England) who played the scatterbrained and often tearful member of the Laurel and Hardy duo who made many films (1890-1965)
+bn:00006113n	WIKI	Stan Laurel was an English comic actor, writer and film director, who was part of the comedy duo Laurel and Hardy.
+bn:00006113n	WIKIDATA	English comic actor
+bn:00009945n	WN	United States comedian known for his timeing and delivery and self-effacing humor (1894-1974)
+bn:00009945n	WIKI	Benny is a card used in trick-taking games that automatically counts as the highest trump.
+bn:00009945n	WIKI	Jack Benny was an American comedian, vaudevillian, radio, television and film actor, and violinist.
+bn:00009945n	WIKIDATA	Comedian, vaudeville performer, and radio, television, and film actor
+bn:00009945n	WIKIQU	Jack Benny, born Benjamin Kubelsky, was an American comedian, vaudeville performer, and radio, television, and film actor.
+bn:00007287n	WN	Writes (books or stories or articles or the like) professionally (for pay)
+bn:00007287n	WIKI	An author is the creator or originator of any written work such as a book or play, and is thus also a writer.
+bn:00007287n	WIKI	A writer is a person who uses written words in various styles and techniques to communicate their ideas.
+bn:00007287n	WIKIDIS	Originating content for any medium
+bn:00007287n	WIKIDATA	Person who uses written words to communicate ideas, person who produces works of literature
+bn:00007287n	WIKIDATA	Creator of an original work
+bn:00007287n	OMWIKI	Person who wrote the content of a published novel, book or text.
+bn:00007287n	WIKT	The originator or creator of a work, especially of a literary composition.
+bn:00007287n	WIKT	A person who writes, or produces literary work.
+bn:00007287n	WIKTLB	Originator or creator of a work.
+bn:00007287n	WIKIQU	Authors are persons who originate or gives existence to anything, said authorship determining responsibility for what is created.
+bn:00007287n	MSTERM	Individual, account, or website that published a post that was stored to the application's database.
+bn:00007287n	MSTERM	The entity primarily responsible for creating the content resource (that is, the author).
+bn:00023496n	WN	The skilled practice of a practical occupation
+bn:00023496n	WIKI	A craft or trade is a pastime or a profession that requires particular skills and knowledge of skilled work.
+bn:00023496n	WIKIDATA	Pastime or job involving the small-scale production of goods, or their maintenance
+bn:00023496n	OMWIKI	An occupation or trade requiring manual dexterity or skilled artistry.
+bn:00023496n	OMWIKI	The skilled practice of a practical occupation.
+bn:00023496n	WIKT	The skilled practice of a practical occupation.
+bn:00021232n	WN	A person who communicates with others
+bn:00021232n	WIKT	Someone who, or something that communicates.
+bn:00021232n	WIKTLB	One who communicates.
+bn:15683405n	WIKI	Comics is a medium used to express ideas by images, often combined with text or other visual information.
+bn:15683405n	WIKIDIS	A medium of expression using images, often combined with text
+bn:15683405n	WIKIDATA	Creative work in which pictures and text convey information such as narratives
+bn:15683405n	WIKIQU	Comics is a form of visual art consisting of images which are commonly combined with text, often in the form of speech balloons or image captions.
+bn:00020927n	WN	A magazine devoted to comic strips
+bn:00020927n	WIKI	A comic book or comicbook, also called comic magazine or simply comic, is a publication that consists of comic art in the form of sequential juxtaposed panels that represent individual scenes.
+bn:00020927n	WIKIDATA	Publication of comics art
+bn:00020927n	OMWIKI	A magazine or book containing the sequential art form of a graphic novel.
+bn:00020927n	WIKT	A comic book.
+bn:00020927n	WIKT	A cartoon story, a graphic novel.
+bn:00016329n	WN	A sequence of drawings telling a story in a newspaper or comic book
+bn:00016329n	WIKI	A comic strip is a sequence of drawings arranged in interrelated panels to display brief humor or form a narrative, often serialized, with text in balloons and captions.
+bn:00016329n	WIKIDIS	A sequence of drawings arranged in interrelated panels to display brief humor or form a narrative
+bn:00016329n	WIKIDATA	Short serialized comics
+bn:00016329n	WIKT	A comic strip.
+bn:00016329n	WIKT	The section of a newspaper containing comic strips.
+bn:00016329n	WIKTLB	Short for comic strip, see also translations for comic strip.
+bn:00062309n	WN	A product produced or accomplished through the effort or activity or agency of a person or thing
+bn:00062309n	OMWIKI	That that has been made; a product produced or accomplished through the effort or activity or agency of a person or thing.
+bn:00062309n	WIKT	The score for such a work.
+bn:00062309n	WIKT	The result of a particular manner of production.
+bn:02284123n	WIKI	In publishing and library and information science, the term serial is applied to materials "in any medium issued under the same title in a succession of discrete parts, usually numbered and appearing at regular or irregular intervals with no predetermined conclusion."
+bn:02284123n	WIKI	Literary or other works with same title issued in successive parts
+bn:02284123n	WIKIDATA	Same-title work issued in successive parts
+bn:00006866n	WN	A colorless element that is one of the six inert gasses; occurs in trace amounts in air
+bn:00006866n	WIKI	Krypton is a chemical element with symbol Kr and atomic number 36.
+bn:00006866n	WIKIDIS	A chemical element with symbol Kr
+bn:00006866n	WIKIDATA	Chemical element with atomic number of 36
+bn:00006866n	OMWIKI	A chemical element with symbol Kr and atomic number of 36; a colorless noble gas.
+bn:00006866n	WIKT	A chemical element with an atomic number of 36; one of the noble gases.
+bn:00006866n	WIKTLB	A chemical element.
+bn:00006884n	WN	A colorless odorless inert gaseous element occurring in the earth's atmosphere in trace amounts
+bn:00006884n	WIKI	A third-person pronoun is a pronoun that refers to an entity other than the speaker or listener.
+bn:00006884n	WIKI	Xenon is a chemical element with symbol Xe and atomic number 54.
+bn:00006884n	WIKIDIS	A chemical element
+bn:00006884n	WIKIDATA	Chemical element with atomic number of 54 and heaviest stable noble gas
+bn:00006884n	OMWIKI	A chemical element with symbol Xe and atomic number of 54, a heavy colorless noble gas.
+bn:00006884n	WIKT	A heavy, gaseous chemical element of the noble gases group with an atomic number of 54.
+bn:00006884n	WIKT	A gender-neutral pronoun.
+bn:00006901n	WN	A common nonmetallic element that is normally a colorless odorless tasteless inert diatomic gas; constitutes 78 percent of the atmosphere by volume; a constituent of all living tissues
+bn:00006901n	WIKI	Nitrogen is a chemical element with symbol N and atomic number 7.
+bn:00006901n	WIKIDIS	The elemental form of nitrogen, a gas
+bn:00006901n	WIKIDATA	Element with the atomic number of 7
+bn:00006901n	OMWIKI	Gaseous, non-metallic chemical element with symbol N and atomic number 7.
+bn:00006901n	WIKT	A chemical element with an atomic number of 7 and atomic weight of 14.0067.
+bn:00006901n	WIKT	Nitrogen gas.
+bn:00006824n	WN	A colorless odorless gaseous element that give a red glow in a vacuum tube; one of the six inert gasses; occurs in the air in small amounts
+bn:00006824n	WIKI	Neon is a chemical element with symbol Ne and atomic number 10.
+bn:00006824n	WIKIDIS	The chemical element
+bn:00006824n	WIKIDATA	Element with the atomic number of 10
+bn:00006824n	OMWIKI	The chemical element with symbol Ne and atomic number 10, a colorless noble gas.
+bn:00006824n	WIKT	The chemical element with an atomic number of 10.
+bn:00012966n	WN	The air that is inhaled and exhaled in respiration
+bn:00012966n	OMWIKI	The air inhaled and exhaled through the lungs.
+bn:00012966n	WIKT	Air expelled from the lungs.
+bn:00012966n	WIKTLB	Air expelled from the lungs.
+bn:00012966n	FRAMENET	An inhalation or exhalation of air from the lungs.
+bn:00044932n	WN	Air that has been heated and tends to rise
+bn:00044932n	WIKT	Air that has been heated, especially so as to function as the lifting agent of a hot-air balloon.
+bn:00051475n	WN	Air in a liquid state
+bn:00051475n	WIKI	Liquid air is air that has been cooled to very low temperatures, so that it has condensed into a pale blue mobile liquid.
+bn:00051475n	WIKT	Air which is in a liquid state due to being pressurised or kept at a low temperature, or both, usually for storage and transport purposes.
+bn:00051475n	WIKTLB	Air in liquid state.
+bn:10902319n	WIKI	The outer shell of planet Earth
+bn:00002186n	WN	The region above the ground
+bn:00002188n	WN	A slight wind (usually refreshing)
+bn:00002188n	OMWIKI	A slight wind.
+bn:00002188n	WIKT	A light, gentle wind.
+bn:00002188n	WIKT	The west wind personified.
+bn:00002188n	WIKT	A breeze; a gentle wind.
+bn:00002188n	WIKTLB	The west wind personified.
+bn:00012969n	WN	A slight movement of the air
+bn:00036482n	WN	Wind moving 19-24 knots; 5 on the Beaufort scale
+bn:00037767n	WN	Wind moving 8-12 knots; 3 on the Beaufort scale
+bn:00051122n	WN	Wind moving 1-3 knots; 1 on the Beaufort scale
+bn:00051122n	WIKT	A light wind with wind speed between 0.3 and 1.5 m/s; a Force 1 wind strength on the Beaufort scale.
+bn:00051126n	WN	Wind moving 4-7 knots; 2 on the Beaufort scale
+bn:00055455n	WN	Wind moving 13-18 knots; 4 on the Beaufort scale
+bn:00069956n	WN	A cooling breeze from the sea (during the daytime)
+bn:00069956n	WIKI	A sea breeze or onshore breeze is any wind that blows from a large body of water toward or onto a landmass; it develops due to differences in air pressure created by the differing heat capacities of water and dry land.
+bn:00069956n	WIKIDIS	Wind that develops over land near coasts.
+bn:00069956n	WIKT	A breeze that blows off the sea on to the nearby land.
+bn:00069956n	WIKT	A breeze blowing off the land and out to sea - common at night.
+bn:00069956n	WIKTLB	An offshore breeze.
+bn:00074734n	WN	Wind moving 25-31 knots; 6 on the Beaufort scale
+bn:00002190n	WN	Once thought to be one of four elements composing the universe (Empedocles)
+bn:00002190n	WIKI	Air is one of the four classical elements in ancient Greek philosophy and in Western alchemy.
+bn:00002190n	WIKIDIS	In Greek mythology
+bn:00002190n	WIKIDATA	One of the four classical elements; universal power or pure substance
+bn:00002190n	WIKT	The atmospheric substance above the surface of the earth which animals breathe, formerly considered to be a single substance, one of the four basic elements of ancient philosophy and one of the five basic elements of several Eastern traditions.
+bn:00002190n	WIKTLB	Historical: one of the basic elements.
+bn:00002192n	WN	Medium for radio and television broadcasting
+bn:00054151n	WN	An intervening substance through which signals can travel as a means for communication
+bn:00054151n	MSTERM	A substance in which signals can be transmitted, such as a wire or fiber-optic cable.
+bn:00002214n	WN	The use of military aircraft to provide protection against attack by enemy aircraft during ground or naval operations
+bn:00002214n	WIKI	Military aviation is the use of military aircraft and other flying machines for the purposes of conducting or enabling aerial warfare, including national airlift capacity to provide logistical supply to forces stationed in a theater or along a front.
+bn:00002214n	WIKIDATA	Use of aircraft by armed forces in combat or other military capacity
+bn:00002303n	WN	The art of operating aircraft
+bn:00002303n	WIKI	Airmanship is skill and knowledge applied to aerial navigation, similar to seamanship in maritime navigation.
+bn:00002303n	WIKIDATA	Skill set applied to flying
+bn:00002303n	WIKT	The art or science of making and flying aircraft.
+bn:00002303n	WIKT	Skill in and knowledge of the work of navigating and operating an aircraft.
+bn:00002303n	WIKTLB	Art or science of flying.
+bn:00048557n	WN	Descent with a parachute
+bn:00048557n	WIKI	Parachuting, or skydiving, is a method of transiting from a high point to Earth with the aid of gravity, involving the control of speed during the descent with the use of a parachute.
+bn:00048557n	WIKIDIS	Also known as sky diving
+bn:00048557n	WIKIDATA	Action sport of exiting an aircraft and returning to Earth  using a parachute
+bn:00048557n	WIKT	The sport of jumping with a parachute.
+bn:00430195n	WIKI	General aviation are all civil aviation operations other than scheduled air services and non-scheduled air transport operations for remuneration or hire.
+bn:00430195n	WIKIDIS	The category of civil aviation encompassing all non-scheduled aircraft flights
+bn:00430195n	WIKIDATA	Civil use of aircraft excluding commercial transportation
+bn:00830416n	WIKI	Ultralight aviation is the flying of lightweight, 1- or 2-seat fixed-wing aircraft.
+bn:00830416n	WIKIDATA	Aviation field involving design, regulation, and operation of very lightweight aircraft
+bn:00830416n	WIKT	An ultralight aircraft.
+bn:01105625n	WIKI	Civil aviation is one of two major categories of flying, representing all non-military aviation, both private and commercial.
+bn:01105625n	WIKIDATA	All non-military aviation
+bn:01486000n	WIKI	Polar aviation refers to aviation in polar regions of the Earth.
+bn:02233314n	WIKI	Private aviation is the part of civil aviation that does not include flying for hire.
+bn:06942322n	NONE	NONE
+bn:00078085n	WN	The act of going from one place to another
+bn:00078085n	WIKI	Travel is the movement of people between relatively distant geographical locations, and can involve travel by foot, bicycle, automobile, train, boat, bus, airplane, or other means, with or without luggage, and can be one way or round trip.
+bn:00078085n	WIKIDIS	Movement of people between locations
+bn:00078085n	WIKIDATA	Movement of people between relatively distant geographical locations
+bn:00078085n	OMWIKI	The transport of people on a trip or journey.
+bn:00078085n	WIKT	The act of traveling.
+bn:00078085n	WIKTLB	Act of traveling.
+bn:00078085n	MSTERM	An application for travel planning, including destination photos and panoramas, travel guides, booking tools, currency conversions, and weather forecasts.
+bn:15855519n	WIKI	Bianhua meaning "transformation, metamorphosis" was a keyword in both Daoism and Chinese Buddhism.
+bn:15855519n	WIKIDATA	Process, event or action that deviates from the present state
+bn:00013488n	WN	A dense growth of bushes
+bn:00013488n	WIKI	A thicket is a very dense stand of trees or tall shrubs, often dominated by only one or a few species, to the exclusion of all others.
+bn:00013488n	OMWIKI	A dense, but generally small, growth of shrubs, bushes or small trees.
+bn:00013488n	WIKT	A dense, but generally small, growth of shrubs, bushes or small trees; a copse.
+bn:00013488n	WIKT	A thicket of small trees or shrubs.
+bn:00013488n	WIKT	Small trees and shrubs.
+bn:00013488n	WIKT	Wild vegetation, generally larger than grass but smaller than trees.
+bn:00013488n	WIKT	A grove of small growth; a thicket of brushwood; a wood cut at certain times for fuel or other purposes, typically managed to promote growth and ensure a reliable supply of timber. See copse.
+bn:00013488n	WIKTLB	Small trees and shrubs.
+bn:00012712n	WN	An area thickly overgrown usually with one kind of plant
+bn:00012712n	WIKT	A thicket, or an area overgrown with briers etc.
+bn:00015246n	WN	A dense growth of cane (especially giant cane)
+bn:00073401n	WN	A copse that shelters game
+bn:00073401n	WIKT	A small copse or wood, especially one planted as a shelter for game birds.
+bn:00078982n	WN	The brush (small trees and bushes and ferns etc.) growing beneath taller trees in a wood or forest
+bn:00078982n	WIKI	In forestry and ecology, understory comprises plant life growing beneath the forest canopy without penetrating it to any great extent, but above the forest floor.
+bn:00078982n	WIKIDATA	Plant life growing beneath the forest canopy
+bn:00078982n	WIKT	The small trees and other plants that clutter the floor of a forest.
+bn:00078982n	WIKT	The plants in a forest which only reach a relatively low height.
+bn:00012321n	WN	All the plant life in a particular region or period
+bn:00012321n	WIKI	Vegetation is an assemblage of plant species and the ground cover they provide.
+bn:00012321n	WIKI	In Roman mythology, Flora is a Sabine-derived goddess of flowers and of the season of spring – a symbol for nature and flowers.
+bn:00012321n	WIKIDATA	Total of plant formations and plant communities
+bn:00012321n	WIKIDATA	Goddess of prosperity in Roman mythology
+bn:00012321n	OMWIKI	1) The plants of an area considered in general or as communities, but not taxonomically; the total plant cover in a particular area or on the Earth as a whole. 2) The total mass of plant life that occupies a given area. 
+bn:00012321n	WIKT	The goddess of flowers, nature and spring; she is also the wife of Favonius and the mother of Karpos. She is the Roman counterpart of Chloris.
+bn:00012321n	WIKT	The properties and life phenomena exhibited by a plant, plant type, or plant group.
+bn:00012321n	WIKTLB	The goddess of flowers.
+bn:00042547n	WN	A brush used to groom a person's hair
+bn:00042547n	WIKI	A hairbrush is a stick brush with rigid or soft bristles used in hair care for smoothing, styling, and detangling human hair, or for grooming an animal's fur.
+bn:00042547n	WIKI	Stick brush with rigid or soft bristles used in hair care
+bn:00042547n	WIKIDIS	A brush designed for grooming hair
+bn:00042547n	OMWIKI	A brush for cleansing and smoothing the hair.
+bn:00042547n	WIKT	A brush used in hair care for brushing, tidying, and detangling hair.
+bn:00042547n	WIKTLB	A brush used in hair care.
+bn:00077602n	WN	Small brush; has long handle; used to clean teeth
+bn:00077602n	WIKI	The toothbrush is an oral hygiene instrument used to clean the teeth, gums, and tongue.
+bn:00077602n	WIKIDIS	A brush designed for cleaning teeth
+bn:00077602n	OMWIKI	An implement with a handle, and a head with multiple more or less flexible bristles, used for cleaning teeth.
+bn:00077602n	WIKT	A brush, used with toothpaste, for cleaning the teeth.
+bn:00077602n	WIKTLB	Brush for cleaning the teeth and tongue.
+bn:03367352n	WIKI	A toilet brush is a tool for cleaning a toilet bowl.
+bn:03367352n	WIKIDIS	A scrubbing brush for cleaning toilets
+bn:03367352n	WIKT	A toilet brush.
+bn:03367352n	WIKT	A brush used to clean a toilet (the appliance which accepts human waste).
+bn:03367352n	WIKTLB	Brush to clean toilet bowl.
+bn:16969885n	NONE	NONE
+bn:06509582n	NONE	NONE
+bn:00013352n	WN	A cleaning implement for sweeping; bundle of straws or twigs attached to a long handle
+bn:00013352n	WIKI	A broom is a cleaning tool consisting of usually stiff fibers attached to, and roughly parallel to, a cylindrical handle, the broomstick.
+bn:00013352n	WIKIDATA	Cleaning tool
+bn:00013352n	OMWIKI	A tool used to sweep and clean the floor, made of a bundle of straws or twigs attached to a long handle.
+bn:00013352n	WIKT	A domestic utensil with fibers bound together at the end of a long handle, used for sweeping.
+bn:00060193n	WN	A brush used as an applicator (to apply paint)
+bn:00060193n	WIKI	A paintbrush is a brush used to apply paint or sometimes ink.
+bn:00060193n	WIKIDATA	Brush for painting
+bn:00060193n	OMWIKI	A small brush used to paint artwork.
+bn:00060193n	WIKT	A thin brush for applying paint.
+bn:15118606n	WIKI	Brush for cleaning and freshening clothing
+bn:05289611n	NONE	NONE
+bn:00013159n	WN	A stiff fiber (coarse hair or filament); natural or synthetic
+bn:00013159n	WIKI	A bristle is a stiff hair or feather, either on an animal, such as a pig, or on a tool such as a brush or broom.
+bn:00013159n	WIKIDIS	Sometimes obtained from boars
+bn:00013159n	WIKIDATA	Painting implement
+bn:00013159n	OMWIKI	A stiff or coarse animal hair.
+bn:00013159n	WIKT	A stiff or coarse hair.
+bn:00013159n	WIKTLB	Stiff or coarse hair.
+bn:00012356n	WN	A cylindrical brush on a thin shaft that is used to clean bottles
+bn:00012356n	WIKT	A cylindrical brush on a thin shaft that is used to clean bottles.
+bn:00013161n	WN	A brush that is made with the short stiff hairs of an animal or plant
+bn:00019991n	WN	A brush used for cleaning clothing
+bn:00019991n	WIKT	A brush for the clothes.
+bn:00019991n	WIKTLB	A brush for brushing clothes with.
+bn:00056734n	WN	A brush used to clean a person's fingernails
+bn:00056734n	WIKT	A small brush, with firm bristles, used to clean the fingernails or to scrub the hands.
+bn:00056734n	WIKTLB	A small brush to clean the fingernails.
+bn:00042790n	WN	A tool used with workers' hands
+bn:00042790n	WIKI	A hand tool is any tool that is powered by hand rather than a motor.
+bn:00042790n	WIKIDATA	Tool equipment powered manually
+bn:00042790n	WIKT	A tool powered by human muscle rather than a motor or engine.
+bn:00042790n	WIKTLB	Tool powered by human muscle.
+bn:00013490n	WN	Momentary contact
+bn:00077726n	WN	The event of something coming in contact with the body
+bn:00077726n	WIKT	An act of touching, especially with the hand or finger.
+bn:00077726n	WIKTLB	Act of touching.
+bn:00013494n	WN	The act of brushing your teeth
+bn:00013494n	WIKT	The act of brushing something.
+bn:00013494n	WIKTLB	Act of brushing.
+bn:00026270n	WN	Care for the teeth
+bn:00002157n	WN	The work of providing treatment for or attending to someone or something
+bn:00002157n	OMWIKI	Treatment done for a patient in order to alleviate his pain and to heal him.
+bn:00013495n	WN	The act of brushing your hair
+bn:00013495n	WIKT	A tuft of hair on the mandibles.
+bn:00042532n	WN	Care for the hair: the activity of washing or cutting or curling or arranging the hair
+bn:00042532n	WIKI	Hair care is an overall term for hygiene and cosmetology involving the hair which grows from the human scalp, and to a lesser extent facial, pubic and other body hair.
+bn:00042532n	WIKIDATA	Hygiene and cosmetology involving human hair
+bn:00042532n	WIKT	The care and treatment of the hair.
+bn:00042532n	WIKT	The washing, colouring, cutting and styling of the hair; the art or trade of a hairdresser.
+bn:00042532n	WIKTLB	The art or trade of a hairdresser.
+bn:00052907n	WN	Cosmetics applied to the face to improve or change your appearance
+bn:00052907n	WIKI	Cosmetics are substances or products used to enhance or alter the appearance or fragrance of the body.
+bn:00052907n	WIKIDIS	For use in face-to-face interactions
+bn:00052907n	WIKIDATA	Substances used to enhance the appearance or odor of the human body
+bn:00052907n	OMWIKI	Colored products intended to alter the user's appearance.
+bn:00052907n	WIKT	Cosmetics; colorants and other substances applied to the skin to improve its appearance.
+bn:00052907n	WIKT	The study of such products.
+bn:00052907n	WIKTLB	Study of such products.
+bn:00043361n	WN	The preservation of mental and physical health by preventing or treating illness through services offered by the health profession
+bn:00043361n	WIKI	Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, and treatment of disease, illness, injury, and other physical and mental impairments in human beings.
+bn:00043361n	WIKIDIS	The prevention, treatment, and management of illness
+bn:00043361n	WIKIDATA	Diagnosis, treatment and prevention of disease, illness, injury
+bn:00043361n	OMWIKI	The prevention, treatment, and management of illness and the preservation of mental and physical well being through the services offered by the medical, nursing, and allied health professions.
+bn:00043361n	WIKT	The prevention, treatment, and management of illness or the preservation of mental and physical well-being through the services offered by the medical, nursing, and allied health professions.
+bn:00043361n	WIKTLB	Prevention, treatment, and management of illnesses.
+bn:00043361n	WIKIQU	Healthcare is the treatment and management of illness, and the preservation of health through services offered by the medical, dental, pharmaceutical, nursing, and related professions.
+bn:00064296n	WN	Remedy that prevents or slows the course of an illness or disease
+bn:00064296n	WIKI	Preventive healthcare consists of measures taken for disease prevention, as opposed to disease treatment.
+bn:00064296n	WIKIDATA	Prevent and minimize the occurrence of diseases
+bn:00064296n	WIKT	A thing that slows the development of an illness.
+bn:00064298n	WN	The branch of medicine concerned with preventing disease
+bn:00064298n	WIKI	Preventive healthcare consists of measures taken for disease prevention, as opposed to disease treatment.
+bn:00064298n	WIKIDATA	Prevent and minimize the occurrence of diseases
+bn:00064761n	WN	The prevention of disease
+bn:00064761n	WIKI	Preventive healthcare consists of measures taken for disease prevention, as opposed to disease treatment.
+bn:00064761n	WIKIDATA	Prevent and minimize the occurrence of diseases
+bn:00064761n	WIKT	Prevention of, or protective treatment for disease.
+bn:00064761n	WIKTLB	Prevention of, or protective treatment for disease.
+bn:00084156v	WN	Clean with a brush
+bn:00084157v	WN	Sweep across or over
+bn:00084157v	FRAMENET	Graze.
+bn:00066028n	WN	Public transport provided by a line of railway cars coupled together and drawn by a locomotive
+bn:00066028n	WIKI	A train is a form of rail transport consisting of a series of connected vehicles that generally runs along a rail track to transport cargo or passengers.
+bn:00066028n	WIKIDATA	One or more self-propelled vehicles that move along fixed rails to transport passengers or cargo
+bn:00066028n	OMWIKI	A train that is equiped to transport people.
+bn:00066028n	OMWIKI	A self-propelled, connected group of vehicles moving on rails.
+bn:00066028n	WIKT	A line of connected railway cars or carriages considered overall as a mode of transport; rail travel.
+bn:00066028n	WIKTLB	Line of connected cars or carriages.
+bn:00036422n	WN	A long-distance express freight train between industrial centers and seaports with facilities for rapid loading and unloading of goods
+bn:00036422n	WIKI	Rail freight transport is the use of railroads and trains to transport cargo as opposed to human passengers.
+bn:00036422n	WIKIDATA	Transportation of freight by train
+bn:00036422n	OMWIKI	A train which is exclusively intended for the transport of goods.
+bn:00036422n	WIKT	A train used for the transportation of goods.
+bn:00036422n	WIKT	Goods or items in transport.
+bn:00036422n	WIKTLB	Transport of goods
+bn:00036423n	WN	A railroad train consisting of freight cars
+bn:00036423n	WIKI	Rail freight transport is the use of railroads and trains to transport cargo as opposed to human passengers.
+bn:00036423n	WIKIDATA	Transportation of freight by train
+bn:00036423n	WIKT	A train used for the transportation of freight.
+bn:00036423n	WIKT	A freight train or, , a decrepit passenger train.
+bn:00052702n	WN	High-speed rail technology; train is suspended on a magnetic cushion above a magnetized track and so travels free of friction
+bn:00052702n	WIKI	Maglev is a system of train transportation that uses two sets of magnets, one set to repel and push the train up off the track as in levitation, then another set to move the 'floating train' ahead at great speed taking advantage of no friction.
+bn:00052702n	WIKIDATA	Transport method that uses magnetic levitation to move vehicles without making contact with the ground; locomotion device with magnetic sustentation
+bn:00212578n	WIKI	The Hiawathas were a fleet of named passenger trains operated by the Chicago, Milwaukee, St. Paul and Pacific Railroad between Chicago and various destinations in the Midwest and Western United States.
+bn:00212578n	WIKIDIS	A group of named passenger trains of the Chicago, Milwaukee, St. Paul and Pacific Railroad
+bn:00212578n	WIKIDATA	Fleet of trains in Chicago
+bn:00339546n	WIKI	The Siemens Nexas is a class of electric multiple units manufactured by Siemens Transportation Systems for the suburban railway network of Melbourne, Australia between 2002 and 2005.
+bn:00339546n	WIKIDATA	Class of electric multiple units manufactured by Siemens Transportation Systems for the suburban railway network of Melbourne, Australia between 2002 and 2005
+bn:00350396n	WIKI	A royal train is a set of railway carriages dedicated for the use of the monarch or other members of a royal family.
+bn:00350396n	WIKIDATA	Train  for the use of the Monarch, other members of the Royal Family, and their staff.
+bn:01592927n	WIKI	A Nahgüterzug is the name given to a category of local goods train in German-speaking countries, sometimes translated as a 'pick up' train or pick-up goods train.
+bn:02287112n	WIKI	Luxury trains are trains specifically designed to offer an extravagant train ride and evoke a strong sense of association with history and heritage.
+bn:02287112n	WIKIDATA	Special train, designed for elegance
+bn:03111561n	WIKI	The Metroliners were extra-fare high speed trains between Washington, D.C. and New York City which operated from 1969 to 2006.
+bn:03111561n	WIKIDATA	Former express train between Washington, D.C., and New York City
+bn:03861459n	WIKI	The Blue Angel was the name given to the Plan X class DE-1 diesel railcars formerly used by the Netherlands Railways.
+bn:03861459n	WIKI	Class of 1- and 2-car diesel railcars formerly used by the Netherlands Railways
+bn:03861459n	WIKIDIS	A diesel railcar formerly used by the Netherlands Railways
+bn:03861459n	WIKIDATA	Railcar formerly used by the Netherlands Railways
+bn:04229466n	NONE	NONE
+bn:08159767n	NONE	NONE
+bn:13843029n	WIKIDATA	Train carrying passengers
+bn:15190417n	NONE	NONE
+bn:15595406n	WIKI	Milk trains were a common sight on the railways of Great Britain from the early 1930s to the late 1960s.
+bn:15595406n	WIKIDATA	Trains conveying milk in Great Britain
+bn:16368017n	WIKI	A sealed train is one that travels internationally under customs and/or immigration seal, without its contents officially entering the nations traversed between the beginning and end of the journey.
+bn:04750641n	NONE	NONE
+bn:03816306n	WIKI	An armoured train is a railway train protected with armour.
+bn:03816306n	WIKIDATA	Military railway train
+bn:04193558n	NONE	NONE
+bn:05233126n	NONE	NONE
+bn:00015785n	WN	A wheeled vehicle adapted to the rails of railroad
+bn:00015785n	WIKI	A railroad car or railcar, railway wagon or railway carriage and UICa railroad/railway
+bn:00015785n	WIKI	A railcar, in British English and Australian English, is a self-propelled railway vehicle designed to transport passengers.
+bn:00015785n	WIKIDIS	Pulled by a locomotive;
+bn:00015785n	WIKIDIS	A type of self-propelled passenger-carrying railway vehicle.
+bn:00015785n	WIKIDATA	Vehicle used for carrying cargo or passengers on rail transport system
+bn:00015785n	WIKIDATA	Single railway motor coach propelled by an internal combustion engine
+bn:00015785n	OMWIKI	A railway vehicle that is drawn by a locomotive.
+bn:00015785n	WIKT	Any railroad vehicle that is not a locomotive.
+bn:00015785n	WIKT	Any railway carriage or wagon, a railway car.
+bn:00015785n	MSTERM	The assembly that holds the platen of a typewriter or a typewriterlike printer. On a standard typewriter, the platen and carriage move past a fixed position within the typewriter housing, where the keys strike the paper; the platen rotates to advance the paper held in the carriage. On most impact printers for computers, however, the print head moves back and forth across a platen, which rotates but does not move horizontally; in such machines, the assembly that carries the print head is often called the print-head carriage assembly.
+bn:00065101n	WN	Conveyance for passengers or mail or freight
+bn:02343072n	WIKI	The opening of the Liverpool and Manchester Railway took place on 15 September 1830.
+bn:00089791v	WN	Impart skills or knowledge to
+bn:00089791v	OMWIKI	To pass on knowledge and skills.
+bn:00089791v	WIKT	To pass on knowledge to.
+bn:00089791v	WIKTLB	To pass on knowledge.
+bn:00089791v	FRAMENET	Impart knowledge to or instruct (someone) in how to do something, especially in a school or as part of a recognized programme.
+bn:00084856v	WN	Develop (children's) behavior by instruction and practice; especially to teach self-control
+bn:00084856v	OMWIKI	To develop behaviour by instruction and practice.
+bn:00084856v	WIKT	To train someone by instruction and practice.
+bn:00084856v	WIKT	To shape the behaviour of someone to do something.
+bn:00084856v	WIKTLB	To train someone by instruction and practice.
+bn:00086740v	WN	Cause to grow and differentiate in ways conforming to its natural development
+bn:00089060v	WN	Educate for a future role or function
+bn:00089060v	OMWIKI	To educate for a future role or function.
+bn:00085223v	WN	Teach and supervise (someone); act as a trainer or coach (to), as in sports
+bn:00085223v	OMWIKI	To act as a trainer or coach (to), as in sports.
+bn:00085223v	FRAMENET	Train or teach as a coach.
+bn:00095067v	WN	Exercise in order to prepare for an event or competition
+bn:00095067v	OMWIKI	To exercise in order to prepare for an event or competition.
+bn:00087831v	WN	Do physical exercise
+bn:00047799n	WN	Game equipment consisting of one of several small six-pointed metal pieces that are picked up while bouncing a ball in the game of jacks
+bn:00047799n	WIKT	A small, six-pointed playing piece used in the game of jacks.
+bn:03648425n	WIKI	Page of Swords is a card used in Latin suited playing cards which include tarot decks.
+bn:03648425n	WIKIDATA	Playing card
+bn:15707273n	WIKIDATA	Playing card
+bn:16075597n	WIKIDATA	Playing card
+bn:17814217n	WIKIDATA	Playing card
+bn:15117902n	WIKIDATA	Playing card
+bn:00047802n	WN	Tool for exerting pressure or lifting
+bn:00013866n	WN	A jack for lifting a motor vehicle by the bumper
+bn:00047835n	WN	Screw-operated jack
+bn:00047835n	WIKI	A jackscrew is a type of jack that is operated by turning a leadscrew.
+bn:00047835n	WIKT	A jack which is operated by turning a leadscrew.
+bn:16457842n	WIKI	A jack, screwjack or jackscrew is a mechanical device used as a lifting device to lift heavy loads or to apply great forces.
+bn:16457842n	WIKIDIS	A device used to lift heavy objects
+bn:16457842n	WIKIDATA	Mechanical device used as a lifting device to lift heavy loads or apply great forces
+bn:16457842n	OMWIKI	A mechanical device used to lift heavy loads.
+bn:16457842n	WIKT	A mechanical device used to raise and support a heavy object, e.g. screw jack, scissor jack, hydraulic jack, ratchet jack, scaffold jack.
+bn:16457842n	WIKTLB	Device for raising and supporting a heavy object.
+bn:10418529n	NONE	NONE
+bn:05220845n	NONE	NONE
+bn:15020307n	WIKI	Equipment that can be used to lift loads
+bn:00089934v	WN	Lift with a special device
+bn:00084110v	WN	Raise from a lower to a higher position
+bn:00084110v	OMWIKI	To cause to rise; to move something from a lower position to a higher one.
+bn:00084110v	OMWIKI	To cause an object to have a higher location than previously.
+bn:00084110v	OMWIKI	To raise something to a higher position.
+bn:00084110v	WIKT	To raise to a higher position; to lift.
+bn:00084110v	WIKT	To raise or rise.
+bn:00084110v	WIKT	To move from a sitting or lying position to a standing position; to stand up.
+bn:00084110v	WIKT	To cause to seem higher by drawing nearer to it.
+bn:00071172n	WN	Footwear shaped to fit the foot (below the ankle) with a flexible upper of leather or plastic and a sole and heel of heavier material
+bn:00071172n	WIKI	A shoe is an item of footwear intended to protect and comfort the human foot while the wearer is doing various activities.
+bn:00071172n	WIKIDATA	Footwear
+bn:00071172n	OMWIKI	A protective covering for the foot, with a bottom part composed of thick leather or plastic sole and often a thicker heel, and a softer upper part made of leather or synthetic material. Shoes generally do not extend above the ankle, as opposed to boots, which do.
+bn:00071172n	WIKT	A protective covering for the foot, with a bottom part composed of thick leather or plastic sole and often a thicker heel, and a softer upper part made of leather or synthetic material. Shoes generally do not extend above the ankle, as opposed to boots, which do.
+bn:00016214n	WN	Low footwear that can be slipped on and off easily; usually worn indoors
+bn:00016214n	WIKI	Slippers are light footwear that are easy to put on and off and are intended to be worn indoors, particularly at home.
+bn:00016214n	WIKIDATA	Light footwear made for indoor wear, generally without means of fastening
+bn:00016214n	OMWIKI	A low shoe that can be slipped on and off easily and is usually worn indoors.
+bn:00016214n	WIKT	A low soft shoe that can be slipped on and off easily.
+bn:00016214n	WIKTLB	Low shoe slipped on and off easily.
+bn:00031602n	WN	A sandal with a sole made of rope or rubber and a cloth upper part
+bn:00031602n	WIKI	Espadrilles or espardenyes are casual, flat, but sometimes high-heeled shoes.
+bn:00031602n	WIKT	A light shoe having an upper made of fabric and a sole of rope.
+bn:00051691n	WN	A low leather step-in shoe; the top resembles a moccasin but it has a broad flat heel
+bn:00051691n	WIKI	Slip-ons are typically low, lace-less shoes.
+bn:00051691n	WIKIDATA	Type of shoe
+bn:00072177n	WN	An article of clothing (garment or shoe) that is easily slipped on or off
+bn:00072177n	WIKI	Slip-ons are typically low, lace-less shoes.
+bn:00072177n	WIKIDATA	Type of shoe
+bn:00944178n	WIKI	The episcopal sandals, also known as the pontifical sandals, are a Roman Catholic pontifical vestment worn by bishops when celebrating liturgical functions according to the pre-Vatican II rubrics, for example a Tridentine Solemn Pontifical Mass.
+bn:00944178n	WIKI	Footwear worn by Roman Catholic bishops for certain specific liturgical functions
+bn:00944178n	WIKIDIS	Or pontifical sandals
+bn:01242655n	WIKI	The pointinini is a type of shoe popular in Côte d'Ivoire.
+bn:01342017n	WIKI	High heels are a type of shoe in which the heel, compared to the toe, is significantly higher off of the ground.
+bn:01342017n	WIKIDATA	Footwear that raises the heel of the wearer''s foot significantly higher than the toes
+bn:01551726n	WIKI	Brothel creepers are a style of shoe which has thick crepe soles, often in combination with suede uppers.
+bn:01551726n	WIKT	A type of soft shoe with a crepe sole.
+bn:01833248n	WIKI	Crakows or crackowes were a style of shoes with extremely long toes very popular in the 15th century.
+bn:01833248n	WIKI	Shoe with extremely long pointed toe popular in the 15th century
+bn:02682323n	WIKI	A steel-toe boot is a durable boot or shoe that has a protective reinforcement in the toe which protects the foot from falling objects or compression, usually combined with a mid sole plate to protect against punctures from below.
+bn:02682323n	WIKT	A type of boot with a reinforced toe area that protects the foot from falling objects.
+bn:02682323n	WIKTLB	Boot with a reinforced toe area.
+bn:02844150n	WIKI	A klomp are whole feet clogs from the Netherlands.
+bn:02844150n	WIKIDATA	Clogs are a type of footwear made in part or completely from wood.
+bn:03560679n	WIKI	Platform shoes are shoes, boots, or sandals with an obvious thick sole, usually in the range of 3–10 cm.
+bn:03560679n	WIKIDIS	A kind of shoe with a thick sole
+bn:03560679n	WIKIDATA	Footwear that consist of dense soles at least four inches in height
+bn:14019225n	WIKI	Combat boots are military boots designed to be worn by soldiers during combat or combat training, as opposed to during parades and other ceremonial duties.
+bn:14019225n	WIKT	A type of boot designed to be worn by soldiers during actual combat or combat training.
+bn:14019225n	WIKTLB	Boot designed for combat.
+bn:14216474n	WIKI	Mule is a style of shoe that has no back or constraint around the foot's heel.
+bn:14216474n	WIKIDATA	Type of shoe
+bn:15362627n	WIKI	Minimalist shoes are shoes intended to closely approximate barefoot running conditions.
+bn:15362627n	WIKIDATA	Shoes that most closely approximate the barefoot running condition
+bn:15386646n	NONE	NONE
+bn:15733315n	NONE	NONE
+bn:15840646n	NONE	NONE
+bn:00049602n	WN	A cord that is drawn through eyelets or around hooks in order to draw together two edges (as of a shoe or garment)
+bn:00049602n	OMWIKI	A cord or ribbon passed through eyelets in a shoe or garment, pulled tight and tied to fasten the shoe or garment firmly.
+bn:00049602n	WIKT	A cord or ribbon passed through eyelets in a shoe or garment, pulled tight and tied to fasten the shoe or garment firmly.W.
+bn:00049602n	WIKTLB	Cord for fastening a shoe or garment.
+bn:00068765n	WN	A piece of leather across the instep of a shoe
+bn:00071177n	WN	A lace used for fastening shoes
+bn:00071177n	WIKI	Shoelaces, also called shoestrings or bootlaces, are a system commonly used to secure shoes, boots and other footwear.
+bn:00071177n	WIKI	Laces or stings for fastening shoes
+bn:00071177n	OMWIKI	A lace used for fastening a shoe.
+bn:00071177n	WIKT	A lace used for fastening a shoe.
+bn:00071177n	WIKT	The string or lace used to secure the shoe to the foot; a shoelace.
+bn:00071177n	WIKTLB	The string or lace used to secure the shoe to the foot; a shoelace.
+bn:00073352n	WN	Sports equipment consisting of a sharp point on the sole of a shoe worn by athletes
+bn:00077066n	WN	An opening in the vamp of a shoe at the instep
+bn:01050908n	WIKI	The Nice Classification, established by the Nice Agreement, is a system of classifying goods and services for the purpose of registering trademarks.
+bn:01050908n	WIKIDATA	Agreement
+bn:02749084n	WIKI	An economic taxonomy is a system of classification of economic activity, including products, companies and industries.
+bn:02749084n	WIKIDIS	A system of classification for economic activity
+bn:15519080n	WIKIDATA	Kind of treaty between two or more contracting persons or parties
+bn:15519080n	OMWIKI	A convention, or promise of two or more parties, by deed in writing, signed, and delivered, by which either of the parties pledges himself to the other that something is either done, or shall be done, or shall not be done, or stipulates for the truth of certain facts. 
+bn:00070830n	WN	Shade within clear boundaries
+bn:00070830n	WIKI	A shadow is a dark area where light from a light source is blocked by an opaque object.
+bn:00070830n	WIKIDATA	Area where direct light from a light source cannot reach due to obstruction by an object
+bn:00070830n	OMWIKI	Darkness, where light (particularly sunlight) is blocked.
+bn:00070830n	WIKT	Darkness where light, particularly sunlight, is blocked.
+bn:00070830n	WIKT	A dark image projected onto a surface where light is blocked by the shade of an object.
+bn:00070830n	WIKTLB	Darkness where light is blocked.
+bn:00070830n	WIKIQU	Shadows are areas where direct light from a light source cannot reach due to obstruction by an object.
+bn:00061444n	WN	A fringe region of partial shadow around an umbra
+bn:00078919n	WN	A region of complete shadow resulting from total obstruction of light
+bn:00070820n	WN	Relative darkness caused by light rays being intercepted by an opaque body
+bn:00070820n	WIKI	Shade is the blocking of sunlight by any object, and also the shadow created by that object.
+bn:00070820n	WIKIDIS	The blocking of sunlight
+bn:00070820n	WIKIDATA	Shape created by some blocking of sunlight
+bn:00070820n	OMWIKI	Darkness, where light (particularly sunlight) is blocked.
+bn:00070820n	WIKT	Something that blocks light, particularly in a window.
+bn:00070820n	WIKT	Relative darkness, especially as caused by the interruption of light; gloom, obscurity.
+bn:00070820n	WIKTLB	Something that blocks light, particularly in a window.
+bn:00070820n	MSTERM	A shaded outline that appears behind an object or text and creates the illusion of depth.
+bn:15098302n	WIKIDATA	An outwardly facing, noticeable from the outside part of a whole; a given area distinguished on the basis of a particular characteristic, use, restriction, etc
+bn:00070424n	WN	Partial darkness
+bn:00070424n	WIKT	Partial or near darkness, dimness, twilight.
+bn:00025233n	WN	Absence of light or illumination
+bn:00025233n	WIKT	A complete or partial absence of light.
+bn:00025233n	WIKTLB	A complete or partial absence of light.
+bn:00070835n	WN	A spy employed to follow someone and report their movements
+bn:00035630n	WN	Someone who travels behind or pursues another
+bn:00073686n	WN	A secret watcher; someone who secretly watches other people
+bn:00051972n	WN	A close observer; someone who looks at something (such as an exhibition of some kind)
+bn:00009668n	WN	A person who becomes aware (of things or events) through the senses
+bn:00013560n	WN	Someone who robs at sea or plunders the land from the sea without having a commission from any sovereign nation
+bn:00013560n	WIKI	Buccaneers were a kind of privateer or pirate peculiar to the Caribbean Sea during the 17th and 18th centuries.
+bn:00013560n	WIKIDATA	Pirates in the Caribbean Sea during the 17th century
+bn:00013560n	OMWIKI	A criminal who plunders at sea; commonly attacking merchant vessels, though often pillaging port towns.
+bn:00013560n	WIKT	A criminal who plunders at sea; commonly attacking merchant vessels, though often pillaging port towns.
+bn:00013560n	WIKTLB	One who plunders at sea.
+bn:00008745n	WN	A Welsh pirate credited with having taken more than 400 ships (1682-1722)
+bn:00008745n	WIKI	Bartholomew Roberts, born John Roberts, was a Welsh pirate who raided ships off the Americas and West Africa between 1719 and 1722.
+bn:00008745n	WIKIDIS	A flag by a pirate Bartholomew Roberts, who vowed revenge towards Barbados and Martinique.
+bn:00008745n	WIKIDATA	Welsh pirate
+bn:00011007n	WN	An English pirate who operated in the Caribbean and off the Atlantic coast of North America (died in 1718)
+bn:00011007n	WIKI	Edward Teach or Edward Thatch, better known as Blackbeard, was an English pirate who operated around the West Indies and the eastern coast of Britain's North American colonies.
+bn:00011007n	WIKIDIS	A notorious pirate
+bn:00011007n	WIKIDATA	English pirate
+bn:00011007n	WIKT	The archetypal pirate, who lived in the 17th and 18th centuries.
+bn:00043728n	WN	A Welsh buccaneer who raided Spanish colonies in the West Indies for the English (1635-1688)
+bn:00043728n	WIKI	Sir Henry Morgan was a Welsh privateer, landowner and, later, Lieutenant Governor of Jamaica.
+bn:00043728n	WIKIDATA	Welsh pirate
+bn:00048082n	WN	French pirate who aided the United States in the War of 1812 and received an official pardon for his crimes (1780-1826)
+bn:00048082n	WIKI	Jean Lafitte was a French pirate and privateer in the Gulf of Mexico in the early 19th century.
+bn:00048082n	WIKIDIS	No longer standing.
+bn:00048082n	WIKIDATA	French pirate and privateer
+bn:00008520n	WN	A pirate along the Barbary Coast
+bn:00069972n	WN	A Viking pirate chief
+bn:00026590n	WN	Someone who takes spoils or plunder (as in war)
+bn:00026590n	WIKI	The Plunderer is a fictional character appearing in American comic books published by Marvel Comics.
+bn:00062600n	WN	The act of plagiarizing; taking someone's words or ideas as if they were your own
+bn:00062600n	WIKI	Piracy is an act of robbery or criminal violence by ship or boat-borne attackers upon another ship or a coastal area, typically with the goal of stealing cargo and other valuable items or properties.
+bn:00062600n	WIKI	Plagiarism is the "wrongful appropriation" and "stealing and publication" of another author's "language, thoughts, ideas, or expressions" and the representation of them as one's own original work.
+bn:00062600n	WIKIDIS	As immoral appropriation in academia, journalism or the arts
+bn:00062600n	WIKIDATA	Act of robbery or criminal violence at sea
+bn:00062600n	WIKIDATA	Using another author''s work as if it was one''s own original work
+bn:00062600n	WIKIDATA	Person practicing piracy
+bn:00062600n	OMWIKI	The act of copying another person's ideas, text or other creative work, and presenting it as one's own.
+bn:00062600n	WIKT	Copying of another person's ideas, text, or other creative work, and presenting it as one's own, especially without permission; plagiarizing.
+bn:00062600n	WIKTLB	Copying of someone's ideas.
+bn:00062600n	WIKIQU	Pirates are sea rogues who sail the oceans and often attack other ships in order to steal valuables aboard the victim's vessel or vessels.
+bn:00062600n	WIKIQU	Plagiarism is the close imitation of another author's language, thoughts, ideas, or expressions, and the representation of them as one's own original work.
+bn:00062600n	MSTERM	Any unauthorized copying, distribution, and use of computer software, or software theft.
+bn:00074094n	WN	A criminal who takes property belonging to someone else with the intention of keeping it or selling it
+bn:00074094n	OMWIKI	Someone who takes property belonging to someone else with the intention of keeping it or selling it.
+bn:00074094n	FRAMENET	A person taking something that does not belong to him.
+bn:00074094n	FRAMENET	A person who steals another person's property.
+bn:00022537n	WN	A violation of the rights secured by a copyright
+bn:00022537n	WIKI	Copyright infringement is the use of works protected by copyright law without permission, infringing certain exclusive rights granted to the copyright holder, such as the right to reproduce, distribute, display or perform the protected work, or to make derivative works.
+bn:00022537n	WIKIDIS	Which is sometimes abbreviated CRI
+bn:00022537n	WIKT	A violation of copyright laws: copyright infringement.
+bn:00022537n	WIKT	The unauthorized use of copyrighted material in a manner that violates one of the copyright owner's exclusive rights, such as the right to reproduce or perform the copyrighted work, or to make derivative works that build upon it.
+bn:00022537n	WIKTLB	Unauthorized use of copyrighted material.
+bn:00022537n	WIKIQU	Online piracy is the act of infringing copyright, such as illegally obtaining software in which the individual did not pay for/not covered under Fair Use.
+bn:01156804n	WIKI	In copyright law, a derivative work is an expressive creation that includes major copyright-protected elements of an original, previously created first work.
+bn:01156804n	WIKIDIS	In copyright law, a modification of an original work
+bn:01156804n	WIKIDATA	Work created from major part of an original artwork
+bn:01156804n	WIKT	In copyright law, a work that is a variation of an original work sufficiently similar to contain protected elements of the original work, but sufficiently different to qualify for copyright protection independent of the original work.
+bn:15100905n	NONE	NONE
+bn:00046730n	WN	An act that disregards an agreement or a right
+bn:00029678n	WN	The system of production and distribution and consumption
+bn:00029678n	WIKI	An economy is an area of the production, distribution, or trade, and consumption of goods and services by different agents.
+bn:00029678n	WIKI	An economic system is a system of production, resource allocation, and distribution of goods and services within a society or a given geographic area.
+bn:00029678n	WIKIDATA	System consisting of the production, distribution or trade, and consumption of limited goods and services by different agents in a given area
+bn:00029678n	WIKIDATA	System of production and exchange
+bn:00029678n	OMWIKI	Organized sets of procedures used within or between communities to govern the production and distribution of goods and services.
+bn:00029678n	OMWIKI	The system of activities and administration through which a society uses its resources to produce wealth.
+bn:00029678n	WIKT	The system of production and distribution and consumption. The overall measure of a currency system; as the national economy.
+bn:00029678n	WIKTLB	Production and distribution and consumption.
+bn:00029678n	WIKIQU	An economic system is a system of production and distribution of goods and services as well as allocation of resources in a society.
+bn:00091661v	WN	Copy illegally; of published material
+bn:00091661v	WIKT	To create and/or sell an unauthorized copy of.
+bn:00091661v	WIKTLB	Make and/or sell an illegal copy.
+bn:00094314v	WN	Take without the owner's consent
+bn:00094314v	OMWIKI	To take possession of property belonging to another without the consent of this owner; most typically when not observed, rather than by force.
+bn:00094314v	WIKT	To take illegally, or without the owner's permission, something owned by someone else.
+bn:00094314v	WIKTLB	To illegally take possession of.
+bn:00094314v	FRAMENET	Take (something) without permission or legal right and without intending to return it.
+bn:00077657n	WN	A light usually carried in the hand; consists of some flammable substance
+bn:00077657n	WIKI	A torch is a stick with combustible material at one end, which is ignited and used as a light source.
+bn:00077657n	WIKIDATA	A stick with combustible material at the end, which is ignited and used as a light source.
+bn:00077657n	OMWIKI	A stick with a flame on one end used as a light source.
+bn:00077657n	WIKT	A stick with a flame on one end, used chiefly as a light source; a similarly shaped implement with a replaceable supply of flammable material.
+bn:00077657n	WIKTLB	Stick with flame at one end.
+bn:02086716n	WIKI	Juggling torches are one of various props used by jugglers.
+bn:00035000n	WN	A flaming torch (such as are used in processions at night)
+bn:00051109n	WN	Any device serving as a source of illumination
+bn:00051109n	WIKT	A source of illumination.
+bn:00051109n	WIKTLB	Source of illumination.
+bn:00051109n	MSTERM	In computer graphics, the imaginary location of a source of light, which determines the shading in an image.
+bn:00072950n	WN	Any device serving as a source of visible electromagnetic radiation
+bn:00011464n	WN	A burner that mixes air and gas to produce a very hot flame
+bn:00011464n	WIKI	A blowtorch, or blowlamp, is a fuel-burning tool used for applying flame and heat to various applications, usually metalworking.
+bn:00011464n	WIKIDATA	Fuel-burning tool for applying flame and heat for various applications
+bn:00011464n	WIKT	A burner that burns a fuel in air to produce a hot flame; a blowtorch.
+bn:00011464n	WIKT	A tool which projects a controlled stream of a highly flammable gas over a spark in order to produce a controlled flame.
+bn:05358437n	NONE	NONE
+bn:00060002n	WN	A blowtorch that burns oxyacetylene
+bn:00060002n	WIKI	Oxy-fuel welding and oxy-fuel cutting are processes that use fuel gases and oxygen to weld and cut metals, respectively.
+bn:00060002n	WIKIDIS	A metal cutting process
+bn:00060002n	WIKIDATA	Acetylene V propane
+bn:00060002n	WIKT	An oxyacetylene torch.
+bn:00014018n	WN	An apparatus for burning fuel (or refuse)
+bn:00014018n	WIKT	A device for burning refuse; an incinerator.
+bn:00014018n	WIKTLB	Device for burning refuse.
+bn:00095033v	WN	Burn maliciously, as by arson
+bn:00095033v	FRAMENET	Set fire to. "The shops had been looted and torched.".
+bn:00084270v	WN	Destroy by fire
+bn:00084270v	OMWIKI	To be consumed by fire.
+bn:00084270v	WIKT	To cause to be consumed by fire.
+bn:00084270v	WIKTLB	Cause to be consumed by fire.
