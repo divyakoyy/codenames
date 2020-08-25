@@ -41168,217 +41168,88 @@ bn:00066217n	WIKI	Rats are various medium-sized, long-tailed rodents of the supe
 bn:00066217n	WIKIDATA	Rodents of the superfamily Muroidea
 bn:00066217n	OMWIKI	A nearly omnivorous rodent of the genus ''rattus'' characterised by a long hairless tail, rounded ears, and a pointed nose.
 bn:00066217n	WIKIQU	Rats are various medium-sized, long-tailed rodents of the superfamily Muroidea.
-bn:00020899n	WN	A professional performer who tells jokes and performs comical acts
-bn:00020899n	WIKI	A comedian or comic is a person who seeks to entertain an audience by making them laugh.
-bn:00020899n	WIKIDATA	Person who seeks to entertain an audience, primarily by making them laugh
-bn:00020899n	OMWIKI	A professional performer who tells jokes and or performs comical acts.
-bn:00020899n	WIKT	A comedian.
-bn:02619569n	WIKI	A monologist, or interchangeably monologuist, is a solo artist who recites or gives dramatic readings from a monologue, soliloquy, poetry, or work of literature, for the entertainment of an audience.
-bn:02619569n	WIKI	Solo artist who recites or gives dramatic readings from a monologue, soliloquy, poetry, or work of literature, for the entertainment of an audience
-bn:15731577n	WIKIDATA	Japanese comedian
-bn:09182828n	NONE	NONE
-bn:05030283n	NONE	NONE
-bn:00470445n	WIKI	The Krankies are a Scottish comedy duo who enjoyed success as a cabaret act in the 1970s and on television in the 1980s, featuring in their own television shows and releasing their own music single.
-bn:00470445n	WIKIDATA	Scottish comedy duo
-bn:00006103n	WN	United States comedian; one of four brothers who made motion pictures together (1893-1964)
-bn:00006103n	WIKI	Arthur Julius Marx was an American author, a nationally ranked amateur tennis player, and son of entertainer Groucho Marx, and his first wife, Ruth Johnson.
-bn:00006103n	WIKIDATA	American author and tennis player
-bn:00014033n	WN	United States comedian and film actor (1896-1996)
-bn:00014033n	WIKI	For other uses, see George Burns 
-bn:00014033n	WIKIDATA	American comedian, actor, and writer
-bn:00014033n	WIKIQU	George Burns, born Nathan Birnbaum, was an American comedian, actor and comedic partner and husband of Gracie Allen.
-bn:00014193n	WN	United States comedian and actor in silent films noted for his acrobatic skills and deadpan face (1895-1966)
-bn:00014193n	WIKI	Joseph Frank "Buster" Keaton was an American actor, comedian, film director, producer, screenwriter, and stunt performer.
-bn:00014193n	WIKIDATA	American actor and filmmaker
-bn:00014193n	WIKIQU	Joseph Frank Keaton VI was American actor and filmmaker, often called The Great Stone Face, he was the first person ever called "Buster", acquiring the nickname from Harry Houdini who saw him take a fall down some stairs as an infant.
-bn:00017727n	WN	English comedian and film maker; portrayed a downtrodden little man in baggy pants and bowler hat (1889-1977)
-bn:00017727n	WIKI	Sir Charles Spencer Chaplin, was an English comic actor, filmmaker, and composer who rose to fame in the era of silent film.
-bn:00017727n	WIKIDIS	English comedy film actor and director
-bn:00017727n	WIKIDATA	British comic actor and filmmaker
-bn:00017727n	WIKIQU	Sir Charles Spencer Chaplin, KBE was a British comedic actor and director, usually known by his stage name of Charlie Chaplin.
-bn:00018312n	WN	United States comedian; one of four brothers who made motion pictures together (1891-1961)
-bn:00018312n	WIKI	Leonard Marx, known professionally as Chico Marx, was an American comedian, musician, bandleader, actor and film star.
-bn:00018312n	WIKIDATA	American comedian
-bn:00034339n	WN	United States comedian and film actor (1880-1946)
-bn:00034339n	WIKI	William Claude Dukenfield, better known as W. C. Fields, was an American comedian, actor, juggler and writer.
-bn:00034339n	WIKIDATA	Actor
-bn:00034339n	WIKIQU	W. C. Fields, born William Claude Dukenfield, was an American Actor and Comedian.
-bn:00042982n	WN	United States slapstick comedian who played the pompous and overbearing member of the Laurel and Hardy duo who made many films (1892-1957)
-bn:00042982n	WIKI	Oliver Norvell "Babe" Hardy was an American comic actor and one half of Laurel and Hardy, the double act that began in the era of silent films and lasted 25 years, from 1927 to 1951.
-bn:00042982n	WIKIDIS	American comic actor sometimes billed as Babe Hardy early in his career
-bn:00042982n	WIKIDATA	American comic actor famous as one half of Laurel and Hardy
-bn:00043077n	WN	Scottish ballad singer and music hall comedian (1870-1950)
-bn:00043077n	WIKI	Sir Henry Lauder was a Scottish singer and comedian popular in both the English music hall and vaudevillian theatre tradition; he achieved international success.
-bn:00043077n	WIKIDATA	Scottish entertainer
-bn:00043793n	WN	United States comedian; one of four brothers who made motion pictures together (1901-1979)
-bn:00053580n	WN	United States actor and comedian (born in 1945)
-bn:00053580n	WIKI	Stephen Glenn Martin is an American actor, comedian, writer, producer and musician.
-bn:00053580n	WIKIDATA	American actor, comedian, musician, author, playwright, and producer
-bn:00053580n	WIKIQU	Stephen Glenn Martin is an American comedian, writer, actor, musician and composer.
-bn:00002658n	WN	Risque English comedian (1925-1992)
-bn:00002658n	WIKI	Alfred Hawthorne "Benny" Hill was an English comedian and actor, best remembered for his television programme The Benny Hill Show, an amalgam of slapstick, burlesque and double entendre in a format that included live comedy and filmed segments, with him at the focus of almost every segment.
-bn:00002658n	WIKIDIS	Born Alfred Hawthorn Hill, English comedian and star of The Benny Hill Show
-bn:00002658n	WIKIDATA	English comedian and actor
-bn:00002658n	WIKIQU	Benny Hill was an English comedian and actor, notable for his long-running television program The Benny Hill Show.
-bn:00006113n	WN	United States slapstick comedian (born in England) who played the scatterbrained and often tearful member of the Laurel and Hardy duo who made many films (1890-1965)
-bn:00006113n	WIKI	Stan Laurel was an English comic actor, writer and film director, who was part of the comedy duo Laurel and Hardy.
-bn:00006113n	WIKIDATA	English comic actor
-bn:00009945n	WN	United States comedian known for his timeing and delivery and self-effacing humor (1894-1974)
-bn:00009945n	WIKI	Benny is a card used in trick-taking games that automatically counts as the highest trump.
-bn:00009945n	WIKI	Jack Benny was an American comedian, vaudevillian, radio, television and film actor, and violinist.
-bn:00009945n	WIKIDATA	Comedian, vaudeville performer, and radio, television, and film actor
-bn:00009945n	WIKIQU	Jack Benny, born Benjamin Kubelsky, was an American comedian, vaudeville performer, and radio, television, and film actor.
-bn:00007287n	WN	Writes (books or stories or articles or the like) professionally (for pay)
-bn:00007287n	WIKI	An author is the creator or originator of any written work such as a book or play, and is thus also a writer.
-bn:00007287n	WIKI	A writer is a person who uses written words in various styles and techniques to communicate their ideas.
-bn:00007287n	WIKIDIS	Originating content for any medium
-bn:00007287n	WIKIDATA	Person who uses written words to communicate ideas, person who produces works of literature
-bn:00007287n	WIKIDATA	Creator of an original work
-bn:00007287n	OMWIKI	Person who wrote the content of a published novel, book or text.
-bn:00007287n	WIKT	The originator or creator of a work, especially of a literary composition.
-bn:00007287n	WIKT	A person who writes, or produces literary work.
-bn:00007287n	WIKTLB	Originator or creator of a work.
-bn:00007287n	WIKIQU	Authors are persons who originate or gives existence to anything, said authorship determining responsibility for what is created.
-bn:00007287n	MSTERM	Individual, account, or website that published a post that was stored to the application's database.
-bn:00007287n	MSTERM	The entity primarily responsible for creating the content resource (that is, the author).
-bn:00023496n	WN	The skilled practice of a practical occupation
-bn:00023496n	WIKI	A craft or trade is a pastime or a profession that requires particular skills and knowledge of skilled work.
-bn:00023496n	WIKIDATA	Pastime or job involving the small-scale production of goods, or their maintenance
-bn:00023496n	OMWIKI	An occupation or trade requiring manual dexterity or skilled artistry.
-bn:00023496n	OMWIKI	The skilled practice of a practical occupation.
-bn:00023496n	WIKT	The skilled practice of a practical occupation.
-bn:00021232n	WN	A person who communicates with others
-bn:00021232n	WIKT	Someone who, or something that communicates.
-bn:00021232n	WIKTLB	One who communicates.
-bn:15683405n	WIKI	Comics is a medium used to express ideas by images, often combined with text or other visual information.
-bn:15683405n	WIKIDIS	A medium of expression using images, often combined with text
-bn:15683405n	WIKIDATA	Creative work in which pictures and text convey information such as narratives
-bn:15683405n	WIKIQU	Comics is a form of visual art consisting of images which are commonly combined with text, often in the form of speech balloons or image captions.
-bn:00020927n	WN	A magazine devoted to comic strips
-bn:00020927n	WIKI	A comic book or comicbook, also called comic magazine or simply comic, is a publication that consists of comic art in the form of sequential juxtaposed panels that represent individual scenes.
-bn:00020927n	WIKIDATA	Publication of comics art
-bn:00020927n	OMWIKI	A magazine or book containing the sequential art form of a graphic novel.
-bn:00020927n	WIKT	A comic book.
-bn:00020927n	WIKT	A cartoon story, a graphic novel.
-bn:00016329n	WN	A sequence of drawings telling a story in a newspaper or comic book
-bn:00016329n	WIKI	A comic strip is a sequence of drawings arranged in interrelated panels to display brief humor or form a narrative, often serialized, with text in balloons and captions.
-bn:00016329n	WIKIDIS	A sequence of drawings arranged in interrelated panels to display brief humor or form a narrative
-bn:00016329n	WIKIDATA	Short serialized comics
-bn:00016329n	WIKT	A comic strip.
-bn:00016329n	WIKT	The section of a newspaper containing comic strips.
-bn:00016329n	WIKTLB	Short for comic strip, see also translations for comic strip.
-bn:00062309n	WN	A product produced or accomplished through the effort or activity or agency of a person or thing
-bn:00062309n	OMWIKI	That that has been made; a product produced or accomplished through the effort or activity or agency of a person or thing.
-bn:00062309n	WIKT	The score for such a work.
-bn:00062309n	WIKT	The result of a particular manner of production.
-bn:02284123n	WIKI	In publishing and library and information science, the term serial is applied to materials "in any medium issued under the same title in a succession of discrete parts, usually numbered and appearing at regular or irregular intervals with no predetermined conclusion."
-bn:02284123n	WIKI	Literary or other works with same title issued in successive parts
-bn:02284123n	WIKIDATA	Same-title work issued in successive parts
-bn:00006866n	WN	A colorless element that is one of the six inert gasses; occurs in trace amounts in air
-bn:00006866n	WIKI	Krypton is a chemical element with symbol Kr and atomic number 36.
-bn:00006866n	WIKIDIS	A chemical element with symbol Kr
-bn:00006866n	WIKIDATA	Chemical element with atomic number of 36
-bn:00006866n	OMWIKI	A chemical element with symbol Kr and atomic number of 36; a colorless noble gas.
-bn:00006866n	WIKT	A chemical element with an atomic number of 36; one of the noble gases.
-bn:00006866n	WIKTLB	A chemical element.
-bn:00006884n	WN	A colorless odorless inert gaseous element occurring in the earth's atmosphere in trace amounts
-bn:00006884n	WIKI	A third-person pronoun is a pronoun that refers to an entity other than the speaker or listener.
-bn:00006884n	WIKI	Xenon is a chemical element with symbol Xe and atomic number 54.
-bn:00006884n	WIKIDIS	A chemical element
-bn:00006884n	WIKIDATA	Chemical element with atomic number of 54 and heaviest stable noble gas
-bn:00006884n	OMWIKI	A chemical element with symbol Xe and atomic number of 54, a heavy colorless noble gas.
-bn:00006884n	WIKT	A heavy, gaseous chemical element of the noble gases group with an atomic number of 54.
-bn:00006884n	WIKT	A gender-neutral pronoun.
-bn:00006901n	WN	A common nonmetallic element that is normally a colorless odorless tasteless inert diatomic gas; constitutes 78 percent of the atmosphere by volume; a constituent of all living tissues
-bn:00006901n	WIKI	Nitrogen is a chemical element with symbol N and atomic number 7.
-bn:00006901n	WIKIDIS	The elemental form of nitrogen, a gas
-bn:00006901n	WIKIDATA	Element with the atomic number of 7
-bn:00006901n	OMWIKI	Gaseous, non-metallic chemical element with symbol N and atomic number 7.
-bn:00006901n	WIKT	A chemical element with an atomic number of 7 and atomic weight of 14.0067.
-bn:00006901n	WIKT	Nitrogen gas.
-bn:00006824n	WN	A colorless odorless gaseous element that give a red glow in a vacuum tube; one of the six inert gasses; occurs in the air in small amounts
-bn:00006824n	WIKI	Neon is a chemical element with symbol Ne and atomic number 10.
-bn:00006824n	WIKIDIS	The chemical element
-bn:00006824n	WIKIDATA	Element with the atomic number of 10
-bn:00006824n	OMWIKI	The chemical element with symbol Ne and atomic number 10, a colorless noble gas.
-bn:00006824n	WIKT	The chemical element with an atomic number of 10.
-bn:00012966n	WN	The air that is inhaled and exhaled in respiration
-bn:00012966n	OMWIKI	The air inhaled and exhaled through the lungs.
-bn:00012966n	WIKT	Air expelled from the lungs.
-bn:00012966n	WIKTLB	Air expelled from the lungs.
-bn:00012966n	FRAMENET	An inhalation or exhalation of air from the lungs.
-bn:00044932n	WN	Air that has been heated and tends to rise
-bn:00044932n	WIKT	Air that has been heated, especially so as to function as the lifting agent of a hot-air balloon.
-bn:00051475n	WN	Air in a liquid state
-bn:00051475n	WIKI	Liquid air is air that has been cooled to very low temperatures, so that it has condensed into a pale blue mobile liquid.
-bn:00051475n	WIKT	Air which is in a liquid state due to being pressurised or kept at a low temperature, or both, usually for storage and transport purposes.
-bn:00051475n	WIKTLB	Air in liquid state.
-bn:10902319n	WIKI	The outer shell of planet Earth
-bn:00002186n	WN	The region above the ground
-bn:00002188n	WN	A slight wind (usually refreshing)
-bn:00002188n	OMWIKI	A slight wind.
-bn:00002188n	WIKT	A light, gentle wind.
-bn:00002188n	WIKT	The west wind personified.
-bn:00002188n	WIKT	A breeze; a gentle wind.
-bn:00002188n	WIKTLB	The west wind personified.
-bn:00012969n	WN	A slight movement of the air
-bn:00036482n	WN	Wind moving 19-24 knots; 5 on the Beaufort scale
-bn:00037767n	WN	Wind moving 8-12 knots; 3 on the Beaufort scale
-bn:00051122n	WN	Wind moving 1-3 knots; 1 on the Beaufort scale
-bn:00051122n	WIKT	A light wind with wind speed between 0.3 and 1.5 m/s; a Force 1 wind strength on the Beaufort scale.
-bn:00051126n	WN	Wind moving 4-7 knots; 2 on the Beaufort scale
-bn:00055455n	WN	Wind moving 13-18 knots; 4 on the Beaufort scale
-bn:00069956n	WN	A cooling breeze from the sea (during the daytime)
-bn:00069956n	WIKI	A sea breeze or onshore breeze is any wind that blows from a large body of water toward or onto a landmass; it develops due to differences in air pressure created by the differing heat capacities of water and dry land.
-bn:00069956n	WIKIDIS	Wind that develops over land near coasts.
-bn:00069956n	WIKT	A breeze that blows off the sea on to the nearby land.
-bn:00069956n	WIKT	A breeze blowing off the land and out to sea - common at night.
-bn:00069956n	WIKTLB	An offshore breeze.
-bn:00074734n	WN	Wind moving 25-31 knots; 6 on the Beaufort scale
-bn:00002190n	WN	Once thought to be one of four elements composing the universe (Empedocles)
-bn:00002190n	WIKI	Air is one of the four classical elements in ancient Greek philosophy and in Western alchemy.
-bn:00002190n	WIKIDIS	In Greek mythology
-bn:00002190n	WIKIDATA	One of the four classical elements; universal power or pure substance
-bn:00002190n	WIKT	The atmospheric substance above the surface of the earth which animals breathe, formerly considered to be a single substance, one of the four basic elements of ancient philosophy and one of the five basic elements of several Eastern traditions.
-bn:00002190n	WIKTLB	Historical: one of the basic elements.
-bn:00002192n	WN	Medium for radio and television broadcasting
-bn:00054151n	WN	An intervening substance through which signals can travel as a means for communication
-bn:00054151n	MSTERM	A substance in which signals can be transmitted, such as a wire or fiber-optic cable.
-bn:00002214n	WN	The use of military aircraft to provide protection against attack by enemy aircraft during ground or naval operations
-bn:00002214n	WIKI	Military aviation is the use of military aircraft and other flying machines for the purposes of conducting or enabling aerial warfare, including national airlift capacity to provide logistical supply to forces stationed in a theater or along a front.
-bn:00002214n	WIKIDATA	Use of aircraft by armed forces in combat or other military capacity
-bn:00002303n	WN	The art of operating aircraft
-bn:00002303n	WIKI	Airmanship is skill and knowledge applied to aerial navigation, similar to seamanship in maritime navigation.
-bn:00002303n	WIKIDATA	Skill set applied to flying
-bn:00002303n	WIKT	The art or science of making and flying aircraft.
-bn:00002303n	WIKT	Skill in and knowledge of the work of navigating and operating an aircraft.
-bn:00002303n	WIKTLB	Art or science of flying.
-bn:00048557n	WN	Descent with a parachute
-bn:00048557n	WIKI	Parachuting, or skydiving, is a method of transiting from a high point to Earth with the aid of gravity, involving the control of speed during the descent with the use of a parachute.
-bn:00048557n	WIKIDIS	Also known as sky diving
-bn:00048557n	WIKIDATA	Action sport of exiting an aircraft and returning to Earth  using a parachute
-bn:00048557n	WIKT	The sport of jumping with a parachute.
-bn:00430195n	WIKI	General aviation are all civil aviation operations other than scheduled air services and non-scheduled air transport operations for remuneration or hire.
-bn:00430195n	WIKIDIS	The category of civil aviation encompassing all non-scheduled aircraft flights
-bn:00430195n	WIKIDATA	Civil use of aircraft excluding commercial transportation
-bn:00830416n	WIKI	Ultralight aviation is the flying of lightweight, 1- or 2-seat fixed-wing aircraft.
-bn:00830416n	WIKIDATA	Aviation field involving design, regulation, and operation of very lightweight aircraft
-bn:00830416n	WIKT	An ultralight aircraft.
-bn:01105625n	WIKI	Civil aviation is one of two major categories of flying, representing all non-military aviation, both private and commercial.
-bn:01105625n	WIKIDATA	All non-military aviation
-bn:01486000n	WIKI	Polar aviation refers to aviation in polar regions of the Earth.
-bn:02233314n	WIKI	Private aviation is the part of civil aviation that does not include flying for hire.
-bn:06942322n	NONE	NONE
-bn:00078085n	WN	The act of going from one place to another
-bn:00078085n	WIKI	Travel is the movement of people between relatively distant geographical locations, and can involve travel by foot, bicycle, automobile, train, boat, bus, airplane, or other means, with or without luggage, and can be one way or round trip.
-bn:00078085n	WIKIDIS	Movement of people between locations
-bn:00078085n	WIKIDATA	Movement of people between relatively distant geographical locations
-bn:00078085n	OMWIKI	The transport of people on a trip or journey.
-bn:00078085n	WIKT	The act of traveling.
-bn:00078085n	WIKTLB	Act of traveling.
-bn:00078085n	MSTERM	An application for travel planning, including destination photos and panoramas, travel guides, booking tools, currency conversions, and weather forecasts.
-bn:15855519n	WIKI	Bianhua meaning "transformation, metamorphosis" was a keyword in both Daoism and Chinese Buddhism.
-bn:15855519n	WIKIDATA	Process, event or action that deviates from the present state
+bn:00066028n	WN	Public transport provided by a line of railway cars coupled together and drawn by a locomotive
+bn:00066028n	WIKI	A train is a form of rail transport consisting of a series of connected vehicles that generally runs along a rail track to transport cargo or passengers.
+bn:00066028n	WIKIDATA	One or more self-propelled vehicles that move along fixed rails to transport passengers or cargo
+bn:00066028n	OMWIKI	A train that is equiped to transport people.
+bn:00066028n	OMWIKI	A self-propelled, connected group of vehicles moving on rails.
+bn:00066028n	WIKT	A line of connected railway cars or carriages considered overall as a mode of transport; rail travel.
+bn:00066028n	WIKTLB	Line of connected cars or carriages.
+bn:00036422n	WN	A long-distance express freight train between industrial centers and seaports with facilities for rapid loading and unloading of goods
+bn:00036422n	WIKI	Rail freight transport is the use of railroads and trains to transport cargo as opposed to human passengers.
+bn:00036422n	WIKIDATA	Transportation of freight by train
+bn:00036422n	OMWIKI	A train which is exclusively intended for the transport of goods.
+bn:00036422n	WIKT	A train used for the transportation of goods.
+bn:00036422n	WIKT	Goods or items in transport.
+bn:00036422n	WIKTLB	Transport of goods
+bn:00036423n	WN	A railroad train consisting of freight cars
+bn:00036423n	WIKI	Rail freight transport is the use of railroads and trains to transport cargo as opposed to human passengers.
+bn:00036423n	WIKIDATA	Transportation of freight by train
+bn:00036423n	WIKT	A train used for the transportation of freight.
+bn:00036423n	WIKT	A freight train or, , a decrepit passenger train.
+bn:00052702n	WN	High-speed rail technology; train is suspended on a magnetic cushion above a magnetized track and so travels free of friction
+bn:00052702n	WIKI	Maglev is a system of train transportation that uses two sets of magnets, one set to repel and push the train up off the track as in levitation, then another set to move the 'floating train' ahead at great speed taking advantage of no friction.
+bn:00052702n	WIKIDATA	Transport method that uses magnetic levitation to move vehicles without making contact with the ground; locomotion device with magnetic sustentation
+bn:00212578n	WIKI	The Hiawathas were a fleet of named passenger trains operated by the Chicago, Milwaukee, St. Paul and Pacific Railroad between Chicago and various destinations in the Midwest and Western United States.
+bn:00212578n	WIKIDIS	A group of named passenger trains of the Chicago, Milwaukee, St. Paul and Pacific Railroad
+bn:00212578n	WIKIDATA	Fleet of trains in Chicago
+bn:00339546n	WIKI	The Siemens Nexas is a class of electric multiple units manufactured by Siemens Transportation Systems for the suburban railway network of Melbourne, Australia between 2002 and 2005.
+bn:00339546n	WIKIDATA	Class of electric multiple units manufactured by Siemens Transportation Systems for the suburban railway network of Melbourne, Australia between 2002 and 2005
+bn:00350396n	WIKI	A royal train is a set of railway carriages dedicated for the use of the monarch or other members of a royal family.
+bn:00350396n	WIKIDATA	Train  for the use of the Monarch, other members of the Royal Family, and their staff.
+bn:01592927n	WIKI	A Nahgüterzug is the name given to a category of local goods train in German-speaking countries, sometimes translated as a 'pick up' train or pick-up goods train.
+bn:02287112n	WIKI	Luxury trains are trains specifically designed to offer an extravagant train ride and evoke a strong sense of association with history and heritage.
+bn:02287112n	WIKIDATA	Special train, designed for elegance
+bn:03111561n	WIKI	The Metroliners were extra-fare high speed trains between Washington, D.C. and New York City which operated from 1969 to 2006.
+bn:03111561n	WIKIDATA	Former express train between Washington, D.C., and New York City
+bn:03861459n	WIKI	The Blue Angel was the name given to the Plan X class DE-1 diesel railcars formerly used by the Netherlands Railways.
+bn:03861459n	WIKI	Class of 1- and 2-car diesel railcars formerly used by the Netherlands Railways
+bn:03861459n	WIKIDIS	A diesel railcar formerly used by the Netherlands Railways
+bn:03861459n	WIKIDATA	Railcar formerly used by the Netherlands Railways
+bn:04229466n	NONE	NONE
+bn:08159767n	NONE	NONE
+bn:13843029n	WIKIDATA	Train carrying passengers
+bn:15190417n	NONE	NONE
+bn:15595406n	WIKI	Milk trains were a common sight on the railways of Great Britain from the early 1930s to the late 1960s.
+bn:15595406n	WIKIDATA	Trains conveying milk in Great Britain
+bn:16368017n	WIKI	A sealed train is one that travels internationally under customs and/or immigration seal, without its contents officially entering the nations traversed between the beginning and end of the journey.
+bn:04750641n	NONE	NONE
+bn:03816306n	WIKI	An armoured train is a railway train protected with armour.
+bn:03816306n	WIKIDATA	Military railway train
+bn:04193558n	NONE	NONE
+bn:05233126n	NONE	NONE
+bn:00015785n	WN	A wheeled vehicle adapted to the rails of railroad
+bn:00015785n	WIKI	A railroad car or railcar, railway wagon or railway carriage and UICa railroad/railway
+bn:00015785n	WIKI	A railcar, in British English and Australian English, is a self-propelled railway vehicle designed to transport passengers.
+bn:00015785n	WIKIDIS	Pulled by a locomotive;
+bn:00015785n	WIKIDIS	A type of self-propelled passenger-carrying railway vehicle.
+bn:00015785n	WIKIDATA	Vehicle used for carrying cargo or passengers on rail transport system
+bn:00015785n	WIKIDATA	Single railway motor coach propelled by an internal combustion engine
+bn:00015785n	OMWIKI	A railway vehicle that is drawn by a locomotive.
+bn:00015785n	WIKT	Any railroad vehicle that is not a locomotive.
+bn:00015785n	WIKT	Any railway carriage or wagon, a railway car.
+bn:00015785n	MSTERM	The assembly that holds the platen of a typewriter or a typewriterlike printer. On a standard typewriter, the platen and carriage move past a fixed position within the typewriter housing, where the keys strike the paper; the platen rotates to advance the paper held in the carriage. On most impact printers for computers, however, the print head moves back and forth across a platen, which rotates but does not move horizontally; in such machines, the assembly that carries the print head is often called the print-head carriage assembly.
+bn:00065101n	WN	Conveyance for passengers or mail or freight
+bn:02343072n	WIKI	The opening of the Liverpool and Manchester Railway took place on 15 September 1830.
+bn:00089791v	WN	Impart skills or knowledge to
+bn:00089791v	OMWIKI	To pass on knowledge and skills.
+bn:00089791v	WIKT	To pass on knowledge to.
+bn:00089791v	WIKTLB	To pass on knowledge.
+bn:00089791v	FRAMENET	Impart knowledge to or instruct (someone) in how to do something, especially in a school or as part of a recognized programme.
+bn:00084856v	WN	Develop (children's) behavior by instruction and practice; especially to teach self-control
+bn:00084856v	OMWIKI	To develop behaviour by instruction and practice.
+bn:00084856v	WIKT	To train someone by instruction and practice.
+bn:00084856v	WIKT	To shape the behaviour of someone to do something.
+bn:00084856v	WIKTLB	To train someone by instruction and practice.
+bn:00086740v	WN	Cause to grow and differentiate in ways conforming to its natural development
+bn:00089060v	WN	Educate for a future role or function
+bn:00089060v	OMWIKI	To educate for a future role or function.
+bn:00085223v	WN	Teach and supervise (someone); act as a trainer or coach (to), as in sports
+bn:00085223v	OMWIKI	To act as a trainer or coach (to), as in sports.
+bn:00085223v	FRAMENET	Train or teach as a coach.
+bn:00095067v	WN	Exercise in order to prepare for an event or competition
+bn:00095067v	OMWIKI	To exercise in order to prepare for an event or competition.
+bn:00087831v	WN	Do physical exercise
 bn:00013488n	WN	A dense growth of bushes
 bn:00013488n	WIKI	A thicket is a very dense stand of trees or tall shrubs, often dominated by only one or a few species, to the exclusion of all others.
 bn:00013488n	OMWIKI	A dense, but generally small, growth of shrubs, bushes or small trees.
@@ -41509,119 +41380,6 @@ bn:00064761n	WIKTLB	Prevention of, or protective treatment for disease.
 bn:00084156v	WN	Clean with a brush
 bn:00084157v	WN	Sweep across or over
 bn:00084157v	FRAMENET	Graze.
-bn:00066028n	WN	Public transport provided by a line of railway cars coupled together and drawn by a locomotive
-bn:00066028n	WIKI	A train is a form of rail transport consisting of a series of connected vehicles that generally runs along a rail track to transport cargo or passengers.
-bn:00066028n	WIKIDATA	One or more self-propelled vehicles that move along fixed rails to transport passengers or cargo
-bn:00066028n	OMWIKI	A train that is equiped to transport people.
-bn:00066028n	OMWIKI	A self-propelled, connected group of vehicles moving on rails.
-bn:00066028n	WIKT	A line of connected railway cars or carriages considered overall as a mode of transport; rail travel.
-bn:00066028n	WIKTLB	Line of connected cars or carriages.
-bn:00036422n	WN	A long-distance express freight train between industrial centers and seaports with facilities for rapid loading and unloading of goods
-bn:00036422n	WIKI	Rail freight transport is the use of railroads and trains to transport cargo as opposed to human passengers.
-bn:00036422n	WIKIDATA	Transportation of freight by train
-bn:00036422n	OMWIKI	A train which is exclusively intended for the transport of goods.
-bn:00036422n	WIKT	A train used for the transportation of goods.
-bn:00036422n	WIKT	Goods or items in transport.
-bn:00036422n	WIKTLB	Transport of goods
-bn:00036423n	WN	A railroad train consisting of freight cars
-bn:00036423n	WIKI	Rail freight transport is the use of railroads and trains to transport cargo as opposed to human passengers.
-bn:00036423n	WIKIDATA	Transportation of freight by train
-bn:00036423n	WIKT	A train used for the transportation of freight.
-bn:00036423n	WIKT	A freight train or, , a decrepit passenger train.
-bn:00052702n	WN	High-speed rail technology; train is suspended on a magnetic cushion above a magnetized track and so travels free of friction
-bn:00052702n	WIKI	Maglev is a system of train transportation that uses two sets of magnets, one set to repel and push the train up off the track as in levitation, then another set to move the 'floating train' ahead at great speed taking advantage of no friction.
-bn:00052702n	WIKIDATA	Transport method that uses magnetic levitation to move vehicles without making contact with the ground; locomotion device with magnetic sustentation
-bn:00212578n	WIKI	The Hiawathas were a fleet of named passenger trains operated by the Chicago, Milwaukee, St. Paul and Pacific Railroad between Chicago and various destinations in the Midwest and Western United States.
-bn:00212578n	WIKIDIS	A group of named passenger trains of the Chicago, Milwaukee, St. Paul and Pacific Railroad
-bn:00212578n	WIKIDATA	Fleet of trains in Chicago
-bn:00339546n	WIKI	The Siemens Nexas is a class of electric multiple units manufactured by Siemens Transportation Systems for the suburban railway network of Melbourne, Australia between 2002 and 2005.
-bn:00339546n	WIKIDATA	Class of electric multiple units manufactured by Siemens Transportation Systems for the suburban railway network of Melbourne, Australia between 2002 and 2005
-bn:00350396n	WIKI	A royal train is a set of railway carriages dedicated for the use of the monarch or other members of a royal family.
-bn:00350396n	WIKIDATA	Train  for the use of the Monarch, other members of the Royal Family, and their staff.
-bn:01592927n	WIKI	A Nahgüterzug is the name given to a category of local goods train in German-speaking countries, sometimes translated as a 'pick up' train or pick-up goods train.
-bn:02287112n	WIKI	Luxury trains are trains specifically designed to offer an extravagant train ride and evoke a strong sense of association with history and heritage.
-bn:02287112n	WIKIDATA	Special train, designed for elegance
-bn:03111561n	WIKI	The Metroliners were extra-fare high speed trains between Washington, D.C. and New York City which operated from 1969 to 2006.
-bn:03111561n	WIKIDATA	Former express train between Washington, D.C., and New York City
-bn:03861459n	WIKI	The Blue Angel was the name given to the Plan X class DE-1 diesel railcars formerly used by the Netherlands Railways.
-bn:03861459n	WIKI	Class of 1- and 2-car diesel railcars formerly used by the Netherlands Railways
-bn:03861459n	WIKIDIS	A diesel railcar formerly used by the Netherlands Railways
-bn:03861459n	WIKIDATA	Railcar formerly used by the Netherlands Railways
-bn:04229466n	NONE	NONE
-bn:08159767n	NONE	NONE
-bn:13843029n	WIKIDATA	Train carrying passengers
-bn:15190417n	NONE	NONE
-bn:15595406n	WIKI	Milk trains were a common sight on the railways of Great Britain from the early 1930s to the late 1960s.
-bn:15595406n	WIKIDATA	Trains conveying milk in Great Britain
-bn:16368017n	WIKI	A sealed train is one that travels internationally under customs and/or immigration seal, without its contents officially entering the nations traversed between the beginning and end of the journey.
-bn:04750641n	NONE	NONE
-bn:03816306n	WIKI	An armoured train is a railway train protected with armour.
-bn:03816306n	WIKIDATA	Military railway train
-bn:04193558n	NONE	NONE
-bn:05233126n	NONE	NONE
-bn:00015785n	WN	A wheeled vehicle adapted to the rails of railroad
-bn:00015785n	WIKI	A railroad car or railcar, railway wagon or railway carriage and UICa railroad/railway
-bn:00015785n	WIKI	A railcar, in British English and Australian English, is a self-propelled railway vehicle designed to transport passengers.
-bn:00015785n	WIKIDIS	Pulled by a locomotive;
-bn:00015785n	WIKIDIS	A type of self-propelled passenger-carrying railway vehicle.
-bn:00015785n	WIKIDATA	Vehicle used for carrying cargo or passengers on rail transport system
-bn:00015785n	WIKIDATA	Single railway motor coach propelled by an internal combustion engine
-bn:00015785n	OMWIKI	A railway vehicle that is drawn by a locomotive.
-bn:00015785n	WIKT	Any railroad vehicle that is not a locomotive.
-bn:00015785n	WIKT	Any railway carriage or wagon, a railway car.
-bn:00015785n	MSTERM	The assembly that holds the platen of a typewriter or a typewriterlike printer. On a standard typewriter, the platen and carriage move past a fixed position within the typewriter housing, where the keys strike the paper; the platen rotates to advance the paper held in the carriage. On most impact printers for computers, however, the print head moves back and forth across a platen, which rotates but does not move horizontally; in such machines, the assembly that carries the print head is often called the print-head carriage assembly.
-bn:00065101n	WN	Conveyance for passengers or mail or freight
-bn:02343072n	WIKI	The opening of the Liverpool and Manchester Railway took place on 15 September 1830.
-bn:00089791v	WN	Impart skills or knowledge to
-bn:00089791v	OMWIKI	To pass on knowledge and skills.
-bn:00089791v	WIKT	To pass on knowledge to.
-bn:00089791v	WIKTLB	To pass on knowledge.
-bn:00089791v	FRAMENET	Impart knowledge to or instruct (someone) in how to do something, especially in a school or as part of a recognized programme.
-bn:00084856v	WN	Develop (children's) behavior by instruction and practice; especially to teach self-control
-bn:00084856v	OMWIKI	To develop behaviour by instruction and practice.
-bn:00084856v	WIKT	To train someone by instruction and practice.
-bn:00084856v	WIKT	To shape the behaviour of someone to do something.
-bn:00084856v	WIKTLB	To train someone by instruction and practice.
-bn:00086740v	WN	Cause to grow and differentiate in ways conforming to its natural development
-bn:00089060v	WN	Educate for a future role or function
-bn:00089060v	OMWIKI	To educate for a future role or function.
-bn:00085223v	WN	Teach and supervise (someone); act as a trainer or coach (to), as in sports
-bn:00085223v	OMWIKI	To act as a trainer or coach (to), as in sports.
-bn:00085223v	FRAMENET	Train or teach as a coach.
-bn:00095067v	WN	Exercise in order to prepare for an event or competition
-bn:00095067v	OMWIKI	To exercise in order to prepare for an event or competition.
-bn:00087831v	WN	Do physical exercise
-bn:00047799n	WN	Game equipment consisting of one of several small six-pointed metal pieces that are picked up while bouncing a ball in the game of jacks
-bn:00047799n	WIKT	A small, six-pointed playing piece used in the game of jacks.
-bn:03648425n	WIKI	Page of Swords is a card used in Latin suited playing cards which include tarot decks.
-bn:03648425n	WIKIDATA	Playing card
-bn:15707273n	WIKIDATA	Playing card
-bn:16075597n	WIKIDATA	Playing card
-bn:17814217n	WIKIDATA	Playing card
-bn:15117902n	WIKIDATA	Playing card
-bn:00047802n	WN	Tool for exerting pressure or lifting
-bn:00013866n	WN	A jack for lifting a motor vehicle by the bumper
-bn:00047835n	WN	Screw-operated jack
-bn:00047835n	WIKI	A jackscrew is a type of jack that is operated by turning a leadscrew.
-bn:00047835n	WIKT	A jack which is operated by turning a leadscrew.
-bn:16457842n	WIKI	A jack, screwjack or jackscrew is a mechanical device used as a lifting device to lift heavy loads or to apply great forces.
-bn:16457842n	WIKIDIS	A device used to lift heavy objects
-bn:16457842n	WIKIDATA	Mechanical device used as a lifting device to lift heavy loads or apply great forces
-bn:16457842n	OMWIKI	A mechanical device used to lift heavy loads.
-bn:16457842n	WIKT	A mechanical device used to raise and support a heavy object, e.g. screw jack, scissor jack, hydraulic jack, ratchet jack, scaffold jack.
-bn:16457842n	WIKTLB	Device for raising and supporting a heavy object.
-bn:10418529n	NONE	NONE
-bn:05220845n	NONE	NONE
-bn:15020307n	WIKI	Equipment that can be used to lift loads
-bn:00089934v	WN	Lift with a special device
-bn:00084110v	WN	Raise from a lower to a higher position
-bn:00084110v	OMWIKI	To cause to rise; to move something from a lower position to a higher one.
-bn:00084110v	OMWIKI	To cause an object to have a higher location than previously.
-bn:00084110v	OMWIKI	To raise something to a higher position.
-bn:00084110v	WIKT	To raise to a higher position; to lift.
-bn:00084110v	WIKT	To raise or rise.
-bn:00084110v	WIKT	To move from a sitting or lying position to a standing position; to stand up.
-bn:00084110v	WIKT	To cause to seem higher by drawing nearer to it.
 bn:00071172n	WN	Footwear shaped to fit the foot (below the ankle) with a flexible upper of leather or plastic and a sole and heel of heavier material
 bn:00071172n	WIKI	A shoe is an item of footwear intended to protect and comfort the human foot while the wearer is doing various activities.
 bn:00071172n	WIKIDATA	Footwear
@@ -41690,36 +41448,70 @@ bn:02749084n	WIKI	An economic taxonomy is a system of classification of economic
 bn:02749084n	WIKIDIS	A system of classification for economic activity
 bn:15519080n	WIKIDATA	Kind of treaty between two or more contracting persons or parties
 bn:15519080n	OMWIKI	A convention, or promise of two or more parties, by deed in writing, signed, and delivered, by which either of the parties pledges himself to the other that something is either done, or shall be done, or shall not be done, or stipulates for the truth of certain facts. 
-bn:00070830n	WN	Shade within clear boundaries
-bn:00070830n	WIKI	A shadow is a dark area where light from a light source is blocked by an opaque object.
-bn:00070830n	WIKIDATA	Area where direct light from a light source cannot reach due to obstruction by an object
-bn:00070830n	OMWIKI	Darkness, where light (particularly sunlight) is blocked.
-bn:00070830n	WIKT	Darkness where light, particularly sunlight, is blocked.
-bn:00070830n	WIKT	A dark image projected onto a surface where light is blocked by the shade of an object.
-bn:00070830n	WIKTLB	Darkness where light is blocked.
-bn:00070830n	WIKIQU	Shadows are areas where direct light from a light source cannot reach due to obstruction by an object.
-bn:00061444n	WN	A fringe region of partial shadow around an umbra
-bn:00078919n	WN	A region of complete shadow resulting from total obstruction of light
-bn:00070820n	WN	Relative darkness caused by light rays being intercepted by an opaque body
-bn:00070820n	WIKI	Shade is the blocking of sunlight by any object, and also the shadow created by that object.
-bn:00070820n	WIKIDIS	The blocking of sunlight
-bn:00070820n	WIKIDATA	Shape created by some blocking of sunlight
-bn:00070820n	OMWIKI	Darkness, where light (particularly sunlight) is blocked.
-bn:00070820n	WIKT	Something that blocks light, particularly in a window.
-bn:00070820n	WIKT	Relative darkness, especially as caused by the interruption of light; gloom, obscurity.
-bn:00070820n	WIKTLB	Something that blocks light, particularly in a window.
-bn:00070820n	MSTERM	A shaded outline that appears behind an object or text and creates the illusion of depth.
-bn:15098302n	WIKIDATA	An outwardly facing, noticeable from the outside part of a whole; a given area distinguished on the basis of a particular characteristic, use, restriction, etc
-bn:00070424n	WN	Partial darkness
-bn:00070424n	WIKT	Partial or near darkness, dimness, twilight.
-bn:00025233n	WN	Absence of light or illumination
-bn:00025233n	WIKT	A complete or partial absence of light.
-bn:00025233n	WIKTLB	A complete or partial absence of light.
-bn:00070835n	WN	A spy employed to follow someone and report their movements
-bn:00035630n	WN	Someone who travels behind or pursues another
-bn:00073686n	WN	A secret watcher; someone who secretly watches other people
-bn:00051972n	WN	A close observer; someone who looks at something (such as an exhibition of some kind)
-bn:00009668n	WN	A person who becomes aware (of things or events) through the senses
+bn:00077657n	WN	A light usually carried in the hand; consists of some flammable substance
+bn:00077657n	WIKI	A torch is a stick with combustible material at one end, which is ignited and used as a light source.
+bn:00077657n	WIKIDATA	A stick with combustible material at the end, which is ignited and used as a light source.
+bn:00077657n	OMWIKI	A stick with a flame on one end used as a light source.
+bn:00077657n	WIKT	A stick with a flame on one end, used chiefly as a light source; a similarly shaped implement with a replaceable supply of flammable material.
+bn:00077657n	WIKTLB	Stick with flame at one end.
+bn:02086716n	WIKI	Juggling torches are one of various props used by jugglers.
+bn:00035000n	WN	A flaming torch (such as are used in processions at night)
+bn:00051109n	WN	Any device serving as a source of illumination
+bn:00051109n	WIKT	A source of illumination.
+bn:00051109n	WIKTLB	Source of illumination.
+bn:00051109n	MSTERM	In computer graphics, the imaginary location of a source of light, which determines the shading in an image.
+bn:00072950n	WN	Any device serving as a source of visible electromagnetic radiation
+bn:00011464n	WN	A burner that mixes air and gas to produce a very hot flame
+bn:00011464n	WIKI	A blowtorch, or blowlamp, is a fuel-burning tool used for applying flame and heat to various applications, usually metalworking.
+bn:00011464n	WIKIDATA	Fuel-burning tool for applying flame and heat for various applications
+bn:00011464n	WIKT	A burner that burns a fuel in air to produce a hot flame; a blowtorch.
+bn:00011464n	WIKT	A tool which projects a controlled stream of a highly flammable gas over a spark in order to produce a controlled flame.
+bn:05358437n	NONE	NONE
+bn:00060002n	WN	A blowtorch that burns oxyacetylene
+bn:00060002n	WIKI	Oxy-fuel welding and oxy-fuel cutting are processes that use fuel gases and oxygen to weld and cut metals, respectively.
+bn:00060002n	WIKIDIS	A metal cutting process
+bn:00060002n	WIKIDATA	Acetylene V propane
+bn:00060002n	WIKT	An oxyacetylene torch.
+bn:00014018n	WN	An apparatus for burning fuel (or refuse)
+bn:00014018n	WIKT	A device for burning refuse; an incinerator.
+bn:00014018n	WIKTLB	Device for burning refuse.
+bn:00095033v	WN	Burn maliciously, as by arson
+bn:00095033v	FRAMENET	Set fire to. "The shops had been looted and torched.".
+bn:00084270v	WN	Destroy by fire
+bn:00084270v	OMWIKI	To be consumed by fire.
+bn:00084270v	WIKT	To cause to be consumed by fire.
+bn:00084270v	WIKTLB	Cause to be consumed by fire.
+bn:00047799n	WN	Game equipment consisting of one of several small six-pointed metal pieces that are picked up while bouncing a ball in the game of jacks
+bn:00047799n	WIKT	A small, six-pointed playing piece used in the game of jacks.
+bn:03648425n	WIKI	Page of Swords is a card used in Latin suited playing cards which include tarot decks.
+bn:03648425n	WIKIDATA	Playing card
+bn:15707273n	WIKIDATA	Playing card
+bn:16075597n	WIKIDATA	Playing card
+bn:17814217n	WIKIDATA	Playing card
+bn:15117902n	WIKIDATA	Playing card
+bn:00047802n	WN	Tool for exerting pressure or lifting
+bn:00013866n	WN	A jack for lifting a motor vehicle by the bumper
+bn:00047835n	WN	Screw-operated jack
+bn:00047835n	WIKI	A jackscrew is a type of jack that is operated by turning a leadscrew.
+bn:00047835n	WIKT	A jack which is operated by turning a leadscrew.
+bn:16457842n	WIKI	A jack, screwjack or jackscrew is a mechanical device used as a lifting device to lift heavy loads or to apply great forces.
+bn:16457842n	WIKIDIS	A device used to lift heavy objects
+bn:16457842n	WIKIDATA	Mechanical device used as a lifting device to lift heavy loads or apply great forces
+bn:16457842n	OMWIKI	A mechanical device used to lift heavy loads.
+bn:16457842n	WIKT	A mechanical device used to raise and support a heavy object, e.g. screw jack, scissor jack, hydraulic jack, ratchet jack, scaffold jack.
+bn:16457842n	WIKTLB	Device for raising and supporting a heavy object.
+bn:10418529n	NONE	NONE
+bn:05220845n	NONE	NONE
+bn:15020307n	WIKI	Equipment that can be used to lift loads
+bn:00089934v	WN	Lift with a special device
+bn:00084110v	WN	Raise from a lower to a higher position
+bn:00084110v	OMWIKI	To cause to rise; to move something from a lower position to a higher one.
+bn:00084110v	OMWIKI	To cause an object to have a higher location than previously.
+bn:00084110v	OMWIKI	To raise something to a higher position.
+bn:00084110v	WIKT	To raise to a higher position; to lift.
+bn:00084110v	WIKT	To raise or rise.
+bn:00084110v	WIKT	To move from a sitting or lying position to a standing position; to stand up.
+bn:00084110v	WIKT	To cause to seem higher by drawing nearer to it.
 bn:00013560n	WN	Someone who robs at sea or plunders the land from the sea without having a commission from any sovereign nation
 bn:00013560n	WIKI	Buccaneers were a kind of privateer or pirate peculiar to the Caribbean Sea during the 17th and 18th centuries.
 bn:00013560n	WIKIDATA	Pirates in the Caribbean Sea during the 17th century
@@ -41794,36 +41586,108 @@ bn:00094314v	OMWIKI	To take possession of property belonging to another without 
 bn:00094314v	WIKT	To take illegally, or without the owner's permission, something owned by someone else.
 bn:00094314v	WIKTLB	To illegally take possession of.
 bn:00094314v	FRAMENET	Take (something) without permission or legal right and without intending to return it.
-bn:00077657n	WN	A light usually carried in the hand; consists of some flammable substance
-bn:00077657n	WIKI	A torch is a stick with combustible material at one end, which is ignited and used as a light source.
-bn:00077657n	WIKIDATA	A stick with combustible material at the end, which is ignited and used as a light source.
-bn:00077657n	OMWIKI	A stick with a flame on one end used as a light source.
-bn:00077657n	WIKT	A stick with a flame on one end, used chiefly as a light source; a similarly shaped implement with a replaceable supply of flammable material.
-bn:00077657n	WIKTLB	Stick with flame at one end.
-bn:02086716n	WIKI	Juggling torches are one of various props used by jugglers.
-bn:00035000n	WN	A flaming torch (such as are used in processions at night)
-bn:00051109n	WN	Any device serving as a source of illumination
-bn:00051109n	WIKT	A source of illumination.
-bn:00051109n	WIKTLB	Source of illumination.
-bn:00051109n	MSTERM	In computer graphics, the imaginary location of a source of light, which determines the shading in an image.
-bn:00072950n	WN	Any device serving as a source of visible electromagnetic radiation
-bn:00011464n	WN	A burner that mixes air and gas to produce a very hot flame
-bn:00011464n	WIKI	A blowtorch, or blowlamp, is a fuel-burning tool used for applying flame and heat to various applications, usually metalworking.
-bn:00011464n	WIKIDATA	Fuel-burning tool for applying flame and heat for various applications
-bn:00011464n	WIKT	A burner that burns a fuel in air to produce a hot flame; a blowtorch.
-bn:00011464n	WIKT	A tool which projects a controlled stream of a highly flammable gas over a spark in order to produce a controlled flame.
-bn:05358437n	NONE	NONE
-bn:00060002n	WN	A blowtorch that burns oxyacetylene
-bn:00060002n	WIKI	Oxy-fuel welding and oxy-fuel cutting are processes that use fuel gases and oxygen to weld and cut metals, respectively.
-bn:00060002n	WIKIDIS	A metal cutting process
-bn:00060002n	WIKIDATA	Acetylene V propane
-bn:00060002n	WIKT	An oxyacetylene torch.
-bn:00014018n	WN	An apparatus for burning fuel (or refuse)
-bn:00014018n	WIKT	A device for burning refuse; an incinerator.
-bn:00014018n	WIKTLB	Device for burning refuse.
-bn:00095033v	WN	Burn maliciously, as by arson
-bn:00095033v	FRAMENET	Set fire to. "The shops had been looted and torched.".
-bn:00084270v	WN	Destroy by fire
-bn:00084270v	OMWIKI	To be consumed by fire.
-bn:00084270v	WIKT	To cause to be consumed by fire.
-bn:00084270v	WIKTLB	Cause to be consumed by fire.
+bn:00006866n	WN	A colorless element that is one of the six inert gasses; occurs in trace amounts in air
+bn:00006866n	WIKI	Krypton is a chemical element with symbol Kr and atomic number 36.
+bn:00006866n	WIKIDIS	A chemical element with symbol Kr
+bn:00006866n	WIKIDATA	Chemical element with atomic number of 36
+bn:00006866n	OMWIKI	A chemical element with symbol Kr and atomic number of 36; a colorless noble gas.
+bn:00006866n	WIKT	A chemical element with an atomic number of 36; one of the noble gases.
+bn:00006866n	WIKTLB	A chemical element.
+bn:00006884n	WN	A colorless odorless inert gaseous element occurring in the earth's atmosphere in trace amounts
+bn:00006884n	WIKI	A third-person pronoun is a pronoun that refers to an entity other than the speaker or listener.
+bn:00006884n	WIKI	Xenon is a chemical element with symbol Xe and atomic number 54.
+bn:00006884n	WIKIDIS	A chemical element
+bn:00006884n	WIKIDATA	Chemical element with atomic number of 54 and heaviest stable noble gas
+bn:00006884n	OMWIKI	A chemical element with symbol Xe and atomic number of 54, a heavy colorless noble gas.
+bn:00006884n	WIKT	A heavy, gaseous chemical element of the noble gases group with an atomic number of 54.
+bn:00006884n	WIKT	A gender-neutral pronoun.
+bn:00006901n	WN	A common nonmetallic element that is normally a colorless odorless tasteless inert diatomic gas; constitutes 78 percent of the atmosphere by volume; a constituent of all living tissues
+bn:00006901n	WIKI	Nitrogen is a chemical element with symbol N and atomic number 7.
+bn:00006901n	WIKIDIS	The elemental form of nitrogen, a gas
+bn:00006901n	WIKIDATA	Element with the atomic number of 7
+bn:00006901n	OMWIKI	Gaseous, non-metallic chemical element with symbol N and atomic number 7.
+bn:00006901n	WIKT	A chemical element with an atomic number of 7 and atomic weight of 14.0067.
+bn:00006901n	WIKT	Nitrogen gas.
+bn:00006824n	WN	A colorless odorless gaseous element that give a red glow in a vacuum tube; one of the six inert gasses; occurs in the air in small amounts
+bn:00006824n	WIKI	Neon is a chemical element with symbol Ne and atomic number 10.
+bn:00006824n	WIKIDIS	The chemical element
+bn:00006824n	WIKIDATA	Element with the atomic number of 10
+bn:00006824n	OMWIKI	The chemical element with symbol Ne and atomic number 10, a colorless noble gas.
+bn:00006824n	WIKT	The chemical element with an atomic number of 10.
+bn:00012966n	WN	The air that is inhaled and exhaled in respiration
+bn:00012966n	OMWIKI	The air inhaled and exhaled through the lungs.
+bn:00012966n	WIKT	Air expelled from the lungs.
+bn:00012966n	WIKTLB	Air expelled from the lungs.
+bn:00012966n	FRAMENET	An inhalation or exhalation of air from the lungs.
+bn:00044932n	WN	Air that has been heated and tends to rise
+bn:00044932n	WIKT	Air that has been heated, especially so as to function as the lifting agent of a hot-air balloon.
+bn:00051475n	WN	Air in a liquid state
+bn:00051475n	WIKI	Liquid air is air that has been cooled to very low temperatures, so that it has condensed into a pale blue mobile liquid.
+bn:00051475n	WIKT	Air which is in a liquid state due to being pressurised or kept at a low temperature, or both, usually for storage and transport purposes.
+bn:00051475n	WIKTLB	Air in liquid state.
+bn:10902319n	WIKI	The outer shell of planet Earth
+bn:00002186n	WN	The region above the ground
+bn:00002188n	WN	A slight wind (usually refreshing)
+bn:00002188n	OMWIKI	A slight wind.
+bn:00002188n	WIKT	A light, gentle wind.
+bn:00002188n	WIKT	The west wind personified.
+bn:00002188n	WIKT	A breeze; a gentle wind.
+bn:00002188n	WIKTLB	The west wind personified.
+bn:00012969n	WN	A slight movement of the air
+bn:00036482n	WN	Wind moving 19-24 knots; 5 on the Beaufort scale
+bn:00037767n	WN	Wind moving 8-12 knots; 3 on the Beaufort scale
+bn:00051122n	WN	Wind moving 1-3 knots; 1 on the Beaufort scale
+bn:00051122n	WIKT	A light wind with wind speed between 0.3 and 1.5 m/s; a Force 1 wind strength on the Beaufort scale.
+bn:00051126n	WN	Wind moving 4-7 knots; 2 on the Beaufort scale
+bn:00055455n	WN	Wind moving 13-18 knots; 4 on the Beaufort scale
+bn:00069956n	WN	A cooling breeze from the sea (during the daytime)
+bn:00069956n	WIKI	A sea breeze or onshore breeze is any wind that blows from a large body of water toward or onto a landmass; it develops due to differences in air pressure created by the differing heat capacities of water and dry land.
+bn:00069956n	WIKIDIS	Wind that develops over land near coasts.
+bn:00069956n	WIKT	A breeze that blows off the sea on to the nearby land.
+bn:00069956n	WIKT	A breeze blowing off the land and out to sea - common at night.
+bn:00069956n	WIKTLB	An offshore breeze.
+bn:00074734n	WN	Wind moving 25-31 knots; 6 on the Beaufort scale
+bn:00002190n	WN	Once thought to be one of four elements composing the universe (Empedocles)
+bn:00002190n	WIKI	Air is one of the four classical elements in ancient Greek philosophy and in Western alchemy.
+bn:00002190n	WIKIDIS	In Greek mythology
+bn:00002190n	WIKIDATA	One of the four classical elements; universal power or pure substance
+bn:00002190n	WIKT	The atmospheric substance above the surface of the earth which animals breathe, formerly considered to be a single substance, one of the four basic elements of ancient philosophy and one of the five basic elements of several Eastern traditions.
+bn:00002190n	WIKTLB	Historical: one of the basic elements.
+bn:00002192n	WN	Medium for radio and television broadcasting
+bn:00054151n	WN	An intervening substance through which signals can travel as a means for communication
+bn:00054151n	MSTERM	A substance in which signals can be transmitted, such as a wire or fiber-optic cable.
+bn:00002214n	WN	The use of military aircraft to provide protection against attack by enemy aircraft during ground or naval operations
+bn:00002214n	WIKI	Military aviation is the use of military aircraft and other flying machines for the purposes of conducting or enabling aerial warfare, including national airlift capacity to provide logistical supply to forces stationed in a theater or along a front.
+bn:00002214n	WIKIDATA	Use of aircraft by armed forces in combat or other military capacity
+bn:00002303n	WN	The art of operating aircraft
+bn:00002303n	WIKI	Airmanship is skill and knowledge applied to aerial navigation, similar to seamanship in maritime navigation.
+bn:00002303n	WIKIDATA	Skill set applied to flying
+bn:00002303n	WIKT	The art or science of making and flying aircraft.
+bn:00002303n	WIKT	Skill in and knowledge of the work of navigating and operating an aircraft.
+bn:00002303n	WIKTLB	Art or science of flying.
+bn:00048557n	WN	Descent with a parachute
+bn:00048557n	WIKI	Parachuting, or skydiving, is a method of transiting from a high point to Earth with the aid of gravity, involving the control of speed during the descent with the use of a parachute.
+bn:00048557n	WIKIDIS	Also known as sky diving
+bn:00048557n	WIKIDATA	Action sport of exiting an aircraft and returning to Earth  using a parachute
+bn:00048557n	WIKT	The sport of jumping with a parachute.
+bn:00430195n	WIKI	General aviation are all civil aviation operations other than scheduled air services and non-scheduled air transport operations for remuneration or hire.
+bn:00430195n	WIKIDIS	The category of civil aviation encompassing all non-scheduled aircraft flights
+bn:00430195n	WIKIDATA	Civil use of aircraft excluding commercial transportation
+bn:00830416n	WIKI	Ultralight aviation is the flying of lightweight, 1- or 2-seat fixed-wing aircraft.
+bn:00830416n	WIKIDATA	Aviation field involving design, regulation, and operation of very lightweight aircraft
+bn:00830416n	WIKT	An ultralight aircraft.
+bn:01105625n	WIKI	Civil aviation is one of two major categories of flying, representing all non-military aviation, both private and commercial.
+bn:01105625n	WIKIDATA	All non-military aviation
+bn:01486000n	WIKI	Polar aviation refers to aviation in polar regions of the Earth.
+bn:02233314n	WIKI	Private aviation is the part of civil aviation that does not include flying for hire.
+bn:06942322n	NONE	NONE
+bn:00078085n	WN	The act of going from one place to another
+bn:00078085n	WIKI	Travel is the movement of people between relatively distant geographical locations, and can involve travel by foot, bicycle, automobile, train, boat, bus, airplane, or other means, with or without luggage, and can be one way or round trip.
+bn:00078085n	WIKIDIS	Movement of people between locations
+bn:00078085n	WIKIDATA	Movement of people between relatively distant geographical locations
+bn:00078085n	OMWIKI	The transport of people on a trip or journey.
+bn:00078085n	WIKT	The act of traveling.
+bn:00078085n	WIKTLB	Act of traveling.
+bn:00078085n	MSTERM	An application for travel planning, including destination photos and panoramas, travel guides, booking tools, currency conversions, and weather forecasts.
+bn:15855519n	WIKI	Bianhua meaning "transformation, metamorphosis" was a keyword in both Daoism and Chinese Buddhism.
+bn:15855519n	WIKIDATA	Process, event or action that deviates from the present state

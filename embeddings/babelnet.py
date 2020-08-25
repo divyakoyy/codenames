@@ -10,6 +10,9 @@ import pickle
 from gensim.utils import simple_preprocess
 from gensim.models import KeyedVectors
 
+# nltk
+from nltk.stem import PorterStemmer
+
 # Graphing
 import networkx as nx
 from networkx.exception import NodeNotFound
@@ -58,10 +61,13 @@ class Babelnet(object):
 			self.synset_to_metadata,
 		) = self._load_synset_data_v5()
 
-		self.word2vec_model = self._get_word2vec()
+		self.fasttext_model = self._get_fasttext()
 
 		self.dict2vec_embeddings_file = 'data/word_to_dict2vec_embeddings'
 		self.word_to_dict2vec_embeddings = self._get_dict2vec()
+
+		# Used to get word stems
+		self.stemmer = PorterStemmer()
 
 	"""
 	Pre-process steps
@@ -140,9 +146,9 @@ class Babelnet(object):
 		)
 
 
-	def _get_word2vec(self):
-		word2vec_model = KeyedVectors.load_word2vec_format('data/GoogleNews-vectors-negative300.bin', binary=True)
-		return word2vec_model
+	def _get_fasttext(self):
+		fasttext_model = KeyedVectors.load_word2vec_format('data/fasttext-wiki-news-300d-1M-subword.vec.gz')
+		return fasttext_model
 
 
 	def _get_dict2vec(self):
@@ -271,7 +277,7 @@ class Babelnet(object):
 				# definitions
 				if synset in self.synset_to_definitions:
 					dictionary_definitions_for_word.extend(
-						word.lower().translate(str.maketrans('', '', string.punctuation))
+						self.stemmer.stem(word.lower().translate(str.maketrans('', '', string.punctuation)))
 						for definition in self.synset_to_definitions[synset]
 						for word in definition.split()
 					)
@@ -292,57 +298,60 @@ class Babelnet(object):
 		"""
 
 		# factor in dictionary definition heuristic
-		dict_definition_score = self._get_dictionary_definition_score(
-			chosen_words, clue, red_words)
+		dict_definition_score = 0.25*self._get_dictionary_definition_score(chosen_words, clue, red_words)
+
+		fasttext_score = 2.5*self._get_fasttext_score(chosen_words, clue, red_words)
 
 		if self.configuration.debug_file:
 			with open(self.configuration.debug_file, 'a') as f:
 				f.write(" ".join([str(x) for x in [
-					"dictionary def score:", round(dict_definition_score,3), "\n"
+					" dictionary def score:", round(dict_definition_score,3),"fasttext score:", round(fasttext_score,3), "\n"
 				]]))
 
-		return (dict_definition_score)
+		return (dict_definition_score + fasttext_score)
 
 	"""
 	Helper methods
 	"""
-	# TODO: remove this if we're not using word2vec score anymore
-	def _get_word2vec_score(self, chosen_words, potential_clue, red_words):
+	def _get_fasttext_score(self, chosen_words, potential_clue, red_words):
 
-		word2vec_similarities = []
-		red_word2vec_similarities = []
-		if potential_clue not in self.word2vec_model:
+		fasttext_similarities = []
+		red_fasttext_similarities = []
+		if potential_clue not in self.fasttext_model:
 			if self.configuration.verbose:
-				print("Potential clue word ", potential_clue, "not in Google news word2vec model")
+				print("Potential clue word ", potential_clue, "not in fasttext model")
 			return 0.0
 
 		# TODO: cache this info in pre-training
 		for chosen_word in chosen_words:
-			if chosen_word in self.word2vec_model:
-				word2vec_similarities.append(self.word2vec_model.similarity(chosen_word, potential_clue))
+			if chosen_word in self.fasttext_model:
+				fasttext_similarities.append(self.fasttext_model.similarity(chosen_word, potential_clue))
 		for red_word in red_words:
-			if red_word in self.word2vec_model:
-				red_word2vec_similarities.append(self.word2vec_model.similarity(red_word, potential_clue))
+			if red_word in self.fasttext_model:
+				red_fasttext_similarities.append(self.fasttext_model.similarity(red_word, potential_clue))
 			else:
-				print(f"red word {red_word} not in word2vec")
+				print(f"red word {red_word} not in fasttext")
 		#TODO: is average the best way to do this
-		return sum(word2vec_similarities)/len(word2vec_similarities) - max(red_word2vec_similarities)
+		return (sum(fasttext_similarities)/len(fasttext_similarities)) - 0.5*(sum(red_fasttext_similarities)/len(red_fasttext_similarities))
 
 	def _get_dictionary_definition_score(self, chosen_words, potential_clue, red_words):
 		# the dictionary definitions of words (as given from their babelnet synset)
 		# used as a heuristic for candidate clue words
 
-		is_in_chosen_words_dict_definition = 0.0
-		is_in_red_words_dict_definition = 0.0
+		chosen_words_dict_definition_score = 0.0
+		red_words_dict_definition_score = 0.0
+
+		potential_clue_stem = self.stemmer.stem(potential_clue)
+
 		for word in chosen_words:
-			if potential_clue in self.dictionary_definitions[word]:
-				is_in_chosen_words_dict_definition += 1.0
+			if potential_clue_stem in self.dictionary_definitions[word]:
+				chosen_words_dict_definition_score += 1.0
 
 		for word in red_words:
-			if potential_clue in self.dictionary_definitions[word]:
-				is_in_red_words_dict_definition += 1.0
+			if potential_clue_stem in self.dictionary_definitions[word]:
+				red_words_dict_definition_score += 1.0
 
-		return is_in_chosen_words_dict_definition - is_in_red_words_dict_definition
+		return chosen_words_dict_definition_score - (0.5*red_words_dict_definition_score)
 
 	"""
 	Babelnet methods
