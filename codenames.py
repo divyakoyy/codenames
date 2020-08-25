@@ -350,10 +350,6 @@ class Codenames(object):
                 if clue in self.weighted_nn[red_word]:
                     red_word_counts.append(self.weighted_nn[red_word][clue])
 
-            # Give embedding methods the opportunity to rescale the score using their own heuristics
-            embedding_score = self.embedding.rescale_score(
-                chosen_words, clue, self.red_words)
-
             heuristic_score = 0
 
             self._write_to_debug_file(["\n", clue, "score breakdown for", " ".join(chosen_words), "\n\tblue words score:", round(sum(blue_word_counts),3), " red words penalty:", round((penalty *sum(red_word_counts)),3)])
@@ -366,10 +362,13 @@ class Codenames(object):
                 if (clue in stopwords or idf < idf_lower_bound):
                     idf = 1.0
 
-                dict2vec_score = self._get_dict2vec_score(chosen_words, clue, self.red_words)
+                dict2vec_score = 10*self._get_dict2vec_score(chosen_words, clue, self.red_words)
 
                 heuristic_score = dict2vec_score + (-2*idf)
                 self._write_to_debug_file([" IDF:", round(-2*idf,3), "dict2vec score:", round(dict2vec_score,3)])
+
+            # Give embedding methods the opportunity to rescale the score using their own heuristics
+            embedding_score = self.embedding.rescale_score(chosen_words, clue, self.red_words)
 
             score = sum(blue_word_counts) - (penalty *sum(red_word_counts)) + embedding_score + heuristic_score
 
@@ -475,6 +474,14 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
+    red_words = [
+       ['unicorn', 'field', 'dwarf', 'straw', 'bolt', 'string', 'green', 'smuggler', 'round', 'ground']
+    ]
+
+    blue_words = [
+        ['dance', 'bomb', 'kangaroo', 'sink', 'racket', 'scientist', 'roulette', 'bill', 'compound', 'shark']
+    ]
+
     for useHeuristicOverride in [True, False]:
         for embedding_type in args.embeddings:
             debug_file_path = None
@@ -520,7 +527,7 @@ if __name__ == "__main__":
                 print("RED WORDS: ", list(game.red_words))
                 print("BLUE WORDS: ", list(game.blue_words))
                 print("BEST CLUES: ")
-                for score, clues, board_words in zip(best_scores[:3], best_clues[:3], best_board_words_for_clue[:3]):
+                for score, clues, board_words in zip(best_scores, best_clues, best_board_words_for_clue):
                     print()
                     print(clues, str(round(score,3)), board_words)
                     for clue in clues:
