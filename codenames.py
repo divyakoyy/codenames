@@ -361,7 +361,7 @@ class Codenames(object):
                 # prune out super common words (e.g. "get", "go")
                 if (clue in stopwords or idf < idf_lower_bound):
                     idf = 1.0
-                dict2vec_score = 3.5*self._get_dict2vec_score(chosen_words, clue, self.red_words)
+                dict2vec_score = 2*self._get_dict2vec_score(chosen_words, clue, self.red_words)
 
                 heuristic_score = dict2vec_score + (-2*idf)
                 self._write_to_debug_file([" IDF:", round(-2*idf,3), "dict2vec score:", round(dict2vec_score,3)])
