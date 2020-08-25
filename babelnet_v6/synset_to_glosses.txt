@@ -41691,3 +41691,139 @@ bn:00078085n	WIKTLB	Act of traveling.
 bn:00078085n	MSTERM	An application for travel planning, including destination photos and panoramas, travel guides, booking tools, currency conversions, and weather forecasts.
 bn:15855519n	WIKI	Bianhua meaning "transformation, metamorphosis" was a keyword in both Daoism and Chinese Buddhism.
 bn:15855519n	WIKIDATA	Process, event or action that deviates from the present state
+bn:00020899n	WN	A professional performer who tells jokes and performs comical acts
+bn:00020899n	WIKI	A comedian or comic is a person who seeks to entertain an audience by making them laugh.
+bn:00020899n	WIKIDATA	Person who seeks to entertain an audience, primarily by making them laugh
+bn:00020899n	OMWIKI	A professional performer who tells jokes and or performs comical acts.
+bn:00020899n	WIKT	A comedian.
+bn:02619569n	WIKI	A monologist, or interchangeably monologuist, is a solo artist who recites or gives dramatic readings from a monologue, soliloquy, poetry, or work of literature, for the entertainment of an audience.
+bn:02619569n	WIKI	Solo artist who recites or gives dramatic readings from a monologue, soliloquy, poetry, or work of literature, for the entertainment of an audience
+bn:15731577n	WIKIDATA	Japanese comedian
+bn:09182828n	NONE	NONE
+bn:05030283n	NONE	NONE
+bn:00470445n	WIKI	The Krankies are a Scottish comedy duo who enjoyed success as a cabaret act in the 1970s and on television in the 1980s, featuring in their own television shows and releasing their own music single.
+bn:00470445n	WIKIDATA	Scottish comedy duo
+bn:00006103n	WN	United States comedian; one of four brothers who made motion pictures together (1893-1964)
+bn:00006103n	WIKI	Arthur Julius Marx was an American author, a nationally ranked amateur tennis player, and son of entertainer Groucho Marx, and his first wife, Ruth Johnson.
+bn:00006103n	WIKIDATA	American author and tennis player
+bn:00014033n	WN	United States comedian and film actor (1896-1996)
+bn:00014033n	WIKI	For other uses, see George Burns 
+bn:00014033n	WIKIDATA	American comedian, actor, and writer
+bn:00014033n	WIKIQU	George Burns, born Nathan Birnbaum, was an American comedian, actor and comedic partner and husband of Gracie Allen.
+bn:00014193n	WN	United States comedian and actor in silent films noted for his acrobatic skills and deadpan face (1895-1966)
+bn:00014193n	WIKI	Joseph Frank "Buster" Keaton was an American actor, comedian, film director, producer, screenwriter, and stunt performer.
+bn:00014193n	WIKIDATA	American actor and filmmaker
+bn:00014193n	WIKIQU	Joseph Frank Keaton VI was American actor and filmmaker, often called The Great Stone Face, he was the first person ever called "Buster", acquiring the nickname from Harry Houdini who saw him take a fall down some stairs as an infant.
+bn:00017727n	WN	English comedian and film maker; portrayed a downtrodden little man in baggy pants and bowler hat (1889-1977)
+bn:00017727n	WIKI	Sir Charles Spencer Chaplin, was an English comic actor, filmmaker, and composer who rose to fame in the era of silent film.
+bn:00017727n	WIKIDIS	English comedy film actor and director
+bn:00017727n	WIKIDATA	British comic actor and filmmaker
+bn:00017727n	WIKIQU	Sir Charles Spencer Chaplin, KBE was a British comedic actor and director, usually known by his stage name of Charlie Chaplin.
+bn:00018312n	WN	United States comedian; one of four brothers who made motion pictures together (1891-1961)
+bn:00018312n	WIKI	Leonard Marx, known professionally as Chico Marx, was an American comedian, musician, bandleader, actor and film star.
+bn:00018312n	WIKIDATA	American comedian
+bn:00034339n	WN	United States comedian and film actor (1880-1946)
+bn:00034339n	WIKI	William Claude Dukenfield, better known as W. C. Fields, was an American comedian, actor, juggler and writer.
+bn:00034339n	WIKIDATA	Actor
+bn:00034339n	WIKIQU	W. C. Fields, born William Claude Dukenfield, was an American Actor and Comedian.
+bn:00042982n	WN	United States slapstick comedian who played the pompous and overbearing member of the Laurel and Hardy duo who made many films (1892-1957)
+bn:00042982n	WIKI	Oliver Norvell "Babe" Hardy was an American comic actor and one half of Laurel and Hardy, the double act that began in the era of silent films and lasted 25 years, from 1927 to 1951.
+bn:00042982n	WIKIDIS	American comic actor sometimes billed as Babe Hardy early in his career
+bn:00042982n	WIKIDATA	American comic actor famous as one half of Laurel and Hardy
+bn:00043077n	WN	Scottish ballad singer and music hall comedian (1870-1950)
+bn:00043077n	WIKI	Sir Henry Lauder was a Scottish singer and comedian popular in both the English music hall and vaudevillian theatre tradition; he achieved international success.
+bn:00043077n	WIKIDATA	Scottish entertainer
+bn:00043793n	WN	United States comedian; one of four brothers who made motion pictures together (1901-1979)
+bn:00053580n	WN	United States actor and comedian (born in 1945)
+bn:00053580n	WIKI	Stephen Glenn Martin is an American actor, comedian, writer, producer and musician.
+bn:00053580n	WIKIDATA	American actor, comedian, musician, author, playwright, and producer
+bn:00053580n	WIKIQU	Stephen Glenn Martin is an American comedian, writer, actor, musician and composer.
+bn:00002658n	WN	Risque English comedian (1925-1992)
+bn:00002658n	WIKI	Alfred Hawthorne "Benny" Hill was an English comedian and actor, best remembered for his television programme The Benny Hill Show, an amalgam of slapstick, burlesque and double entendre in a format that included live comedy and filmed segments, with him at the focus of almost every segment.
+bn:00002658n	WIKIDIS	Born Alfred Hawthorn Hill, English comedian and star of The Benny Hill Show
+bn:00002658n	WIKIDATA	English comedian and actor
+bn:00002658n	WIKIQU	Benny Hill was an English comedian and actor, notable for his long-running television program The Benny Hill Show.
+bn:00006113n	WN	United States slapstick comedian (born in England) who played the scatterbrained and often tearful member of the Laurel and Hardy duo who made many films (1890-1965)
+bn:00006113n	WIKI	Stan Laurel was an English comic actor, writer and film director, who was part of the comedy duo Laurel and Hardy.
+bn:00006113n	WIKIDATA	English comic actor
+bn:00009945n	WN	United States comedian known for his timeing and delivery and self-effacing humor (1894-1974)
+bn:00009945n	WIKI	Benny is a card used in trick-taking games that automatically counts as the highest trump.
+bn:00009945n	WIKI	Jack Benny was an American comedian, vaudevillian, radio, television and film actor, and violinist.
+bn:00009945n	WIKIDATA	Comedian, vaudeville performer, and radio, television, and film actor
+bn:00009945n	WIKIQU	Jack Benny, born Benjamin Kubelsky, was an American comedian, vaudeville performer, and radio, television, and film actor.
+bn:00007287n	WN	Writes (books or stories or articles or the like) professionally (for pay)
+bn:00007287n	WIKI	An author is the creator or originator of any written work such as a book or play, and is thus also a writer.
+bn:00007287n	WIKI	A writer is a person who uses written words in various styles and techniques to communicate their ideas.
+bn:00007287n	WIKIDIS	Originating content for any medium
+bn:00007287n	WIKIDATA	Person who uses written words to communicate ideas, person who produces works of literature
+bn:00007287n	WIKIDATA	Creator of an original work
+bn:00007287n	OMWIKI	Person who wrote the content of a published novel, book or text.
+bn:00007287n	WIKT	The originator or creator of a work, especially of a literary composition.
+bn:00007287n	WIKT	A person who writes, or produces literary work.
+bn:00007287n	WIKTLB	Originator or creator of a work.
+bn:00007287n	WIKIQU	Authors are persons who originate or gives existence to anything, said authorship determining responsibility for what is created.
+bn:00007287n	MSTERM	Individual, account, or website that published a post that was stored to the application's database.
+bn:00007287n	MSTERM	The entity primarily responsible for creating the content resource (that is, the author).
+bn:00023496n	WN	The skilled practice of a practical occupation
+bn:00023496n	WIKI	A craft or trade is a pastime or a profession that requires particular skills and knowledge of skilled work.
+bn:00023496n	WIKIDATA	Pastime or job involving the small-scale production of goods, or their maintenance
+bn:00023496n	OMWIKI	An occupation or trade requiring manual dexterity or skilled artistry.
+bn:00023496n	OMWIKI	The skilled practice of a practical occupation.
+bn:00023496n	WIKT	The skilled practice of a practical occupation.
+bn:00021232n	WN	A person who communicates with others
+bn:00021232n	WIKT	Someone who, or something that communicates.
+bn:00021232n	WIKTLB	One who communicates.
+bn:15683405n	WIKI	Comics is a medium used to express ideas by images, often combined with text or other visual information.
+bn:15683405n	WIKIDIS	A medium of expression using images, often combined with text
+bn:15683405n	WIKIDATA	Creative work in which pictures and text convey information such as narratives
+bn:15683405n	WIKIQU	Comics is a form of visual art consisting of images which are commonly combined with text, often in the form of speech balloons or image captions.
+bn:00020927n	WN	A magazine devoted to comic strips
+bn:00020927n	WIKI	A comic book or comicbook, also called comic magazine or simply comic, is a publication that consists of comic art in the form of sequential juxtaposed panels that represent individual scenes.
+bn:00020927n	WIKIDATA	Publication of comics art
+bn:00020927n	OMWIKI	A magazine or book containing the sequential art form of a graphic novel.
+bn:00020927n	WIKT	A comic book.
+bn:00020927n	WIKT	A cartoon story, a graphic novel.
+bn:00016329n	WN	A sequence of drawings telling a story in a newspaper or comic book
+bn:00016329n	WIKI	A comic strip is a sequence of drawings arranged in interrelated panels to display brief humor or form a narrative, often serialized, with text in balloons and captions.
+bn:00016329n	WIKIDIS	A sequence of drawings arranged in interrelated panels to display brief humor or form a narrative
+bn:00016329n	WIKIDATA	Short serialized comics
+bn:00016329n	WIKT	A comic strip.
+bn:00016329n	WIKT	The section of a newspaper containing comic strips.
+bn:00016329n	WIKTLB	Short for comic strip, see also translations for comic strip.
+bn:00062309n	WN	A product produced or accomplished through the effort or activity or agency of a person or thing
+bn:00062309n	OMWIKI	That that has been made; a product produced or accomplished through the effort or activity or agency of a person or thing.
+bn:00062309n	WIKT	The score for such a work.
+bn:00062309n	WIKT	The result of a particular manner of production.
+bn:02284123n	WIKI	In publishing and library and information science, the term serial is applied to materials "in any medium issued under the same title in a succession of discrete parts, usually numbered and appearing at regular or irregular intervals with no predetermined conclusion."
+bn:02284123n	WIKI	Literary or other works with same title issued in successive parts
+bn:02284123n	WIKIDATA	Same-title work issued in successive parts
+bn:00070830n	WN	Shade within clear boundaries
+bn:00070830n	WIKI	A shadow is a dark area where light from a light source is blocked by an opaque object.
+bn:00070830n	WIKIDATA	Area where direct light from a light source cannot reach due to obstruction by an object
+bn:00070830n	OMWIKI	Darkness, where light (particularly sunlight) is blocked.
+bn:00070830n	WIKT	Darkness where light, particularly sunlight, is blocked.
+bn:00070830n	WIKT	A dark image projected onto a surface where light is blocked by the shade of an object.
+bn:00070830n	WIKTLB	Darkness where light is blocked.
+bn:00070830n	WIKIQU	Shadows are areas where direct light from a light source cannot reach due to obstruction by an object.
+bn:00061444n	WN	A fringe region of partial shadow around an umbra
+bn:00078919n	WN	A region of complete shadow resulting from total obstruction of light
+bn:00070820n	WN	Relative darkness caused by light rays being intercepted by an opaque body
+bn:00070820n	WIKI	Shade is the blocking of sunlight by any object, and also the shadow created by that object.
+bn:00070820n	WIKIDIS	The blocking of sunlight
+bn:00070820n	WIKIDATA	Shape created by some blocking of sunlight
+bn:00070820n	OMWIKI	Darkness, where light (particularly sunlight) is blocked.
+bn:00070820n	WIKT	Something that blocks light, particularly in a window.
+bn:00070820n	WIKT	Relative darkness, especially as caused by the interruption of light; gloom, obscurity.
+bn:00070820n	WIKTLB	Something that blocks light, particularly in a window.
+bn:00070820n	MSTERM	A shaded outline that appears behind an object or text and creates the illusion of depth.
+bn:15098302n	WIKIDATA	An outwardly facing, noticeable from the outside part of a whole; a given area distinguished on the basis of a particular characteristic, use, restriction, etc
+bn:00070424n	WN	Partial darkness
+bn:00070424n	WIKT	Partial or near darkness, dimness, twilight.
+bn:00025233n	WN	Absence of light or illumination
+bn:00025233n	WIKT	A complete or partial absence of light.
+bn:00025233n	WIKTLB	A complete or partial absence of light.
+bn:00070835n	WN	A spy employed to follow someone and report their movements
+bn:00035630n	WN	Someone who travels behind or pursues another
+bn:00073686n	WN	A secret watcher; someone who secretly watches other people
+bn:00051972n	WN	A close observer; someone who looks at something (such as an exhibition of some kind)
+bn:00009668n	WN	A person who becomes aware (of things or events) through the senses
