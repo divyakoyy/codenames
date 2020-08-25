@@ -474,14 +474,6 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
-    red_words = [
-       ['unicorn', 'field', 'dwarf', 'straw', 'bolt', 'string', 'green', 'smuggler', 'round', 'ground']
-    ]
-
-    blue_words = [
-        ['dance', 'bomb', 'kangaroo', 'sink', 'racket', 'scientist', 'roulette', 'bill', 'compound', 'shark']
-    ]
-
     for useHeuristicOverride in [True, False]:
         for embedding_type in args.embeddings:
             debug_file_path = None
