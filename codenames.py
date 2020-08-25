@@ -25,6 +25,7 @@ import networkx as nx
 import numpy as np
 import requests
 from tqdm import tqdm
+from scipy.spatial import distance
 
 # Embeddings
 from embeddings.babelnet import Babelnet
@@ -204,8 +205,8 @@ class Codenames(object):
         return word_to_dict2vec_embeddings
 
     def _get_dict2vec_score(self, chosen_words, potential_clue, red_words):
-        dict2vec_similarities = []
-        red_dict2vec_similarities = []
+        dict2vec_distances = []
+        red_dict2vec_distances = []
 
         if potential_clue not in self.word_to_dict2vec_embeddings:
             if self.configuration.verbose:
@@ -213,20 +214,19 @@ class Codenames(object):
             return 0.0
 
         potential_clue_embedding = self.word_to_dict2vec_embeddings[potential_clue]
-        # TODO: change this to cosine distance
         for chosen_word in chosen_words:
             if chosen_word in self.word_to_dict2vec_embeddings:
                 chosen_word_embedding = self.word_to_dict2vec_embeddings[chosen_word]
-                euclidean_distance = np.linalg.norm(chosen_word_embedding-potential_clue_embedding)
-                dict2vec_similarities.append(euclidean_distance)
-
+                cosine_distance = distance.cosine(chosen_word_embedding, potential_clue_embedding)
+                dict2vec_distances.append(cosine_distance)
+                
         for red_word in red_words:
             if red_word in self.word_to_dict2vec_embeddings:
                 red_word_embedding = self.word_to_dict2vec_embeddings[red_word]
-                red_euclidean_distance = np.linalg.norm(red_word_embedding-potential_clue_embedding)
-                red_dict2vec_similarities.append(red_euclidean_distance)
-        #TODO: is average the best way to do this
-        return 1/(sum(dict2vec_similarities)/len(dict2vec_similarities)) - 1/(min(red_dict2vec_similarities))
+                red_dict2vec_distances.append(distance.cosine(red_word_embedding, potential_clue_embedding))
+        avg_distance_chosen_words = sum(dict2vec_distances)/len(dict2vec_distances)
+        avg_distance_red_words = sum(red_dict2vec_distances)/len(red_dict2vec_distances)
+        return (1 - avg_distance_chosen_words / 2) - 0.5 * (1 - avg_distance_red_words / 2)
 
     def _write_to_debug_file(self, lst):
         if self.configuration.debug_file:
@@ -362,8 +362,7 @@ class Codenames(object):
                 # prune out super common words (e.g. "get", "go")
                 if (clue in stopwords or idf < idf_lower_bound):
                     idf = 1.0
-
-                dict2vec_score = 10*self._get_dict2vec_score(chosen_words, clue, self.red_words)
+                dict2vec_score = 3.5*self._get_dict2vec_score(chosen_words, clue, self.red_words)
 
                 heuristic_score = dict2vec_score + (-2*idf)
                 self._write_to_debug_file([" IDF:", round(-2*idf,3), "dict2vec score:", round(dict2vec_score,3)])
@@ -475,6 +474,25 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
+    blue_words = [
+        ['opera', 'carrot', 'satellite', 'tag', 'africa', 'fire', 'bottle', 'snowman', 'cloak', 'king'],
+        ['cross', 'mammoth', 'torch', 'mercury', 'compound', 'moon', 'board', 'hood', 'alps', 'shoe'],
+        ['circle', 'cliff', 'himalayas', 'star', 'scorpion', 'casino', 'fork', 'jet', 'mammoth', 'pan'],
+        ['contract', 'olive', 'torch', 'litter', 'game', 'calf', 'death', 'needle', 'amazon', 'india'],
+        ['lab', 'bottle', 'disease', 'state', 'heart', 'robot', 'worm', 'ruler', 'ivory', 'engine'],
+        ['shoe', 'fan', 'car', 'spider', 'whip', 'bug', 'fire', 'bison', 'tag', 'row'],
+        ['shark', 'roulette', 'compound', 'scientist', 'racket', 'bomb', 'sink', 'dance', 'bill', 'kangaroo'],
+    ]
+    red_words = [
+        ['egypt', 'whip', 'bark', 'pistol', 'spider', 'boot', 'hood', 'rose', 'jupiter', 'charge'],
+        ['piano', 'pistol', 'box', 'washer', 'greece', 'fall', 'grass', 'jupiter', 'disease', 'cat'],
+        ['crown', 'cold', 'mint', 'mount', 'conductor', 'spot', 'oil', 'disease', 'cloak', 'play'],
+        ['cycle', 'paste', 'scientist', 'himalayas', 'scale', 'spot', 'nail', 'bottle', 'pool', 'fish'],
+        ['spider', 'whale', 'jet', 'giant', 'calf', 'bill', 'needle', 'vacuum', 'parachute', 'space'],
+        ['moon', 'fish', 'pistol', 'africa', 'phoenix', 'tower', 'needle', 'heart', 'mammoth', 'ice'],
+        ['ground', 'smuggler', 'green', 'bolt', 'dwarf', 'round', 'string', 'straw', 'unicorn', 'field']
+    ]
+
     amt_file_path = 'amt_2.csv'
     amt_key_file_path = 'amt_key_2.csv'
     # Setup CSVs
@@ -495,6 +513,7 @@ if __name__ == "__main__":
         writer.writerow(header_row)
 
     emebedding_trial_to_clue = dict()
+
 
     for useHeuristicOverride in [True, False]:
         shuffled_embeddings = args.embeddings
