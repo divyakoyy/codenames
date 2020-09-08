@@ -32,6 +32,7 @@ from embeddings.word2vec import Word2Vec
 from embeddings.glove import Glove
 from embeddings.fasttext import FastText
 from embeddings.bert import Bert
+from embeddings.kim2019 import Kim2019
 
 sys.path.insert(0, "../")
 
@@ -137,6 +138,8 @@ class Codenames(object):
             return FastText(self.configuration)
         elif embedding_type == 'bert':
             return Bert(self.configuration)
+        elif embedding_type == 'kim2019':
+            return Kim2019(self.configuration)
         else:
             print("Valid embedding types are babelnet, word2vec, glove, fasttext, and bert")
 
@@ -218,7 +221,7 @@ class Codenames(object):
                 chosen_word_embedding = self.word_to_dict2vec_embeddings[chosen_word]
                 cosine_distance = distance.cosine(chosen_word_embedding, potential_clue_embedding)
                 dict2vec_distances.append(cosine_distance)
-                
+
         for red_word in red_words:
             if red_word in self.word_to_dict2vec_embeddings:
                 red_word_embedding = self.word_to_dict2vec_embeddings[red_word]
@@ -285,6 +288,8 @@ class Codenames(object):
             return score
 
     def is_valid_clue(self, clue):
+        # no need to remove red/blue words from potential_clues elsewhere
+        # since we check for validity here
         for board_word in self.red_words.union(self.blue_words):
             # Check if clue or board_word are substring of each other, or if they share the same word stem
             if (clue in board_word or board_word in clue or self.stemmer.stem(clue) == self.stemmer.stem(board_word)):
@@ -292,6 +297,12 @@ class Codenames(object):
         return True
 
     def get_highest_clue(self, chosen_words, penalty=1.0, domain_threshold=0.45, domain_gap=0.3):
+
+        if self.embedding_type == 'kim2019':
+            chosen_clue, dist = self.embedding.get_clue(
+                self.blue_words, self.red_words, chosen_words)
+            # return the angular similarity
+            return [chosen_clue], 1 - dist
 
         potential_clues = set()
         for word in chosen_words:
@@ -329,9 +340,6 @@ class Codenames(object):
             if len(domain_clues) >= 1:
                 return domain_clues, 1  # TODO: return different score?
 
-        potential_clues = potential_clues - \
-            self.blue_words.union(self.red_words)
-
         highest_scoring_clues = []
         highest_score = float("-inf")
 
@@ -352,7 +360,10 @@ class Codenames(object):
 
             heuristic_score = 0
 
-            self._write_to_debug_file(["\n", clue, "score breakdown for", " ".join(chosen_words), "\n\tblue words score:", round(sum(blue_word_counts),3), " red words penalty:", round((penalty *sum(red_word_counts)),3)])
+            self._write_to_debug_file([
+                "\n", clue, "score breakdown for", " ".join(chosen_words),
+                "\n\tblue words score:", round(sum(blue_word_counts),3),
+                " red words penalty:", round((penalty *sum(red_word_counts)),3)])
 
             if self.configuration.use_heuristics is True:
                 # the larger the idf is, the more uncommon the word
@@ -453,15 +464,15 @@ if __name__ == "__main__":
         'capital', 'post', 'cast', 'soul', 'tower', 'green', 'plot', 'string', 'kangaroo', 'lawyer', 'fire',
         'robot', 'mammoth', 'hole', 'spider', 'bill', 'ivory', 'giant', 'bar', 'ray', 'drill', 'staff',
         'greece', 'press','pitch', 'nurse', 'contract', 'water', 'watch', 'amazon','spell', 'kiwi', 'ghost',
-        'cold', 'doctor', 'port', 'bark','foot', 'luck', 'nail', 'ice', 'needle', 'disease', 'comic', 'pool', 
+        'cold', 'doctor', 'port', 'bark','foot', 'luck', 'nail', 'ice', 'needle', 'disease', 'comic', 'pool',
         'field', 'star', 'cycle', 'shadow', 'fan', 'compound', 'heart', 'flute','millionaire', 'pyramid', 'africa',
-        'robin', 'chest', 'casino','fish', 'oil', 'alps', 'brush', 'march', 'mint','dance', 'snowman', 'torch', 
-        'round', 'wake', 'satellite','calf', 'head', 'ground', 'club', 'ruler', 'tie','parachute', 'board', 
+        'robin', 'chest', 'casino','fish', 'oil', 'alps', 'brush', 'march', 'mint','dance', 'snowman', 'torch',
+        'round', 'wake', 'satellite','calf', 'head', 'ground', 'club', 'ruler', 'tie','parachute', 'board',
         'paste', 'lock', 'knight', 'pit', 'fork', 'egypt', 'whale', 'scale', 'knife', 'plate','scorpion', 'bottle',
         'boom', 'bolt', 'fall', 'draft', 'hotel', 'game', 'mount', 'train', 'air', 'turkey', 'root', 'charge',
         'space', 'cat', 'olive', 'mouse', 'ham', 'washer', 'pound', 'fly', 'server','shop', 'engine', 'himalayas',
-        'box', 'antarctica', 'shoe', 'tap', 'cross', 'rose', 'belt', 'thumb', 'gold', 'point', 'opera', 'pirate', 
-        'tag', 'olympus', 'cotton', 'glove', 'sink', 'carrot', 'jack', 'suit', 'glass', 'spot', 'straw', 'well', 
+        'box', 'antarctica', 'shoe', 'tap', 'cross', 'rose', 'belt', 'thumb', 'gold', 'point', 'opera', 'pirate',
+        'tag', 'olympus', 'cotton', 'glove', 'sink', 'carrot', 'jack', 'suit', 'glass', 'spot', 'straw', 'well',
         'pan', 'octopus', 'smuggler', 'grass', 'dwarf', 'hood', 'duck', 'jet', 'mercury',
     ]
 
@@ -476,6 +487,9 @@ if __name__ == "__main__":
 
     for useHeuristicOverride in [True, False]:
         for embedding_type in args.embeddings:
+            if embedding_type == 'kim2019' and useHeuristicOverride:
+                # currently not supported
+                continue
             debug_file_path = None
             if args.debug is True or args.debug_file != None:
                 debug_file_path = (embedding_type + "-" + datetime.now().strftime("%m-%d-%Y-%H.%M.%S") + ".txt") if args.debug_file == None else args.debug_file
