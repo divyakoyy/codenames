@@ -9,6 +9,7 @@ def name_for_with_trial_from_without_trial(embedding_name):
 
 def prefill_without_trials_using_with_trials(input_file_path, amt_results_file_path):
 	input_keys = []
+	print ("Processing", input_file_path, amt_results_file_path)
 	with open(input_file_path, 'r', newline='') as csvfile:
 		reader = csv.DictReader(csvfile)
 		for row in reader:	
@@ -27,7 +28,7 @@ def prefill_without_trials_using_with_trials(input_file_path, amt_results_file_p
 		mapped_key = name_for_with_trial_from_without_trial(missing_key)
 		# no AMT response for this trial
 		if (mapped_key not in embedding_name_to_row_dict): 
-			print(mapped_key,"not in AMT results")
+			print(mapped_key,"not in", amt_results_file_path)
 			continue
 		embedding_name_to_row_dict[mapped_key][27] = missing_key
 		
@@ -36,7 +37,8 @@ def prefill_without_trials_using_with_trials(input_file_path, amt_results_file_p
 			writer.writerow(embedding_name_to_row_dict[mapped_key])
 
 if __name__ == '__main__':
-	input_file_path = '../data/amt_key_1.csv'
-	amt_results_file_path = '../data/Batch_291092_batch_results.csv'
+	key_input_file_paths = ['../data/amt_0825_batch0_key.csv', '../data/amt_0825_batch1_key.csv', '../data/amt_0826_batch0_key.csv', '../data/amt_0826_batch1_key.csv', '../data/amt_0826_batch2_key.csv']
+	amt_results_file_paths = ['../data/amt_0825_batch0_results.csv', '../data/amt_0825_batch1_results.csv', '../data/amt_0826_batch0_results.csv', '../data/amt_0826_batch1_results.csv', '../data/amt_0826_batch2_results.csv']
 
-	prefill_without_trials_using_with_trials(input_file_path, amt_results_file_path)
+	for key_input_file_path, amt_results_file_path in zip(key_input_file_paths, amt_results_file_paths):
+		prefill_without_trials_using_with_trials(key_input_file_path, amt_results_file_path)

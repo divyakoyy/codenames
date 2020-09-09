@@ -31,28 +31,29 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 
 	# Generate stats
 	embedding_keys = [
-		'word2vecWithHeuristics', 
 		'word2vecWithoutHeuristics',
-		'gloveWithHeuristics', 
 		'gloveWithoutHeuristics',
-		'fasttextWithHeuristics', 
 		'fasttextWithoutHeuristics',
-		'bertWithHeuristics', 
 		'bertWithoutHeuristics',
-		'babelnetWithHeuristics', 
 		'babelnetWithoutHeuristics',
+		'word2vecWithHeuristics', 
+		'gloveWithHeuristics', 
+		'fasttextWithHeuristics', 
+		'bertWithHeuristics', 
+		'babelnetWithHeuristics', 
 	]
 	results_dict = dict()
 	for key in embedding_keys:
 		results_dict[key] = { 'intendedWordPrecisionAt2': [], 'intendedWordRecallAt4': [], 'blueWordPrecisionAt2': [], 'blueWordPrecisionAt4': [] }
 
+	num_trials = 0
 	for x in range(0,len(amt_results_file_paths)):
 		amt_results_file_path = amt_results_file_paths[x]
 
 		with open(amt_results_file_path, 'r', newline='') as csvfile:
 			reader = csv.DictReader(csvfile)
 
-			
+			print("Getting stats for", amt_results_file_path)
 			for row in reader:
 
 				embedding_name_in_csv = row['Input.embedding_name']
@@ -84,18 +85,36 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 				num_ranks_selected = float(len([answer for answer in answers if answer != 'noMoreRelatedWords']))
 				results_dict[embedding_key]['blueWordPrecisionAt4'].append(num_blue_words_chosen_in_all_four_ranks/num_ranks_selected)
 				print()
+				num_trials += 1
 	avg_stats = dict()
 	stat_types = ['intendedWordPrecisionAt2', 'intendedWordRecallAt4', 'blueWordPrecisionAt2', 'blueWordPrecisionAt4']
 
 	l = []
-	
+
+	print("Number of Trials:", num_trials)
+	embedding_key_to_table_map = {
+		'word2vecWithoutHeuristics' : 'word2vec',
+		'gloveWithoutHeuristics' : 'glove',
+		'fasttextWithoutHeuristics' : 'fasttext',
+		'bertWithoutHeuristics' : 'bert',
+		'babelnetWithoutHeuristics' : 'babelnet',
+		'word2vecWithHeuristics' : 'word2vec+DictionaryRelevance',
+		'gloveWithHeuristics' : 'glove+DictionaryRelevance',
+		'fasttextWithHeuristics' : 'fasttext+DictionaryRelevance',
+		'bertWithHeuristics' : 'bert+DictionaryRelevance', 
+		'babelnetWithHeuristics' : 'babelnet+DictionaryRelevance',
+	}
+
 	for embedding_key in results_dict:
+		trials = 0
 		avg_stats[embedding_key] = dict()
 		for stat_metric in results_dict[embedding_key]:
 			stats_list = results_dict[embedding_key][stat_metric]
 			avg_stats[embedding_key][stat_metric] = sum(stats_list)/len(stats_list)
+			trials += len(stats_list)
+		print(embedding_key, "trials", trials)
 
-		row = [embedding_key] + [avg_stats[embedding_key][stat_type] for stat_type in stat_types]
+		row = [embedding_key_to_table_map[embedding_key]] + [avg_stats[embedding_key][stat_type] for stat_type in stat_types]
 		l.append(row)
 
 	table = tabulate(l, headers=['embedding_algorithm'] + stat_types, tablefmt='orgtbl')
@@ -103,9 +122,9 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 	print(table)
 
 if __name__=='__main__':
-	input_file_paths = ['../data/amt_key_0.csv', '../data/amt_key_1.csv']
-	amt_results_file_paths = ['../data/Batch_291089_batch_results.csv', '../data/Batch_291092_batch_results.csv']
+	key_input_file_paths = ['../data/amt_0825_batch0_key.csv', '../data/amt_0825_batch1_key.csv', '../data/amt_0826_batch0_key.csv', '../data/amt_0826_batch1_key.csv', '../data/amt_0826_batch2_key.csv']
+	amt_results_file_paths = ['../data/amt_0825_batch0_results.csv', '../data/amt_0825_batch1_results.csv', '../data/amt_0826_batch0_results.csv', '../data/amt_0826_batch1_results.csv', '../data/amt_0826_batch2_results.csv']
 
 	# input_file_paths = ['../data/amt_test_0.csv']
 	# amt_results_file_paths = ['../data/batch_results_test_0.csv']
-	generate_stats(input_file_paths, amt_results_file_paths)
+	generate_stats(key_input_file_paths, amt_results_file_paths)

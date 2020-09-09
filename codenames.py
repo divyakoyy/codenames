@@ -474,27 +474,8 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
-    blue_words = [
-        ['opera', 'carrot', 'satellite', 'tag', 'africa', 'fire', 'bottle', 'snowman', 'cloak', 'king'],
-        ['cross', 'mammoth', 'torch', 'mercury', 'compound', 'moon', 'board', 'hood', 'alps', 'shoe'],
-        ['circle', 'cliff', 'himalayas', 'star', 'scorpion', 'casino', 'fork', 'jet', 'mammoth', 'pan'],
-        ['contract', 'olive', 'torch', 'litter', 'game', 'calf', 'death', 'needle', 'amazon', 'india'],
-        ['lab', 'bottle', 'disease', 'state', 'heart', 'robot', 'worm', 'ruler', 'ivory', 'engine'],
-        ['shoe', 'fan', 'car', 'spider', 'whip', 'bug', 'fire', 'bison', 'tag', 'row'],
-        ['shark', 'roulette', 'compound', 'scientist', 'racket', 'bomb', 'sink', 'dance', 'bill', 'kangaroo'],
-    ]
-    red_words = [
-        ['egypt', 'whip', 'bark', 'pistol', 'spider', 'boot', 'hood', 'rose', 'jupiter', 'charge'],
-        ['piano', 'pistol', 'box', 'washer', 'greece', 'fall', 'grass', 'jupiter', 'disease', 'cat'],
-        ['crown', 'cold', 'mint', 'mount', 'conductor', 'spot', 'oil', 'disease', 'cloak', 'play'],
-        ['cycle', 'paste', 'scientist', 'himalayas', 'scale', 'spot', 'nail', 'bottle', 'pool', 'fish'],
-        ['spider', 'whale', 'jet', 'giant', 'calf', 'bill', 'needle', 'vacuum', 'parachute', 'space'],
-        ['moon', 'fish', 'pistol', 'africa', 'phoenix', 'tower', 'needle', 'heart', 'mammoth', 'ice'],
-        ['ground', 'smuggler', 'green', 'bolt', 'dwarf', 'round', 'string', 'straw', 'unicorn', 'field']
-    ]
-
-    amt_file_path = 'amt_2.csv'
-    amt_key_file_path = 'amt_key_2.csv'
+    amt_file_path = 'amt_0826_batch3.csv'
+    amt_key_file_path = 'amt_0826_batch3_key.csv'
     # Setup CSVs
     if not os.path.exists(amt_file_path):
         with open(amt_file_path, 'w'): pass
