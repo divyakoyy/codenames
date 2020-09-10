@@ -24,7 +24,6 @@ import networkx as nx
 import numpy as np
 import requests
 from tqdm import tqdm
-from scipy.spatial import distance
 
 # Embeddings
 from embeddings.babelnet import Babelnet
@@ -33,6 +32,8 @@ from embeddings.glove import Glove
 from embeddings.fasttext import FastText
 from embeddings.bert import Bert
 from embeddings.kim2019 import Kim2019
+
+import utils as utils
 
 sys.path.insert(0, "../")
 
@@ -111,8 +112,6 @@ class Codenames(object):
         self.weighted_nn = dict()
 
         self.word_to_df = self._get_df()  # dictionary of word to document frequency
-        self.dict2vec_embeddings_file = 'data/word_to_dict2vec_embeddings'
-        self.word_to_dict2vec_embeddings = self._get_dict2vec()
 
         # Used to get word stems
         self.stemmer = PorterStemmer()
@@ -200,35 +199,7 @@ class Codenames(object):
                           for id in id_to_doc_freqs}
 
         return word_to_df
-
-    def _get_dict2vec(self):
-        input_file = open(self.dict2vec_embeddings_file,'rb')
-        word_to_dict2vec_embeddings = pickle.load(input_file)
-        return word_to_dict2vec_embeddings
-
-    def _get_dict2vec_score(self, chosen_words, potential_clue, red_words):
-        dict2vec_distances = []
-        red_dict2vec_distances = []
-
-        if potential_clue not in self.word_to_dict2vec_embeddings:
-            if self.configuration.verbose:
-                print("Potential clue word ", potential_clue, "not in dict2vec model")
-            return 0.0
-
-        potential_clue_embedding = self.word_to_dict2vec_embeddings[potential_clue]
-        for chosen_word in chosen_words:
-            if chosen_word in self.word_to_dict2vec_embeddings:
-                chosen_word_embedding = self.word_to_dict2vec_embeddings[chosen_word]
-                cosine_distance = distance.cosine(chosen_word_embedding, potential_clue_embedding)
-                dict2vec_distances.append(cosine_distance)
-
-        for red_word in red_words:
-            if red_word in self.word_to_dict2vec_embeddings:
-                red_word_embedding = self.word_to_dict2vec_embeddings[red_word]
-                red_dict2vec_distances.append(distance.cosine(red_word_embedding, potential_clue_embedding))
-        avg_distance_chosen_words = sum(dict2vec_distances)/len(dict2vec_distances)
-        avg_distance_red_words = sum(red_dict2vec_distances)/len(red_dict2vec_distances)
-        return (1 - avg_distance_chosen_words / 2) - 0.5 * (1 - avg_distance_red_words / 2)
+        
 
     def _write_to_debug_file(self, lst):
         if self.configuration.debug_file:
@@ -372,8 +343,9 @@ class Codenames(object):
                 # prune out super common words (e.g. "get", "go")
                 if (clue in stopwords or idf < idf_lower_bound):
                     idf = 1.0
-                dict2vec_score = 2*self._get_dict2vec_score(chosen_words, clue, self.red_words)
-
+                dict2vec_weight = self.embedding.dict2vec_embedding_weight()
+                dict2vec_score = dict2vec_weight*get_dict2vec_score(chosen_words, clue, self.red_words)
+                
                 heuristic_score = dict2vec_score + (-2*idf)
                 self._write_to_debug_file([" IDF:", round(-2*idf,3), "dict2vec score:", round(dict2vec_score,3)])
 
@@ -486,10 +458,8 @@ if __name__ == "__main__":
 
 
     for useHeuristicOverride in [True, False]:
+        print(useHeuristicOverride)
         for embedding_type in args.embeddings:
-            if embedding_type == 'kim2019' and useHeuristicOverride:
-                # currently not supported
-                continue
             debug_file_path = None
             if args.debug is True or args.debug_file != None:
                 debug_file_path = (embedding_type + "-" + datetime.now().strftime("%m-%d-%Y-%H.%M.%S") + ".txt") if args.debug_file == None else args.debug_file
