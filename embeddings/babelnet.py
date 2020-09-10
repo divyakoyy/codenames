@@ -63,9 +63,6 @@ class Babelnet(object):
 
 		self.fasttext_model = self._get_fasttext()
 
-		self.dict2vec_embeddings_file = 'data/word_to_dict2vec_embeddings'
-		self.word_to_dict2vec_embeddings = self._get_dict2vec()
-
 		# Used to get word stems
 		self.stemmer = PorterStemmer()
 
@@ -150,15 +147,11 @@ class Babelnet(object):
 		fasttext_model = KeyedVectors.load_word2vec_format('data/fasttext-wiki-news-300d-1M-subword.vec.gz')
 		return fasttext_model
 
-
-	def _get_dict2vec(self):
-		input_file = open(self.dict2vec_embeddings_file,'rb')
-		word_to_dict2vec_embeddings = pickle.load(input_file)
-		return word_to_dict2vec_embeddings
-
 	"""
 	Required codenames methods
 	"""
+	def dict2vec_embedding_weight(self):
+		return 2.0
 
 	def get_weighted_nn(self, word, filter_entities=True):
 		"""
