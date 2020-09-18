@@ -34,7 +34,7 @@ from embeddings.fasttext import FastText
 from embeddings.bert import Bert
 from embeddings.kim2019 import Kim2019
 
-import utils as utils
+from utils import get_dict2vec_score
 
 sys.path.insert(0, "../")
 
