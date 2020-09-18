@@ -14,7 +14,7 @@ class Bert(object):
 		emb_size = 768 # bert_12_768_12, book_corpus_wiki_en_cased
 		self.bert_annoy_tree = AnnoyIndex(emb_size, 'angular')
 		self.bert_annoy_tree.load('data/annoy_tree_bert_emb_768_brown_corpus.ann')
-		self.bert_annoy_tree_idx_to_word = np.load('data/annoy_tree_index_to_word_bert_emb_768_brown_corpus.npy').item()
+		self.bert_annoy_tree_idx_to_word = np.load('data/annoy_tree_index_to_word_bert_emb_768_brown_corpus.npy', allow_pickle=True).item()
 		self.bert_annoy_tree_word_to_idx = {v: k for k, v in self.bert_annoy_tree_idx_to_word.items()}
 
 	"""
@@ -32,7 +32,7 @@ class Bert(object):
 
 		for neighbor_annoy_idx, distance in zip(neigbors_and_distances[0], neigbors_and_distances[1]):
 			neighbor_word = self.bert_annoy_tree_idx_to_word[neighbor_annoy_idx].lower()
-			if len(neighbor.split("_")) > 1 or len(neighbor.split("-")) > 1:
+			if len(neighbor_word.split("_")) > 1 or len(neighbor_word.split("-")) > 1:
 				continue
 			
 			similarity = 1.0 if distance == 0.0 else (1 - distance/2)
