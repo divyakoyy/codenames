@@ -4,14 +4,16 @@ import numpy as np
 import re
 from gensim.models import KeyedVectors
 
-def get_word_emb(bert_embedding, word):
+def get_word_emb(bert_embedding, sentence):
     '''
     returns a single word embedding
     '''
     try:
-        emb = bert_embedding([word], 'avg')[0][1][0]  # first word, first vector array, array itself
-        normalized_emb = emb/np.linalg.norm(emb)
-        return normalized_emb
+        emb = bert_embedding([sentence], 'avg')
+        print(len(emb[0][1]))
+        # emb = bert_embedding([word], 'avg')[0][1][0]  # first word, second vector array, array itself
+        # normalized_emb = emb/np.linalg.norm(emb)
+        # return normalized_emb
     except:
         print(word, "does not have a bert embedding")
         return []
@@ -23,14 +25,16 @@ def create_graph():
     t = AnnoyIndex(emb_size, metric='angular')
     tree_idx = 0
     tree_idx_to_word_dict = dict()
-    glove_model = KeyedVectors.load_word2vec_format('../data/glove-wiki-gigaword-300.txt.gz')
-    print("Vocab size", len(glove_model.vocab))
+    # glove_model = KeyedVectors.load_word2vec_format('../data/glove-wiki-gigaword-300.txt.gz')
+    # print("Vocab size", len(glove_model.vocab))
     i = 0
     mod = 50000
-    for word in glove_model.vocab:
+
+    sentences = ["Soon after setting off we came to a forested valley along the banks of the Gwaun."]
+    for sentence in sentences:
         if (i % mod == 0): print("ADDED ", i, " EMBEDDINGS TO ANNOY TREE")
-        
-        emb_vector = get_word_emb(bert_embedding, word)
+        print(len(sentence))
+        emb_vector = get_word_emb(bert_embedding, sentence)
 
         if len(emb_vector) == 0: 
             continue
