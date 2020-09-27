@@ -456,8 +456,8 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
-    amt_file_path = 'amt_091720_all_batch0.csv'
-    amt_key_file_path = 'amt_091720_all_batch0_key.csv'
+    amt_file_path = 'amt_092420_all_batch0.csv'
+    amt_key_file_path = 'amt_092320_all_batch0_key.csv'
     # Setup CSVs
     if not os.path.exists(amt_file_path):
         with open(amt_file_path, 'w'): pass

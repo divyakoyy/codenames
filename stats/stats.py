@@ -3,6 +3,7 @@ import csv
 from tabulate import tabulate
 import pprint
 import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
 
 '''
 Pre-processing. 
@@ -188,8 +189,10 @@ def plot(avg_stats):
 	labels = []
 	colors = []
 
+
 	for embedding in avg_stats:
-		labels.append(embedding)
+		embedding_label = embedding if '+DictRelevance' not in embedding else embedding[:-14]
+		labels.append(embedding_label)
 		x.append(avg_stats[embedding]['intendedWordPrecisionAt2'])
 		y.append(avg_stats[embedding]['intendedWordRecallAt4'])
 		if 'DictRelevance' in embedding:
@@ -198,29 +201,42 @@ def plot(avg_stats):
 			colors.append('green')
 
 	fig, ax = plt.subplots()
-	ax.scatter(x, y, c=colors, alpha=0.5)
+	scatter = ax.scatter(x, y, c=colors, alpha=0.5)
 
 	for i, txt in enumerate(labels):
-		if txt == 'word2vec+DictRelevance':
-			offset = (4,1)
+		if txt == 'fasttext':
+			if colors[i] == 'blue':
+				offset = (4,2)
+			else:
+				offset = (4,-4)
 		else:
 			offset = (4,-2)
 		ax.annotate(txt, 
 					(x[i], y[i]), 
-					fontsize=7, 
+					fontsize=9, 
 					textcoords="offset points", # how to position the text
 					xytext=offset, 
 					ha='left')
 
-	fig.suptitle('Intended Word Precision at 2 vs. Recall at 4', fontsize=12)
+	#fig.suptitle('Intended Word Precision at 2 vs. Recall at 4', fontsize=12)
 	fig.show()
+	plt.xlabel('Precision at 2', fontsize=10)
+	plt.ylabel('Recall at 4', fontsize=10)
+	#produce a legend with the unique colors from the scatter
+	legend_elements = [Line2D([0], [0], marker='o', color='w', label='Embedding',
+                        markerfacecolor='g', markersize=7, alpha=0.5),
+                   	   Line2D([0], [0], marker='o', color='w', label='Embedding+DictionaryRelevance',
+                        markerfacecolor='b', markersize=7, alpha=0.5),]
+	ax.legend(handles=legend_elements, loc='lower right')
 	fig.savefig('precison_recall.png')
 
 if __name__=='__main__':
 	# Input keys
-	key_input_file_paths = ['../data/amt_0825_batch0_key.csv', '../data/amt_0825_batch1_key.csv', '../data/amt_0826_batch0_key.csv', '../data/amt_0826_batch1_key.csv', '../data/amt_0826_batch2_key.csv', '../data/amt_091020_kim2019_batch0_key.csv']
+	# key_input_file_paths = ['../data/amt_0825_batch0_key.csv', '../data/amt_0825_batch1_key.csv', '../data/amt_0826_batch0_key.csv', '../data/amt_0826_batch1_key.csv', '../data/amt_0826_batch2_key.csv', '../data/amt_091020_kim2019_batch0_key.csv', '../data/amt_092220_bertavgemb_batch0_key.csv']
+	key_input_file_paths = ['../data/amt_092320_all_batch0_key.csv']
 	# Results from AMT
-	amt_results_file_paths = ['../data/amt_0825_batch0_results.csv', '../data/amt_0825_batch1_results.csv', '../data/amt_0826_batch0_results.csv', '../data/amt_0826_batch1_results.csv', '../data/amt_0826_batch2_results.csv', '../data/amt_091020_kim2019_batch0_results.csv']
+	# amt_results_file_paths = ['../data/amt_0825_batch0_results.csv', '../data/amt_0825_batch1_results.csv', '../data/amt_0826_batch0_results.csv', '../data/amt_0826_batch1_results.csv', '../data/amt_0826_batch2_results.csv', '../data/amt_091020_kim2019_batch0_results.csv', '../data/amt_092220_bertAvg_results.csv']
+	amt_results_file_paths = ['../data/amt_official_results_092320_all_batch0.csv']
 
 	# Pre-processing
 	for key_input_file_path, amt_results_file_path in zip(key_input_file_paths, amt_results_file_paths):
