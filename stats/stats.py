@@ -4,6 +4,7 @@ from tabulate import tabulate
 import pprint
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
+from scipy import stats
 
 '''
 Pre-processing. 
@@ -177,6 +178,21 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 
 	print(table)
 
+	keys = {'word2vec':None, 
+			'glove':None,
+			'fasttext':None,
+			'bert':None,
+			'babelnet':None,
+			'kim2019':None}
+
+	for embedding_key in keys:
+		for stat_metric in stat_types:
+			stats1 = results_dict[embedding_key][stat_metric]
+			stats2 = results_dict[embedding_key+"+DictRelevance"][stat_metric]
+			ttest = stats.ttest_rel(stats1, stats2)
+			print(embedding_key, stat_metric, ttest)
+
+
 	return avg_stats
 
 '''
@@ -224,9 +240,9 @@ def plot(avg_stats):
 	plt.ylabel('Recall at 4', fontsize=10)
 	#produce a legend with the unique colors from the scatter
 	legend_elements = [Line2D([0], [0], marker='o', color='w', label='Embedding',
-                        markerfacecolor='g', markersize=7, alpha=0.5),
-                   	   Line2D([0], [0], marker='o', color='w', label='Embedding+DictionaryRelevance',
-                        markerfacecolor='b', markersize=7, alpha=0.5),]
+						markerfacecolor='g', markersize=7, alpha=0.5),
+					   Line2D([0], [0], marker='o', color='w', label='Embedding+DictionaryRelevance',
+						markerfacecolor='b', markersize=7, alpha=0.5),]
 	ax.legend(handles=legend_elements, loc='lower right')
 	fig.savefig('precison_recall.png')
 
