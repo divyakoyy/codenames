@@ -309,7 +309,7 @@ class Babelnet(object):
 	def _get_fasttext_score(self, chosen_words, potential_clue, red_words):
 
 		fasttext_similarities = []
-		red_fasttext_similarities = []
+		max_red_similarity = float("-inf")
 		if potential_clue not in self.fasttext_model:
 			if self.configuration.verbose:
 				print("Potential clue word ", potential_clue, "not in fasttext model")
@@ -321,11 +321,13 @@ class Babelnet(object):
 				fasttext_similarities.append(self.fasttext_model.similarity(chosen_word, potential_clue))
 		for red_word in red_words:
 			if red_word in self.fasttext_model:
-				red_fasttext_similarities.append(self.fasttext_model.similarity(red_word, potential_clue))
+				similarity = self.fasttext_model.similarity(red_word, potential_clue)
+				if similarity > max_red_similarity:
+					max_red_similarity = similarity
 			else:
 				print(f"red word {red_word} not in fasttext")
 		#TODO: is average the best way to do this
-		return (sum(fasttext_similarities)/len(fasttext_similarities)) - 0.5*(sum(red_fasttext_similarities)/len(red_fasttext_similarities))
+		return (sum(fasttext_similarities)/len(fasttext_similarities)) - 0.5*max_red_similarity
 
 	def _get_dictionary_definition_score(self, chosen_words, potential_clue, red_words):
 		# the dictionary definitions of words (as given from their babelnet synset)

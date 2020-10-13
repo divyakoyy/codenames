@@ -264,7 +264,7 @@ class Codenames(object):
         # since we check for validity here
         for board_word in self.red_words.union(self.blue_words):
             # Check if clue or board_word are substring of each other, or if they share the same word stem
-            if (clue in board_word or board_word in clue or self.stemmer.stem(clue) == self.stemmer.stem(board_word)):
+            if (clue in board_word or board_word in clue or self.stemmer.stem(clue) == self.stemmer.stem(board_word) or not clue.isalpha()):
                 return False
         return True
 
@@ -335,7 +335,8 @@ class Codenames(object):
             self._write_to_debug_file([
                 "\n", clue, "score breakdown for", " ".join(chosen_words),
                 "\n\tblue words score:", round(sum(blue_word_counts),3),
-                " red words penalty:", round((penalty *sum(red_word_counts)),3)])
+                # " red words penalty:", round((penalty *sum(red_word_counts)),3)
+                ])
 
             if self.configuration.use_heuristics is True:
                 # the larger the idf is, the more uncommon the word
@@ -358,7 +359,7 @@ class Codenames(object):
                     score = float("-inf")
                 score = min(blue_word_counts) + heuristic_score
             else:
-                score = sum(blue_word_counts) - (penalty *sum(red_word_counts)) + embedding_score + heuristic_score
+                score = sum(blue_word_counts) + embedding_score + heuristic_score
 
             if score > highest_score:
                 highest_scoring_clues = [clue]
