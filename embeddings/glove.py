@@ -38,24 +38,24 @@ class Glove(object):
 		:param red_words: opponent's words
 		returns: penalizes a potential_clue for being have high word2vec similarity with opponent's words
 		"""
-		glove_similarities = []
-		red_glove_similarities = []
+		max_red_similarity = float("-inf")
 		if potential_clue not in self.glove_model:
 			if self.configuration.verbose:
-				print("Potential clue word ", potential_clue, "not in Google news word2vec model")
+				print("Potential clue word ", potential_clue, "not in glove model")
 			return 0.0
 
 		for red_word in red_words:
 			if red_word in self.glove_model:
-				red_glove_similarities.append(self.glove_model.similarity(red_word, potential_clue))
+				similarity = self.glove_model.similarity(red_word, potential_clue)
+				if similarity > max_red_similarity:
+					max_red_similarity = similarity
 
 		if self.configuration.debug_file:
 			with open(self.configuration.debug_file, 'a') as f:
 				f.write(" ".join([str(x) for x in [
-					" glove penalty for red words:", round(-0.5*sum(red_glove_similarities)/len(red_glove_similarities),3), "\n"
+					" glove penalty for red words:", max_red_similarity, "\n"
 				]]))
-		#TODO: is average the best way to do this
-		return -0.5*sum(red_glove_similarities)/len(red_glove_similarities)
+		return -0.5*max_red_similarity
 		
 	def dict2vec_embedding_weight(self):
 		return 2.0

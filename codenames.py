@@ -72,6 +72,7 @@ class CodenamesConfiguration(object):
         length_exp_scaling=None,
         use_heuristics=True,
         single_word_label_scores=default_single_word_label_scores,
+        use_kim_scoring_function=False,
     ):
         self.verbose = verbose
         self.visualize = visualize
@@ -81,9 +82,10 @@ class CodenamesConfiguration(object):
         self.length_exp_scaling = length_exp_scaling
         self.use_heuristics = use_heuristics
         self.single_word_label_scores = tuple(single_word_label_scores)
+        self.use_kim_scoring_function = use_kim_scoring_function
 
     def description(self):
-        return "<verbose: "+str(self.verbose)+",visualize: "+str(self.visualize)+",split multi-word clues: "+str(self.split_multi_word)+",disable verb split: "+str(self.disable_verb_split)+",length exp scaling: "+str(self.length_exp_scaling)+",use heuristics: "+str(self.use_heuristics)+">"
+        return "<verbose: "+str(self.verbose)+",visualize: "+str(self.visualize)+",split multi-word clues: "+str(self.split_multi_word)+",disable verb split: "+str(self.disable_verb_split)+",length exp scaling: "+str(self.length_exp_scaling)+",use heuristics: "+str(self.use_heuristics)+",use kim scoring function: "+str(self.use_kim_scoring_function)+">"
 
 class Codenames(object):
 
@@ -263,7 +265,7 @@ class Codenames(object):
         # since we check for validity here
         for board_word in self.red_words.union(self.blue_words):
             # Check if clue or board_word are substring of each other, or if they share the same word stem
-            if (clue in board_word or board_word in clue or self.stemmer.stem(clue) == self.stemmer.stem(board_word)):
+            if (clue in board_word or board_word in clue or self.stemmer.stem(clue) == self.stemmer.stem(board_word) or not clue.isalpha()):
                 return False
         return True
 
@@ -334,7 +336,8 @@ class Codenames(object):
             self._write_to_debug_file([
                 "\n", clue, "score breakdown for", " ".join(chosen_words),
                 "\n\tblue words score:", round(sum(blue_word_counts),3),
-                " red words penalty:", round((penalty *sum(red_word_counts)),3)])
+                # " red words penalty:", round((penalty *sum(red_word_counts)),3)
+                ])
 
             if self.configuration.use_heuristics is True:
                 # the larger the idf is, the more uncommon the word
@@ -352,7 +355,12 @@ class Codenames(object):
             # Give embedding methods the opportunity to rescale the score using their own heuristics
             embedding_score = self.embedding.rescale_score(chosen_words, clue, self.red_words)
 
-            score = sum(blue_word_counts) - (penalty *sum(red_word_counts)) + embedding_score + heuristic_score
+            if (self.configuration.use_kim_scoring_function):
+                if (len(blue_word_counts) == 0 or len(red_word_counts) == 0 or min(blue_word_counts) > max(red_word_counts)):
+                    score = float("-inf")
+                score = min(blue_word_counts) + heuristic_score
+            else:
+                score = sum(blue_word_counts) + embedding_score + heuristic_score
 
             if score > highest_score:
                 highest_scoring_clues = [clue]
@@ -418,6 +426,8 @@ if __name__ == "__main__":
                         help='number of trials of the game to run')
     parser.add_argument('--split-multi-word', dest='split_multi_word', default=True)
     parser.add_argument('--disable-verb-split', dest='disable_verb_split', default=True)
+    parser.add_argument('--kim-scoring-function', dest='use_kim_scoring_function', action='store_true',
+                        help='use the kim 2019 et. al. scoring function'),    
     parser.add_argument('--length-exp-scaling', type=int, dest='length_exp_scaling', default=None,
                         help='Rescale lengths using exponent')
     parser.add_argument('--single-word-label-scores', type=float, nargs=4, dest='single_word_label_scores',
@@ -456,8 +466,8 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
-    amt_file_path = 'amt_093020_kim2019glove_batch0.csv'
-    amt_key_file_path = 'amt_093020_kim2019glove_batch0_key.csv'
+    amt_file_path = 'amt_101220_remove_red_counts_batch0.csv'
+    amt_key_file_path = 'amt_101220_remove_red_counts_batch0_key.csv'
     # Setup CSVs
     if not os.path.exists(amt_file_path):
         with open(amt_file_path, 'w'): pass
@@ -476,7 +486,6 @@ if __name__ == "__main__":
         writer.writerow(header_row)
 
     emebedding_trial_to_clue = dict()
-
 
     for useHeuristicOverride in [True, False]:
         shuffled_embeddings = args.embeddings
@@ -502,6 +511,7 @@ if __name__ == "__main__":
                 # use_heuristics=(not args.no_heuristics),
                 use_heuristics=useHeuristicOverride,
                 single_word_label_scores=args.single_word_label_scores,
+                use_kim_scoring_function=args.use_kim_scoring_function,
             )
 
             game = Codenames(

@@ -51,7 +51,26 @@ class Bert(object):
 		"""
 		# TODO
 
-		return 0
+		max_red_similarity = float("-inf")
+		if potential_clue not in self.bert_annoy_tree_word_to_idx:
+			if self.configuration.verbose:
+				print("Potential clue word ", potential_clue, "not in bert model")
+			return 0.0
+
+		for red_word in red_words:
+			if red_word in self.bert_annoy_tree_word_to_idx:
+				distance = self.bert_annoy_tree.get_distance(self.bert_annoy_tree_word_to_idx[red_word], self.bert_annoy_tree_word_to_idx[potential_clue])
+				similarity = 1.0 if distance == 0.0 else (1 - distance/2)
+				if similarity > max_red_similarity:
+					max_red_similarity = similarity
+
+		if self.configuration.debug_file:
+			with open(self.configuration.debug_file, 'a') as f:
+				f.write(" ".join([str(x) for x in [
+					" bert penalty for red words:", max_red_similarity, "\n"
+				]]))
+		return -0.5*max_red_similarity
+
 
 	def dict2vec_embedding_weight(self):
 		return 2.0
