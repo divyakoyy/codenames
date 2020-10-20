@@ -326,8 +326,8 @@ class Babelnet(object):
 					max_red_similarity = similarity
 			else:
 				print(f"red word {red_word} not in fasttext")
-		#TODO: is average the best way to do this
-		return (sum(fasttext_similarities)/len(fasttext_similarities)) - 0.5*max_red_similarity
+		#TODO: is average or sum the best way to do this
+		return sum(fasttext_similarities) - 0.5*max_red_similarity
 
 	def _get_dictionary_definition_score(self, chosen_words, potential_clue, red_words):
 		# the dictionary definitions of words (as given from their babelnet synset)
