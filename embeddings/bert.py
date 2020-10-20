@@ -34,7 +34,7 @@ class Bert(object):
 			neighbor_word = self.bert_annoy_tree_idx_to_word[neighbor_annoy_idx].lower()
 			if len(neighbor_word.split("_")) > 1 or len(neighbor_word.split("-")) > 1:
 				continue
-			similarity = (1 - (distance * distance) / 2)
+			similarity = 1 - (distance ** 2 / 2)
 			#print("Word:",word, "Neighbor:",neighbor_word, "Similarity:",similarity)
 			if neighbor_word not in nn_w_similarities:
 				nn_w_similarities[neighbor_word] = similarity
