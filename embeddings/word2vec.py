@@ -41,8 +41,7 @@ class Word2Vec(object):
 		:param red_words: opponent's words
 		returns: penalizes a potential_clue for being have high word2vec similarity with opponent's words
 		"""
-		word2vec_similarities = []
-		red_word2vec_similarities = []
+		max_red_similarity = float("-inf")
 		if potential_clue not in self.word2vec_model:
 			if self.configuration.verbose:
 				print("Potential clue word ", potential_clue, "not in Google news word2vec model")
@@ -50,15 +49,22 @@ class Word2Vec(object):
 
 		for red_word in red_words:
 			if red_word in self.word2vec_model:
-				red_word2vec_similarities.append(self.word2vec_model.similarity(red_word, potential_clue))
+				similarity = self.word2vec_model.similarity(red_word, potential_clue)
+				if similarity > max_red_similarity:
+					max_red_similarity = similarity
 
 		if self.configuration.debug_file:
 			with open(self.configuration.debug_file, 'a') as f:
 				f.write(" ".join([str(x) for x in [
-					" word2vec penalty for red words:", round(-0.5*sum(red_word2vec_similarities)/len(red_word2vec_similarities),3), "\n"
+					" word2vec penalty for red words:", max_red_similarity, "\n"
 				]]))
-		#TODO: is average the best way to do this
-		return -0.5*sum(red_word2vec_similarities)/len(red_word2vec_similarities)
+		return -0.5*max_red_similarity
 
 	def dict2vec_embedding_weight(self):
 		return 2.0
+
+	def get_word_similarity(self, word1, word2):
+		try:
+			return self.word2vec_model.similarity(word1, word2)
+		except KeyError:
+			return -1.0

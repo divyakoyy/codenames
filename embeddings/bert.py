@@ -23,7 +23,7 @@ class Bert(object):
 
 	def get_weighted_nn(self, word, n=500):
 		nn_w_similarities = dict()
-		
+
 		if word not in self.bert_annoy_tree_word_to_idx:
 			return nn_w_similarities
 
@@ -34,7 +34,8 @@ class Bert(object):
 			neighbor_word = self.bert_annoy_tree_idx_to_word[neighbor_annoy_idx].lower()
 			if len(neighbor_word.split("_")) > 1 or len(neighbor_word.split("-")) > 1:
 				continue
-			similarity = 1.0 if distance == 0.0 else (1 - distance/2)
+			# https://github.com/spotify/annoy/issues/112#issuecomment-686513356
+			similarity = 1.0 if distance == 0.0 else (1 - (distance**2 / 2))
 			#print("Word:",word, "Neighbor:",neighbor_word, "Similarity:",similarity)
 			if neighbor_word not in nn_w_similarities:
 				nn_w_similarities[neighbor_word] = similarity
@@ -51,7 +52,33 @@ class Bert(object):
 		"""
 		# TODO
 
-		return 0
+		max_red_similarity = float("-inf")
+		if potential_clue not in self.bert_annoy_tree_word_to_idx:
+			if self.configuration.verbose:
+				print("Potential clue word ", potential_clue, "not in bert model")
+			return 0.0
+
+		for red_word in red_words:
+			if red_word in self.bert_annoy_tree_word_to_idx:
+				distance = self.bert_annoy_tree.get_distance(self.bert_annoy_tree_word_to_idx[red_word], self.bert_annoy_tree_word_to_idx[potential_clue])
+				similarity = 1.0 if distance == 0.0 else (1 - distance**2 / 2)
+				if similarity > max_red_similarity:
+					max_red_similarity = similarity
+
+		if self.configuration.debug_file:
+			with open(self.configuration.debug_file, 'a') as f:
+				f.write(" ".join([str(x) for x in [
+					" bert penalty for red words:", max_red_similarity, "\n"
+				]]))
+		return -0.5*max_red_similarity
+
 
 	def dict2vec_embedding_weight(self):
 		return 2.0
+
+	def get_word_similarity(self, word1, word2):
+		try:
+			angular_dist = self.bert_annoy_tree.get_distance(self.bert_annoy_tree_word_to_idx[word1], self.bert_annoy_tree_word_to_idx[word2])
+			return 1 - (angular_dist**2 / 2)
+		except KeyError:
+			return -1.0

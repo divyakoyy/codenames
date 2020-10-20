@@ -108,6 +108,8 @@ class Codenames(object):
         else:
             self.configuration = CodenamesConfiguration()
         print(self.configuration.__dict__)
+        with open('data/word_to_dict2vec_embeddings', 'rb') as word_to_dict2vec_embeddings_file:
+            self.word_to_dict2vec_embeddings = pickle.load(word_to_dict2vec_embeddings_file)
         self.embedding_type = embedding_type #TODO: remove this after the custom domain choosing from get_highest_clue is out
         self.embedding = self._get_embedding_from_type(embedding_type)
         self.weighted_nn = dict()
@@ -139,7 +141,7 @@ class Codenames(object):
         elif embedding_type == 'bert':
             return Bert(self.configuration)
         elif embedding_type == 'kim2019':
-            return Kim2019(self.configuration)
+            return Kim2019(self.configuration, self.word_to_dict2vec_embeddings)
         else:
             print("Valid embedding types are babelnet, word2vec, glove, fasttext, and bert")
 
@@ -200,7 +202,7 @@ class Codenames(object):
                           for id in id_to_doc_freqs}
 
         return word_to_df
-        
+
 
     def _write_to_debug_file(self, lst):
         if self.configuration.debug_file:
@@ -264,7 +266,7 @@ class Codenames(object):
         # since we check for validity here
         for board_word in self.red_words.union(self.blue_words):
             # Check if clue or board_word are substring of each other, or if they share the same word stem
-            if (clue in board_word or board_word in clue or self.stemmer.stem(clue) == self.stemmer.stem(board_word)):
+            if (clue in board_word or board_word in clue or self.stemmer.stem(clue) == self.stemmer.stem(board_word) or not clue.isalpha()):
                 return False
         return True
 
@@ -325,7 +327,7 @@ class Codenames(object):
                 if clue in self.weighted_nn[blue_word]:
                     blue_word_counts.append(self.weighted_nn[blue_word][clue])
                 else:
-                    blue_word_counts.append(-1.0)
+                    blue_word_counts.append(self.embedding.get_word_similarity(blue_word, clue))
             for red_word in self.red_words:
                 if clue in self.weighted_nn[red_word]:
                     red_word_counts.append(self.weighted_nn[red_word][clue])
@@ -335,7 +337,8 @@ class Codenames(object):
             self._write_to_debug_file([
                 "\n", clue, "score breakdown for", " ".join(chosen_words),
                 "\n\tblue words score:", round(sum(blue_word_counts),3),
-                " red words penalty:", round((penalty *sum(red_word_counts)),3)])
+                # " red words penalty:", round((penalty *sum(red_word_counts)),3)
+                ])
 
             if self.configuration.use_heuristics is True:
                 # the larger the idf is, the more uncommon the word
@@ -346,7 +349,7 @@ class Codenames(object):
                     idf = 1.0
                 dict2vec_weight = self.embedding.dict2vec_embedding_weight()
                 dict2vec_score = dict2vec_weight*get_dict2vec_score(chosen_words, clue, self.red_words)
-                
+
                 heuristic_score = dict2vec_score + (-2*idf)
                 self._write_to_debug_file([" IDF:", round(-2*idf,3), "dict2vec score:", round(dict2vec_score,3)])
 
@@ -354,11 +357,9 @@ class Codenames(object):
             embedding_score = self.embedding.rescale_score(chosen_words, clue, self.red_words)
 
             if (self.configuration.use_kim_scoring_function):
-                if (len(blue_word_counts) == 0 or len(red_word_counts) == 0 or min(blue_word_counts) > max(red_word_counts)):
-                    score = float("-inf")
                 score = min(blue_word_counts) + heuristic_score
             else:
-                score = sum(blue_word_counts) - (penalty *sum(red_word_counts)) + embedding_score + heuristic_score
+                score = sum(blue_word_counts) + embedding_score + heuristic_score
 
             if score > highest_score:
                 highest_scoring_clues = [clue]
@@ -403,7 +404,13 @@ class Codenames(object):
         :param possible_words: n-tuple of strings
         :return: score = sum(weighted_nn[possible_word][clue] for possible_word in possible_words)
         """
-        return self.weighted_nn[word][clue] if clue in self.weighted_nn[word] else -1000
+        if clue in self.weighted_nn[word]:
+            return self.weighted_nn[word][clue]
+        else:
+            try:
+                return self.embedding.get_word_similarity(word, clue)
+            except KeyError:
+                return -1000
 
 
 if __name__ == "__main__":
@@ -425,7 +432,7 @@ if __name__ == "__main__":
     parser.add_argument('--split-multi-word', dest='split_multi_word', default=True)
     parser.add_argument('--disable-verb-split', dest='disable_verb_split', default=True)
     parser.add_argument('--kim-scoring-function', dest='use_kim_scoring_function', action='store_true',
-                        help='use the kim 2019 et. al. scoring function'),    
+                        help='use the kim 2019 et. al. scoring function'),
     parser.add_argument('--length-exp-scaling', type=int, dest='length_exp_scaling', default=None,
                         help='Rescale lengths using exponent')
     parser.add_argument('--single-word-label-scores', type=float, nargs=4, dest='single_word_label_scores',

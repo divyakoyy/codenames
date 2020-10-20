@@ -2,9 +2,11 @@ babelnet_v4/*gz
 babelnet_v4/*_synsets
 babelnet_v6/*gz
 babelnet_v6/*_synsets
+babelnet_v6/*_synsets2
 notebooks/
 .DS_Store
 .ipynb_checkpoints/
+.ipynb
 *pyc
 *tar
 *bin
@@ -16,3 +18,8 @@ data/word_to_dict2vec_embeddings
 intersection_graphs/
 debug_output/
 bert/
+data/*.csv
+data/glove-wiki-gigaword-300.txt.gz
+Data/annoy*
+amt_*
+embeddings/__pycache__/*
