@@ -17,6 +17,14 @@ class Bert(object):
 		self.bert_annoy_tree_idx_to_word = np.load('data/annoy_tree_index_to_word_bert_emb_768_text8_small.npy', allow_pickle=True).item()
 		self.bert_annoy_tree_word_to_idx = {v: k for k, v in self.bert_annoy_tree_idx_to_word.items()}
 
+	def _similarity_from_distance(self, distance):
+		"""
+		:param distance: cosine distance as calculated from Annoy, which is sqrt(2(1-*cos(u, v))
+		see https://github.com/spotify/annoy for reference.
+		returns: the similarity of two vectors given their cosine distance
+		"""
+		return 1.0 if distance == 0 else (1 - (distance * distance) / 2)
+
 	"""
 	Required codenames methods
 	"""
@@ -34,7 +42,7 @@ class Bert(object):
 			neighbor_word = self.bert_annoy_tree_idx_to_word[neighbor_annoy_idx].lower()
 			if len(neighbor_word.split("_")) > 1 or len(neighbor_word.split("-")) > 1:
 				continue
-			similarity = 1.0 if distance == 0.0 else (1 - distance/2)
+			similarity = self._similarity_from_distance(distance)
 			#print("Word:",word, "Neighbor:",neighbor_word, "Similarity:",similarity)
 			if neighbor_word not in nn_w_similarities:
 				nn_w_similarities[neighbor_word] = similarity
@@ -45,12 +53,10 @@ class Bert(object):
 	def rescale_score(self, chosen_words, potential_clue, red_words):
 		"""
 		:param chosen_words: potential board words we could apply this clue to
-		:param clue: potential clue
+		:param potential_clue: potential clue
 		:param red_words: opponent's words
-		returns: penalizes a potential_clue for being have high word2vec similarity with opponent's words
+		returns: penalizes a potential_clue for being have high bert similarity with opponent's words
 		"""
-		# TODO
-
 		max_red_similarity = float("-inf")
 		if potential_clue not in self.bert_annoy_tree_word_to_idx:
 			if self.configuration.verbose:
@@ -60,7 +66,7 @@ class Bert(object):
 		for red_word in red_words:
 			if red_word in self.bert_annoy_tree_word_to_idx:
 				distance = self.bert_annoy_tree.get_distance(self.bert_annoy_tree_word_to_idx[red_word], self.bert_annoy_tree_word_to_idx[potential_clue])
-				similarity = 1.0 if distance == 0.0 else (1 - distance/2)
+				similarity = self._similarity_from_distance(distance)
 				if similarity > max_red_similarity:
 					max_red_similarity = similarity
 
