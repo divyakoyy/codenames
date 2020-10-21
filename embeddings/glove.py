@@ -56,6 +56,12 @@ class Glove(object):
 					" glove penalty for red words:", max_red_similarity, "\n"
 				]]))
 		return -0.5*max_red_similarity
-		
+
 	def dict2vec_embedding_weight(self):
 		return 2.0
+
+	def get_word_similarity(self, word1, word2):
+		try:
+			return self.glove_model.similarity(word1, word2)
+		except KeyError:
+			return -1.0

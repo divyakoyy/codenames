@@ -6,6 +6,7 @@ babelnet_v6/*_synsets2
 notebooks/
 .DS_Store
 .ipynb_checkpoints/
+.ipynb
 *pyc
 *tar
 *bin

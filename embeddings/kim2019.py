@@ -12,16 +12,23 @@ class Kim2019(object):
 	def __init__(
 		self,
 		configuration=None,
+<<<<<<< HEAD
 		# w2v_file_path='data/GoogleNews-vectors-negative300.bin'
 		w2v_file_path='data/glove-wiki-gigaword-300.txt.gz'
+=======
+		word_to_dict2vec_embeddings=None,
+		w2v_file_path='data/GoogleNews-vectors-negative300.bin'
+>>>>>>> master
 	):
 		super().__init__()
+		self.word_to_dict2vec_embeddings = word_to_dict2vec_embeddings
 		self.configuration = configuration
 		# self.word_vectors = word2vec.KeyedVectors.load_word2vec_format(w2v_file_path, binary=True, unicode_errors='ignore')
 		self.word_vectors = word2vec.KeyedVectors.load_word2vec_format('data/glove-wiki-gigaword-300.txt.gz')
 		self.wordnet_lemmatizer = WordNetLemmatizer()
 		self.lancaster_stemmer = LancasterStemmer()
 		self.cm_cluelist = []  # candidate clues
+
 		with open('data/cm_wordlist.txt') as infile:
 			for line in infile:
 				self.cm_cluelist.append(line.rstrip())

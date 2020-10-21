@@ -23,7 +23,7 @@ class Bert(object):
 
 	def get_weighted_nn(self, word, n=500):
 		nn_w_similarities = dict()
-		
+
 		if word not in self.bert_annoy_tree_word_to_idx:
 			return nn_w_similarities
 
@@ -34,7 +34,7 @@ class Bert(object):
 			neighbor_word = self.bert_annoy_tree_idx_to_word[neighbor_annoy_idx].lower()
 			if len(neighbor_word.split("_")) > 1 or len(neighbor_word.split("-")) > 1:
 				continue
-			similarity = 1.0 if distance == 0.0 else (1 - distance/2)
+			similarity = 1 - (distance ** 2 / 2)
 			#print("Word:",word, "Neighbor:",neighbor_word, "Similarity:",similarity)
 			if neighbor_word not in nn_w_similarities:
 				nn_w_similarities[neighbor_word] = similarity
@@ -45,12 +45,10 @@ class Bert(object):
 	def rescale_score(self, chosen_words, potential_clue, red_words):
 		"""
 		:param chosen_words: potential board words we could apply this clue to
-		:param clue: potential clue
+		:param potential_clue: potential clue
 		:param red_words: opponent's words
-		returns: penalizes a potential_clue for being have high word2vec similarity with opponent's words
+		returns: penalizes a potential_clue for being have high bert similarity with opponent's words
 		"""
-		# TODO
-
 		max_red_similarity = float("-inf")
 		if potential_clue not in self.bert_annoy_tree_word_to_idx:
 			if self.configuration.verbose:
@@ -59,8 +57,7 @@ class Bert(object):
 
 		for red_word in red_words:
 			if red_word in self.bert_annoy_tree_word_to_idx:
-				distance = self.bert_annoy_tree.get_distance(self.bert_annoy_tree_word_to_idx[red_word], self.bert_annoy_tree_word_to_idx[potential_clue])
-				similarity = 1.0 if distance == 0.0 else (1 - distance/2)
+				similarity = self.get_word_similarity(red_word, potential_clue)
 				if similarity > max_red_similarity:
 					max_red_similarity = similarity
 
@@ -74,3 +71,11 @@ class Bert(object):
 
 	def dict2vec_embedding_weight(self):
 		return 2.0
+
+	def get_word_similarity(self, word1, word2):
+		try:
+			# cosine distance = sqrt(2(1-*cos(u, v)), as calculated from Annoy. see https://github.com/spotify/annoy for reference.
+			angular_dist = self.bert_annoy_tree.get_distance(self.bert_annoy_tree_word_to_idx[word1], self.bert_annoy_tree_word_to_idx[word2])
+			return 1 - (angular_dist**2 / 2)
+		except KeyError:
+			return -1.0
