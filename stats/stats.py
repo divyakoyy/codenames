@@ -19,34 +19,50 @@ def name_for_with_trial_from_without_trial(embedding_name):
 	start_idx = embedding_name.find('Heuristics')
 	return embedding_name[0:start_idx-3] + embedding_name[start_idx:]
 
+
 def prefill_without_trials_using_with_trials(input_file_path, amt_results_file_path):
-	input_keys = []
+	input_keys_to_clue = {}
 	print ("Processing", input_file_path, amt_results_file_path)
 	with open(input_file_path, 'r', newline='') as csvfile:
 		reader = csv.DictReader(csvfile)
 		for row in reader:	
-			input_keys.append(row['embedding_name'])
+			input_keys_to_clue[row['embedding_name']] = row['clue']
 
-	embedding_name_to_row_dict = dict()
+	trial_name_to_row_dict = dict()
 	with open(amt_results_file_path, 'r', newline='') as csvfile:
 		reader = csv.DictReader(csvfile)
 		for row in reader:	
-			embedding_name_to_row_dict[row['Input.embedding_name']] = list(row.values())
+			trial_name_to_row_dict[row['Input.embedding_name']] = list(row.values())
 
-	missing_embedding_keys = set(input_keys).difference(set(embedding_name_to_row_dict.keys()))
+	missing_embedding_keys = set(input_keys_to_clue.keys()).difference(set(trial_name_to_row_dict.keys()))
 	print(len(missing_embedding_keys), "missing keys in", amt_results_file_path, ":", missing_embedding_keys)
 
+	seen_keys = list(trial_name_to_row_dict.keys())
 	for missing_key in missing_embedding_keys:
-		mapped_key = name_for_with_trial_from_without_trial(missing_key)
-		# no AMT response for this trial
-		if (mapped_key not in embedding_name_to_row_dict): 
-			print(mapped_key,"not in", amt_results_file_path)
-			continue
-		embedding_name_to_row_dict[mapped_key][27] = missing_key
+
+		embedding_name = missing_key[0:missing_key.find("With")] # e.g. bert
+		trial_number = missing_key[missing_key.find("Trial")+5:] # e.g. 5
+		for trial_name in trial_name_to_row_dict:
+			clue = trial_name_to_row_dict[trial_name][28] # 27 = Input.clue
+			if trial_name.startswith(embedding_name) and trial_name.endswith(trial_number) and clue == input_keys_to_clue[missing_key] and missing_key not in seen_keys:
+				print(trial_name, "maps to", missing_key)
+				trial_name_to_row_dict[trial_name][27] = missing_key # 27 = Input.embedding_name
+				seen_keys.append(missing_key)
 		
-		with open(amt_results_file_path, 'a', newline='') as csvfile:
-			writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-			writer.writerow(embedding_name_to_row_dict[mapped_key])
+				with open(amt_results_file_path, 'a', newline='') as csvfile:
+					writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+					writer.writerow(trial_name_to_row_dict[trial_name])
+
+		# mapped_key = name_for_with_trial_from_without_trial(missing_key)
+		# # no AMT response for this trial
+		# if (mapped_key not in embedding_name_to_row_dict):
+		# 	print(mapped_key,"not in", amt_results_file_path)
+		# 	continue
+		# embedding_name_to_row_dict[mapped_key][27] = missing_key
+		
+		# with open(amt_results_file_path, 'a', newline='') as csvfile:
+		# 	writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+		# 	writer.writerow(embedding_name_to_row_dict[mapped_key])
 
 '''
 Statistics
@@ -78,20 +94,22 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 	pprint.pprint(input_dict.keys())
 
 	# Generate stats
-	embedding_keys = [
-		'word2vecWithoutHeuristics',
-		'gloveWithoutHeuristics',
-		'fasttextWithoutHeuristics',
-		'bertWithoutHeuristics',
-		'babelnetWithoutHeuristics',
-		'kim2019WithoutHeuristics', 
-		'word2vecWithHeuristics', 
-		'gloveWithHeuristics', 
-		'fasttextWithHeuristics', 
-		'bertWithHeuristics', 
-		'babelnetWithHeuristics', 
-		'kim2019WithHeuristics', 
+	representations = [
+		'word2vec', 'glove', 'fasttext', 'kim2019', 'babelnet', 'bert',
 	]
+
+	renamed_embedding_keys = dict()
+	embedding_keys = []
+	for x in ["WithHeuristics", "WithoutHeuristics"]:
+		for y in ["KimFx", "WithoutKimFx"]:
+			for rep in representations:
+				embedding_key = rep+x+y
+				embedding_keys.append(rep+x+y)
+				renamed_key = rep + ("+DictRelevance" if x == "WithHeuristics" else "") + ("+KimFx" if y == "KimFx" else "")
+				renamed_embedding_keys[embedding_key] = renamed_key
+
+	print(embedding_keys, renamed_embedding_keys)
+
 	results_dict = dict()
 	for key in embedding_keys:
 		results_dict[key] = { 'intendedWordPrecisionAt2': [], 'intendedWordRecallAt4': [], 'blueWordPrecisionAt2': [], 'blueWordPrecisionAt4': [] }
@@ -141,22 +159,6 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 
 	print("Number of Trials:", num_trials)
 
-	renamed_embedding_keys = {
-		'word2vecWithoutHeuristics' : 'word2vec',
-		'gloveWithoutHeuristics' : 'glove',
-		'fasttextWithoutHeuristics' : 'fasttext',
-		'bertWithoutHeuristics' : 'bert',
-		'babelnetWithoutHeuristics' : 'babelnet',
-		'kim2019WithoutHeuristics' : 'kim2019',
-		'word2vecWithHeuristics' : 'word2vec+DictRelevance',
-		'gloveWithHeuristics' : 'glove+DictRelevance',
-		'fasttextWithHeuristics' : 'fasttext+DictRelevance',
-		'bertWithHeuristics' : 'bert+DictRelevance', 
-		'babelnetWithHeuristics' : 'babelnet+DictRelevance',
-		'kim2019WithHeuristics' : 'kim2019+DictRelevance',
-	}
-
-
 	results_dict = { renamed_embedding_keys[embedding] : results_dict[embedding] for embedding in results_dict}
 	
 	avg_stats = dict()
@@ -178,19 +180,19 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 
 	print(table)
 
-	keys = {'word2vec':None, 
-			'glove':None,
-			'fasttext':None,
-			'bert':None,
-			'babelnet':None,
-			'kim2019':None}
+	# keys = {'word2vec':None, 
+	# 		'glove':None,
+	# 		'fasttext':None,
+	# 		'bert':None,
+	# 		'babelnet':None,
+	# 		'kim2019':None}
 
-	for embedding_key in keys:
-		for stat_metric in stat_types:
-			stats1 = results_dict[embedding_key][stat_metric]
-			stats2 = results_dict[embedding_key+"+DictRelevance"][stat_metric]
-			ttest = stats.ttest_rel(stats1, stats2)
-			print(embedding_key, stat_metric, ttest)
+	# for embedding_key in keys:
+	# 	for stat_metric in stat_types:
+	# 		stats1 = results_dict[embedding_key][stat_metric]
+	# 		stats2 = results_dict[embedding_key+"+DictRelevance"][stat_metric]
+	# 		ttest = stats.ttest_rel(stats1, stats2)
+	# 		print(embedding_key, stat_metric, ttest)
 
 
 	return avg_stats
@@ -229,7 +231,7 @@ def plot(avg_stats):
 			offset = (4,-2)
 		ax.annotate(txt, 
 					(x[i], y[i]), 
-					fontsize=9, 
+					fontsize=6, 
 					textcoords="offset points", # how to position the text
 					xytext=offset, 
 					ha='left')
@@ -249,10 +251,12 @@ def plot(avg_stats):
 if __name__=='__main__':
 	# Input keys
 	# key_input_file_paths = ['../data/amt_0825_batch0_key.csv', '../data/amt_0825_batch1_key.csv', '../data/amt_0826_batch0_key.csv', '../data/amt_0826_batch1_key.csv', '../data/amt_0826_batch2_key.csv', '../data/amt_091020_kim2019_batch0_key.csv', '../data/amt_092220_bertavgemb_batch0_key.csv']
-	key_input_file_paths = ['../data/amt_092320_all_batch0_key.csv']
+	# key_input_file_paths = ['../data/amt_092320_all_batch0_key.csv']
+	key_input_file_paths = ['../data/amt_102620_all_kim_scoring_fx_key.csv']
 	# Results from AMT
 	# amt_results_file_paths = ['../data/amt_0825_batch0_results.csv', '../data/amt_0825_batch1_results.csv', '../data/amt_0826_batch0_results.csv', '../data/amt_0826_batch1_results.csv', '../data/amt_0826_batch2_results.csv', '../data/amt_091020_kim2019_batch0_results.csv', '../data/amt_092220_bertAvg_results.csv']
-	amt_results_file_paths = ['../data/amt_official_results_092320_all_batch0.csv']
+	# amt_results_file_paths = ['../data/amt_official_results_092320_all_batch0.csv']
+	amt_results_file_paths = ['../data/amt_102620_all_kim_scoring_fx_results.csv']
 
 	# Pre-processing
 	for key_input_file_path, amt_results_file_path in zip(key_input_file_paths, amt_results_file_paths):

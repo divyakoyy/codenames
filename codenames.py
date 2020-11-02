@@ -472,8 +472,8 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
-    amt_file_path = 'amt_101220_remove_red_counts_batch0.csv'
-    amt_key_file_path = 'amt_101220_remove_red_counts_batch0_key.csv'
+    amt_file_path = 'amt_102620_all_kim_scoring_fx.csv'
+    amt_key_file_path = 'amt_102620_all_kim_scoring_fx_key.csv'
     # Setup CSVs
     if not os.path.exists(amt_file_path):
         with open(amt_file_path, 'w'): pass
@@ -491,90 +491,97 @@ if __name__ == "__main__":
         header_row = ['embedding_name', 'configuration','clue', 'word0ForClue', 'word1ForClue'] + ["blueWord" + str(x) for x in range(0,10)] + ["redWord" + str(x) for x in range(0,10)]
         writer.writerow(header_row)
 
-    emebedding_trial_to_clue = dict()
+    embedding_trial_to_clues = dict()
 
-    for useHeuristicOverride in [True, False]:
-        shuffled_embeddings = args.embeddings
-        random.shuffle(shuffled_embeddings)
-        for embedding_type in shuffled_embeddings:
-            embedding_trial_number = 0
-            debug_file_path = None
-            if args.debug is True or args.debug_file != None:
-                debug_file_path = (embedding_type + "-" + datetime.now().strftime("%m-%d-%Y-%H.%M.%S") + ".txt") if args.debug_file == None else args.debug_file
-                # Create directory to put debug files if it doesn't exist
-                if not os.path.exists('debug_output'):
-                    os.makedirs('debug_output')
-                debug_file_path = os.path.join('debug_output', debug_file_path)
-                print("Writing debug output to", debug_file_path)
+    for useKimScoringFunctionOverride in [True, False]:
+        print("use kim", useKimScoringFunctionOverride)
+        for useHeuristicOverride in [True, False]:
+            shuffled_embeddings = args.embeddings
+            random.shuffle(shuffled_embeddings)
+            for embedding_type in shuffled_embeddings:
+                embedding_trial_number = 0
+                debug_file_path = None
+                if args.debug is True or args.debug_file != None:
+                    debug_file_path = (embedding_type + "-" + datetime.now().strftime("%m-%d-%Y-%H.%M.%S") + ".txt") if args.debug_file == None else args.debug_file
+                    # Create directory to put debug files if it doesn't exist
+                    if not os.path.exists('debug_output'):
+                        os.makedirs('debug_output')
+                    debug_file_path = os.path.join('debug_output', debug_file_path)
+                    print("Writing debug output to", debug_file_path)
 
-            configuration = CodenamesConfiguration(
-                verbose=args.verbose,
-                visualize=args.visualize,
-                split_multi_word=args.split_multi_word,
-                disable_verb_split=args.disable_verb_split,
-                debug_file=debug_file_path,
-                length_exp_scaling=args.length_exp_scaling,
-                # use_heuristics=(not args.no_heuristics),
-                use_heuristics=useHeuristicOverride,
-                single_word_label_scores=args.single_word_label_scores,
-                use_kim_scoring_function=args.use_kim_scoring_function,
-            )
+                configuration = CodenamesConfiguration(
+                    verbose=args.verbose,
+                    visualize=args.visualize,
+                    split_multi_word=args.split_multi_word,
+                    disable_verb_split=args.disable_verb_split,
+                    debug_file=debug_file_path,
+                    length_exp_scaling=args.length_exp_scaling,
+                    # use_heuristics=(not args.no_heuristics),
+                    use_heuristics=useHeuristicOverride,
+                    single_word_label_scores=args.single_word_label_scores,
+                    use_kim_scoring_function=useKimScoringFunctionOverride,
+                )
 
-            game = Codenames(
-                configuration=configuration,
-                embedding_type=embedding_type,
-            )
+                game = Codenames(
+                    configuration=configuration,
+                    embedding_type=embedding_type,
+                )
 
-            for i, (red, blue) in enumerate(zip(red_words, blue_words)):
+                for i, (red, blue) in enumerate(zip(red_words, blue_words)):
 
-                game._build_game(red=red, blue=blue,
-                                 save_path="tmp_babelnet_" + str(i))
-                # TODO: Download version without using aliases. They may be too confusing
-                if game.configuration.verbose:
-                    print("NEAREST NEIGHBORS:")
-                    for word, clues in game.weighted_nn.items():
-                        print(word)
-                        print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
+                    game._build_game(red=red, blue=blue,
+                                     save_path="tmp_babelnet_" + str(i))
+                    # TODO: Download version without using aliases. They may be too confusing
+                    if game.configuration.verbose:
+                        print("NEAREST NEIGHBORS:")
+                        for word, clues in game.weighted_nn.items():
+                            print(word)
+                            print(sorted(clues, key=lambda k: clues[k], reverse=True)[:5])
 
-                best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
+                    best_scores, best_clues, best_board_words_for_clue = game.get_clue(2, 1)
 
-                print("===================================================================================================")
-                print("TRIAL", str(i+1))
-                print("RED WORDS: ", list(game.red_words))
-                print("BLUE WORDS: ", list(game.blue_words))
-                print("BEST CLUES: ")
-                for score, clues, board_words in zip(best_scores, best_clues, best_board_words_for_clue):
-                    print()
-                    print(clues, str(round(score,3)), board_words)
-                    for clue in clues:
-                        print(
-                            "WORDS CHOSEN FOR CLUE: ",
-                            game.choose_words(
-                                2, clue, game.blue_words.union(game.red_words)),
-                        )
+                    print("===================================================================================================")
+                    print("TRIAL", str(i+1))
+                    print("RED WORDS: ", list(game.red_words))
+                    print("BLUE WORDS: ", list(game.blue_words))
+                    print("BEST CLUES: ")
+                    for score, clues, board_words in zip(best_scores, best_clues, best_board_words_for_clue):
+                        print()
+                        print(clues, str(round(score,3)), board_words)
+                        for clue in clues:
+                            print(
+                                "WORDS CHOSEN FOR CLUE: ",
+                                game.choose_words(
+                                    2, clue, game.blue_words.union(game.red_words)),
+                            )
 
-                # Write to CSV
-                heuristic_string = "WithHeuristics" if configuration.use_heuristics else "WithoutHeuristics"
-                embedding_with_trial_number = embedding_type +  heuristic_string + "Trial" + str(embedding_trial_number)
+                    # Write to CSV
+                    heuristic_string = "WithHeuristics" if configuration.use_heuristics else "WithoutHeuristics"
+                    kim_scoring_fx_string = "KimFx" if configuration.use_kim_scoring_function else "WithoutKimFx"
+                    embedding_with_trial_number = embedding_type +  heuristic_string + kim_scoring_fx_string + "Trial" + str(embedding_trial_number)
 
-                # Check if this clue has already been chosen with useHeuristicOverride = True
-                embedding_number = embedding_type + str(embedding_trial_number)
-                # TODO: Clean this logic
-                if useHeuristicOverride == True or (useHeuristicOverride == False and emebedding_trial_to_clue[embedding_number] != best_clues[0][0]):
+                    # Check if this clue has already been chosen
+                    embedding_number = embedding_type + str(embedding_trial_number)
+                    clue = best_clues[0][0]
+                    print(embedding_number, embedding_trial_to_clues)
+                    is_duplicate_clue = embedding_number in embedding_trial_to_clues and clue in embedding_trial_to_clues[embedding_number]
+                    print(is_duplicate_clue)
+                    if (is_duplicate_clue is False):
+                        if embedding_number not in embedding_trial_to_clues:
+                            embedding_trial_to_clues[embedding_number] = set()
+                        embedding_trial_to_clues[embedding_number].add(clue)
 
-                    with open(amt_file_path, 'a', newline='') as csvfile:
+                        with open(amt_file_path, 'a', newline='') as csvfile:
+                            writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                            writer.writerow([embedding_with_trial_number, clue] + list(game.blue_words.union(game.red_words)))
+
+                    with open(amt_key_file_path, 'a', newline='') as csvfile:
                         writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                        writer.writerow([embedding_with_trial_number, best_clues[0][0]] + list(game.blue_words.union(game.red_words)))
+                        writer.writerow([embedding_with_trial_number, str(configuration.__dict__), clue, best_board_words_for_clue[0][0], best_board_words_for_clue[0][1]] + list(game.blue_words) + list(game.red_words))
 
-                with open(amt_key_file_path, 'a', newline='') as csvfile:
-                    writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-                    writer.writerow([embedding_with_trial_number, str(configuration.__dict__), best_clues[0][0], best_board_words_for_clue[0][0], best_board_words_for_clue[0][1]] + list(game.blue_words) + list(game.red_words))
+                    embedding_trial_number += 1
 
-                embedding_trial_number += 1
-                if (useHeuristicOverride == True):
-                    emebedding_trial_to_clue[embedding_number] = best_clues[0][0]
-
-                # Draw graphs for all words
-                # all_words = red + blue
-                # for word in all_words:
-                #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)
+                    # Draw graphs for all words
+                    # all_words = red + blue
+                    # for word in all_words:
+                    #     game.draw_graph(game.graphs[word], word+"_all", get_labels=True)

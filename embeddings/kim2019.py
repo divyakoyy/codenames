@@ -12,13 +12,8 @@ class Kim2019(object):
 	def __init__(
 		self,
 		configuration=None,
-<<<<<<< HEAD
-		# w2v_file_path='data/GoogleNews-vectors-negative300.bin'
-		w2v_file_path='data/glove-wiki-gigaword-300.txt.gz'
-=======
 		word_to_dict2vec_embeddings=None,
 		w2v_file_path='data/GoogleNews-vectors-negative300.bin'
->>>>>>> master
 	):
 		super().__init__()
 		self.word_to_dict2vec_embeddings = word_to_dict2vec_embeddings

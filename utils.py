@@ -62,3 +62,20 @@ def get_dict2vec_similarity(word_embedding_0, word_embedding_1):
 	cosine_distance = distance.cosine(word_embedding_0, word_embedding_1)
 	# scipy cosine distance calculation is 1-(cos(u,v))
 	return 1.0 if cosine_distance == 0 else  (1 - cosine_distance)
+
+def get_dict2vec_dist(word1, word2):
+	global word_to_dict2vec_embeddings
+	if word_to_dict2vec_embeddings == None:
+		print("reloading embedding")
+		try:
+			input_file = open('data/word_to_dict2vec_embeddings','rb')
+		except IOError:
+		  print("Error: data/word_to_dict2vec_embeddings does not exist.")
+
+		word_to_dict2vec_embeddings = pickle.load(input_file)
+
+	try:
+		return distance.cosine(word_to_dict2vec_embeddings[word1], word_to_dict2vec_embeddings[word2])
+	except KeyError:
+		return 1.0
+
