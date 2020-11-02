@@ -150,6 +150,9 @@ class Babelnet(object):
 	"""
 	Required codenames methods
 	"""
+	def get_word_similarity(self, word1, word2):
+		return -1
+
 	def dict2vec_embedding_weight(self):
 		return 2.0
 

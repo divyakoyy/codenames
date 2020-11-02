@@ -13,7 +13,7 @@ class Kim2019(object):
 		self,
 		configuration=None,
 		word_to_dict2vec_embeddings=None,
-		w2v_file_path='data/GoogleNews-vectors-negative300.bin'
+		w2v_file_path='data/GoogleNews-vectors-negative300.bin' # TODO: should we use glove or word2vec?
 	):
 		super().__init__()
 		self.word_to_dict2vec_embeddings = word_to_dict2vec_embeddings
