@@ -355,6 +355,7 @@ class Codenames(object):
                 #idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
 
                 # prune out super common words (e.g. "get", "go")
+                # TODO: adjust idf_lower_bound
                 if (clue in stopwords or idf < idf_lower_bound):
                     idf = (math.log(self.num_docs)*1.5)
                 dict2vec_weight = self.embedding.dict2vec_embedding_weight()
