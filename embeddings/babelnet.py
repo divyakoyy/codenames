@@ -150,7 +150,7 @@ class Babelnet(object):
 	"""
 	Required codenames methods
 	"""
-
+	
 	def get_word_similarity(self, word1, word2):
 		return -1
 

@@ -10,6 +10,7 @@ import string
 import argparse
 import gzip
 import pickle
+import math
 from datetime import datetime
 import csv
 
@@ -115,7 +116,7 @@ class Codenames(object):
         self.embedding = self._get_embedding_from_type(embedding_type)
         self.weighted_nn = dict()
 
-        self.word_to_df = self._get_df()  # dictionary of word to document frequency
+        self.num_docs, self.word_to_df = self._load_document_frequencies()  # dictionary of word to document frequency
 
         # Used to get word stems
         self.stemmer = PorterStemmer()
@@ -188,21 +189,28 @@ class Codenames(object):
         if blue is not None:
             self.blue_words = set(blue)
 
-    def _get_df(self):
+    def _load_document_frequencies(self):
         """
         Sets up a dictionary from words to their document frequency
         """
-        if (os.path.exists("data/word_to_df.pkl")):
+        if (os.path.exists("data/word_to_df.pkl")) and (os.path.exists("data/text8_num_documents.txt")):
             with open('data/word_to_df.pkl', 'rb') as f:
                 word_to_df = pickle.load(f)
+            with open('data/text8_num_documents.txt', 'rb') as f:
+                for line in f:
+                    num_docs = int(line.strip())
+                    break
         else:
             dataset = api.load("text8")
             dct = Dictionary(dataset)
             id_to_doc_freqs = dct.dfs
+            num_docs = dct.num_docs
             word_to_df = {dct[id]: id_to_doc_freqs[id]
                           for id in id_to_doc_freqs}
 
-        return word_to_df
+        print("Number of documents", num_docs)
+
+        return num_docs, word_to_df
 
 
     def _write_to_debug_file(self, lst):
@@ -343,16 +351,19 @@ class Codenames(object):
 
             if self.configuration.use_heuristics is True:
                 # the larger the idf is, the more uncommon the word
-                idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
+                # TODO: is there a better way to get idf if the word is not in the corpus?
+                idf = math.log(self.num_docs/self.word_to_df[clue]) if clue in self.word_to_df else (math.log(self.num_docs)*1.5)
+                #idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
 
                 # prune out super common words (e.g. "get", "go")
+                # TODO: adjust idf_lower_bound
                 if (clue in stopwords or idf < idf_lower_bound):
-                    idf = 1.0
+                    idf = (math.log(self.num_docs)*1.5)
                 dict2vec_weight = self.embedding.dict2vec_embedding_weight()
                 dict2vec_score = dict2vec_weight*get_dict2vec_score(chosen_words, clue, self.red_words)
 
-                heuristic_score = dict2vec_score + (-2*idf)
-                self._write_to_debug_file([" IDF:", round(-2*idf,3), "dict2vec score:", round(dict2vec_score,3)])
+                heuristic_score = dict2vec_score + (-0.2*idf)
+                self._write_to_debug_file([" IDF:", round(-0.2*idf,3), "dict2vec score:", round(dict2vec_score,3)])
 
             # Give embedding methods the opportunity to rescale the score using their own heuristics
             embedding_score = self.embedding.rescale_score(chosen_words, clue, self.red_words)
