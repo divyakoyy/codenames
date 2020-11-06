@@ -209,7 +209,7 @@ def plot(avg_stats):
 
 
 	for embedding in avg_stats:
-		embedding_label = embedding if '+DictRelevance' not in embedding else embedding[:-14]
+		embedding_label = embedding.replace('+DictRelevance', '')
 		labels.append(embedding_label)
 		x.append(avg_stats[embedding]['intendedWordPrecisionAt2'])
 		y.append(avg_stats[embedding]['intendedWordRecallAt4'])
@@ -219,7 +219,7 @@ def plot(avg_stats):
 			colors.append('green')
 
 	fig, ax = plt.subplots()
-	scatter = ax.scatter(x, y, c=colors, alpha=0.5)
+	scatter = ax.scatter(x, y, c=colors, alpha=0.5, s=4)
 
 	for i, txt in enumerate(labels):
 		if txt == 'fasttext':
@@ -231,7 +231,7 @@ def plot(avg_stats):
 			offset = (4,-2)
 		ax.annotate(txt, 
 					(x[i], y[i]), 
-					fontsize=6, 
+					fontsize=4, 
 					textcoords="offset points", # how to position the text
 					xytext=offset, 
 					ha='left')
