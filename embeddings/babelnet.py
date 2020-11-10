@@ -66,6 +66,8 @@ class Babelnet(object):
 		# Used to get word stems
 		self.stemmer = PorterStemmer()
 
+		self.weighted_nn = dict()
+
 	"""
 	Pre-process steps
 	"""
@@ -284,7 +286,11 @@ class Babelnet(object):
 		self.graphs[word] = G
 		self.dictionary_definitions[word] = dictionary_definitions_for_word
 
-		return {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != word}
+		nn_w_dists = {k: 1.0 / (v + 1) for k, v in nn_w_dists.items() if k != word}
+
+		self.weighted_nn[word] = nn_w_dists
+
+		return nn_w_dists
 
 	def rescale_score(self, chosen_words, clue, red_words):
 		"""
@@ -297,15 +303,35 @@ class Babelnet(object):
 		# factor in dictionary definition heuristic
 		dict_definition_score = 0.25*self._get_dictionary_definition_score(chosen_words, clue, red_words)
 
-		fasttext_score = 2.5*self._get_fasttext_score(chosen_words, clue, red_words)
+		max_red_similarity = float("-inf")
+		found_clue = False
+		for red_word in red_words:
+			if red_word in self.weighted_nn and clue in self.weighted_nn[red_word]:
+				similarity = self.weighted_nn[red_word][clue]
+				found_clue = True
+				if similarity > max_red_similarity:
+					max_red_similarity = similarity
+		# If we haven't encountered our potential clue in any of the red word's nearest neighbors, set max_red_similarity to 0
+		if found_clue == False:
+			max_red_similarity = 0.0
+
+		# fasttext_score = 2.5*self._get_fasttext_score(chosen_words, clue, red_words)
+
+		# if self.configuration.debug_file:
+		# 	with open(self.configuration.debug_file, 'a') as f:
+		# 		f.write(" ".join([str(x) for x in [
+		# 			" dictionary def score:", round(dict_definition_score,3),"fasttext score:", round(fasttext_score,3), "\n"
+		# 		]]))
+
+		# return (dict_definition_score + fasttext_score)
 
 		if self.configuration.debug_file:
 			with open(self.configuration.debug_file, 'a') as f:
 				f.write(" ".join([str(x) for x in [
-					" dictionary def score:", round(dict_definition_score,3),"fasttext score:", round(fasttext_score,3), "\n"
+					" dictionary def score:", round(dict_definition_score,3),"max red similarity", round(-0.5*max_red_similarity,3), "\n"
 				]]))
 
-		return (dict_definition_score + fasttext_score)
+		return dict_definition_score - 0.5*max_red_similarity
 
 	"""
 	Helper methods
