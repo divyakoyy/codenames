@@ -301,7 +301,7 @@ class Babelnet(object):
 		"""
 
 		# factor in dictionary definition heuristic
-		dict_definition_score = 0.25*self._get_dictionary_definition_score(chosen_words, clue, red_words)
+		# dict_definition_score = 0.25*self._get_dictionary_definition_score(chosen_words, clue, red_words)
 
 		max_red_similarity = float("-inf")
 		found_clue = False
@@ -328,10 +328,10 @@ class Babelnet(object):
 		if self.configuration.debug_file:
 			with open(self.configuration.debug_file, 'a') as f:
 				f.write(" ".join([str(x) for x in [
-					" dictionary def score:", round(dict_definition_score,3),"max red similarity", round(-0.5*max_red_similarity,3), "\n"
+					"max red similarity", round(-0.5*max_red_similarity,3), "\n"
 				]]))
 
-		return dict_definition_score - 0.5*max_red_similarity
+		return 0.5*max_red_similarity
 
 	"""
 	Helper methods
