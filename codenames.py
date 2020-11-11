@@ -38,19 +38,6 @@ from utils import get_dict2vec_score
 
 sys.path.insert(0, "../")
 
-# TODO Anna: Remove this?
-blacklist = set([
-    "s00081546n",  # term
-    "s00021547n",  # concept
-    "s00026969n",  # dictionary entry
-    "s00058442n",  # object
-    "s00020461n",  # semasiology
-    "s00045800n",  # idea
-    "s00050906n",  # lexicon
-    "s00061984n",  # philosophy
-    "s00081546n"   # word
-])
-
 stopwords = [
     'ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than', 'get', 'put',
 ]
@@ -73,6 +60,7 @@ class CodenamesConfiguration(object):
         use_heuristics=True,
         single_word_label_scores=default_single_word_label_scores,
         use_kim_scoring_function=False,
+        use_domain_clues=False,
     ):
         self.verbose = verbose
         self.visualize = visualize
@@ -83,9 +71,20 @@ class CodenamesConfiguration(object):
         self.use_heuristics = use_heuristics
         self.single_word_label_scores = tuple(single_word_label_scores)
         self.use_kim_scoring_function = use_kim_scoring_function
+        self.use_domain_clues = use_domain_clues
 
     def description(self):
-        return "<verbose: "+str(self.verbose)+",visualize: "+str(self.visualize)+",split multi-word clues: "+str(self.split_multi_word)+",disable verb split: "+str(self.disable_verb_split)+",length exp scaling: "+str(self.length_exp_scaling)+",use heuristics: "+str(self.use_heuristics)+",use kim scoring function: "+str(self.use_kim_scoring_function)+">"
+        return (
+            "<verbose: " + str(self.verbose) +
+            ",visualize: " + str(self.visualize) +
+            ",split multi-word clues: " + str(self.split_multi_word) +
+            ",disable verb split: " + str(self.disable_verb_split) +
+            ",length exp scaling: " + str(self.length_exp_scaling) +
+            ",use heuristics: " + str(self.use_heuristics) +
+            ",use kim scoring function: " + str(self.use_kim_scoring_function) +
+            ",use_domain_clues: " + str(self.use_domain_clues) +
+            ">"
+        )
 
 class Codenames(object):
 
@@ -293,7 +292,7 @@ class Codenames(object):
 
         # TODO : Instead of this override behavior, add domains to nn_w_dist
         # try to get a domain clue
-        if self.embedding_type =='babelnet':
+        if self.embedding_type =='babelnet' and self.configuration.use_domain_clues:
             domains = {}
             for word in set(chosen_words).union(self.red_words):
                 for domain, score in self.embedding.nn_to_domain_label[word].items():
@@ -387,7 +386,7 @@ class Codenames(object):
 
         # TODO : Instead of this override behavior, add domains to nn_w_dist
         # try to get a domain clue
-        if self.embedding_type =='babelnet':
+        if self.embedding_type =='babelnet' and self.configuration.use_domain_clues:
             domain_words = []
             for word in remaining_words:
                 if clue in self.embedding.nn_to_domain_label[word]:
