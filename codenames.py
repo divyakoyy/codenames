@@ -351,18 +351,18 @@ class Codenames(object):
             if self.configuration.use_heuristics is True:
                 # the larger the idf is, the more uncommon the word
                 # TODO: is there a better way to get idf if the word is not in the corpus?
-                idf = math.log(self.num_docs/self.word_to_df[clue]) if clue in self.word_to_df else (math.log(self.num_docs)*1.5)
-                #idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
+                #idf = math.log(self.num_docs/self.word_to_df[clue]) if clue in self.word_to_df else (math.log(self.num_docs)*1.5)
+                idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
 
                 # prune out super common words (e.g. "get", "go")
                 # TODO: adjust idf_lower_bound
                 if (clue in stopwords or idf < idf_lower_bound):
-                    idf = (math.log(self.num_docs)*1.5)
+                    idf = 1.0
                 dict2vec_weight = self.embedding.dict2vec_embedding_weight()
                 dict2vec_score = dict2vec_weight*get_dict2vec_score(chosen_words, clue, self.red_words)
 
-                heuristic_score = dict2vec_score + (-0.2*idf)
-                self._write_to_debug_file([" IDF:", round(-0.2*idf,3), "dict2vec score:", round(dict2vec_score,3)])
+                heuristic_score = dict2vec_score + (-2*idf)
+                self._write_to_debug_file([" IDF:", round(-2*idf,3), "dict2vec score:", round(dict2vec_score,3)])
 
             # Give embedding methods the opportunity to rescale the score using their own heuristics
             embedding_score = self.embedding.rescale_score(chosen_words, clue, self.red_words)
