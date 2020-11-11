@@ -84,6 +84,6 @@ class Bert(object):
 	def get_word_similarity(self, word1, word2):
 		try:
 			angular_dist = self.bert_annoy_tree.get_distance(self.bert_annoy_tree_word_to_idx[word1], self.bert_annoy_tree_word_to_idx[word2])
-			return 1 - (angular_dist**2 / 2)
+			return self._similarity_from_distance(angular_dist)
 		except KeyError:
 			return -1.0

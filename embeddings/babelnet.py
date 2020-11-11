@@ -606,3 +606,6 @@ class Babelnet(object):
 				  y1 + plot_margin))
 		plt.savefig(filename, dpi=300)
 		plt.close()
+
+	def get_word_similarity(self, word1, word2):
+		return -1
