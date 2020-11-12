@@ -76,6 +76,6 @@ class Bert(object):
 		try:
 			# cosine distance = sqrt(2(1-*cos(u, v)), as calculated from Annoy. see https://github.com/spotify/annoy for reference.
 			angular_dist = self.bert_annoy_tree.get_distance(self.bert_annoy_tree_word_to_idx[word1], self.bert_annoy_tree_word_to_idx[word2])
-			return self._similarity_from_distance(angular_dist)
+			return 1 - (angular_dist**2 / 2)
 		except KeyError:
 			return -1.0

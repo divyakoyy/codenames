@@ -22,4 +22,6 @@ data/*.csv
 data/glove-wiki-gigaword-300.txt.gz
 Data/annoy*
 amt_*
-embeddings/__pycache__/*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
