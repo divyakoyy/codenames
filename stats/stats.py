@@ -7,13 +7,14 @@ from matplotlib.lines import Line2D
 from scipy import stats
 import statistics
 import math
+import numpy as np
 
 '''
-Pre-processing. 
+Pre-processing.
 If a given trial (i.e. a unique set of board words with a clue) produces the
 same clue for the embedding and embedding+DictionaryRelevance, we only provide that clue once to AMT.
-Assuming that an Amazon turker will provide the same answer for the same board words + clue, we use the 
-result of that HIT in both the embedding and embedding+DictionaryRelevance bucket. The following method 
+Assuming that an Amazon turker will provide the same answer for the same board words + clue, we use the
+result of that HIT in both the embedding and embedding+DictionaryRelevance bucket. The following method
 pre-processes the amt_results csvs to make the statistics logic simpler.
 '''
 def name_for_with_trial_from_without_trial(embedding_name):
@@ -27,13 +28,13 @@ def prefill_without_trials_using_with_trials(input_file_path, amt_results_file_p
 	print ("Processing", input_file_path, amt_results_file_path)
 	with open(input_file_path, 'r', newline='') as csvfile:
 		reader = csv.DictReader(csvfile)
-		for row in reader:  
+		for row in reader:
 			input_keys_to_clue[row['embedding_name']] = row['clue']
 
 	trial_name_to_row_dict = dict()
 	with open(amt_results_file_path, 'r', newline='') as csvfile:
 		reader = csv.DictReader(csvfile)
-		for row in reader:  
+		for row in reader:
 			trial_name_to_row_dict[row['Input.embedding_name']] = list(row.values())
 
 	missing_embedding_keys = set(input_keys_to_clue.keys()).difference(set(trial_name_to_row_dict.keys()))
@@ -50,7 +51,7 @@ def prefill_without_trials_using_with_trials(input_file_path, amt_results_file_p
 				print(trial_name, "maps to", missing_key)
 				trial_name_to_row_dict[trial_name][27] = missing_key # 27 = Input.embedding_name
 				seen_keys.append(missing_key)
-		
+
 				with open(amt_results_file_path, 'a', newline='') as csvfile:
 					writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 					writer.writerow(trial_name_to_row_dict[trial_name])
@@ -61,7 +62,7 @@ def prefill_without_trials_using_with_trials(input_file_path, amt_results_file_p
 		#   print(mapped_key,"not in", amt_results_file_path)
 		#   continue
 		# embedding_name_to_row_dict[mapped_key][27] = missing_key
-		
+
 		# with open(amt_results_file_path, 'a', newline='') as csvfile:
 		#   writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 		#   writer.writerow(embedding_name_to_row_dict[mapped_key])
@@ -113,8 +114,10 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 	print(embedding_keys, renamed_embedding_keys)
 
 	results_dict = dict()
+	overall_results = dict()
 	for key in embedding_keys:
 		results_dict[key] = { 'intendedWordPrecisionAt2': [], 'intendedWordRecallAt4': [], 'blueWordPrecisionAt2': [], 'blueWordPrecisionAt4': [] }
+		overall_results[key] = { 'totalIntendedCorrect': 0, 'totalIntendedResponses': 0, 'totalBlueCorrect': 0, 'totalBlueResponses': 0 }
 
 	num_trials = 0
 	for x in range(0,len(amt_results_file_paths)):
@@ -142,6 +145,9 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 				results_dict[embedding_key]['intendedWordPrecisionAt2'].append(num_intended_words_chosen_in_first_two_ranks/2.0)
 				#print(num_intended_words_chosen_in_first_two_ranks, results_dict[embedding_key]['intendedWordPrecisionAt2'])
 
+				overall_results[embedding_key]['totalIntendedCorrect'] += num_intended_words_chosen_in_first_two_ranks
+				overall_results[embedding_key]['totalIntendedResponses'] += 2
+
 				# “The word intended”, recall at 4 (# of intended words chosen in the first 4 ranks/2)
 				num_intended_words_chosen_in_all_four_ranks = len(expected_words.intersection(set(answers)))
 				results_dict[embedding_key]['intendedWordRecallAt4'].append(num_intended_words_chosen_in_all_four_ranks/2.0)
@@ -149,6 +155,9 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 				# “Any blue word”, precision at 2 (# of blue words chosen in the first 2 ranks/2)
 				num_blue_words_chosen_in_first_two_ranks = len(blue_words.intersection(set(answers[:2])))
 				results_dict[embedding_key]['blueWordPrecisionAt2'].append(num_blue_words_chosen_in_first_two_ranks/2.0)
+
+				overall_results[embedding_key]['totalBlueCorrect'] += num_blue_words_chosen_in_first_two_ranks
+				overall_results[embedding_key]['totalBlueResponses'] += 2
 
 				# “Any blue word”, precision at 4  (# of blue words chosen in the first 4 ranks/# of ranks selected)
 				num_blue_words_chosen_in_all_four_ranks = len(blue_words.intersection(set(answers)))
@@ -162,7 +171,7 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 	print("Number of Trials:", num_trials)
 
 	results_dict = { renamed_embedding_keys[embedding] : results_dict[embedding] for embedding in results_dict}
-	
+
 	avg_stats = dict()
 
 	for embedding_key in results_dict:
@@ -182,12 +191,23 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 
 	print(table)
 
-	keys = {'word2vec':None, 
+	keys = {'word2vec':None,
 		  'glove':None,
 		  'fasttext':None,
 		  'bert':None,
 		  'babelnet':None,
 		  'kim2019':None}
+
+	def z_score_proportion(a1_correct, a1_responses, a2_correct, a2_responses):
+		p1 = a1_correct / a1_responses
+		p2 = a2_correct / a2_responses
+		diff = p1 - p2
+		p_pooled = (a1_correct + a2_correct) / (a1_responses + a1_responses)
+		nobs_fact = (1/a1_responses) + (1/a2_responses)
+		var_ = p_pooled * (1 - p_pooled) * nobs_fact
+		std_diff = np.sqrt(var_)
+		from statsmodels.stats.weightstats import _zstat_generic2
+		return _zstat_generic2(diff, std_diff, 'larger')
 
 	# Wilcoxon signed rank test
 
@@ -198,9 +218,10 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 			# Compare representation vs. representation+DictRelevance (our scoring function)
 			print(stat_metric, embedding_key, "vs.", embedding_key+"+DictRelevance")
 			stat = stats.wilcoxon(results_dict[embedding_key][stat_metric], results_dict[embedding_key+"+DictRelevance"][stat_metric])
-			print(stat)  
-			
-			# z, pval = z_score(results_dict[embedding_key+"+DictRelevance"][stat_metric], results_dict[embedding_key][stat_metric])
+			print(stat)
+
+			print()
+			# z, pval = z_score_proportion(results_dict[embedding_key+"+DictRelevance"][stat_metric], results_dict[embedding_key][stat_metric])
 			# print("z score", z, "p", pval)
 			# print()
 		print("=========================================================\n")
@@ -212,19 +233,18 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 			# Compare representation vs. representation+DictRelevance (our scoring function)
 			print(stat_metric, embedding_key+"+KimFx", "vs.", embedding_key+"+DictRelevance+KimFx")
 			stat = stats.wilcoxon(results_dict[embedding_key+"+KimFx"][stat_metric], results_dict[embedding_key+"+DictRelevance+KimFx"][stat_metric])
-			print(stat)  
+			print(stat)
 
-			# z, pval = z_score(results_dict[embedding_key+"+DictRelevance+KimFx"][stat_metric], results_dict[embedding_key+"+KimFx"][stat_metric])
+			# z, pval = z_score_proportion(results_dict[embedding_key+"+DictRelevance+KimFx"][stat_metric], results_dict[embedding_key+"+KimFx"][stat_metric])
 			# print("z score", z, "p", pval)
 			# print()
 		print("=========================================================\n")
 
 
 	population_std = {}
-	# need to switch the loop order
 	for stat_metric in stat_types:
 		# treat all precision@2 and precision@2+DictRelevance (across all embeddings) as our populations
-		all_a1 = [] 
+		all_a1 = []
 		all_a2 = []
 		for embedding_key in keys:
 			all_a1 += results_dict[embedding_key][stat_metric]
@@ -239,6 +259,39 @@ def generate_stats(input_file_paths, amt_results_file_paths):
 				population_std[stat_metric],
 			)
 			print(embedding_key, stat_metric, "z:", z, "p:", p)
+
+	print("=========================================================\n")
+
+	for embedding_key in keys:
+		z, pval = z_score_proportion(
+			overall_results[embedding_key+"WithHeuristicsWithoutKimFx"]['totalIntendedCorrect'],
+			overall_results[embedding_key+"WithHeuristicsWithoutKimFx"]['totalIntendedResponses'],
+			overall_results[embedding_key+"WithoutHeuristicsWithoutKimFx"]['totalIntendedCorrect'],
+			overall_results[embedding_key+"WithoutHeuristicsWithoutKimFx"]['totalIntendedResponses'],
+		)
+		print(embedding_key, "WithoutKimFx: intended word z:", z, "p", pval)
+		z, pval = z_score_proportion(
+			overall_results[embedding_key+"WithHeuristicsWithoutKimFx"]['totalBlueCorrect'],
+			overall_results[embedding_key+"WithHeuristicsWithoutKimFx"]['totalBlueResponses'],
+			overall_results[embedding_key+"WithoutHeuristicsWithoutKimFx"]['totalBlueCorrect'],
+			overall_results[embedding_key+"WithoutHeuristicsWithoutKimFx"]['totalBlueResponses'],
+		)
+		print(embedding_key, "WithoutKimFx: blue word z:", z, "p", pval)
+
+		z, pval = z_score_proportion(
+			overall_results[embedding_key+"WithHeuristicsKimFx"]['totalIntendedCorrect'],
+			overall_results[embedding_key+"WithHeuristicsKimFx"]['totalIntendedResponses'],
+			overall_results[embedding_key+"WithoutHeuristicsKimFx"]['totalIntendedCorrect'],
+			overall_results[embedding_key+"WithoutHeuristicsKimFx"]['totalIntendedResponses'],
+		)
+		print(embedding_key, "KimFx: intended word z", z, "p", pval)
+		z, pval = z_score_proportion(
+			overall_results[embedding_key+"WithHeuristicsKimFx"]['totalBlueCorrect'],
+			overall_results[embedding_key+"WithHeuristicsKimFx"]['totalBlueResponses'],
+			overall_results[embedding_key+"WithoutHeuristicsKimFx"]['totalBlueCorrect'],
+			overall_results[embedding_key+"WithoutHeuristicsKimFx"]['totalBlueResponses'],
+		)
+		print(embedding_key, "KimFx: blue word z", z, "p", pval)
 
 	return avg_stats
 
@@ -311,11 +364,11 @@ def plot(avg_stats, kimfx=False):
 			offset = (4,-6)
 		else:
 			offset = (4,-2)
-		ax.annotate(txt, 
-					(x[i], y[i]), 
-					fontsize=6.5, 
+		ax.annotate(txt,
+					(x[i], y[i]),
+					fontsize=6.5,
 					textcoords="offset points", # how to position the text
-					xytext=offset, 
+					xytext=offset,
 					ha='left')
 
 	#fig.suptitle('Intended Word Precision at 2 vs. Recall at 4', fontsize=12)
@@ -334,7 +387,7 @@ if __name__=='__main__':
 	# Input keys
 	# key_input_file_paths = ['../data/amt_0825_batch0_key.csv', '../data/amt_0825_batch1_key.csv', '../data/amt_0826_batch0_key.csv', '../data/amt_0826_batch1_key.csv', '../data/amt_0826_batch2_key.csv', '../data/amt_091020_kim2019_batch0_key.csv', '../data/amt_092220_bertavgemb_batch0_key.csv']
 	# key_input_file_paths = ['../data/amt_092320_all_batch0_key.csv']
-	# key_input_file_paths = ['../data/amt_102620_all_kim_scoring_fx_key.csv'] 
+	# key_input_file_paths = ['../data/amt_102620_all_kim_scoring_fx_key.csv']
 	key_input_file_paths = ['../data/amt_official_111220_all_key.csv']
 
 	# Results from AMT
@@ -363,4 +416,3 @@ if __name__=='__main__':
 		writer.writerow(["embedding", "intendedWordPrecisionAt2", "intendedWordRecallAt4", "blueWordPrecisionAt2", "blueWordPrecisionAt4" ])
 		for embedding in avg_stats:
 			writer.writerow([embedding, avg_stats[embedding]['intendedWordPrecisionAt2'], avg_stats[embedding]['intendedWordRecallAt4'], avg_stats[embedding]['blueWordPrecisionAt2'], avg_stats[embedding]['blueWordPrecisionAt4']])
-
