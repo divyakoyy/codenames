@@ -482,8 +482,8 @@ if __name__ == "__main__":
         red_words.append(words[:10])
         blue_words.append(words[10:20])
 
-    amt_file_path = 'amt_102620_all_kim_scoring_fx.csv'
-    amt_key_file_path = 'amt_102620_all_kim_scoring_fx_key.csv'
+    amt_file_path = 'amt_112220_all.csv'
+    amt_key_file_path = 'amt_112220_all_key.csv'
     # Setup CSVs
     if not os.path.exists(amt_file_path):
         with open(amt_file_path, 'w'): pass
