@@ -13,8 +13,8 @@ class Bert(object):
 
 		emb_size = 768 # bert_12_768_12, book_corpus_wiki_en_cased
 		self.bert_annoy_tree = AnnoyIndex(emb_size, 'angular')
-		self.bert_annoy_tree.load('data/annoy_tree_bert_emb_768_text8_small.ann')
-		self.bert_annoy_tree_idx_to_word = np.load('data/annoy_tree_index_to_word_bert_emb_768_text8_small.npy', allow_pickle=True).item()
+		self.bert_annoy_tree.load('data/annoy_tree_bert_emb_768_text8.ann')
+		self.bert_annoy_tree_idx_to_word = np.load('data/annoy_tree_index_to_word_bert_emb_768_text8.npy', allow_pickle=True).item()
 		self.bert_annoy_tree_word_to_idx = {v: k for k, v in self.bert_annoy_tree_idx_to_word.items()}
 
 	"""
