@@ -1,0 +1,11 @@
+requests==2.22.0
+annoy==1.13.0
+scipy==0.19.1
+gensim==3.5.0
+bert_embedding==1.0.1
+tqdm==4.32.1
+networkx==2.4
+matplotlib==3.1.2
+nltk==3.2.4
+numpy==1.14.6
+tabulate==0.8.9
