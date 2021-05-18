@@ -1,6 +1,6 @@
 # Playing Codenames with Language Graphs and Word Embeddings
 
-This is the code to accompany the paper "Playing Codenames with Language Graphs and Word Embeddings."
+This is the code to accompany the paper ["Playing Codenames with Language Graphs and Word Embeddings"](https://arxiv.org/abs/2105.05885)
 
 <img src="codenames_output_examples.png"
      alt="Codenames Examples"
