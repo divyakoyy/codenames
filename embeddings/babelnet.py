@@ -38,7 +38,7 @@ class Babelnet(object):
 		self.ADJ_SUFFIX = "a"
 
 		#  File paths to cached babelnet query results
-		self.file_dir = 'babelnet_v6/'
+		self.file_dir = 'data/babelnet_v6/'
 		self.synset_main_sense_file = self.file_dir + 'synset_to_main_sense.txt'
 		self.synset_senses_file = self.file_dir + 'synset_to_senses.txt'
 		self.synset_glosses_file = self.file_dir + 'synset_to_glosses.txt'

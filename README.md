@@ -13,7 +13,7 @@ Examples of clues chosen by different embedding methods and the language graph B
 1. Clone this repo. `$ git clone git@github.com:divyakoyy/codenames.git`
 2. `$ cd codenames`
 3. `$ pip3 install requirements.txt`
-4. Download this zipped file (CodenamesData.zip) containing all embedding data [here](https://drive.google.com/drive/folders/1-2fSlAN2a_3DCcHSWDgSmBehToS6o-Jc?usp=sharing). This contains word2vec, GloVe, fastText, BERT, and Dict2Vec embeddings.
+4. Download this zipped file (CodenamesData.zip) containing all embedding data [here](https://drive.google.com/file/d/1F70CtbsoPPPDnV-ZAUq0i0Rrvtv6taoV/view?usp=sharing). This contains word2vec, GloVe, fastText, BERT, and Dict2Vec embeddings.
 5. Unzip the CodenamesData.zip and move all contents of CodenamesData into your local codenames/data/
 6. You're setup and ready to start playing codenames! 🥳 
 
@@ -24,6 +24,8 @@ To see all available options, run `$ python3 codenames.py --help`
 To play codenames with the default configuration (using DETECT and our proposed scoring function), run any of these commands:
 
 `$ python3 codenames.py word2vec`; `$ python3 codenames.py glove`; `$ python3 codenames.py fasttext`; `$ python3 codenames.py bert`; `$ python3 codenames.py babelnet`
+
+Note: because of the size of Babelnet, it may take some time to get results the first few runs when running with the `babelnet` option. Things should speed up on subsequent runs since we cache subgraphs of Babelnet.
 
 #### Example Output
 
