@@ -21,11 +21,11 @@ Examples of clues chosen by different embedding methods and the language graph B
 
 To see all available options, run `$ python3 codenames.py --help`
 
-To play codenames with the default configuration (using DETECT and our proposed scoring function), first you need a [babelnet API key](https://babelnet.org/guide). Then, run any of these commands:
+To play codenames with the default configuration (using DETECT and our proposed scoring function), run any of these commands (note that for BabelNet, you first need a [BabelNet API key](https://babelnet.org/guide)):
 
 `$ python3 codenames.py word2vec`; `$ python3 codenames.py glove`; `$ python3 codenames.py fasttext`; `$ python3 codenames.py bert`; `$ python3 codenames.py babelnet --babelnet-api-key $MY_BABELNET_API_KEY`
 
-Note: because of the size of Babelnet, it may take some time to get results the first few runs when running with the `babelnet` option. Things should speed up on subsequent runs since we cache subgraphs of Babelnet.
+Note: because of the size of BabelNet, it may take some time to get results the first few runs when running with the `babelnet` option. Things should speed up on subsequent runs since we cache subgraphs of BabelNet.
 
 #### Example Output
 
