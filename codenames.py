@@ -61,7 +61,7 @@ class CodenamesConfiguration(object):
         use_heuristics=True,
         single_word_label_scores=default_single_word_label_scores,
         use_kim_scoring_function=False,
-        use_domain_clues=False,
+        babelnet_api_key=None,
     ):
         self.verbose = verbose
         self.visualize = visualize
@@ -72,7 +72,7 @@ class CodenamesConfiguration(object):
         self.use_heuristics = use_heuristics
         self.single_word_label_scores = tuple(single_word_label_scores)
         self.use_kim_scoring_function = use_kim_scoring_function
-        self.use_domain_clues = use_domain_clues
+        self.babelnet_api_key = babelnet_api_key
 
     def description(self):
         return (
@@ -83,7 +83,6 @@ class CodenamesConfiguration(object):
             ",length exp scaling: " + str(self.length_exp_scaling) +
             ",use heuristics: " + str(self.use_heuristics) +
             ",use kim scoring function: " + str(self.use_kim_scoring_function) +
-            ",use_domain_clues: " + str(self.use_domain_clues) +
             ">"
         )
 
@@ -95,10 +94,6 @@ class Codenames(object):
         configuration=None
     ):
         """
-        # TODO: Clean up this documenation
-        :param ann_graph_path: path to AnnoyIndex graph (Approximate Neares Neighbors)
-        see: https://github.com/spotify/annoy
-        :param num_emb_batches: number of batches of word embeddings
         :param embedding_type: e.g.'word2vec', 'glove', 'fasttext', 'babelnet'
         :param embedding: an embedding object that codenames will use to play
 
@@ -111,7 +106,7 @@ class Codenames(object):
         print("Codenames Configuration: ", self.configuration.__dict__)
         with open('data/word_to_dict2vec_embeddings', 'rb') as word_to_dict2vec_embeddings_file:
             self.word_to_dict2vec_embeddings = pickle.load(word_to_dict2vec_embeddings_file)
-        self.embedding_type = embedding_type #TODO: remove this after the custom domain choosing from get_highest_clue is out
+        self.embedding_type = embedding_type
         self.embedding = self._get_embedding_from_type(embedding_type)
         self.weighted_nn = dict()
 
@@ -261,12 +256,6 @@ class Codenames(object):
 
         return best_scores, best_clues, best_board_words_for_clue
 
-    def rescale_domain_score(self, score):
-        if score < 0:
-            return score * -1 / 2.5
-        else:
-            return score
-
     def is_valid_clue(self, clue):
         # no need to remove red/blue words from potential_clues elsewhere
         # since we check for validity here
@@ -276,7 +265,7 @@ class Codenames(object):
                 return False
         return True
 
-    def get_highest_clue(self, chosen_words, penalty=1.0, domain_threshold=0.45, domain_gap=0.3):
+    def get_highest_clue(self, chosen_words, penalty=1.0):
 
         if self.embedding_type == 'kim2019':
             chosen_clue, dist = self.embedding.get_clue(
@@ -289,37 +278,6 @@ class Codenames(object):
             nns = self.weighted_nn[word]
             potential_clues.update(nns)
 
-        # TODO : Instead of this override behavior, add domains to nn_w_dist
-        # try to get a domain clue
-        if self.embedding_type =='babelnet' and self.configuration.use_domain_clues:
-            domains = {}
-            for word in set(chosen_words).union(self.red_words):
-                for domain, score in self.embedding.nn_to_domain_label[word].items():
-                    score = self.rescale_domain_score(score)
-                    if score > domain_threshold:
-                        if domain not in domains:
-                            domains[domain] = dict()
-                        domains[domain][word] = score
-            domain_clues = []
-            for domain, word_scores in domains.items():
-                if all([word in word_scores for word in chosen_words]):
-                    # get min word_set domain score
-                    min_chosen_words_score = min(
-                        [word_scores[word] for word in chosen_words])
-                    # get max red_words domain score
-                    red_words_domain_scores = [
-                        word_scores[word] for word in self.red_words.intersection(word_scores.keys())]
-                    if len(red_words_domain_scores) == 0:
-                        max_red_words_score = 0
-                    else:
-                        max_red_words_score = max(
-                            red_words_domain_scores) + domain_gap
-
-                    if min_chosen_words_score > max_red_words_score:
-                        domain_clues.append(domain)
-            if len(domain_clues) >= 1:
-                return domain_clues, 1  # TODO: return different score?
-
         highest_scoring_clues = []
         highest_score = float("-inf")
 
@@ -328,32 +286,24 @@ class Codenames(object):
             if not self.is_valid_clue(clue):
                 continue
             blue_word_counts = []
-            red_word_counts = []
             for blue_word in chosen_words:
                 if clue in self.weighted_nn[blue_word]:
                     blue_word_counts.append(self.weighted_nn[blue_word][clue])
                 else:
                     blue_word_counts.append(self.embedding.get_word_similarity(blue_word, clue))
-            for red_word in self.red_words:
-                if clue in self.weighted_nn[red_word]:
-                    red_word_counts.append(self.weighted_nn[red_word][clue])
 
             heuristic_score = 0
 
             self._write_to_debug_file([
                 "\n", clue, "score breakdown for", " ".join(chosen_words),
                 "\n\tblue words score:", round(sum(blue_word_counts),3),
-                # " red words penalty:", round((penalty *sum(red_word_counts)),3)
-                ])
+            ])
 
             if self.configuration.use_heuristics is True:
                 # the larger the idf is, the more uncommon the word
-                # TODO: is there a better way to get idf if the word is not in the corpus?
-                #idf = math.log(self.num_docs/self.word_to_df[clue]) if clue in self.word_to_df else (math.log(self.num_docs)*1.5)
                 idf = (1.0/self.word_to_df[clue]) if clue in self.word_to_df else 1.0
 
                 # prune out super common words (e.g. "get", "go")
-                # TODO: adjust idf_lower_bound
                 if (clue in stopwords or idf < idf_lower_bound):
                     idf = 1.0
                 dict2vec_weight = self.embedding.dict2vec_embedding_weight()
@@ -378,24 +328,10 @@ class Codenames(object):
 
         return highest_scoring_clues, highest_score
 
-    def choose_words(self, n, clue, remaining_words, domain_threshold=0.45):
+    def choose_words(self, n, clue, remaining_words):
         # given a clue word, choose the n words from remaining_words that most relates to the clue
 
         pq = []
-
-        # TODO : Instead of this override behavior, add domains to nn_w_dist
-        # try to get a domain clue
-        if self.embedding_type =='babelnet' and self.configuration.use_domain_clues:
-            domain_words = []
-            for word in remaining_words:
-                if clue in self.embedding.nn_to_domain_label[word]:
-                    score = self.rescale_domain_score(
-                        self.embedding.nn_to_domain_label[word][clue])
-                    if score > domain_threshold:
-                        domain_words.append((word, score))
-            if len(domain_words) >= n:
-                # This is a domain clue, choose domain words
-                return domain_words
 
         for word in remaining_words:
             score = self.get_score(clue, word)
@@ -447,6 +383,7 @@ if __name__ == "__main__":
     parser.add_argument('--single-word-label-scores', type=float, nargs=4, dest='single_word_label_scores',
                         default=default_single_word_label_scores,
                         help='main_single, main_multi, other_single, other_multi scores')
+    parser.add_argument('--babelnet-api-key', type=str, dest='babelnet_api_key', default=None)
     args = parser.parse_args()
 
 
@@ -525,6 +462,7 @@ if __name__ == "__main__":
             use_heuristics=(not args.no_heuristics),
             single_word_label_scores=args.single_word_label_scores,
             use_kim_scoring_function=args.use_kim_scoring_function,
+            babelnet_api_key=args.babelnet_api_key,
         )
 
         game = Codenames(
@@ -536,7 +474,6 @@ if __name__ == "__main__":
 
             game._build_game(red=red, blue=blue,
                              save_path="tmp_babelnet_" + str(i))
-            # TODO: Download version without using aliases. They may be too confusing
             if game.configuration.verbose:
                 print("NEAREST NEIGHBORS:")
                 for word, clues in game.weighted_nn.items():
