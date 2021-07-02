@@ -104,3 +104,14 @@ Clue(s): signing || Intended board words: ('tag', 'contract') || Score: -1.83
 ```
 
 ## Citation
+
+```
+@article{koyyalagunta2021playing,
+  title={Playing Codenames with Language Graphs and Word Embeddings},
+  author={Koyyalagunta, Divya and Sun, Anna and Draelos, Rachel Lea and Rudin, Cynthia},
+  journal={Journal of Artificial Intelligence Research},
+  volume={71},
+  pages={319--346},
+  year={2021}
+}
+```
