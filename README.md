@@ -6,7 +6,7 @@ This is the code to accompany the paper ["Playing Codenames with Language Graphs
      alt="Codenames Examples"
      style="float: left; margin-right: 10px;" />
 
-Examples of clues chosen by different embedding methods and the language graph BabelNet. All the close chosen above make use of our DETECT algorithm.
+Examples of clues chosen by different embedding methods and the language graph BabelNet. All the clues chosen above make use of our DETECT algorithm.
 
 ## Setup
 
