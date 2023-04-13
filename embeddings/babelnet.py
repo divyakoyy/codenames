@@ -331,7 +331,7 @@ class Babelnet(object):
 					"max red similarity", round(-0.5*max_red_similarity,3), "\n"
 				]]))
 
-		return 0.5*max_red_similarity
+		return -0.5*max_red_similarity
 
 	"""
 	Helper methods
