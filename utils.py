@@ -50,7 +50,6 @@ def get_dict2vec_score(chosen_words, potential_clue, red_words):
 			if red_word_similarity > max_red_similarity:
 					max_red_similarity = red_word_similarity
 
-	# TODO: should we average or sum here?
 	return sum(dict2vec_similarities) - 0.5 * max_red_similarity
 
 def get_dict2vec_similarity(word_embedding_0, word_embedding_1):
@@ -78,4 +77,3 @@ def get_dict2vec_dist(word1, word2):
 		return distance.cosine(word_to_dict2vec_embeddings[word1], word_to_dict2vec_embeddings[word2])
 	except KeyError:
 		return 1.0
-

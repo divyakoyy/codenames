@@ -32,6 +32,10 @@ punctuation = re.compile("[" + re.escape(string.punctuation) + "]")
 class Babelnet(object):
 
 	def __init__(self, configuration=None):
+		if not configuration.babelnet_api_key:
+			raise ValueError("babelnet_api_key must be set for `babelnet`")
+		self.api_key = configuration.babelnet_api_key
+
 		# constants
 		self.VERB_SUFFIX = "v"
 		self.NOUN_SUFFIX = "n"
@@ -42,22 +46,18 @@ class Babelnet(object):
 		self.synset_main_sense_file = self.file_dir + 'synset_to_main_sense.txt'
 		self.synset_senses_file = self.file_dir + 'synset_to_senses.txt'
 		self.synset_glosses_file = self.file_dir + 'synset_to_glosses.txt'
-		self.synset_domains_file = self.file_dir + 'synset_to_domains.txt'
 		self.synset_metadata_file = self.file_dir + 'synset_to_metadata.txt'
 
 		# Initialize variables
 		self.configuration = configuration
 		# {codeword : {nearest_neighbor : babelnet_synset_id }}
 		self.nn_to_synset_id = dict()
-		# {codeword : {nearest_neighbor : babelnet_domain_label }}
-		self.nn_to_domain_label = dict()
 		self.graphs = dict()
 		self.dictionary_definitions = dict()
 		(
 			self.synset_to_main_sense,
 			self.synset_to_senses,
 			self.synset_to_definitions,
-			self.synset_to_domains,
 			self.synset_to_metadata,
 		) = self._load_synset_data_v5()
 
@@ -77,7 +77,6 @@ class Babelnet(object):
 		synset_to_main_sense = {}
 		synset_to_senses = {}
 		synset_to_definitions = {}
-		synset_to_domains = {}
 		synset_to_metadata = {}
 		if os.path.exists(self.synset_main_sense_file):
 			with open(self.synset_main_sense_file, "r") as f:
@@ -86,8 +85,6 @@ class Babelnet(object):
 					synset, main_sense = parts[0], parts[1]
 					synset_to_main_sense[synset] = main_sense
 					synset_to_senses[synset] = set()
-					# synset_to_domains[synset] = dict()
-					# TODO: uncomment and remove initialization below
 		if os.path.exists(self.synset_senses_file):
 			with open(self.synset_senses_file, "r") as f:
 				for line in f:
@@ -108,23 +105,6 @@ class Babelnet(object):
 					if source == "WIKIRED":
 						continue
 					synset_to_definitions[synset].add(definition)
-		if os.path.exists(self.synset_domains_file):
-			with open(self.synset_domains_file, "r") as f:
-				for line in f:
-					parts = line.strip().split("\t")
-					assert len(parts) == 3
-					synset, domain, score = parts
-					if synset not in synset_to_domains:
-						synset_to_domains[synset] = dict()
-					if domain == "NONE":
-						continue
-					score == float(score)
-					if domain in synset_to_domains[synset]:
-						synset_to_domains[synset][domain] = max(
-							synset_to_domains[synset][domain], score
-						)
-					else:
-						synset_to_domains[synset][domain] = score
 		if os.path.exists(self.synset_metadata_file):
 			with open(self.synset_metadata_file, "r") as f:
 				for line in f:
@@ -140,7 +120,6 @@ class Babelnet(object):
 			synset_to_main_sense,
 			synset_to_senses,
 			synset_to_definitions,
-			synset_to_domains,
 			synset_to_metadata,
 		)
 
@@ -152,7 +131,7 @@ class Babelnet(object):
 	"""
 	Required codenames methods
 	"""
-	
+
 	def get_word_similarity(self, word1, word2):
 		return -1
 
@@ -214,7 +193,6 @@ class Babelnet(object):
 
 		nn_w_dists = {}
 		nn_w_synsets = {}
-		nn_w_domains = {}
 		dictionary_definitions_for_word = []
 		with open(self.file_dir + word + '_synsets', 'r') as f:
 			for line in f:
@@ -224,7 +202,7 @@ class Babelnet(object):
 					paths = single_source_paths_filter(
 						G, source=synset, cutoff=10
 					)
-					# TODO: if we want to filter intermediate nodes, we need to call
+					# NOTE: if we want to filter intermediate nodes, we need to call
 					# get_cached_labels_from_synset_v5 for all nodes in path.
 					if self.configuration.length_exp_scaling is not None:
 						scaling_func = lambda x : self.configuration.length_exp_scaling ** x
@@ -232,15 +210,12 @@ class Babelnet(object):
 						scaling_func = lambda x : x
 					lengths = {neighbor: scaling_func(len(path))
 							   for neighbor, path in paths.items()}
-					# lengths = nx.single_source_shortest_path_length(
-					#     G, source=synset, cutoff=10
-					# )
 				except NodeNotFound as e:
 					print(e)
 					continue
 				for neighbor, length in lengths.items():
-					neighbor_main_sense, neighbor_senses, _, neighbor_metadata = self.get_cached_labels_from_synset_v5(
-						neighbor, get_domains=False, get_metadata=filter_entities)
+					neighbor_main_sense, neighbor_senses, neighbor_metadata = self.get_cached_labels_from_synset_v5(
+						neighbor, get_metadata=filter_entities)
 					# Note: this filters entity clues, not intermediate entity nodes
 					if filter_entities and neighbor_metadata["synsetType"] != "CONCEPT":
 						if self.configuration.verbose:
@@ -264,16 +239,11 @@ class Babelnet(object):
 							if nn_w_dists[single_word_label] > (length * label_score):
 								nn_w_dists[single_word_label] = length * label_score
 								nn_w_synsets[single_word_label] = neighbor
-				# get domains
-				main_sense, sense, domains, _ = self.get_cached_labels_from_synset_v5(
-					synset, get_domains=True)
-				for domain, score in domains.items():
-					nn_w_domains[domain] = float(score)
+
+				main_sense, sense, _ = self.get_cached_labels_from_synset_v5(
+					synset)
 
 				# get definitions
-				# TODO: some definitions are missing - we could call
-				# get_cached_labels_from_synset_v5 to query for missing
-				# definitions
 				if synset in self.synset_to_definitions:
 					dictionary_definitions_for_word.extend(
 						self.stemmer.stem(word.lower().translate(str.maketrans('', '', string.punctuation)))
@@ -282,7 +252,6 @@ class Babelnet(object):
 					)
 
 		self.nn_to_synset_id[word] = nn_w_synsets
-		self.nn_to_domain_label[word] = nn_w_domains
 		self.graphs[word] = G
 		self.dictionary_definitions[word] = dictionary_definitions_for_word
 
@@ -300,9 +269,6 @@ class Babelnet(object):
 		returns: using IDF and dictionary definition heuristics, how much to add to the score for this potential clue give these board words
 		"""
 
-		# factor in dictionary definition heuristic
-		# dict_definition_score = 0.25*self._get_dictionary_definition_score(chosen_words, clue, red_words)
-
 		max_red_similarity = float("-inf")
 		found_clue = False
 		for red_word in red_words:
@@ -315,16 +281,6 @@ class Babelnet(object):
 		if found_clue == False:
 			max_red_similarity = 0.0
 
-		# fasttext_score = 2.5*self._get_fasttext_score(chosen_words, clue, red_words)
-
-		# if self.configuration.debug_file:
-		# 	with open(self.configuration.debug_file, 'a') as f:
-		# 		f.write(" ".join([str(x) for x in [
-		# 			" dictionary def score:", round(dict_definition_score,3),"fasttext score:", round(fasttext_score,3), "\n"
-		# 		]]))
-
-		# return (dict_definition_score + fasttext_score)
-
 		if self.configuration.debug_file:
 			with open(self.configuration.debug_file, 'a') as f:
 				f.write(" ".join([str(x) for x in [
@@ -334,76 +290,23 @@ class Babelnet(object):
 		return -0.5*max_red_similarity
 
 	"""
-	Helper methods
-	"""
-	def _get_fasttext_score(self, chosen_words, potential_clue, red_words):
-
-		fasttext_similarities = []
-		max_red_similarity = float("-inf")
-		if potential_clue not in self.fasttext_model:
-			if self.configuration.verbose:
-				print("Potential clue word ", potential_clue, "not in fasttext model")
-			return 0.0
-
-		# TODO: cache this info in pre-training
-		for chosen_word in chosen_words:
-			if chosen_word in self.fasttext_model:
-				fasttext_similarities.append(self.fasttext_model.similarity(chosen_word, potential_clue))
-		for red_word in red_words:
-			if red_word in self.fasttext_model:
-				similarity = self.fasttext_model.similarity(red_word, potential_clue)
-				if similarity > max_red_similarity:
-					max_red_similarity = similarity
-			else:
-				print(f"red word {red_word} not in fasttext")
-		#TODO: is average or sum the best way to do this
-		return sum(fasttext_similarities) - 0.5*max_red_similarity
-
-	def _get_dictionary_definition_score(self, chosen_words, potential_clue, red_words):
-		# the dictionary definitions of words (as given from their babelnet synset)
-		# used as a heuristic for candidate clue words
-
-		chosen_words_dict_definition_score = 0.0
-		red_words_dict_definition_score = 0.0
-
-		potential_clue_stem = self.stemmer.stem(potential_clue)
-
-		for word in chosen_words:
-			if potential_clue_stem in self.dictionary_definitions[word]:
-				chosen_words_dict_definition_score += 1.0
-
-		for word in red_words:
-			if potential_clue_stem in self.dictionary_definitions[word]:
-				red_words_dict_definition_score += 1.0
-
-		return chosen_words_dict_definition_score - (0.5*red_words_dict_definition_score)
-
-	"""
 	Babelnet methods
 	"""
 
-	def get_cached_labels_from_synset_v5(
-			self, synset, get_domains=False, get_metadata=False
-	):
+	def get_cached_labels_from_synset_v5(self, synset, get_metadata=False):
 		"""This actually gets the main_sense but also writes all senses/glosses"""
 		if (
 				synset not in self.synset_to_main_sense
-				or (get_domains and synset not in self.synset_to_domains)
 				or (get_metadata and synset not in self.synset_to_metadata)
 		):
 			print("getting query", synset)
-			# assert False
 			labels_json = self.get_labels_from_synset_v5_json(synset)
 			self.write_synset_labels_v5(synset, labels_json)
 
-			# filtered_labels = [label for label in labels if len(label.split("_")) == 1 or label.split("_")[1][0] == '(']
-			# self.synset_to_labels[synset] = self.get_random_n_labels(filtered_labels, 3) or synset
-		# sliced_labels = self.synset_to_labels[synset]
 		main_sense = self.synset_to_main_sense[synset]
 		senses = self.synset_to_senses[synset]
-		domains = self.synset_to_domains[synset] if get_domains else {}
 		metadata = self.synset_to_metadata[synset] if get_metadata else {}
-		return main_sense, senses, domains, metadata
+		return main_sense, senses, metadata
 
 	def write_synset_labels_v5(self, synset, json):
 		"""Write to synset_main_sense_file, synset_senses_file, and synset_glosses_file"""
@@ -449,21 +352,6 @@ class Babelnet(object):
 							if gloss["source"] != "WIKIRED":
 								self.synset_to_definitions[synset].add(gloss["gloss"])
 
-		if synset not in self.synset_to_domains:
-			self.synset_to_domains[synset] = dict()
-			with open(self.synset_domains_file, "a") as f:
-				if "domains" in json:
-					for domain, score in json["domains"].items():
-						if domain in self.synset_to_domains[synset]:
-							self.synset_to_domains[synset][domain] = max(
-								self.synset_to_domains[synset][domain], score
-							)
-						else:
-							self.synset_to_domains[synset][domain] = score
-						f.write("\t".join([synset, domain, str(score)]) + "\n")
-				if "domains" not in json or len(json["domains"]) == 0:
-					f.write("\t".join([synset, "NONE", "-100"]) + "\n")
-
 		if synset not in self.synset_to_metadata:
 			with open(self.synset_metadata_file, "a") as f:
 				keyConcept = "NONE"
@@ -484,10 +372,12 @@ class Babelnet(object):
 		url = 'https://babelnet.io/v5/getSynset'
 		params = {
 			'id': synset,
-			'key': 'e3b6a00a-c035-4430-8d71-661cdf3d5837'
+			'key': self.api_key
 		}
 		headers = {'Accept-Encoding': 'gzip'}
 		res = requests.get(url=url, params=params, headers=headers)
+		if "message" in res.json() and "limit" in res.json()["message"]:
+			raise ValueError(res.json()["message"])
 		return res.json()
 
 	def parse_lemma_v5(self, lemma):
@@ -533,10 +423,6 @@ class Babelnet(object):
 		clue_graph = nx.DiGraph()
 		word_set_graphs = [nx.DiGraph() for _ in word_set]
 
-		if all([clue in self.nn_to_domain_label[word] for word in word_set]):
-			# this clue came frome 2 domains, don't plot
-			return
-
 		for word in word_set:
 			# Create graph that shows the intersection from the clue to the word_set
 			if clue in self.nn_to_synset_id[word]:
@@ -565,9 +451,7 @@ class Babelnet(object):
 				# path goes from source (word in word_set) to target (clue)
 				shortest_path_labels = []
 				for synset in shortest_path:
-					# TODO: add graph for domains?
-					main_sense, senses, _, _ = self.get_cached_labels_from_synset_v5(
-						synset, get_domains=False)
+					main_sense, senses, _ = self.get_cached_labels_from_synset_v5(synset)
 					if self.configuration.disable_verb_split and synset.endswith(self.VERB_SUFFIX):
 						split_multi_word = False
 
@@ -604,8 +488,8 @@ class Babelnet(object):
 
 		if get_labels:
 			for synset_id in current_labels:
-				main_sense, senses, _, _ = self.get_cached_labels_from_synset_v5(
-					synset_id, get_domains=True)
+				main_sense, senses, _ = self.get_cached_labels_from_synset_v5(
+					synset_id)
 				nodes_to_labels[synset_id] = main_sense
 		else:
 			nodes_to_labels = {label: label for label in current_labels}
