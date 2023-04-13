@@ -104,7 +104,7 @@ Clue(s): signing || Intended board words: ('tag', 'contract') || Score: -1.83
 ```
 
 ## Fixes
-* 04/12/2013: We found and fixed a bug that incorrectly rewarded close red words instead of penalizing them for BabelNet clues. That bug was fixed before any of our evaluations on AMT were run, and did not impact the results of our study. However that bug fix failed to get pushed to GitHub until 04/12/23, so any usage of our BabelNet clue generation run before then needs to be rerun.
+* 04/12/2023: We found and fixed a bug that incorrectly rewarded close red words instead of penalizing them for BabelNet clues. That bug was fixed before any of our evaluations on AMT were run, and did not impact the results of our study. However that bug fix failed to get pushed to GitHub until 04/12/2023, so any usage of our BabelNet clue generation run before then needs to be rerun.
 
 ## Citation
 
